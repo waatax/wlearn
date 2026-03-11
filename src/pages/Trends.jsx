@@ -132,10 +132,6 @@ export default function Trends() {
                                     <div style={{ fontSize: '13px', color: '#aaa', marginBottom: '4px' }}>觀看時間 (小時)</div>
                                     <div style={{ fontSize: '28px', fontWeight: '700' }}>1,245.8</div>
                                 </div>
-                                <div>
-                                    <div style={{ fontSize: '13px', color: '#aaa', marginBottom: '4px' }}>訂閱人數</div>
-                                    <div style={{ fontSize: '28px', fontWeight: '700', color: '#4caf50' }}>+124</div>
-                                </div>
                             </div>
 
                             {/* Charts Wrapper */}
