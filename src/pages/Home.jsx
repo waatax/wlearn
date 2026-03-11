@@ -1,4 +1,4 @@
-﻿import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import Sidebar from '../components/Sidebar';
 import BookCard from '../components/BookCard';
 import { useLanguage } from '../context/LanguageContext';
@@ -24,7 +24,7 @@ export default function Home() {
     };
 
     const filteredBooks = useMemo(() => {
-        return books.filter(book => {
+        const filtered = books.filter(book => {
             if (filters.search) {
                 const q = filters.search.toLowerCase();
                 const matchTitle = (book.title_cn || '').toLowerCase().includes(q) ||
@@ -40,6 +40,17 @@ export default function Home() {
             if (filters.playlist && book.playlist !== filters.playlist) return false;
             return true;
         });
+
+        // Special sorting for playlists (like VS series)
+        if (filters.playlist) {
+            return filtered.sort((a, b) => {
+                const codeA = a.code || '';
+                const codeB = b.code || '';
+                return codeA.localeCompare(codeB, undefined, { numeric: true, sensitivity: 'base' });
+            });
+        }
+        
+        return filtered;
     }, [books, filters]);
 
     return (

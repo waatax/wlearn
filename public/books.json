@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "book_12",
     "code": "S1-01",
@@ -7709,7 +7709,7 @@
     "description": "",
     "author": "Barbara Oakley",
     "cover_url": "https://img.youtube.com/vi/-VONLi724FE/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=FEt_1ISl-lw",
+    "english_url": "https://www.youtube.com/watch?v=AgTdCj_9cFs",
     "description_cn": "Barbara Oakley的學習方法著作，揭示大腦學習的科學原理。從組塊化到間隔重複，提供有效的學習策略，幫助讀者克服拖延、提升學習效率。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。"
   },
@@ -7771,7 +7771,7 @@
     "cover_url": "https://img.youtube.com/vi/x5zhlfkbh3Y/maxresdefault.jpg",
     "description_cn": "H. Gilbert Welch探討現代醫療過度診斷問題的著作。揭示癌症篩檢和治療中「做太多」可能帶來的傷害，呼籲更理性地看待健康檢查。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
-    "english_url": "https://www.youtube.com/watch?v=9GFhVemMN14"
+    "english_url": "https://www.youtube.com/watch?v=Lhcl3svSd2U"
   },
   {
     "id": "book_466",
@@ -7836,7 +7836,7 @@
   {
     "id": "book_473",
     "code": "VS-31",
-    "title_cn": null,
+    "title_cn": "The Art of Creative Thinking",
     "title_en": "The Art of Creative Thinking",
     "playlist": "2025 Summer VS",
     "youtube_url": "https://www.youtube.com/watch?v=aaORlaEIwdY",
@@ -7856,7 +7856,7 @@
   {
     "id": "book_471",
     "code": "VS-32",
-    "title_cn": null,
+    "title_cn": "The Art of Explanation",
     "title_en": "The Art of Explanation",
     "playlist": "2025 Summer VS",
     "youtube_url": "https://www.youtube.com/watch?v=JDww601bNJ0",
@@ -7876,7 +7876,7 @@
   {
     "id": "book_474",
     "code": "VS-33",
-    "title_cn": null,
+    "title_cn": "The Art of Laziness",
     "title_en": "The Art of Laziness  Overcome Procrastination",
     "playlist": "2025 Summer VS",
     "youtube_url": "https://www.youtube.com/watch?v=pQbrguWBiYs",
@@ -7935,7 +7935,7 @@
   {
     "id": "book_438",
     "code": "VS-37",
-    "title_cn": null,
+    "title_cn": "Outlive",
     "title_en": "Outlive - The Science and Art of Longivity",
     "playlist": "2025 Summer VS",
     "youtube_url": "https://www.youtube.com/watch?v=gyAZE58hfBw",
@@ -8029,7 +8029,7 @@
     "description": "",
     "author": "Daniel Coyle",
     "cover_url": "https://img.youtube.com/vi/klgRbQmuc_8/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=AgTdCj_9cFs",
+    "english_url": "https://www.youtube.com/watch?v=Ond7_5X5E_s",
     "description_cn": "《天才密碼》由Daniel Coyle撰寫，揭示世界頂尖人才培養機構的共同秘密。從深度練習到大師級教練的指導方法，探討「髓鞘質」如何加速技能習得，提供加速進步的科學方法。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。"
   },
@@ -8051,7 +8051,7 @@
     "cover_url": "https://img.youtube.com/vi/8plIuFU3_H4/maxresdefault.jpg",
     "description_cn": "陳恆霖的諮商心理學著作，探討晤談作為療癒工具的力量。分享專業諮商師的對話技巧，幫助助人工作者提升晤談效能。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
-    "english_url": "https://www.youtube.com/watch?v=PNzziIUUJaE"
+    "english_url": "https://www.youtube.com/watch?v=8plIuFU3_H4"
   },
   {
     "id": "book_486",
@@ -9166,7 +9166,7 @@
   },
   {
     "id": "book_440",
-    "code": null,
+    "code": "VS-35",
     "title_cn": "VS-35 海權爭霸",
     "title_en": "Sea Power and Maritime Geopolitics",
     "playlist": "2025 Summer VS",
@@ -9186,7 +9186,7 @@
   },
   {
     "id": "book_442",
-    "code": null,
+    "code": "VS-20",
     "title_cn": "VS-20 怦然心動的人生整理魔法",
     "title_en": "The Life Changing Magic of Tidy",
     "playlist": "2025 Summer VS",
@@ -9205,7 +9205,7 @@
   },
   {
     "id": "book_443",
-    "code": null,
+    "code": "VS-19",
     "title_cn": "VS-19 怦然心動",
     "title_en": "Spark Joy",
     "playlist": "2025 Summer VS",
@@ -9225,7 +9225,7 @@
   },
   {
     "id": "book_444",
-    "code": null,
+    "code": "VS-18",
     "title_cn": "VS-18 我們為什麼會被騙",
     "title_en": "Nobody's Fool",
     "playlist": "2025 Summer VS",
@@ -9245,7 +9245,7 @@
   },
   {
     "id": "book_445",
-    "code": null,
+    "code": "VS-17",
     "title_cn": "VS-17 系統思考",
     "title_en": "Thinking in System",
     "playlist": "2025 Summer VS",
@@ -9266,7 +9266,7 @@
   },
   {
     "id": "book_446",
-    "code": null,
+    "code": "VS-16",
     "title_cn": "VS-16 改變現在的你，迎向未來的你",
     "title_en": "Your Future Self",
     "playlist": "2025 Summer VS",
@@ -9285,7 +9285,7 @@
   },
   {
     "id": "book_447",
-    "code": null,
+    "code": "VS-15",
     "title_cn": "VS-15 專注力協定Indistractable -",
     "title_en": "Nir Eyal",
     "playlist": "2025 Summer VS",
@@ -9305,8 +9305,8 @@
   },
   {
     "id": "book_448",
-    "code": null,
-    "title_cn": null,
+    "code": "VS-14",
+    "title_cn": "LIT - 哈佛專注力革命",
     "title_en": "VS-14 完全沉浸 LIT - 點燃成功之火的哈佛專注力革命",
     "playlist": "2025 Summer VS",
     "youtube_url": "https://www.youtube.com/watch?v=vauYZk05Bjo",
@@ -9325,7 +9325,7 @@
   },
   {
     "id": "book_449",
-    "code": null,
+    "code": "VS-13",
     "title_cn": "VS-13 能量的悖論",
     "title_en": "Energy Paradox",
     "playlist": "2025 Summer VS",
@@ -9345,7 +9345,7 @@
   },
   {
     "id": "book_451",
-    "code": null,
+    "code": "VS-11",
     "title_cn": "VS-11 天生不愛動",
     "title_en": "Exercised",
     "playlist": "2025 Summer VS",
@@ -9365,7 +9365,7 @@
   },
   {
     "id": "book_452",
-    "code": null,
+    "code": "VS-10",
     "title_cn": "VS-10 我們為何吃太多？Why",
     "title_en": "We Eat Too Much",
     "playlist": "2025 Summer VS",
@@ -9385,7 +9385,7 @@
   },
   {
     "id": "book_453",
-    "code": null,
+    "code": "VS-09",
     "title_cn": "VS-09 改造新陳代謝",
     "title_en": "Metabolism Makeover",
     "playlist": "2025 Summer VS",
@@ -9405,7 +9405,7 @@
   },
   {
     "id": "book_454",
-    "code": null,
+    "code": "VS-08",
     "title_cn": "VS-08 科學減脂X瘦身全書",
     "title_en": "Everything Fat Loss",
     "playlist": "2025 Summer VS",
@@ -9425,7 +9425,7 @@
   },
   {
     "id": "book_455",
-    "code": null,
+    "code": "VS-07",
     "title_cn": "VS-07 身體",
     "title_en": "The Body - A Guide for Occupants",
     "playlist": "2025 Summer VS",
@@ -9445,8 +9445,8 @@
   },
   {
     "id": "book_456",
-    "code": null,
-    "title_cn": null,
+    "code": "VS-06",
+    "title_cn": "Burn",
     "title_en": "VS-06 Burn - How We Really Burn Calories, Stay Healthy, and Lose Weight",
     "playlist": "2025 Summer VS",
     "youtube_url": "https://www.youtube.com/watch?v=eRiBvb_2gsQ",
@@ -9465,8 +9465,8 @@
   },
   {
     "id": "book_457",
-    "code": null,
-    "title_cn": null,
+    "code": "VS-05",
+    "title_cn": "Glucose Revolution",
     "title_en": "VS-05 Glucose Revolution",
     "playlist": "2025 Summer VS",
     "youtube_url": "https://www.youtube.com/watch?v=DNGN_rZxTFo",
@@ -9485,8 +9485,8 @@
   },
   {
     "id": "book_458",
-    "code": null,
-    "title_cn": null,
+    "code": "VS-04",
+    "title_cn": "Nature Wants Us to Be Fat",
     "title_en": "VS-04 Nature Wants Us to Be Fat 大自然就是要你胖 !",
     "playlist": "2025 Summer VS",
     "youtube_url": "https://www.youtube.com/watch?v=eS6ZAR5ivMM",
@@ -9505,8 +9505,8 @@
   },
   {
     "id": "book_459",
-    "code": null,
-    "title_cn": null,
+    "code": "VS-03",
+    "title_cn": "The Complete Guide to Fasting",
     "title_en": "VS-03 The Complete Guide to Fasting",
     "playlist": "2025 Summer VS",
     "youtube_url": "https://www.youtube.com/watch?v=WI_I7EW5UqI",
@@ -9525,8 +9525,8 @@
   },
   {
     "id": "book_460",
-    "code": null,
-    "title_cn": null,
+    "code": "VS-02",
+    "title_cn": "The Hunger Habit",
     "title_en": "VS-02 The Hunger Habit - 我不餓，但我就是想吃",
     "playlist": "2025 Summer VS",
     "youtube_url": "https://www.youtube.com/watch?v=M3zVdlcImvo",
@@ -9545,8 +9545,8 @@
   },
   {
     "id": "book_461",
-    "code": null,
-    "title_cn": null,
+    "code": "VS-01",
+    "title_cn": "The Model Thinker",
     "title_en": "VS-01 The Model Thinker 多模型思維：天才的32個思考策略",
     "playlist": "2025 Summer VS",
     "youtube_url": "https://www.youtube.com/watch?v=jGgbVchXzzI",
@@ -9585,5 +9585,85 @@
     "description_cn": "何則文的生涯規劃著作，探討如何從漫無目的的「飄移」轉變為有方向的「駕駛」。提供找到人生方向、建立行動計畫的實用方法。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=geSOC2kHPdQ"
+  },
+  {
+    "id": "book_487",
+    "code": "VS-21",
+    "title_cn": "Learn Like a Pro",
+    "title_en": null,
+    "playlist": "2025 Summer VS",
+    "youtube_url": "https://www.youtube.com/watch?v=-EUPp6N6mD0",
+    "video_id": "-EUPp6N6mD0",
+    "video_title": "VS VS-21 Learn Like a Pro",
+    "tags": [
+      "個人成長",
+      "推薦書籍"
+    ],
+    "description": "",
+    "author": "",
+    "cover_url": "https://img.youtube.com/vi/-EUPp6N6mD0/maxresdefault.jpg",
+    "english_url": "https://www.youtube.com/watch?v=G2JFXEm-Lys",
+    "description_cn": "這是關於 Learn Like a Pro 的讀書筆記與分享。",
+    "description_en": "Summary and insights for Learn Like a Pro."
+  },
+  {
+    "id": "book_488",
+    "code": "VS-43+",
+    "title_cn": "企業傳承與接班實務",
+    "title_en": null,
+    "playlist": "2025 Summer VS",
+    "youtube_url": "https://www.youtube.com/watch?v=hKy1atuWcRE",
+    "video_id": "hKy1atuWcRE",
+    "video_title": "VS VS-43+ 企業傳承與接班實務",
+    "tags": [
+      "個人成長",
+      "推薦書籍"
+    ],
+    "description": "",
+    "author": "",
+    "cover_url": "https://img.youtube.com/vi/hKy1atuWcRE/maxresdefault.jpg",
+    "english_url": "https://www.youtube.com/watch?v=hKy1atuWcRE",
+    "description_cn": "這是關於 企業傳承與接班實務 的讀書筆記與分享。",
+    "description_en": "Summary and insights for 企業傳承與接班實務."
+  },
+  {
+    "id": "book_489",
+    "code": "VS-44+",
+    "title_cn": "Coach 領導學 (Plus)",
+    "title_en": null,
+    "playlist": "2025 Summer VS",
+    "youtube_url": "https://www.youtube.com/watch?v=E9Z71x6o40s",
+    "video_id": "E9Z71x6o40s",
+    "video_title": "VS VS-44+ Coach 領導學 (Plus)",
+    "tags": [
+      "個人成長",
+      "推薦書籍"
+    ],
+    "description": "",
+    "author": "",
+    "cover_url": "https://img.youtube.com/vi/E9Z71x6o40s/maxresdefault.jpg",
+    "english_url": "https://www.youtube.com/watch?v=E9Z71x6o40s",
+    "description_cn": "這是關於 Coach 領導學 (Plus) 的讀書筆記與分享。",
+    "description_en": "Summary and insights for Coach 領導學 (Plus)."
+  },
+  {
+    "id": "book_490",
+    "code": "VS-44",
+    "title_cn": "Coach 領導學",
+    "title_en": null,
+    "playlist": "2025 Summer VS",
+    "youtube_url": "https://www.youtube.com/watch?v=NxbUgXc_Pek",
+    "video_id": "NxbUgXc_Pek",
+    "video_title": "VS VS-44 Coach 領導學",
+    "tags": [
+      "個人成長",
+      "推薦書籍"
+    ],
+    "description": "",
+    "author": "",
+    "cover_url": "https://img.youtube.com/vi/NxbUgXc_Pek/maxresdefault.jpg",
+    "english_url": "https://www.youtube.com/watch?v=NxbUgXc_Pek",
+    "description_cn": "這是關於 Coach 領導學 的讀書筆記與分享。",
+    "description_en": "Summary and insights for Coach 領導學."
   }
 ]
