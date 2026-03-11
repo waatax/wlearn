@@ -8,7 +8,7 @@ import Popular from './pages/Popular';
 function App() {
   return (
     <LanguageProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/wlearn">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/book/:id" element={<BookDetail />} />
