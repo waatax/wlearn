@@ -1,10 +1,10 @@
-import React, { useState, useEffect, useMemo } from 'react';
+Ôªøimport React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, TrendingUp, Play, Globe, BarChart3, Eye, Trophy, Flame } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 function formatViews(n) {
-        if (!n || n === 0) return '??;
+        if (!n || n === 0) return '‚Äî';
         if (n >= 1000000) return (n / 1000000).toFixed(1) + 'M';
         if (n >= 1000) return (n / 1000).toFixed(1) + 'K';
         return n.toLocaleString();
@@ -18,7 +18,7 @@ function ViewBar({ cnViews, enViews, maxViews }) {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '4px', flex: 1, minWidth: 0 }}>
                         {/* Chinese bar */}
                         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                <span style={{ fontSize: '11px', color: '#6b6459', width: '36px', flexShrink: 0, textAlign: 'right' }}>‰∏≠Ê?</span>
+                                <span style={{ fontSize: '11px', color: '#6b6459', width: '36px', flexShrink: 0, textAlign: 'right' }}>‰∏≠Êñá</span>
                                 <div style={{ flex: 1, height: '14px', background: '#f0ebe0', borderRadius: '7px', overflow: 'hidden', position: 'relative' }}>
                                         <div style={{
                                                 height: '100%', width: `${cnWidth}%`,
@@ -32,7 +32,7 @@ function ViewBar({ cnViews, enViews, maxViews }) {
                         </div>
                         {/* English bar */}
                         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                <span style={{ fontSize: '11px', color: '#6b6459', width: '36px', flexShrink: 0, textAlign: 'right' }}>?±Ê?</span>
+                                <span style={{ fontSize: '11px', color: '#6b6459', width: '36px', flexShrink: 0, textAlign: 'right' }}>Ëã±Êñá</span>
                                 <div style={{ flex: 1, height: '14px', background: '#f0ebe0', borderRadius: '7px', overflow: 'hidden', position: 'relative' }}>
                                         <div style={{
                                                 height: '100%', width: `${enWidth}%`,
@@ -85,9 +85,9 @@ export default function Popular() {
         const booksWithViews = stats.filter(b => b.total_views > 0).length;
 
         const sortButtons = [
-                { key: 'total', label: 'Á∏ΩË?', icon: <TrendingUp size={14} /> },
-                { key: 'cn', label: '‰∏≠Ê???, icon: <Play size={14} /> },
-                { key: 'en', label: '?±Ê???, icon: <Globe size={14} /> },
+                { key: 'total', label: 'Á∏ΩË®à', icon: <TrendingUp size={14} /> },
+                { key: 'cn', label: '‰∏≠ÊñáÁâà', icon: <Play size={14} /> },
+                { key: 'en', label: 'Ëã±ÊñáÁâà', icon: <Globe size={14} /> },
         ];
 
         return (
@@ -102,17 +102,17 @@ export default function Popular() {
                                         borderRadius: '8px', border: '1px solid #e0d8cc', background: 'white',
                                         cursor: 'pointer', fontSize: '14px', color: '#2d2a24', fontWeight: '500',
                                 }}>
-                                        <ArrowLeft size={16} /> ËøîÂ?
+                                        <ArrowLeft size={16} /> ËøîÂõû
                                 </button>
                                 <h1 style={{ margin: 0, fontSize: '18px', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '8px', color: '#2d2a24' }}>
-                                        <Flame size={20} color="#ff8f00" /> ?±È??∏Á?
+                                        <Flame size={20} color="#ff8f00" /> ÁÜ±ÈñÄÊõ∏Á±ç
                                 </h1>
                                 <div style={{ width: '80px' }} />
                         </div>
 
                         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '24px' }}>
                                 {loading ? (
-                                        <div style={{ textAlign: 'center', padding: '80px', color: '#888' }}>ËºâÂÖ•‰∏?..</div>
+                                        <div style={{ textAlign: 'center', padding: '80px', color: '#888' }}>ËºâÂÖ•‰∏≠...</div>
                                 ) : (
                                         <>
                                                 {/* Summary cards */}
@@ -129,10 +129,10 @@ export default function Popular() {
                                                         }}>
                                                                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
                                                                         <Eye size={18} style={{ opacity: 0.8 }} />
-                                                                        <span style={{ fontSize: '12px', fontWeight: '600', opacity: 0.85, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Á∏ΩË??ãÊ¨°??/span>
+                                                                        <span style={{ fontSize: '12px', fontWeight: '600', opacity: 0.85, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Á∏ΩËßÄÁúãÊ¨°Êï∏</span>
                                                                 </div>
                                                                 <div style={{ fontSize: '32px', fontWeight: '800', letterSpacing: '-0.02em' }}>{formatViews(totalAllViews)}</div>
-                                                                <div style={{ fontSize: '12px', opacity: 0.75, marginTop: '4px' }}>{booksWithViews} ?¨Êõ∏?âË??ãÊï∏??/div>
+                                                                <div style={{ fontSize: '12px', opacity: 0.75, marginTop: '4px' }}>{booksWithViews} Êú¨Êõ∏ÊúâËßÄÁúãÊï∏Êìö</div>
                                                         </div>
 
                                                         {/* Chinese Views */}
@@ -143,10 +143,10 @@ export default function Popular() {
                                                         }}>
                                                                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
                                                                         <Play size={18} color="#0097a7" />
-                                                                        <span style={{ fontSize: '12px', fontWeight: '600', color: '#6b6459', textTransform: 'uppercase', letterSpacing: '0.05em' }}>‰∏≠Ê??àË???/span>
+                                                                        <span style={{ fontSize: '12px', fontWeight: '600', color: '#6b6459', textTransform: 'uppercase', letterSpacing: '0.05em' }}>‰∏≠ÊñáÁâàËßÄÁúã</span>
                                                                 </div>
                                                                 <div style={{ fontSize: '32px', fontWeight: '800', color: '#0097a7', letterSpacing: '-0.02em' }}>{formatViews(totalCnViews)}</div>
-                                                                <div style={{ fontSize: '12px', color: '#9e9486', marginTop: '4px' }}>‰Ω?{totalAllViews > 0 ? Math.round(totalCnViews / totalAllViews * 100) : 0}%</div>
+                                                                <div style={{ fontSize: '12px', color: '#9e9486', marginTop: '4px' }}>‰Ωî {totalAllViews > 0 ? Math.round(totalCnViews / totalAllViews * 100) : 0}%</div>
                                                         </div>
 
                                                         {/* English Views */}
@@ -157,10 +157,10 @@ export default function Popular() {
                                                         }}>
                                                                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
                                                                         <Globe size={18} color="#ff8f00" />
-                                                                        <span style={{ fontSize: '12px', fontWeight: '600', color: '#6b6459', textTransform: 'uppercase', letterSpacing: '0.05em' }}>?±Ê??àË???/span>
+                                                                        <span style={{ fontSize: '12px', fontWeight: '600', color: '#6b6459', textTransform: 'uppercase', letterSpacing: '0.05em' }}>Ëã±ÊñáÁâàËßÄÁúã</span>
                                                                 </div>
                                                                 <div style={{ fontSize: '32px', fontWeight: '800', color: '#ff8f00', letterSpacing: '-0.02em' }}>{formatViews(totalEnViews)}</div>
-                                                                <div style={{ fontSize: '12px', color: '#9e9486', marginTop: '4px' }}>‰Ω?{totalAllViews > 0 ? Math.round(totalEnViews / totalAllViews * 100) : 0}%</div>
+                                                                <div style={{ fontSize: '12px', color: '#9e9486', marginTop: '4px' }}>‰Ωî {totalAllViews > 0 ? Math.round(totalEnViews / totalAllViews * 100) : 0}%</div>
                                                         </div>
 
                                                         {/* Top Book */}
@@ -172,12 +172,12 @@ export default function Popular() {
                                                         }}>
                                                                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
                                                                         <Trophy size={18} style={{ opacity: 0.85 }} />
-                                                                        <span style={{ fontSize: '12px', fontWeight: '600', opacity: 0.85, textTransform: 'uppercase', letterSpacing: '0.05em' }}>?Ä?±È??∏Á?</span>
+                                                                        <span style={{ fontSize: '12px', fontWeight: '600', opacity: 0.85, textTransform: 'uppercase', letterSpacing: '0.05em' }}>ÊúÄÁÜ±ÈñÄÊõ∏Á±ç</span>
                                                                 </div>
                                                                 <div style={{ fontSize: '16px', fontWeight: '700', lineHeight: 1.3, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
-                                                                        {sorted[0]?.title_cn || '??}
+                                                                        {sorted[0]?.title_cn || '‚Äî'}
                                                                 </div>
-                                                                <div style={{ fontSize: '12px', opacity: 0.8, marginTop: '6px' }}>{formatViews(sorted[0]?.total_views)} Ê¨°Ë???/div>
+                                                                <div style={{ fontSize: '12px', opacity: 0.8, marginTop: '6px' }}>{formatViews(sorted[0]?.total_views)} Ê¨°ËßÄÁúã</div>
                                                         </div>
                                                 </div>
 
@@ -207,7 +207,7 @@ export default function Popular() {
                                                                 <option value={20}>Top 20</option>
                                                                 <option value={50}>Top 50</option>
                                                                 <option value={100}>Top 100</option>
-                                                                <option value={9999}>?®ÈÉ®</option>
+                                                                <option value={9999}>ÂÖ®ÈÉ®</option>
                                                         </select>
                                                 </div>
 
@@ -266,7 +266,7 @@ export default function Popular() {
                                                                                                 {book.title_cn || book.title_en}
                                                                                         </div>
                                                                                         <div style={{ fontSize: '11px', color: '#9e9486', marginTop: '2px' }}>
-                                                                                                {book.author && `?çÔ? ${book.author}`}
+                                                                                                {book.author && `‚úçÔ∏è ${book.author}`}
                                                                                                 {book.code && <span style={{
                                                                                                         marginLeft: '8px', background: '#ff8f00', color: 'white',
                                                                                                         padding: '1px 6px', borderRadius: '4px', fontSize: '10px', fontWeight: '700',
@@ -282,7 +282,7 @@ export default function Popular() {
                                                                                         textAlign: 'right', flexShrink: 0, minWidth: '70px',
                                                                                 }}>
                                                                                         <div style={{ fontSize: '16px', fontWeight: '700', color: '#2d2a24' }}>{formatViews(book.total_views)}</div>
-                                                                                        <div style={{ fontSize: '10px', color: '#9e9486' }}>Á∏ΩË?</div>
+                                                                                        <div style={{ fontSize: '10px', color: '#9e9486' }}>Á∏ΩË®à</div>
                                                                                 </div>
                                                                         </div>
                                                                 );
@@ -296,11 +296,11 @@ export default function Popular() {
                                                 }}>
                                                         <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                                                                 <div style={{ width: '12px', height: '12px', borderRadius: '3px', background: 'linear-gradient(90deg, #0097a7, #00bcd4)' }} />
-                                                                ‰∏≠Ê??àË??ãÊ¨°??
+                                                                ‰∏≠ÊñáÁâàËßÄÁúãÊ¨°Êï∏
                                                         </div>
                                                         <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                                                                 <div style={{ width: '12px', height: '12px', borderRadius: '3px', background: 'linear-gradient(90deg, #ff8f00, #ffa726)' }} />
-                                                                ?±Ê??àË??ãÊ¨°??
+                                                                Ëã±ÊñáÁâàËßÄÁúãÊ¨°Êï∏
                                                         </div>
                                                 </div>
                                         </>

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { ArrowLeft, BookOpen, Award, Briefcase, ExternalLink, Play } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
@@ -29,17 +29,17 @@ export default function AuthorDetail() {
 
         if (loading) return (
                 <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: '#f5f0e8' }}>
-                        <div style={{ fontSize: '16px', color: '#888' }}>載入�?..</div>
+                        <div style={{ fontSize: '16px', color: '#888' }}>載入中...</div>
                 </div>
         );
 
         if (!author) return (
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: '#f5f0e8' }}>
-                        <p style={{ fontSize: '18px', color: '#888', marginBottom: '16px' }}>?��??�此作�?/p>
+                        <p style={{ fontSize: '18px', color: '#888', marginBottom: '16px' }}>找不到此作者</p>
                         <button onClick={() => navigate('/authors')} style={{
                                 padding: '10px 24px', borderRadius: '8px', border: '1px solid #e0d8cc',
                                 background: 'white', cursor: 'pointer', fontSize: '14px',
-                        }}>返�?作者�?�?/button>
+                        }}>返回作者列表</button>
                 </div>
         );
 
@@ -57,7 +57,7 @@ export default function AuthorDetail() {
                                         borderRadius: '8px', border: '1px solid #e0d8cc', background: 'white',
                                         cursor: 'pointer', fontSize: '14px', color: '#2d2a24', fontWeight: '500',
                                 }}>
-                                        <ArrowLeft size={16} /> 作者�?�?
+                                        <ArrowLeft size={16} /> 作者列表
                                 </button>
                         </div>
 
@@ -106,12 +106,12 @@ export default function AuthorDetail() {
                                                 <div style={{ display: 'flex', gap: '20px', marginTop: '16px' }}>
                                                         <div>
                                                                 <div style={{ fontSize: '24px', fontWeight: '800', color: '#ff8f00' }}>{author.book_count}</div>
-                                                                <div style={{ fontSize: '11px', color: '#9e9486', fontWeight: '500' }}>?��??��?</div>
+                                                                <div style={{ fontSize: '11px', color: '#9e9486', fontWeight: '500' }}>本站書籍</div>
                                                         </div>
                                                         {author.achievements?.length > 0 && (
                                                                 <div>
                                                                         <div style={{ fontSize: '24px', fontWeight: '800', color: '#9c27b0' }}>{author.achievements.length}</div>
-                                                                        <div style={{ fontSize: '11px', color: '#9e9486', fontWeight: '500' }}>主�??�就</div>
+                                                                        <div style={{ fontSize: '11px', color: '#9e9486', fontWeight: '500' }}>主要成就</div>
                                                                 </div>
                                                         )}
                                                 </div>
@@ -125,7 +125,7 @@ export default function AuthorDetail() {
                                         animation: 'fadeInUp 0.4s ease 0.1s both',
                                 }}>
                                         <h2 style={{ margin: '0 0 16px', fontSize: '16px', fontWeight: '700', color: '#2d2a24', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                                ?? 作者簡�?
+                                                📝 作者簡介
                                         </h2>
                                         <p style={{ margin: 0, fontSize: '15px', lineHeight: '1.9', color: '#2d2a24' }}>
                                                 {author.bio}
@@ -140,7 +140,7 @@ export default function AuthorDetail() {
                                                 animation: 'fadeInUp 0.4s ease 0.2s both',
                                         }}>
                                                 <h2 style={{ margin: '0 0 16px', fontSize: '16px', fontWeight: '700', color: '#2d2a24', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                                        <Award size={18} color="#ff8f00" /> 主�??�就
+                                                        <Award size={18} color="#ff8f00" /> 主要成就
                                                 </h2>
                                                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '10px' }}>
                                                         {author.achievements.map((ach, i) => (
@@ -167,7 +167,7 @@ export default function AuthorDetail() {
                                         animation: 'fadeInUp 0.4s ease 0.3s both',
                                 }}>
                                         <h2 style={{ margin: '0 0 20px', fontSize: '16px', fontWeight: '700', color: '#2d2a24', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                                <BookOpen size={18} color="#0097a7" /> ?��??��? ({author.books.length})
+                                                <BookOpen size={18} color="#0097a7" /> 收錄書籍 ({author.books.length})
                                         </h2>
                                         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                                                 {author.books.map((book, i) => (

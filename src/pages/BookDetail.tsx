@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+﻿import { useEffect, useState } from 'react';
 import { useLocation } from 'wouter';
 import { Book } from '../types';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -47,12 +47,12 @@ export default function BookDetail() {
           className="inline-flex items-center gap-2 mb-8 text-sm font-medium hover:text-gray-600 transition-colors"
         >
           <ArrowLeft size={16} />
-          {language === 'zh' ? '返�?' : 'Back'}
+          {language === 'zh' ? '返回' : 'Back'}
         </button>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
 
-          {/* 左側：編?�、�?題、�??��? */}
+          {/* 左側：編號、標題、封面圖 */}
           <div className="md:col-span-1 flex flex-col items-start">
             {book.code && (
               <span className="bg-[#f2b96e] text-black font-semibold text-sm px-4 py-1 rounded-full mb-4">
@@ -74,10 +74,10 @@ export default function BookDetail() {
             )}
           </div>
 
-          {/* ?�側：�??�、�?籤、播?��??�、簡�?*/}
+          {/* 右側：按鈕、標籤、播放清單、簡介 */}
           <div className="md:col-span-2 space-y-4 pt-14">
 
-            {/* ?�放?��???*/}
+            {/* 播放按鈕列 */}
             <div className="flex flex-col sm:flex-row justify-end space-y-2 sm:space-y-0 sm:space-x-3 mb-8">
               <a
                 href={book.youtube_url}
@@ -86,7 +86,7 @@ export default function BookDetail() {
                 className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-xl bg-[#0e7b89] text-white font-medium hover:bg-[#0b626d] transition-colors"
               >
                 <Play size={18} />
-                <span>{language === 'zh' ? '?�放' : 'Play'}</span>
+                <span>{language === 'zh' ? '播放' : 'Play'}</span>
               </a>
               {book.english_url && (
                 <a
@@ -96,12 +96,12 @@ export default function BookDetail() {
                   className="inline-flex items-center justify-center gap-2 px-8 py-3 rounded-xl bg-[#e6ddd2] text-[#2c2b29] font-medium hover:bg-[#d8cebf] transition-colors"
                 >
                   <Globe size={18} />
-                  <span>{language === 'zh' ? '?��??? : 'English'}</span>
+                  <span>{language === 'zh' ? '英文版' : 'English'}</span>
                 </a>
               )}
             </div>
 
-            {/* 標籤?� */}
+            {/* 標籤區 */}
             <div>
               <h2 className="text-sm font-semibold text-gray-600 mb-2">
                 {language === 'zh' ? '標籤' : 'Tags'}
@@ -115,21 +115,21 @@ export default function BookDetail() {
               </div>
             </div>
 
-            {/* ?�放清單?� */}
+            {/* 播放清單區 */}
             <div className="bg-[#ede7dd] rounded-xl p-5 mt-4">
               <h3 className="text-xs text-gray-500 mb-1">
-                {language === 'zh' ? '?�放清單' : 'Playlist'}
+                {language === 'zh' ? '播放清單' : 'Playlist'}
               </h3>
               <p className="text-base text-gray-900 font-medium">{book.playlist}</p>
             </div>
 
-            {/* 作者�?簡�? */}
+            {/* 作者與簡介 */}
             <div className="bg-white rounded-xl p-6 shadow-[0_2px_10px_rgba(0,0,0,0.02)] space-y-4">
               {book.author && book.author !== 'Unknown' && (
                 <div>
                   <h3 className="text-sm text-gray-500 mb-1 flex items-center gap-2">
                     <span className="material-icons text-sm" />
-                    {language === 'zh' ? '作�? : 'Author'}
+                    {language === 'zh' ? '作者' : 'Author'}
                   </h3>
                   <p className="text-base text-gray-800 leading-relaxed font-semibold">
                     {book.author}
@@ -140,7 +140,7 @@ export default function BookDetail() {
                 <div>
                   <h3 className="text-sm text-gray-500 mb-2 flex items-center gap-2">
                     <span className="material-icons text-sm"></span>
-                    {language === 'zh' ? '簡�?' : 'Description'}
+                    {language === 'zh' ? '簡介' : 'Description'}
                   </h3>
                   <p className="text-[15px] text-gray-700 leading-relaxed max-w-none break-words">
                     {description}
@@ -158,7 +158,7 @@ export default function BookDetail() {
               <div className="space-y-3">
                 <div className="flex items-center gap-2">
                   <Globe size={14} className="text-gray-500 shrink-0" />
-                  <span className="text-xs text-gray-500 shrink-0 w-12">{language === 'zh' ? '中�??? : 'Chinese'}</span>
+                  <span className="text-xs text-gray-500 shrink-0 w-12">{language === 'zh' ? '中文版' : 'Chinese'}</span>
                   <a href={book.youtube_url} target="_blank" rel="noreferrer" className="text-[#0e7b89] hover:underline truncate text-sm">
                     {book.youtube_url}
                   </a>
@@ -168,7 +168,7 @@ export default function BookDetail() {
                     <div className="border-t border-[#e2dacb] my-2"></div>
                     <div className="flex items-center gap-2">
                       <Globe size={14} className="text-gray-500 shrink-0" />
-                      <span className="text-xs text-gray-500 shrink-0 w-12">{language === 'zh' ? '?��??? : 'English'}</span>
+                      <span className="text-xs text-gray-500 shrink-0 w-12">{language === 'zh' ? '英文版' : 'English'}</span>
                       <a href={book.english_url} target="_blank" rel="noreferrer" className="text-[#0e7b89] hover:underline truncate text-sm">
                         {book.english_url}
                       </a>
