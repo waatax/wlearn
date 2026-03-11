@@ -1,6 +1,6 @@
-﻿import React, { useState, useEffect } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Play, Globe, Youtube } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { useParams, useNavigate, Link } from 'react-router-dom';
+import { ArrowLeft, Play, Globe, Youtube, Users, ChevronRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function BookDetail() {
@@ -10,12 +10,25 @@ export default function BookDetail() {
     const [book, setBook] = useState(null);
     const [loading, setLoading] = useState(true);
 
+    const [authorInfo, setAuthorInfo] = useState(null);
+
     useEffect(() => {
-        fetch(import.meta.env.BASE_URL + 'books.json')
-            .then(r => r.json())
-            .then(data => {
-                const found = data.find(b => String(b.id) === String(id));
-                setBook(found || null);
+        Promise.all([
+            fetch(import.meta.env.BASE_URL + 'books.json').then(r => r.json()),
+            fetch(import.meta.env.BASE_URL + 'authors.json').then(r => r.json())
+        ])
+            .then(([booksData, authorsData]) => {
+                const foundBook = booksData.find(b => String(b.id) === String(id));
+                setBook(foundBook || null);
+                
+                if (foundBook && foundBook.author) {
+                    const foundAuthor = authorsData.find(a => 
+                        a.name === foundBook.author || 
+                        a.name_en === foundBook.author || 
+                        a.name_zh === foundBook.author
+                    );
+                    setAuthorInfo(foundAuthor || null);
+                }
                 setLoading(false);
             })
             .catch(() => setLoading(false));
@@ -81,9 +94,27 @@ export default function BookDetail() {
                             {title}
                         </h1>
                         {book.author && (
-                            <p style={{ margin: '8px 0 0', fontSize: '15px', color: '#6b6459' }}>
-                                ✍️ {book.author}
-                            </p>
+                            <div style={{ marginTop: '12px' }}>
+                                {authorInfo ? (
+                                    <Link to={`/author/${authorInfo.id}`} style={{
+                                        display: 'inline-flex', alignItems: 'center', gap: '6px',
+                                        padding: '6px 14px', borderRadius: '999px',
+                                        background: '#e0f2f1', color: '#00796b',
+                                        fontSize: '14px', fontWeight: '600', textDecoration: 'none',
+                                        transition: 'all 0.15s'
+                                    }}
+                                    onMouseEnter={e => { e.currentTarget.style.background = '#b2dfdb'; }}
+                                    onMouseLeave={e => { e.currentTarget.style.background = '#e0f2f1'; }}
+                                    >
+                                        ✍️ {book.author}
+                                        <ChevronRight size={14} />
+                                    </Link>
+                                ) : (
+                                    <p style={{ margin: 0, fontSize: '15px', color: '#6b6459' }}>
+                                        ✍️ {book.author}
+                                    </p>
+                                )}
+                            </div>
                         )}
                     </div>
                     <div className="detail-buttons" style={{ display: 'flex', flexDirection: 'column', gap: '10px', flexShrink: 0, marginLeft: '24px' }}>
@@ -179,6 +210,26 @@ export default function BookDetail() {
                                 </h3>
                                 <p style={{ margin: 0, fontSize: '14px', lineHeight: '1.8', color: '#2d2a24' }}>
                                     {description}
+                                </p>
+                            </div>
+                        )}
+
+                        {/* Author Bio card */}
+                        {authorInfo && (
+                            <div style={{
+                                background: 'white', borderRadius: '12px', padding: '20px',
+                                border: '1px solid #e0d8cc', borderLeft: '4px solid #0097a7'
+                            }}>
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
+                                    <h3 style={{ margin: 0, fontSize: '14px', fontWeight: '700', color: '#2d2a24', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                        <Users size={16} color="#0097a7" /> 關於作者
+                                    </h3>
+                                    <Link to={`/author/${authorInfo.id}`} style={{ fontSize: '12px', color: '#0097a7', textDecoration: 'none', fontWeight: '600' }}>
+                                        查看完整專頁
+                                    </Link>
+                                </div>
+                                <p style={{ margin: 0, fontSize: '14px', lineHeight: '1.8', color: '#2d2a24', display: '-webkit-box', WebkitLineClamp: '3', WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+                                    {authorInfo.bio}
                                 </p>
                             </div>
                         )}

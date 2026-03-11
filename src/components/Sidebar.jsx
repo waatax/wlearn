@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { BookOpen, Search, ChevronDown, ChevronRight, X, Flame } from 'lucide-react';
+import { BookOpen, Search, ChevronDown, ChevronRight, X, Flame, Users } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClose }) {
@@ -80,6 +80,18 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                         <Flame size={16} color="#ff8f00" />
                         熱門書籍
                         <span style={{ marginLeft: 'auto', fontSize: '11px', color: '#ff8f00' }}>Dashboard</span>
+                    </Link>
+                    <Link to="/authors" onClick={onClose} style={{
+                        display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 12px',
+                        borderRadius: '10px', textDecoration: 'none',
+                        background: 'linear-gradient(135deg, #e0f2f1, #b2dfdb)',
+                        border: '1px solid #b2dfdb',
+                        color: '#00796b', fontWeight: '600', fontSize: '14px',
+                        marginTop: '8px', transition: 'all 0.15s',
+                    }}>
+                        <Users size={16} color="#00796b" />
+                        作者專區
+                        <span style={{ marginLeft: 'auto', fontSize: '11px', color: '#00796b' }}>Authors</span>
                     </Link>
                 </div>
                 <div style={{ padding: '12px 16px', borderBottom: '1px solid #e0d8cc' }}>
