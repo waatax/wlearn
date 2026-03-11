@@ -11,7 +11,7 @@ export default function AuthorDetail() {
         const [loading, setLoading] = useState(true);
 
         useEffect(() => {
-                fetch('authors.json')
+                fetch(import.meta.env.BASE_URL + 'authors.json')
                         .then(r => r.json())
                         .then(data => {
                                 const found = data.find(a => a.id === id);

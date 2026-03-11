@@ -13,7 +13,7 @@ export default function BookDetail() {
   const bookId = new URLSearchParams(window.location.search).get('id');
 
   useEffect(() => {
-    fetch('books.json')
+    fetch(import.meta.env.BASE_URL + 'books.json')
       .then(res => res.json())
       .then(data => {
         const foundBook = data.find((b: Book) => b.id === bookId);

@@ -12,7 +12,7 @@ export default function Home() {
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
     useEffect(() => {
-        fetch('books.json')
+        fetch(import.meta.env.BASE_URL + 'books.json')
             .then(r => r.json())
             .then(data => { setBooks(data); setLoading(false); })
             .catch(() => setLoading(false));

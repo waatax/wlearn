@@ -57,7 +57,7 @@ export default function Popular() {
         const [showTop, setShowTop] = useState(50);
 
         useEffect(() => {
-                fetch('youtube_stats.json')
+                fetch(import.meta.env.BASE_URL + 'youtube_stats.json')
                         .then(r => r.json())
                         .then(data => { setStats(data); setLoading(false); })
                         .catch(() => setLoading(false));

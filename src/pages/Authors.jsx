@@ -12,7 +12,7 @@ export default function Authors() {
         const [sortBy, setSortBy] = useState('books');
 
         useEffect(() => {
-                fetch('authors.json')
+                fetch(import.meta.env.BASE_URL + 'authors.json')
                         .then(r => r.json())
                         .then(data => { setAuthors(data); setLoading(false); })
                         .catch(() => setLoading(false));

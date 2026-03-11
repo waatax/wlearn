@@ -11,7 +11,7 @@ export default function BookDetail() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('books.json')
+        fetch(import.meta.env.BASE_URL + 'books.json')
             .then(r => r.json())
             .then(data => {
                 const found = data.find(b => String(b.id) === String(id));

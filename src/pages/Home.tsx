@@ -16,7 +16,7 @@ export default function Home() {
 
   // 載入書籍資料
   useEffect(() => {
-    fetch('books.json')
+    fetch(import.meta.env.BASE_URL + 'books.json')
       .then(res => res.json())
       .then(data => {
         setBooks(data);
