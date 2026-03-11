@@ -4,6 +4,7 @@ import { LanguageProvider } from './context/LanguageContext';
 import Home from './pages/Home';
 import BookDetail from './pages/BookDetail';
 import Popular from './pages/Popular';
+import Trends from './pages/Trends';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/book/:id" element={<BookDetail />} />
           <Route path="/popular" element={<Popular />} />
+          <Route path="/trends" element={<Trends />} />
         </Routes>
       </BrowserRouter>
     </LanguageProvider>

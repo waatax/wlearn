@@ -107,7 +107,16 @@ export default function Popular() {
                                 <h1 style={{ margin: 0, fontSize: '18px', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '8px', color: '#2d2a24' }}>
                                         <Flame size={20} color="#ff8f00" /> 熱門書籍
                                 </h1>
-                                <div style={{ width: '80px' }} />
+                                <button 
+                                        onClick={() => navigate('/trends')}
+                                        style={{
+                                                display: 'flex', alignItems: 'center', gap: '6px', padding: '8px 16px',
+                                                borderRadius: '8px', border: '1px solid #a18aff', background: '#f5f0ff',
+                                                cursor: 'pointer', fontSize: '13px', color: '#6366f1', fontWeight: '600',
+                                        }}
+                                >
+                                        <BarChart3 size={16} /> 趨勢分析
+                                </button>
                         </div>
 
                         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '24px' }}>
