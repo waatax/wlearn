@@ -1,0 +1,29 @@
+{
+  "books": [
+    {
+      "title_cn": "巨人思維",
+      "code": "S1-01",
+      "original_description": "這本書將會徹底翻轉「交易是賺取偏財」的想法。作者描述自身進入股市的親身經歷、體悟以及心境，從文字中便能感受到，其對交易的信念非常人所及。",
+      "rewritten_description_cn": "這是台灣股市傳奇交易人巨人傑的首部著作，分享他從17歲入股市至今的親身經歷與深刻體悟。書中揭露了成功交易者需要具備的心理素質和思維方式，透過真實案例說明如何在股市中保持理性、克服情感波動，並建立屬於自己的交易哲學。本書強調沒有捷徑，只有持續的努力與自我反思。",
+      "rewritten_description_en": "This is the first book by Taiwan's legendary stock trader, Giant Jie, sharing his personal journey and profound insights from entering the stock market at age 17. The book reveals the psychological qualities and mindset required for successful traders, using real cases to explain how to maintain rationality in the stock market, overcome emotional fluctuations, and establish one's own trading philosophy. The book emphasizes that there are no shortcuts, only continuous effort and self-reflection."
+    },
+    {
+      "title_cn": "底層邏輯 I",
+      "code": "S1-02",
+      "original_description": "是一本突破思維盲點的書，很多簡單的思維到底都沒有注意，原來問題的本質非我們所想，藉由這本書可以讓人有新的思維，從不同角度去看事情問題的根本。",
+      "rewritten_description_cn": "由潤米諮詢創始人劉潤撰寫，這本書系統地分析了人們在思考中常見的盲點和誤區。書中涵蓋五個核心主題：價值觀與是非對錯、問題思考方法、個人進化之道、人際理解、以及社會協作的基本原則。通過深入淺出的講解和實例分析，幫助讀者突破固有思維框架，從本質層面理解事物運作的邏輯。",
+      "rewritten_description_en": "Written by Liu Run, founder of Runmi Consulting, this book systematically analyzes common blind spots and misconceptions in people's thinking. The book covers five core themes: values and right/wrong, problem-solving methods, personal evolution, interpersonal understanding, and the basic principles of social collaboration. Through clear explanations and practical examples, it helps readers break through existing thinking frameworks and understand the fundamental logic of how things work."
+    },
+    {
+      "title_cn": "華頓商學院最受歡迎的談判課",
+      "code": "S1-03",
+      "original_description": "學會談判，為自己爭取更多！本書說明說服及解題的工具與對策，是過去二十年來華頓商學院最熱門課程的授課基礎。",
+      "rewritten_description_cn": "由華頓商學院談判大師史都華．戴蒙教授撰寫，這是全球頂尖商學院最受歡迎課程的精華總結。書中介紹了談判的核心原則和實用技巧，強調談判不是零和遊戲，而是尋求雙贏的過程。通過大量真實案例和實戰方法，教讀者如何在各種情境中有效溝通、解決問題，為自己和對方創造更多價值。本書已成為Google等全球企業的教育訓練指定教材。",
+      "rewritten_description_en": "Written by Professor Stuart Diamond, a negotiation expert at the Wharton School, this book is the essence of the most popular course at the world's top business school. The book introduces core principles and practical techniques for negotiation, emphasizing that negotiation is not a zero-sum game but a process of seeking win-win outcomes. Through numerous real cases and practical methods, it teaches readers how to communicate effectively and solve problems in various situations, creating more value for both themselves and others. The book has become the designated educational material for companies like Google worldwide."
+    }
+  ],
+  "status": "Sample batch completed",
+  "total_books": 482,
+  "batch_number": 1,
+  "batch_size": 3
+}

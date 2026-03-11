@@ -1,0 +1,42 @@
+export const translations = {
+    zh: {
+        home: '首頁',
+        books: '推薦書單',
+        playlists: '播放清單',
+        searchPlaceholder: '搜尋書名或作者...',
+        readMore: '閱讀更多',
+        tags: '主題標籤',
+        all: '全部',
+        play: '播放',
+        author: '作者',
+        details: '這本書的詳細資料：',
+        back: '返回',
+        deepDive: '深入深潛',
+        summer2025: '2025 夏日精選',
+        personalGrowth: '個人成長',
+        psychology: '心理學',
+        workplace: '職場工作',
+        business: '商業理財',
+        communication: '溝通表達'
+    },
+    en: {
+        home: 'Home',
+        books: 'Recommended Books',
+        playlists: 'Playlists',
+        searchPlaceholder: 'Search titles or authors...',
+        readMore: 'Read More',
+        tags: 'Tags',
+        all: 'All',
+        play: 'Play',
+        author: 'Author',
+        details: 'Details about this book:',
+        back: 'Back',
+        deepDive: 'Deep Dive',
+        summer2025: '2025 Summer Selection',
+        personalGrowth: 'Personal Growth',
+        psychology: 'Psychology',
+        workplace: 'Workplace',
+        business: 'Business & Finance',
+        communication: 'Communication'
+    }
+};
