@@ -130,12 +130,19 @@ export default function Popular() {
                                                         gap: '16px', marginBottom: '28px',
                                                 }}>
                                                         {/* Total Views */}
-                                                        <div style={{
-                                                                background: 'linear-gradient(135deg, #0097a7, #00bcd4)',
-                                                                borderRadius: '16px', padding: '24px', color: 'white',
-                                                                boxShadow: '0 8px 24px rgba(0,151,167,0.25)',
-                                                                animation: 'fadeInUp 0.4s ease both',
-                                                        }}>
+                                                        <div 
+                                                                onClick={() => navigate('/trends')}
+                                                                style={{
+                                                                        background: 'linear-gradient(135deg, #0097a7, #00bcd4)',
+                                                                        borderRadius: '16px', padding: '24px', color: 'white',
+                                                                        boxShadow: '0 8px 24px rgba(0,151,167,0.25)',
+                                                                        animation: 'fadeInUp 0.4s ease both',
+                                                                        cursor: 'pointer',
+                                                                        transition: 'all 0.2s',
+                                                                }}
+                                                                onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-4px)'; e.currentTarget.style.boxShadow = '0 12px 32px rgba(0,151,167,0.4)'; }}
+                                                                onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '0 8px 24px rgba(0,151,167,0.25)'; }}
+                                                        >
                                                                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
                                                                         <Eye size={18} style={{ opacity: 0.8 }} />
                                                                         <span style={{ fontSize: '12px', fontWeight: '600', opacity: 0.85, textTransform: 'uppercase', letterSpacing: '0.05em' }}>總觀看次數</span>
