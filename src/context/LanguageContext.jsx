@@ -4,7 +4,7 @@ const LanguageContext = createContext(null);
 
 const translations = {
     zh: {
-        siteTitle: '📚 閱讀分享',
+        siteTitle: '📚 WLearn',
         siteSubtitle: '發現精選書籍',
         search: '搜尋書籍...',
         tags: '標籤',
@@ -20,7 +20,7 @@ const translations = {
         noBooks: '找不到符合條件的書籍',
     },
     en: {
-        siteTitle: '📚 ReadShare',
+        siteTitle: '📚 WLearn',
         siteSubtitle: 'Discover curated books',
         search: 'Search books...',
         tags: 'Tags',
