@@ -12,7 +12,7 @@ export default function Home() {
     const [sidebarOpen, setSidebarOpen] = useState(false);
 
     useEffect(() => {
-        fetch('/books.json')
+        fetch('books.json')
             .then(r => r.json())
             .then(data => { setBooks(data); setLoading(false); })
             .catch(() => setLoading(false));
@@ -68,13 +68,13 @@ export default function Home() {
                         <button
                             className="mobile-menu-btn"
                             onClick={() => setSidebarOpen(true)}
-                            aria-label="開啟選單"
+                            aria-label="?��??�單"
                         >
                             <Menu size={22} color="#2d2a24" />
                         </button>
 
                         <span style={{ fontSize: '13px', color: 'var(--text-secondary)', fontWeight: '500' }}>
-                            {loading ? '載入中...' : `顯示 ${filteredBooks.length} / ${books.length} 本書籍`}
+                            {loading ? '載入�?..' : `顯示 ${filteredBooks.length} / ${books.length} ?�書籍`}
                         </span>
                     </div>
                     <button
@@ -89,7 +89,7 @@ export default function Home() {
                         onMouseLeave={e => e.currentTarget.style.background = 'white'}
                     >
                         <Globe size={14} />
-                        {language === 'zh' ? 'EN' : '繁體'}
+                        {language === 'zh' ? 'EN' : '繁�?'}
                     </button>
                 </div>
 
@@ -97,7 +97,7 @@ export default function Home() {
                 <div style={{ padding: '20px', flex: 1 }}>
                     {loading ? (
                         <div style={{ textAlign: 'center', padding: '80px', color: '#888', fontSize: '16px' }}>
-                            載入書籍中...
+                            載入?��?�?..
                         </div>
                     ) : filteredBooks.length === 0 ? (
                         <div style={{ textAlign: 'center', padding: '80px', color: '#888', fontSize: '16px' }}>

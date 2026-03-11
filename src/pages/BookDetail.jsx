@@ -11,7 +11,7 @@ export default function BookDetail() {
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        fetch('/books.json')
+        fetch('books.json')
             .then(r => r.json())
             .then(data => {
                 const found = data.find(b => String(b.id) === String(id));
@@ -23,17 +23,17 @@ export default function BookDetail() {
 
     if (loading) return (
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: '#f5f0e8' }}>
-            <div style={{ fontSize: '16px', color: '#888' }}>載入中...</div>
+            <div style={{ fontSize: '16px', color: '#888' }}>載入�?..</div>
         </div>
     );
 
     if (!book) return (
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: '#f5f0e8' }}>
-            <p style={{ fontSize: '18px', color: '#888', marginBottom: '16px' }}>找不到此書籍</p>
+            <p style={{ fontSize: '18px', color: '#888', marginBottom: '16px' }}>?��??�此?��?</p>
             <button onClick={() => navigate('/')} style={{
                 padding: '10px 24px', borderRadius: '8px', border: '1px solid #e0d8cc',
                 background: 'white', cursor: 'pointer', fontSize: '14px',
-            }}>返回首頁</button>
+            }}>返�?首�?</button>
         </div>
     );
 
@@ -59,7 +59,7 @@ export default function BookDetail() {
                     }}
                 >
                     <ArrowLeft size={16} />
-                    返回
+                    返�?
                 </button>
             </div>
 
@@ -82,7 +82,7 @@ export default function BookDetail() {
                         </h1>
                         {book.author && (
                             <p style={{ margin: '8px 0 0', fontSize: '15px', color: '#6b6459' }}>
-                                ✍️ {book.author}
+                                ?��? {book.author}
                             </p>
                         )}
                     </div>
@@ -101,7 +101,7 @@ export default function BookDetail() {
                                 }}
                             >
                                 <Play size={16} fill="white" />
-                                播放
+                                ?�放
                             </a>
                         )}
                         {book.english_url && (
@@ -117,7 +117,7 @@ export default function BookDetail() {
                                 }}
                             >
                                 <Globe size={16} />
-                                英文版
+                                ?��???
                             </a>
                         )}
                     </div>
@@ -164,7 +164,7 @@ export default function BookDetail() {
                         <div style={{
                             background: '#f0ebe0', borderRadius: '12px', padding: '16px 20px',
                         }}>
-                            <div style={{ fontSize: '12px', color: '#6b6459', fontWeight: '600', marginBottom: '4px' }}>播放清單</div>
+                            <div style={{ fontSize: '12px', color: '#6b6459', fontWeight: '600', marginBottom: '4px' }}>?�放清單</div>
                             <div style={{ fontSize: '15px', color: '#2d2a24', fontWeight: '600' }}>{book.playlist}</div>
                         </div>
 
@@ -175,7 +175,7 @@ export default function BookDetail() {
                                 border: '1px solid #e0d8cc',
                             }}>
                                 <h3 style={{ margin: '0 0 12px', fontSize: '14px', fontWeight: '700', color: '#2d2a24' }}>
-                                    📖 簡介
+                                    ?? 簡�?
                                 </h3>
                                 <p style={{ margin: 0, fontSize: '14px', lineHeight: '1.8', color: '#2d2a24' }}>
                                     {description}
@@ -196,7 +196,7 @@ export default function BookDetail() {
                             {book.youtube_url && (
                                 <div style={{ marginBottom: book.english_url ? '16px' : '0' }}>
                                     <div style={{ fontSize: '12px', color: '#6b6459', display: 'flex', alignItems: 'center', gap: '4px', marginBottom: '4px' }}>
-                                        <Globe size={12} /> 中文版
+                                        <Globe size={12} /> 中�???
                                     </div>
                                     <a
                                         href={book.youtube_url}
@@ -216,7 +216,7 @@ export default function BookDetail() {
                             {book.english_url && (
                                 <div>
                                     <div style={{ fontSize: '12px', color: '#6b6459', display: 'flex', alignItems: 'center', gap: '4px', marginBottom: '4px' }}>
-                                        <Globe size={12} /> 英文版
+                                        <Globe size={12} /> ?��???
                                     </div>
                                     <a
                                         href={book.english_url}

@@ -12,7 +12,7 @@ export default function Authors() {
         const [sortBy, setSortBy] = useState('books');
 
         useEffect(() => {
-                fetch('/authors.json')
+                fetch('authors.json')
                         .then(r => r.json())
                         .then(data => { setAuthors(data); setLoading(false); })
                         .catch(() => setLoading(false));
@@ -56,17 +56,17 @@ export default function Authors() {
                                         borderRadius: '8px', border: '1px solid #e0d8cc', background: 'white',
                                         cursor: 'pointer', fontSize: '14px', color: '#2d2a24', fontWeight: '500',
                                 }}>
-                                        <ArrowLeft size={16} /> 返回
+                                        <ArrowLeft size={16} /> 返�?
                                 </button>
                                 <h1 style={{ margin: 0, fontSize: '18px', fontWeight: '700', display: 'flex', alignItems: 'center', gap: '8px', color: '#2d2a24' }}>
-                                        <Users size={20} color="#0097a7" /> 作者專區
+                                        <Users size={20} color="#0097a7" /> 作者�??�
                                 </h1>
                                 <div style={{ width: '80px' }} />
                         </div>
 
                         <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '24px' }}>
                                 {loading ? (
-                                        <div style={{ textAlign: 'center', padding: '80px', color: '#888' }}>載入中...</div>
+                                        <div style={{ textAlign: 'center', padding: '80px', color: '#888' }}>載入�?..</div>
                                 ) : (
                                         <>
                                                 {/* Summary cards */}
@@ -82,7 +82,7 @@ export default function Authors() {
                                                         }}>
                                                                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                                                                         <Users size={18} style={{ opacity: 0.8 }} />
-                                                                        <span style={{ fontSize: '12px', fontWeight: '600', opacity: 0.85, textTransform: 'uppercase' }}>作者總數</span>
+                                                                        <span style={{ fontSize: '12px', fontWeight: '600', opacity: 0.85, textTransform: 'uppercase' }}>作者總??/span>
                                                                 </div>
                                                                 <div style={{ fontSize: '32px', fontWeight: '800' }}>{authors.length}</div>
                                                         </div>
@@ -92,7 +92,7 @@ export default function Authors() {
                                                         }}>
                                                                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                                                                         <BookOpen size={18} color="#ff8f00" />
-                                                                        <span style={{ fontSize: '12px', fontWeight: '600', color: '#6b6459', textTransform: 'uppercase' }}>收錄書籍</span>
+                                                                        <span style={{ fontSize: '12px', fontWeight: '600', color: '#6b6459', textTransform: 'uppercase' }}>?��??��?</span>
                                                                 </div>
                                                                 <div style={{ fontSize: '32px', fontWeight: '800', color: '#ff8f00' }}>{totalBooks}</div>
                                                         </div>
@@ -102,7 +102,7 @@ export default function Authors() {
                                                         }}>
                                                                 <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
                                                                         <Award size={18} color="#9c27b0" />
-                                                                        <span style={{ fontSize: '12px', fontWeight: '600', color: '#6b6459', textTransform: 'uppercase' }}>詳細簡介</span>
+                                                                        <span style={{ fontSize: '12px', fontWeight: '600', color: '#6b6459', textTransform: 'uppercase' }}>詳細簡�?</span>
                                                                 </div>
                                                                 <div style={{ fontSize: '32px', fontWeight: '800', color: '#9c27b0' }}>{authors.filter(a => a.has_detailed_bio).length}</div>
                                                         </div>
@@ -118,7 +118,7 @@ export default function Authors() {
                                                                 <input
                                                                         value={search}
                                                                         onChange={e => setSearch(e.target.value)}
-                                                                        placeholder="搜尋作者..."
+                                                                        placeholder="?��?作�?.."
                                                                         style={{
                                                                                 width: '100%', padding: '10px 12px 10px 34px', borderRadius: '10px',
                                                                                 border: '1px solid #e0d8cc', background: 'white', fontSize: '14px',
@@ -127,7 +127,7 @@ export default function Authors() {
                                                                 />
                                                         </div>
                                                         <div style={{ display: 'flex', gap: '8px' }}>
-                                                                {[{ key: 'books', label: '書籍數量' }, { key: 'name', label: '名稱排序' }].map(btn => (
+                                                                {[{ key: 'books', label: '?��??��?' }, { key: 'name', label: '?�稱?��?' }].map(btn => (
                                                                         <button key={btn.key} onClick={() => setSortBy(btn.key)} style={{
                                                                                 padding: '8px 16px', borderRadius: '999px',
                                                                                 border: `1px solid ${sortBy === btn.key ? '#0097a7' : '#e0d8cc'}`,
@@ -140,7 +140,7 @@ export default function Authors() {
                                                                 ))}
                                                         </div>
                                                         <span style={{ fontSize: '13px', color: '#9e9486', marginLeft: 'auto' }}>
-                                                                顯示 {filtered.length} 位作者
+                                                                顯示 {filtered.length} 位�???
                                                         </span>
                                                 </div>
 
@@ -194,7 +194,7 @@ export default function Authors() {
                                                                                         background: '#f0ebe0', padding: '4px 10px', borderRadius: '999px',
                                                                                         fontSize: '12px', fontWeight: '600', color: '#6b6459',
                                                                                 }}>
-                                                                                        {author.book_count} 本
+                                                                                        {author.book_count} ??
                                                                                 </span>
                                                                                 <ChevronRight size={16} color="#ccc" />
                                                                         </div>
