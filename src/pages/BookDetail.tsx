@@ -2,68 +2,29 @@
 import { useLocation } from 'wouter';
 import { Book } from '../types';
 import { useLanguage } from '../contexts/LanguageContext';
-import { Play, Globe, ArrowLeft, User } from 'lucide-react';
-
-interface Author {
-  id: string;
-  name: string;
-  name_en: string;
-  name_zh: string;
-  bio: string;
-  career: string;
-  achievements: string[];
-}
+import { Play, Globe, ArrowLeft } from 'lucide-react';
 
 export default function BookDetail() {
   const { language } = useLanguage();
   const [, navigate] = useLocation();
   const [book, setBook] = useState<Book | null>(null);
-  const [authors, setAuthors] = useState<Author[]>([]);
   const [loading, setLoading] = useState(true);
 
   const bookId = new URLSearchParams(window.location.search).get('id');
 
   useEffect(() => {
-    Promise.all([
-      fetch(import.meta.env.BASE_URL + 'books.json').then(res => res.json()),
-      fetch(import.meta.env.BASE_URL + 'authors.json').then(res => res.json())
-    ])
-      .then(([booksData, authorsData]) => {
-        const foundBook = booksData.find((b: Book) => b.id === bookId);
+    fetch(import.meta.env.BASE_URL + 'books.json')
+      .then(res => res.json())
+      .then(data => {
+        const foundBook = data.find((b: Book) => b.id === bookId);
         setBook(foundBook || null);
-        setAuthors(authorsData);
         setLoading(false);
       })
       .catch(err => {
-        console.error('Failed to load data:', err);
+        console.error('Failed to load book:', err);
         setLoading(false);
       });
   }, [bookId]);
-
-  const findAuthor = (authorName: string | undefined, bookId: string | undefined): Author | undefined => {
-    if (!authorName || authorName === 'Unknown') return undefined;
-    
-    const authorByBook = authors.find(a => 
-      a.books?.some((b: { id: string }) => b.id === bookId)
-    );
-    if (authorByBook) return authorByBook;
-
-    return authors.find(a => 
-      a.name === authorName ||
-      a.name_en === authorName ||
-      a.name_zh === authorName ||
-      a.name_en.toLowerCase() === authorName.toLowerCase() ||
-      a.name_zh.includes(authorName) ||
-      authorName.includes(a.name_zh)
-    );
-  };
-
-  const author = findAuthor(book?.author, book?.id);
-  const displayAuthorName = author 
-    ? (language === 'zh' ? author.name_zh : author.name_en) 
-    : book?.author;
-  const authorBio = author?.bio;
-  const authorCareer = author?.career;
 
   if (loading || !book) {
     return (
@@ -164,30 +125,22 @@ export default function BookDetail() {
 
             {/* 作者與簡介 */}
             <div className="bg-white rounded-xl p-6 shadow-[0_2px_10px_rgba(0,0,0,0.02)] space-y-4">
-              {displayAuthorName && displayAuthorName !== 'Unknown' && (
+              {book.author && book.author !== 'Unknown' && (
                 <div>
                   <h3 className="text-sm text-gray-500 mb-1 flex items-center gap-2">
-                    <User size={14} />
+                    <span className="material-icons text-sm" />
                     {language === 'zh' ? '作者' : 'Author'}
                   </h3>
                   <p className="text-base text-gray-800 leading-relaxed font-semibold">
-                    {displayAuthorName}
+                    {book.author}
                   </p>
-                  {authorCareer && (
-                    <p className="text-sm text-gray-500 mt-1">{authorCareer}</p>
-                  )}
-                  {authorBio && (
-                    <p className="text-sm text-gray-600 mt-2 leading-relaxed">
-                      {authorBio}
-                    </p>
-                  )}
                 </div>
               )}
               {description && (
                 <div>
                   <h3 className="text-sm text-gray-500 mb-2 flex items-center gap-2">
-                    <span></span>
-                    {language === 'zh' ? '書籍簡介' : 'Book Description'}
+                    <span className="material-icons text-sm"></span>
+                    {language === 'zh' ? '簡介' : 'Description'}
                   </h3>
                   <p className="text-[15px] text-gray-700 leading-relaxed max-w-none break-words">
                     {description}

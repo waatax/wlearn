@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, TrendingUp, Play, Globe, BarChart3, Eye, Trophy, Flame } from 'lucide-react';
+import { useLanguage } from '../context/LanguageContext';
 
 function formatViews(n) {
         if (!n || n === 0) return '—';
@@ -49,6 +50,7 @@ function ViewBar({ cnViews, enViews, maxViews }) {
 
 export default function Popular() {
         const navigate = useNavigate();
+        const { language } = useLanguage();
         const [stats, setStats] = useState([]);
         const [loading, setLoading] = useState(true);
         const [sortBy, setSortBy] = useState('total');
