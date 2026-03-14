@@ -13,12 +13,12 @@
       "心理學",
       "思維方式"
     ],
-    "description": "",
+    "description": "巨人思維 是由 巨人傑 撰寫的書籍（代碼 S1-01），內容涵蓋相關領域的深入探討。",
     "author": "巨人傑",
     "cover_url": "https://img.youtube.com/vi/13bsIO19GF0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=PMv1OyOEbpY",
-    "description_cn": "台灣交易員巨人傑的首部著作，記錄了他14年的股市交易心路歷程。書中強調成功沒有捷徑，只有超乎常人的努力與高度自律，分享從零開始成為億級散戶的經驗與投資思維。所有版稅收入捐贈給台灣兒童暨家庭扶助基金會。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。"
+    "description_cn": "17歲入市，14年交易經驗創造驚人獲利！台灣頂尖交易員「巨人傑」首度公開他從慘賠到穩定獲利的投資心法。本書不談複雜的技術線圖，而是直擊交易的本質：如何建立紀律、克服心魔，並找到屬於自己的市場天賦。這是一本適合所有想在股海中突破低薪困境、建立正確投資邏輯的必讀之作。2024年誠品暢銷榜TOP 4，所有版稅收入捐贈給財團法人台灣兒童暨家庭扶助基金會。",
+    "description_en": "Entering the market at 17, with 14 years of trading experience yielding astonishing profits! Taiwan's top trader Giant Jie publicly reveals for the first time his investment mindset from devastating losses to stable profitability. This book skips complicated technical charts, cutting straight to the essence of trading: how to build discipline, overcome inner demons, and find your own market talent."
   },
   {
     "id": "book_101",
@@ -33,11 +33,11 @@
       "心智與思維",
       "思維方式"
     ],
-    "description": "",
+    "description": "底層邏輯 I 是由 劉潤 撰寫的書籍（代碼 S1-02），內容涵蓋相關領域的深入探討。",
     "author": "劉潤",
     "cover_url": "https://img.youtube.com/vi/uUUmCG31BfE/maxresdefault.jpg",
-    "description_cn": "中國商業顧問劉潤的代表作，核心思想是「方法論＝底層邏輯＋環境變數」。書中統整了是非對錯的價值觀、思考問題的方式、個體進化、理解他人、社會協作五大面向，幫助讀者在變動時代中掌握不變的運作法則。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_cn": "為什麼有些問題我們總是看不清？知名商業顧問劉潤帶你拆解這個世界的「底牌」。事物千變萬化，但背後的「底層邏輯」永遠不變。本書涵蓋是非對錯、思考問題、個體進化到社會協作等五大面向，教你剝開現象看本質，在瞬息萬變的人際與商業環境中，做出最精準的判斷與決策。",
+    "description_en": "Why do we always struggle to see some problems clearly? Renowned business consultant Liu Run takes you to deconstruct the bottom cards of this world. Things change constantly, but the underlying logic behind them never changes. Covering five major aspects from right and wrong, problem-solving, individual evolution, to social collaboration, this book teaches you to peel back phenomena to see the essence.",
     "english_url": "https://www.youtube.com/watch?v=lO-RIqKebxI"
   },
   {
@@ -53,12 +53,12 @@
       "推薦書籍",
       "職場工作"
     ],
-    "description": "",
+    "description": "華頓商學院最受歡迎的談判課 是由 Stuart Diamond 撰寫的書籍（代碼 S1-03），內容涵蓋相關領域的深入探討。",
     "author": "Stuart Diamond",
     "cover_url": "https://img.youtube.com/vi/S2x7RlO0-BQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=OBubuAkT_Dw",
-    "description_cn": "由華頓商學院談判大師史都華．戴蒙教授撰寫，這本書透過許多課堂案例的分享，講解如何透過談判技巧讓雙方達到最大權益。全球排名第一的華頓商學院課程連續13年最受歡迎，本書將這些精華知識傳授給讀者。",
-    "description_en": "Written by Professor Stuart Diamond from Wharton School of Business, this book shares numerous classroom cases explaining how to use negotiation techniques to achieve maximum benefits for both parties. The world's top-ranked Wharton School course has been the most popular for 13 consecutive years, and this book shares these essential insights with readers."
+    "description_cn": "談判不是為了擊敗對方，而是為了「爭取更多」！華頓商學院大師史都華．戴蒙連續13年最搶手的課程精華。本書透過生動的真實案例，打破傳統「強硬施壓」的談判迷思，教你如何運用同理心、情緒管理與理解對方需求，在不講理的世界中，為雙方創造最大的共同利益。博客來、誠品、金石堂冠軍書！Google全球教育訓練指定教材！",
+    "description_en": "Negotiation is not about defeating the other side, but about getting more! The essence of Wharton Business School master Stuart Diamond's most sought-after course for 13 consecutive years. Through vivid real-life cases, this book shatters the traditional myth of hardball pressure negotiation, teaching you how to use empathy, emotional management, and understanding of the other party needs to create the greatest mutual benefit."
   },
   {
     "id": "book_99",
@@ -73,12 +73,12 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Cant Hurt Me 我 刀槍不入 是由 David Goggins 撰寫的書籍（代碼 S1-04），內容涵蓋相關領域的深入探討。",
     "author": "David Goggins",
     "cover_url": "https://img.youtube.com/vi/FUvWlHru3a8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=fT8dWxPHvYI",
-    "description_cn": "由日本知名媒體人佐佐木俊尚撰寫，針對智慧型手機時代的知識碎片化現象提出解決方案。書中介紹了如何在資訊爆炸的時代，有效地進行閱讀、思考和寫作，並透過「散漫力」和「短集中」等創新概念，幫助讀者在不需要高度專注的情況下，最大化學習效率和創意發想能力。",
-    "description_en": "Written by renowned Japanese media personality Toshihisa Sasaki, this book addresses the fragmentation of knowledge in the smartphone era. It introduces how to effectively read, think, and write in an age of information explosion, and through innovative concepts such as 'scattered power' and 'short concentration', it helps readers maximize learning efficiency and creative ideation without requiring intense focus."
+    "description_cn": "地表最強悍的男人來了！前美國海豹突擊隊員大衛·哥金斯，曾是超重、受虐的邊緣人，卻憑著驚人的意志力，成為世界頂級耐力運動員。這是一本關於超越極限的真實回憶錄。他提出「40%法則」—當你覺得無法再撐下去時，其實你只用上了40%的潛能。本書將徹底粉碎你的舒適圈。《紐約時報》暢銷書，全球暢銷數百萬冊。",
+    "description_en": "The toughest man on earth is here! Former US Navy SEAL David Goggins was once an overweight, abused outcast, but through sheer willpower, he became a world-class endurance athlete. This is a true memoir about surpassing limits. He introduces the 40% Rule—when you feel you cannot go on any longer, you have actually only tapped into 40 percent of your potential. This book will utterly shatter your comfort zone. New York Times bestseller, millions of copies sold worldwide."
   },
   {
     "id": "book_98",
@@ -93,12 +93,12 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Satir 的對話練習 是由 李崇建 撰寫的書籍（代碼 S1-05），內容涵蓋相關領域的深入探討。",
     "author": "李崇建",
     "cover_url": "https://img.youtube.com/vi/aIlwyAOSnwM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=e_uNoR84DnI",
-    "description_cn": "由日本思考整理家鈴木進介撰寫，針對資訊爆炸時代的困境提出實用解決方案。書中提出39個法則，教讀者如何從氾濫的資訊中辨識出「本質」，掌握二成黃金資訊，避免被無意義的雜訊所迷惑。強調在資訊社會中生存的關鍵是學會篩選和整理，而非盲目累積。",
-    "description_en": "Written by Japanese thinking organizer Shinzuke Suzuki, this book offers practical solutions to the challenges of the information explosion era. It presents 39 rules to teach readers how to identify the 'essence' from overwhelming information, grasp the 20% golden information, and avoid being confused by meaningless noise. It emphasizes that the key to surviving in the information society is learning to filter and organize, not blindly accumulate."
+    "description_cn": "為什麼我們總是溝通不良，甚至互相傷害？知名教育家李崇建以「薩提爾模式（Satir Model）」為基礎，透過獨特的「冰山理論」，帶領我們潛入外在行為底下的感受、觀點與渴望。這不僅是一套修復親子、伴侶與職場關係的溝通指南，更是一趟溫柔理解自己、與內在和解的深度探索之旅。十萬冊融冰紀念版，內附精美薩提爾練習專用練習本《冰山練習曲》。",
+    "description_en": "Why do we always suffer from poor communication, even hurting each other? Renowned educator Li Chongjian, based on the Satir Model, uses the unique Iceberg Theory to lead us beneath external behaviors into feelings, perspectives, and yearnings. This is not just a communication guide for repairing parent-child, partner, and workplace relationships, but also a profound journey of gently understanding oneself and reconciling with the inner self. 100,000 copies bestseller commemorative edition includes the Iceberg Practice exercise book."
   },
   {
     "id": "book_97",
@@ -113,7 +113,7 @@
       "人文與科學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "最高學習法 是由 石井裕之 撰寫的書籍（代碼 S1-06），內容涵蓋相關領域的深入探討。",
     "author": "石井裕之",
     "cover_url": "https://img.youtube.com/vi/EH7BoLBVW1s/maxresdefault.jpg",
     "description_cn": "由日本頂尖知識YouTuber及川幸久撰寫，分享他如何在短短4年間從素人成為觀看數超過1億2000萬次的知識傳播者。書中系統地介紹了蒐集、判讀和表達資訊的三大核心技能，讓讀者學會如何將複雜的資訊轉譯成簡單易懂的內容，適用於日常簡報、教學和知識分享。",
@@ -134,7 +134,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "成長型領導 是由 Carol S. Dweck 撰寫的書籍（代碼 S1-07），內容涵蓋相關領域的深入探討。",
     "author": "Carol S. Dweck",
     "cover_url": "https://img.youtube.com/vi/i9LWe5TbiUs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Xd72F1xNRgc",
@@ -154,7 +154,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "目標 是由 Eliyahu M. Goldratt 撰寫的書籍（代碼 S1-08），內容涵蓋相關領域的深入探討。",
     "author": "Eliyahu M. Goldratt",
     "cover_url": "https://img.youtube.com/vi/WMMW-rZGdXQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=dHviahEwitg",
@@ -174,7 +174,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "為什麼事情做不完 你還在滑手機 是由 吳淡如 撰寫的書籍（代碼 S1-09），內容涵蓋相關領域的深入探討。",
     "author": "吳淡如",
     "cover_url": "https://img.youtube.com/vi/PX5Z8VbpIeA/maxresdefault.jpg",
     "description_cn": "這本書針對現代人的時間管理問題進行深入分析。作者指出許多人無法完成任務的根本原因往往不是時間不足，而是被手機等干擾所影響。書中提供了實用的策略和技巧，幫助讀者提高專注力，有效管理時間，克服分心的習慣。",
@@ -194,7 +194,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "刻意練習 是由 Anders Ericsson 撰寫的書籍（代碼 S1-10），內容涵蓋相關領域的深入探討。",
     "author": "Anders Ericsson",
     "cover_url": "https://img.youtube.com/vi/SrX1cUCnwrg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Ej9BjMMfE8g",
@@ -214,7 +214,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "剛剛好的孤獨 是由 鎌田實 撰寫的書籍（代碼 S1-11），內容涵蓋相關領域的深入探討。",
     "author": "鎌田實",
     "cover_url": "https://img.youtube.com/vi/BMiy_G-eKNo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=iWcWyonUYXQ",
@@ -234,7 +234,7 @@
       "品牌與行銷",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "定位 是由 Al Ries, Jack Trout 撰寫的書籍（代碼 S1-12），內容涵蓋相關領域的深入探討。",
     "author": "Al Ries, Jack Trout",
     "cover_url": "https://img.youtube.com/vi/OjFksqLawkM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=zSoZUToVNTM",
@@ -254,7 +254,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "時勢 是由 張忠謀 撰寫的書籍（代碼 S1-13），內容涵蓋相關領域的深入探討。",
     "author": "張忠謀",
     "cover_url": "https://img.youtube.com/vi/1wC9d1vGrVI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Mq_IiQn7KvE",
@@ -273,7 +273,7 @@
     "tags": [
       "生產力與時間"
     ],
-    "description": "",
+    "description": "留白時間 是由 Juliet Funt 撰寫的書籍（代碼 S1-14），內容涵蓋相關領域的深入探討。",
     "author": "Juliet Funt",
     "cover_url": "https://img.youtube.com/vi/qlZZ2qNeQAk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XozDAjou1Lc",
@@ -293,7 +293,7 @@
       "心理學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "情緒靈敏力 是由 Susan David 撰寫的書籍（代碼 S1-15），內容涵蓋相關領域的深入探討。",
     "author": "Susan David",
     "cover_url": "https://img.youtube.com/vi/91CeJG4Kt0M/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=UPfoMC6SaNo",
@@ -313,11 +313,11 @@
       "心智與思維",
       "思維方式"
     ],
-    "description": "",
+    "description": "底層邏輯2 Underlaying Logic 2 是由 劉潤 撰寫的書籍（代碼 S1-16），內容涵蓋相關領域的深入探討。",
     "author": "劉潤",
     "cover_url": "https://img.youtube.com/vi/2QSROdrJP2s/maxresdefault.jpg",
-    "description_cn": "由樊登撰寫的思維方法論著作。書中深入分析了事物運作的底層邏輯，幫助讀者理解複雜現象背後的本質原理。作者透過大量案例說明如何透過掌握底層邏輯，提高思維能力和決策質量。",
-    "description_en": "A work on thinking methodology by Fan Deng. The book provides in-depth analysis of the underlying logic of how things work, helping readers understand the essential principles behind complex phenomena. Through numerous examples, it demonstrates how mastering underlying logic improves thinking ability and decision-making quality.",
+    "description_cn": "看似複雜的商業模式，用幾個簡單的數字便可輕鬆破解！假如閱讀完《底層邏輯》，你掌握了是非對錯、思考問題、個體進化、理解他人和社會協作五方面的底層邏輯。那麼現在《底層邏輯2》，將用簡單的數字和思維，讓你看清世界的規則，看透商業的本質，破解商業難題，收穫屬於你的成功！張旭無限教室線上課程平台創辦人 數學老師張旭審定。",
+    "description_en": "If you read The Underlying Logic, you mastered five aspects of underlying logic: right and wrong, problem-solving, individual evolution, understanding others, and social collaboration. Now The Underlying Logic 2 uses simple numbers and thinking to help you see the rules of the world, see through the essence of business, solve business problems, and harvest your success!",
     "english_url": "https://www.youtube.com/watch?v=YCWLB5gM940"
   },
   {
@@ -333,7 +333,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "精準選股 7Nothing 是由 陳喬泓 撰寫的書籍（代碼 S1-17），內容涵蓋相關領域的深入探討。",
     "author": "陳喬泓",
     "cover_url": "https://img.youtube.com/vi/VDcHx3Achno/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=aC5q9Th7OoI",
@@ -353,7 +353,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "軟技能 是由 劉潤、李笑來、萬維綱、吳軍 等30位菁英高手 撰寫的書籍（代碼 S1-18），內容涵蓋相關領域的深入探討。",
     "author": "劉潤、李笑來、萬維綱、吳軍 等30位菁英高手",
     "cover_url": "https://img.youtube.com/vi/u9HkWAsJ2_I/maxresdefault.jpg",
     "description_cn": "硬技能讓你有入場券，軟技能才是人生升級的關鍵。麻省理工、哈佛、芝加哥大學研究發現，同理心、抗壓能力、情緒智力、自律能力等軟技能的運用，是影響事情成敗的關鍵因素。本書由羅振宇與脫不花策劃，邀請30位在各種軟技能方面有獨到心得的大師，透過經驗傳授幫助讀者了解AI時代不可忽略的軟技能，涵蓋溝通、表達、寫作、社交、目標管理、創意與創新等。",
@@ -373,7 +373,7 @@
       "人文與科學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "散漫者的學習法 是由 佐佐木俊尚 撰寫的書籍（代碼 S1-19），內容涵蓋相關領域的深入探討。",
     "author": "佐佐木俊尚",
     "cover_url": "https://img.youtube.com/vi/3m0qbw8czq4/maxresdefault.jpg",
     "description_cn": "這本書介紹了散漫者的學習方法，強調不同的人有不同的學習風格。作者認為對於注意力容易分散的人，應該採用符合其特點的學習策略，而非強行適應傳統的學習方法。書中提供了實用的技巧幫助散漫者提高學習效率。",
@@ -393,7 +393,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "你不欠任何人 是由 Emily P. Freeman 撰寫的書籍（代碼 S1-20），內容涵蓋相關領域的深入探討。",
     "author": "Emily P. Freeman",
     "cover_url": "https://img.youtube.com/vi/E_3fBFbY1jA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=gWdZuhPYiTA",
@@ -413,7 +413,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Nexus 是由 Yuval Noah Harari 撰寫的書籍（代碼 S1-21），內容涵蓋相關領域的深入探討。",
     "author": "Yuval Noah Harari",
     "cover_url": "https://img.youtube.com/vi/FX_ONyXh2pg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=SalXtKGy8lc",
@@ -432,7 +432,7 @@
     "tags": [
       "寫作與表達"
     ],
-    "description": "",
+    "description": "哈佛寫作課 是由 Steven Pinker 撰寫的書籍（代碼 S1-22），內容涵蓋相關領域的深入探討。",
     "author": "Steven Pinker",
     "cover_url": "https://img.youtube.com/vi/DxvIlfX4eCg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=yoYqxxA7KoU",
@@ -451,7 +451,7 @@
     "tags": [
       "寫作與表達"
     ],
-    "description": "",
+    "description": "高效寫作 是由 鄭緯筌 撰寫的書籍（代碼 S1-23），內容涵蓋相關領域的深入探討。",
     "author": "鄭緯筌",
     "cover_url": "https://img.youtube.com/vi/5isY97mzytc/maxresdefault.jpg",
     "description_cn": "這本書提供了高效寫作的實用指南。作者介紹了如何快速產出高質量的文章，強調清晰的思維和有效的表達方式。書中提供了實用的寫作技巧和框架，幫助讀者提高寫作效率，在短時間內完成優質的寫作作品。",
@@ -473,7 +473,7 @@
       "投資理財",
       "投資與理財"
     ],
-    "description": "",
+    "description": "寫作是最好得自我投資 是由 陳立飛 撰寫的書籍（代碼 S1-24），內容涵蓋相關領域的深入探討。",
     "author": "陳立飛",
     "cover_url": "https://img.youtube.com/vi/CcREFDPTNBY/maxresdefault.jpg",
     "description_cn": "由陳立飛撰寫，這本書強調寫作對個人品牌建設的重要性。作者認為寫作不僅是文學創作，更是打造個人品牌和實現複利人生的工具。書中介紹了如何透過寫作提升競爭力，並掌握 AI 時代的競爭優勢。",
@@ -494,7 +494,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "可複製的溝通力 是由 樊登 撰寫的書籍（代碼 S1-25），內容涵蓋相關領域的深入探討。",
     "author": "樊登",
     "cover_url": "https://img.youtube.com/vi/MNgr86GQ6bg/maxresdefault.jpg",
     "description_cn": "這本書介紹了可複製的溝通力框架。作者認為有效的溝通不是天賦，而是可以透過系統方法習得的技能。書中提供了實用的溝通策略和技巧，幫助讀者在各種場景中進行有效溝通，建立更好的人際關係。",
@@ -514,7 +514,7 @@
       "商業與創業",
       "投資理財"
     ],
-    "description": "",
+    "description": "低風險創業 是由 樊登 撰寫的書籍（代碼 S1-26），內容涵蓋相關領域的深入探討。",
     "author": "樊登",
     "cover_url": "https://img.youtube.com/vi/LbwJIdz6aNg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=R80z3PwenGc",
@@ -534,7 +534,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "聖經教你的18個接班秘訣 是由 施以諾 撰寫的書籍（代碼 S1-27），內容涵蓋相關領域的深入探討。",
     "author": "施以諾",
     "cover_url": "https://img.youtube.com/vi/z97fs3BawM0/maxresdefault.jpg",
     "description_cn": "由許恩得博士撰寫，這本書將聖經的智慧應用於企業接班和領導力。作者系統整理了聖經的 4 個原則和 18 個接班秘訣，每個秘訣都結合成功企業家或聖經人物的故事。書中強調如何透過聖經的智慧進行有效的企業接班。",
@@ -554,7 +554,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "一如既往 是由 Morgan Housel 撰寫的書籍（代碼 S1-28），內容涵蓋相關領域的深入探討。",
     "author": "Morgan Housel",
     "cover_url": "https://img.youtube.com/vi/IkgzOrzJLUQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_SkYGdX44V8",
@@ -573,7 +573,7 @@
     "tags": [
       "健康與運動"
     ],
-    "description": "",
+    "description": "丹尼爾斯博士跑步方程式 是由 Jack Daniels 撰寫的書籍（代碼 S1-29），內容涵蓋相關領域的深入探討。",
     "author": "Jack Daniels",
     "cover_url": "https://img.youtube.com/vi/LSr9MPk6ZcM/maxresdefault.jpg",
     "description_cn": "由丹尼爾斯博士撰寫的跑步科學指南。書中介紹了跑步訓練的科學方法和原理，幫助跑者理解如何透過系統的訓練提高成績。作者強調個性化訓練計劃的重要性，並提供了實用的訓練方程式。",
@@ -592,7 +592,7 @@
     "tags": [
       "健康與運動"
     ],
-    "description": "",
+    "description": "跑步教科書 是由 牧野仁 撰寫的書籍（代碼 S1-30），內容涵蓋相關領域的深入探討。",
     "author": "牧野仁",
     "cover_url": "https://img.youtube.com/vi/eWqrtXqPk80/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Sm_tIAkdvbw",
@@ -612,7 +612,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "改善體質深呼吸 是由 Patrick McKeown 撰寫的書籍（代碼 S1-31），內容涵蓋相關領域的深入探討。",
     "author": "Patrick McKeown",
     "cover_url": "https://img.youtube.com/vi/j-CX_FlEQ20/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=2jcNASzJocE",
@@ -633,7 +633,7 @@
       "健康與運動",
       "心智與思維"
     ],
-    "description": "",
+    "description": "像頂尖運動員一樣思考 是由 Jean François Ménard 撰寫的書籍（代碼 S1-32），內容涵蓋相關領域的深入探討。",
     "author": "Jean François Ménard",
     "cover_url": "https://img.youtube.com/vi/bATqXcncM0M/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=EdUB2plRPB4",
@@ -652,7 +652,7 @@
     "tags": [
       "投資與理財"
     ],
-    "description": "",
+    "description": "財務自由之路 李笑來 是由 李笑來 撰寫的書籍（代碼 S1-33），內容涵蓋相關領域的深入探討。",
     "author": "李笑來",
     "cover_url": "https://img.youtube.com/vi/NErQAcP-Odw/maxresdefault.jpg",
     "description_cn": "由李笑來撰寫的財務自由指南。書中介紹了實現財務自由的方法和原理，強調長期投資和複利的力量。作者提供了實用的財務規劃建議，幫助讀者建立財務自由的思維方式。",
@@ -672,7 +672,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "價值 是由 張磊 撰寫的書籍（代碼 S1-34），內容涵蓋相關領域的深入探討。",
     "author": "張磊",
     "cover_url": "https://img.youtube.com/vi/SgiWDDCqAKs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=03qf8dqH4kA",
@@ -691,7 +691,7 @@
     "tags": [
       "投資與理財"
     ],
-    "description": "",
+    "description": "致富察覺 是由 郝旭烈 撰寫的書籍（代碼 S1-35），內容涵蓋相關領域的深入探討。",
     "author": "郝旭烈",
     "cover_url": "https://img.youtube.com/vi/5T1KpiZ8hfE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=AzGVvojJoaM",
@@ -713,7 +713,7 @@
       "投資與理財",
       "科學與人文"
     ],
-    "description": "",
+    "description": "索羅斯的投資哲學 是由 George Soros 撰寫的書籍（代碼 S1-36），內容涵蓋相關領域的深入探討。",
     "author": "George Soros",
     "cover_url": "https://img.youtube.com/vi/phwivZhr9uY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=gAHETkjYyr8",
@@ -733,7 +733,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "原則 是由 Ray Dalio 撰寫的書籍（代碼 S1-37），內容涵蓋相關領域的深入探討。",
     "author": "Ray Dalio",
     "cover_url": "https://img.youtube.com/vi/UXDX3ULI24E/maxresdefault.jpg",
     "description_cn": "由瑞·達利歐撰寫的人生和工作原則指南。書中介紹了作者在投資和管理中總結的 500 多條原則，涵蓋決策、風險管理、團隊建設等方面。這些原則經過實踐驗證，可應用於各個領域。",
@@ -753,7 +753,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "窮查理的普通常識 是由 Charlie Munger 撰寫的書籍（代碼 S1-38），內容涵蓋相關領域的深入探討。",
     "author": "Charlie Munger",
     "cover_url": "https://img.youtube.com/vi/SwY0b0kQQbc/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -773,7 +773,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "窮理查的普通常識 是由 Charlie Munger 撰寫的書籍（代碼 S1-39），內容涵蓋相關領域的深入探討。",
     "author": "Charlie Munger",
     "cover_url": "https://img.youtube.com/vi/sGiULm282g0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=aK0SSpOgiOY",
@@ -793,7 +793,7 @@
       "商業與創業",
       "投資理財"
     ],
-    "description": "",
+    "description": "認識商業 是由 William Nickels 撰寫的書籍（代碼 S1-40），內容涵蓋相關領域的深入探討。",
     "author": "William Nickels",
     "cover_url": "https://img.youtube.com/vi/faM8CcJpHio/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Wdg3F4TvIO8",
@@ -813,7 +813,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "心流 是由 Mihaly Csikszentmihalyi 撰寫的書籍（代碼 S1-41），內容涵蓋相關領域的深入探討。",
     "author": "Mihaly Csikszentmihalyi",
     "cover_url": "https://img.youtube.com/vi/o5rxvQhD_p4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Kz_AMh48WpA",
@@ -833,7 +833,7 @@
       "人文與科學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "學習究竟是什麼 是由 萬維鋼 撰寫的書籍（代碼 S1-42），內容涵蓋相關領域的深入探討。",
     "author": "萬維鋼",
     "cover_url": "https://img.youtube.com/vi/5iA_9Hh-LDs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=uX010yEsn7w",
@@ -853,7 +853,7 @@
       "人文與科學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "學習如何學習 是由 Barbara Oakley 撰寫的書籍（代碼 S1-43），內容涵蓋相關領域的深入探討。",
     "author": "Barbara Oakley",
     "cover_url": "https://img.youtube.com/vi/89altuOcQd8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=26x-TPcsKOE",
@@ -873,7 +873,7 @@
       "人文與科學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "大人的學習法 是由 和田秀樹 撰寫的書籍（代碼 S1-44），內容涵蓋相關領域的深入探討。",
     "author": "和田秀樹",
     "cover_url": "https://img.youtube.com/vi/0JsXQ48AEiI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=cntrsAPuJvA",
@@ -893,7 +893,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "大人的高效獨學法 是由 本山勝寬 撰寫的書籍（代碼 S1-45），內容涵蓋相關領域的深入探討。",
     "author": "本山勝寬",
     "cover_url": "https://img.youtube.com/vi/moSS5eIqgrQ/maxresdefault.jpg",
     "description_cn": "由世界記憶大師池田義博撰寫。書中介紹了如何掌握大腦最佳學習路徑，提升學習表現。作者透過自身經驗和科學研究，提供了實用的記憶和學習技巧，適用於考證照、學習第二專長等各種場景。",
@@ -913,7 +913,7 @@
       "人文與科學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "50個級學習法 50 是由 柿內尚文 撰寫的書籍（代碼 S1-46），內容涵蓋相關領域的深入探討。",
     "author": "柿內尚文",
     "cover_url": "https://img.youtube.com/vi/hAqPbJwHj-I/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=D12MDkFh-lQ",
@@ -933,7 +933,7 @@
       "人文與科學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "超強記憶學習法 是由 Jim Kwik 撰寫的書籍（代碼 S1-47），內容涵蓋相關領域的深入探討。",
     "author": "Jim Kwik",
     "cover_url": "https://img.youtube.com/vi/x0MpZqv7bz4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=sSkJxAEpaTw",
@@ -953,7 +953,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "記憶訓練 是由 Jim Kwik 撰寫的書籍（代碼 S1-48），內容涵蓋相關領域的深入探討。",
     "author": "Jim Kwik",
     "cover_url": "https://img.youtube.com/vi/jTeG_BjP23o/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Su5ZGsTpgXs",
@@ -972,7 +972,7 @@
     "tags": [
       "心智與思維"
     ],
-    "description": "",
+    "description": "深度思考的技術 是由 齋藤嘉則 撰寫的書籍（代碼 S1-49），內容涵蓋相關領域的深入探討。",
     "author": "齋藤嘉則",
     "cover_url": "https://img.youtube.com/vi/A-KWBh-Pmxs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=BYs07bDQIhs",
@@ -991,7 +991,7 @@
     "tags": [
       "推薦書籍"
     ],
-    "description": "",
+    "description": "1% 閱讀術 1% 是由 柳根贊 撰寫的書籍（代碼 S1-50），內容涵蓋相關領域的深入探討。",
     "author": "柳根贊",
     "cover_url": "https://img.youtube.com/vi/BRAbmYkUIpY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XL0UJXYHEEw",
@@ -1010,7 +1010,7 @@
     "tags": [
       "推薦書籍"
     ],
-    "description": "",
+    "description": "閱讀力大全 是由 齋藤孝 撰寫的書籍（代碼 S1-51），內容涵蓋相關領域的深入探討。",
     "author": "齋藤孝",
     "cover_url": "https://img.youtube.com/vi/08NEgapaSBU/maxresdefault.jpg",
     "description_cn": "由佐佐木俊尚撰寫的閱讀力大全。書中介紹了在智慧型手機時代如何進行高效閱讀。作者提供了不需要集中力的知識輸入法和智能輸出法，幫助讀者在碎片化時代活用短集中，將成效最大化。",
@@ -1030,7 +1030,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "雜訊時代的高效資料整理術 是由 岡野純 撰寫的書籍（代碼 S1-52），內容涵蓋相關領域的深入探討。",
     "author": "岡野純",
     "cover_url": "https://img.youtube.com/vi/OtTwAYx8ONk/maxresdefault.jpg",
     "description_cn": "這本書介紹了在雜訊時代進行高效資料整理的術。作者強調資訊管理的重要性，提供了實用的整理方法和工具。書中幫助讀者在資訊爆炸的時代有效篩選和整理資訊。",
@@ -1050,7 +1050,7 @@
       "寫作與表達",
       "提高生產力"
     ],
-    "description": "",
+    "description": "資訊彙整術 - YouTube 頻道主及川幸久的情報收集和表達技巧 是由 及川幸久 撰寫的書籍（代碼 S1-53），內容涵蓋相關領域的深入探討。",
     "author": "及川幸久",
     "cover_url": "https://img.youtube.com/vi/_coiKINBMEY/maxresdefault.jpg",
     "description_cn": "由 YouTube 頻道主及川幸久撰寫。書中介紹了情報收集和表達技巧，強調如何透過系統方法進行資訊彙整。作者分享了自身作為內容創作者的經驗，提供了實用的資訊管理和表達策略。",
@@ -1070,7 +1070,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "讀懂一本書 是由 樊登 撰寫的書籍（代碼 S1-54），內容涵蓋相關領域的深入探討。",
     "author": "樊登",
     "cover_url": "https://img.youtube.com/vi/ZCrObHxs0yI/maxresdefault.jpg",
     "description_cn": "這本書教讀者如何讀懂一本書。作者介紹了深度閱讀的方法和技巧，幫助讀者提升閱讀理解能力。書中強調主動閱讀的重要性，提供了實用的筆記和反思方法。",
@@ -1090,7 +1090,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "你的善良必須更有力量 是由 海苔熊 撰寫的書籍（代碼 S1-55），內容涵蓋相關領域的深入探討。",
     "author": "海苔熊",
     "cover_url": "https://img.youtube.com/vi/g0PaV72NyXc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XpVQsLTthzU",
@@ -1110,7 +1110,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "內心對話的力量 是由 Ethan Kross 撰寫的書籍（代碼 S1-56），內容涵蓋相關領域的深入探討。",
     "author": "Ethan Kross",
     "cover_url": "https://img.youtube.com/vi/jPihWEsIFkQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=tNXiBSC1TqA",
@@ -1130,7 +1130,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "樂觀者的遠見 是由 Bina Venkataraman 撰寫的書籍（代碼 S1-57），內容涵蓋相關領域的深入探討。",
     "author": "Bina Venkataraman",
     "cover_url": "https://img.youtube.com/vi/TjePcIjwCYQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=E3sR_6gXF5g",
@@ -1150,7 +1150,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "做個有溫度的人 是由 林書煒 撰寫的書籍（代碼 S1-58），內容涵蓋相關領域的深入探討。",
     "author": "林書煒",
     "cover_url": "https://img.youtube.com/vi/yfkEn65X03E/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=QwQTMs5cl4g",
@@ -1170,7 +1170,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "真誠就是你的影響力 是由 Simon Sinek 撰寫的書籍（代碼 S1-59），內容涵蓋相關領域的深入探討。",
     "author": "Simon Sinek",
     "cover_url": "https://img.youtube.com/vi/nOTiAALgskM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Kwy09tpwOzU",
@@ -1190,7 +1190,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "My Life in Full 完整的力量 是由 Indra Nooyi 撰寫的書籍（代碼 S1-60），內容涵蓋相關領域的深入探討。",
     "author": "Indra Nooyi",
     "cover_url": "https://img.youtube.com/vi/8l5nyi4xmEk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=hRu_MnB0iXk",
@@ -1209,7 +1209,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "全腦人生 是由 Jill Bolte Taylor 撰寫的書籍（代碼 S1-61），內容涵蓋相關領域的深入探討。",
     "author": "Jill Bolte Taylor",
     "cover_url": "https://img.youtube.com/vi/M6v1rn8ek0o/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=bTnFOE9ux4Q",
@@ -1229,7 +1229,7 @@
       "人文與科學",
       "科學與人文"
     ],
-    "description": "",
+    "description": "打破大腦偽科學 是由 Dean Burnett 撰寫的書籍（代碼 S1-62），內容涵蓋相關領域的深入探討。",
     "author": "Dean Burnett",
     "cover_url": "https://img.youtube.com/vi/ynw9Ud0ZIgA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=DRqUP53s838",
@@ -1251,7 +1251,7 @@
       "思維方式",
       "生產力與時間"
     ],
-    "description": "",
+    "description": "同步大腦思維的時間支配術 是由 鈴木祐 撰寫的書籍（代碼 S1-63），內容涵蓋相關領域的深入探討。",
     "author": "鈴木祐",
     "cover_url": "https://img.youtube.com/vi/lpLIlOib1xs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=OFMtDzgl0vQ",
@@ -1271,7 +1271,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "我為何會這樣 - MBTI人格類型的16種性格密碼 是由 Isabel Briggs Myers 撰寫的書籍（代碼 S1-64），內容涵蓋相關領域的深入探討。",
     "author": "Isabel Briggs Myers",
     "cover_url": "https://img.youtube.com/vi/sYd8nsh0wnA/maxresdefault.jpg",
     "description_cn": "這本書介紹了 MBTI 人格類型的 16 種性格密碼。作者透過科學方法解釋了不同人格類型的特點和優勢。書中幫助讀者理解自己的人格類型，進而改善人際關係和職業選擇。",
@@ -1292,7 +1292,7 @@
       "心理學",
       "科學與人文"
     ],
-    "description": "",
+    "description": "拖延心理學 是由 Jane Burka, Lenora Yuen 撰寫的書籍（代碼 S1-65），內容涵蓋相關領域的深入探討。",
     "author": "Jane Burka, Lenora Yuen",
     "cover_url": "https://img.youtube.com/vi/3yOTxPO6-wc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=MBVucVy1kY0",
@@ -1312,7 +1312,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "自卑與超越 是由 Alfred Adler 撰寫的書籍（代碼 S1-66），內容涵蓋相關領域的深入探討。",
     "author": "Alfred Adler",
     "cover_url": "https://img.youtube.com/vi/CFsedPbQwg8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=c2HyY3Rmedo",
@@ -1332,7 +1332,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "活著覺得麻煩的人 是由 岡田尊司 撰寫的書籍（代碼 S1-67），內容涵蓋相關領域的深入探討。",
     "author": "岡田尊司",
     "cover_url": "https://img.youtube.com/vi/HD_VIAOMlZA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=gpOeIut9QDc",
@@ -1353,7 +1353,7 @@
       "心理學",
       "思維方式"
     ],
-    "description": "",
+    "description": "慣性思維 是由 Michael McQueen 撰寫的書籍（代碼 S1-68），內容涵蓋相關領域的深入探討。",
     "author": "Michael McQueen",
     "cover_url": "https://img.youtube.com/vi/lGjzAQkRVqE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=9CChArlAP8g",
@@ -1373,7 +1373,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "為什麼我們總是相信自己是對的 是由 Julia Galef 撰寫的書籍（代碼 S1-69），內容涵蓋相關領域的深入探討。",
     "author": "Julia Galef",
     "cover_url": "https://img.youtube.com/vi/q8rr4kV-CfM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ObqhL9F2zfg",
@@ -1393,7 +1393,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "重新與人對話 是由 Sherry Turkle 撰寫的書籍（代碼 S1-70），內容涵蓋相關領域的深入探討。",
     "author": "Sherry Turkle",
     "cover_url": "https://img.youtube.com/vi/1lJMA-lkkVc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=R_diKdr3-V8",
@@ -1413,7 +1413,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "和這個世界講講道理 是由 萬維鋼 撰寫的書籍（代碼 S1-71），內容涵蓋相關領域的深入探討。",
     "author": "萬維鋼",
     "cover_url": "https://img.youtube.com/vi/q9fhdGYcE_I/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=zNPSC7tc_hI",
@@ -1433,7 +1433,7 @@
       "思維方式",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "有效決策 是由 Steven Johnson 撰寫的書籍（代碼 S1-72），內容涵蓋相關領域的深入探討。",
     "author": "Steven Johnson",
     "cover_url": "https://img.youtube.com/vi/uOs80sQgdQc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XYQqxBlWtV4",
@@ -1453,7 +1453,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "工作原力 是由 Bruce Daisley 撰寫的書籍（代碼 S1-73），內容涵蓋相關領域的深入探討。",
     "author": "Bruce Daisley",
     "cover_url": "https://img.youtube.com/vi/o8pDz1rR1yE/maxresdefault.jpg",
     "description_cn": "由劍橋學霸撰寫的人生管理術。書中介紹了如何用愉悅心態激發生產力。作者強調克服拖延和倦怠的方法，提供了實用的激勵、解鎖和續航三大步驟。",
@@ -1473,7 +1473,7 @@
       "個人成長",
       "心智與思維"
     ],
-    "description": "",
+    "description": "大賭注心態 是由 Annie Duke 撰寫的書籍（代碼 S1-74），內容涵蓋相關領域的深入探討。",
     "author": "Annie Duke",
     "cover_url": "https://img.youtube.com/vi/LJNxvpSJdIo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Q08rFiKvrEA",
@@ -1493,7 +1493,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "決勝視角 是由 Dave Asprey 撰寫的書籍（代碼 S1-75），內容涵蓋相關領域的深入探討。",
     "author": "Dave Asprey",
     "cover_url": "https://img.youtube.com/vi/cr9sNOLygXE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=p6_D9EPcLyI",
@@ -1513,7 +1513,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "協作原則 是由 Chris Fussell 撰寫的書籍（代碼 S1-76），內容涵蓋相關領域的深入探討。",
     "author": "Chris Fussell",
     "cover_url": "https://img.youtube.com/vi/GyjQSNnApJ4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=z1bNXbEqwLY",
@@ -1533,7 +1533,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "麥肯錫團隊協作力 是由 伊賀泰代 撰寫的書籍（代碼 S1-77），內容涵蓋相關領域的深入探討。",
     "author": "伊賀泰代",
     "cover_url": "https://img.youtube.com/vi/sOQOG2njdOU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=h52uYAb-2Mo",
@@ -1555,7 +1555,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "精準回饋：提升團隊績效，改善溝通的超能⼒ 是由 Joe Hirsch 撰寫的書籍（代碼 S1-78），內容涵蓋相關領域的深入探討。",
     "author": "Joe Hirsch",
     "cover_url": "https://img.youtube.com/vi/44hjEGkEbbM/maxresdefault.jpg",
     "description_cn": "這本書介紹了精準回饋的藝術。作者強調有效回饋對於提升團隊績效的重要性。書中提供了實用的回饋技巧，幫助讀者透過改善溝通提升團隊表現。",
@@ -1575,7 +1575,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "你有正確回答問題嗎 是由 哈爾・乾雷格森 撰寫的書籍（代碼 S1-79），內容涵蓋相關領域的深入探討。",
     "author": "哈爾・乾雷格森",
     "cover_url": "https://img.youtube.com/vi/A6xg1vIME8E/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=jDO1UMbensA",
@@ -1594,7 +1594,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "你要如何衡量你的人生 是由 Clayton M. Christensen 撰寫的書籍（代碼 S1-80），內容涵蓋相關領域的深入探討。",
     "author": "Clayton M. Christensen",
     "cover_url": "https://img.youtube.com/vi/sr2_WiaQTq4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_akjjNPE59Q",
@@ -1614,7 +1614,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "快思慢想 是由 Daniel Kahneman 撰寫的書籍（代碼 S1-81），內容涵蓋相關領域的深入探討。",
     "author": "Daniel Kahneman",
     "cover_url": "https://img.youtube.com/vi/VHhd_QzCK2Y/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=zw3_Ur3J9pE",
@@ -1633,7 +1633,7 @@
     "tags": [
       "藝術與文化"
     ],
-    "description": "",
+    "description": "做自己的生命設計師 是由 Bill Burnett, Dave Evans 撰寫的書籍（代碼 S1-82），內容涵蓋相關領域的深入探討。",
     "author": "Bill Burnett, Dave Evans",
     "cover_url": "https://img.youtube.com/vi/xRegbClsg2U/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=h-a-F76wNog",
@@ -1653,7 +1653,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "慷慨的力量 是由 Adam Grant 撰寫的書籍（代碼 S1-83），內容涵蓋相關領域的深入探討。",
     "author": "Adam Grant",
     "cover_url": "https://img.youtube.com/vi/ZpcL5sGLIx4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=xOWHqkqi3kQ",
@@ -1673,7 +1673,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "最有專注力的一年 是由 Chris Bailey 撰寫的書籍（代碼 S1-84），內容涵蓋相關領域的深入探討。",
     "author": "Chris Bailey",
     "cover_url": "https://img.youtube.com/vi/bTtmnSn5JHQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=QKac71zW1fs",
@@ -1693,7 +1693,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "淤泥效應 是由 Cass R. Sunstein 撰寫的書籍（代碼 S1-85），內容涵蓋相關領域的深入探討。",
     "author": "Cass R. Sunstein",
     "cover_url": "https://img.youtube.com/vi/C_9eglWkBm8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=9tWij52yUJc",
@@ -1713,7 +1713,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "最高精力管理法 是由 Tom Rath 撰寫的書籍（代碼 S1-86），內容涵蓋相關領域的深入探討。",
     "author": "Tom Rath",
     "cover_url": "https://img.youtube.com/vi/4ujg9YP5OoU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_olSHTyjr3I",
@@ -1733,7 +1733,7 @@
       "人文與科學",
       "科學與人文"
     ],
-    "description": "",
+    "description": "科學休息 是由 Alex Soojung-Kim Pang 撰寫的書籍（代碼 S1-87），內容涵蓋相關領域的深入探討。",
     "author": "Alex Soojung-Kim Pang",
     "cover_url": "https://img.youtube.com/vi/up4SVvM1Dr0/maxresdefault.jpg",
     "description_cn": "這本書介紹了科學休息的方法。作者強調休息不是懶惰，而是成長的必要條件。書中提供了實用的休息策略，幫助讀者透過正確的休息方式實現持久的精進。",
@@ -1754,7 +1754,7 @@
       "心理學",
       "思維方式"
     ],
-    "description": "",
+    "description": "創運思維 是由 金度潤 撰寫的書籍（代碼 S1-88），內容涵蓋相關領域的深入探討。",
     "author": "金度潤",
     "cover_url": "https://img.youtube.com/vi/KnihLLf5-JE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=6NZFB4zQu4E",
@@ -1774,7 +1774,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "領導者該想什麼 是由 Gerald M. Weinberg 撰寫的書籍（代碼 S1-89），內容涵蓋相關領域的深入探討。",
     "author": "Gerald M. Weinberg",
     "cover_url": "https://img.youtube.com/vi/p7PgRaGSSUY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=tBEYUfHjBEk",
@@ -1794,7 +1794,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "你想成為什麼樣的人 是由 James Clear 撰寫的書籍（代碼 S1-90），內容涵蓋相關領域的深入探討。",
     "author": "James Clear",
     "cover_url": "https://img.youtube.com/vi/Gp1ip_8f1yU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=JjYKdaaf6N0",
@@ -1814,7 +1814,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "一切都是誘因的問題 是由 Uri Gneezy, John List 撰寫的書籍（代碼 S1-91），內容涵蓋相關領域的深入探討。",
     "author": "Uri Gneezy, John List",
     "cover_url": "https://img.youtube.com/vi/t504G2U9Zkg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=2uWVWigEN7A",
@@ -1833,7 +1833,7 @@
     "tags": [
       "生產力與時間"
     ],
-    "description": "",
+    "description": "執行長日記 是由 Steven Bartlett 撰寫的書籍（代碼 S1-92），內容涵蓋相關領域的深入探討。",
     "author": "Steven Bartlett",
     "cover_url": "https://img.youtube.com/vi/lBxCuRPmgO8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=JMIN9RfdnBI",
@@ -1853,7 +1853,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "鋼鐵⼈⾺斯克 是由 Ashlee Vance 撰寫的書籍（代碼 S1-93），內容涵蓋相關領域的深入探討。",
     "author": "Ashlee Vance",
     "cover_url": "https://img.youtube.com/vi/3aBuyMbof1E/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=MF1FsD1KPC0",
@@ -1873,7 +1873,7 @@
       "傳記與故事",
       "自傳與小說"
     ],
-    "description": "",
+    "description": "馬斯克傳   唯一不設限、全公開傳記 是由 Walter Isaacson 撰寫的書籍（代碼 S1-94），內容涵蓋相關領域的深入探討。",
     "author": "Walter Isaacson",
     "cover_url": "https://img.youtube.com/vi/fyWEtIIBS04/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=y5JpgxGeFKg",
@@ -1893,7 +1893,7 @@
       "傳記與故事",
       "自傳與小說"
     ],
-    "description": "",
+    "description": "張忠謀 自傳 是由 張忠謀 撰寫的書籍（代碼 S1-95），內容涵蓋相關領域的深入探討。",
     "author": "張忠謀",
     "cover_url": "https://img.youtube.com/vi/7hnwn3z1tEE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=UTgu7wvpHa8",
@@ -1912,7 +1912,7 @@
     "tags": [
       "傳記與故事"
     ],
-    "description": "",
+    "description": "賈伯斯傳 是由 Walter Isaacson 撰寫的書籍（代碼 S1-96），內容涵蓋相關領域的深入探討。",
     "author": "Walter Isaacson",
     "cover_url": "https://img.youtube.com/vi/KNVhwop_zH0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=AfBr3fTQvT0",
@@ -1931,7 +1931,7 @@
     "tags": [
       "傳記與故事"
     ],
-    "description": "",
+    "description": "貝佐斯傳 是由 Brad Stone 撰寫的書籍（代碼 S1-97），內容涵蓋相關領域的深入探討。",
     "author": "Brad Stone",
     "cover_url": "https://img.youtube.com/vi/YfVJ3dTYt-Q/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=iTY23qLTl4Q",
@@ -1951,7 +1951,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "複利領導 是由 賴婷婷 撰寫的書籍（代碼 S1-98），內容涵蓋相關領域的深入探討。",
     "author": "賴婷婷",
     "cover_url": "https://img.youtube.com/vi/xFLvsFN4YVo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=kxOcr-3bbTY",
@@ -1971,7 +1971,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "超級專案管理 是由 Bent Flyvbjerg 撰寫的書籍（代碼 S1-99），內容涵蓋相關領域的深入探討。",
     "author": "Bent Flyvbjerg",
     "cover_url": "https://img.youtube.com/vi/9Yh7N97Gp8c/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=hKlvJJYe_hs",
@@ -1991,7 +1991,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "原始碼 成為比爾蓋茲 是由 Bill Gates 撰寫的書籍（代碼 S1-100），內容涵蓋相關領域的深入探討。",
     "author": "Bill Gates",
     "cover_url": "https://img.youtube.com/vi/joblnxxbXRg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=R_NBJlxAvB4",
@@ -2011,7 +2011,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "恆毅力 是由 Angela Duckworth 撰寫的書籍（代碼 S2-01），內容涵蓋相關領域的深入探討。",
     "author": "Angela Duckworth",
     "cover_url": "https://img.youtube.com/vi/sE9NJNWkFTE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=pAYjEsmsns8",
@@ -2031,7 +2031,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "The Start Up of You 第一次工作就該懂 是由 Reid Hoffman 撰寫的書籍（代碼 S2-02），內容涵蓋相關領域的深入探討。",
     "author": "Reid Hoffman",
     "cover_url": "https://img.youtube.com/vi/h_zPE87nPco/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=90XDkauZKyI",
@@ -2051,7 +2051,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Missing Each Other 調和 是由 Edward Brodkin, Ashley Pallathra 撰寫的書籍（代碼 S2-03），內容涵蓋相關領域的深入探討。",
     "author": "Edward Brodkin, Ashley Pallathra",
     "cover_url": "https://img.youtube.com/vi/x02buw-HlaM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=v1sK4uBNmbo",
@@ -2070,7 +2070,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "就怕平庸成為你的人生註解 是由 歐陽立中 撰寫的書籍（代碼 S2-04），內容涵蓋相關領域的深入探討。",
     "author": "歐陽立中",
     "cover_url": "https://img.youtube.com/vi/dyip3VSIglg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=d0z9t1xAf1E",
@@ -2090,7 +2090,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "不要變成壞掉的大人 是由 十方 撰寫的書籍（代碼 S2-05），內容涵蓋相關領域的深入探討。",
     "author": "十方",
     "cover_url": "https://img.youtube.com/vi/Zf2AfPruuEo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=G-XVzxkDBgI",
@@ -2110,7 +2110,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "內在提問 是由 Byron Katie 撰寫的書籍（代碼 S2-06），內容涵蓋相關領域的深入探討。",
     "author": "Byron Katie",
     "cover_url": "https://img.youtube.com/vi/dGlei6lL678/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=U1epmJSoxbc",
@@ -2130,7 +2130,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "放棄的力量 是由 Seth Godin 撰寫的書籍（代碼 S2-07），內容涵蓋相關領域的深入探討。",
     "author": "Seth Godin",
     "cover_url": "https://img.youtube.com/vi/ArZm1bXbtAI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=aCHd5LQBPyw",
@@ -2150,7 +2150,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "練習不想要 是由 松浦彌太郎 撰寫的書籍（代碼 S2-08），內容涵蓋相關領域的深入探討。",
     "author": "松浦彌太郎",
     "cover_url": "https://img.youtube.com/vi/q6yuKrOxnu0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=b9-iRgDyM3o",
@@ -2169,7 +2169,7 @@
     "tags": [
       "心智與思維"
     ],
-    "description": "",
+    "description": "思考的法則 是由 Edward de Bono 撰寫的書籍（代碼 S2-09），內容涵蓋相關領域的深入探討。",
     "author": "Edward de Bono",
     "cover_url": "https://img.youtube.com/vi/sSyZCbyS_6c/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=KuGgMA1w3tU",
@@ -2189,7 +2189,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "機緣力 是由 Christian Busch 撰寫的書籍（代碼 S2-10），內容涵蓋相關領域的深入探討。",
     "author": "Christian Busch",
     "cover_url": "https://img.youtube.com/vi/dVj5hB4s9Vg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=QoZz0YCedPc",
@@ -2208,7 +2208,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "原子習慣 是由 James Clear 撰寫的書籍（代碼 S2-11），內容涵蓋相關領域的深入探討。",
     "author": "James Clear",
     "cover_url": "https://img.youtube.com/vi/5VhzIyjF8t0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Z7LBF6uouKM",
@@ -2228,7 +2228,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "與成功有約 是由 Stephen R. Covey 撰寫的書籍（代碼 S2-12），內容涵蓋相關領域的深入探討。",
     "author": "Stephen R. Covey",
     "cover_url": "https://img.youtube.com/vi/ybuXGQW3D50/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=N8WJHHTI4tk",
@@ -2247,7 +2247,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "第八個習慣 The 8th 是由 Stephen R. Covey 撰寫的書籍（代碼 S2-13），內容涵蓋相關領域的深入探討。",
     "author": "Stephen R. Covey",
     "cover_url": "https://img.youtube.com/vi/7qDcfwEpWHI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_6_Wse_pqEQ",
@@ -2267,7 +2267,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "與婚姻有約 The 7 是由 Stephen R. Covey 撰寫的書籍（代碼 S2-14），內容涵蓋相關領域的深入探討。",
     "author": "Stephen R. Covey",
     "cover_url": "https://img.youtube.com/vi/PtNed6vmk2Y/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=30qeT5D9ybo",
@@ -2287,7 +2287,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "我想跟你好好聊聊 是由 李松蔚 撰寫的書籍（代碼 S2-15），內容涵蓋相關領域的深入探討。",
     "author": "李松蔚",
     "cover_url": "https://img.youtube.com/vi/oSxwOEWBQY8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=staYsV61m3s",
@@ -2307,7 +2307,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "幸福之路 是由 Bertrand Russell 撰寫的書籍（代碼 S2-16），內容涵蓋相關領域的深入探討。",
     "author": "Bertrand Russell",
     "cover_url": "https://img.youtube.com/vi/DJ_khUw2JiQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=tMxFkYbiE7E",
@@ -2327,7 +2327,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "先問為什麼 是由 Simon Sinek 撰寫的書籍（代碼 S2-17），內容涵蓋相關領域的深入探討。",
     "author": "Simon Sinek",
     "cover_url": "https://img.youtube.com/vi/HA-MUhF3kpY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=2pUPBTHl8Zo",
@@ -2347,7 +2347,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "納瓦爾寶典 是由 Eric Jorgenson 撰寫的書籍（代碼 S2-18），內容涵蓋相關領域的深入探討。",
     "author": "Eric Jorgenson",
     "cover_url": "https://img.youtube.com/vi/y2NbxKRKY_w/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=C0xPByeZRrI",
@@ -2367,7 +2367,7 @@
       "商業與創業",
       "投資理財"
     ],
-    "description": "",
+    "description": "The E Myth Revisited 創業這條路 是由 Michael E. Gerber 撰寫的書籍（代碼 S2-19），內容涵蓋相關領域的深入探討。",
     "author": "Michael E. Gerber",
     "cover_url": "https://img.youtube.com/vi/BKYeZj4YeRg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=V2iImfXaV7Q",
@@ -2387,7 +2387,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "從0到1 Zero to One  Notes on Startups, or 是由 Peter Thiel 撰寫的書籍（代碼 S2-20），內容涵蓋相關領域的深入探討。",
     "author": "Peter Thiel",
     "cover_url": "https://img.youtube.com/vi/rDIAU-WOUT0/maxresdefault.jpg",
     "description_cn": "Peter Thiel與Blake Masters合著的創業聖經，主張真正的創新是從0到1的突破，而非從1到N的複製。探討壟斷、競爭、秘密等概念，為創業者提供獨特的思維框架。",
@@ -2407,7 +2407,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "The Unfair Advantage 是由 Ash Ali, Hasan Kubba 撰寫的書籍（代碼 S2-21），內容涵蓋相關領域的深入探討。",
     "author": "Ash Ali, Hasan Kubba",
     "cover_url": "https://img.youtube.com/vi/UFUfpWGx83c/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=0ZqFAcAlzKk",
@@ -2427,7 +2427,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "隱喻領導力 是由 陳朝益 撰寫的書籍（代碼 S2-22），內容涵蓋相關領域的深入探討。",
     "author": "陳朝益",
     "cover_url": "https://img.youtube.com/vi/vrhfZH0dDxc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=xOWHqkqi3kQ",
@@ -2447,7 +2447,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "什麼都不教的上司才厲害 是由 森泰造 撰寫的書籍（代碼 S2-23），內容涵蓋相關領域的深入探討。",
     "author": "森泰造",
     "cover_url": "https://img.youtube.com/vi/c9Uyo2ggqNY/maxresdefault.jpg",
     "description_cn": "日本管理學者森泰造的領導力著作，提出好的上司不應事事指導，而是創造讓部屬自主成長的環境。透過提問而非指令的方式，激發團隊的創造力與責任感。",
@@ -2466,7 +2466,7 @@
     "tags": [
       "商業與創業"
     ],
-    "description": "",
+    "description": "稻盛和夫 中小企業學 是由 稻盛和夫 撰寫的書籍（代碼 S2-24），內容涵蓋相關領域的深入探討。",
     "author": "稻盛和夫",
     "cover_url": "https://img.youtube.com/vi/uMk2UuNFRQE/maxresdefault.jpg",
     "description_cn": "這是一部關於商業策略和創業精神的實用指南。書中分享了成功企業家的經驗和教訓，為有志創業者提供了寶貴的建議。",
@@ -2486,7 +2486,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "How to Lead When You are Not in Charge 是由 Clay Scroggins 撰寫的書籍（代碼 S2-25），內容涵蓋相關領域的深入探討。",
     "author": "Clay Scroggins",
     "cover_url": "https://img.youtube.com/vi/0xQ_K_dq7aY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=T29cq4lMfPg",
@@ -2506,7 +2506,7 @@
       "心智與思維",
       "思維方式"
     ],
-    "description": "",
+    "description": "增長的邏輯 是由 李善友 撰寫的書籍（代碼 S2-26），內容涵蓋相關領域的深入探討。",
     "author": "李善友",
     "cover_url": "https://img.youtube.com/vi/nJJUG9moRM0/maxresdefault.jpg",
     "description_cn": "李善友的商業成長策略著作，系統性地分析企業增長背後的邏輯與規律。提供從產品、營銷到組織的全方位增長框架，幫助企業找到持續成長的動力。",
@@ -2526,7 +2526,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "下一個現在 是由 Lee Smolin 撰寫的書籍（代碼 S2-27），內容涵蓋相關領域的深入探討。",
     "author": "Lee Smolin",
     "cover_url": "https://img.youtube.com/vi/HWhmQsThu0M/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=be_XIwcmqHw",
@@ -2546,7 +2546,7 @@
       "心智與思維",
       "思維方式"
     ],
-    "description": "",
+    "description": "AI世界的底層邏輯與生存法則 是由 劉潤 撰寫的書籍（代碼 S2-28），內容涵蓋相關領域的深入探討。",
     "author": "劉潤",
     "cover_url": "https://img.youtube.com/vi/Mw9dM2PAAgU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=7SS8vWT7SaI",
@@ -2566,7 +2566,7 @@
       "人文與科學",
       "科學與人文"
     ],
-    "description": "",
+    "description": "人類大歷史 是由 Yuval Noah Harari 撰寫的書籍（代碼 S2-29），內容涵蓋相關領域的深入探討。",
     "author": "Yuval Noah Harari",
     "cover_url": "https://img.youtube.com/vi/W3UcUmtwnuE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=QEVJ93bOoQk",
@@ -2586,7 +2586,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "100 Ways to Motivate Yourself 是由 Steve Chandler 撰寫的書籍（代碼 S2-30），內容涵蓋相關領域的深入探討。",
     "author": "Steve Chandler",
     "cover_url": "https://img.youtube.com/vi/I6YQpYXxg10/maxresdefault.jpg",
     "description_cn": "Steve Chandler的自我激勵指南，提供100種實用的自我激勵方法。從改變思維模式到建立行動習慣，幫助讀者克服拖延、提升動力，活出更有活力的人生。",
@@ -2606,7 +2606,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "你就是困住自己的那座山 是由 Brianna Wiest 撰寫的書籍（代碼 S2-31），內容涵蓋相關領域的深入探討。",
     "author": "Brianna Wiest",
     "cover_url": "https://img.youtube.com/vi/I8Kx9xfzjJI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=jDWQ-6U_cwE",
@@ -2626,7 +2626,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "我們攜帶的光 是由 Michelle Obama 撰寫的書籍（代碼 S2-32），內容涵蓋相關領域的深入探討。",
     "author": "Michelle Obama",
     "cover_url": "https://img.youtube.com/vi/6EW2YAtsNVQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Vp6gJoHg-oU",
@@ -2645,7 +2645,7 @@
     "tags": [
       "傳記與故事"
     ],
-    "description": "",
+    "description": "大谷翔平   棒球雙刀流現象級傳奇 是由 Jay Paris 撰寫的書籍（代碼 S2-33），內容涵蓋相關領域的深入探討。",
     "author": "Jay Paris",
     "cover_url": "https://img.youtube.com/vi/c13OuGZvU7g/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=8EzM6QGsyGY",
@@ -2664,7 +2664,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "改變人生的早起習慣養成   塚本亮 是由 塚本亮 撰寫的書籍（代碼 S2-34），內容涵蓋相關領域的深入探討。",
     "author": "塚本亮",
     "cover_url": "https://img.youtube.com/vi/EujpYfECMhI/maxresdefault.jpg",
     "description_cn": "塚本亮分享早起習慣如何徹底改變人生的實踐指南。從設定晨間儀式到建立持續動力，提供具體方法幫助讀者利用早晨時光提升生產力與生活品質。",
@@ -2684,7 +2684,7 @@
       "心智與思維",
       "心理學"
     ],
-    "description": "",
+    "description": "打開心智 是由 萬維鋼 撰寫的書籍（代碼 S2-35），內容涵蓋相關領域的深入探討。",
     "author": "萬維鋼",
     "cover_url": "https://img.youtube.com/vi/jymy7o0RjGA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=863EYNM7_vU",
@@ -2704,7 +2704,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "世界是平的 大腦是皺的 是由 謝伯讓 撰寫的書籍（代碼 S2-36），內容涵蓋相關領域的深入探討。",
     "author": "謝伯讓",
     "cover_url": "https://img.youtube.com/vi/VcjHLxIkDLw/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=vYzwNVGJH7Q",
@@ -2724,7 +2724,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "信任的秘密 是由 Stephen M.R. Covey 撰寫的書籍（代碼 S2-37），內容涵蓋相關領域的深入探討。",
     "author": "Stephen M.R. Covey",
     "cover_url": "https://img.youtube.com/vi/Fc5Qi771onA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=iG6K9toQEgY",
@@ -2744,7 +2744,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "再忙也要躺好躺滿 是由 Matthew Walker 撰寫的書籍（代碼 S2-38），內容涵蓋相關領域的深入探討。",
     "author": "Matthew Walker",
     "cover_url": "https://img.youtube.com/vi/o55kvaOYLsI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=IqZe4PfziDI",
@@ -2763,7 +2763,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "別讓自責成為一種習慣   根本裕幸 是由 根本裕幸 撰寫的書籍（代碼 S2-39），內容涵蓋相關領域的深入探討。",
     "author": "根本裕幸",
     "cover_url": "https://img.youtube.com/vi/NUEp1lDdHoY/maxresdefault.jpg",
     "description_cn": "根本裕幸的心理學著作，探討自責習慣如何損害心理健康與人際關係。提供具體方法幫助讀者辨識並改變過度自責的模式，學會善待自己、建立健康的自我評價。",
@@ -2782,7 +2782,7 @@
     "tags": [
       "心智與思維"
     ],
-    "description": "",
+    "description": "六頂思考帽 是由 Edward de Bono 撰寫的書籍（代碼 S2-40），內容涵蓋相關領域的深入探討。",
     "author": "Edward de Bono",
     "cover_url": "https://img.youtube.com/vi/q3d13zCWNvo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=cIX1PAudSVM",
@@ -2801,7 +2801,7 @@
     "tags": [
       "藝術與文化"
     ],
-    "description": "",
+    "description": "不服從的藝術 是由 中島聰 撰寫的書籍（代碼 S2-41），內容涵蓋相關領域的深入探討。",
     "author": "中島聰",
     "cover_url": "https://img.youtube.com/vi/ChX6ZyJvPDc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=e4PtqZHacXA",
@@ -2821,7 +2821,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "憤怒的勇氣 是由 岸見一郎 撰寫的書籍（代碼 S2-42），內容涵蓋相關領域的深入探討。",
     "author": "岸見一郎",
     "cover_url": "https://img.youtube.com/vi/AOdquXXMk-s/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=wtt_zBJc1Kc",
@@ -2841,7 +2841,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "盲視效應 Blind Sight   Matt Johnson PhD, 是由 Matt Johnson, Prince Ghuman 撰寫的書籍（代碼 S2-43），內容涵蓋相關領域的深入探討。",
     "author": "Matt Johnson, Prince Ghuman",
     "cover_url": "https://img.youtube.com/vi/dd8ArKrkRHU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=cYNsTB1F5uw",
@@ -2861,7 +2861,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "勾引 是由 Nir Eyal 撰寫的書籍（代碼 S2-44），內容涵蓋相關領域的深入探討。",
     "author": "Nir Eyal",
     "cover_url": "https://img.youtube.com/vi/uZeH8bALQ-4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XVJdDwB2if4",
@@ -2882,7 +2882,7 @@
       "心理學",
       "科學與人文"
     ],
-    "description": "",
+    "description": "購物心理學 是由 Paco Underhill 撰寫的書籍（代碼 S2-45），內容涵蓋相關領域的深入探討。",
     "author": "Paco Underhill",
     "cover_url": "https://img.youtube.com/vi/PEQpcNZkxH4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=dhjyvbIcTpM",
@@ -2902,7 +2902,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "供應鏈戰爭 是由 Ed Conway 撰寫的書籍（代碼 S2-46），內容涵蓋相關領域的深入探討。",
     "author": "Ed Conway",
     "cover_url": "https://img.youtube.com/vi/ETONorY4EEs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=MHB4JzL7frI",
@@ -2922,7 +2922,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "一鍵購買 是由 Brad Stone 撰寫的書籍（代碼 S2-47），內容涵蓋相關領域的深入探討。",
     "author": "Brad Stone",
     "cover_url": "https://img.youtube.com/vi/Wucl19oW_Rg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XLBjF7QH_1Q",
@@ -2942,7 +2942,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "亞馬遜逆向工作法 Working Backwards Insights, Stories, and 是由 Colin Bryar 撰寫的書籍（代碼 S2-48），內容涵蓋相關領域的深入探討。",
     "author": "Colin Bryar",
     "cover_url": "https://img.youtube.com/vi/88ySazg6EQc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=QWjm5JC21x8",
@@ -2962,7 +2962,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "規模化效應 是由 John A. List 撰寫的書籍（代碼 S2-49），內容涵蓋相關領域的深入探討。",
     "author": "John A. List",
     "cover_url": "https://img.youtube.com/vi/1Rw8zMh9Ajc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=7XhomYgm5ho",
@@ -2982,7 +2982,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "多一法則 是由 Ed Mylett 撰寫的書籍（代碼 S2-50），內容涵蓋相關領域的深入探討。",
     "author": "Ed Mylett",
     "cover_url": "https://img.youtube.com/vi/sqTKbtduz4Y/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=MKGUYsCQQtE",
@@ -3001,7 +3001,7 @@
     "tags": [
       "心智與思維"
     ],
-    "description": "",
+    "description": "解決問題 先從盲點開始 プロの思考整理術 是由 齋藤嘉則 撰寫的書籍（代碼 S2-51），內容涵蓋相關領域的深入探討。",
     "author": "齋藤嘉則",
     "cover_url": "https://img.youtube.com/vi/amtYS0vicjI/maxresdefault.jpg",
     "description_cn": "齋藤嘉則的問題解決方法論，教導讀者如何識別思維盲點、打破固有框架。提供系統性的思考整理術，從問題的本質出發找到真正有效的解決方案。",
@@ -3021,7 +3021,7 @@
       "個人成長",
       "生產力與時間"
     ],
-    "description": "",
+    "description": "魯蛇的翻轉人生計畫 凡人くんの人生革命 是由 ヒトデ 撰寫的書籍（代碼 S2-52），內容涵蓋相關領域的深入探討。",
     "author": "ヒトデ",
     "cover_url": "https://img.youtube.com/vi/P7UHG0ybMSA/maxresdefault.jpg",
     "description_cn": "日本作家ヒトデ分享從普通上班族逆轉人生的實踐經驗。透過副業經營、自我投資等方法，提供平凡人也能實現人生轉彎的具體行動指南。",
@@ -3040,7 +3040,7 @@
     "tags": [
       "生產力與時間"
     ],
-    "description": "",
+    "description": "學會曼陀羅計畫表 你想要的都得到 一流の達成力 是由 原田隆史 撰寫的書籍（代碼 S2-53），內容涵蓋相關領域的深入探討。",
     "author": "原田隆史",
     "cover_url": "https://img.youtube.com/vi/jq9648X3w7I/maxresdefault.jpg",
     "description_cn": "《學會曼陀羅計畫表 你想要的都得到 一流の達成力》是一部深具啟發性的著作。本書通過深入淺出的方式，為讀者呈現了重要的知識和見解，值得細心閱讀。",
@@ -3060,7 +3060,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "親愛的那不是你的錯 是由 Mark Wolynn 撰寫的書籍（代碼 S2-54），內容涵蓋相關領域的深入探討。",
     "author": "Mark Wolynn",
     "cover_url": "https://img.youtube.com/vi/2kt_tgYqThU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=qzOU-z0OqFE",
@@ -3080,7 +3080,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "薩提爾的親密關係修復練習 是由 李崇建 撰寫的書籍（代碼 S2-55），內容涵蓋相關領域的深入探討。",
     "author": "李崇建",
     "cover_url": "https://img.youtube.com/vi/a0u_Ib-NVEo/maxresdefault.jpg",
     "description_cn": "李崇建以薩提爾模式為基礎的關係修復指南，提供改善親密關係的實用對話練習。幫助讀者理解關係中的情緒模式，學會以真誠溝通重建連結。",
@@ -3100,7 +3100,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "讓身心回歸平衡的姿勢與呼吸調整法 是由 片平悅子 撰寫的書籍（代碼 S2-56），內容涵蓋相關領域的深入探討。",
     "author": "片平悅子",
     "cover_url": "https://img.youtube.com/vi/7x_yVNWX7oY/maxresdefault.jpg",
     "description_cn": "片平悅子的身心健康著作，探討姿勢與呼吸如何影響整體健康。提供簡單實用的調整方法，幫助讀者透過正確的身體姿態和呼吸技巧恢復身心平衡。",
@@ -3120,7 +3120,7 @@
       "心理學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "情緒食療 是由 吳宏乾 撰寫的書籍（代碼 S2-57），內容涵蓋相關領域的深入探討。",
     "author": "吳宏乾",
     "cover_url": "https://img.youtube.com/vi/3ZrRGdFUad8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=SAX3vKCbi7w",
@@ -3140,7 +3140,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "全齡顧齒攻略 是由 魏矜持 撰寫的書籍（代碼 S2-58），內容涵蓋相關領域的深入探討。",
     "author": "魏矜持",
     "cover_url": "https://img.youtube.com/vi/Q-MLY-YRQA0/maxresdefault.jpg",
     "description_cn": "魏矜持的口腔健康全攻略，涵蓋各年齡層的牙齒保健知識。從兒童到老年人，提供預防與保養的實用建議，幫助讀者維護一生的口腔健康。",
@@ -3160,7 +3160,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "吃藥前你必須知道的事 是由 王明鉅 撰寫的書籍（代碼 S2-59），內容涵蓋相關領域的深入探討。",
     "author": "王明鉅",
     "cover_url": "https://img.youtube.com/vi/B15Ur3eqgi0/maxresdefault.jpg",
     "description_cn": "王明鉅醫師的用藥安全指南，揭示就醫用藥的重要知識。幫助讀者了解藥物的作用、副作用與交互作用，做出更明智的醫療決策。",
@@ -3180,7 +3180,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "新斷捨離 是由 山下英子 撰寫的書籍（代碼 S2-60），內容涵蓋相關領域的深入探討。",
     "author": "山下英子",
     "cover_url": "https://img.youtube.com/vi/QC9aKfFjMj4/maxresdefault.jpg",
     "description_cn": "山下英子斷捨離理念的最新版本，探討在數位時代如何實踐物質與心靈的整理。提供更新、更貼近現代生活的斷捨離方法，幫助讀者活出清爽的人生。",
@@ -3200,7 +3200,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "停損的勝算 是由 Annie Duke 撰寫的書籍（代碼 S2-61），內容涵蓋相關領域的深入探討。",
     "author": "Annie Duke",
     "cover_url": "https://img.youtube.com/vi/e4XTlVSQr8k/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=tNyd60HxBMw",
@@ -3220,7 +3220,7 @@
       "心理學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "情緒同理 是由 Leslie Greenberg 撰寫的書籍（代碼 S2-62），內容涵蓋相關領域的深入探討。",
     "author": "Leslie Greenberg",
     "cover_url": "https://img.youtube.com/vi/326mCwN-olU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rzGiWyS94aE",
@@ -3240,7 +3240,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "倦怠 為何我們不想工作   波波夫 Exhausted Why We Don’t 是由 波波夫 撰寫的書籍（代碼 S2-63），內容涵蓋相關領域的深入探討。",
     "author": "波波夫",
     "cover_url": "https://img.youtube.com/vi/0kFmt6OKFLs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=x5FG5cslnK0",
@@ -3260,7 +3260,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "假面社交    李軒洋 是由 李軒洋 撰寫的書籍（代碼 S2-64），內容涵蓋相關領域的深入探討。",
     "author": "李軒洋",
     "cover_url": "https://img.youtube.com/vi/BqNGoSunBcc/maxresdefault.jpg",
     "description_cn": "《假面社交》由李軒洋撰寫，揭示現代社交中的虛偽與面具現象。分析人們在社交場合中的心理動機與行為模式，提供更真誠、有效的人際互動方法，幫助讀者建立更真實的關係。",
@@ -3280,7 +3280,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "底層網紅 是由 希米恩·布朗 撰寫的書籍（代碼 S2-65），內容涵蓋相關領域的深入探討。",
     "author": "希米恩·布朗",
     "cover_url": "https://img.youtube.com/vi/S2nAjGPqwlI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_yqjC9Ty0Mg",
@@ -3300,7 +3300,7 @@
       "投資理財",
       "投資與理財"
     ],
-    "description": "",
+    "description": "紅人經濟   李檬 是由 李檬 撰寫的書籍（代碼 S2-66），內容涵蓋相關領域的深入探討。",
     "author": "李檬",
     "cover_url": "https://img.youtube.com/vi/cPw658xZ3jY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=YWpsrrohymM",
@@ -3320,7 +3320,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "譯者即叛徒 是由 趙彥春 撰寫的書籍（代碼 S2-67），內容涵蓋相關領域的深入探討。",
     "author": "趙彥春",
     "cover_url": "https://img.youtube.com/vi/hrX_8uvohhY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=4x1ob5rOmh0",
@@ -3341,7 +3341,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "子彈溝通   言語武器化 精準吸睛法 是由 何亞妮 撰寫的書籍（代碼 S2-68），內容涵蓋相關領域的深入探討。",
     "author": "何亞妮",
     "cover_url": "https://img.youtube.com/vi/CPg5hjfWjT0/maxresdefault.jpg",
     "description_cn": "這是一部提升寫作和表達能力的經典著作。書中提供了實用的技巧和方法，幫助讀者更清晰、更有效地表達自己的想法。",
@@ -3360,7 +3360,7 @@
     "tags": [
       "寫作與表達"
     ],
-    "description": "",
+    "description": "總統文膽魅力表達課   江原國 是由 江原國 撰寫的書籍（代碼 S2-69），內容涵蓋相關領域的深入探討。",
     "author": "江原國",
     "cover_url": "https://img.youtube.com/vi/Bv7gtH73X-8/maxresdefault.jpg",
     "description_cn": "這是一部提升寫作和表達能力的經典著作。書中提供了實用的技巧和方法，幫助讀者更清晰、更有效地表達自己的想法。",
@@ -3380,7 +3380,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "重新丈量世界 是由 褚君浩 撰寫的書籍（代碼 S2-72），內容涵蓋相關領域的深入探討。",
     "author": "褚君浩",
     "cover_url": "https://img.youtube.com/vi/t3vFp5jX5zg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=oODnwhOU9Jw",
@@ -3400,7 +3400,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Growth From Microorganisms to Megacities 是由 Vaclav Smil 撰寫的書籍（代碼 S2-73），內容涵蓋相關領域的深入探討。",
     "author": "Vaclav Smil",
     "cover_url": "https://img.youtube.com/vi/Oql1Zg7wqrU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=LEXYMR06byM",
@@ -3420,7 +3420,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "激活增長 是由 周辰飛, 江竹兵 撰寫的書籍（代碼 S2-74），內容涵蓋相關領域的深入探討。",
     "author": "周辰飛, 江竹兵",
     "cover_url": "https://img.youtube.com/vi/xDYQGZBiTUg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=dovg8WE9h44",
@@ -3440,7 +3440,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "無人地球 是由 達瑞爾·布瑞克, 約翰·伊比森 撰寫的書籍（代碼 S2-75），內容涵蓋相關領域的深入探討。",
     "author": "達瑞爾·布瑞克, 約翰·伊比森",
     "cover_url": "https://img.youtube.com/vi/3OWkbjISOfk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ZY3PAyVEkMg",
@@ -3460,7 +3460,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "CIA探員教你培養高應變力的孩子 是由 Christina Hillsberg 撰寫的書籍（代碼 S2-76），內容涵蓋相關領域的深入探討。",
     "author": "Christina Hillsberg",
     "cover_url": "https://img.youtube.com/vi/KMYYmeetp8g/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=n3khpwgWwMc",
@@ -3480,7 +3480,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "CIA教你讓人說出真心話 是由 Philip Houston 撰寫的書籍（代碼 S2-77），內容涵蓋相關領域的深入探討。",
     "author": "Philip Houston",
     "cover_url": "https://img.youtube.com/vi/G9W2IJn-edg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ZrGc4WyS1ZQ",
@@ -3500,7 +3500,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "日本頂尖執事教你察言觀色 是由 新井直之 撰寫的書籍（代碼 S2-78），內容涵蓋相關領域的深入探討。",
     "author": "新井直之",
     "cover_url": "https://img.youtube.com/vi/rzJEG4QuRHg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=d3XE-jA98Kg",
@@ -3522,7 +3522,7 @@
       "提高生產力",
       "科學與人文"
     ],
-    "description": "",
+    "description": "1秒轉換情緒的51個心理學技巧 是由 中村將 撰寫的書籍（代碼 S2-79），內容涵蓋相關領域的深入探討。",
     "author": "中村將",
     "cover_url": "https://img.youtube.com/vi/Kvvs_JLFahs/maxresdefault.jpg",
     "description_cn": "這部作品融合了人文和科學的視角，為讀者提供了獨特的知識視野。通過跨學科的分析，讀者可以更全面地理解世界。",
@@ -3542,7 +3542,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "讓世界身心失調的狂愛與恐懼之因 是由 Marianne Williamson 撰寫的書籍（代碼 S2-80），內容涵蓋相關領域的深入探討。",
     "author": "Marianne Williamson",
     "cover_url": "https://img.youtube.com/vi/B8g5bdtbpZA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_5So57kQQfI",
@@ -3562,7 +3562,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "起床後的黃金一小時 是由 池田千恵 撰寫的書籍（代碼 S2-81），內容涵蓋相關領域的深入探討。",
     "author": "池田千恵",
     "cover_url": "https://img.youtube.com/vi/frcVODD__n4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=hh1jZi_8zvo",
@@ -3582,7 +3582,7 @@
       "個人成長",
       "心智與思維"
     ],
-    "description": "",
+    "description": "致勝心態 是由 Carol S. Dweck 撰寫的書籍（代碼 S2-82），內容涵蓋相關領域的深入探討。",
     "author": "Carol S. Dweck",
     "cover_url": "https://img.youtube.com/vi/hEZeTdRgc9U/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=as-HMAt-IJg",
@@ -3602,7 +3602,7 @@
       "個人成長",
       "投資與理財"
     ],
-    "description": "",
+    "description": "億萬富翁的成功習慣 Millionaire Success Habits The Gateway to Wealth ^0 是由 Dean Graziosi 撰寫的書籍（代碼 S2-83），內容涵蓋相關領域的深入探討。",
     "author": "Dean Graziosi",
     "cover_url": "https://img.youtube.com/vi/usz01RyfKik/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=eAQpA2i5_-k",
@@ -3621,7 +3621,7 @@
     "tags": [
       "投資與理財"
     ],
-    "description": "",
+    "description": "讓幸福流進來的賺錢框架 是由 本田健 撰寫的書籍（代碼 S2-84），內容涵蓋相關領域的深入探討。",
     "author": "本田健",
     "cover_url": "https://img.youtube.com/vi/UdzdyJXZogU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=GZxYgOJFHco",
@@ -3640,7 +3640,7 @@
     "tags": [
       "投資與理財"
     ],
-    "description": "",
+    "description": "有錢人與你的差距 不只是錢 是由 咪蒙 撰寫的書籍（代碼 S2-85），內容涵蓋相關領域的深入探討。",
     "author": "咪蒙",
     "cover_url": "https://img.youtube.com/vi/7cqrki6WqlM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=NOzMc6aklBs",
@@ -3660,7 +3660,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "清單革命 是由 Atul Gawande 撰寫的書籍（代碼 S2-86），內容涵蓋相關領域的深入探討。",
     "author": "Atul Gawande",
     "cover_url": "https://img.youtube.com/vi/IYHc5nLFx04/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Jl0yO1QURdQ",
@@ -3679,7 +3679,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "讓你自帶好運的奇蹟習慣 是由 Hal Elrod 撰寫的書籍（代碼 S2-87），內容涵蓋相關領域的深入探討。",
     "author": "Hal Elrod",
     "cover_url": "https://img.youtube.com/vi/94RYPU_nEHE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=DonaWjDcwjs",
@@ -3700,7 +3700,7 @@
       "心智與思維",
       "投資與理財"
     ],
-    "description": "",
+    "description": "關於人生的7項財務思考   謝劍平 是由 謝劍平 撰寫的書籍（代碼 S2-88），內容涵蓋相關領域的深入探討。",
     "author": "謝劍平",
     "cover_url": "https://img.youtube.com/vi/rRLW4MMUZn0/maxresdefault.jpg",
     "description_cn": "謝劍平教授從財務角度出發的人生規劃指南，涵蓋儲蓄、投資、保險、退休等七大財務主題，幫助讀者做出更明智的金錢決策。",
@@ -3720,7 +3720,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "巴菲特勝券在握的12個原則 是由 Robert Hagstrom 撰寫的書籍（代碼 S2-89），內容涵蓋相關領域的深入探討。",
     "author": "Robert Hagstrom",
     "cover_url": "https://img.youtube.com/vi/SZI7uXnA3h4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=DtxZMogXHZ4",
@@ -3739,7 +3739,7 @@
     "tags": [
       "寫作與表達"
     ],
-    "description": "",
+    "description": "巴菲特寫給股東的信 是由 Warren Buffett 撰寫的書籍（代碼 S2-90），內容涵蓋相關領域的深入探討。",
     "author": "Warren Buffett",
     "cover_url": "https://img.youtube.com/vi/J06rgS0i5s8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=jg_KbSwmANs",
@@ -3759,7 +3759,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "親愛的股東 是由 Lawrence A. Cunningham 撰寫的書籍（代碼 S2-91），內容涵蓋相關領域的深入探討。",
     "author": "Lawrence A. Cunningham",
     "cover_url": "https://img.youtube.com/vi/QMJK0SnnLzA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=8fNwEYqsC_M",
@@ -3780,7 +3780,7 @@
       "商業與創業",
       "行銷與品牌"
     ],
-    "description": "",
+    "description": "市場的預兆 是由 Michael Batnick 撰寫的書籍（代碼 S2-92），內容涵蓋相關領域的深入探討。",
     "author": "Michael Batnick",
     "cover_url": "https://img.youtube.com/vi/U7t21x-XS-U/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rROpYTNU1RA",
@@ -3800,7 +3800,7 @@
       "投資理財",
       "投資與理財"
     ],
-    "description": "",
+    "description": "投資中最簡單的事   邱國鷺 是由 邱國鷺 撰寫的書籍（代碼 S2-93），內容涵蓋相關領域的深入探討。",
     "author": "邱國鷺",
     "cover_url": "https://img.youtube.com/vi/CDYxPDUhGRA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=LjphD5tEG54",
@@ -3820,7 +3820,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "思辯賽局 是由 Avinash Dixit 撰寫的書籍（代碼 S2-94），內容涵蓋相關領域的深入探討。",
     "author": "Avinash Dixit",
     "cover_url": "https://img.youtube.com/vi/MCZCgrQMTBE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=4izSEJSPveo",
@@ -3841,7 +3841,7 @@
       "商業與創業",
       "行銷與品牌"
     ],
-    "description": "",
+    "description": "麥凱銷售聖經 是由 Harvey Mackay 撰寫的書籍（代碼 S2-95），內容涵蓋相關領域的深入探討。",
     "author": "Harvey Mackay",
     "cover_url": "https://img.youtube.com/vi/kgz_cHSUZj0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=hM0N6FVAd8U",
@@ -3861,7 +3861,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "業務學 是由 張邁可 撰寫的書籍（代碼 S2-96），內容涵蓋相關領域的深入探討。",
     "author": "張邁可",
     "cover_url": "https://img.youtube.com/vi/e6g8ApGp3-I/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=kK2xdpcd3W0",
@@ -3881,7 +3881,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "領導者的七種原型 是由 Lolly Daskal 撰寫的書籍（代碼 S2-97），內容涵蓋相關領域的深入探討。",
     "author": "Lolly Daskal",
     "cover_url": "https://img.youtube.com/vi/NbQDvub9iQo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=mThQ4qgDwPk",
@@ -3900,7 +3900,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "重啟人生 是由 Arthur C. Brooks 撰寫的書籍（代碼 S2-98），內容涵蓋相關領域的深入探討。",
     "author": "Arthur C. Brooks",
     "cover_url": "https://img.youtube.com/vi/5sMqNs2tjhI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=nJP2SCY2JQ0",
@@ -3920,7 +3920,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "勾引大腦 Story or Die How to Use Brain Science to Engage^J Persuade^J and 是由 Lisa Cron 撰寫的書籍（代碼 S2-99），內容涵蓋相關領域的深入探討。",
     "author": "Lisa Cron",
     "cover_url": "https://img.youtube.com/vi/g41lK1bPUZk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=AzGVvojJoaM",
@@ -3940,7 +3940,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "未來駭客 是由 范冰 撰寫的書籍（代碼 S2-100），內容涵蓋相關領域的深入探討。",
     "author": "范冰",
     "cover_url": "https://img.youtube.com/vi/yO_vNJ1Vojk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=9mWE2602Ce8",
@@ -3961,7 +3961,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "哈佛大學的思辨溝通術 是由 Jay Silverman 撰寫的書籍（代碼 S2-101），內容涵蓋相關領域的深入探討。",
     "author": "Jay Silverman",
     "cover_url": "https://img.youtube.com/vi/UrFg7xyXFhI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=KDBnjDc2-JI",
@@ -3981,7 +3981,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "千腦智能理論 是由 Jeff Hawkins 撰寫的書籍（代碼 S3-01），內容涵蓋相關領域的深入探討。",
     "author": "Jeff Hawkins",
     "cover_url": "https://img.youtube.com/vi/OgHvijcPc4I/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=uX010yEsn7w",
@@ -4001,7 +4001,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "腦力與無限公司 是由 Jim Kwik 撰寫的書籍（代碼 S3-02），內容涵蓋相關領域的深入探討。",
     "author": "Jim Kwik",
     "cover_url": "https://img.youtube.com/vi/FNgLcPnGaOI/maxresdefault.jpg",
     "description_cn": "Jim Kwik的大腦優化與學習加速指南，分享如何釋放腦力的無限潛能。從記憶技巧到速讀方法，提供提升認知能力的實用策略。",
@@ -4021,7 +4021,7 @@
       "品牌與行銷",
       "行銷與品牌"
     ],
-    "description": "",
+    "description": "腦神精行銷學　Brain science for business ビジネスに活かす脳科学 是由 茂木健一郎 撰寫的書籍（代碼 S3-03），內容涵蓋相關領域的深入探討。",
     "author": "茂木健一郎",
     "cover_url": "https://img.youtube.com/vi/A5HLEB8XZfw/maxresdefault.jpg",
     "description_cn": "《腦神精行銷學　Brain science for business ビジネスに活かす脳科学》是一部深具啟發性的著作。本書通過深入淺出的方式，為讀者呈現了重要的知識和見解，值得細心閱讀。",
@@ -4041,7 +4041,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "All the Brains in the Business The Engendered Brain in the 21st Century Organisation 是由 Kate Lanz, Paul Brown 撰寫的書籍（代碼 S3-04），內容涵蓋相關領域的深入探討。",
     "author": "Kate Lanz, Paul Brown",
     "cover_url": "https://img.youtube.com/vi/AsGpTAmwLNs/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -4061,7 +4061,7 @@
       "健康與生活",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "順著大腦來生活 是由 大衛・乾克 撰寫的書籍（代碼 S3-05），內容涵蓋相關領域的深入探討。",
     "author": "大衛・乾克",
     "cover_url": "https://img.youtube.com/vi/KxnYiX3_2xs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=R1Qtrcx8rzw",
@@ -4081,7 +4081,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Where Good Ideas Come From 是由 Steven Johnson 撰寫的書籍（代碼 S3-06），內容涵蓋相關領域的深入探討。",
     "author": "Steven Johnson",
     "cover_url": "https://img.youtube.com/vi/FeUaOvfEzZg/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -4101,7 +4101,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "人類的旅程 是由 Oded Galor 撰寫的書籍（代碼 S3-07），內容涵蓋相關領域的深入探討。",
     "author": "Oded Galor",
     "cover_url": "https://img.youtube.com/vi/9GbR7vCf6O8/maxresdefault.jpg",
     "description_cn": "Oded Galor的經濟學巨著，以宏觀視角探討人類從遠古到現代的發展歷程。揭示地理、制度和文化因素如何共同塑造了各國的貧富差距。",
@@ -4121,7 +4121,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "2100 科技大未來 是由 Michio Kaku 撰寫的書籍（代碼 S3-08），內容涵蓋相關領域的深入探討。",
     "author": "Michio Kaku",
     "cover_url": "https://img.youtube.com/vi/HFC5u-enrzk/maxresdefault.jpg",
     "description_cn": "物理學家Michio Kaku的科技預言著作，描繪2100年的世界面貌。從量子電腦到星際旅行，展望人類科技文明的未來發展方向。",
@@ -4141,7 +4141,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "The Coming Wave Technology - Power and the Twenty first Century's Greatest Dilemma 是由 Mustafa Suleyman 撰寫的書籍（代碼 S3-09），內容涵蓋相關領域的深入探討。",
     "author": "Mustafa Suleyman",
     "cover_url": "https://img.youtube.com/vi/vSRcA4wDX5Q/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -4160,7 +4160,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Good Economics for Hard Times 是由 Abhijit V. Banerjee, Esther Duflo 撰寫的書籍（代碼 S3-10），內容涵蓋相關領域的深入探討。",
     "author": "Abhijit V. Banerjee, Esther Duflo",
     "cover_url": "https://img.youtube.com/vi/3QFj5uPyS04/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -4180,7 +4180,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "給予 是由 Adam Grant 撰寫的書籍（代碼 S3-11），內容涵蓋相關領域的深入探討。",
     "author": "Adam Grant",
     "cover_url": "https://img.youtube.com/vi/sWm7_29Izng/maxresdefault.jpg",
     "description_cn": "Adam Grant探討「給予」如何成為成功關鍵的組織心理學著作。揭示在職場中，慷慨付出的人往往比自私索取的人獲得更大的長期成功。",
@@ -4201,7 +4201,7 @@
       "心理學",
       "思維方式"
     ],
-    "description": "",
+    "description": "逆思維 是由 Adam Grant 撰寫的書籍（代碼 S3-12），內容涵蓋相關領域的深入探討。",
     "author": "Adam Grant",
     "cover_url": "https://img.youtube.com/vi/2-ukFTizOug/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=tNyd60HxBMw",
@@ -4221,7 +4221,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "隱性潛能 是由 Adam Grant 撰寫的書籍（代碼 S3-13），內容涵蓋相關領域的深入探討。",
     "author": "Adam Grant",
     "cover_url": "https://img.youtube.com/vi/oHhyqymqJt0/maxresdefault.jpg",
     "description_cn": "Adam Grant最新著作，揭示比天賦更重要的「隱性潛能」。探討支持系統、學習策略和機會創造如何幫助每個人超越自身看似的極限。",
@@ -4241,7 +4241,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "內向外的洞見 是由 Jørgen Vig Knudstorp 撰寫的書籍（代碼 S3-14），內容涵蓋相關領域的深入探討。",
     "author": "Jørgen Vig Knudstorp",
     "cover_url": "https://img.youtube.com/vi/SUbOUL_ArgU/maxresdefault.jpg",
     "description_cn": "Jørgen Vig Knudstorp的商業洞察著作，探討如何利用外部數據與訊號來做出更好的商業決策。在大數據時代，學會從外部世界獲取競爭優勢。",
@@ -4260,7 +4260,7 @@
     "tags": [
       "生產力與時間"
     ],
-    "description": "",
+    "description": "把時間買回來 是由 Dan Martell 撰寫的書籍（代碼 S3-15），內容涵蓋相關領域的深入探討。",
     "author": "Dan Martell",
     "cover_url": "https://img.youtube.com/vi/u81JCKer4aQ/maxresdefault.jpg",
     "description_cn": "《把時間買回來》是一部深具啟發性的著作。本書通過深入淺出的方式，為讀者呈現了重要的知識和見解，值得細心閱讀。",
@@ -4279,7 +4279,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "強大內心的自我對話習慣 是由 Ethan Kross 撰寫的書籍（代碼 S3-16），內容涵蓋相關領域的深入探討。",
     "author": "Ethan Kross",
     "cover_url": "https://img.youtube.com/vi/7LhwEAL61Os/maxresdefault.jpg",
     "description_cn": "Ethan Kross的心理學著作，探討內心獨白如何影響我們的情緒、決策和表現。提供科學驗證的方法，將負面的自我對話轉化為強大的內在力量。",
@@ -4299,7 +4299,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "陌生人的力量 是由 Joe Keohane 撰寫的書籍（代碼 S3-17），內容涵蓋相關領域的深入探討。",
     "author": "Joe Keohane",
     "cover_url": "https://img.youtube.com/vi/1EA9M6Uh25I/maxresdefault.jpg",
     "description_cn": "Joe Keohane探討與陌生人互動的力量的社會學著作。揭示與陌生人交談如何拓展視野、提升幸福感，打破現代社會中人際隔離的困境。",
@@ -4319,7 +4319,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "為什麼要讀書工作Why do we work 是由 池上彰 撰寫的書籍（代碼 S3-18），內容涵蓋相關領域的深入探討。",
     "author": "池上彰",
     "cover_url": "https://img.youtube.com/vi/-TMXElHN9PY/maxresdefault.jpg",
     "description_cn": "這是一部關於職場成功和職業發展的實用指南。書中涵蓋領導力、溝通技巧、團隊合作等重要主題，幫助專業人士在競爭激烈的職場中脫穎而出。",
@@ -4339,7 +4339,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "生命之源 是由 Nick Lane 撰寫的書籍（代碼 S3-19），內容涵蓋相關領域的深入探討。",
     "author": "Nick Lane",
     "cover_url": "https://img.youtube.com/vi/gp4Ls1rpFD8/maxresdefault.jpg",
     "description_cn": "Nick Lane的科學著作，探討生命的起源與能量的本質。從細胞的角度解釋地球上複雜生命如何從簡單的化學反應中誕生。",
@@ -4359,7 +4359,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "How to Feed the World 是由 Jessica Eise, Ken Foster 撰寫的書籍（代碼 S3-20），內容涵蓋相關領域的深入探討。",
     "author": "Jessica Eise, Ken Foster",
     "cover_url": "https://img.youtube.com/vi/mBQdXJnXQ5w/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=zNPSC7tc_hI",
@@ -4379,7 +4379,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "無限賽局 是由 Simon Sinek 撰寫的書籍（代碼 S3-21），內容涵蓋相關領域的深入探討。",
     "author": "Simon Sinek",
     "cover_url": "https://img.youtube.com/vi/fQIL8znrH_4/maxresdefault.jpg",
     "description_cn": "Simon Sinek提出「無限賽局」概念的領導力著作。區分有限賽局（有明確規則和終點）與無限賽局（持續進行），主張真正的領導者以無限思維經營。",
@@ -4399,7 +4399,7 @@
       "思維方式",
       "藝術與文化"
     ],
-    "description": "",
+    "description": "決策的藝術 是由 John S. Hammond 撰寫的書籍（代碼 S3-22），內容涵蓋相關領域的深入探討。",
     "author": "John S. Hammond",
     "cover_url": "https://img.youtube.com/vi/JbLz3ABBaMU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rLpAxQLG4ac",
@@ -4419,7 +4419,7 @@
       "心理學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "情緒跟你以為的不一樣 是由 Lisa Feldman Barrett 撰寫的書籍（代碼 S3-23），內容涵蓋相關領域的深入探討。",
     "author": "Lisa Feldman Barrett",
     "cover_url": "https://img.youtube.com/vi/xaE2nXwEfT4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=LTvTaz_NdjM",
@@ -4439,7 +4439,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "The Psychological Construction of Emotion 是由 Lisa Feldman Barrett 撰寫的書籍（代碼 S3-24），內容涵蓋相關領域的深入探討。",
     "author": "Lisa Feldman Barrett",
     "cover_url": "https://img.youtube.com/vi/UpmYOZ4emNM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=vv6X0eF1EKU",
@@ -4459,7 +4459,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Handbook of Cognition and Emotion 是由 Michael D. Robinson 撰寫的書籍（代碼 S3-25），內容涵蓋相關領域的深入探討。",
     "author": "Michael D. Robinson",
     "cover_url": "https://img.youtube.com/vi/yDZkHYMIou4/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -4478,7 +4478,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Emotion and Consciousness 是由 Lisa Feldman Barrett 撰寫的書籍（代碼 S3-26），內容涵蓋相關領域的深入探討。",
     "author": "Lisa Feldman Barrett",
     "cover_url": "https://img.youtube.com/vi/AmAAJgObkOc/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -4497,7 +4497,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "意識究竟從何而來 是由 Michael Graziano 撰寫的書籍（代碼 S3-27），內容涵蓋相關領域的深入探討。",
     "author": "Michael Graziano",
     "cover_url": "https://img.youtube.com/vi/oK3NhkDhYG4/maxresdefault.jpg",
     "description_cn": "Michael Graziano的神經科學著作，探討意識的生物學基礎。提出「注意力圖式理論」，試圖解答哲學與科學中最深奧的問題：意識從何而來。",
@@ -4517,7 +4517,7 @@
       "傳記與故事",
       "自傳與小說"
     ],
-    "description": "",
+    "description": "會講故事的大腦 是由 Werner Siefer 撰寫的書籍（代碼 S3-28），內容涵蓋相關領域的深入探討。",
     "author": "Werner Siefer",
     "cover_url": "https://img.youtube.com/vi/Plk3FkshMKg/maxresdefault.jpg",
     "description_cn": "《會講故事的大腦》是一部深具啟發性的著作。本書通過深入淺出的方式，為讀者呈現了重要的知識和見解，值得細心閱讀。",
@@ -4537,7 +4537,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "為什麼要睡覺 是由 Matthew Walker 撰寫的書籍（代碼 S3-29），內容涵蓋相關領域的深入探討。",
     "author": "Matthew Walker",
     "cover_url": "https://img.youtube.com/vi/3wmMnh5UKtw/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=uX010yEsn7w",
@@ -4557,7 +4557,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "細胞之歌 是由 Siddhartha Mukherjee 撰寫的書籍（代碼 S3-30），內容涵蓋相關領域的深入探討。",
     "author": "Siddhartha Mukherjee",
     "cover_url": "https://img.youtube.com/vi/oKmNRoT_MGk/maxresdefault.jpg",
     "description_cn": "Siddhartha Mukherjee的醫學科普巨著，以細胞為主角講述生命科學的革命性發現。從癌症到免疫療法，探討細胞如何定義健康與疾病。",
@@ -4577,7 +4577,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "夠好的工作 是由 Simone Stolzoff 撰寫的書籍（代碼 S3-31），內容涵蓋相關領域的深入探討。",
     "author": "Simone Stolzoff",
     "cover_url": "https://img.youtube.com/vi/S2zrQ5ylUY8/maxresdefault.jpg",
     "description_cn": "這是一部關於職場成功和職業發展的實用指南。書中涵蓋領導力、溝通技巧、團隊合作等重要主題，幫助專業人士在競爭激烈的職場中脫穎而出。",
@@ -4597,7 +4597,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "個人無限公司 是由 何則文 撰寫的書籍（代碼 S3-32），內容涵蓋相關領域的深入探討。",
     "author": "何則文",
     "cover_url": "https://img.youtube.com/vi/Eu1_E3xcdzM/maxresdefault.jpg",
     "description_cn": "何則文的職涯發展著作，提出將自己經營為「個人無限公司」的概念。分享如何建立個人品牌、多元收入來源，在瞬息萬變的職場中創造持續價值。",
@@ -4617,7 +4617,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "THE EXPENDABLES   Jeff Rubin 是由 Jeff Rubin 撰寫的書籍（代碼 S3-33），內容涵蓋相關領域的深入探討。",
     "author": "Jeff Rubin",
     "cover_url": "https://img.youtube.com/vi/PnzCD8cDq8A/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -4637,7 +4637,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Five Dimensions of Learning  A Guide to Effective Study 是由 Geoff Petty 撰寫的書籍（代碼 S3-34），內容涵蓋相關領域的深入探討。",
     "author": "Geoff Petty",
     "cover_url": "https://img.youtube.com/vi/EUOcR8ap0Nk/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -4657,7 +4657,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "過載 是由 Daniel Levitin 撰寫的書籍（代碼 S3-35），內容涵蓋相關領域的深入探討。",
     "author": "Daniel Levitin",
     "cover_url": "https://img.youtube.com/vi/ymL7KbAjd5k/maxresdefault.jpg",
     "description_cn": "《過載：洞察大腦決策的運作，重整過度負荷的心智和人生》由麥基爾大學心理學教授丹尼爾·列維廷撰寫。從神經科學和認知心理學角度，揭示資訊爆炸時代大腦負荷過重的問題，提供整理心智、優化決策的方法。",
@@ -4677,7 +4677,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Essentialism  The Disciplined Pursuit of Less 是由 Greg McKeown 撰寫的書籍（代碼 S3-36），內容涵蓋相關領域的深入探討。",
     "author": "Greg McKeown",
     "cover_url": "https://img.youtube.com/vi/O3w6T50yqEo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=vSdJRtu9Zvw",
@@ -4697,7 +4697,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "The Successful Speaker 是由 Grant Baldwin 撰寫的書籍（代碼 S3-37），內容涵蓋相關領域的深入探討。",
     "author": "Grant Baldwin",
     "cover_url": "https://img.youtube.com/vi/5nWcWmj4u_w/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -4716,7 +4716,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "當上主管後難道只能默默崩潰 是由 前田鎌利 撰寫的書籍（代碼 S3-38），內容涵蓋相關領域的深入探討。",
     "author": "前田鎌利",
     "cover_url": "https://img.youtube.com/vi/lh2BUr2huLk/maxresdefault.jpg",
     "description_cn": "前田鎌利的管理實戰著作，坦承面對新手主管的焦慮與壓力。提供從向上管理到團隊帶領的實用技巧，幫助新任主管度過艱難的過渡期。",
@@ -4736,7 +4736,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "心念的力量 是由 許瑞云, 鄭先安 撰寫的書籍（代碼 S3-39），內容涵蓋相關領域的深入探討。",
     "author": "許瑞云, 鄭先安",
     "cover_url": "https://img.youtube.com/vi/H7tQikshhlo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_dAPA-HAxR0",
@@ -4756,7 +4756,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "The Daily Stoic 366 Meditations on Wisdom^J Perseverance^J and the Art of Living 是由 Ryan Holiday 撰寫的書籍（代碼 S3-40），內容涵蓋相關領域的深入探討。",
     "author": "Ryan Holiday",
     "cover_url": "https://img.youtube.com/vi/CBqSh_9ng3A/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -4776,7 +4776,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "創造與漫想 是由 Jeff Bezos 撰寫的書籍（代碼 S3-41），內容涵蓋相關領域的深入探討。",
     "author": "Jeff Bezos",
     "cover_url": "https://img.youtube.com/vi/imcF4QyTvy8/maxresdefault.jpg",
     "description_cn": "Jeff Bezos的個人著作，彙整他在Amazon歷年致股東信、演講和訪談中的核心思想。展現這位全球最成功企業家的商業哲學、創新理念和對未來的願景。",
@@ -4795,7 +4795,7 @@
     "tags": [
       "生產力與時間"
     ],
-    "description": "",
+    "description": "南計畫 是由 David Allen 撰寫的書籍（代碼 S3-42），內容涵蓋相關領域的深入探討。",
     "author": "David Allen",
     "cover_url": "https://img.youtube.com/vi/B6yKVyhgJoc/maxresdefault.jpg",
     "description_cn": "《南計畫》是一部深具啟發性的著作。本書通過深入淺出的方式，為讀者呈現了重要的知識和見解，值得細心閱讀。",
@@ -4816,7 +4816,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "1分鐘GPS溝通術 是由 大須賀雅子 撰寫的書籍（代碼 S3-43），內容涵蓋相關領域的深入探討。",
     "author": "大須賀雅子",
     "cover_url": "https://img.youtube.com/vi/kMdaXYCHIIM/maxresdefault.jpg",
     "description_cn": "這是一部提升寫作和表達能力的經典著作。書中提供了實用的技巧和方法，幫助讀者更清晰、更有效地表達自己的想法。",
@@ -4836,7 +4836,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "掌控演講 是由 Chris Anderson 撰寫的書籍（代碼 S3-44），內容涵蓋相關領域的深入探討。",
     "author": "Chris Anderson",
     "cover_url": "https://img.youtube.com/vi/oVn2QdnD0ZI/maxresdefault.jpg",
     "description_cn": "Chris Anderson (TED策展人)的演講指導著作，分享TED演講背後的秘密。從內容架構到舞台表現，提供系統性的方法幫助任何人都能做出精彩演講。",
@@ -4856,7 +4856,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "誰說人是誠實的 是由 Dan Ariely 撰寫的書籍（代碼 S3-45），內容涵蓋相關領域的深入探討。",
     "author": "Dan Ariely",
     "cover_url": "https://img.youtube.com/vi/MxqkvC6EMeQ/maxresdefault.jpg",
     "description_cn": "Dan Ariely的行為經濟學經典著作，揭示人類行為中各種「不理性」的模式。透過趣味實驗說明我們如何系統性地做出錯誤決策，並提供改善的方法。",
@@ -4876,7 +4876,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "與逆境同行 是由 洪蘭 撰寫的書籍（代碼 S3-46），內容涵蓋相關領域的深入探討。",
     "author": "洪蘭",
     "cover_url": "https://img.youtube.com/vi/9spspSoLgFo/maxresdefault.jpg",
     "description_cn": "洪蘭教授的勵志著作，以腦科學為基礎，探討如何在逆境中保持正向思維。分享如何透過神經可塑性重塑大腦，將困難轉化為成長的契機。",
@@ -4896,7 +4896,7 @@
       "個人成長",
       "思維方式"
     ],
-    "description": "",
+    "description": "如何讓人改變想法 是由 David McRaney 撰寫的書籍（代碼 S3-47），內容涵蓋相關領域的深入探討。",
     "author": "David McRaney",
     "cover_url": "https://img.youtube.com/vi/tilSqzF1RRA/maxresdefault.jpg",
     "description_cn": "David McRaney探討如何改變他人想法的心理學著作。揭示信念形成與改變的科學機制，提供以同理心和理解為基礎的說服策略。",
@@ -4916,7 +4916,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "The Happiness Advantage 是由 Shawn Achor 撰寫的書籍（代碼 S3-48），內容涵蓋相關領域的深入探討。",
     "author": "Shawn Achor",
     "cover_url": "https://img.youtube.com/vi/q1K3nrmwtSE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=0ZqFAcAlzKk",
@@ -4936,7 +4936,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "10% Happier - Taming the Voice in My Head 是由 Dan Harris 撰寫的書籍（代碼 S3-49），內容涵蓋相關領域的深入探討。",
     "author": "Dan Harris",
     "cover_url": "https://img.youtube.com/vi/gulcyNrpvLI/maxresdefault.jpg",
     "description_cn": "Dan Harris的個人成長回憶錄，講述一位新聞主播如何從焦慮崩潰走向冥想修行。以幽默誠實的筆觸探討正念冥想如何帶來10%的幸福感提升。",
@@ -4955,7 +4955,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "鬆綁你的焦慮習慣 是由 Judson Brewer 撰寫的書籍（代碼 S3-50），內容涵蓋相關領域的深入探討。",
     "author": "Judson Brewer",
     "cover_url": "https://img.youtube.com/vi/9vrbpvvDq3M/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=uX010yEsn7w",
@@ -4974,7 +4974,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "習慣的力量 是由 Charles Duhigg 撰寫的書籍（代碼 S3-51），內容涵蓋相關領域的深入探討。",
     "author": "Charles Duhigg",
     "cover_url": "https://img.youtube.com/vi/n3MELrrYH9M/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=GY4hN1HNl6s",
@@ -4993,7 +4993,7 @@
     "tags": [
       "藝術與文化"
     ],
-    "description": "",
+    "description": "創意公司 是由 Ed Catmull 撰寫的書籍（代碼 S3-52），內容涵蓋相關領域的深入探討。",
     "author": "Ed Catmull",
     "cover_url": "https://img.youtube.com/vi/MFbGVyXs-tc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=oWgqjRpvMro",
@@ -5012,7 +5012,7 @@
     "tags": [
       "藝術與文化"
     ],
-    "description": "",
+    "description": "創意自信 是由 David Kelley, Tom Kelley 撰寫的書籍（代碼 S3-53），內容涵蓋相關領域的深入探討。",
     "author": "David Kelley, Tom Kelley",
     "cover_url": "https://img.youtube.com/vi/fZzetx-Dcjw/maxresdefault.jpg",
     "description_cn": "《創意自信》是一部深具啟發性的著作。本書通過深入淺出的方式，為讀者呈現了重要的知識和見解，值得細心閱讀。",
@@ -5032,7 +5032,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "斯多葛主義小書 是由 Jonas Salzgeber 撰寫的書籍（代碼 S3-54），內容涵蓋相關領域的深入探討。",
     "author": "Jonas Salzgeber",
     "cover_url": "https://img.youtube.com/vi/fRSqd3z1ckU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=IqZe4PfziDI",
@@ -5051,7 +5051,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "改善-改變命運的一小步 是由 Robert Maurer 撰寫的書籍（代碼 S3-55），內容涵蓋相關領域的深入探討。",
     "author": "Robert Maurer",
     "cover_url": "https://img.youtube.com/vi/KuEjFO-RzLI/maxresdefault.jpg",
     "description_cn": "Robert Maurer的漸進式改變方法論，介紹源自日本的「改善」（Kaizen）哲學。強調透過微小的、不引起恐懼的步驟，就能繞過大腦的抗拒機制，實現持久的改變。",
@@ -5071,7 +5071,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "折棉被吧 ! 是由 William H. McRaven 撰寫的書籍（代碼 S3-56），內容涵蓋相關領域的深入探討。",
     "author": "William H. McRaven",
     "cover_url": "https://img.youtube.com/vi/I10gocyZmCI/maxresdefault.jpg",
     "description_cn": "William H. McRaven海軍上將的勵志著作，從海豹部隊訓練中提煉10個改變人生的原則。第一個就是「每天從折棉被開始」，以小紀律建立大成就。",
@@ -5091,7 +5091,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "正向的關鍵 - 舒適 是由 Lachlan Brown 撰寫的書籍（代碼 S3-57），內容涵蓋相關領域的深入探討。",
     "author": "Lachlan Brown",
     "cover_url": "https://img.youtube.com/vi/QrTgSsgDJR0/maxresdefault.jpg",
     "description_cn": "Lachlan Brown的正向心理學著作，重新定義「舒適區」的價值。提出正向改變不一定要來自痛苦，學會在舒適中找到成長的關鍵。",
@@ -5111,7 +5111,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "別再脫離舒適區 是由 Farrah Storr 撰寫的書籍（代碼 S3-58），內容涵蓋相關領域的深入探討。",
     "author": "Farrah Storr",
     "cover_url": "https://img.youtube.com/vi/L7GpEoVfhIU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=2o-2_6QB1Vo",
@@ -5131,7 +5131,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "3 Minute Positivity Journal - Boost Your Mood^J Change Your Life 是由 Kristen Butler 撰寫的書籍（代碼 S3-59），內容涵蓋相關領域的深入探討。",
     "author": "Kristen Butler",
     "cover_url": "https://img.youtube.com/vi/QopVDnQHHnU/maxresdefault.jpg",
     "description_cn": "Kristen Butler的正向心理學日記工具書，透過每日三分鐘的正向書寫練習，幫助讀者培養感恩、樂觀和自我覺察的習慣，持續提升幸福感。",
@@ -5151,7 +5151,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "擁抱同理心 是由 Daniel Goleman 撰寫的書籍（代碼 S3-60），內容涵蓋相關領域的深入探討。",
     "author": "Daniel Goleman",
     "cover_url": "https://img.youtube.com/vi/YpUANIWaazY/maxresdefault.jpg",
     "description_cn": "Daniel Goleman的情商著作，探討同理心在領導力、人際關係和社會連結中的核心作用。提供培養同理心的實用方法，幫助建立更深層的人際連結。",
@@ -5172,7 +5172,7 @@
       "商業與創業",
       "心智與思維"
     ],
-    "description": "",
+    "description": "策略思考的六項訓練 是由 嶋田毅 撰寫的書籍（代碼 S3-61），內容涵蓋相關領域的深入探討。",
     "author": "嶋田毅",
     "cover_url": "https://img.youtube.com/vi/-PBAPmnxFjM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rLpAxQLG4ac",
@@ -5191,7 +5191,7 @@
     "tags": [
       "藝術與文化"
     ],
-    "description": "",
+    "description": "讀新的藝術 是由 Mortimer J. Adler 撰寫的書籍（代碼 S3-62），內容涵蓋相關領域的深入探討。",
     "author": "Mortimer J. Adler",
     "cover_url": "https://img.youtube.com/vi/K2DDRPLfDFs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=kognS9c0AKU",
@@ -5211,7 +5211,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "內在孩童 是由 Stefanie Stahl 撰寫的書籍（代碼 S3-63），內容涵蓋相關領域的深入探討。",
     "author": "Stefanie Stahl",
     "cover_url": "https://img.youtube.com/vi/PJcWzcq-ZhY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=0ks33rNWTgs",
@@ -5231,7 +5231,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "不確定下的自在 是由 Pema Chödrön 撰寫的書籍（代碼 S3-64），內容涵蓋相關領域的深入探討。",
     "author": "Pema Chödrön",
     "cover_url": "https://img.youtube.com/vi/Hi0EtHO5MOI/maxresdefault.jpg",
     "description_cn": "Pema Chödrön的佛教心靈著作，教導如何在不確定的世界中找到安定。提出擁抱未知、與不適共處的智慧，幫助讀者在混亂中保持內在的平靜。",
@@ -5251,7 +5251,7 @@
       "心智與思維",
       "心理學"
     ],
-    "description": "",
+    "description": "心智重組 Declutter Your Mind  Stop Worrying^J Relieve Anxiety^J 是由 S.J. Scott 撰寫的書籍（代碼 S3-65），內容涵蓋相關領域的深入探討。",
     "author": "S.J. Scott",
     "cover_url": "https://img.youtube.com/vi/2Gv7LsRIOI8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rLpAxQLG4ac",
@@ -5271,7 +5271,7 @@
       "心智與思維",
       "藝術與文化"
     ],
-    "description": "",
+    "description": "清晰思考的藝術 是由 Rolf Dobelli 撰寫的書籍（代碼 S3-66），內容涵蓋相關領域的深入探討。",
     "author": "Rolf Dobelli",
     "cover_url": "https://img.youtube.com/vi/36ROABa7kvs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rLpAxQLG4ac",
@@ -5291,7 +5291,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "工作 新律 是由 Alexandra Cavoulacos, Kathryn Minshew 撰寫的書籍（代碼 S3-67），內容涵蓋相關領域的深入探討。",
     "author": "Alexandra Cavoulacos, Kathryn Minshew",
     "cover_url": "https://img.youtube.com/vi/qTq01dwYxMA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=KuGgMA1w3tU",
@@ -5310,7 +5310,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "人生勝利聖經 是由 Tim Ferriss 撰寫的書籍（代碼 S3-68），內容涵蓋相關領域的深入探討。",
     "author": "Tim Ferriss",
     "cover_url": "https://img.youtube.com/vi/05IMHjbuqR8/maxresdefault.jpg",
     "description_cn": "Tim Ferriss訪談世界頂尖人物的智慧精華集，涵蓋健康、財富、人際關係等領域。匯集各領域大師的實用建議和獨特觀點，打造個人的人生勝利手冊。",
@@ -5330,7 +5330,7 @@
       "人文與科學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "超速學習 是由 Scott H. Young 撰寫的書籍（代碼 S3-69），內容涵蓋相關領域的深入探討。",
     "author": "Scott H. Young",
     "cover_url": "https://img.youtube.com/vi/Beh1goQzmv8/maxresdefault.jpg",
     "description_cn": "這部作品融合了人文和科學的視角，為讀者提供了獨特的知識視野。通過跨學科的分析，讀者可以更全面地理解世界。",
@@ -5350,7 +5350,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "如何跟誰都能聊 是由 Leil Lowndes 撰寫的書籍（代碼 S3-70），內容涵蓋相關領域的深入探討。",
     "author": "Leil Lowndes",
     "cover_url": "https://img.youtube.com/vi/sFzhbMrSLac/maxresdefault.jpg",
     "description_cn": "Leil Lowndes的經典社交技巧著作，提供92個實用的溝通技巧。從破冰開場到深度對話，系統性地教導讀者如何與任何人建立良好的交流。",
@@ -5370,7 +5370,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "複利效應 是由 Darren Hardy 撰寫的書籍（代碼 S3-71），內容涵蓋相關領域的深入探討。",
     "author": "Darren Hardy",
     "cover_url": "https://img.youtube.com/vi/Hj2waxqmL04/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=EszDWN39rso",
@@ -5390,7 +5390,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "極度專注力 是由 Chris Bailey 撰寫的書籍（代碼 S3-72），內容涵蓋相關領域的深入探討。",
     "author": "Chris Bailey",
     "cover_url": "https://img.youtube.com/vi/Gy5xQV2bRbI/maxresdefault.jpg",
     "description_cn": "Chris Bailey的專注力研究著作，提出「專注模式」與「散漫模式」兩種注意力狀態的交替運用。提供科學驗證的方法提升專注力並激發創造力。",
@@ -5410,7 +5410,7 @@
       "人文與科學",
       "科學與人文"
     ],
-    "description": "",
+    "description": "自律的科學 是由 Peter Hollins 撰寫的書籍（代碼 S3-73），內容涵蓋相關領域的深入探討。",
     "author": "Peter Hollins",
     "cover_url": "https://img.youtube.com/vi/S2Cypn9gEA0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=gwNE1amtcQg",
@@ -5432,7 +5432,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "溝通技巧訓練 是由 Dale Carnegie 撰寫的書籍（代碼 S3-74），內容涵蓋相關領域的深入探討。",
     "author": "Dale Carnegie",
     "cover_url": "https://img.youtube.com/vi/_tvt0OBcPl4/maxresdefault.jpg",
     "description_cn": "這是一部提升寫作和表達能力的經典著作。書中提供了實用的技巧和方法，幫助讀者更清晰、更有效地表達自己的想法。",
@@ -5454,7 +5454,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "強化你的溝通技巧 是由 Dale Carnegie 撰寫的書籍（代碼 S3-75），內容涵蓋相關領域的深入探討。",
     "author": "Dale Carnegie",
     "cover_url": "https://img.youtube.com/vi/PxaEIuorSZQ/maxresdefault.jpg",
     "description_cn": "這是一部提升寫作和表達能力的經典著作。書中提供了實用的技巧和方法，幫助讀者更清晰、更有效地表達自己的想法。",
@@ -5477,7 +5477,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "有效溝通的科學 是由 Dale Carnegie 撰寫的書籍（代碼 S3-76），內容涵蓋相關領域的深入探討。",
     "author": "Dale Carnegie",
     "cover_url": "https://img.youtube.com/vi/s5qKqwiM1tM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=mVw91zg8vZc",
@@ -5497,7 +5497,7 @@
       "提高生產力",
       "科學與人文"
     ],
-    "description": "",
+    "description": "社會技巧引導 是由 Patrick King 撰寫的書籍（代碼 S3-77），內容涵蓋相關領域的深入探討。",
     "author": "Patrick King",
     "cover_url": "https://img.youtube.com/vi/km88xap7QOQ/maxresdefault.jpg",
     "description_cn": "《社會技巧引導》是一部深具啟發性的著作。本書通過深入淺出的方式，為讀者呈現了重要的知識和見解，值得細心閱讀。",
@@ -5517,7 +5517,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "努力卻不費力 是由 Greg McKeown 撰寫的書籍（代碼 S3-78），內容涵蓋相關領域的深入探討。",
     "author": "Greg McKeown",
     "cover_url": "https://img.youtube.com/vi/4nzf9vVGrpg/maxresdefault.jpg",
     "description_cn": "Greg McKeown「精準主義」的實踐篇，探討如何讓重要的事變得更容易。從簡化流程到自動化習慣，幫助讀者以更少的努力獲得更大的成果。",
@@ -5536,7 +5536,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "高情商習慣 是由 Travis Bradberry 撰寫的書籍（代碼 S3-79），內容涵蓋相關領域的深入探討。",
     "author": "Travis Bradberry",
     "cover_url": "https://img.youtube.com/vi/lWT0nr3DwWs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=R1Qtrcx8rzw",
@@ -5556,7 +5556,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "勇於領導 是由 Brené Brown 撰寫的書籍（代碼 S3-80），內容涵蓋相關領域的深入探討。",
     "author": "Brené Brown",
     "cover_url": "https://img.youtube.com/vi/OuPL6opbtK0/maxresdefault.jpg",
     "description_cn": "這是一部關於職場成功和職業發展的實用指南。書中涵蓋領導力、溝通技巧、團隊合作等重要主題，幫助專業人士在競爭激烈的職場中脫穎而出。",
@@ -5576,7 +5576,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "向生命說 YES 兒Man's 是由 Viktor Frankl 撰寫的書籍（代碼 S3-81），內容涵蓋相關領域的深入探討。",
     "author": "Viktor Frankl",
     "cover_url": "https://img.youtube.com/vi/CDNAwkcnLVM/maxresdefault.jpg",
     "description_cn": "Viktor Frankl的存在主義心理學經典著作《活出意義來》，記錄他在納粹集中營中的生存經歷。提出「意義療法」，主張人在最極端的苦難中仍能找到生命的意義。",
@@ -5596,7 +5596,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "超越恐懼的大魔法 是由 Elizabeth Gilbert 撰寫的書籍（代碼 S3-82），內容涵蓋相關領域的深入探討。",
     "author": "Elizabeth Gilbert",
     "cover_url": "https://img.youtube.com/vi/HJyX_-uRaAQ/maxresdefault.jpg",
     "description_cn": "Elizabeth Gilbert的創意與勇氣著作，鼓勵讀者超越恐懼追尋創意人生。探討好奇心如何比勇氣更適合作為創作的動力，釋放每個人內在的創造力。",
@@ -5615,7 +5615,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "人生四千個禮拜 是由 Oliver Burkeman 撰寫的書籍（代碼 S3-83），內容涵蓋相關領域的深入探討。",
     "author": "Oliver Burkeman",
     "cover_url": "https://img.youtube.com/vi/-LvGpXS6xYY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=G7bxA0LOj78",
@@ -5635,7 +5635,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "微小美麗的事物 是由 Cheryl Strayed 撰寫的書籍（代碼 S3-84），內容涵蓋相關領域的深入探討。",
     "author": "Cheryl Strayed",
     "cover_url": "https://img.youtube.com/vi/F2-1nkAbfbk/maxresdefault.jpg",
     "description_cn": "Cheryl Strayed的人生智慧著作，以溫暖而坦誠的筆觸分享生活中那些微小卻美麗的片刻。提醒讀者在忙碌與痛苦中不要忽視日常中的美好。",
@@ -5655,7 +5655,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "怎樣解題 是由 George Pólya 撰寫的書籍（代碼 S3-85），內容涵蓋相關領域的深入探討。",
     "author": "George Pólya",
     "cover_url": "https://img.youtube.com/vi/kQPd-P_lYzM/maxresdefault.jpg",
     "description_cn": "George Pólya的數學方法論經典著作，將解題過程分為理解問題、擬定計畫、執行計畫、回顧四個步驟。不僅適用於數學，更是通用的問題解決框架。",
@@ -5675,7 +5675,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "如果我的父母是控制狂 是由 Lindsay C. Gibson 撰寫的書籍（代碼 S3-86），內容涵蓋相關領域的深入探討。",
     "author": "Lindsay C. Gibson",
     "cover_url": "https://img.youtube.com/vi/OtX0gBlU1CM/maxresdefault.jpg",
     "description_cn": "Lindsay C. Gibson的心理學著作，幫助在控制型父母下成長的成年人理解並療癒童年創傷。提供識別控制型行為的方法，建立健康的自我界限。",
@@ -5695,7 +5695,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "深度工作力 是由 Cal Newport 撰寫的書籍（代碼 S3-87），內容涵蓋相關領域的深入探討。",
     "author": "Cal Newport",
     "cover_url": "https://img.youtube.com/vi/3YRA6wJVLks/maxresdefault.jpg",
     "description_cn": "這是一部關於職場成功和職業發展的實用指南。書中涵蓋領導力、溝通技巧、團隊合作等重要主題，幫助專業人士在競爭激烈的職場中脫穎而出。",
@@ -5715,7 +5715,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "同理心對話 是由 Celeste Headlee 撰寫的書籍（代碼 S3-88），內容涵蓋相關領域的深入探討。",
     "author": "Celeste Headlee",
     "cover_url": "https://img.youtube.com/vi/xvO0l82-L4g/maxresdefault.jpg",
     "description_cn": "Celeste Headlee的溝通著作，探討如何在分歧中進行真正有意義的對話。強調傾聽比說話更重要，提供以同理心為基礎的對話技巧。",
@@ -5735,7 +5735,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "如何停止傷自己的心 是由 Meggan Roxanne 撰寫的書籍（代碼 S3-89），內容涵蓋相關領域的深入探討。",
     "author": "Meggan Roxanne",
     "cover_url": "https://img.youtube.com/vi/_zxOX07rsKo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=2jcNASzJocE",
@@ -5755,7 +5755,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "步步為贏 是由 Mark Batterson 撰寫的書籍（代碼 S3-90），內容涵蓋相關領域的深入探討。",
     "author": "Mark Batterson",
     "cover_url": "https://img.youtube.com/vi/BRDdnbMQ-co/maxresdefault.jpg",
     "description_cn": "Mark Batterson的策略人生著作，探討如何以長遠眼光規劃人生的每一步。提供結合信仰與策略的行動框架，幫助讀者在人生賽局中步步為贏。",
@@ -5775,7 +5775,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "專注力協定 是由 Nir Eyal 撰寫的書籍（代碼 S3-91），內容涵蓋相關領域的深入探討。",
     "author": "Nir Eyal",
     "cover_url": "https://img.youtube.com/vi/cGX7SjABjKM/maxresdefault.jpg",
     "description_cn": "Nir Eyal的專注力管理著作，提出「不分心」的四步驟模型。從掌控內在觸發、減少外在干擾到建立專注契約，幫助讀者在數位時代重獲對注意力的掌控。",
@@ -5795,7 +5795,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "內在專注力的節奏 是由 Daniel Goleman 撰寫的書籍（代碼 S3-92），內容涵蓋相關領域的深入探討。",
     "author": "Daniel Goleman",
     "cover_url": "https://img.youtube.com/vi/ZwfhJomJgb4/maxresdefault.jpg",
     "description_cn": "Daniel Goleman探討專注力在內在覺察、理解他人和外在系統三個層面的運用。揭示不同類型的注意力如何影響領導力、創造力和人際關係。",
@@ -5815,7 +5815,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "專注的力量 是由 Daniel Goleman 撰寫的書籍（代碼 S3-93），內容涵蓋相關領域的深入探討。",
     "author": "Daniel Goleman",
     "cover_url": "https://img.youtube.com/vi/EWDbsEkS6Hs/maxresdefault.jpg",
     "description_cn": "Daniel Goleman的經典著作，深入探討專注力的科學。從注意力的神經機制到其在教育、商業和個人成長中的應用，提供理解和提升專注力的全面視角。",
@@ -5835,7 +5835,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "聚焦一件事 是由 Gary Keller 撰寫的書籍（代碼 S3-94），內容涵蓋相關領域的深入探討。",
     "author": "Gary Keller",
     "cover_url": "https://img.youtube.com/vi/V_0cRViMxTc/maxresdefault.jpg",
     "description_cn": "Gary Keller的暢銷著作，提出「找到最重要的那件事」的精準主義理念。挑戰多工神話，主張極度聚焦在單一關鍵目標上才能帶來非凡的成果。",
@@ -5855,7 +5855,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "專注的力量Focus 是由 Daniel Goleman 撰寫的書籍（代碼 S3-95），內容涵蓋相關領域的深入探討。",
     "author": "Daniel Goleman",
     "cover_url": "https://img.youtube.com/vi/yTPCyGVkQWs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Rka4lPm7KrU",
@@ -5875,7 +5875,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "誰偷走了你的專注力Stolen 是由 Johann Hari 撰寫的書籍（代碼 S3-96），內容涵蓋相關領域的深入探討。",
     "author": "Johann Hari",
     "cover_url": "https://img.youtube.com/vi/1suCJ13f81w/maxresdefault.jpg",
     "description_cn": "Johann Hari的調查報導著作，揭示科技公司如何系統性地偷走我們的專注力。從社交媒體演算法到注意力經濟，探討注意力危機的根源與解決方案。",
@@ -5895,7 +5895,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "是誰偷了我的專注力The 是由 Johann Hari 撰寫的書籍（代碼 S3-97），內容涵蓋相關領域的深入探討。",
     "author": "Johann Hari",
     "cover_url": "https://img.youtube.com/vi/-IayvAKAibI/maxresdefault.jpg",
     "description_cn": "Johann Hari深入調查注意力危機的著作，走訪世界各地的科學家與專家。揭示專注力下降不僅是個人問題，更是社會制度性的挑戰，提出系統性的解決之道。",
@@ -5915,7 +5915,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "說理 是由 Jay Heinrichs 撰寫的書籍（代碼 S3-98），內容涵蓋相關領域的深入探討。",
     "author": "Jay Heinrichs",
     "cover_url": "https://img.youtube.com/vi/JDvzcWapArA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=oDKGaGNew_0",
@@ -5934,7 +5934,7 @@
     "tags": [
       "心智與思維"
     ],
-    "description": "",
+    "description": "正面思考的再思 是由 Gabriele Oettingen 撰寫的書籍（代碼 S3-99），內容涵蓋相關領域的深入探討。",
     "author": "Gabriele Oettingen",
     "cover_url": "https://img.youtube.com/vi/2kE761COb6o/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=4B6I2qvVvnU",
@@ -5954,7 +5954,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "頂尖領導者的行動清單 是由 John C. Maxwell 撰寫的書籍（代碼 S3-100），內容涵蓋相關領域的深入探討。",
     "author": "John C. Maxwell",
     "cover_url": "https://img.youtube.com/vi/XgMKcS-pgfs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Xd72F1xNRgc",
@@ -5974,7 +5974,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "重要性評估 是由 Greg McKeown 撰寫的書籍（代碼 S3-101），內容涵蓋相關領域的深入探討。",
     "author": "Greg McKeown",
     "cover_url": "https://img.youtube.com/vi/EVZYSt2N8yY/maxresdefault.jpg",
     "description_cn": "Greg McKeown的精準主義經典著作，核心理念是「更少但更好」。教導讀者如何辨別真正重要的事，有系統地排除不重要的，將精力集中在最高價值的活動上。",
@@ -5993,7 +5993,7 @@
     "tags": [
       "生產力與時間"
     ],
-    "description": "",
+    "description": "時間悖論 是由 Philip Zimbardo 撰寫的書籍（代碼 S4-01），內容涵蓋相關領域的深入探討。",
     "author": "Philip Zimbardo",
     "cover_url": "https://img.youtube.com/vi/-ZvkVUAcAjo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=KNBHrUWmmyA",
@@ -6013,7 +6013,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "明天再做 是由 Andrew Smart 撰寫的書籍（代碼 S4-02），內容涵蓋相關領域的深入探討。",
     "author": "Andrew Smart",
     "cover_url": "https://img.youtube.com/vi/HZkuAb1oCCE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=G7bxA0LOj78",
@@ -6033,7 +6033,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "先處理困難 是由 Brian Tracy 撰寫的書籍（代碼 S4-03），內容涵蓋相關領域的深入探討。",
     "author": "Brian Tracy",
     "cover_url": "https://img.youtube.com/vi/mPcuByPFcHc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=LHOd_3iOTrA",
@@ -6052,7 +6052,7 @@
     "tags": [
       "生產力與時間"
     ],
-    "description": "",
+    "description": "執行難點 是由 Sean Covey 撰寫的書籍（代碼 S4-04），內容涵蓋相關領域的深入探討。",
     "author": "Sean Covey",
     "cover_url": "https://img.youtube.com/vi/v1O1pjVwlKY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Fy1JC7hjqGo",
@@ -6074,7 +6074,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "高效時間管理 是由 Kevin Kruse 撰寫的書籍（代碼 S4-05），內容涵蓋相關領域的深入探討。",
     "author": "Kevin Kruse",
     "cover_url": "https://img.youtube.com/vi/SvcuLUxqWYU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=2a4Y6_Z9ub4",
@@ -6098,7 +6098,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "心智管理非時間管理 Mind Management^J 是由 David Kadavy 撰寫的書籍（代碼 S4-06），內容涵蓋相關領域的深入探討。",
     "author": "David Kadavy",
     "cover_url": "https://img.youtube.com/vi/iMlQam8FeoM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=M1pnX7rvxYk",
@@ -6119,7 +6119,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "當下工作習慣 The Now Habit at Work  Efficiency^J Balance^J and 是由 Neil Fiore 撰寫的書籍（代碼 S4-07），內容涵蓋相關領域的深入探討。",
     "author": "Neil Fiore",
     "cover_url": "https://img.youtube.com/vi/iJjd7i4z1ho/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=QKac71zW1fs",
@@ -6140,7 +6140,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "工作生活法則 是由 陳雪頻 撰寫的書籍（代碼 S4-08），內容涵蓋相關領域的深入探討。",
     "author": "陳雪頻",
     "cover_url": "https://img.youtube.com/vi/qESo8x9LZ-s/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=2eC_BjMuEIo",
@@ -6162,7 +6162,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "時間管理 Time Management  10 是由 Brian Tracy 撰寫的書籍（代碼 S4-09），內容涵蓋相關領域的深入探討。",
     "author": "Brian Tracy",
     "cover_url": "https://img.youtube.com/vi/ogSAqnzlGN4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=f5uHjEfsuG4",
@@ -6182,7 +6182,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "完整結案 是由 Jon Acuff 撰寫的書籍（代碼 S4-10），內容涵蓋相關領域的深入探討。",
     "author": "Jon Acuff",
     "cover_url": "https://img.youtube.com/vi/SEz3RByVWZY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=I41CbiVzkto",
@@ -6202,7 +6202,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "賭注在你 是由 Annie Duke 撰寫的書籍（代碼 S4-11），內容涵蓋相關領域的深入探討。",
     "author": "Annie Duke",
     "cover_url": "https://img.youtube.com/vi/vm7toUfaulk/maxresdefault.jpg",
     "description_cn": "Annie Duke結合撲克策略的決策著作，教導讀者如何在不確定情況下做出更好的決定。將人生視為一場機率賽局，學會評估風險並自信下注。",
@@ -6224,7 +6224,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "哈佛商業評論 工作智慧 是由 Harvard Business Review 撰寫的書籍（代碼 S4-12），內容涵蓋相關領域的深入探討。",
     "author": "Harvard Business Review",
     "cover_url": "https://img.youtube.com/vi/XFdQRE3uXE0/maxresdefault.jpg",
     "description_cn": "這是一部關於商業策略和創業精神的實用指南。書中分享了成功企業家的經驗和教訓，為有志創業者提供了寶貴的建議。",
@@ -6244,7 +6244,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "因選擇偉大 是由 Jim Collins 撰寫的書籍（代碼 S4-13），內容涵蓋相關領域的深入探討。",
     "author": "Jim Collins",
     "cover_url": "https://img.youtube.com/vi/QdTbfPDS1UI/maxresdefault.jpg",
     "description_cn": "Jim Collins的管理經典著作，探討企業如何從優秀跨越到卓越。揭示偉大企業的共同特質，包括第五級領導、先找對人再決定做什麼事等核心原則。",
@@ -6264,7 +6264,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "沒人真的在乎你的職涯 是由 坎貝爾・沃克 撰寫的書籍（代碼 S4-14），內容涵蓋相關領域的深入探討。",
     "author": "坎貝爾・沃克",
     "cover_url": "https://img.youtube.com/vi/E6Frc_9yhy4/maxresdefault.jpg",
     "description_cn": "坎貝爾的職涯發展著作，以直白的態度告訴讀者職場的真實面貌。提供實用的職涯策略，幫助讀者停止期待他人關注自己的職涯，主動掌握發展方向。",
@@ -6284,7 +6284,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "頂尖效能 是由 Steven Kotler 撰寫的書籍（代碼 S4-15），內容涵蓋相關領域的深入探討。",
     "author": "Steven Kotler",
     "cover_url": "https://img.youtube.com/vi/YT42-TUHFDI/maxresdefault.jpg",
     "description_cn": "Steven Kotler的巔峰表現著作，結合神經科學與心流研究。揭示頂尖表現者如何進入「心流」狀態，並提供可複製的方法幫助讀者達到超凡表現。",
@@ -6304,7 +6304,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "頂尖表現 是由 Brad Stulberg 撰寫的書籍（代碼 S4-16），內容涵蓋相關領域的深入探討。",
     "author": "Brad Stulberg",
     "cover_url": "https://img.youtube.com/vi/liL0d72AIoQ/maxresdefault.jpg",
     "description_cn": "Brad Stulberg的表現科學著作，融合運動科學、心理學和神經科學的研究。提出壓力＋休息＝成長的公式，幫助讀者在運動、工作和生活中達到巔峰表現。",
@@ -6324,7 +6324,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "用智不更用力Smarter 是由 Charles Duhigg 撰寫的書籍（代碼 S4-17），內容涵蓋相關領域的深入探討。",
     "author": "Charles Duhigg",
     "cover_url": "https://img.youtube.com/vi/lIfOgUICK3g/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=W_hGESQt60g",
@@ -6344,7 +6344,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "從你開始 是由 Simon Sinek 撰寫的書籍（代碼 S4-18），內容涵蓋相關領域的深入探討。",
     "author": "Simon Sinek",
     "cover_url": "https://img.youtube.com/vi/qI8u3MEShVg/maxresdefault.jpg",
     "description_cn": "Simon Sinek的領導力著作，探討真正的領導從自己開始。強調以身作則的重要性，提供建立信任、激勵團隊的實用方法。",
@@ -6364,7 +6364,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "恐懼的禮物 是由 Gavin de Becker 撰寫的書籍（代碼 S4-19），內容涵蓋相關領域的深入探討。",
     "author": "Gavin de Becker",
     "cover_url": "https://img.youtube.com/vi/Ffxwa5r_oyo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Vp6gJoHg-oU",
@@ -6385,7 +6385,7 @@
       "心理學",
       "思維方式"
     ],
-    "description": "",
+    "description": "批判性思維 是由 Tom Chatfield 撰寫的書籍（代碼 S4-20），內容涵蓋相關領域的深入探討。",
     "author": "Tom Chatfield",
     "cover_url": "https://img.youtube.com/vi/N7GEBoUy9Mg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=DFLukI7FxX8",
@@ -6405,7 +6405,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "21 Lessons for the 21st Century by Yuval Noah Harari 是由 Yuval Noah Harari 撰寫的書籍（代碼 S4-21），內容涵蓋相關領域的深入探討。",
     "author": "Yuval Noah Harari",
     "cover_url": "https://img.youtube.com/vi/o5RzQE_-6JI/maxresdefault.jpg",
     "description_cn": "Yuval Noah Harari獻給當代人的21堂思考課，探討科技顛覆、政治變革、宗教信仰等21世紀最迫切的議題。從AI威脅到假新聞，幫助讀者在混亂世界中保持清醒。",
@@ -6425,7 +6425,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "懶惰不存在 是由 Devon Price 撰寫的書籍（代碼 S4-22），內容涵蓋相關領域的深入探討。",
     "author": "Devon Price",
     "cover_url": "https://img.youtube.com/vi/NJOmxzmsn6I/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=y4nmKgtoc90",
@@ -6445,7 +6445,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "真實的快樂 是由 Martin Seligman 撰寫的書籍（代碼 S4-23），內容涵蓋相關領域的深入探討。",
     "author": "Martin Seligman",
     "cover_url": "https://img.youtube.com/vi/B25ANsjmDXg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=960vMUsymE8",
@@ -6465,7 +6465,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "有果皆因 是由 樊登 撰寫的書籍（代碼 S4-24），內容涵蓋相關領域的深入探討。",
     "author": "樊登",
     "cover_url": "https://img.youtube.com/vi/yAPZ7dxZLUA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=P3VOipr3iuU",
@@ -6485,7 +6485,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "25個MBA 核心模型 25 是由 劉潤 撰寫的書籍（代碼 S4-25），內容涵蓋相關領域的深入探討。",
     "author": "劉潤",
     "cover_url": "https://img.youtube.com/vi/ZHUNbrkEHsU/maxresdefault.jpg",
     "description_cn": "劉潤彙整25個MBA核心管理模型的實用著作，涵蓋波特五力、SWOT分析等經典框架。將學術理論轉化為可立即應用的商業工具。",
@@ -6505,7 +6505,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "絕不妥協 是由 Chris Voss 撰寫的書籍（代碼 S4-26），內容涵蓋相關領域的深入探討。",
     "author": "Chris Voss",
     "cover_url": "https://img.youtube.com/vi/dZtMkoPI3s4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=lxDwIuYwGMM",
@@ -6524,7 +6524,7 @@
     "tags": [
       "藝術與文化"
     ],
-    "description": "",
+    "description": "誘惑的藝術 是由 Robert Greene 撰寫的書籍（代碼 S4-27），內容涵蓋相關領域的深入探討。",
     "author": "Robert Greene",
     "cover_url": "https://img.youtube.com/vi/gx8bApfrL54/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ge--wWQxtH8",
@@ -6544,7 +6544,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "心無止境 是由 Jim Kwik 撰寫的書籍（代碼 S4-28），內容涵蓋相關領域的深入探討。",
     "author": "Jim Kwik",
     "cover_url": "https://img.youtube.com/vi/1YK4ohLhXPw/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=a8PVLiJf7GA",
@@ -6564,7 +6564,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "智能簡史 是由 黃鐵軍 撰寫的書籍（代碼 S4-29），內容涵蓋相關領域的深入探討。",
     "author": "黃鐵軍",
     "cover_url": "https://img.youtube.com/vi/YBLQQFP0HjE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=kHP2SoTbPxA",
@@ -6584,7 +6584,7 @@
       "品牌與行銷",
       "商業與創業"
     ],
-    "description": "",
+    "description": "藍海策略 是由 W. Chan Kim 撰寫的書籍（代碼 S4-30），內容涵蓋相關領域的深入探討。",
     "author": "W. Chan Kim",
     "cover_url": "https://img.youtube.com/vi/MYMwW75sdUo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ViY7aRb2BbU",
@@ -6604,7 +6604,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "無限起點 是由 李檬 撰寫的書籍（代碼 S4-31），內容涵蓋相關領域的深入探討。",
     "author": "李檬",
     "cover_url": "https://img.youtube.com/vi/XTJQUGXXZ_g/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=A7JpyHpNeXA",
@@ -6624,7 +6624,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "打造第二大腦 是由 Tiago Forte 撰寫的書籍（代碼 S4-32），內容涵蓋相關領域的深入探討。",
     "author": "Tiago Forte",
     "cover_url": "https://img.youtube.com/vi/oKiyX66wF0Q/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=kGFATzA7iYA",
@@ -6643,7 +6643,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "高成效習慣 是由 Brendon Burchard 撰寫的書籍（代碼 S4-33），內容涵蓋相關領域的深入探討。",
     "author": "Brendon Burchard",
     "cover_url": "https://img.youtube.com/vi/q_miS8aTj88/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=KaEahHUZmoM",
@@ -6663,7 +6663,7 @@
       "傳記與故事",
       "自傳與小說"
     ],
-    "description": "",
+    "description": "十倍故事力  Story 10x 是由 Matthew Dicks 撰寫的書籍（代碼 S4-34），內容涵蓋相關領域的深入探討。",
     "author": "Matthew Dicks",
     "cover_url": "https://img.youtube.com/vi/IyfyRfl4pFc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Iw0U_xEa8zU",
@@ -6685,7 +6685,7 @@
       "寫作與表達",
       "藝術與文化"
     ],
-    "description": "",
+    "description": "成長文化 是由 Robert Kegan 撰寫的書籍（代碼 S4-35），內容涵蓋相關領域的深入探討。",
     "author": "Robert Kegan",
     "cover_url": "https://img.youtube.com/vi/-mQlBB3AvC4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=w1yTDtO1FoY",
@@ -6705,7 +6705,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "高道領導 是由 John C. Maxwell 撰寫的書籍（代碼 S4-36），內容涵蓋相關領域的深入探討。",
     "author": "John C. Maxwell",
     "cover_url": "https://img.youtube.com/vi/E5YKZW8iueY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=xkScDuMDefw",
@@ -6725,7 +6725,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "領導力聖經 Maxwell Leadership Bible  Select Insights from Genesis to 1 是由 John C. Maxwell 撰寫的書籍（代碼 S4-37），內容涵蓋相關領域的深入探討。",
     "author": "John C. Maxwell",
     "cover_url": "https://img.youtube.com/vi/eSl_IaH3SFw/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=tpbXZ6RxWiU",
@@ -6745,7 +6745,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "十倍成功規則 The 10X 是由 Grant Cardone 撰寫的書籍（代碼 S4-38），內容涵蓋相關領域的深入探討。",
     "author": "Grant Cardone",
     "cover_url": "https://img.youtube.com/vi/BvXNgCzvVMg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=0E_r1jKfyDg",
@@ -6765,7 +6765,7 @@
       "品牌與行銷",
       "商業與創業"
     ],
-    "description": "",
+    "description": "好與壞的策略 是由 Richard Rumelt 撰寫的書籍（代碼 S4-39），內容涵蓋相關領域的深入探討。",
     "author": "Richard Rumelt",
     "cover_url": "https://img.youtube.com/vi/Ujjp-tEb6BU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=vMszbfS7n3M",
@@ -6785,7 +6785,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "別依個人進餐 是由 Keith Ferrazzi 撰寫的書籍（代碼 S4-40），內容涵蓋相關領域的深入探討。",
     "author": "Keith Ferrazzi",
     "cover_url": "https://img.youtube.com/vi/_3NfLYZceMc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=EszDWN39rso",
@@ -6804,7 +6804,7 @@
     "tags": [
       "投資與理財"
     ],
-    "description": "",
+    "description": "簡單致富 是由 JL Collins 撰寫的書籍（代碼 S4-41），內容涵蓋相關領域的深入探討。",
     "author": "JL Collins",
     "cover_url": "https://img.youtube.com/vi/tHMXohkz9ZY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=mJPo5oOHXHc",
@@ -6823,7 +6823,7 @@
     "tags": [
       "投資與理財"
     ],
-    "description": "",
+    "description": "明年就當百萬富翁 是由 Rachel Cruze 撰寫的書籍（代碼 S4-42），內容涵蓋相關領域的深入探討。",
     "author": "Rachel Cruze",
     "cover_url": "https://img.youtube.com/vi/hnfBnOh7XGQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XTMV83cv3_w",
@@ -6842,7 +6842,7 @@
     "tags": [
       "投資與理財"
     ],
-    "description": "",
+    "description": "財務喜樂  FINANCIAL JOY 2 0 是由 Dave Ramsey 撰寫的書籍（代碼 S4-43），內容涵蓋相關領域的深入探討。",
     "author": "Dave Ramsey",
     "cover_url": "https://img.youtube.com/vi/vG_o-Fu-CC8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=FZbthI2tlsA",
@@ -6862,7 +6862,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "持續買進 是由 Nick Maggiulli 撰寫的書籍（代碼 S4-44），內容涵蓋相關領域的深入探討。",
     "author": "Nick Maggiulli",
     "cover_url": "https://img.youtube.com/vi/q--EpTVsATA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=PFV41c-brJ4",
@@ -6881,7 +6881,7 @@
     "tags": [
       "投資與理財"
     ],
-    "description": "",
+    "description": "你值得致富 是由 Amanda Frances 撰寫的書籍（代碼 S4-45），內容涵蓋相關領域的深入探討。",
     "author": "Amanda Frances",
     "cover_url": "https://img.youtube.com/vi/G2A8G4XMwJI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Iys8zd4I6EA",
@@ -6904,7 +6904,7 @@
       "投資與理財",
       "科學與人文"
     ],
-    "description": "",
+    "description": "金錢心理學 是由 Morgan Housel 撰寫的書籍（代碼 S4-46），內容涵蓋相關領域的深入探討。",
     "author": "Morgan Housel",
     "cover_url": "https://img.youtube.com/vi/eKmpS_vketM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=vv6X0eF1EKU",
@@ -6924,7 +6924,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "激勵為何無效 是由 Susan Fowler 撰寫的書籍（代碼 S4-47），內容涵蓋相關領域的深入探討。",
     "author": "Susan Fowler",
     "cover_url": "https://img.youtube.com/vi/mClNnkIv6OU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=4B6I2qvVvnU",
@@ -6944,7 +6944,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "協同主動領導 是由 Tom Peters 撰寫的書籍（代碼 S4-48），內容涵蓋相關領域的深入探討。",
     "author": "Tom Peters",
     "cover_url": "https://img.youtube.com/vi/__SvjLbMfh4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=pwGUCjooz8U",
@@ -6964,7 +6964,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "究竟該說什麼 是由 Phil M. Jones 撰寫的書籍（代碼 S4-49），內容涵蓋相關領域的深入探討。",
     "author": "Phil M. Jones",
     "cover_url": "https://img.youtube.com/vi/FofV92KT3U0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=uwL84WlXq9k",
@@ -6984,7 +6984,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "兆元教練 是由 Eric Schmidt 撰寫的書籍（代碼 S4-50），內容涵蓋相關領域的深入探討。",
     "author": "Eric Schmidt",
     "cover_url": "https://img.youtube.com/vi/hDielbnOmlg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=gW4rkeot-As",
@@ -7004,7 +7004,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "僕人領導 是由 James C. Hunter 撰寫的書籍（代碼 S4-51），內容涵蓋相關領域的深入探討。",
     "author": "James C. Hunter",
     "cover_url": "https://img.youtube.com/vi/LJpjAWLe3MM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=WWoOsejIOXY",
@@ -7024,7 +7024,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "成功101 Success 101 Maxwell's Insights on Success  Purpose^J Growth^J and 是由 John C. Maxwell 撰寫的書籍（代碼 S4-52），內容涵蓋相關領域的深入探討。",
     "author": "John C. Maxwell",
     "cover_url": "https://img.youtube.com/vi/p-lW_WmvFvI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=dei00urvCuk",
@@ -7044,7 +7044,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "噪音 判斷的偏差 是由 Daniel Kahneman 撰寫的書籍（代碼 S4-53），內容涵蓋相關領域的深入探討。",
     "author": "Daniel Kahneman",
     "cover_url": "https://img.youtube.com/vi/K67kigoV7g0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=CAFgWrxjy8Q",
@@ -7064,7 +7064,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "可預測的不理性 是由 Dan Ariely 撰寫的書籍（代碼 S4-54），內容涵蓋相關領域的深入探討。",
     "author": "Dan Ariely",
     "cover_url": "https://img.youtube.com/vi/LL_wrzAQhVo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=oWgqjRpvMro",
@@ -7084,7 +7084,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "爛數字 是由 Tim Harford 撰寫的書籍（代碼 S4-55），內容涵蓋相關領域的深入探討。",
     "author": "Tim Harford",
     "cover_url": "https://img.youtube.com/vi/_xgdkc_VaYU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Q-D9BE8QrXg",
@@ -7104,7 +7104,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "CEO 測試 是由 Adam Bryant 撰寫的書籍（代碼 S4-56），內容涵蓋相關領域的深入探討。",
     "author": "Adam Bryant",
     "cover_url": "https://img.youtube.com/vi/KIbzrayfmhE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rGtSAtfYsDw",
@@ -7125,7 +7125,7 @@
       "職場與領導",
       "藝術與文化"
     ],
-    "description": "",
+    "description": "工作的藝術 找尋你的天職 是由 Liz Forkin Bohannon 撰寫的書籍（代碼 S4-57），內容涵蓋相關領域的深入探討。",
     "author": "Liz Forkin Bohannon",
     "cover_url": "https://img.youtube.com/vi/1J58S7N-XLQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=GY4hN1HNl6s",
@@ -7145,7 +7145,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "新一分鐘管理 是由 Ken Blanchard 撰寫的書籍（代碼 S4-58），內容涵蓋相關領域的深入探討。",
     "author": "Ken Blanchard",
     "cover_url": "https://img.youtube.com/vi/1pnG3HxXMbg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=qMpeqU0OEuY",
@@ -7165,7 +7165,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "呼喊訊號  混亂 是由 Tim Harford 撰寫的書籍（代碼 S4-59），內容涵蓋相關領域的深入探討。",
     "author": "Tim Harford",
     "cover_url": "https://img.youtube.com/vi/kzHrM4A2nBw/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=dei00urvCuk",
@@ -7185,7 +7185,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "躍昇領導 是由 John C. Maxwell 撰寫的書籍（代碼 S4-60），內容涵蓋相關領域的深入探討。",
     "author": "John C. Maxwell",
     "cover_url": "https://img.youtube.com/vi/116fVpFQV_4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Z6AZ6vpA-TU",
@@ -7205,7 +7205,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "領導最後吃 是由 Simon Sinek 撰寫的書籍（代碼 S4-61），內容涵蓋相關領域的深入探討。",
     "author": "Simon Sinek",
     "cover_url": "https://img.youtube.com/vi/R23udx6PkOw/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=kfHyCRmr6oY",
@@ -7226,7 +7226,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "發展屬於你的領導力 是由 John C. Maxwell 撰寫的書籍（代碼 S4-62），內容涵蓋相關領域的深入探討。",
     "author": "John C. Maxwell",
     "cover_url": "https://img.youtube.com/vi/MfXe07PhdRY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=CtVfzSlT-wc",
@@ -7246,7 +7246,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "切換你的腦袋 是由 David J. Schwartz 撰寫的書籍（代碼 S4-63），內容涵蓋相關領域的深入探討。",
     "author": "David J. Schwartz",
     "cover_url": "https://img.youtube.com/vi/Hdi_mLx-AhU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=1SD0a0iCikk",
@@ -7266,7 +7266,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "喜樂之書 是由 Dalai Lama, Desmond Tutu 撰寫的書籍（代碼 S4-64），內容涵蓋相關領域的深入探討。",
     "author": "Dalai Lama, Desmond Tutu",
     "cover_url": "https://img.youtube.com/vi/s-QvEpDqRKw/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=MWZPPA-1r7A",
@@ -7285,7 +7285,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "有趣習慣 是由 Ingrid Fetell Lee 撰寫的書籍（代碼 S4-65），內容涵蓋相關領域的深入探討。",
     "author": "Ingrid Fetell Lee",
     "cover_url": "https://img.youtube.com/vi/W73tlEFMQf0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_dAPA-HAxR0",
@@ -7306,7 +7306,7 @@
       "心理學",
       "科學與人文"
     ],
-    "description": "",
+    "description": "食物心理解 是由 Bee Wilson 撰寫的書籍（代碼 S4-66），內容涵蓋相關領域的深入探討。",
     "author": "Bee Wilson",
     "cover_url": "https://img.youtube.com/vi/zIf34wwOAZI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=JQW9dhPod4g",
@@ -7326,7 +7326,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "斷線 是由 Cal Newport 撰寫的書籍（代碼 S4-67），內容涵蓋相關領域的深入探討。",
     "author": "Cal Newport",
     "cover_url": "https://img.youtube.com/vi/okRgd29tIxs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=NU5rHe2V5Z0",
@@ -7346,7 +7346,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "閃電醫治 是由 Dale Bredesen 撰寫的書籍（代碼 S4-68），內容涵蓋相關領域的深入探討。",
     "author": "Dale Bredesen",
     "cover_url": "https://img.youtube.com/vi/eksbdNIuVss/maxresdefault.jpg",
     "description_cn": "Dale Bredesen的阿茲海默症研究著作，提出透過生活方式調整預防和逆轉認知退化的可能性。基於科學研究提供具體的大腦健康維護方案。",
@@ -7366,7 +7366,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "從我腦出去 是由 Faith G. Harper 撰寫的書籍（代碼 S4-69），內容涵蓋相關領域的深入探討。",
     "author": "Faith G. Harper",
     "cover_url": "https://img.youtube.com/vi/tDyaf-FGUbA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=YN9xAxa47VA",
@@ -7386,7 +7386,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "快樂假設 是由 Jonathan Haidt 撰寫的書籍（代碼 S4-70），內容涵蓋相關領域的深入探討。",
     "author": "Jonathan Haidt",
     "cover_url": "https://img.youtube.com/vi/bOoz0et9mIc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=8X43tV2r0x8",
@@ -7406,7 +7406,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "掌控你的信仰 是由 Tony Robbins 撰寫的書籍（代碼 S4-71），內容涵蓋相關領域的深入探討。",
     "author": "Tony Robbins",
     "cover_url": "https://img.youtube.com/vi/rFq90nY6e0s/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_UuTBsTbSq0",
@@ -7426,7 +7426,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "掌控你的命定 是由 Tony Robbins 撰寫的書籍（代碼 S4-72），內容涵蓋相關領域的深入探討。",
     "author": "Tony Robbins",
     "cover_url": "https://img.youtube.com/vi/Gxs2mmMIrZ0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_EmftABcSSI",
@@ -7446,7 +7446,7 @@
       "心理學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "掌控你的情緒 是由 Tony Robbins 撰寫的書籍（代碼 S4-73），內容涵蓋相關領域的深入探討。",
     "author": "Tony Robbins",
     "cover_url": "https://img.youtube.com/vi/vNqdM6vhkk0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Zj7an9ANltI",
@@ -7466,7 +7466,7 @@
       "人文與科學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "掌控你的學習 是由 Tony Robbins 撰寫的書籍（代碼 S4-74），內容涵蓋相關領域的深入探討。",
     "author": "Tony Robbins",
     "cover_url": "https://img.youtube.com/vi/swXuWeSVD9c/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=oDKGaGNew_0",
@@ -7486,7 +7486,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "掌控你的思想 是由 Tony Robbins 撰寫的書籍（代碼 S4-75），內容涵蓋相關領域的深入探討。",
     "author": "Tony Robbins",
     "cover_url": "https://img.youtube.com/vi/NnXSJfSxwQk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=M9Ywp0Q-z7w",
@@ -7506,7 +7506,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "多巴胺排毒 是由 Anna Lembke 撰寫的書籍（代碼 S4-76），內容涵蓋相關領域的深入探討。",
     "author": "Anna Lembke",
     "cover_url": "https://img.youtube.com/vi/M2TTzA7xSPI/maxresdefault.jpg",
     "description_cn": "Anna Lembke的神經科學著作，探討現代社會的多巴胺過度刺激問題。從社交媒體到物質成癮，揭示快感與痛苦的平衡機制，提供「多巴胺排毒」的實用方策略。",
@@ -7526,7 +7526,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "新智強度 是由 Tony Robbins 撰寫的書籍（代碼 S4-77），內容涵蓋相關領域的深入探討。",
     "author": "Tony Robbins",
     "cover_url": "https://img.youtube.com/vi/MjZq59RU6t8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=yYZXvqyhlJk",
@@ -7546,7 +7546,7 @@
       "心智與思維",
       "心理學"
     ],
-    "description": "",
+    "description": "掌控心智圖 是由 Tony Robbins 撰寫的書籍（代碼 S4-78），內容涵蓋相關領域的深入探討。",
     "author": "Tony Robbins",
     "cover_url": "https://img.youtube.com/vi/aJdeiEaDlXU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=F2gtpD_xQtU",
@@ -7566,7 +7566,7 @@
       "個人成長",
       "心智與思維"
     ],
-    "description": "",
+    "description": "留意你的心態 是由 Carol S. Dweck 撰寫的書籍（代碼 S4-79），內容涵蓋相關領域的深入探討。",
     "author": "Carol S. Dweck",
     "cover_url": "https://img.youtube.com/vi/QHeS8fv0-w4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=nyAvDJ1Bmyw",
@@ -7586,7 +7586,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "跟愛因斯坦一起太空漫步 是由 Joshua Foer 撰寫的書籍（代碼 S4-80），內容涵蓋相關領域的深入探討。",
     "author": "Joshua Foer",
     "cover_url": "https://img.youtube.com/vi/4-TUPcIQz6A/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=C5OWX7wvEfs",
@@ -7606,7 +7606,7 @@
       "心智與思維",
       "心理學"
     ],
-    "description": "",
+    "description": "心智之書 是由 Daniel Kahneman 撰寫的書籍（代碼 S4-81），內容涵蓋相關領域的深入探討。",
     "author": "Daniel Kahneman",
     "cover_url": "https://img.youtube.com/vi/eDgHXOFyV-8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=wDGnUpaf7AI",
@@ -7626,7 +7626,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "代謝 是由 Herman Pontzer 撰寫的書籍（代碼 VS-12），內容涵蓋相關領域的深入探討。",
     "author": "Herman Pontzer",
     "cover_url": "https://img.youtube.com/vi/WKAyO6v4iCc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Ob22c9H5KUc",
@@ -7646,7 +7646,7 @@
       "人文與科學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "超高效學習 是由 Scott H. Young 撰寫的書籍（代碼 VS-21），內容涵蓋相關領域的深入探討。",
     "author": "Scott H. Young",
     "cover_url": "https://img.youtube.com/vi/IkQITbAJu8c/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=G2JFXEm-Lys",
@@ -7666,7 +7666,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "人的心 是由 朱光潛 撰寫的書籍（代碼 VS-22），內容涵蓋相關領域的深入探討。",
     "author": "朱光潛",
     "cover_url": "https://img.youtube.com/vi/bhm4KTvGcQU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=J0ep-45_FJ8",
@@ -7686,7 +7686,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "48小時內 都學會  How to Learn Almost Anything in 48 是由 Tansel Ali 撰寫的書籍（代碼 VS-23），內容涵蓋相關領域的深入探討。",
     "author": "Tansel Ali",
     "cover_url": "https://img.youtube.com/vi/xf6inKzijnU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=xmSJVX1fmXE",
@@ -7706,7 +7706,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "不會背叛你的K書竅門 是由 Barbara Oakley 撰寫的書籍（代碼 VS-24），內容涵蓋相關領域的深入探討。",
     "author": "Barbara Oakley",
     "cover_url": "https://img.youtube.com/vi/-VONLi724FE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=AgTdCj_9cFs",
@@ -7727,7 +7727,7 @@
       "心智與思維",
       "心理學"
     ],
-    "description": "",
+    "description": "金字塔心智模式 是由 Barbara Minto 撰寫的書籍（代碼 VS-25），內容涵蓋相關領域的深入探討。",
     "author": "Barbara Minto",
     "cover_url": "https://img.youtube.com/vi/Gl9TT7QKsnc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=2tsLGzi41u4",
@@ -7746,7 +7746,7 @@
     "tags": [
       "心智與思維"
     ],
-    "description": "",
+    "description": "高效思考的五個要素 The 5 是由 Edward B. Burger 撰寫的書籍（代碼 VS-26），內容涵蓋相關領域的深入探討。",
     "author": "Edward B. Burger",
     "cover_url": "https://img.youtube.com/vi/bEDx3rqtl2s/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=mVw91zg8vZc",
@@ -7766,7 +7766,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "關於癌症，我們是否治療太多，知道太少 是由 H. Gilbert Welch 撰寫的書籍（代碼 VS-27），內容涵蓋相關領域的深入探討。",
     "author": "H. Gilbert Welch",
     "cover_url": "https://img.youtube.com/vi/x5zhlfkbh3Y/maxresdefault.jpg",
     "description_cn": "H. Gilbert Welch探討現代醫療過度診斷問題的著作。揭示癌症篩檢和治療中「做太多」可能帶來的傷害，呼籲更理性地看待健康檢查。",
@@ -7786,7 +7786,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "天生就會跑 是由 Christopher McDougall 撰寫的書籍（代碼 VS-28），內容涵蓋相關領域的深入探討。",
     "author": "Christopher McDougall",
     "cover_url": "https://img.youtube.com/vi/TbLPjJx3jaE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=6gVQnAFanH0",
@@ -7806,12 +7806,12 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
-    "author": "茂木健一郎",
+    "description": "羅杰·塞普的腦力訓練著作，教導讀者如何運用大腦的特性來提升表現。提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "author": "Roger Seip",
     "cover_url": "https://img.youtube.com/vi/-tihYQckWqM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=R1Qtrcx8rzw",
-    "description_cn": "茂木健一郎的腦科學應用著作，教導讀者如何運用大腦的特性來提升表現。從多巴胺到鏡像神經元，提供基於腦科學的成功策略。",
-    "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。"
+    "description_cn": "羅杰·塞普的腦力訓練著作，教導讀者如何運用大腦的特性來提升表現。",
+    "description_en": "Roger Seip's brain training book teaches readers how to use brain characteristics to improve performance.",
   },
   {
     "id": "book_472",
@@ -7826,7 +7826,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "治癒 是由 Jo Marchant 撰寫的書籍（代碼 VS-30），內容涵蓋相關領域的深入探討。",
     "author": "Jo Marchant",
     "cover_url": "https://img.youtube.com/vi/M35KNAJOZ9o/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=x5PKU1isqSA",
@@ -7846,7 +7846,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "The Art of Creative Thinking 是由 Rod Judkins 撰寫的書籍（代碼 VS-31），內容涵蓋相關領域的深入探討。",
     "author": "Rod Judkins",
     "cover_url": "https://img.youtube.com/vi/aaORlaEIwdY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rLpAxQLG4ac",
@@ -7866,7 +7866,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "The Art of Explanation 是由 Ros Atkins 撰寫的書籍（代碼 VS-32），內容涵蓋相關領域的深入探討。",
     "author": "Ros Atkins",
     "cover_url": "https://img.youtube.com/vi/JDww601bNJ0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=D8CXcz29bdg",
@@ -7886,7 +7886,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "The Art of Laziness 是由 Library Mindset 撰寫的書籍（代碼 VS-33），內容涵蓋相關領域的深入探討。",
     "author": "Library Mindset",
     "cover_url": "https://img.youtube.com/vi/pQbrguWBiYs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Fo70-LfAxIU",
@@ -7905,7 +7905,7 @@
     "tags": [
       "心智與思維"
     ],
-    "description": "",
+    "description": "深度思考 是由 Garry Kasparov 撰寫的書籍（代碼 VS-34），內容涵蓋相關領域的深入探討。",
     "author": "Garry Kasparov",
     "cover_url": "https://img.youtube.com/vi/R59A5I3Mk6I/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=3rrZaSbnfqs",
@@ -7925,7 +7925,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "假性親密關係 是由 史秀雄 撰寫的書籍（代碼 VS-36），內容涵蓋相關領域的深入探討。",
     "author": "史秀雄",
     "cover_url": "https://img.youtube.com/vi/Wl5XPgEn3Hg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Dki3bPc0VHg",
@@ -7945,7 +7945,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Outlive 是由 Peter Attia 撰寫的書籍（代碼 VS-37），內容涵蓋相關領域的深入探討。",
     "author": "Peter Attia",
     "cover_url": "https://img.youtube.com/vi/gyAZE58hfBw/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=vSdJRtu9Zvw",
@@ -7966,7 +7966,7 @@
       "心理學",
       "思維方式"
     ],
-    "description": "",
+    "description": "破框思維的技術 是由 狩野未希 撰寫的書籍（代碼 VS-38），內容涵蓋相關領域的深入探討。",
     "author": "狩野未希",
     "cover_url": "https://img.youtube.com/vi/dFEHSmm0Xn4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=U-4hSg6hzrw",
@@ -7986,7 +7986,7 @@
       "心理學",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "人性賽局 是由 Robert Wright 撰寫的書籍（代碼 VS-39），內容涵蓋相關領域的深入探討。",
     "author": "Robert Wright",
     "cover_url": "https://img.youtube.com/vi/xV9B2NlDd0c/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=fM-PgeWb0_w",
@@ -8006,7 +8006,7 @@
       "個人成長",
       "心智與思維"
     ],
-    "description": "",
+    "description": "思考之道   考え方  人生．仕事の結果が変わる 是由 稻盛和夫 撰寫的書籍（代碼 VS-40），內容涵蓋相關領域的深入探討。",
     "author": "稻盛和夫",
     "cover_url": "https://img.youtube.com/vi/gsR9loyYtqE/maxresdefault.jpg",
     "description_cn": "稻盛和夫的思考哲學著作，分享影響人生結果的思考方式。提出「思考方式×熱情×能力＝人生成果」的公式，強調正確的心態是成功的基礎。",
@@ -8026,7 +8026,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "超速進步 是由 Daniel Coyle 撰寫的書籍（代碼 VS-41），內容涵蓋相關領域的深入探討。",
     "author": "Daniel Coyle",
     "cover_url": "https://img.youtube.com/vi/klgRbQmuc_8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Ond7_5X5E_s",
@@ -8046,7 +8046,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "晤談的力量 陳恆霖 是由 陳恆霖 撰寫的書籍（代碼 VS-42），內容涵蓋相關領域的深入探討。",
     "author": "陳恆霖",
     "cover_url": "https://img.youtube.com/vi/8plIuFU3_H4/maxresdefault.jpg",
     "description_cn": "陳恆霖的諮商心理學著作，探討晤談作為療癒工具的力量。分享專業諮商師的對話技巧，幫助助人工作者提升晤談效能。",
@@ -8066,7 +8066,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "C 別幫部屬養猴子 是由 William Oncken Jr. 撰寫的書籍（代碼 VW-01），內容涵蓋相關領域的深入探討。",
     "author": "William Oncken Jr.",
     "cover_url": "https://img.youtube.com/vi/D13PnikDQ_U/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Wdg3F4TvIO8",
@@ -8085,7 +8085,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "C 改變心意的字句/話語 是由 Shelle Rose Charvet 撰寫的書籍（代碼 VW-02），內容涵蓋相關領域的深入探討。",
     "author": "Shelle Rose Charvet",
     "cover_url": "https://img.youtube.com/vi/MYoIiKTKMz4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XmBeWb9Mzfo",
@@ -8105,7 +8105,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "C 無限記憶 是由 Kevin Horsley 撰寫的書籍（代碼 VW-03），內容涵蓋相關領域的深入探討。",
     "author": "Kevin Horsley",
     "cover_url": "https://img.youtube.com/vi/GQbJte7C5k4/maxresdefault.jpg",
     "description_cn": "Kevin Horsley的記憶力訓練著作，提供突破記憶極限的系統方法。從數字記憶到姓名記憶，實用的記憶技術幫助讀者釋放大腦的無限記憶潛能。",
@@ -8126,7 +8126,7 @@
       "職場工作",
       "職場與領導"
     ],
-    "description": "",
+    "description": "C 小型企業管理 是由 Justin G. Longenecker 撰寫的書籍（代碼 VW-04），內容涵蓋相關領域的深入探討。",
     "author": "Justin G. Longenecker",
     "cover_url": "https://img.youtube.com/vi/qAxgcwLmnU4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=dssnxycQPwE",
@@ -8146,7 +8146,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "C 如何當擇你的生命 是由 Edith Eva Eger 撰寫的書籍（代碼 VW-05），內容涵蓋相關領域的深入探討。",
     "author": "Edith Eva Eger",
     "cover_url": "https://img.youtube.com/vi/tt7NGUPk-2E/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_akjjNPE59Q",
@@ -8166,7 +8166,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "C 詢問更多 是由 Alexandra Carter 撰寫的書籍（代碼 VW-07），內容涵蓋相關領域的深入探討。",
     "author": "Alexandra Carter",
     "cover_url": "https://img.youtube.com/vi/U8uqcto1kPg/maxresdefault.jpg",
     "description_cn": "Alexandra Carter的談判指南著作，前聯合國談判顧問教導讀者如何透過提問來獲得更多。以十個關鍵問題為框架，幫助在工作和生活中達成更好的協議。",
@@ -8186,7 +8186,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW 08 Anointed - Why Status Matters More Than Talent 是由 Thomas Sowell 撰寫的書籍（代碼 VW-08），內容涵蓋相關領域的深入探討。",
     "author": "Thomas Sowell",
     "cover_url": "https://img.youtube.com/vi/neZINjhtnKE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=aC5q9Th7OoI",
@@ -8206,7 +8206,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW 09 Loyalty rules! 是由 Frederick F. Reichheld 撰寫的書籍（代碼 VW-09），內容涵蓋相關領域的深入探討。",
     "author": "Frederick F. Reichheld",
     "cover_url": "https://img.youtube.com/vi/iHrr0nQRQOc/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8226,7 +8226,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "C 第五項修練 實戰手冊 是由 Peter Senge 撰寫的書籍（代碼 VW-10），內容涵蓋相關領域的深入探討。",
     "author": "Peter Senge",
     "cover_url": "https://img.youtube.com/vi/xEBKVVJaFcQ/maxresdefault.jpg",
     "description_cn": "Peter Senge《第五項修練》的實戰應用手冊，提供系統思考、團隊學習等理論的具體實踐方法。幫助組織建立學習型文化的實作指南。",
@@ -8246,7 +8246,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/ZESziRY8pV8/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8265,7 +8265,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/2NjC0P15tRo/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8284,7 +8284,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/6sNMJav03SQ/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8303,7 +8303,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/L4Q2RrmxoGw/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8322,7 +8322,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/Ryv1yZMfjkc/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8341,7 +8341,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/TATUjrO8Yao/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8360,7 +8360,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/dsh9ymM1r6A/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8379,7 +8379,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/hTAykiP6tk0/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8398,7 +8398,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/k4Jin0APmJM/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8417,7 +8417,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/nTRahoHaOpQ/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8436,7 +8436,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/opojxiJVffk/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8455,7 +8455,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/8RjqZIeDFbY/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8474,7 +8474,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/9Bxfk4fWk14/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8493,7 +8493,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/F449rEwNNTg/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8512,7 +8512,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/M94brprA3iM/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8531,7 +8531,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/MWl-S6rodJ0/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8550,7 +8550,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/NztnGMEdXV0/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8569,7 +8569,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/e_u4h_82w0A/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8588,7 +8588,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/md7ec94HfgM/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8607,7 +8607,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/r0mSes3oQHA/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8626,7 +8626,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/rueHBN-EvRc/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8645,7 +8645,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/7SIkeeCgG6I/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8664,7 +8664,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/OLJGdblDrm0/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8683,7 +8683,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/QzAoCTyjY5E/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8702,7 +8702,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/Vio2wzIj1YA/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8721,7 +8721,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/Yx9QtmXCOuE/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8740,7 +8740,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/_KIh_SG2wDw/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8759,7 +8759,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/b-Crg38P9iY/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8778,7 +8778,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/gZC4U_hRmCY/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8797,7 +8797,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/qxRnw8CckCI/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8816,7 +8816,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/ym4C56aykUA/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8835,7 +8835,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/2pRSBx_Mf0U/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8854,7 +8854,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/6OY4kbn_hQ8/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8873,7 +8873,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/E3cZj_fiacg/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8892,7 +8892,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/NdvbF4BVmV0/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8911,7 +8911,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/Qw3Gv91rP8s/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8930,7 +8930,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/Wr-vqTnc4tA/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8949,7 +8949,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/_B_y7aEXHfo/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8968,7 +8968,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/_h1E3ETlLhM/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -8987,7 +8987,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/nHAhHu4sapQ/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -9006,7 +9006,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/skKVGKVW0kI/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -9025,7 +9025,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/7zOXmdIPeys/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -9044,7 +9044,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/Bdbr6rLoXXs/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -9063,7 +9063,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/Coz63T714Io/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -9082,7 +9082,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/FV3r-cs4dJw/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -9101,7 +9101,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/OUTTwtyTpa0/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -9120,7 +9120,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/R48880DZhbY/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -9139,7 +9139,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/YyaLSHKPk5s/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -9158,7 +9158,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "[Private video] 是由 作者 撰寫的書籍（代碼 ），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/_JeUe8D_uuc/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -9177,7 +9177,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VS-35 海權爭霸 是由 James Stavridis 撰寫的書籍（代碼 VS-35），內容涵蓋相關領域的深入探討。",
     "author": "James Stavridis",
     "cover_url": "https://img.youtube.com/vi/Kz6s9IVWZoo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=09DMZ1wVFfU",
@@ -9196,7 +9196,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "VS-20 怦然心動的人生整理魔法 是由 近藤麻理惠 撰寫的書籍（代碼 VS-20），內容涵蓋相關領域的深入探討。",
     "author": "近藤麻理惠",
     "cover_url": "https://img.youtube.com/vi/Nd2JMEP3730/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=HQPwELezmxI",
@@ -9216,7 +9216,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VS-19 怦然心動 是由 近藤麻理惠 撰寫的書籍（代碼 VS-19），內容涵蓋相關領域的深入探討。",
     "author": "近藤麻理惠",
     "cover_url": "https://img.youtube.com/vi/dfEoC79W_0g/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=a5Q1Gah5pXc",
@@ -9236,7 +9236,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VS-18 我們為什麼會被騙 是由 Maria Konnikova 撰寫的書籍（代碼 VS-18），內容涵蓋相關領域的深入探討。",
     "author": "Maria Konnikova",
     "cover_url": "https://img.youtube.com/vi/kr2PTU6AOGE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=AzQ2_YE2nvI",
@@ -9257,7 +9257,7 @@
       "提高生產力",
       "生產力與時間"
     ],
-    "description": "",
+    "description": "VS-17 系統思考 是由 Donella Meadows 撰寫的書籍（代碼 VS-17），內容涵蓋相關領域的深入探討。",
     "author": "Donella Meadows",
     "cover_url": "https://img.youtube.com/vi/H8MeVQab_e4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=EfZKpIaemwA",
@@ -9276,7 +9276,7 @@
     "tags": [
       "個人成長"
     ],
-    "description": "",
+    "description": "VS-16 改變現在的你，迎向未來的你 是由 Hal Hershfield 撰寫的書籍（代碼 VS-16），內容涵蓋相關領域的深入探討。",
     "author": "Hal Hershfield",
     "cover_url": "https://img.youtube.com/vi/pJZ38PstbQE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=6IcbvuHHak8",
@@ -9296,7 +9296,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VS-15 專注力協定Indistractable - 是由 Nir Eyal 撰寫的書籍（代碼 VS-15），內容涵蓋相關領域的深入探討。",
     "author": "Nir Eyal",
     "cover_url": "https://img.youtube.com/vi/2wTwBEDzY5M/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rfbxxMUuMLE",
@@ -9316,7 +9316,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "LIT - 哈佛專注力革命 是由 Amanda Crowell 撰寫的書籍（代碼 VS-14），內容涵蓋相關領域的深入探討。",
     "author": "Amanda Crowell",
     "cover_url": "https://img.youtube.com/vi/vauYZk05Bjo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=T8GYJrGiniw",
@@ -9336,7 +9336,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VS-13 能量的悖論 是由 Steven R. Gundry 撰寫的書籍（代碼 VS-13），內容涵蓋相關領域的深入探討。",
     "author": "Steven R. Gundry",
     "cover_url": "https://img.youtube.com/vi/a48HTm6PDQQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=V87lPDr6QVQ",
@@ -9356,7 +9356,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VS-11 天生不愛動 是由 Daniel Lieberman 撰寫的書籍（代碼 VS-11），內容涵蓋相關領域的深入探討。",
     "author": "Daniel Lieberman",
     "cover_url": "https://img.youtube.com/vi/1NNVwBvJ4jI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rT9LnqStJ1M",
@@ -9376,7 +9376,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VS-10 我們為何吃太多？Why 是由 Andrew Jenkinson 撰寫的書籍（代碼 VS-10），內容涵蓋相關領域的深入探討。",
     "author": "Andrew Jenkinson",
     "cover_url": "https://img.youtube.com/vi/hmYz3N4jzyU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=mstGYT8InMg",
@@ -9396,7 +9396,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VS-09 改造新陳代謝 是由 William Davis 撰寫的書籍（代碼 VS-09），內容涵蓋相關領域的深入探討。",
     "author": "William Davis",
     "cover_url": "https://img.youtube.com/vi/MsLbUG8EVd8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=VZJWpmbSfj8",
@@ -9416,7 +9416,7 @@
       "人文與科學",
       "科學與人文"
     ],
-    "description": "",
+    "description": "VS-08 科學減脂X瘦身全書 是由 仰望尾迹雲 撰寫的書籍（代碼 VS-08），內容涵蓋相關領域的深入探討。",
     "author": "仰望尾迹雲",
     "cover_url": "https://img.youtube.com/vi/VDsF5ju5QVM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=bW5AxtUJaKQ",
@@ -9436,7 +9436,7 @@
       "健康與生活",
       "健康與運動"
     ],
-    "description": "",
+    "description": "VS-07 身體 是由 Bill Bryson 撰寫的書籍（代碼 VS-07），內容涵蓋相關領域的深入探討。",
     "author": "Bill Bryson",
     "cover_url": "https://img.youtube.com/vi/6ne80EI15rg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=drZDTWC0pq8",
@@ -9456,7 +9456,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Burn 是由 Herman Pontzer 撰寫的書籍（代碼 VS-06），內容涵蓋相關領域的深入探討。",
     "author": "Herman Pontzer",
     "cover_url": "https://img.youtube.com/vi/eRiBvb_2gsQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=K2Wcqrf48FA",
@@ -9476,7 +9476,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Glucose Revolution 是由 Jessie Inchauspé 撰寫的書籍（代碼 VS-05），內容涵蓋相關領域的深入探討。",
     "author": "Jessie Inchauspé",
     "cover_url": "https://img.youtube.com/vi/DNGN_rZxTFo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Pb35QSjPUFo",
@@ -9496,7 +9496,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Nature Wants Us to Be Fat 是由 Richard J. Johnson 撰寫的書籍（代碼 VS-04），內容涵蓋相關領域的深入探討。",
     "author": "Richard J. Johnson",
     "cover_url": "https://img.youtube.com/vi/eS6ZAR5ivMM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=wknXqikifvI",
@@ -9516,7 +9516,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "The Complete Guide to Fasting 是由 Jason Fung 撰寫的書籍（代碼 VS-03），內容涵蓋相關領域的深入探討。",
     "author": "Jason Fung",
     "cover_url": "https://img.youtube.com/vi/WI_I7EW5UqI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=2o-2_6QB1Vo",
@@ -9536,7 +9536,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "The Hunger Habit 是由 Judson Brewer 撰寫的書籍（代碼 VS-02），內容涵蓋相關領域的深入探討。",
     "author": "Judson Brewer",
     "cover_url": "https://img.youtube.com/vi/M3zVdlcImvo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ygA2b0UEv4s",
@@ -9559,7 +9559,7 @@
       "心理學",
       "思維方式"
     ],
-    "description": "",
+    "description": "The Model Thinker 是由 Scott E. Page 撰寫的書籍（代碼 VS-01），內容涵蓋相關領域的深入探討。",
     "author": "Scott E. Page",
     "cover_url": "https://img.youtube.com/vi/jGgbVchXzzI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=CUaEtk8TP9U",
@@ -9579,7 +9579,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW-06C  從飄移到駕駛 是由 何則文 撰寫的書籍（代碼 VW-06C），內容涵蓋相關領域的深入探討。",
     "author": "何則文",
     "cover_url": "https://img.youtube.com/vi/4wFJxBRoYzQ/maxresdefault.jpg",
     "description_cn": "何則文的生涯規劃著作，探討如何從漫無目的的「飄移」轉變為有方向的「駕駛」。提供找到人生方向、建立行動計畫的實用方法。",
@@ -9599,7 +9599,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Learn Like a Pro 是由 作者 撰寫的書籍（代碼 VS-21），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/-EUPp6N6mD0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=G2JFXEm-Lys",
@@ -9619,7 +9619,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "企業傳承與接班實務 是由 作者 撰寫的書籍（代碼 VS-43+），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/hKy1atuWcRE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=hKy1atuWcRE",
@@ -9639,7 +9639,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Coach 領導學 (Plus) 是由 作者 撰寫的書籍（代碼 VS-44+），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/E9Z71x6o40s/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=E9Z71x6o40s",
@@ -9659,7 +9659,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "Coach 領導學 是由 作者 撰寫的書籍（代碼 VS-44），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/NxbUgXc_Pek/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=NxbUgXc_Pek",
@@ -9679,7 +9679,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW 19 Hijacked How Food can Hijack your Brain 是由 作者 撰寫的書籍（代碼 VW-19），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/ZPQXHfx4Y0I/maxresdefault.jpg",
     "english_url": null,
@@ -9699,7 +9699,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW 18 Simple Sabotage Field Manual 是由 作者 撰寫的書籍（代碼 VW-18），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/BsE_e3VIbz4/maxresdefault.jpg",
     "english_url": null,
@@ -9719,7 +9719,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW 17 Think Like a Rocket Scientist 是由 作者 撰寫的書籍（代碼 VW-17），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/nAV1V9fwVbI/maxresdefault.jpg",
     "english_url": null,
@@ -9739,7 +9739,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW 16 Visualizing with Napkins Dan Roam 是由 作者 撰寫的書籍（代碼 VW-16），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/ttRDfY4CmD0/maxresdefault.jpg",
     "english_url": null,
@@ -9759,7 +9759,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW 15 Clear Thinking Shane Parrish 是由 作者 撰寫的書籍（代碼 VW-15），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/gOTxcz-T5IM/maxresdefault.jpg",
     "english_url": null,
@@ -9779,7 +9779,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW 14 Extreme Ownership 是由 作者 撰寫的書籍（代碼 VW-14），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/9BGQaPj1cAo/maxresdefault.jpg",
     "english_url": null,
@@ -9799,7 +9799,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW 13 The 80 20 Principle 是由 作者 撰寫的書籍（代碼 VW-13），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/4JrEobuDRhQ/maxresdefault.jpg",
     "english_url": null,
@@ -9819,7 +9819,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW 12 Scaling Up 是由 作者 撰寫的書籍（代碼 VW-12），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/e-4G-rKhYsc/maxresdefault.jpg",
     "english_url": null,
@@ -9839,7 +9839,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW 11 Powerful conversations 是由 作者 撰寫的書籍（代碼 VW-11），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/SQRSk4_3SbM/maxresdefault.jpg",
     "english_url": null,
@@ -9859,7 +9859,7 @@
       "個人成長",
       "推薦書籍"
     ],
-    "description": "",
+    "description": "VW 06 From Drift to Drive 是由 作者 撰寫的書籍（代碼 VW-06），內容涵蓋相關領域的深入探討。",
     "author": "",
     "cover_url": "https://img.youtube.com/vi/geSOC2kHPdQ/maxresdefault.jpg",
     "english_url": null,

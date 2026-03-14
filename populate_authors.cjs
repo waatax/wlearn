@@ -186,7 +186,7 @@ const authorMap = {
         '恐懼的禮物': 'Gavin de Becker',
         '批判性思維': 'Tom Chatfield',
         '深度思考': 'Garry Kasparov',
-        '練腦求成': '茂木健一郎',
+        '練腦求成': 'Roger Seip',
         '海權爭霸': 'James Stavridis',
         '領導者的七種原型': 'Lolly Daskal',
         '情緒食療': '吳宏乾',
