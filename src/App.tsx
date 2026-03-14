@@ -7,6 +7,8 @@ import { TagTranslationProvider } from "./contexts/TagTranslationContext";
 import { LanguageProvider } from "./contexts/LanguageContext";
 import Home from "./pages/Home";
 import BookDetail from "./pages/BookDetail";
+import Authors from "./pages/Authors";
+import AuthorDetail from "./pages/AuthorDetail";
 
 
 function Router() {
@@ -14,6 +16,8 @@ function Router() {
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/book"} component={BookDetail} />
+      <Route path={"/authors"} component={Authors} />
+      <Route path={"/author/:id"} component={AuthorDetail} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
