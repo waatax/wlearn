@@ -105,7 +105,7 @@ export default function AuthorDetail() {
                                                 {/* Stats */}
                                                 <div style={{ display: 'flex', gap: '20px', marginTop: '16px' }}>
                                                         <div>
-                                                                <div style={{ fontSize: '24px', fontWeight: '800', color: '#ff8f00' }}>{author.book_count || 0}</div>
+                                                                <div style={{ fontSize: '24px', fontWeight: '800', color: '#ff8f00' }}>{author.book_count}</div>
                                                                 <div style={{ fontSize: '11px', color: '#9e9486', fontWeight: '500' }}>本站書籍</div>
                                                         </div>
                                                         {author.achievements?.length > 0 && (
@@ -167,10 +167,10 @@ export default function AuthorDetail() {
                                         animation: 'fadeInUp 0.4s ease 0.3s both',
                                 }}>
                                         <h2 style={{ margin: '0 0 20px', fontSize: '16px', fontWeight: '700', color: '#2d2a24', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                                <BookOpen size={18} color="#0097a7" /> 收錄書籍 ({author.books?.length || 0})
+                                                <BookOpen size={18} color="#0097a7" /> 收錄書籍 ({author.books.length})
                                         </h2>
                                         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                                                {(author.books || []).map((book, i) => (
+                                                {author.books.map((book, i) => (
                                                         <Link
                                                                 key={book.id}
                                                                 to={`/book/${book.id}`}
