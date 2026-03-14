@@ -6,7 +6,7 @@ import { useLanguage } from '../context/LanguageContext';
 export default function AuthorDetail() {
         const { id } = useParams();
         const navigate = useNavigate();
-        const { language, translateTag } = useLanguage();
+        const { translateTag } = useLanguage();
         const [author, setAuthor] = useState(null);
         const [loading, setLoading] = useState(true);
 
@@ -170,7 +170,7 @@ export default function AuthorDetail() {
                                                 <BookOpen size={18} color="#0097a7" /> 收錄書籍 ({author.books.length})
                                         </h2>
                                         <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                                                {author.books.map((book, i) => (
+                                                {author.books.map((book) => (
                                                         <Link
                                                                 key={book.id}
                                                                 to={`/book/${book.id}`}

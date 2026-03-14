@@ -4,7 +4,7 @@ import { BookOpen, Search, ChevronDown, ChevronRight, X, Flame, Users } from 'lu
 import { useLanguage } from '../context/LanguageContext';
 
 export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClose }) {
-    const { language, t, toggleLanguage, translateTag } = useLanguage();
+    const { t, translateTag } = useLanguage();
     const [tagsOpen, setTagsOpen] = useState(true);
     const [playlistsOpen, setPlaylistsOpen] = useState(true);
 
