@@ -1,7 +1,7 @@
 import { Toaster } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
-import { Route, Switch } from "wouter";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { TagTranslationProvider } from "./contexts/TagTranslationContext";
 import { LanguageProvider } from "./contexts/LanguageContext";
@@ -10,26 +10,6 @@ import BookDetail from "./pages/BookDetail";
 import Authors from "./pages/Authors";
 import AuthorDetail from "./pages/AuthorDetail";
 
-
-function Router() {
-  return (
-    <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/book"} component={BookDetail} />
-      <Route path={"/authors"} component={Authors} />
-      <Route path={"/author/:id"} component={AuthorDetail} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
-    </Switch>
-  );
-}
-
-// NOTE: About Theme
-// - First choose a default theme according to your design style (dark or light bg), than change color palette in index.css
-//   to keep consistent foreground/background color across components
-// - If you want to make theme switchable, pass `switchable` ThemeProvider and use `useTheme` hook
-
 function App() {
   return (
     <ErrorBoundary>
@@ -37,7 +17,15 @@ function App() {
         <TagTranslationProvider>
           <TooltipProvider>
             <Toaster />
-            <Router />
+            <BrowserRouter basename="/wlearn">
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/book/:id" element={<BookDetail />} />
+                <Route path="/authors" element={<Authors />} />
+                <Route path="/author/:id" element={<AuthorDetail />} />
+                <Route path="*" element={<NotFound />} />
+              </Routes>
+            </BrowserRouter>
           </TooltipProvider>
         </TagTranslationProvider>
       </LanguageProvider>
