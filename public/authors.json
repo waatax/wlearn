@@ -10220,5 +10220,256 @@
     ],
     "has_detailed_bio": false,
     "avatar_initial": "齋"
+  },
+  {
+    "id": "al-ries-jack-trout",
+    "name": "Al Ries, Jack Trout",
+    "name_en": "Al Ries, Jack Trout",
+    "name_zh": "艾爾·里斯、傑克·特勞特",
+    "bio": "艾爾·里斯和傑克·特勞特是全球知名的營銷大師，被譽為「定位之父」。他們合著了《定位》等多本暢銷書，影響了全球數百萬企業家和營銷人員。",
+    "career": "營銷專家 / 暢銷書作者",
+    "achievements": [
+      "《定位》作者",
+      "營銷定位理論創始人",
+      "全球最具影響力的營銷專家"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "艾"
+  },
+  {
+    "id": "jane-burka-lenora-yuen",
+    "name": "Jane Burka, Lenora Yuen",
+    "name_en": "Jane Burka, Lenora Yuen",
+    "name_zh": "珍·柏卡、勒諾拉·袁",
+    "bio": "珍·柏卡和勒諾拉·袁是心理學家，專精於拖延症研究。她們合著了《拖延心理學》一書，深入探討拖延行為的成因與解決方法。",
+    "career": "心理學家 / 作家",
+    "achievements": [
+      "《拖延心理學》作者",
+      "拖延症研究專家"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "珍"
+  },
+  {
+    "id": "bill-burnett-dave-evans",
+    "name": "Bill Burnett, Dave Evans",
+    "name_en": "Bill Burnett, Dave Evans",
+    "name_zh": "比爾·伯內特、戴夫·埃文斯",
+    "bio": "比爾·伯內特和戴夫·埃文斯是史丹佛大學設計學院的教授，專精於設計思考。他們合著了《做自己的生命設計師》，將設計思考方法應用於人生規劃。",
+    "career": "史丹佛大學教授 / 設計思考專家",
+    "achievements": [
+      "《做自己的生命設計師》作者",
+      "史丹佛大學設計學院教授",
+      "設計思考先驅"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "比"
+  },
+  {
+    "id": "uri-gneezy-john-list",
+    "name": "Uri Gneezy, John List",
+    "name_en": "Uri Gneezy, John List",
+    "name_zh": "烏里·格尼茲、約翰·利斯特",
+    "bio": "烏里·格尼茲和約翰·利斯特是行為經濟學家，專精於激勵和行為科學。他們合著了《可預見的非理性》一書，探討人類行為的經濟學原理。",
+    "career": "行為經濟學家",
+    "achievements": [
+      "《可預測的非理性》作者",
+      "行為經濟學研究"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "烏"
+  },
+  {
+    "id": "edward-brodkin-ashley-pallathra",
+    "name": "Edward Brodkin, Ashley Pallathra",
+    "name_en": "Edward Brodkin, Ashley Pallathra",
+    "name_zh": "愛德華·布羅金、艾希莉·帕拉特拉",
+    "bio": "愛德華·布羅金和艾希莉·帕拉特拉是精神科醫生，專精於自閉症和神經多樣性研究。",
+    "career": "精神科醫生 / 作家",
+    "achievements": [
+      "《自閉症》作者"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "愛"
+  },
+  {
+    "id": "ash-ali-hasan-kubba",
+    "name": "Ash Ali, Hasan Kubba",
+    "name_en": "Ash Ali, Hasan Kubba",
+    "name_zh": "阿什·阿里、哈桑·庫巴",
+    "bio": "阿什·阿里和哈桑·庫巴是創業專家，合著了《閃電式擴張》一書。",
+    "career": "創業專家 / 作家",
+    "achievements": [
+      "《閃電式擴張》作者"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "阿"
+  },
+  {
+    "id": "matt-johnson-prince-ghuman",
+    "name": "Matt Johnson, Prince Ghuman",
+    "name_en": "Matt Johnson, Prince Ghuman",
+    "name_zh": "馬特·強森、王子·古曼",
+    "bio": "馬特·強森和王子·古曼是品牌與營銷專家，合著了《影藏大師》一書。",
+    "career": "品牌營銷專家",
+    "achievements": [
+      "《影藏大師》作者"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "馬"
+  },
+  {
+    "id": "zhou-chen-fei",
+    "name": "周辰飛, 江竹兵",
+    "name_en": "周辰飛, 江竹兵",
+    "name_zh": "周辰飛、江竹兵",
+    "bio": "周辰飛和江竹兵是商業顧問，合著了商業相關書籍。",
+    "career": "商業顧問",
+    "achievements": [
+      "商業書籍作者"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "周"
+  },
+  {
+    "id": "dariel-brik-ebison",
+    "name": "達瑞爾·布瑞克, 約翰·伊比森",
+    "name_en": "達瑞爾·布瑞克, 約翰·伊比森",
+    "name_zh": "達瑞爾·布瑞克、約翰·伊比森",
+    "bio": "達瑞爾·布瑞克和約翰·伊比森是商業書籍作者。",
+    "career": "作家",
+    "achievements": [
+      "商業書籍作者"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "達"
+  },
+  {
+    "id": "kate-lanz-paul-brown",
+    "name": "Kate Lanz, Paul Brown",
+    "name_en": "Kate Lanz, Paul Brown",
+    "name_zh": "凱特·蘭茲、保羅·布朗",
+    "bio": "凱特·蘭茲和保羅·布朗是商業書籍作者。",
+    "career": "作家",
+    "achievements": [
+      "商業書籍作者"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "凱"
+  },
+  {
+    "id": "abhijit-banerjee-esther-duflo",
+    "name": "Abhijit V. Banerjee, Esther Duflo",
+    "name_en": "Abhijit V. Banerjee, Esther Duflo",
+    "name_zh": "阿比吉特·班納吉、埃絲特·迪弗洛",
+    "bio": "阿比吉特·班納吉和埃絲特·迪弗洛是2019年諾貝爾經濟學獎得主，專精於扶貧與發展經濟學。",
+    "career": "經濟學家 / 諾貝爾獎得主",
+    "achievements": [
+      "2019年諾貝爾經濟學獎",
+      "《貧窮的本質》作者",
+      "麻省理工學院教授"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "阿"
+  },
+  {
+    "id": "jessica-eise-ken-foster",
+    "name": "Jessica Eise, Ken Foster",
+    "name_en": "Jessica Eise, Ken Foster",
+    "name_zh": "傑西卡·艾斯、肯·福斯特",
+    "bio": "傑西卡·艾斯和肯·福斯特是商業書籍作者。",
+    "career": "作家",
+    "achievements": [
+      "商業書籍作者"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "傑"
+  },
+  {
+    "id": "xu-rui-yun-zheng-xian-an",
+    "name": "許瑞云, 鄭先安",
+    "name_en": "許瑞云, 鄭先安",
+    "name_zh": "許瑞云、鄭先安",
+    "bio": "許瑞云和鄭先安是身心靈健康領域的作者。",
+    "career": "作家",
+    "achievements": [
+      "身心健康書籍作者"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "許"
+  },
+  {
+    "id": "david-kelley-tom-kelley",
+    "name": "David Kelley, Tom Kelley",
+    "name_en": "David Kelley, Tom Kelley",
+    "name_zh": "大衛·凱利、湯姆·凱利",
+    "bio": "大衛·凱利是IDEO的創辦人，湯姆·凱利是IDEO的合夥人，合著了《決定未來的十種人》一書。",
+    "career": "設計企業家",
+    "achievements": [
+      "IDEO創辦人",
+      "《決定未來的十種人》作者"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "大"
+  },
+  {
+    "id": "alexandra-cavoulacos-kathryn-minshew",
+    "name": "Alexandra Cavoulacos, Kathryn Minshew",
+    "name_en": "Alexandra Cavoulacos, Kathryn Minshew",
+    "name_zh": "亞歷山大·卡武拉克斯、凱瑟琳·明肖",
+    "bio": "亞歷山大·卡武拉克斯和凱瑟琳·明肖是The Muse的創辦人，合著了《搞定》一書。",
+    "career": "企業家",
+    "achievements": [
+      "The Muse創辦人",
+      "《搞定》作者"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "亞"
+  },
+  {
+    "id": "dalai-lama-desmond-tutu",
+    "name": "Dalai Lama, Desmond Tutu",
+    "name_en": "Dalai Lama, Desmond Tutu",
+    "name_zh": "達賴喇嘛、德斯蒙德·圖圖",
+    "bio": "達賴喇嘛和德斯蒙德·圖圖都是諾貝爾和平獎得主，合著了《做你想做的人》一書。",
+    "career": "諾貝爾和平獎得主",
+    "achievements": [
+      "諾貝爾和平獎",
+      "《做你想做的人》作者"
+    ],
+    "book_count": 0,
+    "books": [],
+    "has_detailed_bio": true,
+    "avatar_initial": "達"
   }
 ]
