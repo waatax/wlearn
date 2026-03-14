@@ -3788,6 +3788,21 @@
         "入圍加拿大40位40歲以下傑出領袖獎",
         "暢銷書《像奧運選手一樣訓練你的大腦》作者"
     ],
+    "book_count": 1,
+    "books": [
+        {
+            "id": "book_71",
+            "title_cn": "像頂尖運動員一樣思考",
+            "title_en": "The Genius of Athletes",
+            "code": "S1-32",
+            "video_id": "bATqXcncM0M",
+            "tags": [
+                "健康與生活",
+                "健康與運動",
+                "心智與思維"
+            ]
+        }
+    ],
     "has_detailed_bio": true,
     "avatar_initial": "J"
   },
