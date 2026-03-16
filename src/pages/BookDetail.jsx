@@ -34,6 +34,35 @@ export default function BookDetail() {
             .catch(() => setLoading(false));
     }, [id]);
 
+    useEffect(() => {
+        if (book) {
+            // Update SEO Meta Tags
+            const metaTags = {
+                'original-language': book.original_language || 'en',
+                'isbn-en': book.isbn_en || '',
+                'isbn-zh': book.isbn_zh || ''
+            };
+
+            Object.entries(metaTags).forEach(([name, content]) => {
+                let meta = document.querySelector(`meta[name="${name}"]`);
+                if (!meta) {
+                    meta = document.createElement('meta');
+                    meta.setAttribute('name', name);
+                    document.head.appendChild(meta);
+                }
+                meta.setAttribute('content', content);
+            });
+
+            // Cleanup function to remove tags when navigating away or changing books
+            return () => {
+                Object.keys(metaTags).forEach(name => {
+                    const meta = document.querySelector(`meta[name="${name}"]`);
+                    if (meta) meta.remove();
+                });
+            };
+        }
+    }, [book]);
+
     if (loading) return (
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: '#f5f0e8' }}>
             <div style={{ fontSize: '16px', color: '#888' }}>載入中...</div>
@@ -231,6 +260,64 @@ export default function BookDetail() {
                                 <p style={{ margin: 0, fontSize: '14px', lineHeight: '1.8', color: '#2d2a24', display: '-webkit-box', WebkitLineClamp: '3', WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
                                     {authorInfo.bio}
                                 </p>
+                            </div>
+                        )}
+
+                        {/* Book Metadata Section (ISBN, Language) */}
+                        {(book.isbn_en || book.isbn_zh || book.original_language) && (
+                            <div style={{
+                                marginTop: '12px',
+                                padding: '16px',
+                                background: 'white',
+                                borderRadius: 'var(--radius-md)',
+                                border: '1px solid var(--border)',
+                            }}>
+                                <div style={{ 
+                                    display: 'flex', 
+                                    alignItems: 'center', 
+                                    gap: '8px', 
+                                    marginBottom: '12px',
+                                    paddingBottom: '8px',
+                                    borderBottom: '1px solid var(--border-light)'
+                                }}>
+                                    <Globe size={16} color="var(--primary)" />
+                                    <span style={{ fontSize: '13px', fontWeight: '700', color: 'var(--text)' }}>
+                                        書籍出版資訊
+                                    </span>
+                                </div>
+                                
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                                    {book.isbn_en && (
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>英文版 ISBN-13</span>
+                                            <span style={{ fontSize: '12px', fontWeight: '600', fontFamily: 'monospace', color: 'var(--text)' }}>{book.isbn_en}</span>
+                                        </div>
+                                    )}
+                                    {book.isbn_zh && (
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>中文版 ISBN-13</span>
+                                            <span style={{ fontSize: '12px', fontWeight: '600', fontFamily: 'monospace', color: 'var(--text)' }}>{book.isbn_zh}</span>
+                                        </div>
+                                    )}
+                                    {book.original_language && (
+                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                                            <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>原著語言</span>
+                                            <span style={{ 
+                                                fontSize: '10px', 
+                                                fontWeight: '700', 
+                                                color: 'var(--primary)', 
+                                                padding: '2px 6px', 
+                                                borderRadius: '4px',
+                                                background: 'var(--primary-glow)',
+                                                textTransform: 'uppercase'
+                                            }}>
+                                                {book.original_language === 'en' ? 'English' : 
+                                                 book.original_language === 'ja' ? 'Japanese' : 
+                                                 book.original_language === 'zh' ? 'Chinese' : book.original_language}
+                                            </span>
+                                        </div>
+                                    )}
+                                </div>
                             </div>
                         )}
 

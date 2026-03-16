@@ -18,7 +18,9 @@
     "cover_url": "https://img.youtube.com/vi/13bsIO19GF0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=PMv1OyOEbpY",
     "description_cn": "台灣交易員巨人傑的首部著作，記錄了他14年的股市交易心路歷程。書中強調成功沒有捷徑，只有超乎常人的努力與高度自律，分享從零開始成為億級散戶的經驗與投資思維。所有版稅收入捐贈給台灣兒童暨家庭扶助基金會。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。"
+    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "isbn_zh": "9786263557093",
+    "original_language": "zh"
   },
   {
     "id": "book_101",
@@ -38,7 +40,9 @@
     "cover_url": "https://img.youtube.com/vi/uUUmCG31BfE/maxresdefault.jpg",
     "description_cn": "中國商業顧問劉潤的代表作，核心思想是「方法論＝底層邏輯＋環境變數」。書中統整了是非對錯的價值觀、思考問題的方式、個體進化、理解他人、社會協作五大面向，幫助讀者在變動時代中掌握不變的運作法則。",
     "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
-    "english_url": "https://www.youtube.com/watch?v=lO-RIqKebxI"
+    "english_url": "https://www.youtube.com/watch?v=lO-RIqKebxI",
+    "isbn_zh": "9787115573421",
+    "original_language": "en"
   },
   {
     "id": "book_100",
@@ -58,7 +62,10 @@
     "cover_url": "https://img.youtube.com/vi/S2x7RlO0-BQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=OBubuAkT_Dw",
     "description_cn": "由華頓商學院談判大師史都華．戴蒙教授撰寫，這本書透過許多課堂案例的分享，講解如何透過談判技巧讓雙方達到最大權益。全球排名第一的華頓商學院課程連續13年最受歡迎，本書將這些精華知識傳授給讀者。",
-    "description_en": "Written by Professor Stuart Diamond from Wharton School of Business, this book shares numerous classroom cases explaining how to use negotiation techniques to achieve maximum benefits for both parties. The world's top-ranked Wharton School course has been the most popular for 13 consecutive years, and this book shares these essential insights with readers."
+    "description_en": "Written by Professor Stuart Diamond from Wharton School of Business, this book shares numerous classroom cases explaining how to use negotiation techniques to achieve maximum benefits for both parties. The world's top-ranked Wharton School course has been the most popular for 13 consecutive years, and this book shares these essential insights with readers.",
+    "isbn_zh": "9789571354385",
+    "isbn_en": "9780141962245",
+    "original_language": "eng"
   },
   {
     "id": "book_99",
@@ -78,7 +85,9 @@
     "cover_url": "https://img.youtube.com/vi/FUvWlHru3a8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=fT8dWxPHvYI",
     "description_cn": "由日本知名媒體人佐佐木俊尚撰寫，針對智慧型手機時代的知識碎片化現象提出解決方案。書中介紹了如何在資訊爆炸的時代，有效地進行閱讀、思考和寫作，並透過「散漫力」和「短集中」等創新概念，幫助讀者在不需要高度專注的情況下，最大化學習效率和創意發想能力。",
-    "description_en": "Written by renowned Japanese media personality Toshihisa Sasaki, this book addresses the fragmentation of knowledge in the smartphone era. It introduces how to effectively read, think, and write in an age of information explosion, and through innovative concepts such as 'scattered power' and 'short concentration', it helps readers maximize learning efficiency and creative ideation without requiring intense focus."
+    "description_en": "Written by renowned Japanese media personality Toshihisa Sasaki, this book addresses the fragmentation of knowledge in the smartphone era. It introduces how to effectively read, think, and write in an age of information explosion, and through innovative concepts such as 'scattered power' and 'short concentration', it helps readers maximize learning efficiency and creative ideation without requiring intense focus.",
+    "isbn_en": "9781544512280",
+    "original_language": "en"
   },
   {
     "id": "book_98",
@@ -98,7 +107,8 @@
     "cover_url": "https://img.youtube.com/vi/aIlwyAOSnwM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=e_uNoR84DnI",
     "description_cn": "由日本思考整理家鈴木進介撰寫，針對資訊爆炸時代的困境提出實用解決方案。書中提出39個法則，教讀者如何從氾濫的資訊中辨識出「本質」，掌握二成黃金資訊，避免被無意義的雜訊所迷惑。強調在資訊社會中生存的關鍵是學會篩選和整理，而非盲目累積。",
-    "description_en": "Written by Japanese thinking organizer Shinzuke Suzuki, this book offers practical solutions to the challenges of the information explosion era. It presents 39 rules to teach readers how to identify the 'essence' from overwhelming information, grasp the 20% golden information, and avoid being confused by meaningless noise. It emphasizes that the key to surviving in the information society is learning to filter and organize, not blindly accumulate."
+    "description_en": "Written by Japanese thinking organizer Shinzuke Suzuki, this book offers practical solutions to the challenges of the information explosion era. It presents 39 rules to teach readers how to identify the 'essence' from overwhelming information, grasp the 20% golden information, and avoid being confused by meaningless noise. It emphasizes that the key to surviving in the information society is learning to filter and organize, not blindly accumulate.",
+    "original_language": "en"
   },
   {
     "id": "book_97",
@@ -118,7 +128,8 @@
     "cover_url": "https://img.youtube.com/vi/EH7BoLBVW1s/maxresdefault.jpg",
     "description_cn": "由日本頂尖知識YouTuber及川幸久撰寫，分享他如何在短短4年間從素人成為觀看數超過1億2000萬次的知識傳播者。書中系統地介紹了蒐集、判讀和表達資訊的三大核心技能，讓讀者學會如何將複雜的資訊轉譯成簡單易懂的內容，適用於日常簡報、教學和知識分享。",
     "description_en": "Written by Yukihisa Oikawa, Japan's top knowledge YouTuber, this book shares how he became a knowledge disseminator with over 120 million views in just 4 years. It systematically introduces the three core skills of collecting, interpreting, and expressing information, helping readers learn how to translate complex information into simple, understandable content applicable to daily presentations, teaching, and knowledge sharing.",
-    "english_url": "https://www.youtube.com/watch?v=9kbSk0fMADo"
+    "english_url": "https://www.youtube.com/watch?v=9kbSk0fMADo",
+    "original_language": "en"
   },
   {
     "id": "book_96",
@@ -139,7 +150,8 @@
     "cover_url": "https://img.youtube.com/vi/i9LWe5TbiUs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Xd72F1xNRgc",
     "description_cn": "由汪士瑋撰寫，這是一本針對主管和領導者的實用指南。書中透過超過 3500 位主管的諮商經驗，介紹了 4 大成長型領導階段和 20+ 演練圖表。強調學會解決人的問題，才能解決績效的問題，並從台灣在地案例出發，完整分析管理方法、心理學技巧，建構一套可循序漸進的領導方法。",
-    "description_en": "Written by Wang Shiwei, this is a practical guide for managers and leaders. Based on the consulting experience of over 3,500 managers, the book introduces 4 stages of growth-oriented leadership and 20+ practice diagrams. It emphasizes that solving people problems is key to solving performance problems, and builds a progressive leadership methodology through Taiwan-based case analysis and psychological techniques."
+    "description_en": "Written by Wang Shiwei, this is a practical guide for managers and leaders. Based on the consulting experience of over 3,500 managers, the book introduces 4 stages of growth-oriented leadership and 20+ practice diagrams. It emphasizes that solving people problems is key to solving performance problems, and builds a progressive leadership methodology through Taiwan-based case analysis and psychological techniques.",
+    "original_language": "en"
   },
   {
     "id": "book_95",
@@ -159,7 +171,10 @@
     "cover_url": "https://img.youtube.com/vi/WMMW-rZGdXQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=dHviahEwitg",
     "description_cn": "以色列物理學家高德拉特的開創性企管小說，被《經濟學人》譽為「有史以來最成功的企管小說」。描述工廠廠長羅哥如何運用限制理論識別生產線瓶頸，最終使瀕臨倒閉的工廠轉虧為盈。",
-    "description_en": "This book explores how to set and achieve meaningful goals. Through practical cases and scientific research, the author explains the importance of goal setting and how to develop actionable plans to achieve them. It emphasizes the critical role of clear goals in personal and organizational success, providing practical tools and methods to help readers achieve their objectives."
+    "description_en": "This book explores how to set and achieve meaningful goals. Through practical cases and scientific research, the author explains the importance of goal setting and how to develop actionable plans to achieve them. It emphasizes the critical role of clear goals in personal and organizational success, providing practical tools and methods to help readers achieve their objectives.",
+    "isbn_en": "9780566073946",
+    "isbn_zh": "9787121088926",
+    "original_language": "eng"
   },
   {
     "id": "book_94",
@@ -179,7 +194,8 @@
     "cover_url": "https://img.youtube.com/vi/PX5Z8VbpIeA/maxresdefault.jpg",
     "description_cn": "這本書針對現代人的時間管理問題進行深入分析。作者指出許多人無法完成任務的根本原因往往不是時間不足，而是被手機等干擾所影響。書中提供了實用的策略和技巧，幫助讀者提高專注力，有效管理時間，克服分心的習慣。",
     "description_en": "This book provides an in-depth analysis of modern time management challenges. The author points out that the fundamental reason many people cannot complete tasks is often not lack of time, but distraction from smartphones and other interruptions. It offers practical strategies and techniques to help readers improve focus, manage time effectively, and overcome distracting habits.",
-    "english_url": "https://www.youtube.com/watch?v=-73SWaqt000"
+    "english_url": "https://www.youtube.com/watch?v=-73SWaqt000",
+    "original_language": "en"
   },
   {
     "id": "book_93",
@@ -199,7 +215,10 @@
     "cover_url": "https://img.youtube.com/vi/SrX1cUCnwrg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Ej9BjMMfE8g",
     "description_cn": "由心理學家安德斯·艾利克松撰寫的經典著作。書中介紹了「刻意練習」的概念，強調成功不是天賦決定，而是通過有目的、有反饋的練習達成。作者透過大量案例說明如何在各個領域（音樂、運動、棋類等）通過刻意練習達到卓越表現。",
-    "description_en": "A classic work by psychologist Anders Ericsson. The book introduces the concept of 'deliberate practice', emphasizing that success is not determined by talent but achieved through purposeful, feedback-driven practice. Through numerous examples, the author demonstrates how deliberate practice leads to excellence in various fields including music, sports, and chess."
+    "description_en": "A classic work by psychologist Anders Ericsson. The book introduces the concept of 'deliberate practice', emphasizing that success is not determined by talent but achieved through purposeful, feedback-driven practice. Through numerous examples, the author demonstrates how deliberate practice leads to excellence in various fields including music, sports, and chess.",
+    "isbn_en": "9781473513143",
+    "isbn_zh": "9787111551287",
+    "original_language": "eng"
   },
   {
     "id": "book_92",
@@ -219,7 +238,8 @@
     "cover_url": "https://img.youtube.com/vi/BMiy_G-eKNo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=iWcWyonUYXQ",
     "description_cn": "這本書探討孤獨在現代生活中的角色和價值。作者認為適度的孤獨對個人成長和創造力至關重要，並非所有孤獨都是負面的。書中提供了如何在繁忙的社交生活中找到平衡，利用孤獨時間進行自我反思和創意發想的方法。",
-    "description_en": "This book explores the role and value of solitude in modern life. The author argues that moderate solitude is essential for personal growth and creativity, and not all loneliness is negative. It provides methods for finding balance in busy social lives and using solitude for self-reflection and creative thinking."
+    "description_en": "This book explores the role and value of solitude in modern life. The author argues that moderate solitude is essential for personal growth and creativity, and not all loneliness is negative. It provides methods for finding balance in busy social lives and using solitude for self-reflection and creative thinking.",
+    "original_language": "en"
   },
   {
     "id": "book_91",
@@ -239,7 +259,8 @@
     "cover_url": "https://img.youtube.com/vi/OjFksqLawkM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=zSoZUToVNTM",
     "description_cn": "由傑克·特勞特撰寫的營銷經典。書中介紹了「定位」理論，強調在競爭激烈的市場中，成功的關鍵是在消費者心中佔據獨特的位置。作者透過大量品牌案例說明如何透過有效的定位策略，建立強大的品牌認知和市場優勢。",
-    "description_en": "A marketing classic by Jack Trout. The book introduces the theory of 'positioning', emphasizing that in a competitive market, success depends on occupying a unique position in consumers' minds. Through numerous brand examples, the author demonstrates how effective positioning strategies build strong brand awareness and market advantage."
+    "description_en": "A marketing classic by Jack Trout. The book introduces the theory of 'positioning', emphasizing that in a competitive market, success depends on occupying a unique position in consumers' minds. Through numerous brand examples, the author demonstrates how effective positioning strategies build strong brand awareness and market advantage.",
+    "original_language": "en"
   },
   {
     "id": "book_90",
@@ -259,7 +280,8 @@
     "cover_url": "https://img.youtube.com/vi/1wC9d1vGrVI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Mq_IiQn7KvE",
     "description_cn": "《時勢：張忠謀的策略與視野》記錄台積電創辦人張忠謀如何洞察時代脈動，把握半導體產業發展的關鍵時刻。分享他數十年來的策略思維與領導智慧。",
-    "description_en": "This book analyzes the historical factors behind major events. The author argues that timing plays a crucial role in the development of things, and success often depends on seizing opportunities of the era. Through historical examples, it demonstrates how to identify and seize opportunities, making right decisions at the right time."
+    "description_en": "This book analyzes the historical factors behind major events. The author argues that timing plays a crucial role in the development of things, and success often depends on seizing opportunities of the era. Through historical examples, it demonstrates how to identify and seize opportunities, making right decisions at the right time.",
+    "original_language": "en"
   },
   {
     "id": "book_89",
@@ -278,7 +300,8 @@
     "cover_url": "https://img.youtube.com/vi/qlZZ2qNeQAk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XozDAjou1Lc",
     "description_cn": "這本書強調在快節奏的現代生活中，留白時間的重要性。作者認為適當的休息和空閒時間對身心健康和創造力至關重要。書中提供了如何在忙碌的日程中創造留白時間，進行有效休息和充電的實用建議。",
-    "description_en": "This book emphasizes the importance of white space (rest time) in fast-paced modern life. The author argues that adequate rest and free time are crucial for physical, mental health, and creativity. It provides practical advice on creating white space in busy schedules for effective rest and recharging."
+    "description_en": "This book emphasizes the importance of white space (rest time) in fast-paced modern life. The author argues that adequate rest and free time are crucial for physical, mental health, and creativity. It provides practical advice on creating white space in busy schedules for effective rest and recharging.",
+    "original_language": "en"
   },
   {
     "id": "book_88",
@@ -298,7 +321,9 @@
     "cover_url": "https://img.youtube.com/vi/91CeJG4Kt0M/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=UPfoMC6SaNo",
     "description_cn": "這本書介紹了情緒靈敏力的概念，強調在複雜的人際關係中，理解和管理情緒的能力至關重要。作者提供了實用的技巧和方法，幫助讀者提高情緒認知能力，更好地應對各種情緒挑戰，改善人際關係。",
-    "description_en": "This book introduces the concept of emotional agility, emphasizing the importance of understanding and managing emotions in complex relationships. The author provides practical techniques and methods to help readers improve emotional awareness, better handle emotional challenges, and improve interpersonal relationships."
+    "description_en": "This book introduces the concept of emotional agility, emphasizing the importance of understanding and managing emotions in complex relationships. The author provides practical techniques and methods to help readers improve emotional awareness, better handle emotional challenges, and improve interpersonal relationships.",
+    "isbn_en": "9780735211841",
+    "original_language": "en"
   },
   {
     "id": "book_87",
@@ -318,7 +343,8 @@
     "cover_url": "https://img.youtube.com/vi/2QSROdrJP2s/maxresdefault.jpg",
     "description_cn": "由樊登撰寫的思維方法論著作。書中深入分析了事物運作的底層邏輯，幫助讀者理解複雜現象背後的本質原理。作者透過大量案例說明如何透過掌握底層邏輯，提高思維能力和決策質量。",
     "description_en": "A work on thinking methodology by Fan Deng. The book provides in-depth analysis of the underlying logic of how things work, helping readers understand the essential principles behind complex phenomena. Through numerous examples, it demonstrates how mastering underlying logic improves thinking ability and decision-making quality.",
-    "english_url": "https://www.youtube.com/watch?v=YCWLB5gM940"
+    "english_url": "https://www.youtube.com/watch?v=YCWLB5gM940",
+    "original_language": "en"
   },
   {
     "id": "book_86",
@@ -338,7 +364,8 @@
     "cover_url": "https://img.youtube.com/vi/VDcHx3Achno/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=aC5q9Th7OoI",
     "description_cn": "這本書提供了股票選擇的實用指南。作者介紹了如何透過基本面分析和技術分析相結合，精準選擇具有投資價值的股票。書中強調長期投資和風險管理的重要性，並提供了實用的選股策略和工具。",
-    "description_en": "This book provides a practical guide to stock selection. The author introduces how to combine fundamental analysis and technical analysis to precisely select stocks with investment value. It emphasizes the importance of long-term investing and risk management, providing practical stock selection strategies and tools."
+    "description_en": "This book provides a practical guide to stock selection. The author introduces how to combine fundamental analysis and technical analysis to precisely select stocks with investment value. It emphasizes the importance of long-term investing and risk management, providing practical stock selection strategies and tools.",
+    "original_language": "en"
   },
   {
     "id": "book_85",
@@ -358,7 +385,8 @@
     "cover_url": "https://img.youtube.com/vi/u9HkWAsJ2_I/maxresdefault.jpg",
     "description_cn": "硬技能讓你有入場券，軟技能才是人生升級的關鍵。麻省理工、哈佛、芝加哥大學研究發現，同理心、抗壓能力、情緒智力、自律能力等軟技能的運用，是影響事情成敗的關鍵因素。本書由羅振宇與脫不花策劃，邀請30位在各種軟技能方面有獨到心得的大師，透過經驗傳授幫助讀者了解AI時代不可忽略的軟技能，涵蓋溝通、表達、寫作、社交、目標管理、創意與創新等。",
     "description_en": "A career development guide by John Sonmez. The book emphasizes the importance of soft skills (such as communication, leadership, teamwork) to career success. The author provides practical advice and methods to help readers improve soft skills and achieve greater success in their careers.",
-    "english_url": "https://www.youtube.com/watch?v=gkGuSXIDExw"
+    "english_url": "https://www.youtube.com/watch?v=gkGuSXIDExw",
+    "original_language": "en"
   },
   {
     "id": "book_84",
@@ -378,7 +406,8 @@
     "cover_url": "https://img.youtube.com/vi/3m0qbw8czq4/maxresdefault.jpg",
     "description_cn": "這本書介紹了散漫者的學習方法，強調不同的人有不同的學習風格。作者認為對於注意力容易分散的人，應該採用符合其特點的學習策略，而非強行適應傳統的學習方法。書中提供了實用的技巧幫助散漫者提高學習效率。",
     "description_en": "This book introduces learning methods for scattered-minded people, emphasizing that different people have different learning styles. The author argues that for people with easily distracted attention, learning strategies should match their characteristics rather than forcing adaptation to traditional methods. It provides practical techniques to help scattered-minded people improve learning efficiency.",
-    "english_url": "https://www.youtube.com/watch?v=I_i2RrWUkSk"
+    "english_url": "https://www.youtube.com/watch?v=I_i2RrWUkSk",
+    "original_language": "en"
   },
   {
     "id": "book_83",
@@ -398,7 +427,8 @@
     "cover_url": "https://img.youtube.com/vi/E_3fBFbY1jA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=gWdZuhPYiTA",
     "description_cn": "這本書探討了現代人的心理健康和自我認知問題。作者強調每個人都不應該為了滿足他人期望而改變自己，應該建立健康的自我邊界。書中提供了實用的建議，幫助讀者學會說「不」，建立自尊和自信。",
-    "description_en": "This book explores mental health and self-awareness issues in modern people. The author emphasizes that everyone should not change themselves to meet others' expectations, but should establish healthy personal boundaries. It provides practical advice to help readers learn to say 'no', build self-esteem and confidence."
+    "description_en": "This book explores mental health and self-awareness issues in modern people. The author emphasizes that everyone should not change themselves to meet others' expectations, but should establish healthy personal boundaries. It provides practical advice to help readers learn to say 'no', build self-esteem and confidence.",
+    "original_language": "en"
   },
   {
     "id": "book_82",
@@ -418,7 +448,9 @@
     "cover_url": "https://img.youtube.com/vi/FX_ONyXh2pg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=SalXtKGy8lc",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
-    "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。"
+    "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
+    "isbn_en": "9788830137998",
+    "original_language": "eng"
   },
   {
     "id": "book_81",
@@ -437,7 +469,8 @@
     "cover_url": "https://img.youtube.com/vi/DxvIlfX4eCg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=yoYqxxA7KoU",
     "description_cn": "這本書將哈佛大學 150 年的寫作教學經驗濃縮成「O.R.E.O MAP」寫作法則。書中強調意見、理由、證明和提案的重要性，幫助讀者掌握 7 大關鍵寫作能力。透過這套方法，讀者可以像哈佛學生一樣進行有效的寫作，提升文章的說服力和價值。",
-    "description_en": "This book condenses 150 years of Harvard's writing teaching experience into the 'O.R.E.O MAP' writing method. It emphasizes the importance of opinion, reason, proof, and proposal, helping readers master 7 key writing skills. Through this method, readers can write effectively like Harvard students and enhance the persuasiveness and value of their articles."
+    "description_en": "This book condenses 150 years of Harvard's writing teaching experience into the 'O.R.E.O MAP' writing method. It emphasizes the importance of opinion, reason, proof, and proposal, helping readers master 7 key writing skills. Through this method, readers can write effectively like Harvard students and enhance the persuasiveness and value of their articles.",
+    "original_language": "en"
   },
   {
     "id": "book_80",
@@ -456,7 +489,8 @@
     "cover_url": "https://img.youtube.com/vi/5isY97mzytc/maxresdefault.jpg",
     "description_cn": "這本書提供了高效寫作的實用指南。作者介紹了如何快速產出高質量的文章，強調清晰的思維和有效的表達方式。書中提供了實用的寫作技巧和框架，幫助讀者提高寫作效率，在短時間內完成優質的寫作作品。",
     "description_en": "This book provides a practical guide to efficient writing. The author introduces how to quickly produce high-quality articles, emphasizing clear thinking and effective expression. It offers practical writing techniques and frameworks to help readers improve writing efficiency and complete quality writing in a short time.",
-    "english_url": "https://www.youtube.com/watch?v=aPGyLokbkD4"
+    "english_url": "https://www.youtube.com/watch?v=aPGyLokbkD4",
+    "original_language": "en"
   },
   {
     "id": "book_79",
@@ -478,7 +512,8 @@
     "cover_url": "https://img.youtube.com/vi/CcREFDPTNBY/maxresdefault.jpg",
     "description_cn": "由陳立飛撰寫，這本書強調寫作對個人品牌建設的重要性。作者認為寫作不僅是文學創作，更是打造個人品牌和實現複利人生的工具。書中介紹了如何透過寫作提升競爭力，並掌握 AI 時代的競爭優勢。",
     "description_en": "Written by Chen Lifei, this book emphasizes the importance of writing for personal brand building. The author argues that writing is not just literary creation but a tool for building personal brands and achieving compound growth. It introduces how to enhance competitiveness through writing and gain competitive advantage in the AI era.",
-    "english_url": "https://www.youtube.com/watch?v=W887WRkG_so"
+    "english_url": "https://www.youtube.com/watch?v=W887WRkG_so",
+    "original_language": "en"
   },
   {
     "id": "book_78",
@@ -499,7 +534,8 @@
     "cover_url": "https://img.youtube.com/vi/MNgr86GQ6bg/maxresdefault.jpg",
     "description_cn": "這本書介紹了可複製的溝通力框架。作者認為有效的溝通不是天賦，而是可以透過系統方法習得的技能。書中提供了實用的溝通策略和技巧，幫助讀者在各種場景中進行有效溝通，建立更好的人際關係。",
     "description_en": "This book introduces a replicable communication framework. The author argues that effective communication is not a talent but a skill that can be acquired through systematic methods. It provides practical communication strategies and techniques to help readers communicate effectively in various scenarios and build better relationships.",
-    "english_url": "https://www.youtube.com/watch?v=HDYnapMUsC4"
+    "english_url": "https://www.youtube.com/watch?v=HDYnapMUsC4",
+    "original_language": "en"
   },
   {
     "id": "book_77",
@@ -519,7 +555,8 @@
     "cover_url": "https://img.youtube.com/vi/LbwJIdz6aNg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=R80z3PwenGc",
     "description_cn": "這本書提供了低風險創業的實用指南。作者強調創業不必冒極高的風險，透過科學方法和驗證式學習，可以在降低風險的同時實現創業目標。書中介紹了如何在市場中快速找到正確方向，避免資源浪費。",
-    "description_en": "This book provides a practical guide to low-risk entrepreneurship. The author emphasizes that entrepreneurship doesn't require extreme risk-taking. Through scientific methods and validation-based learning, one can achieve entrepreneurial goals while reducing risk. It introduces how to quickly find the right direction in the market and avoid wasting resources."
+    "description_en": "This book provides a practical guide to low-risk entrepreneurship. The author emphasizes that entrepreneurship doesn't require extreme risk-taking. Through scientific methods and validation-based learning, one can achieve entrepreneurial goals while reducing risk. It introduces how to quickly find the right direction in the market and avoid wasting resources.",
+    "original_language": "en"
   },
   {
     "id": "book_76",
@@ -539,7 +576,8 @@
     "cover_url": "https://img.youtube.com/vi/z97fs3BawM0/maxresdefault.jpg",
     "description_cn": "由許恩得博士撰寫，這本書將聖經的智慧應用於企業接班和領導力。作者系統整理了聖經的 4 個原則和 18 個接班秘訣，每個秘訣都結合成功企業家或聖經人物的故事。書中強調如何透過聖經的智慧進行有效的企業接班。",
     "description_en": "Written by Dr. Xu Ende, this book applies biblical wisdom to business succession and leadership. The author systematically organizes 4 biblical principles and 18 succession secrets, each combined with stories of successful entrepreneurs or biblical figures. It emphasizes how to conduct effective business succession through biblical wisdom.",
-    "english_url": "https://www.youtube.com/watch?v=Wmmew_12GmE"
+    "english_url": "https://www.youtube.com/watch?v=Wmmew_12GmE",
+    "original_language": "en"
   },
   {
     "id": "book_75",
@@ -559,7 +597,9 @@
     "cover_url": "https://img.youtube.com/vi/IkgzOrzJLUQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_SkYGdX44V8",
     "description_cn": "這本書探討了堅持和一致性在個人成長中的重要性。作者認為成功的關鍵不在於偶爾的努力，而在於「一如既往」的持續行動。書中提供了實用的方法，幫助讀者建立良好的習慣，並在長期堅持中實現目標。",
-    "description_en": "This book explores the importance of consistency and persistence in personal growth. The author argues that the key to success is not occasional effort but consistent action 'as always'. It provides practical methods to help readers build good habits and achieve goals through long-term persistence."
+    "description_en": "This book explores the importance of consistency and persistence in personal growth. The author argues that the key to success is not occasional effort but consistent action 'as always'. It provides practical methods to help readers build good habits and achieve goals through long-term persistence.",
+    "isbn_en": "9786287665859",
+    "original_language": "eng"
   },
   {
     "id": "book_74",
@@ -578,7 +618,8 @@
     "cover_url": "https://img.youtube.com/vi/LSr9MPk6ZcM/maxresdefault.jpg",
     "description_cn": "由丹尼爾斯博士撰寫的跑步科學指南。書中介紹了跑步訓練的科學方法和原理，幫助跑者理解如何透過系統的訓練提高成績。作者強調個性化訓練計劃的重要性，並提供了實用的訓練方程式。",
     "description_en": "A running science guide written by Dr. Daniels. The book introduces scientific methods and principles of running training, helping runners understand how to improve performance through systematic training. The author emphasizes the importance of personalized training plans and provides practical training equations.",
-    "english_url": "https://www.youtube.com/watch?v=T2RrTOrPSmU"
+    "english_url": "https://www.youtube.com/watch?v=T2RrTOrPSmU",
+    "original_language": "en"
   },
   {
     "id": "book_73",
@@ -597,7 +638,8 @@
     "cover_url": "https://img.youtube.com/vi/eWqrtXqPk80/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Sm_tIAkdvbw",
     "description_cn": "這本書是跑步愛好者的教科書。作者介紹了跑步的基礎知識、訓練方法和常見問題的解決方案。書中強調科學訓練的重要性，並提供了詳細的訓練指南，幫助跑者安全有效地提高成績。",
-    "description_en": "This book is a textbook for running enthusiasts. The author introduces basic running knowledge, training methods, and solutions to common problems. It emphasizes the importance of scientific training and provides detailed training guides to help runners safely and effectively improve their performance."
+    "description_en": "This book is a textbook for running enthusiasts. The author introduces basic running knowledge, training methods, and solutions to common problems. It emphasizes the importance of scientific training and provides detailed training guides to help runners safely and effectively improve their performance.",
+    "original_language": "en"
   },
   {
     "id": "book_72",
@@ -617,7 +659,8 @@
     "cover_url": "https://img.youtube.com/vi/j-CX_FlEQ20/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=2jcNASzJocE",
     "description_cn": "這本書介紹了深呼吸對身體健康的重要性。作者強調正確的呼吸方法可以改善體質，增強免疫力。書中提供了實用的深呼吸技巧和練習方法，幫助讀者透過呼吸改善健康狀況。",
-    "description_en": "This book introduces the importance of deep breathing for physical health. The author emphasizes that correct breathing methods can improve physical condition and enhance immunity. It provides practical deep breathing techniques and practice methods to help readers improve health through breathing."
+    "description_en": "This book introduces the importance of deep breathing for physical health. The author emphasizes that correct breathing methods can improve physical condition and enhance immunity. It provides practical deep breathing techniques and practice methods to help readers improve health through breathing.",
+    "original_language": "en"
   },
   {
     "id": "book_71",
@@ -638,7 +681,8 @@
     "cover_url": "https://img.youtube.com/vi/bATqXcncM0M/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=EdUB2plRPB4",
     "description_cn": "這本書探討了頂尖運動員的思維方式。作者分析了成功運動員的心理素質和思維特點，幫助讀者理解如何培養冠軍心態。書中提供了實用的心理訓練方法，適用於體育和生活的各個領域。",
-    "description_en": "This book explores the thinking patterns of top athletes. The author analyzes the psychological qualities and thinking characteristics of successful athletes, helping readers understand how to develop a champion mindset. It provides practical psychological training methods applicable to sports and various areas of life."
+    "description_en": "This book explores the thinking patterns of top athletes. The author analyzes the psychological qualities and thinking characteristics of successful athletes, helping readers understand how to develop a champion mindset. It provides practical psychological training methods applicable to sports and various areas of life.",
+    "original_language": "en"
   },
   {
     "id": "book_70",
@@ -657,7 +701,8 @@
     "cover_url": "https://img.youtube.com/vi/NErQAcP-Odw/maxresdefault.jpg",
     "description_cn": "由李笑來撰寫的財務自由指南。書中介紹了實現財務自由的方法和原理，強調長期投資和複利的力量。作者提供了實用的財務規劃建議，幫助讀者建立財務自由的思維方式。",
     "description_en": "A financial freedom guide written by Li Xiaolai. The book introduces methods and principles for achieving financial freedom, emphasizing the power of long-term investing and compound interest. The author provides practical financial planning advice to help readers develop a financial freedom mindset.",
-    "english_url": "https://www.youtube.com/watch?v=Z8a7fWFQIwo"
+    "english_url": "https://www.youtube.com/watch?v=Z8a7fWFQIwo",
+    "original_language": "en"
   },
   {
     "id": "book_69",
@@ -677,7 +722,8 @@
     "cover_url": "https://img.youtube.com/vi/SgiWDDCqAKs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=03qf8dqH4kA",
     "description_cn": "這本書探討了價值的本質和創造。作者認為理解價值對於投資和商業決策至關重要。書中介紹了如何評估資產的真實價值，並透過價值投資實現財務目標。",
-    "description_en": "This book explores the nature and creation of value. The author argues that understanding value is crucial for investment and business decisions. It introduces how to assess the true value of assets and achieve financial goals through value investing."
+    "description_en": "This book explores the nature and creation of value. The author argues that understanding value is crucial for investment and business decisions. It introduces how to assess the true value of assets and achieve financial goals through value investing.",
+    "original_language": "en"
   },
   {
     "id": "book_68",
@@ -696,7 +742,8 @@
     "cover_url": "https://img.youtube.com/vi/5T1KpiZ8hfE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=AzGVvojJoaM",
     "description_cn": "《致富覺察：培養點石成金的財富腦》由財務專家郝旭烈撰寫，幫助讀者培養財富思維與覺察能力。透過實用的理財觀念與案例分析，引導讀者建立正確的金錢觀，培養點石成金的財富腦。",
-    "description_en": "This book introduces the psychological foundation of wealth creation. The author emphasizes that wealth creation requires not only techniques but also correct mindset and beliefs. It provides practical advice to help readers change their perception of money and build a psychological foundation for wealth."
+    "description_en": "This book introduces the psychological foundation of wealth creation. The author emphasizes that wealth creation requires not only techniques but also correct mindset and beliefs. It provides practical advice to help readers change their perception of money and build a psychological foundation for wealth.",
+    "original_language": "en"
   },
   {
     "id": "book_67",
@@ -718,7 +765,9 @@
     "cover_url": "https://img.youtube.com/vi/phwivZhr9uY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=gAHETkjYyr8",
     "description_cn": "這本書介紹了索羅斯的投資哲學和方法。作者分析了這位傳奇投資者的投資原理和決策過程，幫助讀者理解如何進行有效的投資。書中強調反身性理論和風險管理的重要性。",
-    "description_en": "This book introduces Soros's investment philosophy and methods. The author analyzes the investment principles and decision-making processes of this legendary investor, helping readers understand how to invest effectively. It emphasizes the importance of reflexivity theory and risk management."
+    "description_en": "This book introduces Soros's investment philosophy and methods. The author analyzes the investment principles and decision-making processes of this legendary investor, helping readers understand how to invest effectively. It emphasizes the importance of reflexivity theory and risk management.",
+    "isbn_zh": "9789862130472",
+    "original_language": "en"
   },
   {
     "id": "book_66",
@@ -738,7 +787,10 @@
     "cover_url": "https://img.youtube.com/vi/UXDX3ULI24E/maxresdefault.jpg",
     "description_cn": "由瑞·達利歐撰寫的人生和工作原則指南。書中介紹了作者在投資和管理中總結的 500 多條原則，涵蓋決策、風險管理、團隊建設等方面。這些原則經過實踐驗證，可應用於各個領域。",
     "description_en": "A guide to life and work principles written by Ray Dalio. The book introduces over 500 principles the author has summarized from investing and management, covering decision-making, risk management, and team building. These principles have been tested in practice and can be applied to various fields.",
-    "english_url": "https://www.youtube.com/watch?v=xgH5C67t9KA"
+    "english_url": "https://www.youtube.com/watch?v=xgH5C67t9KA",
+    "isbn_zh": "9789863983279",
+    "isbn_en": "9781501124020",
+    "original_language": "en"
   },
   {
     "id": "book_1",
@@ -758,7 +810,8 @@
     "cover_url": "https://img.youtube.com/vi/SwY0b0kQQbc/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
-    "english_url": "https://www.youtube.com/watch?v=FnoyibBLomE"
+    "english_url": "https://www.youtube.com/watch?v=FnoyibBLomE",
+    "original_language": "en"
   },
   {
     "id": "book_64",
@@ -778,7 +831,8 @@
     "cover_url": "https://img.youtube.com/vi/sGiULm282g0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=aK0SSpOgiOY",
     "description_cn": "由班傑明·富蘭克林撰寫的經典著作。書中介紹了普通常識和實用的生活智慧，強調誠實、勤奮和節儉的重要性。這本書被認為是美國建國時期最具影響力的著作之一。",
-    "description_en": "A classic work by Benjamin Franklin. The book introduces common sense and practical life wisdom, emphasizing the importance of honesty, diligence, and frugality. It is considered one of the most influential works of the American founding era."
+    "description_en": "A classic work by Benjamin Franklin. The book introduces common sense and practical life wisdom, emphasizing the importance of honesty, diligence, and frugality. It is considered one of the most influential works of the American founding era.",
+    "original_language": "en"
   },
   {
     "id": "book_63",
@@ -798,7 +852,9 @@
     "cover_url": "https://img.youtube.com/vi/faM8CcJpHio/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Wdg3F4TvIO8",
     "description_cn": "這本書提供了商業基礎知識的全面介紹。作者涵蓋了經濟學、會計、市場營銷、管理等商業領域的核心概念。書中以簡明易懂的方式說明複雜的商業原理，適合初學者和想要提升商業素養的讀者。",
-    "description_en": "This book provides a comprehensive introduction to business fundamentals. The author covers core concepts in business fields including economics, accounting, marketing, and management. It explains complex business principles in a clear and understandable way, suitable for beginners and readers wanting to improve their business knowledge."
+    "description_en": "This book provides a comprehensive introduction to business fundamentals. The author covers core concepts in business fields including economics, accounting, marketing, and management. It explains complex business principles in a clear and understandable way, suitable for beginners and readers wanting to improve their business knowledge.",
+    "isbn_en": "9781266043222",
+    "original_language": "eng"
   },
   {
     "id": "book_62",
@@ -818,7 +874,8 @@
     "cover_url": "https://img.youtube.com/vi/o5rxvQhD_p4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Kz_AMh48WpA",
     "description_cn": "由米哈里·契克森米哈賴撰寫的心理學經典。書中介紹了「心流」理論，即人們在完全投入某項活動時的最優體驗狀態。作者透過數十萬筆經驗取樣研究，闡述了進入心流狀態的條件，並探討如何在日常生活、工作和人際關係中達到心流。",
-    "description_en": "A psychology classic written by Mihaly Csikszentmihalyi. The book introduces the 'flow' theory, describing the optimal experience state when people are completely immersed in an activity. Through hundreds of thousands of experience samples, the author explains the conditions for entering flow and explores how to achieve flow in daily life, work, and relationships."
+    "description_en": "A psychology classic written by Mihaly Csikszentmihalyi. The book introduces the 'flow' theory, describing the optimal experience state when people are completely immersed in an activity. Through hundreds of thousands of experience samples, the author explains the conditions for entering flow and explores how to achieve flow in daily life, work, and relationships.",
+    "original_language": "en"
   },
   {
     "id": "book_61",
@@ -838,7 +895,8 @@
     "cover_url": "https://img.youtube.com/vi/5iA_9Hh-LDs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=uX010yEsn7w",
     "description_cn": "《學習究竟是什麼》由「得到」App專欄作家萬維鋼撰寫，結合最新的心理學及腦科學研究成果，探討科學高效的學習方法。幫助讀者成為更有智慧的學習者，掌握學習的底層邏輯。",
-    "description_en": "This book deeply explores the nature of learning. The author combines psychological and neuroscience perspectives with scientific research and observations of learning experts to summarize a systematic, scientific, and efficient learning theory. It provides practical learning advice to help readers become more efficient learners."
+    "description_en": "This book deeply explores the nature of learning. The author combines psychological and neuroscience perspectives with scientific research and observations of learning experts to summarize a systematic, scientific, and efficient learning theory. It provides practical learning advice to help readers become more efficient learners.",
+    "original_language": "en"
   },
   {
     "id": "book_60",
@@ -858,7 +916,9 @@
     "cover_url": "https://img.youtube.com/vi/89altuOcQd8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=26x-TPcsKOE",
     "description_cn": "這本書介紹了如何學習的方法論。作者強調學習是一項可以習得的技能，而非天賦。書中提供了實用的學習策略和技巧，幫助讀者掌握有效的學習方法，提高學習效率和成果。",
-    "description_en": "This book introduces the methodology of how to learn. The author emphasizes that learning is an acquirable skill rather than a talent. It provides practical learning strategies and techniques to help readers master effective learning methods and improve learning efficiency and outcomes."
+    "description_en": "This book introduces the methodology of how to learn. The author emphasizes that learning is an acquirable skill rather than a talent. It provides practical learning strategies and techniques to help readers master effective learning methods and improve learning efficiency and outcomes.",
+    "isbn_en": "9781974903870",
+    "original_language": "en"
   },
   {
     "id": "book_59",
@@ -878,7 +938,8 @@
     "cover_url": "https://img.youtube.com/vi/0JsXQ48AEiI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=cntrsAPuJvA",
     "description_cn": "這本書針對成人學習提出了獨特的方法。作者認為成人學習應該建立於能有安心生活的收入之上，強調工作與學習的平衡。書中提供了 7 個習慣和知識框架，幫助成人透過學習實現人生逆轉。",
-    "description_en": "This book proposes unique methods for adult learning. The author argues that adult learning should be built on income that allows for a secure life, emphasizing the balance between work and learning. It provides 7 habits and knowledge frameworks to help adults achieve life transformation through learning."
+    "description_en": "This book proposes unique methods for adult learning. The author argues that adult learning should be built on income that allows for a secure life, emphasizing the balance between work and learning. It provides 7 habits and knowledge frameworks to help adults achieve life transformation through learning.",
+    "original_language": "en"
   },
   {
     "id": "book_58",
@@ -898,7 +959,8 @@
     "cover_url": "https://img.youtube.com/vi/moSS5eIqgrQ/maxresdefault.jpg",
     "description_cn": "由世界記憶大師池田義博撰寫。書中介紹了如何掌握大腦最佳學習路徑，提升學習表現。作者透過自身經驗和科學研究，提供了實用的記憶和學習技巧，適用於考證照、學習第二專長等各種場景。",
     "description_en": "Written by world memory champion Ikeda Yoshihiro. The book introduces how to master the brain's optimal learning pathway and improve learning performance. Through personal experience and scientific research, the author provides practical memory and learning techniques applicable to various scenarios such as certification exams and learning new skills.",
-    "english_url": "https://www.youtube.com/watch?v=L_p7ZjT1oPs"
+    "english_url": "https://www.youtube.com/watch?v=L_p7ZjT1oPs",
+    "original_language": "en"
   },
   {
     "id": "book_57",
@@ -918,7 +980,8 @@
     "cover_url": "https://img.youtube.com/vi/hAqPbJwHj-I/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=D12MDkFh-lQ",
     "description_cn": "這本書介紹了 50 個高級學習法。作者系統地整理了各種先進的學習方法和技巧，幫助讀者突破學習瓶頸。書中強調個性化學習的重要性，提供了針對不同學習風格的建議。",
-    "description_en": "This book introduces 50 advanced learning methods. The author systematically organizes various advanced learning techniques and strategies to help readers break through learning plateaus. It emphasizes the importance of personalized learning and provides recommendations for different learning styles."
+    "description_en": "This book introduces 50 advanced learning methods. The author systematically organizes various advanced learning techniques and strategies to help readers break through learning plateaus. It emphasizes the importance of personalized learning and provides recommendations for different learning styles.",
+    "original_language": "en"
   },
   {
     "id": "book_56",
@@ -938,7 +1001,8 @@
     "cover_url": "https://img.youtube.com/vi/x0MpZqv7bz4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=sSkJxAEpaTw",
     "description_cn": "這本書提供了超強記憶的實用技巧。作者介紹了如何透過科學方法提升記憶力，包括記憶宮殿、聯想法等技巧。書中強調記憶訓練的重要性，幫助讀者建立持久的記憶能力。",
-    "description_en": "This book provides practical techniques for super memory. The author introduces how to improve memory through scientific methods, including techniques like memory palace and association. It emphasizes the importance of memory training and helps readers develop lasting memory abilities."
+    "description_en": "This book provides practical techniques for super memory. The author introduces how to improve memory through scientific methods, including techniques like memory palace and association. It emphasizes the importance of memory training and helps readers develop lasting memory abilities.",
+    "original_language": "en"
   },
   {
     "id": "book_55",
@@ -958,7 +1022,8 @@
     "cover_url": "https://img.youtube.com/vi/jTeG_BjP23o/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Su5ZGsTpgXs",
     "description_cn": "這本書系統介紹了記憶訓練的方法。作者透過科學研究和實踐經驗，提供了詳細的記憶訓練計劃。書中強調艾賓浩斯遺忘曲線的應用，幫助讀者透過間隔複習有效保留知識。",
-    "description_en": "This book systematically introduces memory training methods. Through scientific research and practical experience, the author provides detailed memory training plans. It emphasizes the application of Ebbinghaus's forgetting curve, helping readers effectively retain knowledge through spaced repetition."
+    "description_en": "This book systematically introduces memory training methods. Through scientific research and practical experience, the author provides detailed memory training plans. It emphasizes the application of Ebbinghaus's forgetting curve, helping readers effectively retain knowledge through spaced repetition.",
+    "original_language": "en"
   },
   {
     "id": "book_54",
@@ -977,7 +1042,8 @@
     "cover_url": "https://img.youtube.com/vi/A-KWBh-Pmxs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=BYs07bDQIhs",
     "description_cn": "這本書介紹了深度思考的技術和方法。作者強調深度思考對於解決複雜問題的重要性。書中提供了實用的思考框架和工具，幫助讀者培養批判性思維和創新思維能力。",
-    "description_en": "This book introduces techniques and methods for deep thinking. The author emphasizes the importance of deep thinking for solving complex problems. It provides practical thinking frameworks and tools to help readers develop critical and innovative thinking abilities."
+    "description_en": "This book introduces techniques and methods for deep thinking. The author emphasizes the importance of deep thinking for solving complex problems. It provides practical thinking frameworks and tools to help readers develop critical and innovative thinking abilities.",
+    "original_language": "en"
   },
   {
     "id": "book_53",
@@ -996,7 +1062,8 @@
     "cover_url": "https://img.youtube.com/vi/BRAbmYkUIpY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XL0UJXYHEEw",
     "description_cn": "這本書介紹了 1% 的閱讀術。作者強調透過每天 15 分鐘的閱讀，可以開始知識儲蓄規劃。書中將閱讀分成四個層次，幫助讀者逐步學會閱讀要領，提升理解力和人生價值。",
-    "description_en": "This book introduces the 1% reading technique. The author emphasizes that through 15 minutes of daily reading, one can start knowledge savings planning. It divides reading into four levels, helping readers gradually master reading essentials and enhance comprehension and life value."
+    "description_en": "This book introduces the 1% reading technique. The author emphasizes that through 15 minutes of daily reading, one can start knowledge savings planning. It divides reading into four levels, helping readers gradually master reading essentials and enhance comprehension and life value.",
+    "original_language": "en"
   },
   {
     "id": "book_52",
@@ -1015,7 +1082,8 @@
     "cover_url": "https://img.youtube.com/vi/08NEgapaSBU/maxresdefault.jpg",
     "description_cn": "由佐佐木俊尚撰寫的閱讀力大全。書中介紹了在智慧型手機時代如何進行高效閱讀。作者提供了不需要集中力的知識輸入法和智能輸出法，幫助讀者在碎片化時代活用短集中，將成效最大化。",
     "description_en": "A comprehensive reading guide written by Toshihiro Sasaki. The book introduces how to read efficiently in the smartphone era. The author provides knowledge input and intelligent output methods that don't require intense concentration, helping readers maximize effectiveness through short focus periods in the fragmented information age.",
-    "english_url": "https://www.youtube.com/watch?v=gX8_kbG8Efo"
+    "english_url": "https://www.youtube.com/watch?v=gX8_kbG8Efo",
+    "original_language": "en"
   },
   {
     "id": "book_51",
@@ -1035,7 +1103,8 @@
     "cover_url": "https://img.youtube.com/vi/OtTwAYx8ONk/maxresdefault.jpg",
     "description_cn": "這本書介紹了在雜訊時代進行高效資料整理的術。作者強調資訊管理的重要性，提供了實用的整理方法和工具。書中幫助讀者在資訊爆炸的時代有效篩選和整理資訊。",
     "description_en": "This book introduces efficient data organization techniques in the noise age. The author emphasizes the importance of information management and provides practical organization methods and tools. It helps readers effectively filter and organize information in an age of information explosion.",
-    "english_url": "https://www.youtube.com/watch?v=9OT754rx8jM"
+    "english_url": "https://www.youtube.com/watch?v=9OT754rx8jM",
+    "original_language": "en"
   },
   {
     "id": "book_50",
@@ -1055,7 +1124,8 @@
     "cover_url": "https://img.youtube.com/vi/_coiKINBMEY/maxresdefault.jpg",
     "description_cn": "由 YouTube 頻道主及川幸久撰寫。書中介紹了情報收集和表達技巧，強調如何透過系統方法進行資訊彙整。作者分享了自身作為內容創作者的經驗，提供了實用的資訊管理和表達策略。",
     "description_en": "Written by YouTube channel creator Yukihisa Oikawa. The book introduces information gathering and expression techniques, emphasizing how to systematically organize information. The author shares personal experience as a content creator and provides practical information management and expression strategies.",
-    "english_url": "https://www.youtube.com/watch?v=DLbY5f06Ooc"
+    "english_url": "https://www.youtube.com/watch?v=DLbY5f06Ooc",
+    "original_language": "en"
   },
   {
     "id": "book_49",
@@ -1075,7 +1145,8 @@
     "cover_url": "https://img.youtube.com/vi/ZCrObHxs0yI/maxresdefault.jpg",
     "description_cn": "這本書教讀者如何讀懂一本書。作者介紹了深度閱讀的方法和技巧，幫助讀者提升閱讀理解能力。書中強調主動閱讀的重要性，提供了實用的筆記和反思方法。",
     "description_en": "This book teaches readers how to understand a book. The author introduces methods and techniques for deep reading, helping readers improve reading comprehension. It emphasizes the importance of active reading and provides practical note-taking and reflection methods.",
-    "english_url": "https://www.youtube.com/watch?v=fhLMiYdxFhU"
+    "english_url": "https://www.youtube.com/watch?v=fhLMiYdxFhU",
+    "original_language": "en"
   },
   {
     "id": "book_48",
@@ -1095,7 +1166,8 @@
     "cover_url": "https://img.youtube.com/vi/g0PaV72NyXc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XpVQsLTthzU",
     "description_cn": "由克拉夫特撰寫的關於善良的著作。書中強調善良不是平凡的小事，而是一項需要培養的技能。作者介紹了勇氣、耐性和同理心的重要性，幫助讀者培養深度善意和助人的能力。",
-    "description_en": "A work on kindness written by Kraft. The book emphasizes that kindness is not a trivial matter but a skill that needs to be cultivated. The author introduces the importance of courage, patience, and empathy, helping readers develop deep kindness and the ability to help others."
+    "description_en": "A work on kindness written by Kraft. The book emphasizes that kindness is not a trivial matter but a skill that needs to be cultivated. The author introduces the importance of courage, patience, and empathy, helping readers develop deep kindness and the ability to help others.",
+    "original_language": "en"
   },
   {
     "id": "book_47",
@@ -1115,7 +1187,8 @@
     "cover_url": "https://img.youtube.com/vi/jPihWEsIFkQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=tNXiBSC1TqA",
     "description_cn": "由艾美·布魯納撰寫。書中介紹了內心對話的力量，強調如何與內心的批判之聲進行對話。作者基於 15 年的心理諮商經驗，提供了實用的心理技巧，幫助讀者克服自我懷疑和負面思維。",
-    "description_en": "Written by Emmy Brunner. The book introduces the power of inner dialogue, emphasizing how to engage with the inner critical voice. Based on 15 years of psychotherapy experience, the author provides practical psychological techniques to help readers overcome self-doubt and negative thinking."
+    "description_en": "Written by Emmy Brunner. The book introduces the power of inner dialogue, emphasizing how to engage with the inner critical voice. Based on 15 years of psychotherapy experience, the author provides practical psychological techniques to help readers overcome self-doubt and negative thinking.",
+    "original_language": "en"
   },
   {
     "id": "book_46",
@@ -1135,7 +1208,8 @@
     "cover_url": "https://img.youtube.com/vi/TjePcIjwCYQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=E3sR_6gXF5g",
     "description_cn": "由比娜·文卡塔拉曼撰寫。書中介紹了在莽撞決斷時代如何克服短視。作者強調前瞻思考的重要性，從個人、企業到社會層面進行分析。書中提供了科學驗證的決策方法和實踐技巧。",
-    "description_en": "Written by Bina Venkataraman. The book introduces how to overcome short-sightedness in an age of reckless decision-making. The author emphasizes the importance of forward-thinking, analyzing from personal, corporate, and societal levels. It provides scientifically validated decision-making methods and practical techniques."
+    "description_en": "Written by Bina Venkataraman. The book introduces how to overcome short-sightedness in an age of reckless decision-making. The author emphasizes the importance of forward-thinking, analyzing from personal, corporate, and societal levels. It provides scientifically validated decision-making methods and practical techniques.",
+    "original_language": "en"
   },
   {
     "id": "book_45",
@@ -1155,7 +1229,8 @@
     "cover_url": "https://img.youtube.com/vi/yfkEn65X03E/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=QwQTMs5cl4g",
     "description_cn": "這本書介紹了如何做個有溫度的人。作者強調人際互動中的溫暖和真誠的重要性。書中提供了實用的溝通和人際技巧，幫助讀者建立更有意義的人際關係。",
-    "description_en": "This book introduces how to be a warm-hearted person. The author emphasizes the importance of warmth and sincerity in interpersonal interactions. It provides practical communication and interpersonal skills to help readers build more meaningful relationships."
+    "description_en": "This book introduces how to be a warm-hearted person. The author emphasizes the importance of warmth and sincerity in interpersonal interactions. It provides practical communication and interpersonal skills to help readers build more meaningful relationships.",
+    "original_language": "en"
   },
   {
     "id": "book_44",
@@ -1175,7 +1250,8 @@
     "cover_url": "https://img.youtube.com/vi/nOTiAALgskM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Kwy09tpwOzU",
     "description_cn": "這本書強調真誠是個人影響力的基礎。作者認為透過真誠的表達和行動，可以建立強大的個人影響力。書中提供了實用的建議，幫助讀者透過真誠贏得他人信任和尊重。",
-    "description_en": "This book emphasizes that sincerity is the foundation of personal influence. The author argues that through sincere expression and action, one can build strong personal influence. It provides practical advice to help readers gain trust and respect through sincerity."
+    "description_en": "This book emphasizes that sincerity is the foundation of personal influence. The author argues that through sincere expression and action, one can build strong personal influence. It provides practical advice to help readers gain trust and respect through sincerity.",
+    "original_language": "en"
   },
   {
     "id": "book_43",
@@ -1195,7 +1271,8 @@
     "cover_url": "https://img.youtube.com/vi/8l5nyi4xmEk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=hRu_MnB0iXk",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
-    "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。"
+    "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
+    "original_language": "en"
   },
   {
     "id": "book_42",
@@ -1214,7 +1291,9 @@
     "cover_url": "https://img.youtube.com/vi/M6v1rn8ek0o/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=bTnFOE9ux4Q",
     "description_cn": "由吉兒·泰勒撰寫的神經科學著作。書中介紹了大腦的四大人格，強調如何讓大腦的不同區域合作無間。作者認為我們是感情生物而非思考生物，可以透過選擇成為想要的自己。書中提供了實用的 BRAIN 五步驟方法。",
-    "description_en": "A neuroscience work written by Jill Taylor. The book introduces the brain's four personalities and emphasizes how to make different brain regions work together seamlessly. The author argues that we are emotional beings rather than thinking beings and can choose to become who we want. It provides practical BRAIN five-step methods."
+    "description_en": "A neuroscience work written by Jill Taylor. The book introduces the brain's four personalities and emphasizes how to make different brain regions work together seamlessly. The author argues that we are emotional beings rather than thinking beings and can choose to become who we want. It provides practical BRAIN five-step methods.",
+    "isbn_en": "9781401965549",
+    "original_language": "eng"
   },
   {
     "id": "book_41",
@@ -1234,7 +1313,8 @@
     "cover_url": "https://img.youtube.com/vi/ynw9Ud0ZIgA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=DRqUP53s838",
     "description_cn": "這本書打破了關於大腦的常見誤解和偽科學。作者基於最新的神經科學研究，介紹了大腦的真實運作方式。書中強調學習不需要天賦，提供了科學驗證的學習方法，幫助讀者改變對自己大腦的看法。",
-    "description_en": "This book debunks common misconceptions and pseudoscience about the brain. Based on the latest neuroscience research, the author introduces how the brain actually works. It emphasizes that learning doesn't require talent and provides scientifically validated learning methods to help readers change their perception of their brain."
+    "description_en": "This book debunks common misconceptions and pseudoscience about the brain. Based on the latest neuroscience research, the author introduces how the brain actually works. It emphasizes that learning doesn't require talent and provides scientifically validated learning methods to help readers change their perception of their brain.",
+    "original_language": "en"
   },
   {
     "id": "book_39",
@@ -1256,7 +1336,8 @@
     "cover_url": "https://img.youtube.com/vi/lpLIlOib1xs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=OFMtDzgl0vQ",
     "description_cn": "這本書介紹了同步大腦思維的時間管理術。作者強調時間管理不僅是效率問題，更涉及大腦的運作方式。書中提供了實用的時間支配技巧，幫助讀者透過理解大腦節律來優化時間使用。",
-    "description_en": "This book introduces time management techniques that synchronize with brain thinking. The author emphasizes that time management is not just about efficiency but involves how the brain works. It provides practical time management techniques to help readers optimize time use by understanding brain rhythms."
+    "description_en": "This book introduces time management techniques that synchronize with brain thinking. The author emphasizes that time management is not just about efficiency but involves how the brain works. It provides practical time management techniques to help readers optimize time use by understanding brain rhythms.",
+    "original_language": "en"
   },
   {
     "id": "book_40",
@@ -1276,7 +1357,8 @@
     "cover_url": "https://img.youtube.com/vi/sYd8nsh0wnA/maxresdefault.jpg",
     "description_cn": "這本書介紹了 MBTI 人格類型的 16 種性格密碼。作者透過科學方法解釋了不同人格類型的特點和優勢。書中幫助讀者理解自己的人格類型，進而改善人際關係和職業選擇。",
     "description_en": "This book introduces the 16 personality codes of MBTI personality types. The author uses scientific methods to explain the characteristics and strengths of different personality types. It helps readers understand their personality type and improve relationships and career choices.",
-    "english_url": "https://www.youtube.com/watch?v=PIJ_AyMhlmU"
+    "english_url": "https://www.youtube.com/watch?v=PIJ_AyMhlmU",
+    "original_language": "en"
   },
   {
     "id": "book_38",
@@ -1297,7 +1379,8 @@
     "cover_url": "https://img.youtube.com/vi/3yOTxPO6-wc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=MBVucVy1kY0",
     "description_cn": "這本書深入探討了拖延的心理根源。作者認為拖延不是懶惰，而是一種心理機制。書中提供了實用的克服拖延的方法，幫助讀者理解自己的拖延行為，並透過改變心態實現改變。",
-    "description_en": "This book deeply explores the psychological roots of procrastination. The author argues that procrastination is not laziness but a psychological mechanism. It provides practical methods to overcome procrastination, helping readers understand their procrastination behavior and achieve change through mindset shifts."
+    "description_en": "This book deeply explores the psychological roots of procrastination. The author argues that procrastination is not laziness but a psychological mechanism. It provides practical methods to overcome procrastination, helping readers understand their procrastination behavior and achieve change through mindset shifts.",
+    "original_language": "en"
   },
   {
     "id": "book_37",
@@ -1317,7 +1400,9 @@
     "cover_url": "https://img.youtube.com/vi/CFsedPbQwg8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=c2HyY3Rmedo",
     "description_cn": "由阿德勒撰寫的個體心理學經典。書中介紹了自卑感如何驅使人類行動，以及如何透過超越自卑實現人生意義。作者強調童年經歷對人生的影響，提供了實用的心理建議。",
-    "description_en": "A classic of individual psychology written by Adler. The book introduces how inferiority drives human action and how to achieve life meaning through overcoming inferiority. The author emphasizes the impact of childhood experiences on life and provides practical psychological advice."
+    "description_en": "A classic of individual psychology written by Adler. The book introduces how inferiority drives human action and how to achieve life meaning through overcoming inferiority. The author emphasizes the impact of childhood experiences on life and provides practical psychological advice.",
+    "isbn_en": "9780041500752",
+    "original_language": "eng"
   },
   {
     "id": "book_36",
@@ -1337,7 +1422,8 @@
     "cover_url": "https://img.youtube.com/vi/HD_VIAOMlZA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=gpOeIut9QDc",
     "description_cn": "這本書探討了現代人感到生活麻煩的心理原因。作者介紹了如何改變對生活的態度，從而減輕心理負擔。書中提供了實用的心理調適方法，幫助讀者找到生活的意義和快樂。",
-    "description_en": "This book explores the psychological reasons why modern people find life troublesome. The author introduces how to change one's attitude toward life to reduce psychological burden. It provides practical psychological adjustment methods to help readers find meaning and happiness in life."
+    "description_en": "This book explores the psychological reasons why modern people find life troublesome. The author introduces how to change one's attitude toward life to reduce psychological burden. It provides practical psychological adjustment methods to help readers find meaning and happiness in life.",
+    "original_language": "en"
   },
   {
     "id": "book_35",
@@ -1358,7 +1444,8 @@
     "cover_url": "https://img.youtube.com/vi/lGjzAQkRVqE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=9CChArlAP8g",
     "description_cn": "《慣性思維：為何我們總是無法跳脫舊有的想法》由麥可·乾昆撰寫，探討人類大腦為何容易陷入思維慣性。揭示慣性思維如何影響決策和創新，提供突破固有思維模式的實用方法。",
-    "description_en": "This book introduces the dangers of habitual thinking. The author emphasizes how habitual thinking limits our thinking and innovation. It provides methods to break habitual thinking patterns, helping readers develop flexible thinking approaches."
+    "description_en": "This book introduces the dangers of habitual thinking. The author emphasizes how habitual thinking limits our thinking and innovation. It provides methods to break habitual thinking patterns, helping readers develop flexible thinking approaches.",
+    "original_language": "en"
   },
   {
     "id": "book_34",
@@ -1378,7 +1465,8 @@
     "cover_url": "https://img.youtube.com/vi/q8rr4kV-CfM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ObqhL9F2zfg",
     "description_cn": "由李南錫撰寫。書中介紹了 101 種慣性思考陷阱，幫助讀者認識自己思考中的盲點。作者強調真正的智慧在於承認自己可能是錯的，提供了實用的思維改進方法。",
-    "description_en": "Written by Lee Nam-suk. The book introduces 101 habitual thinking traps, helping readers recognize blind spots in their thinking. The author emphasizes that true wisdom lies in admitting one might be wrong and provides practical methods for improving thinking."
+    "description_en": "Written by Lee Nam-suk. The book introduces 101 habitual thinking traps, helping readers recognize blind spots in their thinking. The author emphasizes that true wisdom lies in admitting one might be wrong and provides practical methods for improving thinking.",
+    "original_language": "en"
   },
   {
     "id": "book_33",
@@ -1398,7 +1486,9 @@
     "cover_url": "https://img.youtube.com/vi/1lJMA-lkkVc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=R_diKdr3-V8",
     "description_cn": "這本書介紹了如何重新與人對話。作者強調有效溝通的重要性，提供了實用的對話技巧。書中幫助讀者改善人際溝通，建立更深層的人際連接。",
-    "description_en": "This book introduces how to re-engage in dialogue with people. The author emphasizes the importance of effective communication and provides practical dialogue techniques. It helps readers improve interpersonal communication and build deeper connections."
+    "description_en": "This book introduces how to re-engage in dialogue with people. The author emphasizes the importance of effective communication and provides practical dialogue techniques. It helps readers improve interpersonal communication and build deeper connections.",
+    "isbn_en": "9781101980460",
+    "original_language": "eng"
   },
   {
     "id": "book_32",
@@ -1418,7 +1508,8 @@
     "cover_url": "https://img.youtube.com/vi/q9fhdGYcE_I/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=zNPSC7tc_hI",
     "description_cn": "這本書教讀者如何和世界講講道理。作者強調邏輯思維和有效表達的重要性。書中提供了實用的論證和溝通方法，幫助讀者更有說服力地表達觀點。",
-    "description_en": "This book teaches readers how to reason with the world. The author emphasizes the importance of logical thinking and effective expression. It provides practical argumentation and communication methods to help readers express viewpoints more persuasively."
+    "description_en": "This book teaches readers how to reason with the world. The author emphasizes the importance of logical thinking and effective expression. It provides practical argumentation and communication methods to help readers express viewpoints more persuasively.",
+    "original_language": "en"
   },
   {
     "id": "book_31",
@@ -1438,7 +1529,8 @@
     "cover_url": "https://img.youtube.com/vi/uOs80sQgdQc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XYQqxBlWtV4",
     "description_cn": "這本書介紹了有效決策的方法和原理。作者強調決策不是直覺，而是一個系統過程。書中提供了實用的決策框架，幫助讀者在複雜情況下做出更好的決策。",
-    "description_en": "This book introduces methods and principles of effective decision-making. The author emphasizes that decision-making is not intuition but a systematic process. It provides practical decision-making frameworks to help readers make better decisions in complex situations."
+    "description_en": "This book introduces methods and principles of effective decision-making. The author emphasizes that decision-making is not intuition but a systematic process. It provides practical decision-making frameworks to help readers make better decisions in complex situations.",
+    "original_language": "en"
   },
   {
     "id": "book_30",
@@ -1458,7 +1550,8 @@
     "cover_url": "https://img.youtube.com/vi/o8pDz1rR1yE/maxresdefault.jpg",
     "description_cn": "由劍橋學霸撰寫的人生管理術。書中介紹了如何用愉悅心態激發生產力。作者強調克服拖延和倦怠的方法，提供了實用的激勵、解鎖和續航三大步驟。",
     "description_en": "A life management technique written by a Cambridge scholar. The book introduces how to stimulate productivity with a pleasant mindset. The author emphasizes methods to overcome procrastination and burnout, providing practical three-step processes: energize, unlock, and sustain.",
-    "english_url": "https://www.youtube.com/watch?v=XmBeWb9Mzfo"
+    "english_url": "https://www.youtube.com/watch?v=XmBeWb9Mzfo",
+    "original_language": "en"
   },
   {
     "id": "book_29",
@@ -1478,7 +1571,8 @@
     "cover_url": "https://img.youtube.com/vi/LJNxvpSJdIo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Q08rFiKvrEA",
     "description_cn": "這本書介紹了大賭注心態的重要性。作者強調在關鍵時刻做出正確決策的方法。書中提供了實用的風險評估和決策技巧，幫助讀者在高風險情況下保持理性。",
-    "description_en": "This book introduces the importance of high-stakes thinking. The author emphasizes methods for making correct decisions at critical moments. It provides practical risk assessment and decision-making techniques to help readers maintain rationality in high-risk situations."
+    "description_en": "This book introduces the importance of high-stakes thinking. The author emphasizes methods for making correct decisions at critical moments. It provides practical risk assessment and decision-making techniques to help readers maintain rationality in high-risk situations.",
+    "original_language": "en"
   },
   {
     "id": "book_28",
@@ -1498,7 +1592,8 @@
     "cover_url": "https://img.youtube.com/vi/cr9sNOLygXE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=p6_D9EPcLyI",
     "description_cn": "這本書介紹了決勝視角的重要性。作者強調視角轉變對於解決問題的關鍵作用。書中提供了實用的視角轉換方法，幫助讀者從不同角度看待問題。",
-    "description_en": "This book introduces the importance of a winning perspective. The author emphasizes the key role of perspective shifts in problem-solving. It provides practical methods for shifting perspectives to help readers view problems from different angles."
+    "description_en": "This book introduces the importance of a winning perspective. The author emphasizes the key role of perspective shifts in problem-solving. It provides practical methods for shifting perspectives to help readers view problems from different angles.",
+    "original_language": "en"
   },
   {
     "id": "book_27",

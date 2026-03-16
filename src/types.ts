@@ -18,6 +18,9 @@ export interface Book {
   description_en?: string;
   author: string;
   cover_url?: string | null;
+  isbn_en?: string;
+  isbn_zh?: string;
+  original_language?: string;
 }
 
 export interface BooksData {

@@ -1,0 +1,102 @@
+{
+  "book_12": {
+    "id": "book_12",
+    "title_en_orig": "Giant Mindset",
+    "title_cn_orig": "巨人思維",
+    "author_orig": "巨人傑",
+    "isbn_en": "9786263557048",
+    "isbn_zh": "9786263557048",
+    "original_language": "en",
+    "status": "success"
+  },
+  "book_101": {
+    "id": "book_101",
+    "title_en_orig": null,
+    "title_cn_orig": "底層邏輯 I",
+    "author_orig": "劉潤",
+    "isbn_en": "9786264192064",
+    "isbn_zh": "9786267184240",
+    "original_language": "en",
+    "status": "success"
+  },
+  "book_100": {
+    "id": "book_100",
+    "title_en_orig": "Getting More",
+    "title_cn_orig": "華頓商學院最受歡迎的談判課",
+    "author_orig": "Stuart Diamond",
+    "isbn_en": null,
+    "isbn_zh": null,
+    "original_language": "eng",
+    "status": "success"
+  },
+  "book_99": {
+    "id": "book_99",
+    "title_en_orig": "Cant Hurt Me 我 刀槍不入",
+    "title_cn_orig": null,
+    "author_orig": "David Goggins",
+    "isbn_en": null,
+    "isbn_zh": null,
+    "original_language": "en",
+    "status": "success"
+  },
+  "book_98": {
+    "id": "book_98",
+    "title_en_orig": "Satir 的對話練習",
+    "title_cn_orig": null,
+    "author_orig": "李崇建",
+    "isbn_en": null,
+    "isbn_zh": null,
+    "original_language": "en",
+    "status": "success"
+  },
+  "book_97": {
+    "id": "book_97",
+    "title_en_orig": null,
+    "title_cn_orig": "最高學習法",
+    "author_orig": "石井裕之",
+    "isbn_en": null,
+    "isbn_zh": null,
+    "original_language": "en",
+    "status": "success"
+  },
+  "book_96": {
+    "id": "book_96",
+    "title_en_orig": "Growth Leadership",
+    "title_cn_orig": "成長型領導",
+    "author_orig": "Carol S. Dweck",
+    "isbn_en": null,
+    "isbn_zh": null,
+    "original_language": "en",
+    "status": "success"
+  },
+  "book_95": {
+    "id": "book_95",
+    "title_en_orig": "The Goal",
+    "title_cn_orig": "目標",
+    "author_orig": "Eliyahu M. Goldratt",
+    "isbn_en": null,
+    "isbn_zh": null,
+    "original_language": "eng",
+    "status": "success"
+  },
+  "book_94": {
+    "id": "book_94",
+    "title_en_orig": null,
+    "title_cn_orig": "為什麼事情做不完 你還在滑手機",
+    "author_orig": "吳淡如",
+    "isbn_en": null,
+    "isbn_zh": null,
+    "original_language": "en",
+    "status": "success"
+  },
+  "book_93": {
+    "id": "book_93",
+    "title_en_orig": "Peak",
+    "title_cn_orig": "刻意練習",
+    "author_orig": "Anders Ericsson",
+    "isbn_en": null,
+    "isbn_zh": null,
+    "original_language": "eng",
+    "status": "success"
+  }
+}

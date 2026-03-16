@@ -1,4 +1,4 @@
-﻿import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useLocation } from 'wouter';
 import { Book } from '../types';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -148,6 +148,43 @@ export default function BookDetail() {
                 </div>
               )}
             </div>
+
+            {/* Book Metadata Section (ISBN, Language) */}
+            {(book.isbn_en || (book as any).isbn_zh || book.original_language) && (
+              <div className="bg-white rounded-xl p-6 shadow-[0_2px_10px_rgba(0,0,0,0.02)] border border-[#e8e2d8]">
+                <div className="flex items-center gap-2 mb-4 pb-3 border-b border-[#f0ebe0]">
+                  <Globe size={16} className="text-[#0e7b89]" />
+                  <h3 className="text-sm font-bold text-gray-800">
+                    {language === 'zh' ? '書籍出版資訊' : 'Publication Info'}
+                  </h3>
+                </div>
+                
+                <div className="space-y-3">
+                  {book.isbn_en && (
+                    <div className="flex justify-between items-center">
+                      <span className="text-xs text-gray-500">{language === 'zh' ? '英文版 ISBN-13' : 'English ISBN-13'}</span>
+                      <span className="text-xs font-mono font-bold text-gray-800">{book.isbn_en}</span>
+                    </div>
+                  )}
+                  {(book as any).isbn_zh && (
+                    <div className="flex justify-between items-center">
+                      <span className="text-xs text-gray-500">{language === 'zh' ? '中文版 ISBN-13' : 'Chinese ISBN-13'}</span>
+                      <span className="text-xs font-mono font-bold text-gray-800">{(book as any).isbn_zh}</span>
+                    </div>
+                  )}
+                  {book.original_language && (
+                    <div className="flex justify-between items-center">
+                      <span className="text-xs text-gray-500">{language === 'zh' ? '原著語言' : 'Original Language'}</span>
+                      <span className="text-[10px] font-bold text-[#0e7b89] px-2 py-0.5 rounded bg-[#0e7b891a] uppercase">
+                        {book.original_language === 'en' ? 'English' : 
+                         book.original_language === 'ja' ? 'Japanese' : 
+                         book.original_language === 'zh' ? 'Chinese' : book.original_language}
+                      </span>
+                    </div>
+                  )}
+                </div>
+              </div>
+            )}
 
             {/* YouTube Links */}
             <div className="bg-[#f0ebe0] rounded-xl p-6">
