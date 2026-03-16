@@ -160,7 +160,7 @@ export default function BookDetail() {
                 </div>
                 
                 <div className="space-y-3">
-                  {book.isbn_en && (
+                  {book.isbn_en && book.isbn_en !== (book as any).isbn_zh && (
                     <div className="flex justify-between items-center">
                       <span className="text-xs text-gray-500">{language === 'zh' ? '英文版 ISBN-13' : 'English ISBN-13'}</span>
                       <span className="text-xs font-mono font-bold text-gray-800">{book.isbn_en}</span>

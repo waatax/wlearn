@@ -287,7 +287,7 @@ export default function BookDetail() {
                                 </div>
                                 
                                 <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                                    {book.isbn_en && (
+                                    {book.isbn_en && book.isbn_en !== book.isbn_zh && (
                                         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                                             <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>英文版 ISBN-13</span>
                                             <span style={{ fontSize: '12px', fontWeight: '600', fontFamily: 'monospace', color: 'var(--text)' }}>{book.isbn_en}</span>
