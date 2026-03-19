@@ -97,8 +97,8 @@
   {
     "id": "book_98",
     "code": "S1-05",
-    "title_cn": null,
-    "title_en": "Satir 的對話練習",
+    "title_cn": "薩提爾的對話練習",
+    "title_en": "Satir's Dialogue Exercise",
     "playlist": "Book TALK - DeepDive Podcast S1",
     "youtube_url": "https://www.youtube.com/watch?v=aIlwyAOSnwM",
     "video_id": "aIlwyAOSnwM",
@@ -467,8 +467,8 @@
   {
     "id": "book_82",
     "code": "S1-21",
-    "title_cn": null,
-    "title_en": "Nexus",
+    "title_cn": "艱困時代的經濟學思考",
+    "title_en": "Good Economics for Hard Times",
     "playlist": "Book TALK - DeepDive Podcast S1",
     "youtube_url": "https://www.youtube.com/watch?v=FX_ONyXh2pg",
     "video_id": "FX_ONyXh2pg",
@@ -478,14 +478,14 @@
       "推薦書籍"
     ],
     "description": "",
-    "author": "Yuval Noah Harari",
+    "author": "Abhijit V. Banerjee & Esther Duflo",
     "cover_url": "https://img.youtube.com/vi/FX_ONyXh2pg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=SalXtKGy8lc",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9780143427391",
     "original_language": "en",
-    "author_en": "Yuval Noah Harari"
+    "author_en": "Abhijit V. Banerjee & Esther Duflo"
   },
   {
     "id": "book_81",
@@ -860,8 +860,8 @@
   {
     "id": "book_1",
     "code": "S1-38",
-    "title_cn": null,
-    "title_en": "窮查理的普通常識",
+    "title_cn": "連結：從石器時代到 AI 紀元",
+    "title_en": "Nexus",
     "playlist": "Book TALK - DeepDive Podcast S1",
     "youtube_url": "https://www.youtube.com/watch?v=SwY0b0kQQbc",
     "video_id": "SwY0b0kQQbc",
@@ -871,7 +871,7 @@
       "推薦書籍"
     ],
     "description": "",
-    "author": "Charlie Munger",
+    "author": "Yuval Noah Harari",
     "cover_url": "https://img.youtube.com/vi/SwY0b0kQQbc/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
@@ -879,7 +879,7 @@
     "original_language": "en",
     "isbn_zh": "9786267366882",
     "isbn_en": "9781578645015",
-    "author_en": "Charlie Munger"
+    "author_en": "Yuval Noah Harari"
   },
   {
     "id": "book_64",
@@ -1366,8 +1366,8 @@
   {
     "id": "book_43",
     "code": "S1-60",
-    "title_cn": null,
-    "title_en": "My Life in Full 完整的力量",
+    "title_cn": "窮查理的普通常識",
+    "title_en": "Poor Charlie's Almanack",
     "playlist": "Book TALK - DeepDive Podcast S1",
     "youtube_url": "https://www.youtube.com/watch?v=8l5nyi4xmEk",
     "video_id": "8l5nyi4xmEk",
@@ -1377,7 +1377,7 @@
       "推薦書籍"
     ],
     "description": "",
-    "author": "Indra Nooyi",
+    "author": "charles-munger",
     "cover_url": "https://img.youtube.com/vi/8l5nyi4xmEk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=hRu_MnB0iXk",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
@@ -1385,7 +1385,7 @@
     "original_language": "en",
     "isbn_zh": "9789863988229",
     "isbn_en": "9780593139172",
-    "author_en": "Indra Nooyi"
+    "author_en": "charles-munger"
   },
   {
     "id": "book_42",
@@ -2318,8 +2318,8 @@
   {
     "id": "book_200",
     "code": "S2-02",
-    "title_cn": null,
-    "title_en": "The Start Up of You 第一次工作就該懂",
+    "title_cn": "認知與情緒手冊",
+    "title_en": "Handbook of Cognition and Emotion",
     "playlist": "Book TALK - DeepDive Podcast S2",
     "youtube_url": "https://www.youtube.com/watch?v=h_zPE87nPco",
     "video_id": "h_zPE87nPco",
@@ -2329,19 +2329,19 @@
       "職場與領導"
     ],
     "description": "",
-    "author": "Reid Hoffman",
+    "author": "Michael D. Robinson",
     "cover_url": "https://img.youtube.com/vi/h_zPE87nPco/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=90XDkauZKyI",
     "description_cn": "這是一部關於職場成功和職業發展的實用指南。書中涵蓋領導力、溝通技巧、團隊合作等重要主題，幫助專業人士在競爭激烈的職場中脫穎而出。",
     "description_en": "This is a關於workplace成功和職業發展的practicalguide。The bookcoversleadership、communication skills、teamwork等importanttopics，helpsprofessionals在highly competitive的workplace中stand out。",
     "original_language": "en",
-    "author_en": "Reid Hoffman"
+    "author_en": "Michael D. Robinson"
   },
   {
     "id": "book_201",
     "code": "S2-03",
-    "title_cn": null,
-    "title_en": "Missing Each Other 調和",
+    "title_cn": "情緒與意識",
+    "title_en": "Emotion and Consciousness",
     "playlist": "Book TALK - DeepDive Podcast S2",
     "youtube_url": "https://www.youtube.com/watch?v=x02buw-HlaM",
     "video_id": "x02buw-HlaM",
@@ -2351,13 +2351,13 @@
       "推薦書籍"
     ],
     "description": "",
-    "author": "Edward Brodkin, Ashley Pallathra",
+    "author": "Lisa Feldman Barrett",
     "cover_url": "https://img.youtube.com/vi/x02buw-HlaM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=v1sK4uBNmbo",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "original_language": "en",
-    "author_en": "Edward Brodkin, Ashley Pallathra"
+    "author_en": "Lisa Feldman Barrett"
   },
   {
     "id": "book_199",
@@ -2696,8 +2696,8 @@
   {
     "id": "book_184",
     "code": "S2-19",
-    "title_cn": null,
-    "title_en": "The E Myth Revisited 創業這條路",
+    "title_cn": "創業這條路",
+    "title_en": "The E-Myth Revisited",
     "playlist": "Book TALK - DeepDive Podcast S2",
     "youtube_url": "https://www.youtube.com/watch?v=BKYeZj4YeRg",
     "video_id": "BKYeZj4YeRg",
@@ -2741,7 +2741,7 @@
   {
     "id": "book_182",
     "code": "S2-21",
-    "title_cn": null,
+    "title_cn": "不公平優勢",
     "title_en": "The Unfair Advantage",
     "playlist": "Book TALK - DeepDive Podcast S2",
     "youtube_url": "https://www.youtube.com/watch?v=UFUfpWGx83c",
@@ -3225,8 +3225,8 @@
   {
     "id": "book_172",
     "code": "S2-43",
-    "title_cn": "盲視效應 Blind Sight   Matt Johnson PhD,",
-    "title_en": "Price Ghuman",
+    "title_cn": "盲視效應",
+    "title_en": "Blind Sight",
     "playlist": "Book TALK - DeepDive Podcast S2",
     "youtube_url": "https://www.youtube.com/watch?v=dd8ArKrkRHU",
     "video_id": "dd8ArKrkRHU",
@@ -4576,8 +4576,8 @@
   {
     "id": "book_300",
     "code": "S3-04",
-    "title_cn": null,
-    "title_en": "All the Brains in the Business The Engendered Brain in the 21st Century Organisation",
+    "title_cn": "All the Brains in the Business",
+    "title_en": "All the Brains in the Business",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=AsGpTAmwLNs",
     "video_id": "AsGpTAmwLNs",
@@ -4587,14 +4587,14 @@
       "推薦書籍"
     ],
     "description": "",
-    "author": "Kate Lanz, Paul Brown",
+    "author": "Kate Lanz & Paul Brown",
     "cover_url": "https://img.youtube.com/vi/AsGpTAmwLNs/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=vOzme5R8O0Q",
     "isbn_en": "9783030221522",
     "original_language": "en",
-    "author_en": "Kate Lanz, Paul Brown"
+    "author_en": "Kate Lanz & Paul Brown"
   },
   {
     "id": "book_299",
@@ -4937,7 +4937,7 @@
   {
     "id": "book_284",
     "code": "S3-20",
-    "title_cn": null,
+    "title_cn": "向世界進擊的糧食學",
     "title_en": "How to Feed the World",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=mBQdXJnXQ5w",
@@ -5028,7 +5028,7 @@
   {
     "id": "book_280",
     "code": "S3-24",
-    "title_cn": null,
+    "title_cn": "情緒的心理構造",
     "title_en": "The Psychological Construction of Emotion",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=UpmYOZ4emNM",
@@ -5051,8 +5051,8 @@
   {
     "id": "book_279",
     "code": "S3-25",
-    "title_cn": null,
-    "title_en": "Handbook of Cognition and Emotion",
+    "title_cn": "完整的力量",
+    "title_en": "My Life in Full",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=yDZkHYMIou4",
     "video_id": "yDZkHYMIou4",
@@ -5062,19 +5062,19 @@
       "推薦書籍"
     ],
     "description": "",
-    "author": "Michael D. Robinson",
+    "author": "Indra Nooyi",
     "cover_url": "https://img.youtube.com/vi/yDZkHYMIou4/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9780470842218",
     "original_language": "en",
-    "author_en": "Michael D. Robinson"
+    "author_en": "Indra Nooyi"
   },
   {
     "id": "book_278",
     "code": "S3-26",
-    "title_cn": null,
-    "title_en": "Emotion and Consciousness",
+    "title_cn": "第一次工作就該懂",
+    "title_en": "The Start-Up of You",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=AmAAJgObkOc",
     "video_id": "AmAAJgObkOc",
@@ -5084,13 +5084,13 @@
       "推薦書籍"
     ],
     "description": "",
-    "author": "Lisa Feldman Barrett",
+    "author": "Reid Hoffman",
     "cover_url": "https://img.youtube.com/vi/AmAAJgObkOc/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9781593851880",
     "original_language": "en",
-    "author_en": "Lisa Feldman Barrett"
+    "author_en": "Reid Hoffman"
   },
   {
     "id": "book_277",
@@ -5231,8 +5231,8 @@
   {
     "id": "book_271",
     "code": "S3-33",
-    "title_cn": null,
-    "title_en": "THE EXPENDABLES   Jeff Rubin",
+    "title_cn": "我們成了消耗品",
+    "title_en": "The Expendables",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=PnzCD8cDq8A",
     "video_id": "PnzCD8cDq8A",
@@ -5253,8 +5253,8 @@
   {
     "id": "book_270",
     "code": "S3-34",
-    "title_cn": null,
-    "title_en": "Five Dimensions of Learning  A Guide to Effective Study",
+    "title_cn": "五維學習力",
+    "title_en": "Five Dimensions of Learning",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=EUOcR8ap0Nk",
     "video_id": "EUOcR8ap0Nk",
@@ -5264,13 +5264,13 @@
       "推薦書籍"
     ],
     "description": "",
-    "author": "Geoff Petty",
+    "author": "王咏 (Wang Yong)",
     "cover_url": "https://img.youtube.com/vi/EUOcR8ap0Nk/maxresdefault.jpg",
     "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=Pd-9ii8MiuE",
     "original_language": "en",
-    "author_en": "Geoff Petty"
+    "author_en": "王咏 (Wang Yong)"
   },
   {
     "id": "book_269",
@@ -5298,8 +5298,8 @@
   {
     "id": "book_268",
     "code": "S3-36",
-    "title_cn": null,
-    "title_en": "Essentialism  The Disciplined Pursuit of Less",
+    "title_cn": "少，但是更好",
+    "title_en": "Essentialism",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=O3w6T50yqEo",
     "video_id": "O3w6T50yqEo",
@@ -5321,7 +5321,7 @@
   {
     "id": "book_267",
     "code": "S3-37",
-    "title_cn": null,
+    "title_cn": "The Successful Speaker",
     "title_en": "The Successful Speaker",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=5nWcWmj4u_w",
@@ -5388,8 +5388,8 @@
   {
     "id": "book_264",
     "code": "S3-40",
-    "title_cn": null,
-    "title_en": "The Daily Stoic 366 Meditations on Wisdom^J Perseverance^J and the Art of Living",
+    "title_cn": "勇氣在召喚",
+    "title_en": "The Daily Stoic",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=CBqSh_9ng3A",
     "video_id": "CBqSh_9ng3A",
@@ -5569,7 +5569,7 @@
   {
     "id": "book_256",
     "code": "S3-48",
-    "title_cn": null,
+    "title_cn": "哈佛最受歡迎的快樂心理學",
     "title_en": "The Happiness Advantage",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=q1K3nrmwtSE",
@@ -5592,8 +5592,8 @@
   {
     "id": "book_255",
     "code": "S3-49",
-    "title_cn": "10% Happier - Taming the Voice in My Head",
-    "title_en": null,
+    "title_cn": "情緒智商",
+    "title_en": "Emotional Intelligence",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=gulcyNrpvLI",
     "video_id": "gulcyNrpvLI",
@@ -5603,13 +5603,13 @@
       "推薦書籍"
     ],
     "description": "",
-    "author": "Dan Harris",
+    "author": "Daniel Goleman",
     "cover_url": "https://img.youtube.com/vi/gulcyNrpvLI/maxresdefault.jpg",
     "description_cn": "Dan Harris的個人成長回憶錄，講述一位新聞主播如何從焦慮崩潰走向冥想修行。以幽默誠實的筆觸探討正念冥想如何帶來10%的幸福感提升。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=-WmfiXOuXNE",
     "original_language": "en",
-    "author_en": "Dan Harris"
+    "author_en": "Daniel Goleman"
   },
   {
     "id": "book_254",
@@ -5744,8 +5744,8 @@
   {
     "id": "book_248",
     "code": "S3-56",
-    "title_cn": "折棉被吧 !",
-    "title_en": "Make Your Bed  Little Things That Can Change Your Life and Maybe the World",
+    "title_cn": "靜心",
+    "title_en": "Stillness Is the Key",
     "playlist": "Book TALK - DeepDive Podcast S3",
     "youtube_url": "https://www.youtube.com/watch?v=I10gocyZmCI",
     "video_id": "I10gocyZmCI",
@@ -5755,14 +5755,14 @@
       "推薦書籍"
     ],
     "description": "",
-    "author": "William H. McRaven",
+    "author": "Ryan Holiday",
     "cover_url": "https://img.youtube.com/vi/I10gocyZmCI/maxresdefault.jpg",
     "description_cn": "William H. McRaven海軍上將的勵志著作，從海豹部隊訓練中提煉10個改變人生的原則。第一個就是「每天從折棉被開始」，以小紀律建立大成就。",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=tqYW_JpBpHQ",
     "isbn_en": "9781538751770",
     "original_language": "en",
-    "author_en": "William H. McRaven"
+    "author_en": "Ryan Holiday"
   },
   {
     "id": "book_247",
@@ -10993,8 +10993,8 @@
   {
     "id": "book_492",
     "code": "VW-18",
-    "title_cn": "VW 18 Simple Sabotage Field Manual",
-    "title_en": null,
+    "title_cn": "簡單破壞現場手冊",
+    "title_en": "Simple Sabotage Field Manual",
     "playlist": "2025 VW",
     "youtube_url": "https://www.youtube.com/watch?v=BsE_e3VIbz4",
     "video_id": "BsE_e3VIbz4",
@@ -11004,13 +11004,13 @@
       "推薦書籍"
     ],
     "description": "",
-    "author": "OSS (Office of Strategic Services)",
+    "author": "OSS",
     "cover_url": "https://img.youtube.com/vi/BsE_e3VIbz4/maxresdefault.jpg",
     "english_url": null,
     "description_cn": "這是關於 VW 18 Simple Sabotage Field Manual 的讀書筆記與分享。",
     "description_en": "Summary and insights for VW 18 Simple Sabotage Field Manual.",
     "original_language": "zh",
-    "author_en": "OSS (Office of Strategic Services)"
+    "author_en": "OSS"
   },
   {
     "id": "book_493",
@@ -11081,8 +11081,8 @@
   {
     "id": "book_496",
     "code": "VW-14",
-    "title_cn": "VW 14 Extreme Ownership",
-    "title_en": null,
+    "title_cn": "極度責任",
+    "title_en": "Extreme Ownership",
     "playlist": "2025 VW",
     "youtube_url": "https://www.youtube.com/watch?v=9BGQaPj1cAo",
     "video_id": "9BGQaPj1cAo",

@@ -154,22 +154,22 @@
     "book_count": 2,
     "books": [
       {
-        "id": "book_98",
-        "title_cn": null,
-        "title_en": "Satir 的對話練習",
-        "code": "S1-05",
-        "video_id": "aIlwyAOSnwM",
+        "id": "book_166",
+        "title_cn": "薩提爾的親密關係修復練習",
+        "title_en": null,
+        "code": "S2-55",
+        "video_id": "a0u_Ib-NVEo",
         "tags": [
           "個人成長",
           "推薦書籍"
         ]
       },
       {
-        "id": "book_166",
-        "title_cn": "薩提爾的親密關係修復練習",
-        "title_en": null,
-        "code": "S2-55",
-        "video_id": "a0u_Ib-NVEo",
+        "id": "book_98",
+        "title_cn": "薩提爾的對話練習",
+        "title_en": "Satir's Dialogue Exercise",
+        "code": "S1-05",
+        "video_id": "aIlwyAOSnwM",
         "tags": [
           "個人成長",
           "推薦書籍"
@@ -567,17 +567,6 @@
     "book_count": 3,
     "books": [
       {
-        "id": "book_82",
-        "title_cn": null,
-        "title_en": "Nexus",
-        "code": "S1-21",
-        "video_id": "FX_ONyXh2pg",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      },
-      {
         "id": "book_174",
         "title_cn": "人類大歷史",
         "title_en": "Sapiens  A Brief History of Humankind",
@@ -594,6 +583,17 @@
         "title_en": null,
         "code": "S4-21",
         "video_id": "o5RzQE_-6JI",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      },
+      {
+        "id": "book_1",
+        "title_cn": "連結：從石器時代到 AI 紀元",
+        "title_en": "Nexus",
+        "code": "S1-38",
+        "video_id": "SwY0b0kQQbc",
         "tags": [
           "個人成長",
           "推薦書籍"
@@ -1084,19 +1084,8 @@
       "提出多元思維模型",
       "投資界最睿智的商業頭腦之一"
     ],
-    "book_count": 2,
+    "book_count": 1,
     "books": [
-      {
-        "id": "book_1",
-        "title_cn": null,
-        "title_en": "窮查理的普通常識",
-        "code": "S1-38",
-        "video_id": "SwY0b0kQQbc",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      },
       {
         "id": "book_64",
         "title_cn": "窮理查的普通常識",
@@ -1714,11 +1703,11 @@
     "book_count": 1,
     "books": [
       {
-        "id": "book_43",
-        "title_cn": null,
-        "title_en": "My Life in Full 完整的力量",
-        "code": "S1-60",
-        "video_id": "8l5nyi4xmEk",
+        "id": "book_279",
+        "title_cn": "完整的力量",
+        "title_en": "My Life in Full",
+        "code": "S3-25",
+        "video_id": "yDZkHYMIou4",
         "tags": [
           "個人成長",
           "推薦書籍"
@@ -2887,14 +2876,14 @@
     "book_count": 1,
     "books": [
       {
-        "id": "book_200",
-        "title_cn": null,
-        "title_en": "The Start Up of You 第一次工作就該懂",
-        "code": "S2-02",
-        "video_id": "h_zPE87nPco",
+        "id": "book_278",
+        "title_cn": "第一次工作就該懂",
+        "title_en": "The Start-Up of You",
+        "code": "S3-26",
+        "video_id": "AmAAJgObkOc",
         "tags": [
-          "職場工作",
-          "職場與領導"
+          "個人成長",
+          "推薦書籍"
         ]
       }
     ],
@@ -2911,20 +2900,8 @@
     "achievements": [
       "《自閉症》作者"
     ],
-    "book_count": 1,
-    "books": [
-      {
-        "id": "book_201",
-        "title_cn": null,
-        "title_en": "Missing Each Other 調和",
-        "code": "S2-03",
-        "video_id": "x02buw-HlaM",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      }
-    ],
+    "book_count": 0,
+    "books": [],
     "has_detailed_bio": true,
     "avatar_initial": "愛"
   },
@@ -3253,7 +3230,7 @@
     "book_count": 1
   },
   {
-    "id": "michael-e-gerber",
+    "id": "michael-gerber",
     "name": "Michael E. Gerber",
     "name_en": "Michael E. Gerber",
     "name_zh": "Michael E. Gerber",
@@ -3264,8 +3241,8 @@
     "books": [
       {
         "id": "book_184",
-        "title_cn": null,
-        "title_en": "The E Myth Revisited 創業這條路",
+        "title_cn": "創業這條路",
+        "title_en": "The E-Myth Revisited",
         "code": "S2-19",
         "video_id": "BKYeZj4YeRg",
         "tags": [
@@ -3320,7 +3297,7 @@
     "books": [
       {
         "id": "book_182",
-        "title_cn": null,
+        "title_cn": "不公平優勢",
         "title_en": "The Unfair Advantage",
         "code": "S2-21",
         "video_id": "UFUfpWGx83c",
@@ -3814,8 +3791,8 @@
     "books": [
       {
         "id": "book_172",
-        "title_cn": "盲視效應 Blind Sight   Matt Johnson PhD,",
-        "title_en": "Price Ghuman",
+        "title_cn": "盲視效應",
+        "title_en": "Blind Sight",
         "code": "S2-43",
         "video_id": "dd8ArKrkRHU",
         "tags": [
@@ -5215,20 +5192,8 @@
     "achievements": [
       "商業書籍作者"
     ],
-    "book_count": 1,
-    "books": [
-      {
-        "id": "book_300",
-        "title_cn": null,
-        "title_en": "All the Brains in the Business The Engendered Brain in the 21st Century Organisation",
-        "code": "S3-04",
-        "video_id": "AsGpTAmwLNs",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      }
-    ],
+    "book_count": 0,
+    "books": [],
     "has_detailed_bio": true,
     "avatar_initial": "凱"
   },
@@ -5499,7 +5464,7 @@
     "books": [
       {
         "id": "book_284",
-        "title_cn": null,
+        "title_cn": "向世界進擊的糧食學",
         "title_en": "How to Feed the World",
         "code": "S3-20",
         "video_id": "mBQdXJnXQ5w",
@@ -5565,7 +5530,7 @@
       },
       {
         "id": "book_280",
-        "title_cn": null,
+        "title_cn": "情緒的心理構造",
         "title_en": "The Psychological Construction of Emotion",
         "code": "S3-24",
         "video_id": "UpmYOZ4emNM",
@@ -5575,11 +5540,11 @@
         ]
       },
       {
-        "id": "book_278",
-        "title_cn": null,
+        "id": "book_201",
+        "title_cn": "情緒與意識",
         "title_en": "Emotion and Consciousness",
-        "code": "S3-26",
-        "video_id": "AmAAJgObkOc",
+        "code": "S2-03",
+        "video_id": "x02buw-HlaM",
         "tags": [
           "個人成長",
           "推薦書籍"
@@ -5600,14 +5565,14 @@
     "book_count": 1,
     "books": [
       {
-        "id": "book_279",
-        "title_cn": null,
+        "id": "book_200",
+        "title_cn": "認知與情緒手冊",
         "title_en": "Handbook of Cognition and Emotion",
-        "code": "S3-25",
-        "video_id": "yDZkHYMIou4",
+        "code": "S2-02",
+        "video_id": "h_zPE87nPco",
         "tags": [
-          "個人成長",
-          "推薦書籍"
+          "職場工作",
+          "職場與領導"
         ]
       }
     ],
@@ -5765,8 +5730,8 @@
     "books": [
       {
         "id": "book_271",
-        "title_cn": null,
-        "title_en": "THE EXPENDABLES   Jeff Rubin",
+        "title_cn": "我們成了消耗品",
+        "title_en": "The Expendables",
         "code": "S3-33",
         "video_id": "PnzCD8cDq8A",
         "tags": [
@@ -5786,20 +5751,8 @@
     "bio": "Geoff Petty 是一位國際知名的作者與領域專家，專注於各類知識與實戰經驗的分享。其作品深受全球讀者期待，本站收錄其代表作，致力於提供深具啟發性的內容。",
     "career": "作家",
     "achievements": [],
-    "book_count": 1,
-    "books": [
-      {
-        "id": "book_270",
-        "title_cn": null,
-        "title_en": "Five Dimensions of Learning  A Guide to Effective Study",
-        "code": "S3-34",
-        "video_id": "EUOcR8ap0Nk",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      }
-    ],
+    "book_count": 0,
+    "books": [],
     "has_detailed_bio": false,
     "avatar_initial": "G"
   },
@@ -5844,17 +5797,6 @@
     "book_count": 3,
     "books": [
       {
-        "id": "book_268",
-        "title_cn": null,
-        "title_en": "Essentialism  The Disciplined Pursuit of Less",
-        "code": "S3-36",
-        "video_id": "O3w6T50yqEo",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      },
-      {
         "id": "book_226",
         "title_cn": "努力卻不費力",
         "title_en": "Effortless  Make it Easier to Do what Matters Most",
@@ -5871,6 +5813,17 @@
         "title_en": "Measure What Matters  How Google and Others Apply OKRs",
         "code": "S3-101",
         "video_id": "EVZYSt2N8yY",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      },
+      {
+        "id": "book_268",
+        "title_cn": "少，但是更好",
+        "title_en": "Essentialism",
+        "code": "S3-36",
+        "video_id": "O3w6T50yqEo",
         "tags": [
           "個人成長",
           "推薦書籍"
@@ -5892,7 +5845,7 @@
     "books": [
       {
         "id": "book_267",
-        "title_cn": null,
+        "title_cn": "The Successful Speaker",
         "title_en": "The Successful Speaker",
         "code": "S3-37",
         "video_id": "5nWcWmj4u_w",
@@ -5968,14 +5921,25 @@
       "斯多葛學派現代應用領軍人物",
       "知名顧問公司 Brass Check 創辦人"
     ],
-    "book_count": 1,
+    "book_count": 2,
     "books": [
       {
         "id": "book_264",
-        "title_cn": null,
-        "title_en": "The Daily Stoic 366 Meditations on Wisdom^J Perseverance^J and the Art of Living",
+        "title_cn": "勇氣在召喚",
+        "title_en": "The Daily Stoic",
         "code": "S3-40",
         "video_id": "CBqSh_9ng3A",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      },
+      {
+        "id": "book_248",
+        "title_cn": "靜心",
+        "title_en": "Stillness Is the Key",
+        "code": "S3-56",
+        "video_id": "I10gocyZmCI",
         "tags": [
           "個人成長",
           "推薦書籍"
@@ -6186,7 +6150,7 @@
     "books": [
       {
         "id": "book_256",
-        "title_cn": null,
+        "title_cn": "哈佛最受歡迎的快樂心理學",
         "title_en": "The Happiness Advantage",
         "code": "S3-48",
         "video_id": "q1K3nrmwtSE",
@@ -6207,20 +6171,8 @@
     "bio": "Dan Harris 是一位國際知名的作者與領域專家，專注於各類知識與實戰經驗的分享。其作品深受全球讀者期待，本站收錄其代表作，致力於提供深具啟發性的內容。",
     "career": "作家",
     "achievements": [],
-    "book_count": 1,
-    "books": [
-      {
-        "id": "book_255",
-        "title_cn": "10% Happier - Taming the Voice in My Head",
-        "title_en": null,
-        "code": "S3-49",
-        "video_id": "gulcyNrpvLI",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      }
-    ],
+    "book_count": 0,
+    "books": [],
     "has_detailed_bio": false,
     "avatar_initial": "D"
   },
@@ -6401,20 +6353,8 @@
     "bio": "William H. McRaven 是一位國際知名的作者與領域專家，專注於各類知識與實戰經驗的分享。其作品深受全球讀者期待，本站收錄其代表作，致力於提供深具啟發性的內容。",
     "career": "作家",
     "achievements": [],
-    "book_count": 1,
-    "books": [
-      {
-        "id": "book_248",
-        "title_cn": "折棉被吧 !",
-        "title_en": "Make Your Bed  Little Things That Can Change Your Life and Maybe the World",
-        "code": "S3-56",
-        "video_id": "I10gocyZmCI",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      }
-    ],
+    "book_count": 0,
+    "books": [],
     "has_detailed_bio": false,
     "avatar_initial": "W"
   },
@@ -6506,7 +6446,7 @@
       "哈佛大學心理學博士",
       "前紐約時報記者"
     ],
-    "book_count": 4,
+    "book_count": 5,
     "books": [
       {
         "id": "book_244",
@@ -6547,6 +6487,17 @@
         "title_en": "The Hidden Driver of Excellence",
         "code": "S3-95",
         "video_id": "yTPCyGVkQWs",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      },
+      {
+        "id": "book_255",
+        "title_cn": "情緒智商",
+        "title_en": "Emotional Intelligence",
+        "code": "S3-49",
+        "video_id": "gulcyNrpvLI",
         "tags": [
           "個人成長",
           "推薦書籍"
@@ -10615,20 +10566,8 @@
     "achievements": [],
     "has_detailed_bio": false,
     "avatar_initial": "O",
-    "books": [
-      {
-        "id": "book_492",
-        "title_cn": "VW 18 Simple Sabotage Field Manual",
-        "title_en": null,
-        "code": "VW-18",
-        "video_id": "BsE_e3VIbz4",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      }
-    ],
-    "book_count": 1
+    "books": [],
+    "book_count": 0
   },
   {
     "id": "ozan-varol",
@@ -10715,7 +10654,7 @@
     "book_count": 1
   },
   {
-    "id": "jocko-willink--leif-babin",
+    "id": "jocko-willink-leif-babin",
     "name": "Jocko Willink & Leif Babin",
     "name_en": "Jocko Willink & Leif Babin",
     "name_zh": "Jocko Willink",
@@ -10730,8 +10669,8 @@
     "books": [
       {
         "id": "book_496",
-        "title_cn": "VW 14 Extreme Ownership",
-        "title_en": null,
+        "title_cn": "極度責任",
+        "title_en": "Extreme Ownership",
         "code": "VW-14",
         "video_id": "9BGQaPj1cAo",
         "tags": [
@@ -11209,6 +11148,131 @@
         "title_en": "Megatrends",
         "code": "S1-13",
         "video_id": "1wC9d1vGrVI",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "banerjee-duflo",
+    "name": "Abhijit V. Banerjee & Esther Duflo",
+    "name_en": "Abhijit V. Banerjee & Esther Duflo",
+    "name_zh": "Abhijit V. Banerjee & Esther Duflo",
+    "bio": "Abhijit V. Banerjee & Esther Duflo 是相關領域的專家與作者。",
+    "career": "作者 / 領域專家",
+    "achievements": [],
+    "book_count": 1,
+    "has_detailed_bio": false,
+    "avatar_initial": "A",
+    "books": [
+      {
+        "id": "book_82",
+        "title_cn": "艱困時代的經濟學思考",
+        "title_en": "Good Economics for Hard Times",
+        "code": "S1-21",
+        "video_id": "FX_ONyXh2pg",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "charles-munger",
+    "name": "charles-munger",
+    "name_en": "charles-munger",
+    "name_zh": "charles-munger",
+    "bio": "undefined 是相關領域的專家與作者。",
+    "career": "作者 / 領域專家",
+    "achievements": [],
+    "book_count": 1,
+    "has_detailed_bio": false,
+    "avatar_initial": "c",
+    "books": [
+      {
+        "id": "book_43",
+        "title_cn": "窮查理的普通常識",
+        "title_en": "Poor Charlie's Almanack",
+        "code": "S1-60",
+        "video_id": "8l5nyi4xmEk",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "wang-yong",
+    "name": "王咏 (Wang Yong)",
+    "name_en": "王咏 (Wang Yong)",
+    "name_zh": "王咏 (Wang Yong)",
+    "bio": "王咏 (Wang Yong) 是相關領域的專家與作者。",
+    "career": "作者 / 領域專家",
+    "achievements": [],
+    "book_count": 1,
+    "has_detailed_bio": false,
+    "avatar_initial": "王",
+    "books": [
+      {
+        "id": "book_270",
+        "title_cn": "五維學習力",
+        "title_en": "Five Dimensions of Learning",
+        "code": "S3-34",
+        "video_id": "EUOcR8ap0Nk",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "lanz-brown",
+    "name": "Kate Lanz & Paul Brown",
+    "name_en": "Kate Lanz & Paul Brown",
+    "name_zh": "Kate Lanz & Paul Brown",
+    "bio": "Kate Lanz & Paul Brown 是相關領域的專家與作者。",
+    "career": "作者 / 領域專家",
+    "achievements": [],
+    "book_count": 1,
+    "has_detailed_bio": false,
+    "avatar_initial": "K",
+    "books": [
+      {
+        "id": "book_300",
+        "title_cn": "All the Brains in the Business",
+        "title_en": "All the Brains in the Business",
+        "code": "S3-04",
+        "video_id": "AsGpTAmwLNs",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "oss",
+    "name": "OSS",
+    "name_en": "OSS",
+    "name_zh": "OSS",
+    "bio": "OSS 是相關領域的專家與作者。",
+    "career": "作者 / 領域專家",
+    "achievements": [],
+    "book_count": 1,
+    "has_detailed_bio": false,
+    "avatar_initial": "O",
+    "books": [
+      {
+        "id": "book_492",
+        "title_cn": "簡單破壞現場手冊",
+        "title_en": "Simple Sabotage Field Manual",
+        "code": "VW-18",
+        "video_id": "BsE_e3VIbz4",
         "tags": [
           "個人成長",
           "推薦書籍"
