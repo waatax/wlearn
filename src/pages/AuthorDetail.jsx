@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { ArrowLeft, BookOpen, Award, Briefcase, ExternalLink, Users, ChevronRight } from 'lucide-react';
+import { ArrowLeft, BookOpen, Award, Briefcase, ExternalLink, Users, ChevronRight, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function AuthorDetail() {

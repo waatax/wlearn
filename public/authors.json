@@ -243,20 +243,8 @@
       "《心態致勝》暢銷書",
       "影響全球教育界"
     ],
-    "book_count": 3,
+    "book_count": 2,
     "books": [
-      {
-        "id": "book_96",
-        "title_cn": "成長型領導",
-        "title_en": "Growth Leadership",
-        "code": "S1-07",
-        "video_id": "i9LWe5TbiUs",
-        "tags": [
-          "個人成長",
-          "職場工作",
-          "職場與領導"
-        ]
-      },
       {
         "id": "book_139",
         "title_cn": "致勝心態",
@@ -1696,19 +1684,8 @@
       "「黃金圈」理論創始人",
       "TED熱門演講者之一"
     ],
-    "book_count": 5,
+    "book_count": 4,
     "books": [
-      {
-        "id": "book_44",
-        "title_cn": "真誠就是你的影響力",
-        "title_en": "The Go Giver Influencer",
-        "code": "S1-59",
-        "video_id": "nOTiAALgskM",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      },
       {
         "id": "book_186",
         "title_cn": "先問為什麼",
@@ -11093,6 +11070,57 @@
         "tags": [
           "心智與思維",
           "心理學"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "汪士瑋",
+    "name": "汪士瑋",
+    "name_en": "Wang Shi-Wei",
+    "name_zh": "汪士瑋",
+    "bio": "台灣知名企業培訓講師，擁有超過3500位主管的諮商經驗，致力於協助組織建立更有溫度的領導力文化。著有《成長型領導》。",
+    "career": "企業培訓師 / 管理顧問 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "has_detailed_bio": false,
+    "avatar_initial": "汪",
+    "books": [
+      {
+        "id": "book_96",
+        "title_cn": "成長型領導",
+        "title_en": "Growth Leadership",
+        "code": "S1-07",
+        "video_id": "i9LWe5TbiUs",
+        "tags": [
+          "個人成長",
+          "職場工作",
+          "職場與領導"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "bob-burg",
+    "name": "Bob Burg",
+    "name_en": "Bob Burg",
+    "name_zh": "Bob Burg",
+    "bio": "國際知名演說家、作家。與 John David Mann 合著《Go-Giver》系列，強調以給予為核心的商業哲學。",
+    "career": "演說家 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "has_detailed_bio": false,
+    "avatar_initial": "B",
+    "books": [
+      {
+        "id": "book_44",
+        "title_cn": "真誠特質就是你的影響力",
+        "title_en": "The Go-Giver Influencer",
+        "code": "S1-59",
+        "video_id": "nOTiAALgskM",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
         ]
       }
     ]
