@@ -28,7 +28,7 @@ export default function BookCard({ book, index = 0 }) {
             onMouseLeave={() => setHovered(false)}
             style={{
                 background: 'white',
-                borderRadius: '14px',
+                borderRadius: 'var(--radius-md)',
                 overflow: 'hidden',
                 cursor: 'pointer',
                 border: '1px solid var(--border-light)',
@@ -36,8 +36,8 @@ export default function BookCard({ book, index = 0 }) {
                 flexDirection: 'column',
                 transition: 'all var(--transition-med)',
                 boxShadow: hovered ? 'var(--card-shadow-hover)' : 'var(--card-shadow)',
-                transform: hovered ? 'translateY(-4px) scale(1.01)' : 'translateY(0) scale(1)',
-                animation: `fadeInUp 0.4s ease ${delay}ms both`,
+                transform: hovered ? 'translateY(-6px)' : 'translateY(0)',
+                animation: `fadeInUp 0.5s var(--transition-med) ${delay}ms both`,
             }}
         >
             {/* Thumbnail */}
@@ -62,35 +62,38 @@ export default function BookCard({ book, index = 0 }) {
                 <div style={{
                     position: 'absolute', inset: 0,
                     background: hovered
-                        ? 'linear-gradient(to top, rgba(0,0,0,0.3) 0%, transparent 50%)'
-                        : 'linear-gradient(to top, rgba(0,0,0,0.1) 0%, transparent 30%)',
+                        ? 'linear-gradient(to top, rgba(0,0,0,0.4) 0%, transparent 60%)'
+                        : 'linear-gradient(to top, rgba(0,0,0,0.15) 0%, transparent 40%)',
                     transition: 'all var(--transition-med)',
                 }} />
                 {/* Audio icon */}
                 <div style={{
-                    position: 'absolute', bottom: '8px', right: '8px',
-                    background: 'rgba(0,0,0,0.45)', backdropFilter: 'blur(4px)',
+                    position: 'absolute', bottom: '12px', right: '12px',
+                    background: 'rgba(255,255,255,0.2)', backdropFilter: 'blur(8px)',
+                    WebkitBackdropFilter: 'blur(8px)',
+                    border: '1px solid rgba(255,255,255,0.3)',
                     borderRadius: '50%',
-                    width: '28px', height: '28px', display: 'flex',
+                    width: '32px', height: '32px', display: 'flex',
                     alignItems: 'center', justifyContent: 'center',
-                    transition: 'all var(--transition-fast)',
-                    transform: hovered ? 'scale(1.1)' : 'scale(1)',
+                    transition: 'all var(--transition-med)',
+                    transform: hovered ? 'scale(1.1) translateY(-2px)' : 'scale(1)',
+                    boxShadow: hovered ? '0 4px 12px rgba(0,0,0,0.2)' : 'none',
                 }}>
-                    <svg width="13" height="13" viewBox="0 0 24 24" fill="white">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
                         <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-.73-3.37-1.9-4.5l-1.42 1.42C14.63 10.04 15 10.98 15 12s-.37 1.96-.82 2.08l1.42 1.42C16.77 14.37 16.5 12.77 16.5 12z" />
                     </svg>
                 </div>
             </div>
 
             {/* Content */}
-            <div style={{ padding: '14px', flex: 1, display: 'flex', flexDirection: 'column', gap: '8px' }}>
+            <div style={{ padding: '18px', flex: 1, display: 'flex', flexDirection: 'column', gap: '10px' }}>
                 {/* Title + Badge */}
-                <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '8px' }}>
+                <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '10px' }}>
                     <h3 style={{
-                        margin: 0, fontSize: '14px', fontWeight: '650', lineHeight: '1.45',
+                        margin: 0, fontSize: '15px', fontWeight: '750', lineHeight: '1.4',
                         color: 'var(--text)', display: '-webkit-box', WebkitLineClamp: 2,
                         WebkitBoxOrient: 'vertical', overflow: 'hidden',
-                        letterSpacing: '-0.01em',
+                        letterSpacing: '-0.02em',
                     }}>
                         {title}
                     </h3>
@@ -98,9 +101,10 @@ export default function BookCard({ book, index = 0 }) {
                         <span style={{
                             flexShrink: 0, background: 'var(--badge-bg)',
                             color: 'white', fontSize: '10px', fontWeight: '800',
-                            padding: '2px 7px', borderRadius: '5px', whiteSpace: 'nowrap',
-                            letterSpacing: '0.02em',
-                            boxShadow: '0 2px 6px rgba(255,143,0,0.3)',
+                            padding: '3px 8px', borderRadius: '6px', whiteSpace: 'nowrap',
+                            letterSpacing: '0.04em',
+                            boxShadow: '0 4px 10px rgba(239, 108, 0, 0.3)',
+                            marginTop: '2px'
                         }}>
                             {book.code}
                         </span>
@@ -113,7 +117,7 @@ export default function BookCard({ book, index = 0 }) {
                         margin: 0, fontSize: '11px', color: 'var(--text-muted)',
                         fontWeight: '500', letterSpacing: '0.01em',
                     }}>
-                        ✍️ {book.author}
+                        ✍️ {language === 'en' ? (book.author_en || book.author) : book.author}
                     </p>
                 )}
 

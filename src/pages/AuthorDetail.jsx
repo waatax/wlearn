@@ -1,245 +1,302 @@
-﻿import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { ArrowLeft, BookOpen, Award, Briefcase, ExternalLink, Play } from 'lucide-react';
+import { ArrowLeft, BookOpen, Award, Briefcase, ExternalLink, Users, ChevronRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function AuthorDetail() {
-        const { id } = useParams();
-        const navigate = useNavigate();
-        const { language, translateTag } = useLanguage();
-        const [author, setAuthor] = useState(null);
-        const [loading, setLoading] = useState(true);
+    const { id } = useParams();
+    const navigate = useNavigate();
+    const { language, translateTag, t, toggleLanguage } = useLanguage();
+    const [author, setAuthor] = useState(null);
+    const [loading, setLoading] = useState(true);
 
-        useEffect(() => {
-                fetch(import.meta.env.BASE_URL + 'authors.json')
-                        .then(r => r.json())
-                        .then(data => {
-                                const found = data.find(a => a.id === id);
-                                setAuthor(found || null);
-                                setLoading(false);
-                        })
-                        .catch(() => setLoading(false));
-        }, [id]);
+    useEffect(() => {
+        fetch(import.meta.env.BASE_URL + 'authors.json')
+            .then(r => r.json())
+            .then(data => {
+                const found = data.find(a => a.id === id);
+                setAuthor(found || null);
+                setLoading(false);
+            })
+            .catch(() => setLoading(false));
+    }, [id]);
 
-        const avatarColors = [
-                '#0097a7', '#e91e63', '#9c27b0', '#673ab7', '#3f51b5',
-                '#009688', '#ff5722', '#795548', '#607d8b', '#ff8f00',
-        ];
-        const getColor = (name) => avatarColors[(name || '').charCodeAt(0) % avatarColors.length];
+    const avatarColors = [
+        '#00838f', '#ad1457', '#6a1b9a', '#4527a0', '#283593',
+        '#00695c', '#d84315', '#4e342e', '#37474f', '#ef6c00',
+    ];
+    const getColor = (name) => avatarColors[(name || '').charCodeAt(0) % avatarColors.length];
 
-        if (loading) return (
-                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: '#f5f0e8' }}>
-                        <div style={{ fontSize: '16px', color: '#888' }}>載入中...</div>
-                </div>
-        );
+    if (loading) return (
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: 'var(--bg)' }}>
+            <div className="loader"></div>
+        </div>
+    );
 
-        if (!author) return (
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: '#f5f0e8' }}>
-                        <p style={{ fontSize: '18px', color: '#888', marginBottom: '16px' }}>找不到此作者</p>
-                        <button onClick={() => navigate('/authors')} style={{
-                                padding: '10px 24px', borderRadius: '8px', border: '1px solid #e0d8cc',
-                                background: 'white', cursor: 'pointer', fontSize: '14px',
-                        }}>返回作者列表</button>
-                </div>
-        );
+    if (!author) return (
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: 'var(--bg)' }}>
+            <p style={{ fontSize: '20px', color: 'var(--text-muted)', marginBottom: '24px', fontWeight: '600' }}>找不到此作者</p>
+            <button 
+                onClick={() => navigate('/authors')} 
+                style={{
+                    padding: '12px 32px', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)',
+                    background: 'white', cursor: 'pointer', fontSize: '15px', fontWeight: '700',
+                    boxShadow: 'var(--card-shadow)', transition: 'all var(--transition-fast)'
+                }}
+            >
+                {t('authorsList')}
+            </button>
+        </div>
+    );
 
-        const color = getColor(author.name);
+    const color = getColor(author.name);
 
-        return (
-                <div style={{ background: '#f5f0e8', minHeight: '100vh' }}>
-                        {/* Top nav */}
+    return (
+        <div style={{ background: 'var(--bg)', minHeight: '100vh' }}>
+            {/* Top nav bar */}
+            <div style={{
+                padding: '16px 32px', borderBottom: '1px solid var(--border-light)',
+                background: 'var(--sidebar-bg)', backdropFilter: 'blur(var(--sidebar-blur))',
+                WebkitBackdropFilter: 'blur(var(--sidebar-blur))',
+                display: 'flex', alignItems: 'center', position: 'sticky', top: 0, zIndex: 100,
+            }}>
+                <button
+                    onClick={() => navigate('/authors')}
+                    style={{
+                        display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
+                        borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
+                        cursor: 'pointer', fontSize: '14px', color: 'var(--text)', fontWeight: '600',
+                        transition: 'all var(--transition-fast)',
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
+                    }}
+                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateX(-4px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'; }}
+                    onMouseLeave={e => { e.currentTarget.style.transform = 'translateX(0)'; e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.04)'; }}
+                >
+                    <ArrowLeft size={16} />
+                    {t('authorsList')}
+                </button>
+
+                <div style={{ flex: 1 }} />
+
+                <button
+                    onClick={toggleLanguage}
+                    style={{
+                        display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
+                        borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
+                        cursor: 'pointer', fontSize: '14px', fontWeight: '700', color: 'var(--text)',
+                        transition: 'all var(--transition-fast)',
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
+                    }}
+                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'; }}
+                    onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.04)'; }}
+                >
+                    <Globe size={16} color="var(--primary)" />
+                    {language === 'zh' ? 'EN' : '中文'}
+                </button>
+            </div>
+
+            {/* Main content */}
+            <div className="detail-main" style={{ maxWidth: '1000px', margin: '0 auto', padding: '48px 32px' }}>
+                {/* Author header */}
+                <div className="detail-top-section" style={{
+                    display: 'flex', gap: '40px', alignItems: 'flex-start',
+                    marginBottom: '48px', animation: 'fadeInUp 0.6s var(--transition-med) both',
+                }}>
+                    {/* Avatar */}
+                    <div style={{
+                        width: '120px', height: '120px', borderRadius: '32px',
+                        background: `linear-gradient(135deg, ${color}, ${color}dd)`,
+                        color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                        fontWeight: '850', fontSize: '48px', flexShrink: 0,
+                        boxShadow: `0 20px 40px ${color}30`,
+                        transform: 'rotate(-2deg)',
+                        border: '4px solid white',
+                    }}>
+                        {author.avatar_initial}
+                    </div>
+
+                    <div style={{ flex: 1, paddingTop: '8px' }}>
+                        <h1 style={{ margin: '0 0 6px', fontSize: '38px', fontWeight: '850', color: 'var(--text)', lineHeight: 1.1, letterSpacing: '-0.03em' }}>
+                            {language === 'en' ? (author.name_en || author.name) : (author.name_zh || author.name)}
+                        </h1>
+                        {language === 'zh' && author.name_en && author.name_en !== author.name && (
+                            <div style={{ fontSize: '18px', color: 'var(--text-muted)', marginBottom: '12px', fontWeight: '500', letterSpacing: '-0.01em' }}>
+                                {author.name_en}
+                            </div>
+                        )}
+                        {language === 'en' && author.name_zh && author.name_zh !== author.name && (
+                            <div style={{ fontSize: '18px', color: 'var(--text-muted)', marginBottom: '12px', fontWeight: '500', letterSpacing: '-0.01em' }}>
+                                {author.name_zh}
+                            </div>
+                        )}
                         <div style={{
-                                padding: '12px 24px', borderBottom: '1px solid #e0d8cc',
-                                background: 'white', display: 'flex', alignItems: 'center', gap: '12px',
+                            display: 'inline-flex', alignItems: 'center', gap: '8px',
+                            padding: '8px 18px', borderRadius: '999px',
+                            background: 'white', color: color,
+                            fontSize: '14px', fontWeight: '700',
+                            border: `1.5px solid ${color}20`,
+                            boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
                         }}>
-                                <button onClick={() => navigate('/authors')} style={{
-                                        display: 'flex', alignItems: 'center', gap: '6px', padding: '8px 16px',
-                                        borderRadius: '8px', border: '1px solid #e0d8cc', background: 'white',
-                                        cursor: 'pointer', fontSize: '14px', color: '#2d2a24', fontWeight: '500',
-                                }}>
-                                        <ArrowLeft size={16} /> 作者列表
-                                </button>
+                            <Briefcase size={16} />
+                            {author.career}
                         </div>
 
-                        <div style={{ maxWidth: '900px', margin: '0 auto', padding: '32px 24px' }}>
-                                {/* Author header */}
-                                <div className="detail-top-section" style={{
-                                        display: 'flex', gap: '28px', alignItems: 'flex-start',
-                                        marginBottom: '32px', animation: 'fadeInUp 0.4s ease both',
-                                }}>
-                                        {/* Avatar */}
-                                        <div style={{
-                                                width: '100px', height: '100px', borderRadius: '50%',
-                                                background: `linear-gradient(135deg, ${color}, ${color}bb)`,
-                                                color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                                                fontWeight: '800', fontSize: '42px', flexShrink: 0,
-                                                boxShadow: `0 8px 24px ${color}30`,
-                                        }}>
-                                                {author.avatar_initial}
-                                        </div>
-
-                                        <div style={{ flex: 1 }}>
-                                                <h1 style={{ margin: '0 0 4px', fontSize: '28px', fontWeight: '800', color: '#2d2a24', lineHeight: 1.2 }}>
-                                                        {author.name}
-                                                </h1>
-                                                {author.name_en !== author.name && (
-                                                        <div style={{ fontSize: '15px', color: '#9e9486', marginBottom: '8px' }}>
-                                                                {author.name_en}
-                                                        </div>
-                                                )}
-                                                {author.name_zh !== author.name && author.name_zh !== author.name_en && (
-                                                        <div style={{ fontSize: '15px', color: '#9e9486', marginBottom: '8px' }}>
-                                                                {author.name_zh}
-                                                        </div>
-                                                )}
-                                                <div style={{
-                                                        display: 'inline-flex', alignItems: 'center', gap: '6px',
-                                                        padding: '6px 14px', borderRadius: '999px',
-                                                        background: `${color}15`, color: color,
-                                                        fontSize: '13px', fontWeight: '600',
-                                                }}>
-                                                        <Briefcase size={14} />
-                                                        {author.career}
-                                                </div>
-
-                                                {/* Stats */}
-                                                <div style={{ display: 'flex', gap: '20px', marginTop: '16px' }}>
-                                                        <div>
-                                                                <div style={{ fontSize: '24px', fontWeight: '800', color: '#ff8f00' }}>{author.book_count}</div>
-                                                                <div style={{ fontSize: '11px', color: '#9e9486', fontWeight: '500' }}>本站書籍</div>
-                                                        </div>
-                                                        {author.achievements?.length > 0 && (
-                                                                <div>
-                                                                        <div style={{ fontSize: '24px', fontWeight: '800', color: '#9c27b0' }}>{author.achievements.length}</div>
-                                                                        <div style={{ fontSize: '11px', color: '#9e9486', fontWeight: '500' }}>主要成就</div>
-                                                                </div>
-                                                        )}
-                                                </div>
-                                        </div>
+                        {/* Stats */}
+                        <div style={{ display: 'flex', gap: '32px', marginTop: '24px' }}>
+                            <div>
+                                <div style={{ fontSize: '28px', fontWeight: '900', color: 'var(--accent)', letterSpacing: '-0.02em' }}>{author.book_count}</div>
+                                <div style={{ fontSize: '12px', color: 'var(--text-muted)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{t('booksByAuthor')}</div>
+                            </div>
+                            {author.achievements?.length > 0 && (
+                                <div>
+                                    <div style={{ fontSize: '28px', fontWeight: '900', color: '#7b1fa2', letterSpacing: '-0.02em' }}>{author.achievements.length}</div>
+                                    <div style={{ fontSize: '12px', color: 'var(--text-muted)', fontWeight: '700', textTransform: 'uppercase', letterSpacing: '0.05em' }}>{t('achievements')}</div>
                                 </div>
+                            )}
+                        </div>
+                    </div>
+                </div>
 
-                                {/* Bio card */}
-                                <div style={{
-                                        background: 'white', borderRadius: '16px', padding: '24px',
-                                        border: '1px solid #e0d8cc', marginBottom: '20px',
-                                        animation: 'fadeInUp 0.4s ease 0.1s both',
+                {/* Bio card */}
+                <div style={{
+                    background: 'white', borderRadius: 'var(--radius-lg)', padding: '32px',
+                    border: '1px solid var(--border-light)', marginBottom: '32px',
+                    boxShadow: 'var(--card-shadow)',
+                    animation: 'fadeInUp 0.6s var(--transition-med) 0.1s both',
+                }}>
+                    <h2 style={{ margin: '0 0 20px', fontSize: '18px', fontWeight: '850', color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                        <span style={{ width: '4px', height: '18px', background: color, borderRadius: '2px' }} />
+                        {t('authorBio')}
+                    </h2>
+                    <p style={{ margin: 0, fontSize: '16px', lineHeight: '1.9', color: 'var(--text-secondary)', letterSpacing: '0.01em' }}>
+                        {author.bio}
+                    </p>
+                </div>
+
+                {/* Achievements */}
+                {author.achievements?.length > 0 && (
+                    <div style={{
+                        background: 'white', borderRadius: 'var(--radius-lg)', padding: '32px',
+                        border: '1px solid var(--border-light)', marginBottom: '32px',
+                        boxShadow: 'var(--card-shadow)',
+                        animation: 'fadeInUp 0.6s var(--transition-med) 0.2s both',
+                    }}>
+                        <h2 style={{ margin: '0 0 20px', fontSize: '18px', fontWeight: '850', color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                            <Award size={20} color="var(--accent)" /> {t('achievements')}
+                        </h2>
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '12px' }}>
+                            {author.achievements.map((ach, i) => (
+                                <div key={i} style={{
+                                    display: 'flex', alignItems: 'center', gap: '10px',
+                                    padding: '12px 16px', borderRadius: '12px', background: 'var(--bg)',
+                                    border: '1px solid var(--border-light)',
                                 }}>
-                                        <h2 style={{ margin: '0 0 16px', fontSize: '16px', fontWeight: '700', color: '#2d2a24', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                                📝 作者簡介
-                                        </h2>
-                                        <p style={{ margin: 0, fontSize: '15px', lineHeight: '1.9', color: '#2d2a24' }}>
-                                                {author.bio}
-                                        </p>
+                                    <div style={{
+                                        width: '8px', height: '8px', borderRadius: '50%',
+                                        background: color, flexShrink: 0,
+                                    }} />
+                                    <span style={{ fontSize: '14px', color: 'var(--text)', fontWeight: '600' }}>{ach}</span>
                                 </div>
+                            ))}
+                        </div>
+                    </div>
+                )}
 
-                                {/* Achievements */}
-                                {author.achievements?.length > 0 && (
-                                        <div style={{
-                                                background: 'white', borderRadius: '16px', padding: '24px',
-                                                border: '1px solid #e0d8cc', marginBottom: '20px',
-                                                animation: 'fadeInUp 0.4s ease 0.2s both',
-                                        }}>
-                                                <h2 style={{ margin: '0 0 16px', fontSize: '16px', fontWeight: '700', color: '#2d2a24', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                                        <Award size={18} color="#ff8f00" /> 主要成就
-                                                </h2>
-                                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '10px' }}>
-                                                        {author.achievements.map((ach, i) => (
-                                                                <div key={i} style={{
-                                                                        display: 'flex', alignItems: 'center', gap: '8px',
-                                                                        padding: '10px 14px', borderRadius: '10px', background: '#f8f5ef',
-                                                                        border: '1px solid #ebe5da',
-                                                                }}>
-                                                                        <div style={{
-                                                                                width: '6px', height: '6px', borderRadius: '50%',
-                                                                                background: color, flexShrink: 0,
-                                                                        }} />
-                                                                        <span style={{ fontSize: '13px', color: '#2d2a24', fontWeight: '500' }}>{ach}</span>
-                                                                </div>
-                                                        ))}
-                                                </div>
-                                        </div>
+                {/* Books section */}
+                <div style={{
+                    background: 'white', borderRadius: 'var(--radius-lg)', padding: '32px',
+                    border: '1px solid var(--border-light)',
+                    boxShadow: 'var(--card-shadow)',
+                    animation: 'fadeInUp 0.6s var(--transition-med) 0.3s both',
+                }}>
+                    <h2 style={{ margin: '0 0 24px', fontSize: '18px', fontWeight: '850', color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                        <BookOpen size={20} color="var(--primary)" /> {t('booksCollected')} ({author.books?.length || 0})
+                    </h2>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                        {author.books?.map((book, i) => (
+                            <Link
+                                key={book.id}
+                                to={`/book/${book.id}`}
+                                style={{
+                                    display: 'flex', alignItems: 'center', gap: '20px',
+                                    padding: '16px 20px', borderRadius: 'var(--radius-md)',
+                                    background: 'white', border: '1px solid var(--border-light)',
+                                    textDecoration: 'none', color: 'var(--text)',
+                                    transition: 'all var(--transition-med)',
+                                    boxShadow: '0 2px 8px rgba(0,0,0,0.02)'
+                                }}
+                                onMouseEnter={e => { 
+                                    e.currentTarget.style.background = 'var(--bg)'; 
+                                    e.currentTarget.style.transform = 'translateY(-2px)';
+                                    e.currentTarget.style.boxShadow = '0 8px 20px rgba(0,0,0,0.06)';
+                                    e.currentTarget.style.borderColor = 'var(--primary)';
+                                }}
+                                onMouseLeave={e => { 
+                                    e.currentTarget.style.background = 'white'; 
+                                    e.currentTarget.style.transform = ''; 
+                                    e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.02)';
+                                    e.currentTarget.style.borderColor = 'var(--border-light)';
+                                }}
+                            >
+                                {/* Thumbnail */}
+                                {book.video_id && (
+                                    <img
+                                        src={`https://img.youtube.com/vi/${book.video_id}/mqdefault.jpg`}
+                                        alt=""
+                                        style={{
+                                            width: '100px', height: '56px', objectFit: 'cover',
+                                            borderRadius: '8px', flexShrink: 0,
+                                            boxShadow: '0 4px 10px rgba(0,0,0,0.1)'
+                                        }}
+                                        onError={e => { e.target.style.display = 'none'; }}
+                                    />
                                 )}
 
-                                {/* Books section */}
-                                <div style={{
-                                        background: 'white', borderRadius: '16px', padding: '24px',
-                                        border: '1px solid #e0d8cc',
-                                        animation: 'fadeInUp 0.4s ease 0.3s both',
-                                }}>
-                                        <h2 style={{ margin: '0 0 20px', fontSize: '16px', fontWeight: '700', color: '#2d2a24', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                                <BookOpen size={18} color="#0097a7" /> 收錄書籍 ({author.books.length})
-                                        </h2>
-                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                                                {author.books.map((book, i) => (
-                                                        <Link
-                                                                key={book.id}
-                                                                to={`/book/${book.id}`}
-                                                                style={{
-                                                                        display: 'flex', alignItems: 'center', gap: '14px',
-                                                                        padding: '14px 16px', borderRadius: '12px',
-                                                                        background: '#faf7f1', border: '1px solid #ebe5da',
-                                                                        textDecoration: 'none', color: '#2d2a24',
-                                                                        transition: 'all 0.2s',
-                                                                }}
-                                                                onMouseEnter={e => { e.currentTarget.style.background = '#f0ebe0'; e.currentTarget.style.transform = 'translateX(4px)'; }}
-                                                                onMouseLeave={e => { e.currentTarget.style.background = '#faf7f1'; e.currentTarget.style.transform = ''; }}
-                                                        >
-                                                                {/* Thumbnail */}
-                                                                {book.video_id && (
-                                                                        <img
-                                                                                src={`https://img.youtube.com/vi/${book.video_id}/mqdefault.jpg`}
-                                                                                alt=""
-                                                                                style={{
-                                                                                        width: '80px', height: '45px', objectFit: 'cover',
-                                                                                        borderRadius: '8px', flexShrink: 0,
-                                                                                }}
-                                                                                onError={e => { e.target.style.display = 'none'; }}
-                                                                        />
-                                                                )}
-
-                                                                {/* Book info */}
-                                                                <div style={{ flex: 1, minWidth: 0 }}>
-                                                                        <div style={{
-                                                                                fontSize: '15px', fontWeight: '600', color: '#2d2a24',
-                                                                                overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
-                                                                        }}>
-                                                                                {book.title_cn || book.title_en}
-                                                                        </div>
-                                                                        {book.title_en && book.title_cn && (
-                                                                                <div style={{
-                                                                                        fontSize: '12px', color: '#9e9486', marginTop: '2px',
-                                                                                        overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
-                                                                                }}>
-                                                                                        {book.title_en}
-                                                                                </div>
-                                                                        )}
-                                                                        {book.tags && (
-                                                                                <div style={{ display: 'flex', gap: '4px', marginTop: '6px', flexWrap: 'wrap' }}>
-                                                                                        {book.tags.slice(0, 3).map((tag, j) => (
-                                                                                                <span key={j} style={{
-                                                                                                        fontSize: '10px', padding: '1px 8px', borderRadius: '999px',
-                                                                                                        background: '#e8f5e9', color: '#2e7d32', fontWeight: '500',
-                                                                                                }}>{translateTag(tag)}</span>
-                                                                                        ))}
-                                                                                </div>
-                                                                        )}
-                                                                </div>
-
-                                                                {/* Code badge + arrow */}
-                                                                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
-                                                                        {book.code && (
-                                                                                <span style={{
-                                                                                        background: '#ff8f00', color: 'white', padding: '2px 8px',
-                                                                                        borderRadius: '5px', fontSize: '11px', fontWeight: '700',
-                                                                                }}>{book.code}</span>
-                                                                        )}
-                                                                        <ExternalLink size={14} color="#0097a7" />
-                                                                </div>
-                                                        </Link>
-                                                ))}
+                                {/* Book info */}
+                                <div style={{ flex: 1, minWidth: 0 }}>
+                                    <div style={{
+                                        fontSize: '16px', fontWeight: '750', color: 'var(--text)',
+                                        overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+                                        letterSpacing: '-0.01em'
+                                    }}>
+                                        {language === 'zh' ? (book.title_cn || book.title_en) : (book.title_en || book.title_cn)}
+                                    </div>
+                                    {((language === 'zh' && book.title_en) || (language === 'en' && book.title_cn)) && (
+                                        <div style={{
+                                            fontSize: '13px', color: 'var(--text-muted)', marginTop: '2px',
+                                            overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+                                        }}>
+                                            {language === 'zh' ? book.title_en : book.title_cn}
                                         </div>
+                                    )}
+                                    {book.tags && (
+                                        <div style={{ display: 'flex', gap: '6px', marginTop: '8px', flexWrap: 'wrap' }}>
+                                            {book.tags.slice(0, 3).map((tag, j) => (
+                                                <span key={j} style={{
+                                                    fontSize: '11px', padding: '2px 10px', borderRadius: '999px',
+                                                    background: 'var(--tag-bg)', color: 'var(--tag-text)', fontWeight: '600',
+                                                }}>{translateTag(tag)}</span>
+                                            ))}
+                                        </div>
+                                    )}
                                 </div>
-                        </div>
+
+                                {/* Code badge + arrow */}
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexShrink: 0 }}>
+                                    {book.code && (
+                                        <span style={{
+                                            background: 'var(--badge-bg)', color: 'white', padding: '3px 10px',
+                                            borderRadius: '6px', fontSize: '11px', fontWeight: '800',
+                                            boxShadow: '0 4px 8px rgba(239, 108, 0, 0.2)'
+                                        }}>{book.code}</span>
+                                    )}
+                                    <ExternalLink size={16} color="var(--primary)" opacity={0.6} />
+                                </div>
+                            </Link>
+                        ))}
+                    </div>
                 </div>
-        );
+            </div>
+        </div>
+    );
 }

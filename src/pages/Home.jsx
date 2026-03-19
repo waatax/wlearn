@@ -29,7 +29,8 @@ export default function Home() {
                 const q = filters.search.toLowerCase();
                 const matchTitle = (book.title_cn || '').toLowerCase().includes(q) ||
                     (book.title_en || '').toLowerCase().includes(q);
-                const matchAuthor = (book.author || '').toLowerCase().includes(q);
+                const matchAuthor = (book.author || '').toLowerCase().includes(q) ||
+                    (book.author_en || '').toLowerCase().includes(q);
                 const matchTags = (book.tags || []).some(t => t.toLowerCase().includes(q));
                 if (!matchTitle && !matchAuthor && !matchTags) return false;
             }
@@ -68,11 +69,11 @@ export default function Home() {
                 {/* Top bar */}
                 <div className="top-bar" style={{
                     display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                    padding: '14px 24px', borderBottom: '1px solid var(--border-light)',
-                    background: 'rgba(247,243,236,0.85)', backdropFilter: 'blur(var(--sidebar-blur))',
+                    padding: '16px 32px', borderBottom: '1px solid var(--border-light)',
+                    background: 'var(--sidebar-bg)', backdropFilter: 'blur(var(--sidebar-blur))',
                     position: 'sticky', top: 0, zIndex: 10,
                     WebkitBackdropFilter: 'blur(var(--sidebar-blur))',
-                    gap: '12px',
+                    gap: '16px',
                 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
                         {/* Hamburger menu for mobile */}
@@ -84,8 +85,12 @@ export default function Home() {
                             <Menu size={22} color="#2d2a24" />
                         </button>
 
-                        <span style={{ fontSize: '13px', color: 'var(--text-secondary)', fontWeight: '500' }}>
-                            {loading ? '載入中...' : `顯示 ${filteredBooks.length} / ${books.length} 本書籍`}
+                        <span style={{ fontSize: '14px', color: 'var(--text-secondary)', fontWeight: '600', letterSpacing: '-0.01em' }}>
+                            {loading ? (language === 'zh' ? '載入中...' : 'Loading...') : (
+                                <span>
+                                    {language === 'zh' ? '顯示' : 'Showing'} <span style={{ color: 'var(--primary)' }}>{filteredBooks.length}</span> / {books.length} {language === 'zh' ? '本書籍' : 'books'}
+                                </span>
+                            )}
                         </span>
                     </div>
                     <button
@@ -99,26 +104,28 @@ export default function Home() {
                         onMouseEnter={e => e.currentTarget.style.background = '#e0f2f1'}
                         onMouseLeave={e => e.currentTarget.style.background = 'white'}
                     >
-                        <Globe size={14} />
-                        {language === 'zh' ? 'EN' : '繁體'}
+                        <Globe size={15} />
+                        <span style={{ letterSpacing: '0.05em' }}>{language === 'zh' ? 'EN' : '中文'}</span>
                     </button>
                 </div>
 
                 {/* Book grid */}
-                <div style={{ padding: '20px', flex: 1 }}>
+                <div style={{ padding: '32px', flex: 1 }}>
                     {loading ? (
-                        <div style={{ textAlign: 'center', padding: '80px', color: '#888', fontSize: '16px' }}>
-                            載入書籍中...
+                        <div style={{ textAlign: 'center', padding: '120px 20px', color: 'var(--text-muted)' }}>
+                            <div className="shimmer" style={{ width: '40px', height: '40px', borderRadius: '50%', margin: '0 auto 16px', background: '#e0d8cc' }} />
+                            <div style={{ fontSize: '16px', fontWeight: '500' }}>{language === 'zh' ? '載入書籍中...' : 'Loading books...'}</div>
                         </div>
                     ) : filteredBooks.length === 0 ? (
-                        <div style={{ textAlign: 'center', padding: '80px', color: '#888', fontSize: '16px' }}>
-                            {t('noBooks')}
+                        <div style={{ textAlign: 'center', padding: '120px 20px', color: 'var(--text-muted)' }}>
+                            <div style={{ fontSize: '18px', fontWeight: '500' }}>{t('noBooks')}</div>
+                            <div style={{ fontSize: '14px', marginTop: '8px' }}>{language === 'zh' ? '嘗試更換搜尋關鍵字或標籤' : 'Try different keywords or tags'}</div>
                         </div>
                     ) : (
                         <div className="book-grid" style={{
                             display: 'grid',
-                            gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
-                            gap: '18px',
+                            gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))',
+                            gap: '24px',
                         }}>
                             {filteredBooks.map((book, i) => (
                                 <BookCard key={book.id} book={book} index={i} />

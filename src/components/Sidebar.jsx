@@ -34,26 +34,36 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
             />
 
             <aside className={`sidebar-desktop ${isOpen ? 'open' : ''}`} style={{
-                width: '220px',
+                width: '260px',
                 flexShrink: 0,
-                background: '#f0ebe0',
-                borderRight: '1px solid #e0d8cc',
+                background: 'var(--sidebar-bg)',
+                backdropFilter: 'blur(var(--sidebar-blur))',
+                WebkitBackdropFilter: 'blur(var(--sidebar-blur))',
+                borderRight: '1px solid var(--border)',
                 display: 'flex',
                 flexDirection: 'column',
                 height: '100vh',
                 position: 'sticky',
                 top: 0,
+                zIndex: 90,
                 overflowY: 'auto',
-                padding: '16px 0',
+                padding: '24px 0',
+                transition: 'all var(--transition-med)',
             }}>
                 {/* Logo + mobile close */}
-                <div style={{ padding: '0 16px 16px', borderBottom: '1px solid #e0d8cc', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '8px', textDecoration: 'none', color: '#2d2a24' }}>
-                        <BookOpen size={22} color="#0097a7" />
+                <div style={{ padding: '0 24px 24px', borderBottom: '1px solid var(--border-light)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none', color: 'var(--text)' }}>
+                        <div style={{
+                            width: '40px', height: '40px', background: 'var(--primary)', 
+                            borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                            boxShadow: '0 4px 12px var(--primary-glow)'
+                        }}>
+                            <BookOpen size={20} color="white" />
+                        </div>
                         <div>
-                            <div style={{ fontWeight: '700', fontSize: '15px', lineHeight: 1.2 }}>{t('siteTitle')}</div>
-                            <div style={{ fontSize: '11px', color: '#888' }}>
-                                {books ? `發現 ${books.length} 本精選書籍` : t('siteSubtitle')}
+                            <div style={{ fontWeight: '800', fontSize: '18px', lineHeight: 1.1, letterSpacing: '-0.02em' }}>{t('siteTitle')}</div>
+                            <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '2px', fontWeight: '500' }}>
+                                {books ? (language === 'zh' ? `發現 ${books.length} 本精選書籍` : `Discover ${books.length} curated books`) : t('siteSubtitle')}
                             </div>
                         </div>
                     </Link>
@@ -68,44 +78,47 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                 </div>
 
                 {/* Popular link */}
-                <div style={{ padding: '8px 16px', borderBottom: '1px solid #e0d8cc' }}>
+                <div style={{ padding: '16px 20px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
                     <Link to="/popular" onClick={onClose} style={{
-                        display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 12px',
-                        borderRadius: '10px', textDecoration: 'none',
-                        background: 'linear-gradient(135deg, #fff3e0, #ffe0b2)',
+                        display: 'flex', alignItems: 'center', gap: '10px', padding: '12px 14px',
+                        borderRadius: '12px', textDecoration: 'none',
+                        background: 'linear-gradient(135deg, #fff9f0, #fff3e0)',
                         border: '1px solid #ffe0b2',
-                        color: '#e65100', fontWeight: '600', fontSize: '14px',
-                        transition: 'all 0.15s',
+                        color: '#e65100', fontWeight: '650', fontSize: '14px',
+                        transition: 'all var(--transition-fast)',
                     }}>
-                        <Flame size={16} color="#ff8f00" />
-                        熱門書籍
-                        <span style={{ marginLeft: 'auto', fontSize: '11px', color: '#ff8f00' }}>Dashboard</span>
+                        <Flame size={18} color="#ef6c00" />
+                        {language === 'zh' ? '熱門書籍' : 'Popular Books'}
+                        <span style={{ marginLeft: 'auto', fontSize: '10px', background: '#ffe0b2', padding: '2px 6px', borderRadius: '4px', color: '#e65100', fontWeight: '800' }}>GO</span>
                     </Link>
                     <Link to="/authors" onClick={onClose} style={{
-                        display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 12px',
-                        borderRadius: '10px', textDecoration: 'none',
-                        background: 'linear-gradient(135deg, #e0f2f1, #b2dfdb)',
+                        display: 'flex', alignItems: 'center', gap: '10px', padding: '12px 14px',
+                        borderRadius: '12px', textDecoration: 'none',
+                        background: 'linear-gradient(135deg, #f0f7f7, #e0f2f1)',
                         border: '1px solid #b2dfdb',
-                        color: '#00796b', fontWeight: '600', fontSize: '14px',
-                        marginTop: '8px', transition: 'all 0.15s',
+                        color: '#00695c', fontWeight: '650', fontSize: '14px',
+                        transition: 'all var(--transition-fast)',
                     }}>
-                        <Users size={16} color="#00796b" />
-                        作者專區
-                        <span style={{ marginLeft: 'auto', fontSize: '11px', color: '#00796b' }}>Authors</span>
+                        <Users size={18} color="#00796b" />
+                        {t('authorsList')}
+                        <span style={{ marginLeft: 'auto', fontSize: '10px', background: '#b2dfdb', padding: '2px 6px', borderRadius: '4px', color: '#00695c', fontWeight: '800' }}>TOP</span>
                     </Link>
                 </div>
-                <div style={{ padding: '12px 16px', borderBottom: '1px solid #e0d8cc' }}>
+                <div style={{ padding: '8px 20px 24px' }}>
                     <div style={{ position: 'relative' }}>
-                        <Search size={14} style={{ position: 'absolute', left: '10px', top: '50%', transform: 'translateY(-50%)', color: '#888' }} />
+                        <Search size={16} style={{ position: 'absolute', left: '14px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
                         <input
                             value={filters.search}
                             onChange={e => onFiltersChange({ ...filters, search: e.target.value })}
                             placeholder={t('search')}
                             style={{
-                                width: '100%', padding: '8px 8px 8px 30px', borderRadius: '8px',
-                                border: '1px solid #e0d8cc', background: 'white', fontSize: '13px',
-                                outline: 'none', color: '#2d2a24',
+                                width: '100%', padding: '12px 12px 12px 40px', borderRadius: '12px',
+                                border: '1px solid var(--border)', background: 'white', fontSize: '14px',
+                                outline: 'none', color: 'var(--text)', transition: 'all var(--transition-fast)',
+                                boxShadow: 'inset 0 1px 2px rgba(0,0,0,0.02)',
                             }}
+                            onFocus={e => { e.target.style.borderColor = 'var(--primary)'; e.target.style.boxShadow = '0 0 0 4px var(--primary-glow)'; }}
+                            onBlur={e => { e.target.style.borderColor = 'var(--border)'; e.target.style.boxShadow = 'inset 0 1px 2px rgba(0,0,0,0.02)'; }}
                         />
                         {filters.search && (
                             <button onClick={() => onFiltersChange({ ...filters, search: '' })}
@@ -123,19 +136,19 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                             fontSize: '12px', color: '#0097a7', background: 'none', border: 'none',
                             cursor: 'pointer', padding: 0, textDecoration: 'underline',
                         }}>
-                            清除所有篩選
+                            {language === 'zh' ? '清除所有篩選' : 'Clear all filters'}
                         </button>
                     </div>
                 )}
 
                 {/* Tags section */}
-                <div style={{ borderBottom: '1px solid #e0d8cc' }}>
+                <div style={{ borderTop: '1px solid var(--border-light)' }}>
                     <button
                         onClick={() => setTagsOpen(o => !o)}
                         style={{
                             width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                            padding: '10px 16px', background: 'none', border: 'none', cursor: 'pointer',
-                            fontSize: '12px', fontWeight: '700', color: '#6b6459', textTransform: 'uppercase', letterSpacing: '0.05em',
+                            padding: '16px 20px', background: 'none', border: 'none', cursor: 'pointer',
+                            fontSize: '12px', fontWeight: '800', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.08em',
                         }}
                     >
                         {t('tags')}
