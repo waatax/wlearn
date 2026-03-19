@@ -8,22 +8,10 @@
     "achievements": [
       "知名個人成長作家"
     ],
-    "book_count": 2,
+    "book_count": 1,
     "has_detailed_bio": true,
     "avatar_initial": "舒",
     "books": [
-      {
-        "id": "book_12",
-        "title_cn": "巨人思維",
-        "title_en": "Giant Mindset",
-        "code": "S1-01",
-        "video_id": "13bsIO19GF0",
-        "tags": [
-          "心智與思維",
-          "心理學",
-          "思維方式"
-        ]
-      },
       {
         "id": "book_94",
         "title_cn": "為什麼事情做不完 你還在滑手機",
@@ -203,7 +191,7 @@
     "avatar_initial": "李"
   },
   {
-    "id": "unknown",
+    "id": "shion-kabasawa",
     "name": "樺澤紫苑",
     "name_en": "Shion Kabasawa",
     "name_zh": "樺澤紫苑",
@@ -315,7 +303,7 @@
       {
         "id": "book_93",
         "title_cn": "刻意練習",
-        "title_en": "Peak",
+        "title_en": "Peak: Secrets from the New Science of Expertise",
         "code": "S1-10",
         "video_id": "SrX1cUCnwrg",
         "tags": [
@@ -888,7 +876,7 @@
     "avatar_initial": "J"
   },
   {
-    "id": "unknown",
+    "id": "james-shuichi-nakano",
     "name": "中野．詹姆士．修一",
     "name_en": "中野．詹姆士．修一",
     "name_zh": "中野．詹姆士．修一",
@@ -7804,7 +7792,7 @@
     "avatar_initial": "H"
   },
   {
-    "id": "unknown",
+    "id": "liu-yiyou",
     "name": "劉奕酉",
     "name_en": "Liu Yiyou",
     "name_zh": "劉奕酉",
@@ -9610,11 +9598,11 @@
     "avatar_initial": "P"
   },
   {
-    "id": "unknown",
-    "name": "Unknown",
-    "name_en": "Unknown",
-    "name_zh": "Unknown",
-    "bio": "Unknown 是一位國際知名的作者與領域專家，專注於各類知識與實戰經驗的分享。其作品深受全球讀者期待，本站收錄其代表作，致力於提供深具啟發性的內容。",
+    "id": "private-content",
+    "name": "不詳 (私人影片)",
+    "name_en": "Unknown (Private/Deleted)",
+    "name_zh": "不詳 (私人影片)",
+    "bio": "此作者項下收錄的書籍多為已設為不公開或已刪除的影片內容，暫無詳細作者資訊。",
     "career": "作家",
     "achievements": [],
     "has_detailed_bio": false,
@@ -10158,53 +10146,9 @@
           "個人成長",
           "推薦書籍"
         ]
-      },
-      {
-        "id": "book_497",
-        "title_cn": "VW 13 The 80 20 Principle",
-        "title_en": null,
-        "code": "VW-13",
-        "video_id": "4JrEobuDRhQ",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      },
-      {
-        "id": "book_498",
-        "title_cn": "VW 12 Scaling Up",
-        "title_en": null,
-        "code": "VW-12",
-        "video_id": "e-4G-rKhYsc",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      },
-      {
-        "id": "book_499",
-        "title_cn": "VW 11 Powerful conversations",
-        "title_en": null,
-        "code": "VW-11",
-        "video_id": "SQRSk4_3SbM",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      },
-      {
-        "id": "book_500",
-        "title_cn": "VW 06 From Drift to Drive",
-        "title_en": null,
-        "code": "VW-06",
-        "video_id": "geSOC2kHPdQ",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
       }
     ],
-    "book_count": 53
+    "book_count": 49
   },
   {
     "id": "james-stavridis",
@@ -10631,7 +10575,7 @@
     "avatar_initial": "S"
   },
   {
-    "id": "unknown",
+    "id": "tk-tseng",
     "name": "曾國棟",
     "name_en": "TK Tseng",
     "name_zh": "曾國棟",
@@ -11114,10 +11058,139 @@
     "books": [
       {
         "id": "book_44",
-        "title_cn": "真誠特質就是你的影響力",
-        "title_en": "The Go-Giver Influencer",
+        "title_cn": "真誠就是你的影響力",
+        "title_en": "The Go-Giver Influencer: A Little Story about a Most Persuasive Idea",
         "code": "S1-59",
         "video_id": "nOTiAALgskM",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "giant-jay",
+    "name": "巨人傑",
+    "name_en": "Giant Jay (Huge Jie)",
+    "name_zh": "巨人傑",
+    "bio": "台灣股市傳奇交易員，以190公分的身高被稱為「巨人」。17歲以1萬台幣起家，累積成交量超過5000億，被譽為台股「當沖王」。其自律極強，每日專注於盤後交易檢討。《巨人思維》是其分享交易心法與心路歷程的暢銷著作。",
+    "career": "專職交易員 / 暢銷作家",
+    "achievements": [
+      "累積成交量突破5000億",
+      "台股當沖王"
+    ],
+    "book_count": 1,
+    "has_detailed_bio": true,
+    "avatar_initial": "巨",
+    "books": [
+      {
+        "id": "book_12",
+        "title_cn": "巨人思維",
+        "title_en": "Giant Mindset",
+        "code": "S1-01",
+        "video_id": "13bsIO19GF0",
+        "tags": [
+          "心智與思維",
+          "心理學",
+          "思維方式"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "richard-koch",
+    "name": "Richard Koch",
+    "name_en": "Richard Koch",
+    "name_zh": "理查·柯克",
+    "bio": "British management consultant, venture capital investor, and author. Best known for \"The 80/20 Principle\".",
+    "career": "Author / Consultant / Investor",
+    "achievements": [],
+    "book_count": 1,
+    "has_detailed_bio": false,
+    "avatar_initial": "R",
+    "books": [
+      {
+        "id": "book_497",
+        "title_cn": "VW 13 The 80 20 Principle",
+        "title_en": null,
+        "code": "VW-13",
+        "video_id": "4JrEobuDRhQ",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "verne-harnish",
+    "name": "Verne Harnish",
+    "name_en": "Verne Harnish",
+    "name_zh": "威尼·哈尼許",
+    "bio": "Founder of Entrepreneurs' Organization (EO) and Scaling Up. Known for the Rockefeller Habits.",
+    "career": "Business Coach / Author",
+    "achievements": [],
+    "book_count": 1,
+    "has_detailed_bio": false,
+    "avatar_initial": "V",
+    "books": [
+      {
+        "id": "book_498",
+        "title_cn": "VW 12 Scaling Up",
+        "title_en": null,
+        "code": "VW-12",
+        "video_id": "e-4G-rKhYsc",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "phil-harkins",
+    "name": "Phil Harkins",
+    "name_en": "Phil Harkins",
+    "name_zh": "菲爾·哈金斯",
+    "bio": "Expert in organizational development and communication. Author of \"Powerful Conversations\".",
+    "career": "Leadership Consultant / Author",
+    "achievements": [],
+    "book_count": 1,
+    "has_detailed_bio": false,
+    "avatar_initial": "P",
+    "books": [
+      {
+        "id": "book_499",
+        "title_cn": "VW 11 Powerful conversations",
+        "title_en": null,
+        "code": "VW-11",
+        "video_id": "SQRSk4_3SbM",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "chris-robinson",
+    "name": "Chris Robinson",
+    "name_en": "Chris Robinson",
+    "name_zh": "克里斯·羅賓森",
+    "bio": "Executive Vice President of Maxwell Leadership. Leading expert in leadership development.",
+    "career": "Leadership Coach / Author",
+    "achievements": [],
+    "book_count": 1,
+    "has_detailed_bio": false,
+    "avatar_initial": "C",
+    "books": [
+      {
+        "id": "book_500",
+        "title_cn": "VW 06 From Drift to Drive",
+        "title_en": null,
+        "code": "VW-06",
+        "video_id": "geSOC2kHPdQ",
         "tags": [
           "個人成長",
           "推薦書籍"
