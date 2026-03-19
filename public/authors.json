@@ -27,7 +27,7 @@
     "name_en": "Shu Ya"
   },
   {
-    "id": "劉潤",
+    "id": "liu-run",
     "name": "劉潤",
     "name_en": "Liu Run",
     "name_zh": "劉潤",
@@ -124,19 +124,8 @@
     "achievements": [
       "Miracle Morning 創辦人"
     ],
-    "book_count": 2,
+    "book_count": 1,
     "books": [
-      {
-        "id": "book_99",
-        "title_cn": "起床後的黃金1小時",
-        "title_en": "The Miracle Morning",
-        "code": "S1-04",
-        "video_id": "FUvWlHru3a8",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      },
       {
         "id": "book_133",
         "title_cn": "讓你自帶好運的奇蹟習慣",
@@ -373,7 +362,7 @@
     "avatar_initial": "艾"
   },
   {
-    "id": "張忠謀",
+    "id": "morris-chang",
     "name": "張忠謀",
     "name_en": "張忠謀",
     "name_zh": "張忠謀",
@@ -384,19 +373,8 @@
       "半導體代工模式奠基者",
       "史丹佛大學電機博士"
     ],
-    "book_count": 2,
+    "book_count": 1,
     "books": [
-      {
-        "id": "book_90",
-        "title_cn": "時勢",
-        "title_en": "Megatrends",
-        "code": "S1-13",
-        "video_id": "1wC9d1vGrVI",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      },
       {
         "id": "book_7",
         "title_cn": "張忠謀 自傳",
@@ -680,7 +658,7 @@
     "avatar_initial": "鄭"
   },
   {
-    "id": "陳立飛",
+    "id": "chen-lifei",
     "name": "陳立飛",
     "name_en": "Chen Lifei",
     "name_zh": "陳立飛",
@@ -710,7 +688,7 @@
     "avatar_initial": "陳"
   },
   {
-    "id": "樊登",
+    "id": "fan-deng",
     "name": "樊登",
     "name_en": "Fan Deng",
     "name_zh": "樊登",
@@ -785,7 +763,7 @@
     "avatar_initial": "樊"
   },
   {
-    "id": "施以諾",
+    "id": "enoch-shi",
     "name": "施以諾",
     "name_en": "施以諾",
     "name_zh": "施以諾",
@@ -957,7 +935,7 @@
     "avatar_initial": "J"
   },
   {
-    "id": "李笑來",
+    "id": "li-xiaolai",
     "name": "李笑來",
     "name_en": "Li Xiaolai",
     "name_zh": "李笑來",
@@ -1012,7 +990,7 @@
     "avatar_initial": "張"
   },
   {
-    "id": "郝旭烈",
+    "id": "hao-xulie",
     "name": "郝旭烈",
     "name_en": "郝旭烈",
     "name_zh": "郝旭烈",
@@ -1185,7 +1163,7 @@
     "avatar_initial": "M"
   },
   {
-    "id": "萬維鋼",
+    "id": "wan-weigang",
     "name": "萬維鋼",
     "name_en": "Wan Weigang",
     "name_zh": "萬維鋼",
@@ -1276,7 +1254,7 @@
     "avatar_initial": "B"
   },
   {
-    "id": "和田秀樹",
+    "id": "hideki-wada",
     "name": "和田秀樹",
     "name_en": "和田秀樹",
     "name_zh": "和田秀樹",
@@ -1326,7 +1304,7 @@
     "avatar_initial": "本"
   },
   {
-    "id": "柿內尚文",
+    "id": "naofumi-kakiuchi",
     "name": "柿內尚文",
     "name_en": "Naofumi Kakiuchi",
     "name_zh": "柿內尚文",
@@ -1475,7 +1453,7 @@
     "avatar_initial": "柳"
   },
   {
-    "id": "齋藤孝",
+    "id": "takashi-saito",
     "name": "齋藤孝",
     "name_en": "Takashi Saito",
     "name_zh": "齋藤孝",
@@ -1499,7 +1477,7 @@
     "avatar_initial": "齋"
   },
   {
-    "id": "岡野純",
+    "id": "jun-okano",
     "name": "岡野純",
     "name_en": "Jun Okano",
     "name_zh": "岡野純",
@@ -1524,7 +1502,7 @@
     "avatar_initial": "岡"
   },
   {
-    "id": "及川幸久",
+    "id": "yukihisa-oikawa",
     "name": "及川幸久",
     "name_en": "Yuki Oikawa",
     "name_zh": "及川幸久",
@@ -1800,7 +1778,7 @@
     "avatar_initial": "D"
   },
   {
-    "id": "鈴木祐",
+    "id": "yu-suzuki",
     "name": "鈴木祐",
     "name_en": "Yu Suzuki",
     "name_zh": "鈴木祐",
@@ -2785,7 +2763,7 @@
     "avatar_initial": "B"
   },
   {
-    "id": "賴婷婷",
+    "id": "lai-ting-ting",
     "name": "賴婷婷",
     "name_en": "Lai Ting-ting",
     "name_zh": "賴婷婷 (Tingting Lai)",
@@ -2951,7 +2929,7 @@
     "avatar_initial": "愛"
   },
   {
-    "id": "歐陽立中",
+    "id": "ouyang-li-zhong",
     "name": "歐陽立中",
     "name_en": "歐陽立中",
     "name_zh": "歐陽立中",
@@ -3062,7 +3040,7 @@
     "avatar_initial": "S"
   },
   {
-    "id": "松浦彌太郎",
+    "id": "yataro-matsuura",
     "name": "松浦彌太郎",
     "name_en": "松浦彌太郎",
     "name_zh": "松浦彌太郎",
@@ -3406,7 +3384,7 @@
     "avatar_initial": "森"
   },
   {
-    "id": "稻盛和夫",
+    "id": "kazuo-inamori",
     "name": "稻盛和夫",
     "name_en": "稻盛和夫",
     "name_zh": "稻盛和夫",
@@ -3768,7 +3746,7 @@
     "avatar_initial": "根"
   },
   {
-    "id": "中島聰",
+    "id": "satoshi-nakajima",
     "name": "中島聰",
     "name_en": "Satoshi Nakajima",
     "name_zh": "中島聰 (Satoshi Nakajima)",
@@ -3795,7 +3773,7 @@
     "avatar_initial": "中"
   },
   {
-    "id": "岸見一郎",
+    "id": "ichiro-kishimi",
     "name": "岸見一郎",
     "name_en": "Ichiro Kishimi",
     "name_zh": "岸見一郎",
@@ -4202,7 +4180,7 @@
     "avatar_initial": "王"
   },
   {
-    "id": "山下英子",
+    "id": "hideko-yamashita",
     "name": "山下英子",
     "name_en": "Hideko Yamashita",
     "name_zh": "山下英子",
@@ -4368,7 +4346,7 @@
     "avatar_initial": "李"
   },
   {
-    "id": "趙彥春",
+    "id": "zhao-yanchun",
     "name": "趙彥春",
     "name_en": "Zhao Yanchun",
     "name_zh": "趙彥春",
@@ -4727,7 +4705,7 @@
     "avatar_initial": "D"
   },
   {
-    "id": "本田健",
+    "id": "ken-honda",
     "name": "本田健",
     "name_en": "Ken Honda",
     "name_zh": "本田健 (Ken Honda)",
@@ -5458,7 +5436,7 @@
     "avatar_initial": "J"
   },
   {
-    "id": "池上彰",
+    "id": "akira-ikegami",
     "name": "池上彰",
     "name_en": "Akira Ikegami",
     "name_zh": "池上彰",
@@ -9352,7 +9330,7 @@
     "avatar_initial": "D"
   },
   {
-    "id": "陳恆霖",
+    "id": "chen-henglin",
     "name": "陳恆霖",
     "name_en": "Chen Henglin",
     "name_zh": "陳恆霖",
@@ -10176,7 +10154,7 @@
     "avatar_initial": "J"
   },
   {
-    "id": "近藤麻理惠",
+    "id": "marie-kondo",
     "name": "近藤麻理惠",
     "name_en": "近藤麻理惠",
     "name_zh": "近藤麻理惠",
@@ -10776,8 +10754,20 @@
       "引體向上前世界紀錄保持者",
       "《紐約時報》暢銷書作者"
     ],
-    "book_count": 0,
-    "books": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_99",
+        "title_cn": "我，刀槍不入",
+        "title_en": "Can't Hurt Me",
+        "code": "S1-04",
+        "video_id": "FUvWlHru3a8",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      }
+    ],
     "has_detailed_bio": true,
     "avatar_initial": "D"
   },
@@ -10830,7 +10820,7 @@
     "avatar_initial": "G"
   },
   {
-    "id": "巨人傑",
+    "id": "giant-jay",
     "name": "巨人傑",
     "name_en": "巨人傑",
     "name_zh": "巨人傑",
@@ -10840,8 +10830,21 @@
       "年交易量五千億記錄保持者",
       "《巨人思維》作者"
     ],
-    "book_count": 0,
-    "books": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_12",
+        "title_cn": "巨人思維",
+        "title_en": "Giant Mindset",
+        "code": "S1-01",
+        "video_id": "13bsIO19GF0",
+        "tags": [
+          "心智與思維",
+          "心理學",
+          "思維方式"
+        ]
+      }
+    ],
     "has_detailed_bio": true,
     "avatar_initial": "巨"
   },
@@ -11019,7 +11022,7 @@
     ]
   },
   {
-    "id": "汪士瑋",
+    "id": "wang-shi-wei",
     "name": "汪士瑋",
     "name_en": "Wang Shi-Wei",
     "name_zh": "汪士瑋",
@@ -11080,23 +11083,10 @@
       "累積成交量突破5000億",
       "台股當沖王"
     ],
-    "book_count": 1,
+    "book_count": 0,
     "has_detailed_bio": true,
     "avatar_initial": "巨",
-    "books": [
-      {
-        "id": "book_12",
-        "title_cn": "巨人思維",
-        "title_en": "Giant Mindset",
-        "code": "S1-01",
-        "video_id": "13bsIO19GF0",
-        "tags": [
-          "心智與思維",
-          "心理學",
-          "思維方式"
-        ]
-      }
-    ]
+    "books": []
   },
   {
     "id": "richard-koch",
@@ -11191,6 +11181,34 @@
         "title_en": null,
         "code": "VW-06",
         "video_id": "geSOC2kHPdQ",
+        "tags": [
+          "個人成長",
+          "推薦書籍"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "xiao-lin",
+    "name": "小Lin說",
+    "name_en": "Xiao Lin",
+    "name_zh": "小Lin說",
+    "bio": "知名財經YouTuber，北京大學金融系學士、哥倫比亞大學金融數學碩士。曾任職於摩根大通投行，擅長以深入淺出的方式解析複雜的經濟現象。《時勢》為其總結全球經濟規律的代表作。",
+    "career": "財經YouTuber / 前投行分析師",
+    "achievements": [
+      "YouTube 訂閱突破 160 萬",
+      "暢銷財經書籍作者"
+    ],
+    "book_count": 1,
+    "has_detailed_bio": true,
+    "avatar_initial": "小",
+    "books": [
+      {
+        "id": "book_90",
+        "title_cn": "時勢",
+        "title_en": "Megatrends",
+        "code": "S1-13",
+        "video_id": "1wC9d1vGrVI",
         "tags": [
           "個人成長",
           "推薦書籍"
