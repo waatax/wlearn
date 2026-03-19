@@ -11163,7 +11163,7 @@
     "bio": "Abhijit V. Banerjee & Esther Duflo 是相關領域的專家與作者。",
     "career": "作者 / 領域專家",
     "achievements": [],
-    "book_count": 1,
+    "book_count": 2,
     "has_detailed_bio": false,
     "avatar_initial": "A",
     "books": [
@@ -11177,6 +11177,10 @@
           "個人成長",
           "推薦書籍"
         ]
+      },
+      {
+        "id": "book_294",
+        "title_cn": "好的經濟學"
       }
     ]
   },
