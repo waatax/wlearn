@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, Search, Users, BookOpen, Award, ChevronRight } from 'lucide-react';
+import { ArrowLeft, Search, Users, BookOpen, Award, ChevronRight, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function Authors() {
     const navigate = useNavigate();
-    const { language, t } = useLanguage();
+    const { language, t, toggleLanguage } = useLanguage();
     const [authors, setAuthors] = useState([]);
     const [loading, setLoading] = useState(true);
     const [search, setSearch] = useState('');
