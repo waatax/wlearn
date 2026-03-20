@@ -39,7 +39,7 @@
       "潤米諮詢創始人",
       "多本商業暢銷書"
     ],
-    "book_count": 4,
+    "book_count": 5,
     "books": [
       {
         "id": "book_101",
@@ -84,6 +84,11 @@
           "個人成長",
           "推薦書籍"
         ]
+      },
+      {
+        "id": "book_85",
+        "title_cn": "軟技能",
+        "title_en": "Soft Skills"
       }
     ],
     "has_detailed_bio": true,
@@ -483,20 +488,8 @@
     ],
     "has_detailed_bio": true,
     "avatar_initial": "M",
-    "books": [
-      {
-        "id": "book_85",
-        "title_cn": "軟技能",
-        "title_en": "Soft Skills",
-        "code": "S1-18",
-        "video_id": "u9HkWAsJ2_I",
-        "tags": [
-          "個人成長",
-          "推薦書籍"
-        ]
-      }
-    ],
-    "book_count": 1
+    "books": [],
+    "book_count": 0
   },
   {
     "id": "佐佐木俊尚",

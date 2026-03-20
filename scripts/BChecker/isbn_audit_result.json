@@ -1,0 +1,4069 @@
+{
+  "summary": {
+    "totalBooks": 496,
+    "booksWithISBN": 320,
+    "issueCount": 271
+  },
+  "issues": [
+    {
+      "id": "book_90",
+      "title_cn": "時勢",
+      "title_en": "Megatrends",
+      "author": "小Lin說",
+      "isbn_zh": "9781555250485",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781555250485",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781555250485",
+          "message": "書名「時勢」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_86",
+      "title_cn": "精準選股 7Nothing",
+      "title_en": "But Net",
+      "author": "陳喬泓",
+      "isbn_zh": "9781552776834",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781552776834",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781552776834",
+          "message": "書名「精準選股 7Nothing」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_69",
+      "title_cn": "價值",
+      "title_en": "Value",
+      "author": "張磊",
+      "isbn_zh": "9781699954003",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781699954003",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781699954003",
+          "message": "書名「價值」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_68",
+      "title_cn": "致富察覺",
+      "title_en": "Rich Mindfulness",
+      "author": "郝旭烈",
+      "isbn_zh": "9781447876755",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781447876755",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781447876755",
+          "message": "書名「致富察覺」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_67",
+      "title_cn": "索羅斯的投資哲學",
+      "title_en": "George Soros' Philosophy of Investment",
+      "author": "George Soros",
+      "isbn_zh": "9789862130472",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "INVALID_ISBN",
+          "field": "isbn_zh",
+          "value": "9789862130472",
+          "message": "ISBN-13 校驗碼不正確"
+        }
+      ]
+    },
+    {
+      "id": "book_61",
+      "title_cn": "學習究竟是什麼",
+      "title_en": "New Science of Learning",
+      "author": "萬維鋼",
+      "isbn_zh": "9781620366592",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781620366592",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781620366592",
+          "message": "書名「學習究竟是什麼」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_59",
+      "title_cn": "大人的學習法",
+      "title_en": "Mature Learning",
+      "author": "和田秀樹",
+      "isbn_zh": "9781426952760",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781426952760",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781426952760",
+          "message": "書名「大人的學習法」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_53",
+      "title_cn": "1% 閱讀術 1%",
+      "title_en": "Reading",
+      "author": "柳根贊",
+      "isbn_zh": "9781429550970",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781429550970",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781429550970",
+          "message": "書名「1% 閱讀術 1%」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_48",
+      "title_cn": "你的善良必須更有力量",
+      "title_en": "Deep Kindness",
+      "author": "海苔熊",
+      "isbn_zh": "9781982163112",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781982163112",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781982163112",
+          "message": "書名「你的善良必須更有力量」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_45",
+      "title_cn": "做個有溫度的人",
+      "title_en": "Heartwarming",
+      "author": "林書煒",
+      "isbn_zh": "9781539690658",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781539690658",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781539690658",
+          "message": "書名「做個有溫度的人」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_44",
+      "title_cn": "真誠就是你的影響力",
+      "title_en": "The Go-Giver Influencer: A Little Story about a Most Persuasive Idea",
+      "author": "Bob Burg",
+      "isbn_zh": "",
+      "isbn_en": "9781bc-5678901234",
+      "issues": [
+        {
+          "type": "INVALID_ISBN",
+          "field": "isbn_en",
+          "value": "9781bc5678901234",
+          "message": "ISBN-16 校驗碼不正確"
+        }
+      ]
+    },
+    {
+      "id": "book_40",
+      "title_cn": "我為何會這樣 - MBTI人格類型的16種性格密碼",
+      "title_en": null,
+      "author": "Isabel Briggs Myers",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_38",
+      "title_cn": "拖延心理學",
+      "title_en": "Taming Procrastination",
+      "author": "Jane Burka, Lenora Yuen",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_36",
+      "title_cn": "活著覺得麻煩的人",
+      "title_en": "Avoidant Personality",
+      "author": "岡田尊司",
+      "isbn_zh": "9780275978297",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780275978297",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9780275978297",
+          "message": "書名「活著覺得麻煩的人」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_34",
+      "title_cn": "為什麼我們總是相信自己是對的",
+      "title_en": "Why We're Always So Sure We're Right",
+      "author": "Julia Galef",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_32",
+      "title_cn": "和這個世界講講道理",
+      "title_en": "Telling Truths to the World",
+      "author": "萬維鋼",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_30",
+      "title_cn": "工作原力",
+      "title_en": "The IDEA Mindset  Figure Out What You Want From Work and How to Get It",
+      "author": "Bruce Daisley",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_28",
+      "title_cn": "決勝視角",
+      "title_en": "Clear Closer Better",
+      "author": "Dave Asprey",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_26",
+      "title_cn": "麥肯錫團隊協作力",
+      "title_en": "McKinsey Team Collaboration",
+      "author": "伊賀泰代",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_25",
+      "title_cn": "精準回饋：提升團隊績效，改善溝通的超能⼒",
+      "title_en": null,
+      "author": "Joe Hirsch",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_24",
+      "title_cn": "你有正確回答問題嗎",
+      "title_en": "Answer Intelligence  Raising Your AQ",
+      "author": "哈爾・乾雷格森",
+      "isbn_zh": "9781839828720",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781839828720",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781839828720",
+          "message": "書名「你有正確回答問題嗎」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_22",
+      "title_cn": "快思慢想",
+      "title_en": "Thinking Fast and Slowl",
+      "author": "Daniel Kahneman",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_19",
+      "title_cn": "最有專注力的一年",
+      "title_en": "Focus Project  A Year of Single Mindedness",
+      "author": "Chris Bailey",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_16",
+      "title_cn": "科學休息",
+      "title_en": "Rest  Efficient Recovery of Energy",
+      "author": "Alex Soojung-Kim Pang",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_9",
+      "title_cn": "鋼鐵⼈⾺斯克",
+      "title_en": "Elon Musk   Ashlee Vance",
+      "author": "Ashlee Vance",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_7",
+      "title_cn": "張忠謀 自傳",
+      "title_en": "Morris Chang Autobiography",
+      "author": "張忠謀",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_6",
+      "title_cn": "賈伯斯傳",
+      "title_en": "Steve Jobs The Exclusive Biography by Walter Isaacson",
+      "author": "Walter Isaacson",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_4",
+      "title_cn": "複利領導",
+      "title_en": "Compounding Leadership",
+      "author": "賴婷婷",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_2",
+      "title_cn": "原始碼 成為比爾蓋茲",
+      "title_en": "Source Code My Beginnings   Bill Gates",
+      "author": "Bill Gates",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_200",
+      "title_cn": "認知與情緒手冊",
+      "title_en": "Handbook of Cognition and Emotion",
+      "author": "Michael D. Robinson",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_201",
+      "title_cn": "情緒與意識",
+      "title_en": "Emotion and Consciousness",
+      "author": "Lisa Feldman Barrett",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_199",
+      "title_cn": "就怕平庸成為你的人生註解",
+      "title_en": "Fear of being Mediocre",
+      "author": "歐陽立中",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_198",
+      "title_cn": "不要變成壞掉的大人",
+      "title_en": "Don't Be Broken",
+      "author": "十方",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_197",
+      "title_cn": "內在提問",
+      "title_en": "Inner Interrogation",
+      "author": "Byron Katie",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_196",
+      "title_cn": "放棄的力量",
+      "title_en": "Power of Giving Up",
+      "author": "Seth Godin",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_195",
+      "title_cn": "練習不想要",
+      "title_en": "Practicing Non Wanting",
+      "author": "松浦彌太郎",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_192",
+      "title_cn": "原子習慣",
+      "title_en": "Atomic Habits   James Clear",
+      "author": "James Clear",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_189",
+      "title_cn": "與婚姻有約 The 7",
+      "title_en": "Habits of Highly Effective Marriage",
+      "author": "Stephen R. Covey",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_188",
+      "title_cn": "我想跟你好好聊聊",
+      "title_en": "Gonna Talk",
+      "author": "李松蔚",
+      "isbn_zh": "9781536878776",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781536878776",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781536878776",
+          "message": "書名「我想跟你好好聊聊」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_184",
+      "title_cn": "創業這條路",
+      "title_en": "The E-Myth Revisited",
+      "author": "Michael E. Gerber",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_181",
+      "title_cn": "隱喻領導力",
+      "title_en": "The Power of Leadership Metaphors",
+      "author": "陳朝益",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_180",
+      "title_cn": "什麼都不教的上司才厲害",
+      "title_en": null,
+      "author": "森泰造",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_179",
+      "title_cn": "稻盛和夫 中小企業學",
+      "title_en": null,
+      "author": "稻盛和夫",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_178",
+      "title_cn": "無權發令也能領導",
+      "title_en": "How to Lead When You are Not in Charge",
+      "author": "Clay Scroggins",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_177",
+      "title_cn": "增長的邏輯",
+      "title_en": "The Logic of Growth   Edmund Phelps",
+      "author": "李善友",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_176",
+      "title_cn": "下一個現在",
+      "title_en": "The New Megatrends   Marian Salzman",
+      "author": "Lee Smolin",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_175",
+      "title_cn": "底層邏輯",
+      "title_en": "AI世界的底層邏輯與生存法則",
+      "author": "劉潤",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_127",
+      "title_cn": "你就是困住自己的那座山",
+      "title_en": "The Montain is You   Brianna Wiest",
+      "author": "Brianna Wiest",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_126",
+      "title_cn": "我們攜帶的光",
+      "title_en": "The Light We Carry   Michelle Obama",
+      "author": "Michelle Obama",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_125",
+      "title_cn": "大谷翔平   棒球雙刀流現象級傳奇",
+      "title_en": "Shohei Ohtani Baseball's Two Way Legend",
+      "author": "Jay Paris",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_124",
+      "title_cn": "改變人生的早起習慣養成   塚本亮",
+      "title_en": null,
+      "author": "塚本亮",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_122",
+      "title_cn": "世界是平的 大腦是皺的",
+      "title_en": "Live by Design Live by Default",
+      "author": "謝伯讓",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_121",
+      "title_cn": "信任的秘密",
+      "title_en": "The Code of Trust   Robin Dreeke",
+      "author": "Stephen M.R. Covey",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_119",
+      "title_cn": "別讓自責成為一種習慣   根本裕幸",
+      "title_en": null,
+      "author": "根本裕幸",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_118",
+      "title_cn": "六頂思考帽",
+      "title_en": "Six Thinking Hats The Power of Parallel Thinking",
+      "author": "Edward de Bono",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_117",
+      "title_cn": "不服從的藝術",
+      "title_en": "The Art of Insubordination",
+      "author": "中島聰",
+      "isbn_zh": "9780593420881",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780593420881",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9780593420881",
+          "message": "書名「不服從的藝術」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_153",
+      "title_cn": "憤怒的勇氣",
+      "title_en": "The Courage to Be Angry",
+      "author": "岸見一郎",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_172",
+      "title_cn": "盲視效應",
+      "title_en": "Blind Sight",
+      "author": "Matt Johnson, Prince Ghuman",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_151",
+      "title_cn": "規模化效應",
+      "title_en": "The Voltage Effect How to Make Good Ideas Great and Great Ideas Scale",
+      "author": "John A. List",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_168",
+      "title_cn": "解決問題 先從盲點開始 プロの思考整理術",
+      "title_en": null,
+      "author": "齋藤嘉則",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_160",
+      "title_cn": "魯蛇的翻轉人生計畫 凡人くんの人生革命",
+      "title_en": null,
+      "author": "ヒトデ",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_167",
+      "title_cn": "學會曼陀羅計畫表 你想要的都得到 一流の達成力",
+      "title_en": null,
+      "author": "原田隆史",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_166",
+      "title_cn": "薩提爾的親密關係修復練習",
+      "title_en": null,
+      "author": "李崇建",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_149",
+      "title_cn": "讓身心回歸平衡的姿勢與呼吸調整法",
+      "title_en": null,
+      "author": "片平悅子",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_148",
+      "title_cn": "情緒食療",
+      "title_en": "Emotional Dietary Therapy",
+      "author": "吳宏乾",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_159",
+      "title_cn": "全齡顧齒攻略",
+      "title_en": null,
+      "author": "魏矜持",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_147",
+      "title_cn": "吃藥前你必須知道的事",
+      "title_en": null,
+      "author": "王明鉅",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_158",
+      "title_cn": "新斷捨離",
+      "title_en": null,
+      "author": "山下英子",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_145",
+      "title_cn": "倦怠 為何我們不想工作   波波夫 Exhausted Why We Don’t",
+      "title_en": "Want to Work",
+      "author": "波波夫",
+      "isbn_zh": "9780547095998",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780547095998",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9780547095998",
+          "message": "書名「倦怠 為何我們不想工作   波波夫 Exhausted Why We Don’t」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_157",
+      "title_cn": "假面社交    李軒洋",
+      "title_en": "Relationship Expert",
+      "author": "李軒洋",
+      "isbn_zh": "9780062241740",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780062241740",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9780062241740",
+          "message": "書名「假面社交    李軒洋」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_156",
+      "title_cn": "底層網紅",
+      "title_en": "Get Rich Or Lie Trying  Symeon Brown",
+      "author": "希米恩·布朗",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_164",
+      "title_cn": "紅人經濟   李檬",
+      "title_en": "The Influencer Economy",
+      "author": "李檬",
+      "isbn_zh": "9781606499290",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781606499290",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781606499290",
+          "message": "書名「紅人經濟   李檬」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_163",
+      "title_cn": "譯者即叛徒",
+      "title_en": "Translator is a Traitor",
+      "author": "趙彥春",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_155",
+      "title_cn": "子彈溝通   言語武器化 精準吸睛法",
+      "title_en": null,
+      "author": "何亞妮",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_154",
+      "title_cn": "總統文膽魅力表達課   江原國",
+      "title_en": null,
+      "author": "江原國",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_142",
+      "title_cn": "重新丈量世界",
+      "title_en": "Not to Scale   Jamer Hunt",
+      "author": "褚君浩",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_144",
+      "title_cn": "激活增長",
+      "title_en": "Activating Growth",
+      "author": "周辰飛, 江竹兵",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_128",
+      "title_cn": "無人地球",
+      "title_en": "Empty Planet The Shock of Global Population Decline",
+      "author": "達瑞爾·布瑞克, 約翰·伊比森",
+      "isbn_zh": "9781472142979",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781472142979",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781472142979",
+          "message": "書名「無人地球」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_141",
+      "title_cn": "日本頂尖執事教你察言觀色",
+      "title_en": "Japan Top Butler's Guide for Observation",
+      "author": "新井直之",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_135",
+      "title_cn": "1秒轉換情緒的51個心理學技巧",
+      "title_en": null,
+      "author": "中村將",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_129",
+      "title_cn": "讓世界身心失調的狂愛與恐懼之因",
+      "title_en": "The book of phobias & manias  A history of obsession",
+      "author": "Marianne Williamson",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_138",
+      "title_cn": "起床後的黃金一小時",
+      "title_en": "My Morning Routine How Successful People Start Every Day Inspired",
+      "author": "池田千恵",
+      "isbn_zh": "9780241315422",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780241315422",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9780241315422",
+          "message": "書名「起床後的黃金一小時」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_137",
+      "title_cn": "讓幸福流進來的賺錢框架",
+      "title_en": "Good Money Revolution How to Make More Money to Do More Good",
+      "author": "本田健",
+      "isbn_zh": "9781637630181",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781637630181",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781637630181",
+          "message": "書名「讓幸福流進來的賺錢框架」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_132",
+      "title_cn": "有錢人與你的差距 不只是錢",
+      "title_en": "The Billion Dollar Secret",
+      "author": "咪蒙",
+      "isbn_zh": "9780132267052",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780132267052",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9780132267052",
+          "message": "書名「有錢人與你的差距 不只是錢」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_116",
+      "title_cn": "關於人生的7項財務思考   謝劍平",
+      "title_en": null,
+      "author": "謝劍平",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_115",
+      "title_cn": "巴菲特勝券在握的12個原則",
+      "title_en": "Buffett Way Hagstrom on Berkshire Principles",
+      "author": "Robert Hagstrom",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_111",
+      "title_cn": "投資中最簡單的事   邱國鷺",
+      "title_en": "The simplest thing in Investing",
+      "author": "邱國鷺",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_110",
+      "title_cn": "思辯賽局",
+      "title_en": "The Art of Strategy Game Theory for Business and Life",
+      "author": "Avinash Dixit",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_108",
+      "title_cn": "業務學",
+      "title_en": "A Scientific Sale Technique to control results",
+      "author": "張邁可",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_104",
+      "title_cn": "未來駭客",
+      "title_en": "Future Hackers The Indispensable Guide for Curious Minds",
+      "author": "范冰",
+      "isbn_zh": "9781803991108",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781803991108",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781803991108",
+          "message": "書名「未來駭客」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_103",
+      "title_cn": "哈佛大學的思辨溝通術",
+      "title_en": "Good Arguments A Debater's Journey",
+      "author": "Jay Silverman",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_303",
+      "title_cn": "千腦智能理論",
+      "title_en": "A Thousand Brains The New Science of Intelligence",
+      "author": "Jeff Hawkins",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_302",
+      "title_cn": "腦力與無限公司",
+      "title_en": "The Brains and Brawn Company   Robert Siegel",
+      "author": "Jim Kwik",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_301",
+      "title_cn": "腦神精行銷學　Brain science for business ビジネスに活かす脳科学",
+      "title_en": null,
+      "author": "茂木健一郎",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_299",
+      "title_cn": "順著大腦來生活",
+      "title_en": "Your Brain at Work Core Principles",
+      "author": "大衛・乾克",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_297",
+      "title_cn": "人類的旅程",
+      "title_en": "The Journey of Humanity And the Keys to Human Progress",
+      "author": "Oded Galor",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_296",
+      "title_cn": "2100 科技大未來",
+      "title_en": "Physics of the Future How Science Will Shape Human Destiny and Our Daily Lives by t",
+      "author": "Michio Kaku",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_295",
+      "title_cn": "即將到來的潮汐",
+      "title_en": "The Coming Wave Technology - Power and the Twenty first Century's Greatest Dilemma",
+      "author": "Mustafa Suleyman",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_286",
+      "title_cn": "為什麼要讀書工作Why do we work",
+      "title_en": "Important things to think about to be Happy",
+      "author": "池上彰",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_283",
+      "title_cn": "無限賽局",
+      "title_en": "The Infinite Game   Sinek",
+      "author": "Simon Sinek",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_273",
+      "title_cn": "夠好的工作",
+      "title_en": "The Good Enough Job Reclaiming Life from Work",
+      "author": "Simone Stolzoff",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_272",
+      "title_cn": "個人無限公司",
+      "title_en": "Maximize Yourself Career x Side job",
+      "author": "何則文",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_271",
+      "title_cn": "我們成了消耗品",
+      "title_en": "The Expendables",
+      "author": "Jeff Rubin",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_270",
+      "title_cn": "五維學習力",
+      "title_en": "Five Dimensions of Learning",
+      "author": "王咏 (Wang Yong)",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_266",
+      "title_cn": "當上主管後難道只能默默崩潰",
+      "title_en": "The Making of a Manager What to Do When Everyone Looks to You",
+      "author": "前田鎌利",
+      "isbn_zh": "9780525540427",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780525540427",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9780525540427",
+          "message": "書名「當上主管後難道只能默默崩潰」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_265",
+      "title_cn": "心念的力量",
+      "title_en": "The Expectation Effect How Your Mindset Can Change Your World",
+      "author": "許瑞云, 鄭先安",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_264",
+      "title_cn": "勇氣在召喚",
+      "title_en": "The Daily Stoic",
+      "author": "Ryan Holiday",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_262",
+      "title_cn": "南計畫",
+      "title_en": "The Pumpkin Plan - A Simple Strategy to Grow a Remarkable Business in Any Field",
+      "author": "David Allen",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_261",
+      "title_cn": "1分鐘GPS溝通術",
+      "title_en": "The First Minute    How to Start Conversations That Get Results",
+      "author": "大須賀雅子",
+      "isbn_zh": "9781838244002",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781838244002",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781838244002",
+          "message": "書名「1分鐘GPS溝通術」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_260",
+      "title_cn": "掌控演講",
+      "title_en": "Master Public Speech",
+      "author": "Chris Anderson",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_258",
+      "title_cn": "與逆境同行",
+      "title_en": "Failing Forward  Turning Mistakes into Stepping Stones",
+      "author": "洪蘭",
+      "isbn_zh": "9780785274308",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780785274308",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9780785274308",
+          "message": "書名「與逆境同行」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_255",
+      "title_cn": "情緒智商",
+      "title_en": "Emotional Intelligence",
+      "author": "Daniel Goleman",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_254",
+      "title_cn": "鬆綁你的焦慮習慣",
+      "title_en": "Unwinding Anxiety  New Science for Breaking the Worry Habit",
+      "author": "Judson Brewer",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_253",
+      "title_cn": "習慣的力量",
+      "title_en": "The Power of Habit  Understanding Our Daily Routines",
+      "author": "Charles Duhigg",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_252",
+      "title_cn": "創意公司",
+      "title_en": "Creativity Inc - Overcoming the Hidden Forces That Stand in the Way of True Inspiration",
+      "author": "Ed Catmull",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_247",
+      "title_cn": "正向的關鍵 - 舒適",
+      "title_en": "The Key to Positivity  A Return to Comfort",
+      "author": "Lachlan Brown",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_246",
+      "title_cn": "別再脫離舒適區",
+      "title_en": "The Comfort Zone  Your Path to Lasting Success",
+      "author": "Farrah Storr",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_245",
+      "title_cn": "3 Minute Positivity Journal - Boost Your Mood^J Change Your Life",
+      "title_en": null,
+      "author": "Kristen Butler",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_242",
+      "title_cn": "讀新的藝術",
+      "title_en": "The Art of Reading Minds  Understand Others",
+      "author": "Mortimer J. Adler",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_241",
+      "title_cn": "內在孩童",
+      "title_en": "The Child in You  Understanding Your Inner World",
+      "author": "Stefanie Stahl",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_236",
+      "title_cn": "人生勝利聖經",
+      "title_en": "Tools of Titans The Tatics Routines and Habits of Billionaires Icons and World class Pe",
+      "author": "Tim Ferriss",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_235",
+      "title_cn": "超速學習",
+      "title_en": "Ultralearning Master Hard Skills Outsmart Accelerate",
+      "author": "Scott H. Young",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_233",
+      "title_cn": "複利效應",
+      "title_en": "The Compound Effect  Success Through Small Choices",
+      "author": "Darren Hardy",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_232",
+      "title_cn": "極度專注力",
+      "title_en": "Hyperfocus  Sharpening Your Focus in a Distracted World",
+      "author": "Chris Bailey",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_228",
+      "title_cn": "有效溝通的科學",
+      "title_en": "The Science of Effective Conversation",
+      "author": "Dale Carnegie",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_225",
+      "title_cn": "高情商習慣",
+      "title_en": "Emotional Intelligence  Your Habits for Success",
+      "author": "Travis Bradberry",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_223",
+      "title_cn": "向生命說 YES 兒Man's",
+      "title_en": "Search for Meaning  Experiences in a Concentration Camp",
+      "author": "Viktor Frankl",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_219",
+      "title_cn": "怎樣解題",
+      "title_en": "How to Solve It  Methods of Mathematical Problem Solving",
+      "author": "George Pólya",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_218",
+      "title_cn": "如果我的父母是控制狂",
+      "title_en": "If You Had Controlling Parents  How to Make Peace with Your Past and Take Your Plac",
+      "author": "Lindsay C. Gibson",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_213",
+      "title_cn": "專注力協定",
+      "title_en": "Indistractable  Guide to Controlling Your Attention and Life",
+      "author": "Nir Eyal",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_211",
+      "title_cn": "專注的力量",
+      "title_en": "The Power of Concentration   Theron Q  Dumont",
+      "author": "Daniel Goleman",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_210",
+      "title_cn": "聚焦一件事",
+      "title_en": "The ONE Thing  Achieve Extraordinary Results",
+      "author": "Gary Keller",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_203",
+      "title_cn": "重要性評估",
+      "title_en": "Measure What Matters  How Google and Others Apply OKRs",
+      "author": "Greg McKeown",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_432",
+      "title_cn": "先處理困難",
+      "title_en": "Do the Hard Things First  Master Procrastination and Difficult Work",
+      "author": "Brian Tracy",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_431",
+      "title_cn": "執行難點",
+      "title_en": "Do Hard Things  Developing True Toughness",
+      "author": "Sean Covey",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_430",
+      "title_cn": "高效時間管理",
+      "title_en": "Effective Time Management and Productivity",
+      "author": "Kevin Kruse",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_426",
+      "title_cn": "工作生活法則",
+      "title_en": "Your Life  Maximize Results with Minimal Effort",
+      "author": "陳雪頻",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_423",
+      "title_cn": "自律力",
+      "title_en": "Betting on You  A Twenty First Century Employee Handbook",
+      "author": "Marshall Goldsmith",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_420",
+      "title_cn": "沒人真的在乎你的職涯",
+      "title_en": "Nobody Cares About Your Career",
+      "author": "坎貝爾・沃克",
+      "isbn_zh": "9781250320582",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781250320582",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781250320582",
+          "message": "書名「沒人真的在乎你的職涯」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_419",
+      "title_cn": "頂尖效能",
+      "title_en": "Peak Performance  A Better Way to Work and Live",
+      "author": "Steven Kotler",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_418",
+      "title_cn": "頂尖表現",
+      "title_en": "Peak Performance - Stress Rest and Sustainable Success",
+      "author": "Brad Stulberg",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_417",
+      "title_cn": "用智不更用力Smarter",
+      "title_en": "Not Harder  Biohacks for Effortless Energy and Performance",
+      "author": "樊登",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_416",
+      "title_cn": "從你開始",
+      "title_en": "It Begins with You  Relationships  Patterns and Healing",
+      "author": "Simon Sinek",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_415",
+      "title_cn": "恐懼的禮物",
+      "title_en": "The Gift of Fear  Recognizing Danger and Staying Safe",
+      "author": "Gavin de Becker",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_414",
+      "title_cn": "批判性思維",
+      "title_en": "Critical Thinking  The Basics of Good Reasoning",
+      "author": "Tom Chatfield",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_413",
+      "title_cn": "21 Lessons for the 21st Century by Yuval Noah Harari",
+      "title_en": null,
+      "author": "Yuval Noah Harari",
+      "isbn_zh": "9780464750611",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780464750611",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        }
+      ]
+    },
+    {
+      "id": "book_401",
+      "title_cn": "真實的快樂",
+      "title_en": "Authentic Happiness  Foundations of Positive Psychology",
+      "author": "Martin Seligman",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_411",
+      "title_cn": "有果皆因",
+      "title_en": "Everything Happens for a Reason",
+      "author": "樊登",
+      "isbn_zh": "9780399592072",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780399592072",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9780399592072",
+          "message": "書名「有果皆因」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_410",
+      "title_cn": "25個MBA 核心模型 25",
+      "title_en": "MBA Models  Core Business Concepts and Frameworks",
+      "author": "劉潤",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_409",
+      "title_cn": "絕不妥協",
+      "title_en": "Never Split the Difference  Negotiation Tactics",
+      "author": "Chris Voss",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_408",
+      "title_cn": "誘惑的藝術",
+      "title_en": "The Art of Seduction  Power and Persuasion Through History",
+      "author": "Robert Greene",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_406",
+      "title_cn": "智能簡史",
+      "title_en": "Intelligence A Very Short Introduction",
+      "author": "黃鐵軍",
+      "isbn_zh": "9780192893215",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780192893215",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9780192893215",
+          "message": "書名「智能簡史」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_405",
+      "title_cn": "藍海策略",
+      "title_en": "Blue Ocean Strategy  Creating Uncontested Market Space",
+      "author": "W. Chan Kim",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_403",
+      "title_cn": "打造第二大腦",
+      "title_en": "Building a Second Brain  Organize Your Digital Life",
+      "author": "Tiago Forte",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_396",
+      "title_cn": "十倍成功規則 The 10X",
+      "title_en": "Rule  Achieving Massive Action and Success",
+      "author": "Grant Cardone",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_395",
+      "title_cn": "好與壞的策略",
+      "title_en": "Good Strategy   Bad Strategy  The Core Concepts",
+      "author": "Richard Rumelt",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_394",
+      "title_cn": "別依個人進餐",
+      "title_en": "Never Eat Alone  Secrets to Success Through Relationships",
+      "author": "Keith Ferrazzi",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_393",
+      "title_cn": "簡單致富",
+      "title_en": "The Simple Path to Wealth   J L Collins",
+      "author": "JL Collins",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_392",
+      "title_cn": "明年就當百萬富翁",
+      "title_en": "Be a Millionaire Next Year  Smart Financial Moves",
+      "author": "Rachel Cruze",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_391",
+      "title_cn": "財務喜樂  FINANCIAL JOY 2 0",
+      "title_en": "YOLO YOUR FINANCE",
+      "author": "Dave Ramsey",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_390",
+      "title_cn": "持續買進",
+      "title_en": "Just Keep Buying  Proven Ways to Build Your Wealth",
+      "author": "Nick Maggiulli",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_389",
+      "title_cn": "你值得致富",
+      "title_en": "You Deserve to Be Rich  A Guide to Financial Freedom",
+      "author": "Amanda Frances",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_387",
+      "title_cn": "激勵為何無效",
+      "title_en": "Why Motivating People Doesn't Work  The New Science of Motivation",
+      "author": "Susan Fowler",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_386",
+      "title_cn": "協同主動領導",
+      "title_en": "Co Active Leadership  Powering Connection and Purpose",
+      "author": "Tom Peters",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_385",
+      "title_cn": "究竟該說什麼",
+      "title_en": "Exactly What to Say  The Magic Words to Influence Others",
+      "author": "Phil M. Jones",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_384",
+      "title_cn": "兆元教練",
+      "title_en": "Trillion Dollar Coach  Bill Campbell's Business Wisdom",
+      "author": "Eric Schmidt",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_383",
+      "title_cn": "僕人領導",
+      "title_en": "Servant Leadership by Larry W  Boone",
+      "author": "James C. Hunter",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_378",
+      "title_cn": "CEO 測試",
+      "title_en": "The CEO Test  Master Leadership's Make or Break Challenges",
+      "author": "Adam Bryant",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_377",
+      "title_cn": "工作的藝術 找尋你的天職",
+      "title_en": "The Art of Work  Finding Your Calling",
+      "author": "Liz Forkin Bohannon",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_376",
+      "title_cn": "新一分鐘管理",
+      "title_en": "The New One Minute Manager  Updated Management Principles",
+      "author": "Ken Blanchard",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_374",
+      "title_cn": "躍昇領導",
+      "title_en": "The Leap to Leader  Insights for Aspiring Leaders",
+      "author": "John C. Maxwell",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_373",
+      "title_cn": "領導最後吃",
+      "title_en": "Leaders Eat Last  Human Behavior and Lasting Success",
+      "author": "Simon Sinek",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_370",
+      "title_cn": "喜樂之書",
+      "title_en": "The Book of Joy  Enduring Happiness in the Face of Suffering",
+      "author": "Dalai Lama, Desmond Tutu",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_366",
+      "title_cn": "閃電醫治",
+      "title_en": "Lighter  Healing Self Love and Global Transformation",
+      "author": "Dale Bredesen",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_365",
+      "title_cn": "從我腦出去",
+      "title_en": "Get Out of My Head  A Guide for Overthinkers",
+      "author": "Faith G. Harper",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_362",
+      "title_cn": "掌控你的命定",
+      "title_en": "Master Your Destiny  Reclaim Your Power",
+      "author": "Thibaut Meurisse",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_361",
+      "title_cn": "掌控你的情緒",
+      "title_en": "Master Your Emotions  A Guide to Emotional Well being",
+      "author": "Thibaut Meurisse",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_358",
+      "title_cn": "多巴胺排毒",
+      "title_en": "Dopamine Detox  Reclaim Focus and Boost Productivity",
+      "author": "Anna Lembke",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_356",
+      "title_cn": "掌控心智圖",
+      "title_en": "Mind Map Mastery  Transform Your Thinking",
+      "author": "Thibaut Meurisse",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_355",
+      "title_cn": "留意你的心態",
+      "title_en": "Mind Your Mindset  Rewriting Your Brain's Stories",
+      "author": "Carol S. Dweck",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_468",
+      "title_cn": "人的心",
+      "title_en": "Psych - The Story of Human Mind",
+      "author": "朱光潛",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_462",
+      "title_cn": "自我控管的藝術",
+      "title_en": "Never Betray Your Efforts",
+      "author": "Kelly McGonigal",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_464",
+      "title_cn": "金字塔心智模式",
+      "title_en": "The Pyramid Mind",
+      "author": "Barbara Minto",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_469",
+      "title_cn": "關於癌症，我們是否治療太多，知道太少",
+      "title_en": null,
+      "author": "H. Gilbert Welch",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_463",
+      "title_cn": "練腦求成",
+      "title_en": "Train Your Brain For Success",
+      "author": "茂木健一郎",
+      "isbn_zh": "9781942991779",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781942991779",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781942991779",
+          "message": "書名「練腦求成」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_471",
+      "title_cn": "The Art of Explanation",
+      "title_en": "The Art of Explanation",
+      "author": "Ros Atkins",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_474",
+      "title_cn": "The Art of Laziness",
+      "title_en": "The Art of Laziness  Overcome Procrastination",
+      "author": "Library Mindset",
+      "isbn_zh": "9780143469155",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780143469155",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        }
+      ]
+    },
+    {
+      "id": "book_439",
+      "title_cn": "假性親密關係",
+      "title_en": "Why are we Together without Intimacy",
+      "author": "史秀雄",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_438",
+      "title_cn": "Outlive",
+      "title_en": "Outlive - The Science and Art of Longivity",
+      "author": "Peter Attia",
+      "isbn_zh": "9781785044557",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781785044557",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        }
+      ]
+    },
+    {
+      "id": "book_437",
+      "title_cn": "破框思維的技術",
+      "title_en": "Think Bigger",
+      "author": "狩野未希",
+      "isbn_zh": "9780231198844",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780231198844",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9780231198844",
+          "message": "書名「破框思維的技術」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_435",
+      "title_cn": "思考之道   考え方  人生．仕事の結果が変わる",
+      "title_en": null,
+      "author": "稻盛和夫",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_475",
+      "title_cn": "超速進步",
+      "title_en": "Get Better at Anything   Scott H  Young",
+      "author": "Daniel Coyle",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_476",
+      "title_cn": "晤談的力量 陳恆霖",
+      "title_en": null,
+      "author": "陳恆霖",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_479",
+      "title_cn": "VW 08 Anointed - Why Status Matters More Than Talent",
+      "title_en": "C 受膏者 Anointed 標籤比品質更重要",
+      "author": "Thomas Sowell",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_478",
+      "title_cn": "VW 09 Loyalty rules!",
+      "title_en": "C 忠誠王道 Loyalty rules! 忠誠度讓獲利翻倍",
+      "author": "Frederick F. Reichheld",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_440",
+      "title_cn": "VS-35 海權爭霸",
+      "title_en": "Sea Power and Maritime Geopolitics",
+      "author": "James Stavridis",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_442",
+      "title_cn": "VS-20 怦然心動的人生整理魔法",
+      "title_en": "The Life Changing Magic of Tidy",
+      "author": "近藤麻理惠",
+      "isbn_zh": "9781410484406",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781410484406",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781410484406",
+          "message": "書名「VS-20 怦然心動的人生整理魔法」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_443",
+      "title_cn": "VS-19 怦然心動",
+      "title_en": "Spark Joy",
+      "author": "近藤麻理惠",
+      "isbn_zh": "9781607749721",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781607749721",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "TITLE_ISBN_CONFLICT",
+          "field": "isbn_zh",
+          "value": "9781607749721",
+          "message": "書名「VS-19 怦然心動」是中文，但 ISBN 屬於英語系，可能使用了原文 ISBN 而非中文翻譯版 ISBN"
+        }
+      ]
+    },
+    {
+      "id": "book_448",
+      "title_cn": "LIT - 哈佛專注力革命",
+      "title_en": "VS-14 完全沉浸 LIT - 點燃成功之火的哈佛專注力革命",
+      "author": "Amanda Crowell",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_454",
+      "title_cn": "VS-08 科學減脂X瘦身全書",
+      "title_en": "Everything Fat Loss",
+      "author": "仰望尾迹雲",
+      "isbn_zh": "9798987505915",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9798987505915",
+          "detectedLang": "ko",
+          "message": "isbn_zh 欄位存放的是韓文 ISBN（978-89 開頭），考慮是否需要 isbn_ko"
+        }
+      ]
+    },
+    {
+      "id": "book_456",
+      "title_cn": "Burn",
+      "title_en": "VS-06 Burn - How We Really Burn Calories, Stay Healthy, and Lose Weight",
+      "author": "Herman Pontzer",
+      "isbn_zh": "9780004244426",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780004244426",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        }
+      ]
+    },
+    {
+      "id": "book_457",
+      "title_cn": "Glucose Revolution",
+      "title_en": "VS-05 Glucose Revolution",
+      "author": "Jessie Inchauspé",
+      "isbn_zh": "9781982179410",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781982179410",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        }
+      ]
+    },
+    {
+      "id": "book_458",
+      "title_cn": "Nature Wants Us to Be Fat",
+      "title_en": "VS-04 Nature Wants Us to Be Fat 大自然就是要你胖 !",
+      "author": "Richard J. Johnson",
+      "isbn_zh": "9781637740347",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781637740347",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        }
+      ]
+    },
+    {
+      "id": "book_459",
+      "title_cn": "The Complete Guide to Fasting",
+      "title_en": "VS-03 The Complete Guide to Fasting",
+      "author": "Jason Fung",
+      "isbn_zh": "9781628600346",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781628600346",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        }
+      ]
+    },
+    {
+      "id": "book_461",
+      "title_cn": "The Model Thinker",
+      "title_en": "VS-01 The Model Thinker 多模型思維：天才的32個思考策略",
+      "author": "Scott E. Page",
+      "isbn_zh": "9780465094622",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9780465094622",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        }
+      ]
+    },
+    {
+      "id": "book_487",
+      "title_cn": "Learn Like a Pro",
+      "title_en": null,
+      "author": "Barbara Oakley",
+      "isbn_zh": "9781250799371",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "ISBN_LANG_MISMATCH",
+          "field": "isbn_zh",
+          "value": "9781250799371",
+          "detectedLang": "en",
+          "message": "isbn_zh 欄位存放的是英語系 ISBN（978-0/1 開頭），應改放 isbn_en"
+        },
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9781250799371",
+          "message": "ISBN 9781250799371 被多本書共用：book_465, book_487"
+        }
+      ]
+    },
+    {
+      "id": "book_488",
+      "title_cn": "企業傳承與接班實務",
+      "title_en": null,
+      "author": "曾國棟",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_489",
+      "title_cn": "Coach 領導學 (Plus)",
+      "title_en": null,
+      "author": "陳恆霖",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_490",
+      "title_cn": "Coach 領導學",
+      "title_en": null,
+      "author": "陳恆霖",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_491",
+      "title_cn": "VW 19 Hijacked How Food can Hijack your Brain",
+      "title_en": null,
+      "author": "David A. Kessler",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_492",
+      "title_cn": "簡單破壞現場手冊",
+      "title_en": "Simple Sabotage Field Manual",
+      "author": "OSS",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_493",
+      "title_cn": "VW 17 Think Like a Rocket Scientist",
+      "title_en": null,
+      "author": "Ozan Varol",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_494",
+      "title_cn": "VW 16 Visualizing with Napkins Dan Roam",
+      "title_en": "The Back of the Napkin",
+      "author": "Dan Roam",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_495",
+      "title_cn": "VW 15 Clear Thinking Shane Parrish",
+      "title_en": null,
+      "author": "Shane Parrish",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_496",
+      "title_cn": "極度責任",
+      "title_en": "Extreme Ownership",
+      "author": "Jocko Willink & Leif Babin",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_497",
+      "title_cn": "VW 13 The 80 20 Principle",
+      "title_en": null,
+      "author": "Richard Koch",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_498",
+      "title_cn": "VW 12 Scaling Up",
+      "title_en": null,
+      "author": "Verne Harnish",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_499",
+      "title_cn": "VW 11 Powerful conversations",
+      "title_en": null,
+      "author": "Phil Harkins",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_500",
+      "title_cn": "VW 06 From Drift to Drive",
+      "title_en": null,
+      "author": "Chris Robinson",
+      "isbn_zh": "",
+      "isbn_en": "",
+      "issues": [
+        {
+          "type": "MISSING_ISBN",
+          "message": "缺少所有 ISBN 欄位"
+        }
+      ]
+    },
+    {
+      "id": "book_1",
+      "title_cn": "連結：從石器時代到 AI 紀元",
+      "author": "Yuval Noah Harari",
+      "isbn_zh": "9786267366882",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9786267366882",
+          "message": "ISBN 9786267366882 被多本書共用：book_1, book_64"
+        }
+      ]
+    },
+    {
+      "id": "book_64",
+      "title_cn": "窮理查的普通常識",
+      "author": "Charlie Munger",
+      "isbn_zh": "9786267366882",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9786267366882",
+          "message": "ISBN 9786267366882 被多本書共用：book_1, book_64"
+        }
+      ]
+    },
+    {
+      "id": "book_465",
+      "title_cn": "超高效學習",
+      "author": "Scott H. Young",
+      "isbn_zh": "",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9781250799371",
+          "message": "ISBN 9781250799371 被多本書共用：book_465, book_487"
+        }
+      ]
+    },
+    {
+      "id": "book_304",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_305",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_306",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_307",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_308",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_309",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_310",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_311",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_312",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_313",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_314",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_315",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_316",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_317",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_318",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_319",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_320",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_321",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_322",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_323",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_324",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_325",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_326",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_327",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_328",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_329",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_330",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_331",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_332",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_333",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_334",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_335",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_336",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_337",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_338",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_339",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_340",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_341",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_342",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_343",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_344",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_345",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_346",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_347",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_348",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_349",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_350",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_351",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    },
+    {
+      "id": "book_352",
+      "title_cn": "[Private video]",
+      "author": "不詳 (私人影片)",
+      "isbn_zh": "9789999969369",
+      "issues": [
+        {
+          "type": "DUPLICATE_ISBN",
+          "value": "9789999969369",
+          "message": "ISBN 9789999969369 被多本書共用：book_304, book_305, book_306, book_307, book_308, book_309, book_310, book_311, book_312, book_313, book_314, book_315, book_316, book_317, book_318, book_319, book_320, book_321, book_322, book_323, book_324, book_325, book_326, book_327, book_328, book_329, book_330, book_331, book_332, book_333, book_334, book_335, book_336, book_337, book_338, book_339, book_340, book_341, book_342, book_343, book_344, book_345, book_346, book_347, book_348, book_349, book_350, book_351, book_352"
+        }
+      ]
+    }
+  ]
+}
