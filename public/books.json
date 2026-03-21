@@ -18,7 +18,7 @@
     "cover_url": "https://img.youtube.com/vi/13bsIO19GF0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=PMv1OyOEbpY",
     "description_cn": "台灣交易員巨人傑的首部著作，記錄了他14年的股市交易心路歷程。書中強調成功沒有捷徑，只有超乎常人的努力與高度自律，分享從零開始成為億級散戶的經驗與投資思維。所有版稅收入捐贈給台灣兒童暨家庭扶助基金會。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "isbn_zh": "9786263557048",
     "original_language": "zh",
     "author_en": "巨人傑"
@@ -40,7 +40,7 @@
     "author": "劉潤",
     "cover_url": "https://img.youtube.com/vi/uUUmCG31BfE/maxresdefault.jpg",
     "description_cn": "中國商業顧問劉潤的代表作，核心思想是「方法論＝底層邏輯＋環境變數」。書中統整了是非對錯的價值觀、思考問題的方式、個體進化、理解他人、社會協作五大面向，幫助讀者在變動時代中掌握不變的運作法則。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "english_url": "https://www.youtube.com/watch?v=lO-RIqKebxI",
     "isbn_zh": "9786263350717",
     "original_language": "zh",
@@ -84,7 +84,7 @@
       "推薦書籍"
     ],
     "description": "大衛．哥金斯的自傳，講述他如何從貧困、家暴、肥胖的童年，蛻變為海軍海豹突擊隊隊員與世界頂尖耐力賽運動員。他是史上唯一完成海豹部隊、陸軍遊騎兵與空軍戰術管制組三項精英訓練的人。書中提出「40%法則」——人通常只發揮了潛力的40%，並在每章末尾設置挑戰，鼓勵讀者突破自我極限。",
-    "author": "大衛．哥金斯 (David Goggins)",
+    "author": "大衛·哥金斯",
     "cover_url": "https://img.youtube.com/vi/FUvWlHru3a8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=fT8dWxPHvYI",
     "description_cn": "由日本知名媒體人佐佐木俊尚撰寫，針對智慧型手機時代的知識碎片化現象提出解決方案。書中介紹了如何在資訊爆炸的時代，有效地進行閱讀、思考和寫作，並透過「散漫力」和「短集中」等創新概念，幫助讀者在不需要高度專注的情況下，最大化學習效率和創意發想能力。",
@@ -272,7 +272,7 @@
       "推薦書籍"
     ],
     "description": "行銷學經典《定位》，由 Al Ries 與 Jack Trout 合著。本書提出在資訊爆炸時代，行銷成功的關鍵在於搶佔消費者「心智中的位置」。強調品牌應建立簡單、清晰且獨特的定位，成為該品類的第一名，而非僅靠產品特性取勝。被譽為美國行銷史上最具影響力的概念之一。",
-    "author": "Al Ries, Jack Trout",
+    "author": "艾爾·里斯、傑克·特勞特",
     "cover_url": "https://img.youtube.com/vi/OjFksqLawkM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=zSoZUToVNTM",
     "description_cn": "由傑克·特勞特撰寫的營銷經典。書中介紹了「定位」理論，強調在競爭激烈的市場中，成功的關鍵是在消費者心中佔據獨特的位置。作者透過大量品牌案例說明如何透過有效的定位策略，建立強大的品牌認知和市場優勢。",
@@ -479,10 +479,10 @@
       "推薦書籍"
     ],
     "description": "",
-    "author": "Abhijit V. Banerjee & Esther Duflo",
+    "author": "阿巴希·巴納吉、艾絲特·杜芙若",
     "cover_url": "https://img.youtube.com/vi/FX_ONyXh2pg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=SalXtKGy8lc",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9780143427391",
     "original_language": "en",
@@ -874,7 +874,7 @@
     "description": "",
     "author": "Yuval Noah Harari",
     "cover_url": "https://img.youtube.com/vi/SwY0b0kQQbc/maxresdefault.jpg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=FnoyibBLomE",
     "original_language": "en",
@@ -1381,7 +1381,7 @@
     "author": "charles-munger",
     "cover_url": "https://img.youtube.com/vi/8l5nyi4xmEk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=hRu_MnB0iXk",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "original_language": "en",
     "isbn_zh": "9789863988229",
@@ -2355,7 +2355,7 @@
     "author": "Lisa Feldman Barrett",
     "cover_url": "https://img.youtube.com/vi/x02buw-HlaM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=v1sK4uBNmbo",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "original_language": "en",
     "author_en": "Lisa Feldman Barrett"
@@ -2486,7 +2486,7 @@
     "cover_url": "https://img.youtube.com/vi/sSyZCbyS_6c/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=KuGgMA1w3tU",
     "description_cn": "Edward de Bono的思考方法論著作，系統性地介紹各種思考工具與技巧。幫助讀者跳脫慣性思維，學會更有創造力和效率的思考方式。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "isbn_en": "9781292263809",
     "original_language": "en",
     "author_en": "Edward de Bono"
@@ -2756,7 +2756,7 @@
     "author": "Ash Ali, Hasan Kubba",
     "cover_url": "https://img.youtube.com/vi/UFUfpWGx83c/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=0ZqFAcAlzKk",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9780837600697",
     "original_language": "en",
@@ -2844,7 +2844,7 @@
     "author": "Clay Scroggins",
     "cover_url": "https://img.youtube.com/vi/0xQ_K_dq7aY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=T29cq4lMfPg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "original_language": "en",
     "author_en": "Clay Scroggins"
@@ -2866,7 +2866,7 @@
     "author": "李善友",
     "cover_url": "https://img.youtube.com/vi/nJJUG9moRM0/maxresdefault.jpg",
     "description_cn": "李善友的商業成長策略著作，系統性地分析企業增長背後的邏輯與規律。提供從產品、營銷到組織的全方位增長框架，幫助企業找到持續成長的動力。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "english_url": "https://www.youtube.com/watch?v=I7UP00pjsTg",
     "original_language": "zh",
     "author_en": "李善友"
@@ -2910,8 +2910,8 @@
     "author": "劉潤",
     "cover_url": "https://img.youtube.com/vi/Mw9dM2PAAgU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=7SS8vWT7SaI",
-    "description_cn": "這部作品深入探討人類思維的本質和運作方式。通過科學的分析和實用的例子，讀者可以更好地理解自己的思維模式，並學會如何優化決策過程。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_cn": "",
+    "description_en": "",
     "original_language": "zh",
     "author_en": "Liu Run"
   },
@@ -3065,7 +3065,7 @@
     "cover_url": "https://img.youtube.com/vi/jymy7o0RjGA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=863EYNM7_vU",
     "description_cn": "萬維鋼的科學思維著作，融合心理學、認知科學與哲學，幫助讀者升級思維作業系統。探討如何擺脫偏見、建立理性思考模式，在資訊時代做出更好的判斷。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "isbn_zh": "9789388754439",
     "original_language": "zh",
     "author_en": "Wan Weigang"
@@ -3175,7 +3175,7 @@
     "cover_url": "https://img.youtube.com/vi/q3d13zCWNvo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=cIX1PAudSVM",
     "description_cn": "Edward de Bono的經典思考工具書，提出六種不同顏色的「思考帽」代表六種思考模式。幫助團隊在討論中有系統地從不同角度分析問題，提升決策品質與會議效率。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "original_language": "en",
     "author_en": "Edward de Bono"
   },
@@ -3422,7 +3422,7 @@
     "author": "齋藤嘉則",
     "cover_url": "https://img.youtube.com/vi/amtYS0vicjI/maxresdefault.jpg",
     "description_cn": "齋藤嘉則的問題解決方法論，教導讀者如何識別思維盲點、打破固有框架。提供系統性的思考整理術，從問題的本質出發找到真正有效的解決方案。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "english_url": "https://www.youtube.com/watch?v=dssnxycQPwE",
     "original_language": "zh",
     "author_en": "齋藤嘉則"
@@ -3867,7 +3867,7 @@
     "author": "Vaclav Smil",
     "cover_url": "https://img.youtube.com/vi/Oql1Zg7wqrU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=LEXYMR06byM",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9780262354516",
     "original_language": "en",
@@ -4069,7 +4069,7 @@
       "心智與思維"
     ],
     "description": "",
-    "author": "Carol S. Dweck",
+    "author": "卡蘿·杜維克",
     "cover_url": "https://img.youtube.com/vi/hEZeTdRgc9U/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=as-HMAt-IJg",
     "description_cn": "Carol S. Dweck的心理學經典著作，區分「固定型思維」與「成長型思維」兩種心態。揭示相信能力可以培養的人更容易成功，並提供轉換思維的實用方法。",
@@ -4590,7 +4590,7 @@
     "description": "",
     "author": "Kate Lanz & Paul Brown",
     "cover_url": "https://img.youtube.com/vi/AsGpTAmwLNs/maxresdefault.jpg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=vOzme5R8O0Q",
     "isbn_en": "9783030221522",
@@ -4635,7 +4635,7 @@
     "description": "",
     "author": "Steven Johnson",
     "cover_url": "https://img.youtube.com/vi/FeUaOvfEzZg/maxresdefault.jpg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=ePmDR7LilpM",
     "isbn_en": "9781101444207",
@@ -4702,7 +4702,7 @@
     "description": "",
     "author": "Mustafa Suleyman",
     "cover_url": "https://img.youtube.com/vi/vSRcA4wDX5Q/maxresdefault.jpg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "original_language": "en",
     "author_en": "Mustafa Suleyman"
@@ -4723,7 +4723,7 @@
     "description": "",
     "author": "Abhijit V. Banerjee, Esther Duflo",
     "cover_url": "https://img.youtube.com/vi/3QFj5uPyS04/maxresdefault.jpg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=iRcZVn1G9F8",
     "isbn_en": "9780141986203",
@@ -4772,7 +4772,7 @@
     "cover_url": "https://img.youtube.com/vi/2-ukFTizOug/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=tNyd60HxBMw",
     "description_cn": "Adam Grant的暢銷著作，挑戰人們根深蒂固的想法。提出「像科學家一樣思考」的方法，學會質疑自己的信念，以開放心態重新審視世界。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "isbn_en": "9780593298749",
     "original_language": "en",
     "author_en": "Adam Grant"
@@ -4952,7 +4952,7 @@
     "author": "Jessica Eise, Ken Foster",
     "cover_url": "https://img.youtube.com/vi/mBQdXJnXQ5w/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=zNPSC7tc_hI",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9781610918848",
     "original_language": "en",
@@ -5043,7 +5043,7 @@
     "author": "Lisa Feldman Barrett",
     "cover_url": "https://img.youtube.com/vi/UpmYOZ4emNM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=vv6X0eF1EKU",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9781462516971",
     "original_language": "en",
@@ -5065,7 +5065,7 @@
     "description": "",
     "author": "Indra Nooyi",
     "cover_url": "https://img.youtube.com/vi/yDZkHYMIou4/maxresdefault.jpg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9780470842218",
     "original_language": "en",
@@ -5087,7 +5087,7 @@
     "description": "",
     "author": "Reid Hoffman",
     "cover_url": "https://img.youtube.com/vi/AmAAJgObkOc/maxresdefault.jpg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9781593851880",
     "original_language": "en",
@@ -5245,7 +5245,7 @@
     "description": "",
     "author": "Jeff Rubin",
     "cover_url": "https://img.youtube.com/vi/PnzCD8cDq8A/maxresdefault.jpg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=8Y1Y85A7ySM",
     "original_language": "en",
@@ -5267,7 +5267,7 @@
     "description": "",
     "author": "王咏 (Wang Yong)",
     "cover_url": "https://img.youtube.com/vi/EUOcR8ap0Nk/maxresdefault.jpg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=Pd-9ii8MiuE",
     "original_language": "en",
@@ -5313,7 +5313,7 @@
     "author": "Greg McKeown",
     "cover_url": "https://img.youtube.com/vi/O3w6T50yqEo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=vSdJRtu9Zvw",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9780753555163",
     "original_language": "en",
@@ -5335,7 +5335,7 @@
     "description": "",
     "author": "Grant Baldwin",
     "cover_url": "https://img.youtube.com/vi/5nWcWmj4u_w/maxresdefault.jpg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9780955487309",
     "original_language": "en",
@@ -5402,7 +5402,7 @@
     "description": "",
     "author": "Ryan Holiday",
     "cover_url": "https://img.youtube.com/vi/CBqSh_9ng3A/maxresdefault.jpg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=nc5jb_Apl5Y",
     "original_language": "en",
@@ -5584,7 +5584,7 @@
     "author": "Shawn Achor",
     "cover_url": "https://img.youtube.com/vi/q1K3nrmwtSE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=0ZqFAcAlzKk",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9780753539477",
     "original_language": "en",
@@ -5962,7 +5962,7 @@
     "cover_url": "https://img.youtube.com/vi/2Gv7LsRIOI8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rLpAxQLG4ac",
     "description_cn": "S.J. Scott的心智整理著作，提供清除焦慮、擔憂和負面思緒的實用策略。透過正念、認知重構等方法，幫助讀者建立更清明、更專注的心智狀態。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "isbn_en": "9781387579754",
     "original_language": "en",
     "author_en": "S.J. Scott"
@@ -5985,7 +5985,7 @@
     "cover_url": "https://img.youtube.com/vi/36ROABa7kvs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rLpAxQLG4ac",
     "description_cn": "Rolf Dobelli的暢銷思考方法著作，揭示52種常見的認知偏誤與思維陷阱。從確認偏誤到倖存者偏差，幫助讀者識別並避免日常決策中的系統性錯誤。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "isbn_en": "9780062343963",
     "original_language": "en",
     "author_en": "Rolf Dobelli"
@@ -6735,7 +6735,7 @@
     "cover_url": "https://img.youtube.com/vi/2kE761COb6o/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=4B6I2qvVvnU",
     "description_cn": "Gabriele Oettingen的動機科學著作，挑戰「正面思考就能成功」的迷思。提出「心理反差」方法，結合正面想像與障礙分析，創造更有效的目標達成策略。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "isbn_en": "9781617230233",
     "original_language": "en",
     "author_en": "Gabriele Oettingen"
@@ -6802,9 +6802,11 @@
     "author_en": "Philip Zimbardo",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781416541998",
     "cover_url": "https://img.youtube.com/vi/KNBHrUWmmyA/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=KNBHrUWmmyA"
+    "english_url": "https://www.youtube.com/watch?v=KNBHrUWmmyA",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_433",
@@ -6823,9 +6825,11 @@
     "author_en": "Mark Forster",
     "original_language": "en",
     "isbn_zh": "9786267577172",
-    "isbn_en": "",
+    "isbn_en": "9780616410427",
     "cover_url": "https://img.youtube.com/vi/G7bxA0LOj78/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=G7bxA0LOj78"
+    "english_url": "https://www.youtube.com/watch?v=G7bxA0LOj78",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_432",
@@ -6844,9 +6848,11 @@
     "author_en": "Scott Allan",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781990484254",
     "cover_url": "https://img.youtube.com/vi/LHOd_3iOTrA/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=LHOd_3iOTrA"
+    "english_url": "https://www.youtube.com/watch?v=LHOd_3iOTrA",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_431",
@@ -6865,9 +6871,11 @@
     "author_en": "Steve Magness",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780063098619",
     "cover_url": "https://img.youtube.com/vi/Fy1JC7hjqGo/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=Fy1JC7hjqGo"
+    "english_url": "https://www.youtube.com/watch?v=Fy1JC7hjqGo",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_430",
@@ -6888,7 +6896,9 @@
     "isbn_zh": "",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/2a4Y6_Z9ub4/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=2a4Y6_Z9ub4"
+    "english_url": "https://www.youtube.com/watch?v=2a4Y6_Z9ub4",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_429",
@@ -6907,9 +6917,11 @@
     "author_en": "David Kadavy",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780578301754",
     "cover_url": "https://img.youtube.com/vi/M1pnX7rvxYk/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=M1pnX7rvxYk"
+    "english_url": "https://www.youtube.com/watch?v=M1pnX7rvxYk",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_428",
@@ -6928,9 +6940,11 @@
     "author_en": "Neil Fiore",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780470593462",
     "cover_url": "https://img.youtube.com/vi/71J_oQdb5So/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=71J_oQdb5So"
+    "english_url": "https://www.youtube.com/watch?v=71J_oQdb5So",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_426",
@@ -6949,9 +6963,11 @@
     "author_en": "Damon Zahariades",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781980643289",
     "cover_url": "https://img.youtube.com/vi/2eC_BjMuEIo/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=2eC_BjMuEIo"
+    "english_url": "https://www.youtube.com/watch?v=2eC_BjMuEIo",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_425",
@@ -6972,7 +6988,9 @@
     "isbn_zh": "",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/f5uHjEfsuG4/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=f5uHjEfsuG4"
+    "english_url": "https://www.youtube.com/watch?v=f5uHjEfsuG4",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_424",
@@ -6991,9 +7009,11 @@
     "author_en": "Peter Hollins",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781986622318",
     "cover_url": "https://img.youtube.com/vi/I41CbiVzkto/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=I41CbiVzkto"
+    "english_url": "https://www.youtube.com/watch?v=I41CbiVzkto",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_423",
@@ -7012,9 +7032,11 @@
     "author_en": "Laurie Ruettimann",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781250269805",
     "cover_url": "https://img.youtube.com/vi/6GGTV9PmenY/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=6GGTV9PmenY"
+    "english_url": "https://www.youtube.com/watch?v=6GGTV9PmenY",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_422",
@@ -7035,7 +7057,9 @@
     "isbn_zh": "",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/N5l05IIZebQ/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=N5l05IIZebQ"
+    "english_url": "https://www.youtube.com/watch?v=N5l05IIZebQ",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_421",
@@ -7056,7 +7080,9 @@
     "isbn_zh": "9789573269557",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/3KUnCjFKi5A/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=3KUnCjFKi5A"
+    "english_url": "https://www.youtube.com/watch?v=3KUnCjFKi5A",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_420",
@@ -7077,7 +7103,9 @@
     "isbn_zh": "9786264090124",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/5TpvVm5ZEIY/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=5TpvVm5ZEIY"
+    "english_url": "https://www.youtube.com/watch?v=5TpvVm5ZEIY",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_419",
@@ -7098,7 +7126,9 @@
     "isbn_zh": "9789862356524",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/556euqFK_ZU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=556euqFK_ZU"
+    "english_url": "https://www.youtube.com/watch?v=556euqFK_ZU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_418",
@@ -7117,9 +7147,11 @@
     "author_en": "Fitness Academy",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781623367930",
     "cover_url": "https://img.youtube.com/vi/fmENUUJVzRk/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=fmENUUJVzRk"
+    "english_url": "https://www.youtube.com/watch?v=fmENUUJVzRk",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_417",
@@ -7138,9 +7170,11 @@
     "author_en": "Dave Asprey",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780063204720",
     "cover_url": "https://img.youtube.com/vi/BvLIXcLaFcU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=BvLIXcLaFcU"
+    "english_url": "https://www.youtube.com/watch?v=BvLIXcLaFcU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_416",
@@ -7159,9 +7193,11 @@
     "author_en": "Jillian Turecki",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780063374362",
     "cover_url": "https://img.youtube.com/vi/eQQeOpKK78s/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=eQQeOpKK78s"
+    "english_url": "https://www.youtube.com/watch?v=eQQeOpKK78s",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_415",
@@ -7182,7 +7218,9 @@
     "isbn_zh": "9789869501507",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/svqGUMXgKVE/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=svqGUMXgKVE"
+    "english_url": "https://www.youtube.com/watch?v=svqGUMXgKVE",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_414",
@@ -7203,7 +7241,9 @@
     "isbn_zh": "",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/DFLukI7FxX8/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=DFLukI7FxX8"
+    "english_url": "https://www.youtube.com/watch?v=DFLukI7FxX8",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_413",
@@ -7222,9 +7262,11 @@
     "author_en": "Yuval Noah Harari",
     "original_language": "en",
     "isbn_zh": "9789864795246",
-    "isbn_en": "",
+    "isbn_en": "9780525512196",
     "cover_url": "https://img.youtube.com/vi/TBqbHlKWggw/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=TBqbHlKWggw"
+    "english_url": "https://www.youtube.com/watch?v=TBqbHlKWggw",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_412",
@@ -7243,9 +7285,11 @@
     "author_en": "Devon Price",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781982140106",
     "cover_url": "https://img.youtube.com/vi/y4nmKgtoc90/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=y4nmKgtoc90"
+    "english_url": "https://www.youtube.com/watch?v=y4nmKgtoc90",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_401",
@@ -7264,9 +7308,11 @@
     "author_en": "Martin E. P. Seligman",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780743222983",
     "cover_url": "https://img.youtube.com/vi/960vMUsymE8/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=960vMUsymE8"
+    "english_url": "https://www.youtube.com/watch?v=960vMUsymE8",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_411",
@@ -7285,9 +7331,11 @@
     "author_en": "Kate Bowler",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780399592089",
     "cover_url": "https://img.youtube.com/vi/P3VOipr3iuU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=P3VOipr3iuU"
+    "english_url": "https://www.youtube.com/watch?v=P3VOipr3iuU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_410",
@@ -7306,9 +7354,11 @@
     "author_en": "Ken Mark",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781292178899",
     "cover_url": "https://img.youtube.com/vi/CqzCNdQFwnc/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=CqzCNdQFwnc"
+    "english_url": "https://www.youtube.com/watch?v=CqzCNdQFwnc",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_409",
@@ -7327,9 +7377,11 @@
     "author_en": "Chris Voss",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780062407801",
     "cover_url": "https://img.youtube.com/vi/lxDwIuYwGMM/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=lxDwIuYwGMM"
+    "english_url": "https://www.youtube.com/watch?v=lxDwIuYwGMM",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_408",
@@ -7348,9 +7400,11 @@
     "author_en": "Robert Greene",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780142001196",
     "cover_url": "https://img.youtube.com/vi/ge--wWQxtH8/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=ge--wWQxtH8"
+    "english_url": "https://www.youtube.com/watch?v=ge--wWQxtH8",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_407",
@@ -7369,9 +7423,11 @@
     "author_en": "Jo Boaler",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780062851741",
     "cover_url": "https://img.youtube.com/vi/a8PVLiJf7GA/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=a8PVLiJf7GA"
+    "english_url": "https://www.youtube.com/watch?v=a8PVLiJf7GA",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_406",
@@ -7390,9 +7446,11 @@
     "author_en": "Ian J. Deary",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780198796206",
     "cover_url": "https://img.youtube.com/vi/kHP2SoTbPxA/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=kHP2SoTbPxA"
+    "english_url": "https://www.youtube.com/watch?v=kHP2SoTbPxA",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_405",
@@ -7411,9 +7469,11 @@
     "author_en": "W. Chan Kim",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781591396192",
     "cover_url": "https://img.youtube.com/vi/ViY7aRb2BbU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=ViY7aRb2BbU"
+    "english_url": "https://www.youtube.com/watch?v=ViY7aRb2BbU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_404",
@@ -7432,9 +7492,11 @@
     "author_en": "David Deutsch",
     "original_language": "en",
     "isbn_zh": "9787508647050",
-    "isbn_en": "",
+    "isbn_en": "9787508647050",
     "cover_url": "https://img.youtube.com/vi/A7JpyHpNeXA/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=A7JpyHpNeXA"
+    "english_url": "https://www.youtube.com/watch?v=A7JpyHpNeXA",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_403",
@@ -7453,9 +7515,11 @@
     "author_en": "Tiago Forte",
     "original_language": "en",
     "isbn_zh": "9786267252081",
-    "isbn_en": "",
+    "isbn_en": "9781982167387",
     "cover_url": "https://img.youtube.com/vi/kGFATzA7iYA/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=kGFATzA7iYA"
+    "english_url": "https://www.youtube.com/watch?v=kGFATzA7iYA",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_402",
@@ -7474,9 +7538,11 @@
     "author_en": "Bernard Roth",
     "original_language": "en",
     "isbn_zh": "9789862136454",
-    "isbn_en": "",
+    "isbn_en": "9780062353238",
     "cover_url": "https://img.youtube.com/vi/KaEahHUZmoM/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=KaEahHUZmoM"
+    "english_url": "https://www.youtube.com/watch?v=KaEahHUZmoM",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_400",
@@ -7495,9 +7561,11 @@
     "author_en": "Michael Margolis",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781989025581",
     "cover_url": "https://img.youtube.com/vi/Iw0U_xEa8zU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=Iw0U_xEa8zU"
+    "english_url": "https://www.youtube.com/watch?v=Iw0U_xEa8zU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_399",
@@ -7516,9 +7584,11 @@
     "author_en": "Mary C. Murphy",
     "original_language": "en",
     "isbn_zh": "9786267448205",
-    "isbn_en": "",
+    "isbn_en": "9781398535954",
     "cover_url": "https://img.youtube.com/vi/w1yTDtO1FoY/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=w1yTDtO1FoY"
+    "english_url": "https://www.youtube.com/watch?v=w1yTDtO1FoY",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_398",
@@ -7537,9 +7607,11 @@
     "author_en": "John C. Maxwell",
     "original_language": "en",
     "isbn_zh": "9789123019731",
-    "isbn_en": "",
+    "isbn_en": "9798887100340",
     "cover_url": "https://img.youtube.com/vi/xkScDuMDefw/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=xkScDuMDefw"
+    "english_url": "https://www.youtube.com/watch?v=xkScDuMDefw",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_397",
@@ -7558,9 +7630,11 @@
     "author_en": "John C. Maxwell",
     "original_language": "en",
     "isbn_zh": "9789625139424",
-    "isbn_en": "",
+    "isbn_en": "9780718006594",
     "cover_url": "https://img.youtube.com/vi/tpbXZ6RxWiU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=tpbXZ6RxWiU"
+    "english_url": "https://www.youtube.com/watch?v=tpbXZ6RxWiU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_396",
@@ -7579,9 +7653,11 @@
     "author_en": "Grant Cardone",
     "original_language": "en",
     "isbn_zh": "9789865077259",
-    "isbn_en": "",
+    "isbn_en": "9780470627600",
     "cover_url": "https://img.youtube.com/vi/0E_r1jKfyDg/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=0E_r1jKfyDg"
+    "english_url": "https://www.youtube.com/watch?v=0E_r1jKfyDg",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_395",
@@ -7600,9 +7676,11 @@
     "author_en": "Richard Rumelt",
     "original_language": "en",
     "isbn_zh": "9789863414001",
-    "isbn_en": "",
+    "isbn_en": "9780307886231",
     "cover_url": "https://img.youtube.com/vi/vMszbfS7n3M/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=vMszbfS7n3M"
+    "english_url": "https://www.youtube.com/watch?v=vMszbfS7n3M",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_394",
@@ -7621,9 +7699,11 @@
     "author_en": "Keith Ferrazzi",
     "original_language": "en",
     "isbn_zh": "9789863989356",
-    "isbn_en": "",
+    "isbn_en": "9780385346658",
     "cover_url": "https://img.youtube.com/vi/EszDWN39rso/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=EszDWN39rso"
+    "english_url": "https://www.youtube.com/watch?v=EszDWN39rso",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_393",
@@ -7642,9 +7722,11 @@
     "author_en": "JL Collins",
     "original_language": "en",
     "isbn_zh": "9780143111003",
-    "isbn_en": "",
+    "isbn_en": "9798893310474",
     "cover_url": "https://img.youtube.com/vi/mJPo5oOHXHc/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=mJPo5oOHXHc"
+    "english_url": "https://www.youtube.com/watch?v=mJPo5oOHXHc",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_392",
@@ -7663,9 +7745,11 @@
     "author_en": "Michael R. Berg",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781630060640",
     "cover_url": "https://img.youtube.com/vi/XTMV83cv3_w/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=XTMV83cv3_w"
+    "english_url": "https://www.youtube.com/watch?v=XTMV83cv3_w",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_391",
@@ -7686,7 +7770,9 @@
     "isbn_zh": "",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/FZbthI2tlsA/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=FZbthI2tlsA"
+    "english_url": "https://www.youtube.com/watch?v=FZbthI2tlsA",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_390",
@@ -7705,9 +7791,11 @@
     "author_en": "Nick Maggiulli",
     "original_language": "en",
     "isbn_zh": "9786267252261",
-    "isbn_en": "",
+    "isbn_en": "9780857199256",
     "cover_url": "https://img.youtube.com/vi/PFV41c-brJ4/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=PFV41c-brJ4"
+    "english_url": "https://www.youtube.com/watch?v=PFV41c-brJ4",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_389",
@@ -7728,7 +7816,9 @@
     "isbn_zh": "",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/Zj7an9ANltI/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=Zj7an9ANltI"
+    "english_url": "https://www.youtube.com/watch?v=Zj7an9ANltI",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_388",
@@ -7747,9 +7837,11 @@
     "author_en": "Morgan Housel",
     "original_language": "en",
     "isbn_zh": "9789865072049",
-    "isbn_en": "",
+    "isbn_en": "9780593132705",
     "cover_url": "https://img.youtube.com/vi/vv6X0eF1EKU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=vv6X0eF1EKU"
+    "english_url": "https://www.youtube.com/watch?v=vv6X0eF1EKU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_387",
@@ -7768,9 +7860,11 @@
     "author_en": "Susan Fowler",
     "original_language": "en",
     "isbn_zh": "9789123019803",
-    "isbn_en": "",
+    "isbn_en": "9781523004126",
     "cover_url": "https://img.youtube.com/vi/4B6I2qvVvnU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=4B6I2qvVvnU"
+    "english_url": "https://www.youtube.com/watch?v=4B6I2qvVvnU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_386",
@@ -7789,9 +7883,11 @@
     "author_en": "Karen Kimsey-House",
     "original_language": "en",
     "isbn_zh": "9789123019828",
-    "isbn_en": "",
+    "isbn_en": "9781523091126",
     "cover_url": "https://img.youtube.com/vi/pwGUCjooz8U/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=pwGUCjooz8U"
+    "english_url": "https://www.youtube.com/watch?v=pwGUCjooz8U",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_385",
@@ -7812,7 +7908,9 @@
     "isbn_zh": "9789863984368",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/uwL84WlXq9k/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=uwL84WlXq9k"
+    "english_url": "https://www.youtube.com/watch?v=uwL84WlXq9k",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_384",
@@ -7831,9 +7929,11 @@
     "author_en": "Eric Schmidt",
     "original_language": "en",
     "isbn_zh": "9789863984382",
-    "isbn_en": "",
+    "isbn_en": "9780062839268",
     "cover_url": "https://img.youtube.com/vi/gW4rkeot-As/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=gW4rkeot-As"
+    "english_url": "https://www.youtube.com/watch?v=gW4rkeot-As",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_383",
@@ -7854,7 +7954,9 @@
     "isbn_zh": "9789123019835",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/WWoOsejIOXY/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=WWoOsejIOXY"
+    "english_url": "https://www.youtube.com/watch?v=WWoOsejIOXY",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_382",
@@ -7873,9 +7975,11 @@
     "author_en": "John C. Maxwell",
     "original_language": "en",
     "isbn_zh": "9789123019811",
-    "isbn_en": "",
+    "isbn_en": "9781400280230",
     "cover_url": "https://img.youtube.com/vi/lJYAy3Z4WCI/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=lJYAy3Z4WCI"
+    "english_url": "https://www.youtube.com/watch?v=lJYAy3Z4WCI",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_381",
@@ -7894,9 +7998,11 @@
     "author_en": "Daniel Kahneman",
     "original_language": "en",
     "isbn_zh": "9789865251604",
-    "isbn_en": "",
+    "isbn_en": "9780316451406",
     "cover_url": "https://img.youtube.com/vi/CAFgWrxjy8Q/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=CAFgWrxjy8Q"
+    "english_url": "https://www.youtube.com/watch?v=CAFgWrxjy8Q",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_380",
@@ -7915,9 +8021,11 @@
     "author_en": "Dan Ariely",
     "original_language": "en",
     "isbn_zh": "9789861341604",
-    "isbn_en": "",
+    "isbn_en": "9780061353246",
     "cover_url": "https://img.youtube.com/vi/oWgqjRpvMro/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=oWgqjRpvMro"
+    "english_url": "https://www.youtube.com/watch?v=oWgqjRpvMro",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_379",
@@ -7936,9 +8044,11 @@
     "author_en": "Morten Jerven",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780801478604",
     "cover_url": "https://img.youtube.com/vi/Q-D9BE8QrXg/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=Q-D9BE8QrXg"
+    "english_url": "https://www.youtube.com/watch?v=Q-D9BE8QrXg",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_378",
@@ -7959,7 +8069,9 @@
     "isbn_zh": "9789861344211",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/rGtSAtfYsDw/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=rGtSAtfYsDw"
+    "english_url": "https://www.youtube.com/watch?v=rGtSAtfYsDw",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_377",
@@ -7978,9 +8090,11 @@
     "author_en": "Jeff Goins",
     "original_language": "en",
     "isbn_zh": "9789861342604",
-    "isbn_en": "",
+    "isbn_en": "9780718022075",
     "cover_url": "https://img.youtube.com/vi/GY4hN1HNl6s/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=GY4hN1HNl6s"
+    "english_url": "https://www.youtube.com/watch?v=GY4hN1HNl6s",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_376",
@@ -8001,7 +8115,9 @@
     "isbn_zh": "9789862136003",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/qMpeqU0OEuY/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=qMpeqU0OEuY"
+    "english_url": "https://www.youtube.com/watch?v=qMpeqU0OEuY",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_375",
@@ -8020,9 +8136,11 @@
     "author_en": "Jim Mattis",
     "original_language": "en",
     "isbn_zh": "9789123019842",
-    "isbn_en": "",
+    "isbn_en": "9780812996838",
     "cover_url": "https://img.youtube.com/vi/dei00urvCuk/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=dei00urvCuk"
+    "english_url": "https://www.youtube.com/watch?v=dei00urvCuk",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_374",
@@ -8041,9 +8159,11 @@
     "author_en": "Adam Bryant",
     "original_language": "en",
     "isbn_zh": "9786267425114",
-    "isbn_en": "",
+    "isbn_en": "9781647824891",
     "cover_url": "https://img.youtube.com/vi/Z6AZ6vpA-TU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=Z6AZ6vpA-TU"
+    "english_url": "https://www.youtube.com/watch?v=Z6AZ6vpA-TU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_373",
@@ -8064,7 +8184,9 @@
     "isbn_zh": "9789863980124",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/kfHyCRmr6oY/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=kfHyCRmr6oY"
+    "english_url": "https://www.youtube.com/watch?v=kfHyCRmr6oY",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_372",
@@ -8085,7 +8207,9 @@
     "isbn_zh": "9789864002603",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/CtVfzSlT-wc/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=CtVfzSlT-wc"
+    "english_url": "https://www.youtube.com/watch?v=CtVfzSlT-wc",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_371",
@@ -8104,9 +8228,11 @@
     "author_en": "Dr. Caroline Leaf",
     "original_language": "en",
     "isbn_zh": "9787544299803",
-    "isbn_en": "",
+    "isbn_en": "9780801015700",
     "cover_url": "https://img.youtube.com/vi/1SD0a0iCikk/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=1SD0a0iCikk"
+    "english_url": "https://www.youtube.com/watch?v=1SD0a0iCikk",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_370",
@@ -8127,7 +8253,9 @@
     "isbn_zh": "9789863443902",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/MWZPPA-1r7A/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=MWZPPA-1r7A"
+    "english_url": "https://www.youtube.com/watch?v=MWZPPA-1r7A",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_369",
@@ -8146,9 +8274,11 @@
     "author_en": "Mike Rucker",
     "original_language": "en",
     "isbn_zh": "9786267252001",
-    "isbn_en": "",
+    "isbn_en": "9781982159061",
     "cover_url": "https://img.youtube.com/vi/_dAPA-HAxR0/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=_dAPA-HAxR0"
+    "english_url": "https://www.youtube.com/watch?v=_dAPA-HAxR0",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_368",
@@ -8169,7 +8299,9 @@
     "isbn_zh": "9789123019859",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/JQW9dhPod4g/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=JQW9dhPod4g"
+    "english_url": "https://www.youtube.com/watch?v=JQW9dhPod4g",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_367",
@@ -8190,7 +8322,9 @@
     "isbn_zh": "9789574443902",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/NU5rHe2V5Z0/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=NU5rHe2V5Z0"
+    "english_url": "https://www.youtube.com/watch?v=NU5rHe2V5Z0",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_366",
@@ -8211,7 +8345,9 @@
     "isbn_zh": "9781bc3c0ce2f",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/TecILU6WwFc/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=TecILU6WwFc"
+    "english_url": "https://www.youtube.com/watch?v=TecILU6WwFc",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_365",
@@ -8232,7 +8368,9 @@
     "isbn_zh": "9781524855475",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/YN9xAxa47VA/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=YN9xAxa47VA"
+    "english_url": "https://www.youtube.com/watch?v=YN9xAxa47VA",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_364",
@@ -8253,7 +8391,9 @@
     "isbn_zh": "9789862136004",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/8X43tV2r0x8/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=8X43tV2r0x8"
+    "english_url": "https://www.youtube.com/watch?v=8X43tV2r0x8",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_363",
@@ -8274,7 +8414,9 @@
     "isbn_zh": "9789123019866",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/_UuTBsTbSq0/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=_UuTBsTbSq0"
+    "english_url": "https://www.youtube.com/watch?v=_UuTBsTbSq0",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_362",
@@ -8295,7 +8437,9 @@
     "isbn_zh": "9789123019873",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/_EmftABcSSI/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=_EmftABcSSI"
+    "english_url": "https://www.youtube.com/watch?v=_EmftABcSSI",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_361",
@@ -8316,7 +8460,9 @@
     "isbn_zh": "9789861343806",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/hLsq4BYdv6A/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=hLsq4BYdv6A"
+    "english_url": "https://www.youtube.com/watch?v=hLsq4BYdv6A",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_360",
@@ -8337,7 +8483,9 @@
     "isbn_zh": "9789123019880",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/oDKGaGNew_0/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=oDKGaGNew_0"
+    "english_url": "https://www.youtube.com/watch?v=oDKGaGNew_0",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_359",
@@ -8358,7 +8506,9 @@
     "isbn_zh": "9789123019897",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/M9Ywp0Q-z7w/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=M9Ywp0Q-z7w"
+    "english_url": "https://www.youtube.com/watch?v=M9Ywp0Q-z7w",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_358",
@@ -8379,7 +8529,9 @@
     "isbn_zh": "9781bc3c0ce30",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/n24w05YVWuY/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=n24w05YVWuY"
+    "english_url": "https://www.youtube.com/watch?v=n24w05YVWuY",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_357",
@@ -8400,7 +8552,9 @@
     "isbn_zh": "9781bc3c0ce31",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/LxcR5xV2dqE/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=LxcR5xV2dqE"
+    "english_url": "https://www.youtube.com/watch?v=LxcR5xV2dqE",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_356",
@@ -8421,7 +8575,9 @@
     "isbn_zh": "9789123019903",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/F2gtpD_xQtU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=F2gtpD_xQtU"
+    "english_url": "https://www.youtube.com/watch?v=F2gtpD_xQtU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_355",
@@ -8442,7 +8598,9 @@
     "isbn_zh": "9781bc3c0ce32",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/nyAvDJ1Bmyw/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=nyAvDJ1Bmyw"
+    "english_url": "https://www.youtube.com/watch?v=nyAvDJ1Bmyw",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_354",
@@ -8463,7 +8621,9 @@
     "isbn_zh": "9789862132594",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/C5OWX7wvEfs/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=C5OWX7wvEfs"
+    "english_url": "https://www.youtube.com/watch?v=C5OWX7wvEfs",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_353",
@@ -8484,7 +8644,9 @@
     "isbn_zh": "9781bc3c0ce33",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/wDGnUpaf7AI/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=wDGnUpaf7AI"
+    "english_url": "https://www.youtube.com/watch?v=wDGnUpaf7AI",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_450",
@@ -8639,7 +8801,7 @@
     "cover_url": "https://img.youtube.com/vi/bEDx3rqtl2s/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=mVw91zg8vZc",
     "description_cn": "Edward B. Burger的思考方法著作，提出高效思考的五個核心要素。從深度理解到擁抱失敗，幫助讀者升級思維品質，解決更複雜的問題。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "isbn_en": "9780691156668",
     "original_language": "en",
     "author_en": "Edward B. Burger"
@@ -8752,7 +8914,7 @@
     "author": "Rod Judkins",
     "cover_url": "https://img.youtube.com/vi/aaORlaEIwdY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=rLpAxQLG4ac",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_en": "9781444794489",
     "original_language": "en",
@@ -8775,7 +8937,7 @@
     "author": "Ros Atkins",
     "cover_url": "https://img.youtube.com/vi/JDww601bNJ0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=D8CXcz29bdg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "original_language": "en",
     "author_en": "Ros Atkins"
@@ -8797,7 +8959,7 @@
     "author": "Library Mindset",
     "cover_url": "https://img.youtube.com/vi/pQbrguWBiYs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Fo70-LfAxIU",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_zh": "9780143469155",
     "original_language": "en",
@@ -8820,7 +8982,7 @@
     "cover_url": "https://img.youtube.com/vi/R59A5I3Mk6I/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=3rrZaSbnfqs",
     "description_cn": "Garry Kasparov的思考方法著作，國際象棋世界冠軍分享深度思考的方法。從棋局策略到人生決策，提供提升分析力和遠見的思維工具。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "isbn_en": "9781473653511",
     "original_language": "en",
     "author_en": "Kelly McGonigal"
@@ -8864,7 +9026,7 @@
     "author": "Peter Attia",
     "cover_url": "https://img.youtube.com/vi/gyAZE58hfBw/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=vSdJRtu9Zvw",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "isbn_zh": "9781785044557",
     "original_language": "en",
@@ -8889,7 +9051,7 @@
     "cover_url": "https://img.youtube.com/vi/dFEHSmm0Xn4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=U-4hSg6hzrw",
     "description_cn": "狩野未希的創新思維著作，教導讀者如何打破既有框架進行思考。提供具體的思維技術，幫助在工作和生活中產生突破性的創意解決方案。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "isbn_zh": "9780231198844",
     "original_language": "zh",
     "author_en": "狩野未希"
@@ -9138,7 +9300,7 @@
     "author": "Thomas Sowell",
     "cover_url": "https://img.youtube.com/vi/neZINjhtnKE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=aC5q9Th7OoI",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "original_language": "en",
     "author_en": "Thomas Sowell"
@@ -9159,7 +9321,7 @@
     "description": "",
     "author": "Frederick F. Reichheld",
     "cover_url": "https://img.youtube.com/vi/iHrr0nQRQOc/maxresdefault.jpg",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "english_url": "https://www.youtube.com/watch?v=goRvq7Tw6Ro",
     "original_language": "en",
@@ -9207,7 +9369,9 @@
     "isbn_zh": "9789571343808",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/cGMDyQmL4us/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=cGMDyQmL4us"
+    "english_url": "https://www.youtube.com/watch?v=cGMDyQmL4us",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_305",
@@ -9228,7 +9392,9 @@
     "isbn_zh": "9781564143211",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/Jz1q7iYfzME/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=Jz1q7iYfzME"
+    "english_url": "https://www.youtube.com/watch?v=Jz1q7iYfzME",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_306",
@@ -9249,7 +9415,9 @@
     "isbn_zh": "9789123019910",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/LW7Q2ERoy3o/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=LW7Q2ERoy3o"
+    "english_url": "https://www.youtube.com/watch?v=LW7Q2ERoy3o",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_307",
@@ -9270,7 +9438,9 @@
     "isbn_zh": "9781bc3c0ce34",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/OIkwVBJZBdk/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=OIkwVBJZBdk"
+    "english_url": "https://www.youtube.com/watch?v=OIkwVBJZBdk",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_308",
@@ -9291,7 +9461,9 @@
     "isbn_zh": "9786267252002",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/XLjvaJImdmk/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=XLjvaJImdmk"
+    "english_url": "https://www.youtube.com/watch?v=XLjvaJImdmk",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_309",
@@ -9312,7 +9484,9 @@
     "isbn_zh": "9786263530635",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/W_hGESQt60g/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=W_hGESQt60g"
+    "english_url": "https://www.youtube.com/watch?v=W_hGESQt60g",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_310",
@@ -9333,7 +9507,9 @@
     "isbn_zh": "9789865519803",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/wzhK4p4JonU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=wzhK4p4JonU"
+    "english_url": "https://www.youtube.com/watch?v=wzhK4p4JonU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_311",
@@ -9354,7 +9530,9 @@
     "isbn_zh": "9781564143212",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/yYZXvqyhlJk/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=yYZXvqyhlJk"
+    "english_url": "https://www.youtube.com/watch?v=yYZXvqyhlJk",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_312",
@@ -9375,7 +9553,9 @@
     "isbn_zh": "9781bc3c0ce35",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/L63cNeCYHxQ/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=L63cNeCYHxQ"
+    "english_url": "https://www.youtube.com/watch?v=L63cNeCYHxQ",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_313",
@@ -9394,9 +9574,11 @@
     "author_en": "John C. Maxwell",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781455548309",
     "cover_url": "https://img.youtube.com/vi/VC3ggWzgpJo/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=VC3ggWzgpJo"
+    "english_url": "https://www.youtube.com/watch?v=VC3ggWzgpJo",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_314",
@@ -9417,7 +9599,9 @@
     "isbn_zh": "9789866377259",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/4v_WJz5ES3o/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=4v_WJz5ES3o"
+    "english_url": "https://www.youtube.com/watch?v=4v_WJz5ES3o",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_315",
@@ -9438,7 +9622,9 @@
     "isbn_zh": "9789573286509",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/Oidca2II0t8/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=Oidca2II0t8"
+    "english_url": "https://www.youtube.com/watch?v=Oidca2II0t8",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_316",
@@ -9457,9 +9643,11 @@
     "author_en": "Jocelyn Davis",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781529399073",
     "cover_url": "https://img.youtube.com/vi/jGVJbimmM-w/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=jGVJbimmM-w"
+    "english_url": "https://www.youtube.com/watch?v=jGVJbimmM-w",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_317",
@@ -9478,9 +9666,11 @@
     "author_en": "Jenn Granneman",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781510721029",
     "cover_url": "https://img.youtube.com/vi/LTvTaz_NdjM/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=LTvTaz_NdjM"
+    "english_url": "https://www.youtube.com/watch?v=LTvTaz_NdjM",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_318",
@@ -9499,9 +9689,11 @@
     "author_en": "Craig Groeschel",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780310362722",
     "cover_url": "https://img.youtube.com/vi/zgfCXErDQuU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=zgfCXErDQuU"
+    "english_url": "https://www.youtube.com/watch?v=zgfCXErDQuU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_319",
@@ -9522,7 +9714,9 @@
     "isbn_zh": "9789863989769",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/hYoHh-r9WKE/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=hYoHh-r9WKE"
+    "english_url": "https://www.youtube.com/watch?v=hYoHh-r9WKE",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_320",
@@ -9543,7 +9737,9 @@
     "isbn_zh": "9786263904477",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/To5Rwq15p6o/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=To5Rwq15p6o"
+    "english_url": "https://www.youtube.com/watch?v=To5Rwq15p6o",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_321",
@@ -9564,7 +9760,9 @@
     "isbn_zh": "9789861373065",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/f7KWsvnXeJ8/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=f7KWsvnXeJ8"
+    "english_url": "https://www.youtube.com/watch?v=f7KWsvnXeJ8",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_322",
@@ -9585,7 +9783,9 @@
     "isbn_zh": "9789861345284",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/ocKEpy7GiY8/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=ocKEpy7GiY8"
+    "english_url": "https://www.youtube.com/watch?v=ocKEpy7GiY8",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_323",
@@ -9606,7 +9806,9 @@
     "isbn_zh": "9789570839531",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/sha5PGjqmOI/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=sha5PGjqmOI"
+    "english_url": "https://www.youtube.com/watch?v=sha5PGjqmOI",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_324",
@@ -9625,9 +9827,11 @@
     "author_en": "Peter Hollins",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781731416735",
     "cover_url": "https://img.youtube.com/vi/gwNE1amtcQg/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=gwNE1amtcQg"
+    "english_url": "https://www.youtube.com/watch?v=gwNE1amtcQg",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_325",
@@ -9648,7 +9852,9 @@
     "isbn_zh": "9789571377193",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/AjmUeH48iik/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=AjmUeH48iik"
+    "english_url": "https://www.youtube.com/watch?v=AjmUeH48iik",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_326",
@@ -9669,7 +9875,9 @@
     "isbn_zh": "9786263559301",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/MW-gcuyG6mY/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=MW-gcuyG6mY"
+    "english_url": "https://www.youtube.com/watch?v=MW-gcuyG6mY",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_327",
@@ -9690,7 +9898,9 @@
     "isbn_zh": "9789862137092",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/iXc2NYQdvMc/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=iXc2NYQdvMc"
+    "english_url": "https://www.youtube.com/watch?v=iXc2NYQdvMc",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_328",
@@ -9709,9 +9919,11 @@
     "author_en": "Cy Wakeman",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781250144065",
     "cover_url": "https://img.youtube.com/vi/3l2kmJvXVK4/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=3l2kmJvXVK4"
+    "english_url": "https://www.youtube.com/watch?v=3l2kmJvXVK4",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_329",
@@ -9732,7 +9944,9 @@
     "isbn_zh": "9789571380964",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/AnQXHoOZb9w/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=AnQXHoOZb9w"
+    "english_url": "https://www.youtube.com/watch?v=AnQXHoOZb9w",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_330",
@@ -9753,7 +9967,9 @@
     "isbn_zh": "9789571377810",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/j5DrFidKko8/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=j5DrFidKko8"
+    "english_url": "https://www.youtube.com/watch?v=j5DrFidKko8",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_331",
@@ -9774,7 +9990,9 @@
     "isbn_zh": "9786267321454",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/xa7eaJpAAIA/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=xa7eaJpAAIA"
+    "english_url": "https://www.youtube.com/watch?v=xa7eaJpAAIA",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_332",
@@ -9795,7 +10013,9 @@
     "isbn_zh": "9786267439363",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/i6RXYlc2lwA/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=i6RXYlc2lwA"
+    "english_url": "https://www.youtube.com/watch?v=i6RXYlc2lwA",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_333",
@@ -9816,7 +10036,9 @@
     "isbn_zh": "9789570845341",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/VSyBJCU5pT8/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=VSyBJCU5pT8"
+    "english_url": "https://www.youtube.com/watch?v=VSyBJCU5pT8",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_334",
@@ -9837,7 +10059,9 @@
     "isbn_zh": "9786267523230",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/PG_GHakZT9I/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=PG_GHakZT9I"
+    "english_url": "https://www.youtube.com/watch?v=PG_GHakZT9I",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_335",
@@ -9858,7 +10082,9 @@
     "isbn_zh": "9789863449485",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/goWAE9gJgtY/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=goWAE9gJgtY"
+    "english_url": "https://www.youtube.com/watch?v=goWAE9gJgtY",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_336",
@@ -9879,7 +10105,9 @@
     "isbn_zh": "9786267431183",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/LkPxNXsyxTE/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=LkPxNXsyxTE"
+    "english_url": "https://www.youtube.com/watch?v=LkPxNXsyxTE",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_337",
@@ -9900,7 +10128,9 @@
     "isbn_zh": "9789573229674",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/-iX4qBHUzkc/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=-iX4qBHUzkc"
+    "english_url": "https://www.youtube.com/watch?v=-iX4qBHUzkc",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_338",
@@ -9919,9 +10149,11 @@
     "author_en": "Alison Jones",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781788606431",
     "cover_url": "https://img.youtube.com/vi/OMNAQJ3eOcI/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=OMNAQJ3eOcI"
+    "english_url": "https://www.youtube.com/watch?v=OMNAQJ3eOcI",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_339",
@@ -9942,7 +10174,9 @@
     "isbn_zh": "",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/S0s0AB_6YPM/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=S0s0AB_6YPM"
+    "english_url": "https://www.youtube.com/watch?v=S0s0AB_6YPM",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_340",
@@ -9963,7 +10197,9 @@
     "isbn_zh": "9789861373584",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/ale1MCme73A/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=ale1MCme73A"
+    "english_url": "https://www.youtube.com/watch?v=ale1MCme73A",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_341",
@@ -9984,7 +10220,9 @@
     "isbn_zh": "9789571372556",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/eBP-8BtiwPo/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=eBP-8BtiwPo"
+    "english_url": "https://www.youtube.com/watch?v=eBP-8BtiwPo",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_342",
@@ -10005,7 +10243,9 @@
     "isbn_zh": "9786269842278",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/-q1nksdOU2I/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=-q1nksdOU2I"
+    "english_url": "https://www.youtube.com/watch?v=-q1nksdOU2I",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_343",
@@ -10026,7 +10266,9 @@
     "isbn_zh": "9789571397733",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/q8lfbLAyW7c/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=q8lfbLAyW7c"
+    "english_url": "https://www.youtube.com/watch?v=q8lfbLAyW7c",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_344",
@@ -10045,9 +10287,11 @@
     "author_en": "Steven Nadler",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780691212760",
     "cover_url": "https://img.youtube.com/vi/Zi4AKjIWW5k/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=Zi4AKjIWW5k"
+    "english_url": "https://www.youtube.com/watch?v=Zi4AKjIWW5k",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_345",
@@ -10066,9 +10310,11 @@
     "author_en": "Seth Godin",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9798893310160",
     "cover_url": "https://img.youtube.com/vi/zFgfIvP_tGU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=zFgfIvP_tGU"
+    "english_url": "https://www.youtube.com/watch?v=zFgfIvP_tGU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_346",
@@ -10089,7 +10335,9 @@
     "isbn_zh": "9789864771455",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/Rka4lPm7KrU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=Rka4lPm7KrU"
+    "english_url": "https://www.youtube.com/watch?v=Rka4lPm7KrU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_347",
@@ -10110,7 +10358,9 @@
     "isbn_zh": "9789869659581",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/ia_OI5JdQnk/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=ia_OI5JdQnk"
+    "english_url": "https://www.youtube.com/watch?v=ia_OI5JdQnk",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_348",
@@ -10129,9 +10379,11 @@
     "author_en": "Ryan Leak",
     "original_language": "en",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781523091126",
     "cover_url": "https://img.youtube.com/vi/19Glzj_RF54/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=19Glzj_RF54"
+    "english_url": "https://www.youtube.com/watch?v=19Glzj_RF54",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_349",
@@ -10152,7 +10404,9 @@
     "isbn_zh": "",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/r_SCc5H7PMU/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=r_SCc5H7PMU"
+    "english_url": "https://www.youtube.com/watch?v=r_SCc5H7PMU",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_350",
@@ -10173,7 +10427,9 @@
     "isbn_zh": "9789573274643",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/46Hc4EVxKaA/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=46Hc4EVxKaA"
+    "english_url": "https://www.youtube.com/watch?v=46Hc4EVxKaA",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_351",
@@ -10194,7 +10450,9 @@
     "isbn_zh": "9789571384078",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/6pniRv639HA/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=6pniRv639HA"
+    "english_url": "https://www.youtube.com/watch?v=6pniRv639HA",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_352",
@@ -10215,7 +10473,9 @@
     "isbn_zh": "9786263539860",
     "isbn_en": "",
     "cover_url": "https://img.youtube.com/vi/2q1zBdMPXrg/maxresdefault.jpg",
-    "english_url": "https://www.youtube.com/watch?v=2q1zBdMPXrg"
+    "english_url": "https://www.youtube.com/watch?v=2q1zBdMPXrg",
+    "description_cn": "",
+    "description_en": ""
   },
   {
     "id": "book_440",
@@ -10326,7 +10586,7 @@
     "cover_url": "https://img.youtube.com/vi/H8MeVQab_e4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=EfZKpIaemwA",
     "description_cn": "Donella Meadows的系統思考經典著作，教導讀者如何以整體觀看待複雜問題。揭示系統中的回饋迴路、延遲效應等關鍵概念，提供系統性解決問題的思維工具。",
-    "description_en": "This作品深入探討人類思維的本質和運作方式。through科學的analysis和practical的例子，readers可以更好地understand自己的思維模式，並學會如何優化決策process。",
+    "description_en": "",
     "isbn_en": "9781603581486",
     "original_language": "en",
     "author_en": "Donella Meadows"
@@ -10393,7 +10653,7 @@
     "author": "Amanda Crowell",
     "cover_url": "https://img.youtube.com/vi/vauYZk05Bjo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=T8GYJrGiniw",
-    "description_cn": "這是一部關於個人發展和自我提升的著作。本書提供實用的策略和深刻的見解，幫助讀者在生活和工作中實現更高的成就。",
+    "description_cn": "",
     "description_en": "This is a關於個人發展和自我提升的work。This bookprovidespractical的strategies和profound的insights，helpsreaders在生活和工作中實現更高的成就。",
     "original_language": "en",
     "author_en": "Amanda Crowell"

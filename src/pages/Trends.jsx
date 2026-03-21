@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
-import { ArrowLeft, BarChart3, Play, Activity } from 'lucide-react';
+import { ArrowLeft, BarChart3, Play, Activity, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function Trends() {
     const navigate = useNavigate();
-    const { language, t } = useLanguage();
+    const { language, t, toggleLanguage } = useLanguage();
     const [data, setData] = useState([]);
     const [loading, setLoading] = useState(true);
 

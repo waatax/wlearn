@@ -50,7 +50,7 @@ function ViewBar({ cnViews, enViews, maxViews, language }) {
 
 export default function Popular() {
     const navigate = useNavigate();
-    const { language, t } = useLanguage();
+    const { language, t, toggleLanguage } = useLanguage();
     const [stats, setStats] = useState([]);
     const [loading, setLoading] = useState(true);
     const [sortBy, setSortBy] = useState('total');
@@ -80,7 +80,7 @@ export default function Popular() {
 
     const totalCnViews = stats.reduce((s, b) => s + (b.cn_views || 0), 0);
     const totalEnViews = stats.reduce((s, b) => s + (b.en_views || 0), 0);
-    const totalAllViews = totalCnViews + totalEnViews;
+    const totalAllViews = (totalCnViews + totalEnViews) || 1;
     const booksWithViews = stats.filter(b => b.total_views > 0).length;
 
     const sortButtons = [
