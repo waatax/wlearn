@@ -50,7 +50,7 @@ function ViewBar({ cnViews, enViews, maxViews, language }) {
 
 export default function Popular() {
     const navigate = useNavigate();
-    const { language, t, toggleLanguage } = useLanguage();
+    const { language, t, toggleLanguage, translateTag } = useLanguage();
     const [stats, setStats] = useState([]);
     const [loading, setLoading] = useState(true);
     const [sortBy, setSortBy] = useState('total');
@@ -360,6 +360,18 @@ export default function Popular() {
                                                 padding: '2px 8px', borderRadius: '4px', fontSize: '11px', fontWeight: '800',
                                             }}>{book.code}</span>
                                         )}
+                                    </div>
+                                    {/* Tags */}
+                                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginTop: '6px' }}>
+                                        {(book.tags || []).slice(0, 2).map((tag, j) => (
+                                            <span key={j} style={{
+                                                fontSize: '10px', padding: '1px 8px', borderRadius: '4px',
+                                                background: 'var(--tag-bg)', color: 'var(--tag-text)',
+                                                fontWeight: '600', letterSpacing: '0.01em',
+                                            }}>
+                                                {translateTag(tag)}
+                                            </span>
+                                        ))}
                                     </div>
                                 </div>
 
