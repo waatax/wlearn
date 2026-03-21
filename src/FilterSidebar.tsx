@@ -65,8 +65,8 @@ export function FilterSidebar({
   const { language } = useLanguage();
   const [expandedSections, setExpandedSections] = useState({
     search: true,
-    tags: true,
-    playlists: true,
+    tags: false,
+    playlists: false,
   });
 
   const toggleSection = (section: keyof typeof expandedSections) => {

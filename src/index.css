@@ -188,10 +188,15 @@ img {
     left: 0;
     top: 0;
     width: 280px !important;
+    height: 100dvh !important;
+    max-height: 100vh !important;
     z-index: 99;
     transform: translateX(-100%);
     transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: none;
+    overflow-y: auto !important;
+    overscroll-behavior: contain !important;
+    -webkit-overflow-scrolling: touch !important;
   }
 
   .sidebar-desktop.open {

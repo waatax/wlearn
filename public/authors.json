@@ -10526,11 +10526,12 @@
     "name": "David A. Kessler",
     "name_en": "David A. Kessler",
     "name_zh": "David A. Kessler",
-    "bio": "前美國 FDA 局長，醫學博士。致力於研究食品工業如何影響大腦。其著作《美食的侵蝕》（The End of Overeating）深刻解析了暴飲暴食的生理機制。",
-    "career": "前 FDA 局長 / 醫學博士",
+    "bio": "曾任美國 FDA 局長，擁有哈佛醫學院醫學博士與芝加哥大學法律博士學位。他在任內推動了食品標籤法的重大改革並致力於菸草監管。目前專注於研究食品科學對人類大腦的影響。主要著作包括《癮食劫》（Hijacked）與《美食的侵蝕》（The End of Overeating）。",
+    "career": "前 FDA 局長 / 醫學博士 / 法律學家",
     "achievements": [
-      "FDA 行政官員",
-      "《美食的侵蝕》作者"
+      "美國 FDA 第 17 任局長",
+      "白宮新冠應對團隊前執行長",
+      "三本營養科學暢銷書作者"
     ],
     "has_detailed_bio": true,
     "avatar_initial": "D",
@@ -10554,10 +10555,13 @@
     "name": "OSS (Office of Strategic Services)",
     "name_en": "OSS (Office of Strategic Services)",
     "name_zh": "OSS (Office of Strategic Services)",
-    "bio": "OSS (Office of Strategic Services) 是本站收錄的重要作者，致力於在專業領域分享深刻見解。其作品在本站獲得高度關注，幫助讀者透過多元視野獲取實用的智慧與啟發。",
-    "career": "作家",
-    "achievements": [],
-    "has_detailed_bio": false,
+    "bio": "美國戰略情報局（Office of Strategic Services），是美國在第二次世界大戰期間的情報機構，也是中央情報局（CIA）的前身。其曾編寫《簡單破壞現場手冊》，旨在指導平民透過低風險的手段削弱敵方後勤與行政效率，該手冊在解密後成為管理與組織心理學的重要參考資料。",
+    "career": "二戰情報機構",
+    "achievements": [
+      "中央情報局 (CIA) 的前身",
+      "心理戰與破壞行動專家"
+    ],
+    "has_detailed_bio": true,
     "avatar_initial": "O",
     "books": [],
     "book_count": 0
@@ -10567,11 +10571,11 @@
     "name": "Ozan Varol",
     "name_en": "Ozan Varol",
     "name_zh": "Ozan Varol",
-    "bio": "火箭科學家、法學教授。曾參與 NASA 的「火星探測漫遊者」任務。其著作《像火箭科學家一樣思考》教導讀者如何突破思維框架、解決艱難問題。",
-    "career": "火箭科學家 / 思想領袖",
+    "bio": "前火箭科學家、法學教授，也是備受推崇的思想領袖。他曾參與 2003 年 NASA 的火星探測漫遊者（Mars Exploration Rovers）任務。目前致力於教導個人如何運用科學思維來進行決策與創新。其著作《像火箭科學家一樣思考》在全球廣受好評，幫助讀者在不確定中做出明智選擇。",
+    "career": "前 NASA 火箭科學家 / 法學教授 / 演說家",
     "achievements": [
-      "NASA 火星計畫參與者",
-      "《像火箭科學家一樣思考》作者"
+      "NASA 火星計畫操作團隊成員",
+      "暢銷思維工具書作者"
     ],
     "has_detailed_bio": true,
     "avatar_initial": "O",
@@ -10623,11 +10627,12 @@
     "name": "Shane Parrish",
     "name_en": "Shane Parrish",
     "name_zh": "Shane Parrish",
-    "bio": "知名知識社群 Farnam Street (FS) 創辦人。致力於研究決策者如何思考。其著作《清晰思考》（Clear Thinking）講解了如何避免情緒干擾、做出理性決策。",
-    "career": "決策分析專家 / 作家",
+    "bio": "知名知識社群 Farnam Street (FS) 創辦人與《知識專案》（The Knowledge Project）播客主持人。致力於從歷史、科學與哲學中提煉「思維模型」，幫助人們做出更優質的決策。其作品《清晰思考》（Clear Thinking）深受華爾街經理人與矽谷創業者推崇，被視為理性思考的必讀指南。",
+    "career": "決策科學專家 / FS 社群創辦人",
     "achievements": [
       "Farnam Street 創辦人",
-      "《清晰思考》作者"
+      "決策思維權威",
+      "《清晰思考》暢銷作家"
     ],
     "has_detailed_bio": true,
     "avatar_initial": "S",
@@ -10651,11 +10656,12 @@
     "name": "Jocko Willink & Leif Babin",
     "name_en": "Jocko Willink & Leif Babin",
     "name_zh": "Jocko Willink",
-    "bio": "前美國海軍海豹部隊指揮官，著有《極端統御》（Extreme Ownership）。他將戰場領導力轉化為商業管理原則，深受全球企業精英推崇。",
-    "career": "海豹部隊指揮官 / 領導力顧問",
+    "bio": "兩位前美國海軍海豹部隊軍官，曾共同參與伊拉克戰爭中的拉馬迪戰役，該戰役被視為特種作戰的傳奇。他們共同創辦了領導力諮詢公司 Echelon Front，將戰場上的『絕對負責』與『極度領導』原則轉化為商業管理手冊。其合著的《極度責任》長期佔據《紐約時報》暢銷榜第一名。",
+    "career": "前海豹部隊指揮官 / 領導力導師",
     "achievements": [
-      "《極端統御》作者",
-      "Echelon Front 聯合創辦人"
+      "銀星勳章、青銅星勳章得主",
+      "Echelon Front 聯合創辦人",
+      "《紐約時報》暢銷書作者"
     ],
     "has_detailed_bio": true,
     "avatar_initial": "J",
@@ -11025,11 +11031,14 @@
     "name": "Richard Koch",
     "name_en": "Richard Koch",
     "name_zh": "理查·柯克",
-    "bio": "British management consultant, venture capital investor, and author. Best known for \"The 80/20 Principle\".",
-    "career": "Author / Consultant / Investor",
-    "achievements": [],
+    "bio": "英國知名的管理顧問、創業週刊專欄作家、創投家與暢銷作家。他致力於將『帕累托法則』（Pareto Principle）應用於商業與生活。他曾任職於波士頓顧問公司（BCG），並在貝恩（Bain & Co.）擔任合夥人，隨後共同創辦了 L.E.K. 諮詢公司。其著作《80/20 法則》已被翻譯成多種語言，影響了全球數百萬人的工作效率與決策思維。",
+    "career": "管理大師 / 創投家 / 暢銷作家",
+    "achievements": [
+      "L.E.K. 諮詢公司共同創辦人",
+      "80/20 法則普及者"
+    ],
     "book_count": 1,
-    "has_detailed_bio": false,
+    "has_detailed_bio": true,
     "avatar_initial": "R",
     "books": [
       {
@@ -11050,11 +11059,14 @@
     "name": "Verne Harnish",
     "name_en": "Verne Harnish",
     "name_zh": "威尼·哈尼許",
-    "bio": "Founder of Entrepreneurs' Organization (EO) and Scaling Up. Known for the Rockefeller Habits.",
-    "career": "Business Coach / Author",
-    "achievements": [],
+    "bio": "創業家組織（Entrepreneurs' Organization, EO）創辦人，也是 Scaling Up（前身為 Gazelles）全球執行教育公司的總裁。他致力於幫助企業領袖克服成長中的陣痛期，並提出了一套被廣泛採用的『洛克斐勒習慣』管理框架。其著作《規模化》教導企業如何平衡人員、策略、執行與現金流，是全球中小企業擴張的重要指南。",
+    "career": "企業教練 / 成長戰略專家 / 專欄作家",
+    "achievements": [
+      "EO 創辦人",
+      "《財富》雜誌前專欄作家"
+    ],
     "book_count": 1,
-    "has_detailed_bio": false,
+    "has_detailed_bio": true,
     "avatar_initial": "V",
     "books": [
       {
@@ -11075,11 +11087,14 @@
     "name": "Phil Harkins",
     "name_en": "Phil Harkins",
     "name_zh": "菲爾·哈金斯",
-    "bio": "Expert in organizational development and communication. Author of \"Powerful Conversations\".",
-    "career": "Leadership Consultant / Author",
-    "achievements": [],
+    "bio": "Linkage, Inc. 創辦人與 Prossimo Global Partners 現任董事長。他是組織開發與高階主管溝通領域的全球頂尖專家。Phil 曾輔導過數百位財星 500 大企業的 CEO，擅長透過結構化對話推動組織文化轉型。其著作《高效對話》（Powerful Conversations）詳細闡述了卓越領導者如何透過對話來激發團隊的共鳴與共識。",
+    "career": "高階領導力顧問 / 組織心理學專家",
+    "achievements": [
+      "全球前 50 大高階主管教練",
+      "Linkage, Inc. 前執行長"
+    ],
     "book_count": 1,
-    "has_detailed_bio": false,
+    "has_detailed_bio": true,
     "avatar_initial": "P",
     "books": [
       {
@@ -11100,11 +11115,14 @@
     "name": "Chris Robinson",
     "name_en": "Chris Robinson",
     "name_zh": "克里斯·羅賓森",
-    "bio": "Executive Vice President of Maxwell Leadership. Leading expert in leadership development.",
-    "career": "Leadership Coach / Author",
-    "achievements": [],
+    "bio": "Maxwell Leadership 執行副總裁。他是領導力開發與演講領域的資深專家，專注於傳承著名領導力大師約翰·麥斯威爾（John C. Maxwell）的經營智慧。Chris 致力於幫助傑出人士識別成功的自滿陷阱。其著作《從飄移到駕駛》（From Drift to Drive）提供了一套系統性的方法，幫助領導者重新尋回動力，驅動團隊邁向更高層次的卓越。",
+    "career": "領導力教練 / Maxwell 團隊核心成員",
+    "achievements": [
+      "Maxwell Leadership 核心高管",
+      "資深職涯發展導師"
+    ],
     "book_count": 1,
-    "has_detailed_bio": false,
+    "has_detailed_bio": true,
     "avatar_initial": "C",
     "books": [
       {

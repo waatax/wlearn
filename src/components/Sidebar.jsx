@@ -5,8 +5,8 @@ import { useLanguage } from '../context/LanguageContext';
 
 export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClose }) {
     const { language, t, toggleLanguage, translateTag } = useLanguage();
-    const [tagsOpen, setTagsOpen] = useState(true);
-    const [playlistsOpen, setPlaylistsOpen] = useState(true);
+    const [tagsOpen, setTagsOpen] = useState(false);
+    const [playlistsOpen, setPlaylistsOpen] = useState(false);
 
     const allTags = [...new Set((books || []).flatMap(b => b.tags || []))].sort();
     const allPlaylists = [...new Set((books || []).map(b => b.playlist).filter(Boolean))].sort((a, b) => a.localeCompare(b));
@@ -42,11 +42,16 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                 borderRight: '1px solid var(--border)',
                 display: 'flex',
                 flexDirection: 'column',
-                height: '100vh',
+                height: '100dvh', /* Use dynamic viewport height for mobile */
+                maxHeight: '100vh', 
                 position: 'sticky',
                 top: 0,
+                bottom: 0, /* Help fixed positioning stretch properly */
                 zIndex: 90,
                 overflowY: 'auto',
+                overflowX: 'hidden',
+                overscrollBehavior: 'contain', /* Prevent body scroll when scrolling menu */
+                WebkitOverflowScrolling: 'touch', /* Smooth scrolling for iOS Safari */
                 padding: '24px 0',
                 transition: 'all var(--transition-med)',
             }}>
