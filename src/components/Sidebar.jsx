@@ -16,13 +16,18 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
             ? filters.tags.filter(t => t !== tag)
             : [...filters.tags, tag];
         onFiltersChange({ ...filters, tags: newTags });
+        if (window.innerWidth <= 768 && onClose) onClose();
     };
 
     const togglePlaylist = (playlist) => {
         onFiltersChange({ ...filters, playlist: filters.playlist === playlist ? '' : playlist });
+        if (window.innerWidth <= 768 && onClose) onClose();
     };
 
-    const clearAll = () => onFiltersChange({ search: '', tags: [], playlist: '' });
+    const clearAll = () => {
+        onFiltersChange({ search: '', tags: [], playlist: '' });
+        if (window.innerWidth <= 768 && onClose) onClose();
+    };
     const hasFilters = filters.search || filters.tags.length > 0 || filters.playlist;
 
     return (
@@ -50,9 +55,9 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                 zIndex: 90,
                 overflowY: 'auto',
                 overflowX: 'hidden',
-                overscrollBehavior: 'contain', /* Prevent body scroll when scrolling menu */
+                touchAction: 'pan-y',
                 WebkitOverflowScrolling: 'touch', /* Smooth scrolling for iOS Safari */
-                padding: '24px 0',
+                padding: '24px 0 80px 0', /* Add bottom padding to ensure scroll ends above Safari address bar */
                 transition: 'all var(--transition-med)',
             }}>
                 {/* Logo + mobile close */}
