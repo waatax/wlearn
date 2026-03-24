@@ -63,13 +63,14 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                 {/* Logo + mobile close */}
                 <div style={{ padding: '0 24px 24px', borderBottom: '1px solid var(--border-light)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
                     <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none', color: 'var(--text)' }}>
-                        <div style={{
-                            width: '40px', height: '40px', background: 'var(--primary)', 
-                            borderRadius: '12px', display: 'flex', alignItems: 'center', justifyContent: 'center',
-                            boxShadow: '0 4px 12px var(--primary-glow)'
-                        }}>
-                            <BookOpen size={20} color="white" />
-                        </div>
+                        <img 
+                            src={`${import.meta.env.BASE_URL}logo.png`} 
+                            alt="WLearn Logo" 
+                            style={{
+                                width: '40px', height: '40px', objectFit: 'cover',
+                                borderRadius: '12px', boxShadow: '0 4px 12px var(--primary-glow)'
+                            }}
+                        />
                         <div>
                             <div style={{ fontWeight: '800', fontSize: '18px', lineHeight: 1.1, letterSpacing: '-0.02em' }}>{t('siteTitle')}</div>
                             <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '2px', fontWeight: '500' }}>
