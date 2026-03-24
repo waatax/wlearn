@@ -5,7 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 
 export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClose }) {
     const { language, t, toggleLanguage, translateTag } = useLanguage();
-    const [tagsOpen, setTagsOpen] = useState(true);
+    const [tagsOpen, setTagsOpen] = useState(false);
     const [playlistsOpen, setPlaylistsOpen] = useState(true);
 
     const allTags = [...new Set((books || []).flatMap(b => b.tags || []))].sort();
