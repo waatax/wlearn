@@ -292,16 +292,17 @@ export default function Popular() {
                         const medalColors = ['#FFD700', '#C0C0C0', '#CD7F32'];
 
                         return (
-                            <div
-                                key={book.id}
-                                onClick={() => navigate(`/book/${book.id}`)}
-                                style={{
-                                    display: 'flex', alignItems: 'center', gap: '24px',
-                                    padding: '24px', background: 'white',
-                                    borderRadius: 'var(--radius-lg)', border: isTop3 ? `2px solid ${medalColors[i]}40` : '1px solid var(--border-light)',
-                                    cursor: 'pointer', transition: 'all var(--transition-med)',
-                                    boxShadow: isTop3 ? `0 12px 32px ${medalColors[i]}15` : 'var(--card-shadow)',
-                                }}
+                             <div
+                                 key={book.id}
+                                 className="popular-card"
+                                 onClick={() => navigate(`/book/${book.id}`)}
+                                 style={{
+                                     display: 'flex', alignItems: 'center', gap: '24px',
+                                     padding: '24px', background: 'white',
+                                     borderRadius: 'var(--radius-lg)', border: isTop3 ? `2px solid ${medalColors[i]}40` : '1px solid var(--border-light)',
+                                     cursor: 'pointer', transition: 'all var(--transition-med)',
+                                     boxShadow: isTop3 ? `0 12px 32px ${medalColors[i]}15` : 'var(--card-shadow)',
+                                 }}
                                 onMouseEnter={e => { 
                                     e.currentTarget.style.transform = 'translateY(-4px)'; 
                                     e.currentTarget.style.boxShadow = 'var(--card-shadow-hover)';
@@ -341,8 +342,8 @@ export default function Popular() {
                                     {isTop3 && <Flame size={16} style={{ position: 'absolute', top: '-8px', right: '-8px', color: '#ff4d4f', filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.2))' }} />}
                                 </div>
 
-                                {/* Info */}
-                                <div style={{ minWidth: 0, flex: '1 1 240px' }}>
+                                 {/* Info */}
+                                 <div className="popular-card-info" style={{ minWidth: 0, flex: '1 1 240px' }}>
                                     <h3 style={{
                                         margin: '0 0 6px', fontSize: '17px', fontWeight: '800', color: 'var(--text)',
                                         overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
@@ -361,18 +362,18 @@ export default function Popular() {
                                             }}>{book.code}</span>
                                         )}
                                     </div>
-                                    {/* Tags */}
-                                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginTop: '6px' }}>
-                                        {(book.tags || []).slice(0, 2).map((tag, j) => (
-                                            <span key={j} style={{
-                                                fontSize: '10px', padding: '1px 8px', borderRadius: '4px',
-                                                background: 'var(--tag-bg)', color: 'var(--tag-text)',
-                                                fontWeight: '600', letterSpacing: '0.01em',
-                                            }}>
-                                                {translateTag(tag)}
-                                            </span>
-                                        ))}
-                                    </div>
+                                     {/* Tags */}
+                                     <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px', marginTop: '6px' }}>
+                                         {(book.tags || []).slice(0, 2).map((tag, j) => (
+                                             <span key={j} className="tag-chip" style={{
+                                                 fontSize: '10px', padding: '1px 8px', borderRadius: '4px',
+                                                 background: 'var(--tag-bg)', color: 'var(--tag-text)',
+                                                 fontWeight: '600', letterSpacing: '0.01em',
+                                             }}>
+                                                 {translateTag(tag)}
+                                             </span>
+                                         ))}
+                                     </div>
                                 </div>
 
                                 {/* View bars */}

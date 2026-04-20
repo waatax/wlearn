@@ -44,6 +44,10 @@ export const PLAYLIST_TRANSLATIONS: Record<string, Record<string, string>> = {
     en: '2025/26 Winter+',
     zh: '2025/26 Winter+'
   },
+  '2025 Winter VW': {
+    en: '2025 Winter VW',
+    zh: '2025 Winter VW'
+  },
 };
 
 export function translatePlaylist(playlist: string, language: string): string {
