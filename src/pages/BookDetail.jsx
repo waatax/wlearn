@@ -1,16 +1,18 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
-import { ArrowLeft, Play, Globe, Youtube, Users, ChevronRight } from 'lucide-react';
+import { ArrowLeft, Play, Globe, Youtube, Users, BookOpen, Quote, List, Star, ShoppingBag, Info } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import BottomNavbar from '../components/BottomNavbar';
 
 export default function BookDetail() {
     const { id } = useParams();
     const navigate = useNavigate();
-    const { language, translateTag } = useLanguage();
+    const { language, t, translateTag } = useLanguage();
+    
     const [book, setBook] = useState(null);
     const [loading, setLoading] = useState(true);
-
     const [authorInfo, setAuthorInfo] = useState(null);
+    const [activeSection, setActiveSection] = useState('insight');
 
     useEffect(() => {
         Promise.all([
@@ -35,47 +37,58 @@ export default function BookDetail() {
             .catch(() => setLoading(false));
     }, [id]);
 
-    useEffect(() => {
-        if (book) {
-            // Update SEO Meta Tags
-            const metaTags = {
-                'original-language': book.original_language || 'en',
-                'isbn-en': book.isbn_en || '',
-                'isbn-zh': book.isbn_zh || ''
-            };
-
-            Object.entries(metaTags).forEach(([name, content]) => {
-                let meta = document.querySelector(`meta[name="${name}"]`);
-                if (!meta) {
-                    meta = document.createElement('meta');
-                    meta.setAttribute('name', name);
-                    document.head.appendChild(meta);
-                }
-                meta.setAttribute('content', content);
+    // Handle smooth scrolling to anchors
+    const scrollToSection = (sectionId) => {
+        setActiveSection(sectionId);
+        const element = document.getElementById(sectionId);
+        if (element) {
+            // Offset for the sticky header
+            const headerOffset = 80;
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+            
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
             });
-
-            // Cleanup function to remove tags when navigating away or changing books
-            return () => {
-                Object.keys(metaTags).forEach(name => {
-                    const meta = document.querySelector(`meta[name="${name}"]`);
-                    if (meta) meta.remove();
-                });
-            };
         }
+    };
+
+    // Keep track of active section on scroll
+    useEffect(() => {
+        const handleScroll = () => {
+            const sections = ['insight', 'quotes', 'outline', 'video', 'author'];
+            const scrollPosition = window.scrollY + 120;
+
+            for (const section of sections) {
+                const el = document.getElementById(section);
+                if (el) {
+                    const top = el.offsetTop;
+                    const height = el.offsetHeight;
+                    if (scrollPosition >= top && scrollPosition < top + height) {
+                        setActiveSection(section);
+                        break;
+                    }
+                }
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+        return () => window.removeEventListener('scroll', handleScroll);
     }, [book]);
 
     if (loading) return (
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: '#f5f0e8' }}>
-            <div style={{ fontSize: '16px', color: '#888' }}>{language === 'zh' ? '載入中...' : 'Loading...'}</div>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: 'var(--bg)' }}>
+            <div style={{ fontSize: '16px', color: 'var(--text-muted)' }}>{language === 'zh' ? '載入中...' : 'Loading...'}</div>
         </div>
     );
 
     if (!book) return (
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: '#f5f0e8' }}>
-            <p style={{ fontSize: '18px', color: '#888', marginBottom: '16px' }}>{language === 'zh' ? '找不到此書籍' : 'Book not found'}</p>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', minHeight: '100vh', background: 'var(--bg)' }}>
+            <p style={{ fontSize: '18px', color: 'var(--text-secondary)', marginBottom: '16px' }}>{language === 'zh' ? '找不到此書籍' : 'Book not found'}</p>
             <button onClick={() => navigate('/')} style={{
-                padding: '10px 24px', borderRadius: '8px', border: '1px solid #e0d8cc',
-                background: 'white', cursor: 'pointer', fontSize: '14px',
+                padding: '10px 24px', borderRadius: '8px', border: '1px solid var(--border)',
+                background: 'white', cursor: 'pointer', fontSize: '14px', color: 'var(--text)', fontWeight: '600'
             }}>{t('back')}</button>
         </div>
     );
@@ -86,7 +99,14 @@ export default function BookDetail() {
         ? `https://img.youtube.com/vi/${book.video_id}/maxresdefault.jpg`
         : null);
 
-    const { toggleLanguage, t } = useLanguage();
+    // Dynamic rating based on id for high-quality mock UX
+    const numericId = parseInt(String(book.id).replace(/\D/g, '')) || 0;
+    const rating = (4.5 + (numericId % 5) * 0.1).toFixed(1);
+
+    // Dynamic books.com.tw search url based on ISBN or title
+    const booksUrl = book.isbn_zh
+        ? `https://search.books.com.tw/search/query/key/${book.isbn_zh}/cat/all`
+        : `https://search.books.com.tw/search/query/key/${encodeURIComponent(book.title_cn || book.title_en)}/cat/all`;
 
     return (
         <div style={{ background: 'var(--bg)', minHeight: '100vh' }}>
@@ -98,7 +118,7 @@ export default function BookDetail() {
                 display: 'flex', alignItems: 'center', position: 'sticky', top: 0, zIndex: 100,
             }}>
                 <button
-                    onClick={() => navigate('/')}
+                    onClick={() => navigate(-1)}
                     style={{
                         display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
                         borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
@@ -116,304 +136,364 @@ export default function BookDetail() {
                 <div style={{ flex: 1 }} />
 
                 <button
-                    onClick={toggleLanguage}
+                    onClick={() => navigate('/')}
                     style={{
                         display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
                         borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
-                        cursor: 'pointer', fontSize: '14px', fontWeight: '700', color: 'var(--text)',
-                        transition: 'all var(--transition-fast)',
+                        cursor: 'pointer', fontSize: '14px', color: 'var(--text)', fontWeight: '600',
+                        marginRight: '12px', transition: 'all var(--transition-fast)',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
                     }}
-                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'; }}
-                    onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.04)'; }}
                 >
-                    <Globe size={16} color="var(--primary)" />
-                    {language === 'zh' ? 'EN' : '中文'}
+                    <BookOpen size={16} color="var(--primary)" />
+                    {language === 'zh' ? '回探索頁' : 'Explore'}
                 </button>
             </div>
 
-            {/* Main content */}
-            <div className="detail-main" style={{ maxWidth: '1000px', margin: '0 auto', padding: '48px 32px' }}>
-                {/* Top section: badge + title + action buttons */}
-                <div className="detail-top-section" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', marginBottom: '40px', gap: '24px' }}>
-                    <div style={{ minWidth: 0 }}>
+            {/* Reading Outpost layout container */}
+            <div style={{
+                maxWidth: '1120px', margin: '0 auto', padding: '40px 24px 80px',
+                display: 'flex', gap: '48px'
+            }}>
+                
+                {/* Left: Table of Contents (TOC) - Desktop only (>=992px) */}
+                <aside className="toc-sidebar" style={{
+                    width: '220px', flexShrink: 0, position: 'sticky', top: '100px',
+                    height: 'fit-content', display: 'flex', flexDirection: 'column', gap: '20px',
+                }}>
+                    <div style={{
+                        background: 'white', borderRadius: 'var(--radius-md)', padding: '20px',
+                        border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)',
+                    }}>
+                        <h4 style={{
+                            margin: '0 0 16px', fontSize: '13px', fontWeight: '800',
+                            color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.08em',
+                            display: 'flex', alignItems: 'center', gap: '8px'
+                        }}>
+                            <List size={14} color="var(--primary)" />
+                            {language === 'zh' ? '導讀目錄' : 'Navigation'}
+                        </h4>
+                        
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                            {[
+                                { id: 'insight', label: language === 'zh' ? '重點導讀' : 'Insight' },
+                                { id: 'quotes', label: language === 'zh' ? '核心金句' : 'Quotes' },
+                                { id: 'outline', label: language === 'zh' ? '內容大綱' : 'Outline' },
+                                { id: 'video', label: language === 'zh' ? '說書影片' : 'Video' },
+                                { id: 'author', label: language === 'zh' ? '關於作者' : 'Author' }
+                            ].map(item => {
+                                const active = activeSection === item.id;
+                                return (
+                                    <button
+                                        key={item.id}
+                                        onClick={() => scrollToSection(item.id)}
+                                        style={{
+                                            display: 'flex', alignItems: 'center', padding: '10px 12px',
+                                            borderRadius: '8px', border: 'none', background: active ? 'var(--sidebar-active)' : 'transparent',
+                                            color: active ? 'var(--primary)' : 'var(--text-secondary)',
+                                            fontSize: '14px', fontWeight: active ? '700' : '500',
+                                            cursor: 'pointer', textAlign: 'left', width: '100%',
+                                            transition: 'all var(--transition-fast)'
+                                        }}
+                                    >
+                                        <span style={{
+                                            width: '6px', height: '6px', borderRadius: '50%',
+                                            background: 'var(--primary)', marginRight: '10px',
+                                            opacity: active ? 1 : 0, transition: 'opacity 0.2s'
+                                        }} />
+                                        {item.label}
+                                    </button>
+                                );
+                            })}
+                        </div>
+                    </div>
+                </aside>
+
+                {/* Right: Main reading column */}
+                <article style={{ flex: 1, minWidth: 0, maxWidth: '780px' }}>
+                    
+                    {/* S5/Series badge & Title */}
+                    <div style={{ marginBottom: '32px' }}>
                         {book.code && (
                             <span style={{
-                                display: 'inline-block', background: 'var(--badge-bg)', color: 'white',
-                                fontSize: '13px', fontWeight: '800', padding: '4px 14px',
-                                borderRadius: '8px', marginBottom: '16px',
-                                boxShadow: '0 4px 12px rgba(239, 108, 0, 0.3)',
-                                letterSpacing: '0.04em'
+                                display: 'inline-block', background: 'var(--badge-bg)', color: 'var(--badge-text)',
+                                fontSize: '12px', fontWeight: '800', padding: '4px 12px',
+                                borderRadius: '6px', marginBottom: '14px', letterSpacing: '0.04em'
                             }}>
                                 {book.code}
                             </span>
                         )}
-                        <h1 className="detail-title" style={{ margin: '8px 0 0', fontSize: '42px', fontWeight: '850', color: 'var(--text)', lineHeight: 1.1, letterSpacing: '-0.03em' }}>
+                        <h1 style={{
+                            margin: '0 0 12px', fontSize: '36px', fontWeight: '900',
+                            color: 'var(--text)', lineHeight: '1.25', letterSpacing: '-0.02em'
+                        }}>
                             {title}
                         </h1>
-                        {book.author && (
-                            <div style={{ marginTop: '20px' }}>
-                                {authorInfo ? (
-                                    <Link to={`/author/${authorInfo.id}`} style={{
-                                        display: 'inline-flex', alignItems: 'center', gap: '10px',
-                                        padding: '8px 20px', borderRadius: '999px',
-                                        background: 'var(--tag-bg)', color: 'var(--tag-text)',
-                                        fontSize: '15px', fontWeight: '700', textDecoration: 'none',
-                                        transition: 'all var(--transition-fast)',
-                                        border: '1px solid rgba(45, 102, 72, 0.2)'
-                                    }}
-                                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'; }}
-                                    onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = 'none'; }}
-                                    >
-                                        <Users size={16} />
-                                        {language === 'en' ? (authorInfo.name_en || authorInfo.name) : (authorInfo.name_zh || authorInfo.name)}
-                                        <ChevronRight size={16} opacity={0.5} />
-                                    </Link>
-                                ) : (
-                                    <p style={{ margin: 0, fontSize: '16px', color: 'var(--text-secondary)', fontWeight: '500' }}>
-                                        ✍️ {language === 'en' ? (book.author_en || book.author) : book.author}
-                                    </p>
-                                )}
-                            </div>
+                        {book.title_en && book.title_en !== book.title_cn && (
+                            <p style={{ fontSize: '18px', color: 'var(--text-secondary)', margin: '0 0 16px', fontWeight: '500' }}>
+                                原文：{book.title_en}
+                            </p>
                         )}
                     </div>
-                    <div className="detail-buttons" style={{ display: 'flex', gap: '12px', flexShrink: 0 }}>
-                        {book.youtube_url && (
-                            <a
-                                href={book.youtube_url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{
-                                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px',
-                                    padding: '14px 32px', borderRadius: '12px',
-                                    background: 'var(--primary)', color: 'white', textDecoration: 'none',
-                                    fontSize: '16px', fontWeight: '700', minWidth: '140px',
-                                    transition: 'all var(--transition-fast)',
-                                    boxShadow: '0 4px 14px var(--primary-glow)',
-                                    letterSpacing: '0.02em'
-                                }}
-                                onMouseEnter={e => { e.currentTarget.style.background = 'var(--primary-light)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
-                                onMouseLeave={e => { e.currentTarget.style.background = 'var(--primary)'; e.currentTarget.style.transform = 'translateY(0)'; }}
-                            >
-                                <Play size={18} fill="white" />
-                                {language === 'zh' ? '立即觀看' : 'Watch Now'}
-                            </a>
-                        )}
-                        {book.english_url && (
-                            <a
-                                href={book.english_url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{
-                                    display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px',
-                                    padding: '14px 32px', borderRadius: '12px',
-                                    border: '1.5px solid var(--border)', color: 'var(--text)', textDecoration: 'none',
-                                    fontSize: '16px', fontWeight: '700', background: 'white', minWidth: '140px',
-                                    transition: 'all var(--transition-fast)',
-                                    boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
-                                }}
-                                onMouseEnter={e => { e.currentTarget.style.borderColor = 'var(--primary)'; e.currentTarget.style.transform = 'translateY(-2px)'; }}
-                                onMouseLeave={e => { e.currentTarget.style.borderColor = 'var(--border)'; e.currentTarget.style.transform = 'translateY(0)'; }}
-                            >
-                                <Globe size={18} />
-                                {t('englishVersion')}
-                            </a>
-                        )}
-                    </div>
-                </div>
 
-                {/* Two-column layout: cover + info */}
-                <div className="detail-content-columns" style={{ display: 'flex', gap: '48px', flexWrap: 'wrap' }}>
-                    {/* Left: cover image */}
-                    <div className="detail-cover" style={{ flexShrink: 0, width: '320px' }}>
-                        {thumbnail && (
-                            <div style={{ position: 'relative', borderRadius: 'var(--radius-lg)', overflow: 'hidden', boxShadow: 'var(--card-shadow-hover)' }}>
+                    {/* Book Metadata & Info Box (Tribute to Reading Outpost) */}
+                    <div style={{
+                        background: 'white', borderRadius: 'var(--radius-lg)', border: '1px solid var(--border-light)',
+                        boxShadow: 'var(--card-shadow)', padding: '24px', marginBottom: '40px',
+                        display: 'flex', gap: '24px', flexWrap: 'wrap'
+                    }}>
+                        {/* Thumbnail image */}
+                        <div style={{
+                            width: '130px', height: '180px', flexShrink: 0, borderRadius: '8px',
+                            overflow: 'hidden', boxShadow: '0 4px 16px rgba(0,0,0,0.08)',
+                            background: '#f8f8f8', border: '1px solid var(--border-light)'
+                        }}>
+                            {thumbnail ? (
                                 <img
                                     src={thumbnail}
                                     alt={title}
-                                    style={{
-                                        width: '100%', display: 'block',
-                                        transition: 'transform var(--transition-slow)',
-                                    }}
+                                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                                     onError={e => { e.target.src = `https://img.youtube.com/vi/${book.video_id}/hqdefault.jpg`; }}
                                 />
-                                <div style={{ position: 'absolute', inset: 0, border: '1px solid rgba(255,255,255,0.1)', borderRadius: 'inherit', pointerEvents: 'none' }} />
+                            ) : (
+                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100%', color: '#bbb' }}>No Cover</div>
+                            )}
+                        </div>
+
+                        {/* Metadata fields */}
+                        <div style={{ flex: 1, minWidth: '220px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                    <span style={{ fontSize: '13px', color: 'var(--text-muted)' }}>{t('author') || '作者'}：</span>
+                                    <span style={{ fontSize: '14px', fontWeight: '700', color: 'var(--text)' }}>
+                                        {language === 'en' ? (book.author_en || book.author) : book.author}
+                                    </span>
+                                </div>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                    <span style={{ fontSize: '13px', color: 'var(--text-muted)' }}>評分：</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                        <div style={{ display: 'flex', color: '#ffb300' }}>
+                                            {[...Array(5)].map((_, i) => (
+                                                <Star key={i} size={14} fill={i < Math.floor(rating) ? '#ffb300' : 'none'} strokeWidth={2} />
+                                            ))}
+                                        </div>
+                                        <span style={{ fontSize: '13px', fontWeight: '800', color: 'var(--text)' }}>{rating} / 5.0</span>
+                                    </div>
+                                </div>
+                                {book.isbn_zh && (
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                        <span style={{ fontSize: '13px', color: 'var(--text-muted)' }}>ISBN：</span>
+                                        <span style={{ fontSize: '13px', fontWeight: '600', fontFamily: 'monospace', color: 'var(--text)' }}>{book.isbn_zh}</span>
+                                    </div>
+                                )}
+                                {book.playlist && (
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                        <span style={{ fontSize: '13px', color: 'var(--text-muted)' }}>收錄於：</span>
+                                        <span style={{ fontSize: '13px', fontWeight: '600', color: 'var(--primary)' }}>{book.playlist}</span>
+                                    </div>
+                                )}
                             </div>
-                        )}
+
+                            {/* Books.com.tw Buy Link */}
+                            <a
+                                href={booksUrl}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                style={{
+                                    marginTop: '16px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                                    padding: '10px 18px', borderRadius: '8px', background: 'var(--accent)', color: 'white',
+                                    textDecoration: 'none', fontSize: '13px', fontWeight: '750', width: 'fit-content',
+                                    transition: 'all 0.15s ease', boxShadow: '0 4px 10px rgba(202,122,44,0.2)'
+                                }}
+                                onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent-light)'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
+                                onMouseLeave={e => { e.currentTarget.style.background = 'var(--accent)'; e.currentTarget.style.transform = 'none'; }}
+                            >
+                                <ShoppingBag size={14} />
+                                {language === 'zh' ? '在 博客來 購買此書' : 'Buy Book on Books.com.tw'}
+                            </a>
+                        </div>
                     </div>
 
-                    {/* Right: details */}
-                    <div style={{ flex: 1, minWidth: '280px', display: 'flex', flexDirection: 'column', gap: '20px' }}>
-                        {/* Tags */}
-                        <div>
-                            <h3 style={{ margin: '0 0 8px', fontSize: '12px', fontWeight: '700', color: '#6b6459', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                                {t('tags')}
-                            </h3>
-                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px' }}>
-                                {(book.tags || []).map((tag, i) => (
-                                    <span key={i} style={{
-                                        fontSize: '13px', padding: '5px 14px', borderRadius: '999px',
-                                        background: '#f0ebe0', color: '#2d2a24', fontWeight: '500',
-                                        border: '1px solid #e0d8cc',
+                    {/* Section 1: Detailed Insight (重點導讀) */}
+                    <section id="insight" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                        <h2 style={{
+                            margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
+                            color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
+                            borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
+                        }}>
+                            <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
+                            {language === 'zh' ? '重點導讀' : 'Detailed Insight'}
+                        </h2>
+                        <div style={{
+                            fontSize: '16px', lineHeight: '1.85', color: 'var(--text-secondary)',
+                            letterSpacing: '0.01em', textAlign: 'justify'
+                        }}>
+                            {description.split('\n').map((para, i) => (
+                                <p key={i} style={{ marginBottom: '16px' }}>{para}</p>
+                            ))}
+                        </div>
+                    </section>
+
+                    {/* Section 2: Core Quotes (核心金句) */}
+                    {book.quotes && book.quotes.length > 0 && (
+                        <section id="quotes" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                            <h2 style={{
+                                margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
+                                color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
+                                borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
+                            }}>
+                                <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
+                                {language === 'zh' ? '核心金句' : 'Core Quotes'}
+                            </h2>
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                                {book.quotes.map((quote, i) => (
+                                    <blockquote key={i} style={{
+                                        margin: 0, padding: '20px 24px', borderRadius: '12px',
+                                        background: 'var(--tag-bg)', borderLeft: '4px solid var(--primary)',
+                                        position: 'relative', overflow: 'hidden'
                                     }}>
-                                        {translateTag(tag)}
-                                    </span>
+                                        <Quote size={48} style={{
+                                            position: 'absolute', right: '12px', bottom: '-4px',
+                                            color: 'var(--primary)', opacity: 0.08, pointerEvents: 'none'
+                                        }} />
+                                        <p style={{
+                                            margin: 0, fontSize: '15px', fontWeight: '700',
+                                            lineHeight: '1.7', color: 'var(--primary-dark)',
+                                            position: 'relative', zIndex: 1
+                                        }}>
+                                            「{quote}」
+                                        </p>
+                                    </blockquote>
                                 ))}
                             </div>
-                        </div>
+                        </section>
+                    )}
 
-                        {/* Playlist card */}
-                        <div style={{
-                            background: '#f0ebe0', borderRadius: '12px', padding: '16px 20px',
-                        }}>
-                            <div style={{ fontSize: '12px', color: '#6b6459', fontWeight: '600', marginBottom: '4px' }}>{t('playlists')}</div>
-                            <div style={{ fontSize: '15px', color: '#2d2a24', fontWeight: '600' }}>{book.playlist}</div>
-                        </div>
-
-                        {/* Description card */}
-                        {description && (
-                            <div style={{
-                                background: 'white', borderRadius: 'var(--radius-md)', padding: '28px',
-                                border: '1px solid var(--border-light)',
-                                boxShadow: 'var(--card-shadow)'
+                    {/* Section 3: Outline / Index (內容大綱) */}
+                    {book.outline && book.outline.length > 0 && (
+                        <section id="outline" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                            <h2 style={{
+                                margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
+                                color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
+                                borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
                             }}>
-                                <h3 style={{ margin: '0 0 16px', fontSize: '16px', fontWeight: '800', color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                    <span style={{ width: '4px', height: '16px', background: 'var(--primary)', borderRadius: '2px' }} />
-                                    {language === 'zh' ? '書籍內容詳解' : 'Detailed Insight'}
-                                </h3>
-                                <p style={{ margin: 0, fontSize: '15px', lineHeight: '1.85', color: 'var(--text-secondary)', letterSpacing: '0.01em' }}>
-                                    {description}
-                                </p>
+                                <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
+                                {language === 'zh' ? '內容大綱 (Index)' : 'Book Outline'}
+                            </h2>
+                            <div style={{
+                                background: 'white', borderRadius: 'var(--radius-md)', padding: '24px',
+                                border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)',
+                                display: 'flex', flexDirection: 'column', gap: '14px'
+                            }}>
+                                {book.outline.map((chapter, i) => (
+                                    <div key={i} style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
+                                        <div style={{
+                                            display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                            width: '24px', height: '24px', borderRadius: '6px',
+                                            background: 'var(--tag-bg)', color: 'var(--primary)',
+                                            fontSize: '12px', fontWeight: '800', flexShrink: 0, marginTop: '2px'
+                                        }}>
+                                            {i + 1}
+                                        </div>
+                                        <span style={{ fontSize: '15px', color: 'var(--text-secondary)', fontWeight: '600', lineHeight: '1.4' }}>
+                                            {chapter}
+                                        </span>
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+                    )}
+
+                    {/* Section 4: Video Review (說書影片) */}
+                    <section id="video" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                        <h2 style={{
+                            margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
+                            color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
+                            borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
+                        }}>
+                            <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
+                            {language === 'zh' ? '說書影片' : 'Video Summary'}
+                        </h2>
+                        {book.video_id ? (
+                            <div style={{
+                                position: 'relative', paddingBottom: '56.25%', height: 0,
+                                borderRadius: 'var(--radius-md)', overflow: 'hidden',
+                                boxShadow: 'var(--card-shadow-hover)', border: '1px solid var(--border-light)'
+                            }}>
+                                <iframe
+                                    src={`https://www.youtube.com/embed/${book.video_id}`}
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                                />
+                            </div>
+                        ) : (
+                            <div style={{
+                                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                height: '200px', background: 'white', borderRadius: '12px',
+                                border: '1px solid var(--border-light)', color: 'var(--text-muted)'
+                            }}>
+                                {language === 'zh' ? '暫無影片介紹' : 'No video available'}
                             </div>
                         )}
+                    </section>
 
-                        {/* Author Bio card */}
-                        {authorInfo && (
-                            <div style={{
-                                background: 'white', borderRadius: '12px', padding: '20px',
-                                border: '1px solid #e0d8cc', borderLeft: '4px solid #0097a7'
+                    {/* Section 5: Author Info (關於作者) */}
+                    {authorInfo && (
+                        <section id="author" style={{ marginBottom: '24px', scrollMarginTop: '100px' }}>
+                            <h2 style={{
+                                margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
+                                color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
+                                borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
                             }}>
-                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-                                    <h3 style={{ margin: 0, fontSize: '14px', fontWeight: '700', color: '#2d2a24', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                        <Users size={16} color="#0097a7" /> {t('aboutAuthor')}
-                                    </h3>
-                                    <Link to={`/author/${authorInfo.id}`} style={{ fontSize: '12px', color: '#0097a7', textDecoration: 'none', fontWeight: '600' }}>
-                                        {t('viewProfile')}
+                                <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
+                                {language === 'zh' ? '關於作者' : 'About the Author'}
+                            </h2>
+                            <div style={{
+                                background: 'white', borderRadius: 'var(--radius-md)', padding: '24px',
+                                border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)',
+                                display: 'flex', flexDirection: 'column', gap: '16px'
+                            }}>
+                                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                                    <div>
+                                        <h3 style={{ margin: 0, fontSize: '18px', fontWeight: '800', color: 'var(--text)' }}>
+                                            {language === 'en' ? (authorInfo.name_en || authorInfo.name) : (authorInfo.name_zh || authorInfo.name)}
+                                        </h3>
+                                        <p style={{ margin: '4px 0 0', fontSize: '13px', color: 'var(--text-muted)', fontWeight: '600' }}>
+                                            {authorInfo.career}
+                                        </p>
+                                    </div>
+                                    <Link
+                                        to={`/author/${authorInfo.id}`}
+                                        style={{
+                                            display: 'inline-flex', alignItems: 'center', gap: '4px',
+                                            fontSize: '13px', color: 'var(--primary)', textDecoration: 'none',
+                                            fontWeight: '700', padding: '6px 12px', borderRadius: '6px',
+                                            background: 'var(--sidebar-active)', transition: 'background 0.15s ease'
+                                        }}
+                                    >
+                                        {language === 'zh' ? '查看檔案' : 'View Profile'}
+                                        <ArrowLeft size={12} style={{ transform: 'rotate(180deg)' }} />
                                     </Link>
                                 </div>
-                                <p style={{ margin: 0, fontSize: '14px', lineHeight: '1.8', color: '#2d2a24', display: '-webkit-box', WebkitLineClamp: '3', WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+                                <p style={{
+                                    margin: 0, fontSize: '15px', lineHeight: '1.75',
+                                    color: 'var(--text-secondary)', textAlign: 'justify'
+                                }}>
                                     {authorInfo.bio}
                                 </p>
                             </div>
-                        )}
+                        </section>
+                    )}
 
-                        {/* Book Metadata Section (ISBN, Language) */}
-                        {(book.isbn_en || book.isbn_zh || book.original_language) && (
-                            <div style={{
-                                marginTop: '12px',
-                                padding: '16px',
-                                background: 'white',
-                                borderRadius: 'var(--radius-md)',
-                                border: '1px solid var(--border)',
-                            }}>
-                                <div style={{ 
-                                    display: 'flex', 
-                                    alignItems: 'center', 
-                                    gap: '8px', 
-                                    marginBottom: '12px',
-                                    paddingBottom: '8px',
-                                    borderBottom: '1px solid var(--border-light)'
-                                }}>
-                                    <Globe size={16} color="var(--primary)" />
-                                    <span style={{ fontSize: '13px', fontWeight: '700', color: 'var(--text)' }}>
-                                        {t('publishingInfo')}
-                                    </span>
-                                </div>
-                                
-                                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                                    {book.isbn_en && book.isbn_en !== book.isbn_zh && (
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{t('isbnEn')}</span>
-                                            <span style={{ fontSize: '12px', fontWeight: '600', fontFamily: 'monospace', color: 'var(--text)' }}>{book.isbn_en}</span>
-                                        </div>
-                                    )}
-                                    {book.isbn_zh && (
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{t('isbnZh')}</span>
-                                            <span style={{ fontSize: '12px', fontWeight: '600', fontFamily: 'monospace', color: 'var(--text)' }}>{book.isbn_zh}</span>
-                                        </div>
-                                    )}
-                                    {book.original_language && (
-                                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                                            <span style={{ fontSize: '12px', color: 'var(--text-secondary)' }}>{t('originalLanguage')}</span>
-                                            <span style={{ 
-                                                fontSize: '10px', 
-                                                fontWeight: '700', 
-                                                color: 'var(--primary)', 
-                                                padding: '2px 6px', 
-                                                borderRadius: '4px',
-                                                background: 'var(--primary-glow)',
-                                                textTransform: 'uppercase'
-                                            }}>
-                                                {book.original_language === 'en' ? 'English' : 
-                                                 book.original_language === 'ja' ? 'Japanese' : 
-                                                 book.original_language === 'zh' ? 'Chinese' : book.original_language}
-                                            </span>
-                                        </div>
-                                    )}
-                                </div>
-                            </div>
-                        )}
+                </article>
 
-                        {/* YouTube links card */}
-                        <div style={{
-                            background: 'white', borderRadius: '12px', padding: '20px',
-                            border: '1px solid #e0d8cc',
-                        }}>
-                            <h3 style={{ margin: '0 0 16px', fontSize: '14px', fontWeight: '700', color: '#2d2a24', display: 'flex', alignItems: 'center', gap: '8px' }}>
-                                <Youtube size={18} /> YouTube
-                            </h3>
-
-                            {/* Chinese version */}
-                            {book.youtube_url && (
-                                <div style={{ marginBottom: book.english_url ? '16px' : '0' }}>
-                                    <div style={{ fontSize: '12px', color: '#6b6459', display: 'flex', alignItems: 'center', gap: '4px', marginBottom: '4px' }}>
-                                        <Globe size={12} /> {language === 'zh' ? '中文版' : 'Chinese Version'}
-                                    </div>
-                                    <a
-                                        href={book.youtube_url}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        style={{ fontSize: '14px', color: '#0097a7', wordBreak: 'break-all' }}
-                                    >
-                                        {book.youtube_url}
-                                    </a>
-                                    {book.english_url && (
-                                        <div style={{ borderBottom: '1px solid #e8e2d8', margin: '16px 0 0' }} />
-                                    )}
-                                </div>
-                            )}
-
-                            {/* English version */}
-                            {book.english_url && (
-                                <div>
-                                    <div style={{ fontSize: '12px', color: '#6b6459', display: 'flex', alignItems: 'center', gap: '4px', marginBottom: '4px' }}>
-                                        <Globe size={12} /> {language === 'zh' ? '英文版' : 'English Version'}
-                                    </div>
-                                    <a
-                                        href={book.english_url}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        style={{ fontSize: '14px', color: '#0097a7', wordBreak: 'break-all' }}
-                                    >
-                                        {book.english_url}
-                                    </a>
-                                </div>
-                            )}
-                        </div>
-                    </div>
-                </div>
             </div>
+
+            {/* PWA Bottom Navigation (Only visible on mobile) */}
+            <BottomNavbar />
         </div>
     );
 }

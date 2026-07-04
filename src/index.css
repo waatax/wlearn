@@ -304,3 +304,10 @@ img {
     display: none !important;
   }
 }
+
+/* Table of Contents sidebar mobile responsive */
+@media (max-width: 992px) {
+  .toc-sidebar {
+    display: none !important;
+  }
+}
