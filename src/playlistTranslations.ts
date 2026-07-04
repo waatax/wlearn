@@ -16,6 +16,10 @@ export const PLAYLIST_TRANSLATIONS: Record<string, Record<string, string>> = {
     en: 'Book TALK - DeepDive Podcast S4',
     zh: 'Book TALK - DeepDive Podcast S4'
   },
+  'Book TALK - DeepDive Podcast S5': {
+    en: 'Book TALK - DeepDive Podcast S5',
+    zh: 'Book TALK - DeepDive Podcast S5'
+  },
   '2025 Summer VS Explainer': {
     en: '2025 Summer VS Explainer',
     zh: '2025 Summer VS Explainer'

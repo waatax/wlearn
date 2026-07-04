@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "book_110",
     "title_cn": "思辯賽局",
@@ -303,6 +303,22 @@
     "tags": [
       "商業與創業",
       "投資理財"
+    ]
+  },
+  {
+    "id": "book_542",
+    "title_cn": "The Cafe on the Edge of the World",
+    "title_en": "The Cafe on the Edge of the World",
+    "author": "John Strelecky",
+    "code": "S5-42",
+    "video_id": "_oglrhDPqx0",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 146,
+    "total_views": 146,
+    "thumbnail": "https://img.youtube.com/vi/_oglrhDPqx0/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   },
   {
@@ -1921,6 +1937,22 @@
     ]
   },
   {
+    "id": "book_521",
+    "title_cn": "21 Letters on Life and Its Challenges",
+    "title_en": "21 Letters on Life and Its Challenges",
+    "author": "Charles Handy",
+    "code": "S5-21",
+    "video_id": "McYuELpsoa0",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 46,
+    "total_views": 46,
+    "thumbnail": "https://img.youtube.com/vi/McYuELpsoa0/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_91",
     "title_cn": "定位",
     "title_en": "Positioning  The Battle for Your Mind",
@@ -2053,6 +2085,22 @@
     "thumbnail": "https://img.youtube.com/vi/gx8bApfrL54/mqdefault.jpg",
     "tags": [
       "藝術與文化"
+    ]
+  },
+  {
+    "id": "book_511",
+    "title_cn": "Judgment in Managerial Decision",
+    "title_en": "Judgment in Managerial Decision",
+    "author": "Max H. Bazerman",
+    "code": "S5-11",
+    "video_id": "1WF_mfWhBzg",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 43,
+    "total_views": 43,
+    "thumbnail": "https://img.youtube.com/vi/1WF_mfWhBzg/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   },
   {
@@ -2525,6 +2573,22 @@
       "心智與思維",
       "心理學",
       "思維方式"
+    ]
+  },
+  {
+    "id": "book_566",
+    "title_cn": "Recapture the Rapture",
+    "title_en": "Recapture the Rapture",
+    "author": "Jamie Wheal",
+    "code": "S5-66",
+    "video_id": "3ODEjDrSiws",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 36,
+    "total_views": 36,
+    "thumbnail": "https://img.youtube.com/vi/3ODEjDrSiws/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   },
   {
@@ -3071,6 +3135,22 @@
       "個人成長",
       "寫作與表達",
       "藝術與文化"
+    ]
+  },
+  {
+    "id": "book_537",
+    "title_cn": "How to Do Things You Hate",
+    "title_en": "How to Do Things You Hate",
+    "author": "Peter Hollins",
+    "code": "S5-37",
+    "video_id": "zb4qlhpRrH8",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 30,
+    "total_views": 30,
+    "thumbnail": "https://img.youtube.com/vi/zb4qlhpRrH8/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   },
   {
@@ -3697,6 +3777,22 @@
     ]
   },
   {
+    "id": "book_531",
+    "title_cn": "Zero to One",
+    "title_en": "Zero to One",
+    "author": "彼得·蒂爾",
+    "code": "S5-31",
+    "video_id": "VZYLw47wSOU",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 26,
+    "total_views": 26,
+    "thumbnail": "https://img.youtube.com/vi/VZYLw47wSOU/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_5",
     "title_cn": "貝佐斯傳",
     "title_en": "The Everything Store   Jeff Bezos and the Age of Amazon",
@@ -4053,6 +4149,22 @@
     ]
   },
   {
+    "id": "book_567",
+    "title_cn": "Factfulness",
+    "title_en": "Factfulness",
+    "author": "Hans Rosling",
+    "code": "S5-67",
+    "video_id": "fqGEJFMLpk4",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 24,
+    "total_views": 24,
+    "thumbnail": "https://img.youtube.com/vi/fqGEJFMLpk4/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_21",
     "title_cn": "做自己的生命設計師",
     "title_en": "Designing Your Life",
@@ -4406,6 +4518,22 @@
     ]
   },
   {
+    "id": "book_518",
+    "title_cn": "You re About to Make a Terrible Mistake",
+    "title_en": "You re About to Make a Terrible Mistake",
+    "author": "Olivier Sibony",
+    "code": "S5-18",
+    "video_id": "B77aHjgZg8s",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 22,
+    "total_views": 22,
+    "thumbnail": "https://img.youtube.com/vi/B77aHjgZg8s/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_84",
     "title_cn": "散漫者的學習法",
     "title_en": null,
@@ -4708,6 +4836,22 @@
     "tags": [
       "個人成長",
       "推薦書籍"
+    ]
+  },
+  {
+    "id": "book_554",
+    "title_cn": "Brief Answers to the Big Questions",
+    "title_en": "Brief Answers to the Big Questions",
+    "author": "Stephen Hawking’s",
+    "code": "S5-54",
+    "video_id": "ejxuVuGrHys",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 21,
+    "total_views": 21,
+    "thumbnail": "https://img.youtube.com/vi/ejxuVuGrHys/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   },
   {
@@ -5186,6 +5330,54 @@
     ]
   },
   {
+    "id": "book_510",
+    "title_cn": "Better, Not Perfect",
+    "title_en": "Better, Not Perfect",
+    "author": "Max H. Bazerman",
+    "code": "S5-10",
+    "video_id": "I8FMf-Cz6ZA",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 18,
+    "total_views": 18,
+    "thumbnail": "https://img.youtube.com/vi/I8FMf-Cz6ZA/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_538",
+    "title_cn": "How to Deal With Idiots",
+    "title_en": "How to Deal With Idiots",
+    "author": "Maxime Rovere",
+    "code": "S5-38",
+    "video_id": "6Kt8aqiFGY8",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 18,
+    "total_views": 18,
+    "thumbnail": "https://img.youtube.com/vi/6Kt8aqiFGY8/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_557",
+    "title_cn": "The First Rule of Mastery",
+    "title_en": "The First Rule of Mastery",
+    "author": "Stop Worrying about what people think of you",
+    "code": "S5-57",
+    "video_id": "EHCkqLGNqtA",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 18,
+    "total_views": 18,
+    "thumbnail": "https://img.youtube.com/vi/EHCkqLGNqtA/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_92",
     "title_cn": "剛剛好的孤獨",
     "title_en": "Solitude just right",
@@ -5425,6 +5617,22 @@
     ]
   },
   {
+    "id": "book_541",
+    "title_cn": "The Joy of Science",
+    "title_en": "The Joy of Science",
+    "author": "Jim Al Khalili",
+    "code": "S5-41",
+    "video_id": "bjj_IR3F4gY",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 17,
+    "total_views": 17,
+    "thumbnail": "https://img.youtube.com/vi/bjj_IR3F4gY/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_26",
     "title_cn": "麥肯錫團隊協作力",
     "title_en": "McKinsey Team Collaboration",
@@ -5646,6 +5854,38 @@
     ]
   },
   {
+    "id": "book_519",
+    "title_cn": "Nothing Changes Until You Do",
+    "title_en": "Nothing Changes Until You Do",
+    "author": "Mike Robbins",
+    "code": "S5-19",
+    "video_id": "ZwSChWKcVzs",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 16,
+    "total_views": 16,
+    "thumbnail": "https://img.youtube.com/vi/ZwSChWKcVzs/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_553",
+    "title_cn": "What Are You Doing With Your Life",
+    "title_en": "What Are You Doing With Your Life",
+    "author": "What Are You Doing With Your Life",
+    "code": "S5-53",
+    "video_id": "qrbdBn9sJsg",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 16,
+    "total_views": 16,
+    "thumbnail": "https://img.youtube.com/vi/qrbdBn9sJsg/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_78",
     "title_cn": "可複製的溝通力",
     "title_en": null,
@@ -5799,6 +6039,38 @@
     ]
   },
   {
+    "id": "book_529",
+    "title_cn": "The Manager's Handbook",
+    "title_en": "The Manager's Handbook",
+    "author": "David Dodson",
+    "code": "S5-29",
+    "video_id": "LSrBekfdLF0",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 15,
+    "total_views": 15,
+    "thumbnail": "https://img.youtube.com/vi/LSrBekfdLF0/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_536",
+    "title_cn": "How to Have a Good Day",
+    "title_en": "How to Have a Good Day",
+    "author": "Caroline Webb",
+    "code": "S5-36",
+    "video_id": "6JQSICkgVSE",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 15,
+    "total_views": 15,
+    "thumbnail": "https://img.youtube.com/vi/6JQSICkgVSE/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_81",
     "title_cn": "哈佛寫作課",
     "title_en": "Telling True Stories",
@@ -5946,6 +6218,22 @@
     "tags": [
       "個人成長",
       "推薦書籍"
+    ]
+  },
+  {
+    "id": "book_547",
+    "title_cn": "Black Box Thinking",
+    "title_en": "Black Box Thinking",
+    "author": "Matthew Syed",
+    "code": "S5-47",
+    "video_id": "Uuwu5WNZ7Rg",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 14,
+    "total_views": 14,
+    "thumbnail": "https://img.youtube.com/vi/Uuwu5WNZ7Rg/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   },
   {
@@ -6100,6 +6388,54 @@
     "tags": [
       "個人成長",
       "推薦書籍"
+    ]
+  },
+  {
+    "id": "book_548",
+    "title_cn": "When McKinsey Comes to Town",
+    "title_en": "When McKinsey Comes to Town",
+    "author": "Walt Bogdanich",
+    "code": "S5-48",
+    "video_id": "BlM0Vxm2H6c",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 13,
+    "total_views": 13,
+    "thumbnail": "https://img.youtube.com/vi/BlM0Vxm2H6c/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_550",
+    "title_cn": "A New Way to Think",
+    "title_en": "A New Way to Think",
+    "author": "Roger L",
+    "code": "S5-50",
+    "video_id": "nbQNUqpxkHk",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 13,
+    "total_views": 13,
+    "thumbnail": "https://img.youtube.com/vi/nbQNUqpxkHk/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_568",
+    "title_cn": "Rule Breaker Investing",
+    "title_en": "Rule Breaker Investing",
+    "author": "David Gardner",
+    "code": "S5-68",
+    "video_id": "JKydxUm7zRs",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 13,
+    "total_views": 13,
+    "thumbnail": "https://img.youtube.com/vi/JKydxUm7zRs/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   },
   {
@@ -6406,6 +6742,54 @@
     ]
   },
   {
+    "id": "book_505",
+    "title_cn": "The Journey of Leadership",
+    "title_en": "The Journey of Leadership",
+    "author": "Dana Maor",
+    "code": "S5-05",
+    "video_id": "WGigjOJP1ww",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 12,
+    "total_views": 12,
+    "thumbnail": "https://img.youtube.com/vi/WGigjOJP1ww/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_513",
+    "title_cn": "Best Self Be You, Only Better",
+    "title_en": "Best Self Be You, Only Better",
+    "author": "Mike Bayer",
+    "code": "S5-13",
+    "video_id": "BBB32aBhoXk",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 12,
+    "total_views": 12,
+    "thumbnail": "https://img.youtube.com/vi/BBB32aBhoXk/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_517",
+    "title_cn": "There's Got to Be a Better Way",
+    "title_en": "There's Got to Be a Better Way",
+    "author": "Nelson P. Repenning & Donald C. Kieffer",
+    "code": "S5-17",
+    "video_id": "EUGWW6Gmovc",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 12,
+    "total_views": 12,
+    "thumbnail": "https://img.youtube.com/vi/EUGWW6Gmovc/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_38",
     "title_cn": "拖延心理學",
     "title_en": "Taming Procrastination",
@@ -6573,6 +6957,54 @@
     "tags": [
       "個人成長",
       "推薦書籍"
+    ]
+  },
+  {
+    "id": "book_520",
+    "title_cn": "Ideaflow",
+    "title_en": "Ideaflow",
+    "author": "The Only Business Metric That Matters",
+    "code": "S5-20",
+    "video_id": "GEOOxczHumM",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 11,
+    "total_views": 11,
+    "thumbnail": "https://img.youtube.com/vi/GEOOxczHumM/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_559",
+    "title_cn": "Level Up Why Game Designers Hate Fun",
+    "title_en": "Level Up Why Game Designers Hate Fun",
+    "author": "Level Up Why Game Designers Hate Fun",
+    "code": "S5-59",
+    "video_id": "ZyhOQTQYLNE",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 11,
+    "total_views": 11,
+    "thumbnail": "https://img.youtube.com/vi/ZyhOQTQYLNE/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_569",
+    "title_cn": "Feeling Smart",
+    "title_en": "Feeling Smart",
+    "author": "Eyal Winter",
+    "code": "S5-69",
+    "video_id": "R-9eBxLkyks",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 11,
+    "total_views": 11,
+    "thumbnail": "https://img.youtube.com/vi/R-9eBxLkyks/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   },
   {
@@ -6747,6 +7179,54 @@
     ]
   },
   {
+    "id": "book_512",
+    "title_cn": "A vulnerable system",
+    "title_en": "A vulnerable system",
+    "author": "Andrew J. Stewart",
+    "code": "S5-12",
+    "video_id": "fjB113uJ2ic",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 10,
+    "total_views": 10,
+    "thumbnail": "https://img.youtube.com/vi/fjB113uJ2ic/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_549",
+    "title_cn": "The Focus Fix",
+    "title_en": "The Focus Fix",
+    "author": "Chris Griffiths",
+    "code": "S5-49",
+    "video_id": "4Bv40r6GCDQ",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 10,
+    "total_views": 10,
+    "thumbnail": "https://img.youtube.com/vi/4Bv40r6GCDQ/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_561",
+    "title_cn": "Moral Ambition",
+    "title_en": "Moral Ambition",
+    "author": "Rutger Bregman",
+    "code": "S5-61",
+    "video_id": "DqBTmP6EhyA",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 10,
+    "total_views": 10,
+    "thumbnail": "https://img.youtube.com/vi/DqBTmP6EhyA/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_79",
     "title_cn": "寫作是最好得自我投資",
     "title_en": null,
@@ -6865,6 +7345,54 @@
     "tags": [
       "個人成長",
       "推薦書籍"
+    ]
+  },
+  {
+    "id": "book_502",
+    "title_cn": "Learned Excellence",
+    "title_en": "Learned Excellence",
+    "author": "Eric Potterat",
+    "code": "S5-02",
+    "video_id": "SBSpePpg8Ek",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 9,
+    "total_views": 9,
+    "thumbnail": "https://img.youtube.com/vi/SBSpePpg8Ek/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_524",
+    "title_cn": "The Price of Money",
+    "title_en": "The Price of Money",
+    "author": "Rob Dix",
+    "code": "S5-24",
+    "video_id": "OqV8t0pzYSI",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 9,
+    "total_views": 9,
+    "thumbnail": "https://img.youtube.com/vi/OqV8t0pzYSI/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_552",
+    "title_cn": "The Metaverse",
+    "title_en": "The Metaverse",
+    "author": "Matthew Ball",
+    "code": "S5-52",
+    "video_id": "9LCg65nzTX8",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 9,
+    "total_views": 9,
+    "thumbnail": "https://img.youtube.com/vi/9LCg65nzTX8/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   },
   {
@@ -7003,6 +7531,54 @@
     ]
   },
   {
+    "id": "book_546",
+    "title_cn": "11 Rules For Life",
+    "title_en": "11 Rules For Life",
+    "author": "Chetan Bhagat",
+    "code": "S5-46",
+    "video_id": "qEgDoXqPvOU",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 8,
+    "total_views": 8,
+    "thumbnail": "https://img.youtube.com/vi/qEgDoXqPvOU/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_556",
+    "title_cn": "Coming into View Can AI Outrun The Debt Crisis",
+    "title_en": "Coming into View Can AI Outrun The Debt Crisis",
+    "author": "Coming into View Can AI Outrun The Debt Crisis",
+    "code": "S5-56",
+    "video_id": "ysnbZp4tlCo",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 8,
+    "total_views": 8,
+    "thumbnail": "https://img.youtube.com/vi/ysnbZp4tlCo/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_558",
+    "title_cn": "The Molecule of More",
+    "title_en": "The Molecule of More",
+    "author": "Dopamine Is About Wanting Not Liking",
+    "code": "S5-58",
+    "video_id": "EyjyqDhjyto",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 8,
+    "total_views": 8,
+    "thumbnail": "https://img.youtube.com/vi/EyjyqDhjyto/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_49",
     "title_cn": "讀懂一本書",
     "title_en": null,
@@ -7086,6 +7662,54 @@
     "tags": [
       "個人成長",
       "推薦書籍"
+    ]
+  },
+  {
+    "id": "book_526",
+    "title_cn": "My Money Journey",
+    "title_en": "My Money Journey",
+    "author": "Jonathan Clements",
+    "code": "S5-26",
+    "video_id": "riN1vHnqR8A",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 7,
+    "total_views": 7,
+    "thumbnail": "https://img.youtube.com/vi/riN1vHnqR8A/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_534",
+    "title_cn": "The Journey Beyond Fear",
+    "title_en": "The Journey Beyond Fear",
+    "author": "John Hagel III",
+    "code": "S5-34",
+    "video_id": "sSGFIUCqkbA",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 7,
+    "total_views": 7,
+    "thumbnail": "https://img.youtube.com/vi/sSGFIUCqkbA/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_555",
+    "title_cn": "The 5 AM Club The 5 AM Club Rewires Your Brain",
+    "title_en": "The 5 AM Club The 5 AM Club Rewires Your Brain",
+    "author": "The 5 AM Club The 5 AM Club Rewires Your Brain",
+    "code": "S5-55",
+    "video_id": "yK_yi30dr94",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 7,
+    "total_views": 7,
+    "thumbnail": "https://img.youtube.com/vi/yK_yi30dr94/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   },
   {
@@ -7188,6 +7812,86 @@
     "tags": [
       "個人成長",
       "推薦書籍"
+    ]
+  },
+  {
+    "id": "book_501",
+    "title_cn": "Limitless",
+    "title_en": "Limitless",
+    "author": "吉姆·乐維克",
+    "code": "S5-01",
+    "video_id": "XepwLVlX0-g",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 6,
+    "total_views": 6,
+    "thumbnail": "https://img.youtube.com/vi/XepwLVlX0-g/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_523",
+    "title_cn": "The Richest Man in Babylon",
+    "title_en": "The Richest Man in Babylon",
+    "author": "George S",
+    "code": "S5-23",
+    "video_id": "vDCF6uipXDI",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 6,
+    "total_views": 6,
+    "thumbnail": "https://img.youtube.com/vi/vDCF6uipXDI/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_540",
+    "title_cn": "Difficult Conversations",
+    "title_en": "Difficult Conversations",
+    "author": "Bruce Patton",
+    "code": "S5-40",
+    "video_id": "6Of6ZcJ9T8k",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 6,
+    "total_views": 6,
+    "thumbnail": "https://img.youtube.com/vi/6Of6ZcJ9T8k/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_563",
+    "title_cn": "The Next Millionaire Next Door",
+    "title_en": "The Next Millionaire Next Door",
+    "author": "D  J  D",
+    "code": "S5-63",
+    "video_id": "daHc6_TtLR8",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 6,
+    "total_views": 6,
+    "thumbnail": "https://img.youtube.com/vi/daHc6_TtLR8/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_564",
+    "title_cn": "Tune In",
+    "title_en": "Tune In",
+    "author": "Nuala Walsh",
+    "code": "S5-64",
+    "video_id": "RZFktPMkZ8s",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 6,
+    "total_views": 6,
+    "thumbnail": "https://img.youtube.com/vi/RZFktPMkZ8s/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   },
   {
@@ -7310,6 +8014,102 @@
     ]
   },
   {
+    "id": "book_507",
+    "title_cn": "Negotiation",
+    "title_en": "Negotiation",
+    "author": "The Game Has Changed",
+    "code": "S5-07",
+    "video_id": "FD2sIhIJ8w8",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 5,
+    "total_views": 5,
+    "thumbnail": "https://img.youtube.com/vi/FD2sIhIJ8w8/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_508",
+    "title_cn": "COMPLICIT",
+    "title_en": "COMPLICIT",
+    "author": "How We Enable the Unethical and How to Stop",
+    "code": "S5-08",
+    "video_id": "ZcGM9QEOdaI",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 5,
+    "total_views": 5,
+    "thumbnail": "https://img.youtube.com/vi/ZcGM9QEOdaI/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_509",
+    "title_cn": "Blind Spots",
+    "title_en": "Blind Spots",
+    "author": "Max H. Bazerman",
+    "code": "S5-09",
+    "video_id": "Wp39AywhXoc",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 5,
+    "total_views": 5,
+    "thumbnail": "https://img.youtube.com/vi/Wp39AywhXoc/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_516",
+    "title_cn": "The Beyond Addiction Workbook for family and friends",
+    "title_en": "The Beyond Addiction Workbook for family and friends",
+    "author": "Jeffrey Foote",
+    "code": "S5-16",
+    "video_id": "4X4tHddsIPE",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 5,
+    "total_views": 5,
+    "thumbnail": "https://img.youtube.com/vi/4X4tHddsIPE/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_539",
+    "title_cn": "Healthy Brain, Happy Life",
+    "title_en": "Healthy Brain, Happy Life",
+    "author": "Wendy Suzuki",
+    "code": "S5-39",
+    "video_id": "_J_FlDyYqXg",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 5,
+    "total_views": 5,
+    "thumbnail": "https://img.youtube.com/vi/_J_FlDyYqXg/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_560",
+    "title_cn": "Burn the Boats",
+    "title_en": "Burn the Boats",
+    "author": "Matt Higgins",
+    "code": "S5-60",
+    "video_id": "7xzrTtVMOLo",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 5,
+    "total_views": 5,
+    "thumbnail": "https://img.youtube.com/vi/7xzrTtVMOLo/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_97",
     "title_cn": "最高學習法",
     "title_en": null,
@@ -7324,6 +8124,134 @@
     "tags": [
       "人文與科學",
       "推薦書籍"
+    ]
+  },
+  {
+    "id": "book_506",
+    "title_cn": "Algorithms for Decision Making",
+    "title_en": "Algorithms for Decision Making",
+    "author": "Mykel J",
+    "code": "S5-06",
+    "video_id": "fk91PPHM2o8",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 4,
+    "total_views": 4,
+    "thumbnail": "https://img.youtube.com/vi/fk91PPHM2o8/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_522",
+    "title_cn": "Buffett and Munger Unscripted",
+    "title_en": "Buffett and Munger Unscripted",
+    "author": "Alex W",
+    "code": "S5-22",
+    "video_id": "UZQKW7QupUc",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 4,
+    "total_views": 4,
+    "thumbnail": "https://img.youtube.com/vi/UZQKW7QupUc/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_528",
+    "title_cn": "Leadership at Scale",
+    "title_en": "Leadership at Scale",
+    "author": "Claudio Feser",
+    "code": "S5-28",
+    "video_id": "67HVkvRKC0I",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 4,
+    "total_views": 4,
+    "thumbnail": "https://img.youtube.com/vi/67HVkvRKC0I/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_530",
+    "title_cn": "Decisions That Matter",
+    "title_en": "Decisions That Matter",
+    "author": "Adrienne Adhami",
+    "code": "S5-30",
+    "video_id": "jcSg4gYmUUs",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 4,
+    "total_views": 4,
+    "thumbnail": "https://img.youtube.com/vi/jcSg4gYmUUs/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_551",
+    "title_cn": "Playing to Win",
+    "title_en": "Playing to Win",
+    "author": "How Strategy Really Works",
+    "code": "S5-51",
+    "video_id": "tMOP1RmH5Mc",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 4,
+    "total_views": 4,
+    "thumbnail": "https://img.youtube.com/vi/tMOP1RmH5Mc/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_562",
+    "title_cn": "Popular",
+    "title_en": "Popular",
+    "author": "Mitch Prinstein",
+    "code": "S5-62",
+    "video_id": "Uzxk-CbSw-o",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 4,
+    "total_views": 4,
+    "thumbnail": "https://img.youtube.com/vi/Uzxk-CbSw-o/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_565",
+    "title_cn": "Think for Yourself",
+    "title_en": "Think for Yourself",
+    "author": "Vikram Mansharamani",
+    "code": "S5-65",
+    "video_id": "1uArRX3U9MA",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 4,
+    "total_views": 4,
+    "thumbnail": "https://img.youtube.com/vi/1uArRX3U9MA/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_571",
+    "title_cn": "The Laws of Connection",
+    "title_en": "The Laws of Connection",
+    "author": "David Robson",
+    "code": "S5-71",
+    "video_id": "H5dFj7mAuHc",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 4,
+    "total_views": 4,
+    "thumbnail": "https://img.youtube.com/vi/H5dFj7mAuHc/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   },
   {
@@ -7344,6 +8272,214 @@
     ]
   },
   {
+    "id": "book_503",
+    "title_cn": "Build",
+    "title_en": "Build",
+    "author": "An Unorthodox Guide to Making Things Worth Making",
+    "code": "S5-03",
+    "video_id": "nazobyhSw1w",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 3,
+    "total_views": 3,
+    "thumbnail": "https://img.youtube.com/vi/nazobyhSw1w/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_504",
+    "title_cn": "Good Inside Parenting",
+    "title_en": "Good Inside Parenting",
+    "author": "Becky Kennedy",
+    "code": "S5-04",
+    "video_id": "luXJ0JNjNTU",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 3,
+    "total_views": 3,
+    "thumbnail": "https://img.youtube.com/vi/luXJ0JNjNTU/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_515",
+    "title_cn": "Beyond Addiction",
+    "title_en": "Beyond Addiction",
+    "author": "Jeffrey Foote, Carrie Wilkens & Nicole Kosanke",
+    "code": "S5-15",
+    "video_id": "hjnx3-UoenY",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 3,
+    "total_views": 3,
+    "thumbnail": "https://img.youtube.com/vi/hjnx3-UoenY/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_525",
+    "title_cn": "The Algebra of Wealth",
+    "title_en": "The Algebra of Wealth",
+    "author": "Scott Galloway",
+    "code": "S5-25",
+    "video_id": "5FZvndTEZSw",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 3,
+    "total_views": 3,
+    "thumbnail": "https://img.youtube.com/vi/5FZvndTEZSw/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_527",
+    "title_cn": "Unfu*k Yourself",
+    "title_en": "Unfu*k Yourself",
+    "author": "Gary John Bishop",
+    "code": "S5-27",
+    "video_id": "Gk1YdlKqJEA",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 3,
+    "total_views": 3,
+    "thumbnail": "https://img.youtube.com/vi/Gk1YdlKqJEA/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_532",
+    "title_cn": "Extreme Ownership",
+    "title_en": "Extreme Ownership",
+    "author": "Jocko Willink",
+    "code": "S5-32",
+    "video_id": "HI8NE_i2WUc",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 3,
+    "total_views": 3,
+    "thumbnail": "https://img.youtube.com/vi/HI8NE_i2WUc/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_535",
+    "title_cn": "Make Work Fair",
+    "title_en": "Make Work Fair",
+    "author": "Iris Bohnet",
+    "code": "S5-35",
+    "video_id": "i1r7KIUs5sI",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 3,
+    "total_views": 3,
+    "thumbnail": "https://img.youtube.com/vi/i1r7KIUs5sI/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_533",
+    "title_cn": "Good to Great",
+    "title_en": "Good to Great",
+    "author": "Jim Collins",
+    "code": "S5-33",
+    "video_id": "IT691WLlEIg",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 2,
+    "total_views": 2,
+    "thumbnail": "https://img.youtube.com/vi/IT691WLlEIg/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_544",
+    "title_cn": "Marketing 4.0",
+    "title_en": "Marketing 4.0",
+    "author": "Philip Kotler",
+    "code": "S5-44",
+    "video_id": "j_DGnhA6oIk",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 2,
+    "total_views": 2,
+    "thumbnail": "https://img.youtube.com/vi/j_DGnhA6oIk/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_514",
+    "title_cn": "Infectious",
+    "title_en": "Infectious",
+    "author": "Dr John S. Tregoning",
+    "code": "S5-14",
+    "video_id": "uHeq-pCUT3o",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 1,
+    "total_views": 1,
+    "thumbnail": "https://img.youtube.com/vi/uHeq-pCUT3o/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_543",
+    "title_cn": "Rewire",
+    "title_en": "Rewire",
+    "author": "Nicole Vignola",
+    "code": "S5-43",
+    "video_id": "ZqiZwNcAGEc",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 1,
+    "total_views": 1,
+    "thumbnail": "https://img.youtube.com/vi/ZqiZwNcAGEc/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_572",
+    "title_cn": "Mom and Dad We Need to Talk",
+    "title_en": "Mom and Dad We Need to Talk",
+    "author": "Cameron Huddleston",
+    "code": "S5-72",
+    "video_id": "_qNwiI0QXZE",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 1,
+    "total_views": 1,
+    "thumbnail": "https://img.youtube.com/vi/_qNwiI0QXZE/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_573",
+    "title_cn": "Metabolic Freedom",
+    "title_en": "Metabolic Freedom",
+    "author": "Ben Azadi",
+    "code": "S5-73",
+    "video_id": "sF2nORPObwM",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 1,
+    "total_views": 1,
+    "thumbnail": "https://img.youtube.com/vi/sF2nORPObwM/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
     "id": "book_295",
     "title_cn": null,
     "title_en": "The Coming Wave Technology - Power and the Twenty first Century's Greatest Dilemma",
@@ -7358,6 +8494,54 @@
     "tags": [
       "個人成長",
       "推薦書籍"
+    ]
+  },
+  {
+    "id": "book_545",
+    "title_cn": "Counselling for Toads",
+    "title_en": "Counselling for Toads",
+    "author": "Robert de Board",
+    "code": "S5-45",
+    "video_id": "fYQHx-T2aQI",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 0,
+    "total_views": 0,
+    "thumbnail": "https://img.youtube.com/vi/fYQHx-T2aQI/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_570",
+    "title_cn": "The Science of Happiness",
+    "title_en": "The Science of Happiness",
+    "author": "Bruce Hood",
+    "code": "S5-70",
+    "video_id": "7fWxDCsyZt4",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 0,
+    "total_views": 0,
+    "thumbnail": "https://img.youtube.com/vi/7fWxDCsyZt4/mqdefault.jpg",
+    "tags": [
+      "S5"
+    ]
+  },
+  {
+    "id": "book_574",
+    "title_cn": "Off the Scales",
+    "title_en": "Off the Scales",
+    "author": "Aimee Donnellan",
+    "code": "S5-74",
+    "video_id": "QkfK_MVfcPg",
+    "english_video_id": null,
+    "cn_views": 0,
+    "en_views": 0,
+    "total_views": 0,
+    "thumbnail": "https://img.youtube.com/vi/QkfK_MVfcPg/mqdefault.jpg",
+    "tags": [
+      "S5"
     ]
   }
 ]

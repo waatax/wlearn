@@ -4228,7 +4228,7 @@
     "bio": "Jim Collins 是多本暢銷書的作者，專注於其專業領域的研究與分享。",
     "career": "暢銷書作家 / 專業講師",
     "achievements": [],
-    "book_count": 1,
+    "book_count": 2,
     "books": [
       {
         "id": "book_421",
@@ -4238,6 +4238,16 @@
         "video_id": "3KUnCjFKi5A",
         "tags": [
           "S4"
+        ]
+      },
+      {
+        "id": "book_533",
+        "title_cn": "Good to Great",
+        "title_en": "Good to Great",
+        "code": "S5-33",
+        "video_id": "IT691WLlEIg",
+        "tags": [
+          "S5"
         ]
       }
     ],
@@ -4257,7 +4267,7 @@
       "《無限可能》暢銷書作家",
       "超過200集播客節目"
     ],
-    "book_count": 3,
+    "book_count": 4,
     "books": [
       {
         "id": "book_56",
@@ -4290,6 +4300,16 @@
         "tags": [
           "個人成長",
           "推薦書籍"
+        ]
+      },
+      {
+        "id": "book_501",
+        "title_cn": "Limitless",
+        "title_en": "Limitless",
+        "code": "S5-01",
+        "video_id": "XepwLVlX0-g",
+        "tags": [
+          "S5"
         ]
       }
     ],
@@ -4401,7 +4421,7 @@
     "bio": "Jocko Willink 是多本暢銷書的作者，專注於其專業領域的研究與分享。",
     "career": "暢銷書作家 / 專業講師",
     "achievements": [],
-    "book_count": 1,
+    "book_count": 2,
     "books": [
       {
         "id": "book_496",
@@ -4412,6 +4432,16 @@
         "tags": [
           "個人成長",
           "推薦書籍"
+        ]
+      },
+      {
+        "id": "book_532",
+        "title_cn": "Extreme Ownership",
+        "title_en": "Extreme Ownership",
+        "code": "S5-32",
+        "video_id": "HI8NE_i2WUc",
+        "tags": [
+          "S5"
         ]
       }
     ],
@@ -6921,7 +6951,7 @@
     "bio": "Peter Hollins 是一位國際知名的作者與領域專家，專注於各類知識與實戰經驗的分享。其作品深受全球讀者期待，本站收錄其代表作，致力於提供深具啟發性的內容。",
     "career": "作家",
     "achievements": [],
-    "book_count": 3,
+    "book_count": 4,
     "books": [
       {
         "id": "book_231",
@@ -6952,6 +6982,16 @@
         "video_id": "gwNE1amtcQg",
         "tags": [
           "S4"
+        ]
+      },
+      {
+        "id": "book_537",
+        "title_cn": "How to Do Things You Hate",
+        "title_en": "How to Do Things You Hate",
+        "code": "S5-37",
+        "video_id": "zb4qlhpRrH8",
+        "tags": [
+          "S5"
         ]
       }
     ],
@@ -6995,7 +7035,7 @@
       "PayPal 黑手黨成員",
       "Facebook 首位外部投資人"
     ],
-    "book_count": 1,
+    "book_count": 2,
     "books": [
       {
         "id": "book_183",
@@ -7006,6 +7046,16 @@
         "tags": [
           "個人成長",
           "推薦書籍"
+        ]
+      },
+      {
+        "id": "book_531",
+        "title_cn": "Zero to One",
+        "title_en": "Zero to One",
+        "code": "S5-31",
+        "video_id": "VZYLw47wSOU",
+        "tags": [
+          "S5"
         ]
       }
     ],
@@ -11902,5 +11952,1633 @@
     ],
     "has_detailed_bio": false,
     "avatar_initial": "齋"
+  },
+  {
+    "id": "eric-potterat",
+    "name": "Eric Potterat",
+    "name_en": "Eric Potterat",
+    "name_zh": "Eric Potterat",
+    "bio": "Eric Potterat 是一位著有《Learned Excellence》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_502",
+        "title_cn": "Learned Excellence",
+        "title_en": "Learned Excellence",
+        "code": "S5-02",
+        "video_id": "SBSpePpg8Ek",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "E"
+  },
+  {
+    "id": "an-unorthodox-guide-to-making-things-worth-making",
+    "name": "An Unorthodox Guide to Making Things Worth Making",
+    "name_en": "An Unorthodox Guide to Making Things Worth Making",
+    "name_zh": "An Unorthodox Guide to Making Things Worth Making",
+    "bio": "An Unorthodox Guide to Making Things Worth Making 是一位著有《Build》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_503",
+        "title_cn": "Build",
+        "title_en": "Build",
+        "code": "S5-03",
+        "video_id": "nazobyhSw1w",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "A"
+  },
+  {
+    "id": "becky-kennedy",
+    "name": "Becky Kennedy",
+    "name_en": "Becky Kennedy",
+    "name_zh": "Becky Kennedy",
+    "bio": "Becky Kennedy 是一位著有《Good Inside Parenting》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_504",
+        "title_cn": "Good Inside Parenting",
+        "title_en": "Good Inside Parenting",
+        "code": "S5-04",
+        "video_id": "luXJ0JNjNTU",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "B"
+  },
+  {
+    "id": "dana-maor",
+    "name": "Dana Maor",
+    "name_en": "Dana Maor",
+    "name_zh": "Dana Maor",
+    "bio": "Dana Maor 是一位著有《The Journey of Leadership》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_505",
+        "title_cn": "The Journey of Leadership",
+        "title_en": "The Journey of Leadership",
+        "code": "S5-05",
+        "video_id": "WGigjOJP1ww",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "D"
+  },
+  {
+    "id": "mykel-j",
+    "name": "Mykel J",
+    "name_en": "Mykel J",
+    "name_zh": "Mykel J",
+    "bio": "Mykel J 是一位著有《Algorithms for Decision Making》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_506",
+        "title_cn": "Algorithms for Decision Making",
+        "title_en": "Algorithms for Decision Making",
+        "code": "S5-06",
+        "video_id": "fk91PPHM2o8",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "M"
+  },
+  {
+    "id": "the-game-has-changed",
+    "name": "The Game Has Changed",
+    "name_en": "The Game Has Changed",
+    "name_zh": "The Game Has Changed",
+    "bio": "The Game Has Changed 是一位著有《Negotiation》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_507",
+        "title_cn": "Negotiation",
+        "title_en": "Negotiation",
+        "code": "S5-07",
+        "video_id": "FD2sIhIJ8w8",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "T"
+  },
+  {
+    "id": "how-we-enable-the-unethical-and-how-to-stop",
+    "name": "How We Enable the Unethical and How to Stop",
+    "name_en": "How We Enable the Unethical and How to Stop",
+    "name_zh": "How We Enable the Unethical and How to Stop",
+    "bio": "How We Enable the Unethical and How to Stop 是一位著有《COMPLICIT》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_508",
+        "title_cn": "COMPLICIT",
+        "title_en": "COMPLICIT",
+        "code": "S5-08",
+        "video_id": "ZcGM9QEOdaI",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "H"
+  },
+  {
+    "id": "max-h-bazerman",
+    "name": "Max H. Bazerman",
+    "name_en": "Max H. Bazerman",
+    "name_zh": "Max H. Bazerman",
+    "bio": "Max H. Bazerman 是一位著有《Blind Spots》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 3,
+    "books": [
+      {
+        "id": "book_509",
+        "title_cn": "Blind Spots",
+        "title_en": "Blind Spots",
+        "code": "S5-09",
+        "video_id": "Wp39AywhXoc",
+        "tags": [
+          "S5"
+        ]
+      },
+      {
+        "id": "book_510",
+        "title_cn": "Better, Not Perfect",
+        "title_en": "Better, Not Perfect",
+        "code": "S5-10",
+        "video_id": "I8FMf-Cz6ZA",
+        "tags": [
+          "S5"
+        ]
+      },
+      {
+        "id": "book_511",
+        "title_cn": "Judgment in Managerial Decision",
+        "title_en": "Judgment in Managerial Decision",
+        "code": "S5-11",
+        "video_id": "1WF_mfWhBzg",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "M"
+  },
+  {
+    "id": "andrew-j-stewart",
+    "name": "Andrew J. Stewart",
+    "name_en": "Andrew J. Stewart",
+    "name_zh": "Andrew J. Stewart",
+    "bio": "Andrew J. Stewart 是一位著有《A vulnerable system》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_512",
+        "title_cn": "A vulnerable system",
+        "title_en": "A vulnerable system",
+        "code": "S5-12",
+        "video_id": "fjB113uJ2ic",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "A"
+  },
+  {
+    "id": "mike-bayer",
+    "name": "Mike Bayer",
+    "name_en": "Mike Bayer",
+    "name_zh": "Mike Bayer",
+    "bio": "Mike Bayer 是一位著有《Best Self Be You, Only Better》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_513",
+        "title_cn": "Best Self Be You, Only Better",
+        "title_en": "Best Self Be You, Only Better",
+        "code": "S5-13",
+        "video_id": "BBB32aBhoXk",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "M"
+  },
+  {
+    "id": "dr-john-s-tregoning",
+    "name": "Dr John S. Tregoning",
+    "name_en": "Dr John S. Tregoning",
+    "name_zh": "Dr John S. Tregoning",
+    "bio": "Dr John S. Tregoning 是一位著有《Infectious》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_514",
+        "title_cn": "Infectious",
+        "title_en": "Infectious",
+        "code": "S5-14",
+        "video_id": "uHeq-pCUT3o",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "D"
+  },
+  {
+    "id": "jeffrey-foote-carrie-wilkens-nicole-kosanke",
+    "name": "Jeffrey Foote, Carrie Wilkens & Nicole Kosanke",
+    "name_en": "Jeffrey Foote, Carrie Wilkens & Nicole Kosanke",
+    "name_zh": "Jeffrey Foote, Carrie Wilkens & Nicole Kosanke",
+    "bio": "Jeffrey Foote, Carrie Wilkens & Nicole Kosanke 是一位著有《Beyond Addiction》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_515",
+        "title_cn": "Beyond Addiction",
+        "title_en": "Beyond Addiction",
+        "code": "S5-15",
+        "video_id": "hjnx3-UoenY",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "J"
+  },
+  {
+    "id": "jeffrey-foote",
+    "name": "Jeffrey Foote",
+    "name_en": "Jeffrey Foote",
+    "name_zh": "Jeffrey Foote",
+    "bio": "Jeffrey Foote 是一位著有《The Beyond Addiction Workbook for family and friends》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_516",
+        "title_cn": "The Beyond Addiction Workbook for family and friends",
+        "title_en": "The Beyond Addiction Workbook for family and friends",
+        "code": "S5-16",
+        "video_id": "4X4tHddsIPE",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "J"
+  },
+  {
+    "id": "nelson-p-repenning-donald-c-kieffer",
+    "name": "Nelson P. Repenning & Donald C. Kieffer",
+    "name_en": "Nelson P. Repenning & Donald C. Kieffer",
+    "name_zh": "Nelson P. Repenning & Donald C. Kieffer",
+    "bio": "Nelson P. Repenning & Donald C. Kieffer 是一位著有《There's Got to Be a Better Way》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_517",
+        "title_cn": "There's Got to Be a Better Way",
+        "title_en": "There's Got to Be a Better Way",
+        "code": "S5-17",
+        "video_id": "EUGWW6Gmovc",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "N"
+  },
+  {
+    "id": "olivier-sibony",
+    "name": "Olivier Sibony",
+    "name_en": "Olivier Sibony",
+    "name_zh": "Olivier Sibony",
+    "bio": "Olivier Sibony 是一位著有《You re About to Make a Terrible Mistake》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_518",
+        "title_cn": "You re About to Make a Terrible Mistake",
+        "title_en": "You re About to Make a Terrible Mistake",
+        "code": "S5-18",
+        "video_id": "B77aHjgZg8s",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "O"
+  },
+  {
+    "id": "mike-robbins",
+    "name": "Mike Robbins",
+    "name_en": "Mike Robbins",
+    "name_zh": "Mike Robbins",
+    "bio": "Mike Robbins 是一位著有《Nothing Changes Until You Do》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_519",
+        "title_cn": "Nothing Changes Until You Do",
+        "title_en": "Nothing Changes Until You Do",
+        "code": "S5-19",
+        "video_id": "ZwSChWKcVzs",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "M"
+  },
+  {
+    "id": "the-only-business-metric-that-matters",
+    "name": "The Only Business Metric That Matters",
+    "name_en": "The Only Business Metric That Matters",
+    "name_zh": "The Only Business Metric That Matters",
+    "bio": "The Only Business Metric That Matters 是一位著有《Ideaflow》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_520",
+        "title_cn": "Ideaflow",
+        "title_en": "Ideaflow",
+        "code": "S5-20",
+        "video_id": "GEOOxczHumM",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "T"
+  },
+  {
+    "id": "charles-handy",
+    "name": "Charles Handy",
+    "name_en": "Charles Handy",
+    "name_zh": "Charles Handy",
+    "bio": "Charles Handy 是一位著有《21 Letters on Life and Its Challenges》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_521",
+        "title_cn": "21 Letters on Life and Its Challenges",
+        "title_en": "21 Letters on Life and Its Challenges",
+        "code": "S5-21",
+        "video_id": "McYuELpsoa0",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "C"
+  },
+  {
+    "id": "alex-w",
+    "name": "Alex W",
+    "name_en": "Alex W",
+    "name_zh": "Alex W",
+    "bio": "Alex W 是一位著有《Buffett and Munger Unscripted》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_522",
+        "title_cn": "Buffett and Munger Unscripted",
+        "title_en": "Buffett and Munger Unscripted",
+        "code": "S5-22",
+        "video_id": "UZQKW7QupUc",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "A"
+  },
+  {
+    "id": "george-s",
+    "name": "George S",
+    "name_en": "George S",
+    "name_zh": "George S",
+    "bio": "George S 是一位著有《The Richest Man in Babylon》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_523",
+        "title_cn": "The Richest Man in Babylon",
+        "title_en": "The Richest Man in Babylon",
+        "code": "S5-23",
+        "video_id": "vDCF6uipXDI",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "G"
+  },
+  {
+    "id": "rob-dix",
+    "name": "Rob Dix",
+    "name_en": "Rob Dix",
+    "name_zh": "Rob Dix",
+    "bio": "Rob Dix 是一位著有《The Price of Money》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_524",
+        "title_cn": "The Price of Money",
+        "title_en": "The Price of Money",
+        "code": "S5-24",
+        "video_id": "OqV8t0pzYSI",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "R"
+  },
+  {
+    "id": "scott-galloway",
+    "name": "Scott Galloway",
+    "name_en": "Scott Galloway",
+    "name_zh": "Scott Galloway",
+    "bio": "Scott Galloway 是一位著有《The Algebra of Wealth》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_525",
+        "title_cn": "The Algebra of Wealth",
+        "title_en": "The Algebra of Wealth",
+        "code": "S5-25",
+        "video_id": "5FZvndTEZSw",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "S"
+  },
+  {
+    "id": "jonathan-clements",
+    "name": "Jonathan Clements",
+    "name_en": "Jonathan Clements",
+    "name_zh": "Jonathan Clements",
+    "bio": "Jonathan Clements 是一位著有《My Money Journey》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_526",
+        "title_cn": "My Money Journey",
+        "title_en": "My Money Journey",
+        "code": "S5-26",
+        "video_id": "riN1vHnqR8A",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "J"
+  },
+  {
+    "id": "gary-john-bishop",
+    "name": "Gary John Bishop",
+    "name_en": "Gary John Bishop",
+    "name_zh": "Gary John Bishop",
+    "bio": "Gary John Bishop 是一位著有《Unfu*k Yourself》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_527",
+        "title_cn": "Unfu*k Yourself",
+        "title_en": "Unfu*k Yourself",
+        "code": "S5-27",
+        "video_id": "Gk1YdlKqJEA",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "G"
+  },
+  {
+    "id": "claudio-feser",
+    "name": "Claudio Feser",
+    "name_en": "Claudio Feser",
+    "name_zh": "Claudio Feser",
+    "bio": "Claudio Feser 是一位著有《Leadership at Scale》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_528",
+        "title_cn": "Leadership at Scale",
+        "title_en": "Leadership at Scale",
+        "code": "S5-28",
+        "video_id": "67HVkvRKC0I",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "C"
+  },
+  {
+    "id": "david-dodson",
+    "name": "David Dodson",
+    "name_en": "David Dodson",
+    "name_zh": "David Dodson",
+    "bio": "David Dodson 是一位著有《The Manager's Handbook》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_529",
+        "title_cn": "The Manager's Handbook",
+        "title_en": "The Manager's Handbook",
+        "code": "S5-29",
+        "video_id": "LSrBekfdLF0",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "D"
+  },
+  {
+    "id": "adrienne-adhami",
+    "name": "Adrienne Adhami",
+    "name_en": "Adrienne Adhami",
+    "name_zh": "Adrienne Adhami",
+    "bio": "Adrienne Adhami 是一位著有《Decisions That Matter》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_530",
+        "title_cn": "Decisions That Matter",
+        "title_en": "Decisions That Matter",
+        "code": "S5-30",
+        "video_id": "jcSg4gYmUUs",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "A"
+  },
+  {
+    "id": "john-hagel-iii",
+    "name": "John Hagel III",
+    "name_en": "John Hagel III",
+    "name_zh": "John Hagel III",
+    "bio": "John Hagel III 是一位著有《The Journey Beyond Fear》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_534",
+        "title_cn": "The Journey Beyond Fear",
+        "title_en": "The Journey Beyond Fear",
+        "code": "S5-34",
+        "video_id": "sSGFIUCqkbA",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "J"
+  },
+  {
+    "id": "iris-bohnet",
+    "name": "Iris Bohnet",
+    "name_en": "Iris Bohnet",
+    "name_zh": "Iris Bohnet",
+    "bio": "Iris Bohnet 是一位著有《Make Work Fair》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_535",
+        "title_cn": "Make Work Fair",
+        "title_en": "Make Work Fair",
+        "code": "S5-35",
+        "video_id": "i1r7KIUs5sI",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "I"
+  },
+  {
+    "id": "caroline-webb",
+    "name": "Caroline Webb",
+    "name_en": "Caroline Webb",
+    "name_zh": "Caroline Webb",
+    "bio": "Caroline Webb 是一位著有《How to Have a Good Day》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_536",
+        "title_cn": "How to Have a Good Day",
+        "title_en": "How to Have a Good Day",
+        "code": "S5-36",
+        "video_id": "6JQSICkgVSE",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "C"
+  },
+  {
+    "id": "maxime-rovere",
+    "name": "Maxime Rovere",
+    "name_en": "Maxime Rovere",
+    "name_zh": "Maxime Rovere",
+    "bio": "Maxime Rovere 是一位著有《How to Deal With Idiots》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_538",
+        "title_cn": "How to Deal With Idiots",
+        "title_en": "How to Deal With Idiots",
+        "code": "S5-38",
+        "video_id": "6Kt8aqiFGY8",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "M"
+  },
+  {
+    "id": "wendy-suzuki",
+    "name": "Wendy Suzuki",
+    "name_en": "Wendy Suzuki",
+    "name_zh": "Wendy Suzuki",
+    "bio": "Wendy Suzuki 是一位著有《Healthy Brain, Happy Life》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_539",
+        "title_cn": "Healthy Brain, Happy Life",
+        "title_en": "Healthy Brain, Happy Life",
+        "code": "S5-39",
+        "video_id": "_J_FlDyYqXg",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "W"
+  },
+  {
+    "id": "bruce-patton",
+    "name": "Bruce Patton",
+    "name_en": "Bruce Patton",
+    "name_zh": "Bruce Patton",
+    "bio": "Bruce Patton 是一位著有《Difficult Conversations》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_540",
+        "title_cn": "Difficult Conversations",
+        "title_en": "Difficult Conversations",
+        "code": "S5-40",
+        "video_id": "6Of6ZcJ9T8k",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "B"
+  },
+  {
+    "id": "jim-al-khalili",
+    "name": "Jim Al Khalili",
+    "name_en": "Jim Al Khalili",
+    "name_zh": "Jim Al Khalili",
+    "bio": "Jim Al Khalili 是一位著有《The Joy of Science》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_541",
+        "title_cn": "The Joy of Science",
+        "title_en": "The Joy of Science",
+        "code": "S5-41",
+        "video_id": "bjj_IR3F4gY",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "J"
+  },
+  {
+    "id": "john-strelecky",
+    "name": "John Strelecky",
+    "name_en": "John Strelecky",
+    "name_zh": "John Strelecky",
+    "bio": "John Strelecky 是一位著有《The Cafe on the Edge of the World》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_542",
+        "title_cn": "The Cafe on the Edge of the World",
+        "title_en": "The Cafe on the Edge of the World",
+        "code": "S5-42",
+        "video_id": "_oglrhDPqx0",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "J"
+  },
+  {
+    "id": "nicole-vignola",
+    "name": "Nicole Vignola",
+    "name_en": "Nicole Vignola",
+    "name_zh": "Nicole Vignola",
+    "bio": "Nicole Vignola 是一位著有《Rewire》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_543",
+        "title_cn": "Rewire",
+        "title_en": "Rewire",
+        "code": "S5-43",
+        "video_id": "ZqiZwNcAGEc",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "N"
+  },
+  {
+    "id": "philip-kotler",
+    "name": "Philip Kotler",
+    "name_en": "Philip Kotler",
+    "name_zh": "Philip Kotler",
+    "bio": "Philip Kotler 是一位著有《Marketing 4.0》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_544",
+        "title_cn": "Marketing 4.0",
+        "title_en": "Marketing 4.0",
+        "code": "S5-44",
+        "video_id": "j_DGnhA6oIk",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "P"
+  },
+  {
+    "id": "robert-de-board",
+    "name": "Robert de Board",
+    "name_en": "Robert de Board",
+    "name_zh": "Robert de Board",
+    "bio": "Robert de Board 是一位著有《Counselling for Toads》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_545",
+        "title_cn": "Counselling for Toads",
+        "title_en": "Counselling for Toads",
+        "code": "S5-45",
+        "video_id": "fYQHx-T2aQI",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "R"
+  },
+  {
+    "id": "chetan-bhagat",
+    "name": "Chetan Bhagat",
+    "name_en": "Chetan Bhagat",
+    "name_zh": "Chetan Bhagat",
+    "bio": "Chetan Bhagat 是一位著有《11 Rules For Life》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_546",
+        "title_cn": "11 Rules For Life",
+        "title_en": "11 Rules For Life",
+        "code": "S5-46",
+        "video_id": "qEgDoXqPvOU",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "C"
+  },
+  {
+    "id": "matthew-syed",
+    "name": "Matthew Syed",
+    "name_en": "Matthew Syed",
+    "name_zh": "Matthew Syed",
+    "bio": "Matthew Syed 是一位著有《Black Box Thinking》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_547",
+        "title_cn": "Black Box Thinking",
+        "title_en": "Black Box Thinking",
+        "code": "S5-47",
+        "video_id": "Uuwu5WNZ7Rg",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "M"
+  },
+  {
+    "id": "walt-bogdanich",
+    "name": "Walt Bogdanich",
+    "name_en": "Walt Bogdanich",
+    "name_zh": "Walt Bogdanich",
+    "bio": "Walt Bogdanich 是一位著有《When McKinsey Comes to Town》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_548",
+        "title_cn": "When McKinsey Comes to Town",
+        "title_en": "When McKinsey Comes to Town",
+        "code": "S5-48",
+        "video_id": "BlM0Vxm2H6c",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "W"
+  },
+  {
+    "id": "chris-griffiths",
+    "name": "Chris Griffiths",
+    "name_en": "Chris Griffiths",
+    "name_zh": "Chris Griffiths",
+    "bio": "Chris Griffiths 是一位著有《The Focus Fix》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_549",
+        "title_cn": "The Focus Fix",
+        "title_en": "The Focus Fix",
+        "code": "S5-49",
+        "video_id": "4Bv40r6GCDQ",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "C"
+  },
+  {
+    "id": "roger-l",
+    "name": "Roger L",
+    "name_en": "Roger L",
+    "name_zh": "Roger L",
+    "bio": "Roger L 是一位著有《A New Way to Think》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_550",
+        "title_cn": "A New Way to Think",
+        "title_en": "A New Way to Think",
+        "code": "S5-50",
+        "video_id": "nbQNUqpxkHk",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "R"
+  },
+  {
+    "id": "how-strategy-really-works",
+    "name": "How Strategy Really Works",
+    "name_en": "How Strategy Really Works",
+    "name_zh": "How Strategy Really Works",
+    "bio": "How Strategy Really Works 是一位著有《Playing to Win》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_551",
+        "title_cn": "Playing to Win",
+        "title_en": "Playing to Win",
+        "code": "S5-51",
+        "video_id": "tMOP1RmH5Mc",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "H"
+  },
+  {
+    "id": "matthew-ball",
+    "name": "Matthew Ball",
+    "name_en": "Matthew Ball",
+    "name_zh": "Matthew Ball",
+    "bio": "Matthew Ball 是一位著有《The Metaverse》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_552",
+        "title_cn": "The Metaverse",
+        "title_en": "The Metaverse",
+        "code": "S5-52",
+        "video_id": "9LCg65nzTX8",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "M"
+  },
+  {
+    "id": "what-are-you-doing-with-your-life",
+    "name": "What Are You Doing With Your Life",
+    "name_en": "What Are You Doing With Your Life",
+    "name_zh": "What Are You Doing With Your Life",
+    "bio": "What Are You Doing With Your Life 是一位著有《What Are You Doing With Your Life》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_553",
+        "title_cn": "What Are You Doing With Your Life",
+        "title_en": "What Are You Doing With Your Life",
+        "code": "S5-53",
+        "video_id": "qrbdBn9sJsg",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "W"
+  },
+  {
+    "id": "stephen-hawkings",
+    "name": "Stephen Hawking’s",
+    "name_en": "Stephen Hawking’s",
+    "name_zh": "Stephen Hawking’s",
+    "bio": "Stephen Hawking’s 是一位著有《Brief Answers to the Big Questions》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_554",
+        "title_cn": "Brief Answers to the Big Questions",
+        "title_en": "Brief Answers to the Big Questions",
+        "code": "S5-54",
+        "video_id": "ejxuVuGrHys",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "S"
+  },
+  {
+    "id": "the-5-am-club-the-5-am-club-rewires-your-brain",
+    "name": "The 5 AM Club The 5 AM Club Rewires Your Brain",
+    "name_en": "The 5 AM Club The 5 AM Club Rewires Your Brain",
+    "name_zh": "The 5 AM Club The 5 AM Club Rewires Your Brain",
+    "bio": "The 5 AM Club The 5 AM Club Rewires Your Brain 是一位著有《The 5 AM Club The 5 AM Club Rewires Your Brain》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_555",
+        "title_cn": "The 5 AM Club The 5 AM Club Rewires Your Brain",
+        "title_en": "The 5 AM Club The 5 AM Club Rewires Your Brain",
+        "code": "S5-55",
+        "video_id": "yK_yi30dr94",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "T"
+  },
+  {
+    "id": "coming-into-view-can-ai-outrun-the-debt-crisis",
+    "name": "Coming into View Can AI Outrun The Debt Crisis",
+    "name_en": "Coming into View Can AI Outrun The Debt Crisis",
+    "name_zh": "Coming into View Can AI Outrun The Debt Crisis",
+    "bio": "Coming into View Can AI Outrun The Debt Crisis 是一位著有《Coming into View Can AI Outrun The Debt Crisis》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_556",
+        "title_cn": "Coming into View Can AI Outrun The Debt Crisis",
+        "title_en": "Coming into View Can AI Outrun The Debt Crisis",
+        "code": "S5-56",
+        "video_id": "ysnbZp4tlCo",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "C"
+  },
+  {
+    "id": "stop-worrying-about-what-people-think-of-you",
+    "name": "Stop Worrying about what people think of you",
+    "name_en": "Stop Worrying about what people think of you",
+    "name_zh": "Stop Worrying about what people think of you",
+    "bio": "Stop Worrying about what people think of you 是一位著有《The First Rule of Mastery》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_557",
+        "title_cn": "The First Rule of Mastery",
+        "title_en": "The First Rule of Mastery",
+        "code": "S5-57",
+        "video_id": "EHCkqLGNqtA",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "S"
+  },
+  {
+    "id": "dopamine-is-about-wanting-not-liking",
+    "name": "Dopamine Is About Wanting Not Liking",
+    "name_en": "Dopamine Is About Wanting Not Liking",
+    "name_zh": "Dopamine Is About Wanting Not Liking",
+    "bio": "Dopamine Is About Wanting Not Liking 是一位著有《The Molecule of More》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_558",
+        "title_cn": "The Molecule of More",
+        "title_en": "The Molecule of More",
+        "code": "S5-58",
+        "video_id": "EyjyqDhjyto",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "D"
+  },
+  {
+    "id": "level-up-why-game-designers-hate-fun",
+    "name": "Level Up Why Game Designers Hate Fun",
+    "name_en": "Level Up Why Game Designers Hate Fun",
+    "name_zh": "Level Up Why Game Designers Hate Fun",
+    "bio": "Level Up Why Game Designers Hate Fun 是一位著有《Level Up Why Game Designers Hate Fun》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_559",
+        "title_cn": "Level Up Why Game Designers Hate Fun",
+        "title_en": "Level Up Why Game Designers Hate Fun",
+        "code": "S5-59",
+        "video_id": "ZyhOQTQYLNE",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "L"
+  },
+  {
+    "id": "matt-higgins",
+    "name": "Matt Higgins",
+    "name_en": "Matt Higgins",
+    "name_zh": "Matt Higgins",
+    "bio": "Matt Higgins 是一位著有《Burn the Boats》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_560",
+        "title_cn": "Burn the Boats",
+        "title_en": "Burn the Boats",
+        "code": "S5-60",
+        "video_id": "7xzrTtVMOLo",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "M"
+  },
+  {
+    "id": "rutger-bregman",
+    "name": "Rutger Bregman",
+    "name_en": "Rutger Bregman",
+    "name_zh": "Rutger Bregman",
+    "bio": "Rutger Bregman 是一位著有《Moral Ambition》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_561",
+        "title_cn": "Moral Ambition",
+        "title_en": "Moral Ambition",
+        "code": "S5-61",
+        "video_id": "DqBTmP6EhyA",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "R"
+  },
+  {
+    "id": "mitch-prinstein",
+    "name": "Mitch Prinstein",
+    "name_en": "Mitch Prinstein",
+    "name_zh": "Mitch Prinstein",
+    "bio": "Mitch Prinstein 是一位著有《Popular》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_562",
+        "title_cn": "Popular",
+        "title_en": "Popular",
+        "code": "S5-62",
+        "video_id": "Uzxk-CbSw-o",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "M"
+  },
+  {
+    "id": "d-j-d",
+    "name": "D  J  D",
+    "name_en": "D  J  D",
+    "name_zh": "D  J  D",
+    "bio": "D  J  D 是一位著有《The Next Millionaire Next Door》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_563",
+        "title_cn": "The Next Millionaire Next Door",
+        "title_en": "The Next Millionaire Next Door",
+        "code": "S5-63",
+        "video_id": "daHc6_TtLR8",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "D"
+  },
+  {
+    "id": "nuala-walsh",
+    "name": "Nuala Walsh",
+    "name_en": "Nuala Walsh",
+    "name_zh": "Nuala Walsh",
+    "bio": "Nuala Walsh 是一位著有《Tune In》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_564",
+        "title_cn": "Tune In",
+        "title_en": "Tune In",
+        "code": "S5-64",
+        "video_id": "RZFktPMkZ8s",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "N"
+  },
+  {
+    "id": "vikram-mansharamani",
+    "name": "Vikram Mansharamani",
+    "name_en": "Vikram Mansharamani",
+    "name_zh": "Vikram Mansharamani",
+    "bio": "Vikram Mansharamani 是一位著有《Think for Yourself》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_565",
+        "title_cn": "Think for Yourself",
+        "title_en": "Think for Yourself",
+        "code": "S5-65",
+        "video_id": "1uArRX3U9MA",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "V"
+  },
+  {
+    "id": "jamie-wheal",
+    "name": "Jamie Wheal",
+    "name_en": "Jamie Wheal",
+    "name_zh": "Jamie Wheal",
+    "bio": "Jamie Wheal 是一位著有《Recapture the Rapture》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_566",
+        "title_cn": "Recapture the Rapture",
+        "title_en": "Recapture the Rapture",
+        "code": "S5-66",
+        "video_id": "3ODEjDrSiws",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "J"
+  },
+  {
+    "id": "hans-rosling",
+    "name": "Hans Rosling",
+    "name_en": "Hans Rosling",
+    "name_zh": "Hans Rosling",
+    "bio": "Hans Rosling 是一位著有《Factfulness》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_567",
+        "title_cn": "Factfulness",
+        "title_en": "Factfulness",
+        "code": "S5-67",
+        "video_id": "fqGEJFMLpk4",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "H"
+  },
+  {
+    "id": "david-gardner",
+    "name": "David Gardner",
+    "name_en": "David Gardner",
+    "name_zh": "David Gardner",
+    "bio": "David Gardner 是一位著有《Rule Breaker Investing》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_568",
+        "title_cn": "Rule Breaker Investing",
+        "title_en": "Rule Breaker Investing",
+        "code": "S5-68",
+        "video_id": "JKydxUm7zRs",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "D"
+  },
+  {
+    "id": "eyal-winter",
+    "name": "Eyal Winter",
+    "name_en": "Eyal Winter",
+    "name_zh": "Eyal Winter",
+    "bio": "Eyal Winter 是一位著有《Feeling Smart》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_569",
+        "title_cn": "Feeling Smart",
+        "title_en": "Feeling Smart",
+        "code": "S5-69",
+        "video_id": "R-9eBxLkyks",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "E"
+  },
+  {
+    "id": "bruce-hood",
+    "name": "Bruce Hood",
+    "name_en": "Bruce Hood",
+    "name_zh": "Bruce Hood",
+    "bio": "Bruce Hood 是一位著有《The Science of Happiness》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_570",
+        "title_cn": "The Science of Happiness",
+        "title_en": "The Science of Happiness",
+        "code": "S5-70",
+        "video_id": "7fWxDCsyZt4",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "B"
+  },
+  {
+    "id": "david-robson",
+    "name": "David Robson",
+    "name_en": "David Robson",
+    "name_zh": "David Robson",
+    "bio": "David Robson 是一位著有《The Laws of Connection》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_571",
+        "title_cn": "The Laws of Connection",
+        "title_en": "The Laws of Connection",
+        "code": "S5-71",
+        "video_id": "H5dFj7mAuHc",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "D"
+  },
+  {
+    "id": "cameron-huddleston",
+    "name": "Cameron Huddleston",
+    "name_en": "Cameron Huddleston",
+    "name_zh": "Cameron Huddleston",
+    "bio": "Cameron Huddleston 是一位著有《Mom and Dad We Need to Talk》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_572",
+        "title_cn": "Mom and Dad We Need to Talk",
+        "title_en": "Mom and Dad We Need to Talk",
+        "code": "S5-72",
+        "video_id": "_qNwiI0QXZE",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "C"
+  },
+  {
+    "id": "ben-azadi",
+    "name": "Ben Azadi",
+    "name_en": "Ben Azadi",
+    "name_zh": "Ben Azadi",
+    "bio": "Ben Azadi 是一位著有《Metabolic Freedom》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_573",
+        "title_cn": "Metabolic Freedom",
+        "title_en": "Metabolic Freedom",
+        "code": "S5-73",
+        "video_id": "sF2nORPObwM",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "B"
+  },
+  {
+    "id": "aimee-donnellan",
+    "name": "Aimee Donnellan",
+    "name_en": "Aimee Donnellan",
+    "name_zh": "Aimee Donnellan",
+    "bio": "Aimee Donnellan 是一位著有《Off the Scales》等知識產出書籍的作者，專注於個人成長、心理學與思維等領域的寫作與研究。",
+    "career": "作者 / 作家",
+    "achievements": [],
+    "book_count": 1,
+    "books": [
+      {
+        "id": "book_574",
+        "title_cn": "Off the Scales",
+        "title_en": "Off the Scales",
+        "code": "S5-74",
+        "video_id": "QkfK_MVfcPg",
+        "tags": [
+          "S5"
+        ]
+      }
+    ],
+    "has_detailed_bio": false,
+    "avatar_initial": "A"
   }
 ]
