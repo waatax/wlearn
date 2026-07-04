@@ -7,7 +7,7 @@ import BottomNavbar from '../components/BottomNavbar';
 export default function BookDetail() {
     const { id } = useParams();
     const navigate = useNavigate();
-    const { language, t, translateTag } = useLanguage();
+    const { language, t } = useLanguage();
     
     const [book, setBook] = useState(null);
     const [loading, setLoading] = useState(true);
