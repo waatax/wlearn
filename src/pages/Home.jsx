@@ -3,6 +3,7 @@ import Sidebar from '../components/Sidebar';
 import BookCard from '../components/BookCard';
 import { useLanguage } from '../context/LanguageContext';
 import { Globe, Menu } from 'lucide-react';
+import BottomNavbar from '../components/BottomNavbar';
 
 export default function Home() {
     const { language, t, toggleLanguage } = useLanguage();
@@ -134,6 +135,7 @@ export default function Home() {
                     )}
                 </div>
             </div>
+            <BottomNavbar />
         </div>
     );
 }

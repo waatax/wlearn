@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Search, Users, BookOpen, Award, ChevronRight, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import BottomNavbar from '../components/BottomNavbar';
 
 export default function Authors() {
     const navigate = useNavigate();
@@ -277,6 +278,7 @@ export default function Authors() {
                     </div>
                 )}
             </div>
+            <BottomNavbar />
         </div>
     );
 }

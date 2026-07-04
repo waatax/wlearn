@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 import { ArrowLeft, BarChart3, Play, Activity, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import BottomNavbar from '../components/BottomNavbar';
 
 export default function Trends() {
     const navigate = useNavigate();
@@ -211,6 +212,7 @@ export default function Trends() {
                     💡 {language === 'zh' ? '數據為模擬統計資料，僅用於 UI 呈現參考' : 'Data is simulated for UI presentation purposes only.'}
                 </div>
             </div>
+            <BottomNavbar />
         </div>
     );
 }

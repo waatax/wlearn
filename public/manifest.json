@@ -1,0 +1,18 @@
+{
+  "name": "WLearn",
+  "short_name": "WLearn",
+  "description": "Discover curated books and knowledge deep dives.",
+  "start_url": "/wlearn/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f4f7f4",
+  "theme_color": "#2d6648",
+  "icons": [
+    {
+      "src": "/wlearn/logo.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

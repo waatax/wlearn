@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, TrendingUp, Play, Globe, BarChart3, Eye, Trophy, Flame, ChevronRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import BottomNavbar from '../components/BottomNavbar';
 
 function formatViews(n) {
     if (!n || n === 0) return '—';
@@ -407,6 +408,7 @@ export default function Popular() {
                     </div>
                 </div>
             </div>
+            <BottomNavbar />
         </div>
     );
 }
