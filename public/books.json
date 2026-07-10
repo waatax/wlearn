@@ -16499,8 +16499,8 @@
   {
     "id": "book_501",
     "code": "S5-01",
-    "title_cn": "Limitless",
-    "title_en": "Limitless",
+    "title_cn": "無限可能",
+    "title_en": "Limitless: Upgrade Your Brain, Learn Anything Faster",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=XepwLVlX0-g",
     "video_id": "XepwLVlX0-g",
@@ -16508,14 +16508,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Limitless Jim Kwik",
-    "author": "吉姆·乐維克",
+    "description": "大腦教練吉姆·快克分享瞭如何突破思維限制、提升專注力、增強記憶力，並掌握超速學習方法的實用框架，釋放無限潛能。",
+    "author": "吉姆·快克",
     "cover_url": "https://img.youtube.com/vi/XepwLVlX0-g/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=XepwLVlX0-g",
-    "description_cn": "本書是關於 Limitless 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "大腦教練吉姆·快克分享瞭如何突破思維限制、提升專注力、增強記憶力，並掌握超速學習方法的實用框架，釋放無限潛能。",
+    "description_en": "Brain coach Jim Kwik provides a life-changing guide to upgrading your mind, improving focus, memory, and mastering the art of accelerated learning.",
+    "isbn_zh": "9789576583520",
+    "isbn_en": "9781401958237",
     "original_language": "en",
     "author_en": "Jim Kwik",
     "outline": [
@@ -16528,13 +16528,14 @@
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010868206"
   },
   {
     "id": "book_502",
     "code": "S5-02",
-    "title_cn": "Learned Excellence",
-    "title_en": "Learned Excellence",
+    "title_cn": "學習卓越",
+    "title_en": "Learned Excellence: Mental Disciplines for Leading and Winning",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=SBSpePpg8Ek",
     "video_id": "SBSpePpg8Ek",
@@ -16542,16 +16543,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Learned Excellence Eric Potterat",
-    "author": "Eric Potterat",
+    "description": "本書揭示了世界頂尖精英（包括海豹部隊與奧運選手）在極高壓環境下保持卓越表現的心智訓練法則與習慣。",
+    "author": "艾瑞克·波特拉特、艾倫·伊格爾",
     "cover_url": "https://img.youtube.com/vi/SBSpePpg8Ek/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=SBSpePpg8Ek",
-    "description_cn": "本書是關於 Learned Excellence 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "本書揭示了世界頂尖精英（包括海豹部隊與奧運選手）在極高壓環境下保持卓越表現的心智訓練法則與習慣。",
+    "description_en": "Explores the mental disciplines, routines, and performance psychology used by Navy SEALs, Olympic athletes, and business leaders to thrive under high pressure.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780063226302",
     "original_language": "en",
-    "author_en": "Eric Potterat",
+    "author_en": "Eric Potterat & Alan Eagle",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -16562,13 +16563,14 @@
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010346392"
   },
   {
     "id": "book_503",
     "code": "S5-03",
-    "title_cn": "Build",
-    "title_en": "Build",
+    "title_cn": "打造：不設限創新的產品設計指南",
+    "title_en": "Build: An Unorthodox Guide to Making Things Worth Making",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=nazobyhSw1w",
     "video_id": "nazobyhSw1w",
@@ -16576,16 +16578,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Build An Unorthodox Guide to Making Things Worth Making",
-    "author": "An Unorthodox Guide to Making Things Worth Making",
+    "description": "iPod與Nest之父東尼·法戴爾的職場與創業指南，深入探討如何設計出真正有價值的產品，並在挫折中建立成功的團隊。",
+    "author": "東尼·法戴爾",
     "cover_url": "https://img.youtube.com/vi/nazobyhSw1w/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=nazobyhSw1w",
-    "description_cn": "本書是關於 Build 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "iPod與Nest之父東尼·法戴爾的職場與創業指南，深入探討如何設計出真正有價值的產品，並在挫折中建立成功的團隊。",
+    "description_en": "Tony Fadell, the creator of the iPod and Nest, shares unconventional career and startup advice, exploring product design and team building.",
+    "isbn_zh": "9789863988229",
+    "isbn_en": "9780063046955",
     "original_language": "en",
-    "author_en": "An Unorthodox Guide to Making Things Worth Making",
+    "author_en": "Tony Fadell",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -16596,13 +16598,14 @@
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010938743"
   },
   {
     "id": "book_504",
     "code": "S5-04",
-    "title_cn": "Good Inside Parenting",
-    "title_en": "Good Inside Parenting",
+    "title_cn": "好父母的自主練習",
+    "title_en": "Good Inside: A Guide to Becoming the Parent You Want to Be",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=luXJ0JNjNTU",
     "video_id": "luXJ0JNjNTU",
@@ -16610,14 +16613,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Good Inside    Parenting   Dr. Becky Kennedy",
-    "author": "Becky Kennedy",
+    "description": "育兒專家貝琪博士提出以「人本善」為核心的育兒法，重塑親子關係，幫助父母在面對孩子情緒挑戰時保持平靜與堅定。",
+    "author": "貝琪·甘迺迪",
     "cover_url": "https://img.youtube.com/vi/luXJ0JNjNTU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=luXJ0JNjNTU",
-    "description_cn": "本書是關於 Good Inside Parenting 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "育兒專家貝琪博士提出以「人本善」為核心的育兒法，重塑親子關係，幫助父母在面對孩子情緒挑戰時保持平靜與堅定。",
+    "description_en": "Dr. Becky Kennedy offers a groundbreaking parenting model that prioritizes connection, empathy, and boundary-setting over behavior modification.",
+    "isbn_zh": "9786267252277",
+    "isbn_en": "9780063159488",
     "original_language": "en",
     "author_en": "Becky Kennedy",
     "outline": [
@@ -16629,13 +16632,14 @@
     "quotes": [
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010955512"
   },
   {
     "id": "book_505",
     "code": "S5-05",
-    "title_cn": "The Journey of Leadership",
-    "title_en": "The Journey of Leadership",
+    "title_cn": "領導力之旅",
+    "title_en": "The Journey of Leadership: How Great Leaders Learn to Lead",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=WGigjOJP1ww",
     "video_id": "WGigjOJP1ww",
@@ -16643,16 +16647,16 @@
     "tags": [
       "S5"
     ],
-    "description": "The Journey of Leadership    Dana Maor",
-    "author": "Dana Maor",
+    "description": "麥肯錫資深合夥人結合多年企業輔導經驗，解析現代優秀領導者如何進行自我疊代、激發團隊潛能並引領組織變革。",
+    "author": "達娜·毛爾、漢斯-維納·卡斯",
     "cover_url": "https://img.youtube.com/vi/WGigjOJP1ww/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=WGigjOJP1ww",
-    "description_cn": "本書是關於 The Journey of Leadership 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "麥肯錫資深合夥人結合多年企業輔導經驗，解析現代優秀領導者如何進行自我疊代、激發團隊潛能並引領組織變革。",
+    "description_en": "McKinsey senior partners outline how modern leaders adapt, transform themselves, and inspire organizational growth in a rapidly shifting world.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781394247851",
     "original_language": "en",
-    "author_en": "Dana Maor",
+    "author_en": "Dana Maor & Hans-Werner Kaas",
     "outline": [
       "本書創作背景與緣起",
       "作者核心主張與論點拆解",
@@ -16668,7 +16672,7 @@
   {
     "id": "book_506",
     "code": "S5-06",
-    "title_cn": "Algorithms for Decision Making",
+    "title_cn": "決策演算法",
     "title_en": "Algorithms for Decision Making",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=fk91PPHM2o8",
@@ -16677,16 +16681,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Algorithms for Decision Making    Mykel J",
-    "author": "Mykel J",
+    "description": "深入介紹如何在不確定環境下，運用數學建模與計算演算法做出最佳決策，涵蓋馬可夫決策過程與強化學習等概念。",
+    "author": "麥克·J·科申德弗",
     "cover_url": "https://img.youtube.com/vi/fk91PPHM2o8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=fk91PPHM2o8",
-    "description_cn": "本書是關於 Algorithms for Decision Making 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "深入介紹如何在不確定環境下，運用數學建模與計算演算法做出最佳決策，涵蓋馬可夫決策過程與強化學習等概念。",
+    "description_en": "A comprehensive textbook introducing mathematical models and algorithms for making optimal decisions under uncertainty and risk.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780262047012",
     "original_language": "en",
-    "author_en": "Mykel J",
+    "author_en": "Mykel J. Kochenderfer",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -16702,8 +16706,8 @@
   {
     "id": "book_507",
     "code": "S5-07",
-    "title_cn": "Negotiation",
-    "title_en": "Negotiation",
+    "title_cn": "談判：規則已變",
+    "title_en": "Negotiation: The Game Has Changed",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=FD2sIhIJ8w8",
     "video_id": "FD2sIhIJ8w8",
@@ -16711,16 +16715,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Negotiation - The Game Has Changed     Max H. Bazerman",
-    "author": "The Game Has Changed",
+    "description": "哈佛商學院教授巴澤曼探討在人工智慧、全球化與虛擬溝通的新時代中，談判策略如何演進以創造最大雙贏價值。",
+    "author": "麥克斯·巴澤曼",
     "cover_url": "https://img.youtube.com/vi/FD2sIhIJ8w8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=FD2sIhIJ8w8",
-    "description_cn": "本書是關於 Negotiation 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "哈佛商學院教授巴澤曼探討在人工智慧、全球化與虛擬溝通的新時代中，談判策略如何演進以創造最大雙贏價值。",
+    "description_en": "Harvard Business School professor Max Bazerman details how modern shifts like AI and remote work reshape strategies for collaborative negotiation.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781394244584",
     "original_language": "en",
-    "author_en": "The Game Has Changed",
+    "author_en": "Max H. Bazerman",
     "outline": [
       "本書創作背景與緣起",
       "作者核心主張與論點拆解",
@@ -16735,8 +16739,8 @@
   {
     "id": "book_508",
     "code": "S5-08",
-    "title_cn": "COMPLICIT",
-    "title_en": "COMPLICIT",
+    "title_cn": "共犯：我們如何縱容不道德，又該如何阻止它",
+    "title_en": "Complicit: How We Enable the Unethical and How to Stop",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=ZcGM9QEOdaI",
     "video_id": "ZcGM9QEOdaI",
@@ -16744,16 +16748,16 @@
     "tags": [
       "S5"
     ],
-    "description": "COMPLICIT    How We Enable the Unethical and How to Stop Max H. Bazerman",
-    "author": "How We Enable the Unethical and How to Stop",
+    "description": "本書揭示了組織中無意的冷眼旁觀如何助長不道德行為，並提供了建立正直誠信文化的具體干預方法與實踐路徑。",
+    "author": "麥克斯·巴澤曼",
     "cover_url": "https://img.youtube.com/vi/ZcGM9QEOdaI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ZcGM9QEOdaI",
-    "description_cn": "本書是關於 COMPLICIT 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "本書揭示了組織中無意的冷眼旁觀如何助長不道德行為，並提供了建立正直誠信文化的具體干預方法與實踐路徑。",
+    "description_en": "Examines how silent bystanders unwittingly enable unethical actions within organizations and offers tools to foster a culture of integrity.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781119853909",
     "original_language": "en",
-    "author_en": "How We Enable the Unethical and How to Stop",
+    "author_en": "Max H. Bazerman",
     "outline": [
       "本書創作背景與緣起",
       "作者核心主張與論點拆解",
@@ -16769,8 +16773,8 @@
   {
     "id": "book_509",
     "code": "S5-09",
-    "title_cn": "Blind Spots",
-    "title_en": "Blind Spots",
+    "title_cn": "盲點：為什麼我們做不到對的事，該如何改進？",
+    "title_en": "Blind Spots: Why We Fail to Do What's Right",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=Wp39AywhXoc",
     "video_id": "Wp39AywhXoc",
@@ -16778,16 +16782,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Blind Spots Max H. Bazerman",
-    "author": "Max H. Bazerman",
+    "description": "探討行為倫理學中的認知盲點，解釋為什麼好人也會做出不道德的決策，並提供重塑組織環境以引導正確行為的指南。",
+    "author": "麥克斯·巴澤曼、安·滕布倫塞爾",
     "cover_url": "https://img.youtube.com/vi/Wp39AywhXoc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Wp39AywhXoc",
-    "description_cn": "本書是關於 Blind Spots 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "探討行為倫理學中的認知盲點，解釋為什麼好人也會做出不道德的決策，並提供重塑組織環境以引導正確行為的指南。",
+    "description_en": "Explores cognitive blind spots in behavioral ethics, explaining why good people make bad ethical choices and how to structure better systems.",
+    "isbn_zh": "9789863980315",
+    "isbn_en": "9780691157504",
     "original_language": "en",
-    "author_en": "Max H. Bazerman",
+    "author_en": "Max H. Bazerman & Ann E. Tenbrunsel",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -16797,13 +16801,14 @@
     "quotes": [
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010672049"
   },
   {
     "id": "book_510",
     "code": "S5-10",
-    "title_cn": "Better, Not Perfect",
-    "title_en": "Better, Not Perfect",
+    "title_cn": "好，還可以更好：追求極大化永續利益的現實主義者指南",
+    "title_en": "Better, Not Perfect: A Realist's Guide to Maximum Sustainable Goodness",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=I8FMf-Cz6ZA",
     "video_id": "I8FMf-Cz6ZA",
@@ -16811,14 +16816,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Better, Not Perfect Max H. Bazerman",
-    "author": "Max H. Bazerman",
+    "description": "巴澤曼將行為經濟學與哲學結合，提出「追求更好而非完美」的現實主義思維，指引我們在日常與公共決策中創造最大的道德效益。",
+    "author": "麥克斯·巴澤曼",
     "cover_url": "https://img.youtube.com/vi/I8FMf-Cz6ZA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=I8FMf-Cz6ZA",
-    "description_cn": "本書是關於 Better, Not Perfect 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "巴澤曼將行為經濟學與哲學結合，提出「追求更好而非完美」的現實主義思維，指引我們在日常與公共決策中創造最大的道德效益。",
+    "description_en": "Combines ethics and behavioral science to advocate for realistic, incremental improvements to maximize sustainable societal goodness.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780063002692",
     "original_language": "en",
     "author_en": "Max H. Bazerman",
     "outline": [
@@ -16835,8 +16840,8 @@
   {
     "id": "book_511",
     "code": "S5-11",
-    "title_cn": "Judgment in Managerial Decision",
-    "title_en": "Judgment in Managerial Decision",
+    "title_cn": "管理決策中的判斷",
+    "title_en": "Judgment in Managerial Decision Making",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=1WF_mfWhBzg",
     "video_id": "1WF_mfWhBzg",
@@ -16844,16 +16849,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Judgment in managerial Decision Max H. Bazerman",
-    "author": "Max H. Bazerman",
+    "description": "行為決策領域的經典著作，揭示了管理者在決策時常犯的系統性偏誤，並提供改善判斷品質、做出客觀決策的科學框架。",
+    "author": "麥克斯·巴澤曼、唐·摩爾",
     "cover_url": "https://img.youtube.com/vi/1WF_mfWhBzg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=1WF_mfWhBzg",
-    "description_cn": "本書是關於 Judgment in Managerial Decision 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "行為決策領域的經典著作，揭示了管理者在決策時常犯的系統性偏誤，並提供改善判斷品質、做出客觀決策的科學框架。",
+    "description_en": "A classic text illustrating the cognitive biases managers face and offering strategies to improve judgment and logical decision-making.",
+    "isbn_zh": "9789862483862",
+    "isbn_en": "9781118065846",
     "original_language": "en",
-    "author_en": "Max H. Bazerman",
+    "author_en": "Max H. Bazerman & Don A. Moore",
     "outline": [
       "本書創作背景與緣起",
       "作者核心主張與論點拆解",
@@ -16864,13 +16869,14 @@
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010631627"
   },
   {
     "id": "book_512",
     "code": "S5-12",
-    "title_cn": "A vulnerable system",
-    "title_en": "A vulnerable system",
+    "title_cn": "脆弱的系統：電腦時代資訊安全的歷史",
+    "title_en": "A Vulnerable System: The History of Information Security in the Computer Age",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=fjB113uJ2ic",
     "video_id": "fjB113uJ2ic",
@@ -16878,14 +16884,14 @@
     "tags": [
       "S5"
     ],
-    "description": "A vulnerable system    Andrew J. Stewart",
-    "author": "Andrew J. Stewart",
+    "description": "回顧電腦發明以來資訊安全的發展史，深入分析為何儘管技術不斷進步，網路防禦依然脆弱，並探討未來的解決之道。",
+    "author": "安德魯·J·史都華",
     "cover_url": "https://img.youtube.com/vi/fjB113uJ2ic/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=fjB113uJ2ic",
-    "description_cn": "本書是關於 A vulnerable system 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "回顧電腦發明以來資訊安全的發展史，深入分析為何儘管技術不斷進步，網路防禦依然脆弱，並探討未來的解決之道。",
+    "description_en": "Traces the history of computer security, exploring why digital systems remain highly vulnerable despite decades of technological evolution.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780801450259",
     "original_language": "en",
     "author_en": "Andrew J. Stewart",
     "outline": [
@@ -16903,8 +16909,8 @@
   {
     "id": "book_513",
     "code": "S5-13",
-    "title_cn": "Best Self Be You, Only Better",
-    "title_en": "Best Self Be You, Only Better",
+    "title_cn": "最好的自己",
+    "title_en": "Best Self: Be You, Only Better",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=BBB32aBhoXk",
     "video_id": "BBB32aBhoXk",
@@ -16912,14 +16918,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Best Self - Be You, Only Better Mike Bayer",
-    "author": "Mike Bayer",
+    "description": "心理諮商專家麥克·拜爾教你如何辨識「真實自我」與「反社會自我」，克服內在恐懼，在生活各層面活出最好的自己。",
+    "author": "麥克·拜爾",
     "cover_url": "https://img.youtube.com/vi/BBB32aBhoXk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=BBB32aBhoXk",
-    "description_cn": "本書是關於 Best Self Be You, Only Better 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "心理諮商專家麥克·拜爾教你如何辨識「真實自我」與「反社會自我」，克服內在恐懼，在生活各層面活出最好的自己。",
+    "description_en": "Life coach Mike Bayer helps readers identify their 'Best Self' and 'Anti-Self' to overcome fear and live a more authentic, fulfilled life.",
+    "isbn_zh": "9789576582530",
+    "isbn_en": "9780062911735",
     "original_language": "en",
     "author_en": "Mike Bayer",
     "outline": [
@@ -16931,13 +16937,14 @@
     "quotes": [
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010839958"
   },
   {
     "id": "book_514",
     "code": "S5-14",
-    "title_cn": "Infectious",
-    "title_en": "Infectious",
+    "title_cn": "傳染力：如何對抗威脅我們的微生物",
+    "title_en": "Infectious: How to Fight the Microbes That Threaten Us",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=uHeq-pCUT3o",
     "video_id": "uHeq-pCUT3o",
@@ -16945,16 +16952,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Infectious Dr John S. Tregoning",
-    "author": "Dr John S. Tregoning",
+    "description": "免疫學專家以幽默好懂的語言，介紹人體免疫系統與致命病原體之間的史詩戰爭，並探討現代醫學如何對抗傳染病。",
+    "author": "約翰·S·特里高寧",
     "cover_url": "https://img.youtube.com/vi/uHeq-pCUT3o/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=uHeq-pCUT3o",
-    "description_cn": "本書是關於 Infectious 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "免疫學專家以幽默好懂的語言，介紹人體免疫系統與致命病原體之間的史詩戰爭，並探討現代醫學如何對抗傳染病。",
+    "description_en": "An immunologist explains how our immune system fights pathogens and how medical science develops vaccines and drugs to keep us safe.",
+    "isbn_zh": "9789869680371",
+    "isbn_en": "9781786079770",
     "original_language": "en",
-    "author_en": "Dr John S. Tregoning",
+    "author_en": "John S. Tregoning",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -16965,13 +16972,14 @@
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010804470"
   },
   {
     "id": "book_515",
     "code": "S5-15",
-    "title_cn": "Beyond Addiction",
-    "title_en": "Beyond Addiction",
+    "title_cn": "超越成癮：科學與善意如何幫助人們改變",
+    "title_en": "Beyond Addiction: How Science and Kindness Help People Change",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=hjnx3-UoenY",
     "video_id": "hjnx3-UoenY",
@@ -16979,14 +16987,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Beyond Addiction Jeffrey Foote, Carrie Wilkens & Nicole Kosanke",
-    "author": "Jeffrey Foote, Carrie Wilkens & Nicole Kosanke",
+    "description": "本書打破傳統的對抗與羞辱療法，倡導以同理心、善意與動機式言談，溫和引導受成癮折磨的親友邁向重生的改變之路。",
+    "author": "傑佛瑞·富特、卡莉·威爾肯斯、尼科爾·科桑克",
     "cover_url": "https://img.youtube.com/vi/hjnx3-UoenY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=hjnx3-UoenY",
-    "description_cn": "本書是關於 Beyond Addiction 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "本書打破傳統的對抗與羞辱療法，倡導以同理心、善意與動機式言談，溫和引導受成癮折磨的親友邁向重生的改變之路。",
+    "description_en": "An evidence-based, compassionate guide for families to help their loved ones overcome substance abuse without confrontation or shame.",
+    "isbn_zh": "9789863445831",
+    "isbn_en": "9781476710907",
     "original_language": "en",
     "author_en": "Jeffrey Foote, Carrie Wilkens & Nicole Kosanke",
     "outline": [
@@ -16998,13 +17006,14 @@
     "quotes": [
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010798782"
   },
   {
     "id": "book_516",
     "code": "S5-16",
-    "title_cn": "The Beyond Addiction Workbook for family and friends",
-    "title_en": "The Beyond Addiction Workbook for family and friends",
+    "title_cn": "超越成癮家屬工作指南",
+    "title_en": "The Beyond Addiction Workbook for Family and Friends",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=4X4tHddsIPE",
     "video_id": "4X4tHddsIPE",
@@ -17012,14 +17021,14 @@
     "tags": [
       "S5"
     ],
-    "description": "The Beyond Addiction Workbook for family and friends Jeffrey Foote",
-    "author": "Jeffrey Foote",
+    "description": "針對成癮者親友設計的實用工作手冊，提供心理支持與溝通策略，幫助家屬在守護親人的同時，重構自身的健康生活。",
+    "author": "傑佛瑞·富特",
     "cover_url": "https://img.youtube.com/vi/4X4tHddsIPE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=4X4tHddsIPE",
-    "description_cn": "本書是關於 The Beyond Addiction Workbook for family and friends 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "針對成癮者親友設計的實用工作手冊，提供心理支持與溝通策略，幫助家屬在守護親人的同時，重構自身的健康生活。",
+    "description_en": "A practical workbook companion featuring self-care exercises and communication tools for families supporting someone through recovery.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781684039128",
     "original_language": "en",
     "author_en": "Jeffrey Foote",
     "outline": [
@@ -17036,7 +17045,7 @@
   {
     "id": "book_517",
     "code": "S5-17",
-    "title_cn": "There's Got to Be a Better Way",
+    "title_cn": "一定有更好的方法",
     "title_en": "There's Got to Be a Better Way",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=EUGWW6Gmovc",
@@ -17045,14 +17054,14 @@
     "tags": [
       "S5"
     ],
-    "description": "There's Got to Be a Better Way  Nelson P. Repenning & Donald C. Kieffer",
-    "author": "Nelson P. Repenning & Donald C. Kieffer",
+    "description": "結合MIT史隆管理學院的精實思維，介紹如何在日常工作中發現瓶頸、快速迭代，並建立自我持續改善的動態組織文化。",
+    "author": "尼爾森·P·雷佩寧、唐納·C·基弗",
     "cover_url": "https://img.youtube.com/vi/EUGWW6Gmovc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=EUGWW6Gmovc",
-    "description_cn": "本書是關於 There's Got to Be a Better Way 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "結合MIT史隆管理學院的精實思維，介紹如何在日常工作中發現瓶頸、快速迭代，並建立自我持續改善的動態組織文化。",
+    "description_en": "Integrates lean and dynamic work design to teach managers how to identify process bottlenecks and build a self-improving culture.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781119565659",
     "original_language": "en",
     "author_en": "Nelson P. Repenning & Donald C. Kieffer",
     "outline": [
@@ -17070,8 +17079,8 @@
   {
     "id": "book_518",
     "code": "S5-18",
-    "title_cn": "You re About to Make a Terrible Mistake",
-    "title_en": "You re About to Make a Terrible Mistake",
+    "title_cn": "你即將犯下致命錯誤！",
+    "title_en": "You're About to Make a Terrible Mistake!",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=B77aHjgZg8s",
     "video_id": "B77aHjgZg8s",
@@ -17079,14 +17088,14 @@
     "tags": [
       "S5"
     ],
-    "description": "You re About to Make a Terrible Mistake   Olivier Sibony",
-    "author": "Olivier Sibony",
+    "description": "決策科學專家席波尼剖析了商業決策中的九種常見偏誤，並提供建立團隊決策架構、防範盲目的實用方法。",
+    "author": "奧利維·席波尼",
     "cover_url": "https://img.youtube.com/vi/B77aHjgZg8s/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=B77aHjgZg8s",
-    "description_cn": "本書是關於 You re About to Make a Terrible Mistake 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "決策科學專家席波尼剖析了商業決策中的九種常見偏誤，並提供建立團隊決策架構、防範盲目的實用方法。",
+    "description_en": "Olivier Sibony identifies nine common decision-making traps in business and outlines how to structure a collaborative process to avoid them.",
+    "isbn_zh": "9789863986041",
+    "isbn_en": "9780316492034",
     "original_language": "en",
     "author_en": "Olivier Sibony",
     "outline": [
@@ -17098,12 +17107,13 @@
     "quotes": [
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010872658"
   },
   {
     "id": "book_519",
     "code": "S5-19",
-    "title_cn": "Nothing Changes Until You Do",
+    "title_cn": "除非你改變，否則一切不變",
     "title_en": "Nothing Changes Until You Do",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=ZwSChWKcVzs",
@@ -17112,14 +17122,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Nothing Changes Until You Do  Mike Robbins",
-    "author": "Mike Robbins",
+    "description": "前職棒球員、知名演說家引導讀者停止與自己對抗，學習全然接受不完美的自我，從根本的自我接納開始改變人生。",
+    "author": "麥克·羅賓斯",
     "cover_url": "https://img.youtube.com/vi/ZwSChWKcVzs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ZwSChWKcVzs",
-    "description_cn": "本書是關於 Nothing Changes Until You Do 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "前職棒球員、知名演說家引導讀者停止與自己對抗，學習全然接受不完美的自我，從根本的自我接納開始改變人生。",
+    "description_en": "Mike Robbins guides readers to end their self-conflict, embrace self-compassion, and achieve growth through genuine self-acceptance.",
+    "isbn_zh": "9789579054454",
+    "isbn_en": "9781401944384",
     "original_language": "en",
     "author_en": "Mike Robbins",
     "outline": [
@@ -17132,13 +17142,14 @@
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010793616"
   },
   {
     "id": "book_520",
     "code": "S5-20",
-    "title_cn": "Ideaflow",
-    "title_en": "Ideaflow",
+    "title_cn": "靈感流：唯一重要的商業指標",
+    "title_en": "Ideaflow: The Only Business Metric That Matters",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=GEOOxczHumM",
     "video_id": "GEOOxczHumM",
@@ -17146,16 +17157,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Ideaflow - The Only Business Metric That Matters Jeremy Utley & Perry Klebahn",
-    "author": "The Only Business Metric That Matters",
+    "description": "史丹福設計學院教授傾力傳授，說明創新的關鍵在於快速且持續地產生大量點子，並提供建立個人與組織創意流程的實用指南。",
+    "author": "傑瑞米·尤特利、佩里·克萊班",
     "cover_url": "https://img.youtube.com/vi/GEOOxczHumM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=GEOOxczHumM",
-    "description_cn": "本書是關於 Ideaflow 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "史丹福設計學院教授傾力傳授，說明創新的關鍵在於快速且持續地產生大量點子，並提供建立個人與組織創意流程的實用指南。",
+    "description_en": "Stanford d.school professors explain that innovation is a numbers game, teaching readers how to generate, test, and scale business ideas.",
+    "isbn_zh": "9786263554160",
+    "isbn_en": "9780593443354",
     "original_language": "en",
-    "author_en": "The Only Business Metric That Matters",
+    "author_en": "Jeremy Utley & Perry Klebahn",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -17166,12 +17177,13 @@
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010967008"
   },
   {
     "id": "book_521",
     "code": "S5-21",
-    "title_cn": "21 Letters on Life and Its Challenges",
+    "title_cn": "查爾斯·漢迪的21封信",
     "title_en": "21 Letters on Life and Its Challenges",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=McYuELpsoa0",
@@ -17180,14 +17192,14 @@
     "tags": [
       "S5"
     ],
-    "description": "21 Letters on Life and Its Challenges Charles Handy",
-    "author": "Charles Handy",
+    "description": "當代管理大師漢迪寫給孫輩的溫暖信件，融合一生智慧，探討工作、生活、人際關係與追尋人生意義的永恆指南。",
+    "author": "查爾斯·漢迪",
     "cover_url": "https://img.youtube.com/vi/McYuELpsoa0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=McYuELpsoa0",
-    "description_cn": "本書是關於 21 Letters on Life and Its Challenges 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "當代管理大師漢迪寫給孫輩的溫暖信件，融合一生智慧，探討工作、生活、人際關係與追尋人生意義的永恆指南。",
+    "description_en": "The father of organizational behavior writes philosophical letters to his grandchildren, sharing wisdom on work, life, and finding meaning.",
+    "isbn_zh": "9789863984627",
+    "isbn_en": "9781786331908",
     "original_language": "en",
     "author_en": "Charles Handy",
     "outline": [
@@ -17199,12 +17211,13 @@
     "quotes": [
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010833930"
   },
   {
     "id": "book_522",
     "code": "S5-22",
-    "title_cn": "Buffett and Munger Unscripted",
+    "title_cn": "巴菲特與芒格的未經劇本對話",
     "title_en": "Buffett and Munger Unscripted",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=UZQKW7QupUc",
@@ -17213,16 +17226,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Buffett and Munger Unscripted Alex W",
-    "author": "Alex W",
+    "description": "整理自股神巴菲特與其摯友查理·芒格在股東大會與私下場合的對話，展現其投資美學、人生智慧與商業洞察。",
+    "author": "亞歷克斯·W",
     "cover_url": "https://img.youtube.com/vi/UZQKW7QupUc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=UZQKW7QupUc",
-    "description_cn": "本書是關於 Buffett and Munger Unscripted 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "整理自股神巴菲特與其摯友查理·芒格在股東大會與私下場合的對話，展現其投資美學、人生智慧與商業洞察。",
+    "description_en": "A compilation of candid conversations, investment principles, and life wisdom from legendary investors Warren Buffett and Charlie Munger.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780998822006",
     "original_language": "en",
-    "author_en": "Alex W",
+    "author_en": "Alex W.",
     "outline": [
       "本書創作背景與緣起",
       "作者核心主張與論點拆解",
@@ -17238,7 +17251,7 @@
   {
     "id": "book_523",
     "code": "S5-23",
-    "title_cn": "The Richest Man in Babylon",
+    "title_cn": "巴比倫最富有的人",
     "title_en": "The Richest Man in Babylon",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=vDCF6uipXDI",
@@ -17247,16 +17260,16 @@
     "tags": [
       "S5"
     ],
-    "description": "The Richest Man in Babylon George S",
-    "author": "George S",
+    "description": "理財經典之作，以古巴比倫寓言故事闡明基本的財富積累法則，包括先支付自己、量入為出以及善用投資複利。",
+    "author": "喬治·山繆·克拉森",
     "cover_url": "https://img.youtube.com/vi/vDCF6uipXDI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=vDCF6uipXDI",
-    "description_cn": "本書是關於 The Richest Man in Babylon 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "理財經典之作，以古巴比倫寓言故事闡明基本的財富積累法則，包括先支付自己、量入為出以及善用投資複利。",
+    "description_en": "The timeless personal finance classic that uses ancient Babylonian parables to teach the fundamentals of wealth accumulation and saving.",
+    "isbn_zh": "9789576585302",
+    "isbn_en": "9780451205360",
     "original_language": "en",
-    "author_en": "George S",
+    "author_en": "George S. Clason",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -17267,13 +17280,14 @@
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010892019"
   },
   {
     "id": "book_524",
     "code": "S5-24",
-    "title_cn": "The Price of Money",
-    "title_en": "The Price of Money",
+    "title_cn": "金錢的代價：如何在沒有現金的世界中茁壯成長",
+    "title_en": "The Price of Money: How to Thrive in a World Without Cash",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=OqV8t0pzYSI",
     "video_id": "OqV8t0pzYSI",
@@ -17281,14 +17295,14 @@
     "tags": [
       "S5"
     ],
-    "description": "The Price of Money    Rob Dix",
-    "author": "Rob Dix",
+    "description": "財經作家深入解析通膨、利率與法幣系統的本質，指引我們在高度數位化與金融變革的時代中保護資產並明智理財。",
+    "author": "羅伯·迪克斯",
     "cover_url": "https://img.youtube.com/vi/OqV8t0pzYSI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=OqV8t0pzYSI",
-    "description_cn": "本書是關於 The Price of Money 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "財經作家深入解析通膨、利率與法幣系統的本質，指引我們在高度數位化與金融變革的時代中保護資產並明智理財。",
+    "description_en": "A clear, accessible analysis of monetary systems, central banking, and inflation, guiding readers to make smart decisions in a digital age.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781529146059",
     "original_language": "en",
     "author_en": "Rob Dix",
     "outline": [
@@ -17305,8 +17319,8 @@
   {
     "id": "book_525",
     "code": "S5-25",
-    "title_cn": "The Algebra of Wealth",
-    "title_en": "The Algebra of Wealth",
+    "title_cn": "財富的代數公式",
+    "title_en": "The Algebra of Wealth: A Simple Formula for Financial Security",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=5FZvndTEZSw",
     "video_id": "5FZvndTEZSw",
@@ -17314,14 +17328,14 @@
     "tags": [
       "S5"
     ],
-    "description": "The Algebra of Wealth    Scott Galloway",
-    "author": "Scott Galloway",
+    "description": "紐約大學教授蓋洛威提出實現財務自由的簡單公式，涵蓋專注力、儲蓄率、投資複利與降低消費等關鍵理財心法。",
+    "author": "史考特·蓋洛威",
     "cover_url": "https://img.youtube.com/vi/5FZvndTEZSw/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=5FZvndTEZSw",
-    "description_cn": "本書是關於 The Algebra of Wealth 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "紐約大學教授蓋洛威提出實現財務自由的簡單公式，涵蓋專注力、儲蓄率、投資複利與降低消費等關鍵理財心法。",
+    "description_en": "NYU Stern professor Scott Galloway offers a modern framework for financial security, focusing on saving, investing, and career planning.",
+    "isbn_zh": "9786263964891",
+    "isbn_en": "9780593714034",
     "original_language": "en",
     "author_en": "Scott Galloway",
     "outline": [
@@ -17333,13 +17347,14 @@
     "quotes": [
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010992383"
   },
   {
     "id": "book_526",
     "code": "S5-26",
-    "title_cn": "My Money Journey",
-    "title_en": "My Money Journey",
+    "title_cn": "我的金錢之旅",
+    "title_en": "My Money Journey: How 30 Financial Experts Found Financial Freedom",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=riN1vHnqR8A",
     "video_id": "riN1vHnqR8A",
@@ -17347,14 +17362,14 @@
     "tags": [
       "S5"
     ],
-    "description": "My Money Journey    Jonathan Clements",
-    "author": "Jonathan Clements",
+    "description": "由資深理財編輯匯集30位著名金融專家坦誠分享的個人財務旅程，探討理財盲點、投資教訓與對財富本質的深刻反思。",
+    "author": "強納森·克雷曼",
     "cover_url": "https://img.youtube.com/vi/riN1vHnqR8A/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=riN1vHnqR8A",
-    "description_cn": "本書是關於 My Money Journey 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "由資深理財編輯匯集30位著名金融專家坦誠分享的個人財務旅程，探討理財盲點、投資教訓與對財富本質的深刻反思。",
+    "description_en": "A collection of personal essays by 30 financial experts sharing their struggles, successes, and life lessons on path to financial freedom.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781119989806",
     "original_language": "en",
     "author_en": "Jonathan Clements",
     "outline": [
@@ -17372,8 +17387,8 @@
   {
     "id": "book_527",
     "code": "S5-27",
-    "title_cn": "Unfu*k Yourself",
-    "title_en": "Unfu*k Yourself",
+    "title_cn": "無畏的勇氣",
+    "title_en": "Unfu*k Yourself: Get Out of Your Head and into Your Life",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=Gk1YdlKqJEA",
     "video_id": "Gk1YdlKqJEA",
@@ -17381,14 +17396,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Unfu*k Yourself Gary John Bishop",
-    "author": "Gary John Bishop",
+    "description": "一本辛辣、直接的自我提升手冊，教你停止自我否定、擺脫內心的小劇場，透過付諸行動重掌人生的控制權。",
+    "author": "蓋瑞·約翰·畢曉普",
     "cover_url": "https://img.youtube.com/vi/Gk1YdlKqJEA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Gk1YdlKqJEA",
-    "description_cn": "本書是關於 Unfu*k Yourself 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "一本辛辣、直接的自我提升手冊，教你停止自我否定、擺脫內心的小劇場，透過付諸行動重掌人生的控制權。",
+    "description_en": "A tough-love self-help guide offering no-nonsense advice to break free from self-sabotage, quiet your inner critic, and take action.",
+    "isbn_zh": "9789863983347",
+    "isbn_en": "9780062659958",
     "original_language": "en",
     "author_en": "Gary John Bishop",
     "outline": [
@@ -17401,13 +17416,14 @@
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010787595"
   },
   {
     "id": "book_528",
     "code": "S5-28",
-    "title_cn": "Leadership at Scale",
-    "title_en": "Leadership at Scale",
+    "title_cn": "規模化領導力",
+    "title_en": "Leadership at Scale: Multipliers of Change",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=67HVkvRKC0I",
     "video_id": "67HVkvRKC0I",
@@ -17415,14 +17431,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Leadership at Scale    Claudio Feser",
-    "author": "Claudio Feser",
+    "description": "麥肯錫顧問提出規模化培養領導人才的關鍵思維，說明如何在大規模組織中複製並擴散變革的正面力量。",
+    "author": "克勞迪奧·費瑟",
     "cover_url": "https://img.youtube.com/vi/67HVkvRKC0I/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=67HVkvRKC0I",
-    "description_cn": "本書是關於 Leadership at Scale 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "麥肯錫顧問提出規模化培養領導人才的關鍵思維，說明如何在大規模組織中複製並擴散變革的正面力量。",
+    "description_en": "A guide on scaling leadership development within large organizations, identifying the key mindsets that drive structural change.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781119526117",
     "original_language": "en",
     "author_en": "Claudio Feser",
     "outline": [
@@ -17440,8 +17456,8 @@
   {
     "id": "book_529",
     "code": "S5-29",
-    "title_cn": "The Manager's Handbook",
-    "title_en": "The Manager's Handbook",
+    "title_cn": "經理人手冊：高效管理的五大支柱",
+    "title_en": "The Manager's Handbook: Five Practical Habits",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=LSrBekfdLF0",
     "video_id": "LSrBekfdLF0",
@@ -17449,14 +17465,14 @@
     "tags": [
       "S5"
     ],
-    "description": "The Manager's Handbook    David Dodson",
-    "author": "David Dodson",
+    "description": "斯坦福商學院導師道森總結了卓越經理人的五大習慣，包括召集人才、明智授權、精準執行與時間管理，是極實用的管理指引。",
+    "author": "大衛·道森",
     "cover_url": "https://img.youtube.com/vi/LSrBekfdLF0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=LSrBekfdLF0",
-    "description_cn": "本書是關於 The Manager's Handbook 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "斯坦福商學院導師道森總結了卓越經理人的五大習慣，包括召集人才、明智授權、精準執行與時間管理，是極實用的管理指引。",
+    "description_en": "Stanford Business School lecturer David Dodson details five practical habits of outstanding managers, from hiring to time management.",
+    "isbn_zh": "9786267323892",
+    "isbn_en": "9781119902645",
     "original_language": "en",
     "author_en": "David Dodson",
     "outline": [
@@ -17469,12 +17485,13 @@
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010965389"
   },
   {
     "id": "book_530",
     "code": "S5-30",
-    "title_cn": "Decisions That Matter",
+    "title_cn": "至關重要的決策",
     "title_en": "Decisions That Matter",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=jcSg4gYmUUs",
@@ -17483,14 +17500,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Decisions That Matter    Adrienne Adhami",
-    "author": "Adrienne Adhami",
+    "description": "探討在生活、職場與人際關係中，如何梳理雜音、進行理性評估，並做出與自己真實信念相契合的重大決定。",
+    "author": "阿德里安娜·阿德哈米",
     "cover_url": "https://img.youtube.com/vi/jcSg4gYmUUs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=jcSg4gYmUUs",
-    "description_cn": "本書是關於 Decisions That Matter 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "探討在生活、職場與人際關係中，如何梳理雜音、進行理性評估，並做出與自己真實信念相契合的重大決定。",
+    "description_en": "Explores how to filter noise, evaluate trade-offs, and make pivotal decisions that align with your personal values and goals.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781804090442",
     "original_language": "en",
     "author_en": "Adrienne Adhami",
     "outline": [
@@ -17508,8 +17525,8 @@
   {
     "id": "book_531",
     "code": "S5-31",
-    "title_cn": "Zero to One",
-    "title_en": "Zero to One",
+    "title_cn": "從0到1",
+    "title_en": "Zero to One: Notes on Startups, or How to Build the Future",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=VZYLw47wSOU",
     "video_id": "VZYLw47wSOU",
@@ -17517,14 +17534,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Zero to One    Peter Thiel",
+    "description": "PayPal創辦人彼得·蒂爾的創業聖經，強調創新不應是複製現有模式（從1到N），而應是通過獨特技術創造新價值（從0到1）。",
     "author": "彼得·蒂爾",
     "cover_url": "https://img.youtube.com/vi/VZYLw47wSOU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=VZYLw47wSOU",
-    "description_cn": "本書是關於 Zero to One 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "PayPal創辦人彼得·蒂爾的創業聖經，強調創新不應是複製現有模式（從1到N），而應是通過獨特技術創造新價值（從0到1）。",
+    "description_en": "Legendary entrepreneur Peter Thiel details how to build companies that create new things (from 0 to 1) rather than copy existing ones.",
+    "isbn_zh": "9789863980025",
+    "isbn_en": "9780804139298",
     "original_language": "en",
     "author_en": "Peter Thiel",
     "outline": [
@@ -17536,13 +17553,14 @@
     "quotes": [
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010664650"
   },
   {
     "id": "book_532",
     "code": "S5-32",
-    "title_cn": "Extreme Ownership",
-    "title_en": "Extreme Ownership",
+    "title_cn": "極度領導：哈佛商學院都在學的野戰心法",
+    "title_en": "Extreme Ownership: How U.S. Navy SEALs Lead and Win",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=HI8NE_i2WUc",
     "video_id": "HI8NE_i2WUc",
@@ -17550,16 +17568,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Extreme Ownership    Jocko Willink",
-    "author": "Jocko Willink",
+    "description": "前海豹部隊指揮官將戰場上的生死考驗轉化為商場領導法則，強調「沒有壞團隊，只有壞領導」，領導者必須為一切負起全責。",
+    "author": "約科·威林克、萊夫·巴賓",
     "cover_url": "https://img.youtube.com/vi/HI8NE_i2WUc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=HI8NE_i2WUc",
-    "description_cn": "本書是關於 Extreme Ownership 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "前海豹部隊指揮官將戰場上的生死考驗轉化為商場領導法則，強調「沒有壞團隊，只有壞領導」，領導者必須為一切負起全責。",
+    "description_en": "Navy SEAL officers share military leadership principles and explain how leaders must take total responsibility for their team's outcomes.",
+    "isbn_zh": "9789578795556",
+    "isbn_en": "9781250067050",
     "original_language": "en",
-    "author_en": "Jocko Willink",
+    "author_en": "Jocko Willink & Leif Babin",
     "outline": [
       "本書創作背景與緣起",
       "作者核心主張與論點拆解",
@@ -17570,13 +17588,14 @@
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010850257"
   },
   {
     "id": "book_533",
     "code": "S5-33",
-    "title_cn": "Good to Great",
-    "title_en": "Good to Great",
+    "title_cn": "從優秀到卓越",
+    "title_en": "Good to Great: Why Some Companies Make the Leap",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=IT691WLlEIg",
     "video_id": "IT691WLlEIg",
@@ -17584,14 +17603,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Good to Great    Jim Collins",
-    "author": "Jim Collins",
+    "description": "柯林斯帶領團隊歷時數年研究，揭示企業如何突破平庸、實現跨越式成長的關鍵要素，如「第五級領導」與「刺蝟原則」。",
+    "author": "吉姆·柯林斯",
     "cover_url": "https://img.youtube.com/vi/IT691WLlEIg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=IT691WLlEIg",
-    "description_cn": "本書是關於 Good to Great 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "柯林斯帶領團隊歷時數年研究，揭示企業如何突破平庸、實現跨越式成長的關鍵要素，如「第五級領導」與「刺蝟原則」。",
+    "description_en": "A monumental study detailing the traits that enable good companies to make the leap to greatness, from Level 5 leadership to the Hedgehog Concept.",
+    "isbn_zh": "9789573287667",
+    "isbn_en": "9780066620992",
     "original_language": "en",
     "author_en": "Jim Collins",
     "outline": [
@@ -17603,12 +17622,13 @@
     "quotes": [
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010857954"
   },
   {
     "id": "book_534",
     "code": "S5-34",
-    "title_cn": "The Journey Beyond Fear",
+    "title_cn": "超越恐懼之旅",
     "title_en": "The Journey Beyond Fear",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=sSGFIUCqkbA",
@@ -17617,14 +17637,14 @@
     "tags": [
       "S5"
     ],
-    "description": "The Journey Beyond Fear    John Hagel III",
-    "author": "John Hagel III",
+    "description": "在充滿動盪與焦慮的時代中，哈格爾指引個人與組織如何超越恐懼，培養「敘事、平台與機會」的正面心態，迎向未來。",
+    "author": "約翰·哈格爾三世",
     "cover_url": "https://img.youtube.com/vi/sSGFIUCqkbA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=sSGFIUCqkbA",
-    "description_cn": "本書是關於 The Journey Beyond Fear 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "在充滿動盪與焦慮的時代中，哈格爾指引個人與組織如何超越恐懼，培養「敘事、平台與機會」的正面心態，迎向未來。",
+    "description_en": "Guides individuals and organizations to overcome anxiety and fear by building narratives and learning ecosystems to unlock hidden potentials.",
+    "isbn_zh": "9789576587429",
+    "isbn_en": "9781260474725",
     "original_language": "en",
     "author_en": "John Hagel III",
     "outline": [
@@ -17636,13 +17656,14 @@
     "quotes": [
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010916303"
   },
   {
     "id": "book_535",
     "code": "S5-35",
-    "title_cn": "Make Work Fair",
-    "title_en": "Make Work Fair",
+    "title_cn": "讓工作更公平",
+    "title_en": "Make Work Fair: Data-Driven Design for Real Results",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=i1r7KIUs5sI",
     "video_id": "i1r7KIUs5sI",
@@ -17650,16 +17671,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Make Work Fair    Iris Bohnet",
-    "author": "Iris Bohnet",
+    "description": "哈佛學者博內特提出運用行為科學與數據導向的製度設計，消除招募與績效評估中的偏見，建立真正平等的職場文化。",
+    "author": "愛麗絲·博內特、席里·奇拉齊",
     "cover_url": "https://img.youtube.com/vi/i1r7KIUs5sI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=i1r7KIUs5sI",
-    "description_cn": "本書是關於 Make Work Fair 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
+    "description_cn": "哈佛學者博內特提出運用行為科學與數據導向的製度設計，消除招募與績效評估中的偏見，建立真正平等的職場文化。",
+    "description_en": "Harvard researchers offer an evidence-based framework using behavioral design to build fairer, unbiased, and higher-performing workplaces.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780063238466",
     "original_language": "en",
-    "author_en": "Iris Bohnet",
+    "author_en": "Iris Bohnet & Siri Chilazi",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -17674,7 +17695,7 @@
   {
     "id": "book_536",
     "code": "S5-36",
-    "title_cn": "How to Have a Good Day",
+    "title_cn": "如何擁有美好的一天",
     "title_en": "How to Have a Good Day",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=6JQSICkgVSE",
@@ -17683,14 +17704,14 @@
     "tags": [
       "S5"
     ],
-    "description": "How to Have a Good Day  Caroline Webb",
-    "author": "Caroline Webb",
+    "description": "麥肯錫顧問韋伯將行為科學融入工作日常，提供提升專注力、重設精力儲備與克服挫折的實用技巧，讓每天都充滿高效與活力。",
+    "author": "卡洛琳·韋伯",
     "cover_url": "https://img.youtube.com/vi/6JQSICkgVSE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=6JQSICkgVSE",
-    "description_cn": "本書是關於 How to Have a Good Day 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "麥肯錫顧問韋伯將行為科學融入工作日常，提供提升專注力、重設精力儲備與克服挫折的實用技巧，讓每天都充滿高效與活力。",
+    "description_en": "Applies behavioral science to show readers how to set priorities, manage time, have productive conversations, and maintain high energy.",
+    "isbn_zh": "9789863981886",
+    "isbn_en": "9780553419634",
     "original_language": "en",
     "author_en": "Caroline Webb",
     "outline": [
@@ -17703,12 +17724,13 @@
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010724653"
   },
   {
     "id": "book_537",
     "code": "S5-37",
-    "title_cn": "How to Do Things You Hate",
+    "title_cn": "如何做你討厭的事",
     "title_en": "How to Do Things You Hate",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=zb4qlhpRrH8",
@@ -17717,14 +17739,14 @@
     "tags": [
       "S5"
     ],
-    "description": "How to Do Things You Hate    Peter Hollins",
-    "author": "Peter Hollins",
+    "description": "心理學家霍林斯探討如何克服拖延、建立意志力，並運用自律與大腦習慣機制，在面對不討喜的工作時依舊高效推進。",
+    "author": "彼得·霍林斯",
     "cover_url": "https://img.youtube.com/vi/zb4qlhpRrH8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=zb4qlhpRrH8",
-    "description_cn": "本書是關於 How to Do Things You Hate 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "心理學家霍林斯探討如何克服拖延、建立意志力，並運用自律與大腦習慣機制，在面對不討喜的工作時依舊高效推進。",
+    "description_en": "A guide to mastering self-discipline, overcoming procrastination, and training your brain to execute necessary but unpleasant tasks.",
+    "isbn_zh": "9786269666010",
+    "isbn_en": "9798888710326",
     "original_language": "en",
     "author_en": "Peter Hollins",
     "outline": [
@@ -17742,7 +17764,7 @@
   {
     "id": "book_538",
     "code": "S5-38",
-    "title_cn": "How to Deal With Idiots",
+    "title_cn": "如何與愚蠢共處",
     "title_en": "How to Deal With Idiots",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=6Kt8aqiFGY8",
@@ -17751,14 +17773,14 @@
     "tags": [
       "S5"
     ],
-    "description": "How to Deal With Idiots    Maxime Rovere",
-    "author": "Maxime Rovere",
+    "description": "哲學家羅維爾以幽默且深刻的哲學視角，解析人際關係中各種「愚蠢」的本質，教我們如何以包容與智慧化解衝突與無奈。",
+    "author": "馬克西姆·羅維爾",
     "cover_url": "https://img.youtube.com/vi/6Kt8aqiFGY8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=6Kt8aqiFGY8",
-    "description_cn": "本書是關於 How to Deal With Idiots 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "哲學家羅維爾以幽默且深刻的哲學視角，解析人際關係中各種「愚蠢」的本質，教我們如何以包容與智慧化解衝突與無奈。",
+    "description_en": "A philosopher's humorous and insightful guide to understanding the nature of human folly and navigating conflicts with empathy and intellect.",
+    "isbn_zh": "9789863449334",
+    "isbn_en": "9781788703420",
     "original_language": "en",
     "author_en": "Maxime Rovere",
     "outline": [
@@ -17770,12 +17792,13 @@
     "quotes": [
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010889243"
   },
   {
     "id": "book_539",
     "code": "S5-39",
-    "title_cn": "Healthy Brain, Happy Life",
+    "title_cn": "大腦改造自主計畫",
     "title_en": "Healthy Brain, Happy Life",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=_J_FlDyYqXg",
@@ -17784,14 +17807,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Healthy Brain, Happy Life    Wendy Suzuki",
-    "author": "Wendy Suzuki",
+    "description": "神經科學教授鈴木分享個人經歷，闡明運動與冥想如何顯著改變大腦結構，並提供提升記憶力、釋放壓力的自主大腦訓練法。",
+    "author": "溫蒂·鈴木",
     "cover_url": "https://img.youtube.com/vi/_J_FlDyYqXg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_J_FlDyYqXg",
-    "description_cn": "本書是關於 Healthy Brain, Happy Life 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "神經科學教授鈴木分享個人經歷，闡明運動與冥想如何顯著改變大腦結構，並提供提升記憶力、釋放壓力的自主大腦訓練法。",
+    "description_en": "A neuroscientist shares how physical exercise and mindfulness can reshape brain chemistry, improve memory, and increase overall happiness.",
+    "isbn_zh": "9789862355329",
+    "isbn_en": "9780062366788",
     "original_language": "en",
     "author_en": "Wendy Suzuki",
     "outline": [
@@ -17804,12 +17827,13 @@
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010727670"
   },
   {
     "id": "book_540",
     "code": "S5-40",
-    "title_cn": "Difficult Conversations",
+    "title_cn": "關鍵對話",
     "title_en": "Difficult Conversations",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=6Of6ZcJ9T8k",
@@ -17818,16 +17842,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Difficult Conversations    Bruce Patton",
-    "author": "Bruce Patton",
+    "description": "哈佛談判專家的溝通指南，將高難度對話拆解為三個層面（發生了什麼事、情緒與自我認知），協助我們坦誠且有尊嚴地溝通。",
+    "author": "道格拉斯·史東、布魯斯·巴頓、雪拉·希恩",
     "cover_url": "https://img.youtube.com/vi/6Of6ZcJ9T8k/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=6Of6ZcJ9T8k",
-    "description_cn": "本書是關於 Difficult Conversations 的導讀與整理。探討個人成長與自我提升的關鍵思維。",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "哈佛談判專家的溝通指南，將高難度對話拆解為三個層面（發生了什麼事、情緒與自我認知），協助我們坦誠且有尊嚴地溝通。",
+    "description_en": "Decodes high-stakes conversations into three layers (what happened, feelings, and identity) and provides tools to communicate productively.",
+    "isbn_zh": "9789576583926",
+    "isbn_en": "9780143118756",
     "original_language": "en",
-    "author_en": "Bruce Patton",
+    "author_en": "Douglas Stone, Bruce Patton & Sheila Heen",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -17838,12 +17862,13 @@
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010865882"
   },
   {
     "id": "book_541",
     "code": "S5-41",
-    "title_cn": "The Joy of Science",
+    "title_cn": "科學的喜悅",
     "title_en": "The Joy of Science",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=bjj_IR3F4gY",
@@ -17852,16 +17877,16 @@
     "tags": [
       "S5"
     ],
-    "description": "The Joy of Science    Jim Al Khalili",
-    "author": "Jim Al Khalili",
+    "description": "著名物理學家哈利利分享了八門科學思考的黃金法則，引導我們在充斥偽科學與不實訊息的現代世界中保持客觀理性。",
+    "author": "吉姆·阿爾-哈利利",
     "cover_url": "https://img.youtube.com/vi/bjj_IR3F4gY/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=bjj_IR3F4gY",
-    "description_cn": "The Joy of Science    Jim Al Khalili",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "著名物理學家哈利利分享了八門科學思考的黃金法則，引導我們在充斥偽科學與不實訊息的現代世界中保持客觀理性。",
+    "description_en": "A physicist outlines eight core lessons of scientific thinking to help readers evaluate information and maintain rational curiosity.",
+    "isbn_zh": "9786263183520",
+    "isbn_en": "9780691211572",
     "original_language": "en",
-    "author_en": "Jim Al Khalili",
+    "author_en": "Jim Al-Khalili",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -17871,12 +17896,13 @@
     "quotes": [
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010935201"
   },
   {
     "id": "book_542",
     "code": "S5-42",
-    "title_cn": "The Cafe on the Edge of the World",
+    "title_cn": "這輩子，你想留下什麼？",
     "title_en": "The Cafe on the Edge of the World",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=_oglrhDPqx0",
@@ -17885,14 +17911,14 @@
     "tags": [
       "S5"
     ],
-    "description": "The Cafe on the Edge of the World    John Strelecky",
-    "author": "John Strelecky",
+    "description": "一場在神秘咖啡館展開的心靈探索之旅，透過三個問題（你為什麼在這裡？你害怕死亡嗎？你滿足嗎？），重思人生排序與存在意義。",
+    "author": "約翰·史崔勒基",
     "cover_url": "https://img.youtube.com/vi/_oglrhDPqx0/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_oglrhDPqx0",
-    "description_cn": "The Cafe on the Edge of the World    John Strelecky",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "一場在神秘咖啡館展開的心靈探索之旅，透過三個問題（你為什麼在這裡？你害怕死亡嗎？你滿足嗎？），重思人生排序與存在意義。",
+    "description_en": "An inspirational story set in a mysterious cafe where three simple questions prompt a search for life's purpose and personal fulfillment.",
+    "isbn_zh": "9789577767676",
+    "isbn_en": "9780312643263",
     "original_language": "en",
     "author_en": "John Strelecky",
     "outline": [
@@ -17905,13 +17931,14 @@
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010344445"
   },
   {
     "id": "book_543",
     "code": "S5-43",
-    "title_cn": "Rewire",
-    "title_en": "Rewire",
+    "title_cn": "重塑大腦",
+    "title_en": "Rewire: Your Brain on Neuroplasticity",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=ZqiZwNcAGEc",
     "video_id": "ZqiZwNcAGEc",
@@ -17919,14 +17946,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Rewire Nicole Vignola",
-    "author": "Nicole Vignola",
+    "description": "大腦科學家解析神經可塑性的奧秘，指導我們如何戒除壞習慣、克服限制性思維，並重建高效、健康且強韌的認知網路。",
+    "author": "妮可·維尼奧拉",
     "cover_url": "https://img.youtube.com/vi/ZqiZwNcAGEc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ZqiZwNcAGEc",
-    "description_cn": "Rewire Nicole Vignola",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "大腦科學家解析神經可塑性的奧秘，指導我們如何戒除壞習慣、克服限制性思維，並重建高效、健康且強韌的認知網路。",
+    "description_en": "A neuroscientist translates brain science into actions, showing how to break habits and rebuild a positive mindset using neuroplasticity.",
+    "isbn_zh": "9786263964891",
+    "isbn_en": "9780593714034",
     "original_language": "en",
     "author_en": "Nicole Vignola",
     "outline": [
@@ -17938,13 +17965,14 @@
     "quotes": [
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010992383"
   },
   {
     "id": "book_544",
     "code": "S5-44",
-    "title_cn": "Marketing 4.0",
-    "title_en": "Marketing 4.0",
+    "title_cn": "行銷4.0",
+    "title_en": "Marketing 4.0: Moving from Traditional to Digital",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=j_DGnhA6oIk",
     "video_id": "j_DGnhA6oIk",
@@ -17952,14 +17980,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Marketing 4.0 Philip Kotler",
-    "author": "Philip Kotler",
+    "description": "行銷大師科特勒的數位化指南，解析在社群媒體與高度互聯時代，品牌如何引導消費者從「認知」走向「忠誠擁護」。",
+    "author": "菲利浦·科特勒",
     "cover_url": "https://img.youtube.com/vi/j_DGnhA6oIk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=j_DGnhA6oIk",
-    "description_cn": "Marketing 4.0 Philip Kotler",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "行銷大師科特勒的數位化指南，解析在社群媒體與高度互聯時代，品牌如何引導消費者從「認知」走向「忠誠擁護」。",
+    "description_en": "Marketing guru Philip Kotler details the shift from traditional to digital marketing, exploring brand loyalty in a highly connected world.",
+    "isbn_zh": "9789863982852",
+    "isbn_en": "9781119341208",
     "original_language": "en",
     "author_en": "Philip Kotler",
     "outline": [
@@ -17972,13 +18000,14 @@
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010766285"
   },
   {
     "id": "book_545",
     "code": "S5-45",
-    "title_cn": "Counselling for Toads",
-    "title_en": "Counselling for Toads",
+    "title_cn": "蛤蟆先生去看心理醫生",
+    "title_en": "Counselling for Toads: A Psychological Adventure",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=fYQHx-T2aQI",
     "video_id": "fYQHx-T2aQI",
@@ -17986,14 +18015,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Counselling for Toads   Robert de Board",
-    "author": "Robert de Board",
+    "description": "以《風中的柳樹》角色為藍本的心理學啟蒙之作，以溫馨故事講述心理諮商的過程，引導讀者探索真實情感並實現心靈成長。",
+    "author": "羅伯·狄保德",
     "cover_url": "https://img.youtube.com/vi/fYQHx-T2aQI/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=fYQHx-T2aQI",
-    "description_cn": "Counselling for Toads   Robert de Board",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "以《風中的柳樹》角色為藍本的心理學啟蒙之作，以溫馨故事講述心理諮商的過程，引導讀者探索真實情感並實現心靈成長。",
+    "description_en": "A warm psychological fable that introduces the counseling process, guiding readers through self-discovery and emotional recovery.",
+    "isbn_zh": "9789571391512",
+    "isbn_en": "9780451528643",
     "original_language": "en",
     "author_en": "Robert de Board",
     "outline": [
@@ -18005,12 +18034,13 @@
     "quotes": [
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010896350"
   },
   {
     "id": "book_546",
     "code": "S5-46",
-    "title_cn": "11 Rules For Life",
+    "title_cn": "人生的11條法則",
     "title_en": "11 Rules For Life",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=qEgDoXqPvOU",
@@ -18019,14 +18049,14 @@
     "tags": [
       "S5"
     ],
-    "description": "11 Rules For Life    Chetan Bhagat",
-    "author": "Chetan Bhagat",
+    "description": "著名作家巴哈特結合個人奮鬥與挫折歷程，提出在混亂世界中自我升級、建立強大適應力並邁向成功的11條黃金生活準則。",
+    "author": "奇坦·巴哈特",
     "cover_url": "https://img.youtube.com/vi/qEgDoXqPvOU/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=qEgDoXqPvOU",
-    "description_cn": "11 Rules For Life    Chetan Bhagat",
-    "description_en": "",
+    "description_cn": "著名作家巴哈特結合個人奮鬥與挫折歷程，提出在混亂世界中自我升級、建立強大適應力並邁向成功的11條黃金生活準則。",
+    "description_en": "Bestselling author Chetan Bhagat offers 11 key rules on self-improvement, resilience, and achieving success in a chaotic modern world.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9789356999992",
     "original_language": "en",
     "author_en": "Chetan Bhagat",
     "outline": [
@@ -18044,8 +18074,8 @@
   {
     "id": "book_547",
     "code": "S5-47",
-    "title_cn": "Black Box Thinking",
-    "title_en": "Black Box Thinking",
+    "title_cn": "黑盒子思維",
+    "title_en": "Black Box Thinking: Why Most People Never Learn from Their Mistakes",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=Uuwu5WNZ7Rg",
     "video_id": "Uuwu5WNZ7Rg",
@@ -18053,14 +18083,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Black Box Thinking    Matthew Syed",
-    "author": "Matthew Syed",
+    "description": "深入分析航空業如何透過「黑盒子」嚴格檢討空難教訓，呼籲個人與組織將失敗視為推動進步的唯一燃料，而非極力掩飾。",
+    "author": "馬修· Syed",
     "cover_url": "https://img.youtube.com/vi/Uuwu5WNZ7Rg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Uuwu5WNZ7Rg",
-    "description_cn": "Black Box Thinking    Matthew Syed",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "深入分析航空業如何透過「黑盒子」嚴格檢討空難教訓，呼籲個人與組織將失敗視為推動進步的唯一燃料，而非極力掩飾。",
+    "description_en": "Contrasts how different industries handle failure and argues that progress depends on studying and learning from mistakes like the aviation sector.",
+    "isbn_zh": "9789863981893",
+    "isbn_en": "9781591848295",
     "original_language": "en",
     "author_en": "Matthew Syed",
     "outline": [
@@ -18073,12 +18103,13 @@
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010724590"
   },
   {
     "id": "book_548",
     "code": "S5-48",
-    "title_cn": "When McKinsey Comes to Town",
+    "title_cn": "當麥肯錫來到小鎮",
     "title_en": "When McKinsey Comes to Town",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=BlM0Vxm2H6c",
@@ -18087,16 +18118,16 @@
     "tags": [
       "S5"
     ],
-    "description": "When McKinsey Comes to Town    Walt Bogdanich",
-    "author": "Walt Bogdanich",
+    "description": "普立茲獎得主重磅調查，揭露麥肯錫顧問公司在幫助全球巨頭與政府提高效率的背後，所造成的社會不平等與道德爭議。",
+    "author": "華特·博格達尼奇、麥可·佛賽斯",
     "cover_url": "https://img.youtube.com/vi/BlM0Vxm2H6c/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=BlM0Vxm2H6c",
-    "description_cn": "When McKinsey Comes to Town    Walt Bogdanich",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "普立茲獎得主重磅調查，揭露麥肯錫顧問公司在幫助全球巨頭與政府提高效率的背後，所造成的社會不平等與道德爭議。",
+    "description_en": "Pulitzer Prize-winning investigative journalists expose the dark side of consulting giant McKinsey and its impact on inequality and society.",
+    "isbn_zh": "9786263539828",
+    "isbn_en": "9780593387870",
     "original_language": "en",
-    "author_en": "Walt Bogdanich",
+    "author_en": "Walt Bogdanich & Michael Forsythe",
     "outline": [
       "本書創作背景與緣起",
       "作者核心主張與論點拆解",
@@ -18107,13 +18138,14 @@
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010959082"
   },
   {
     "id": "book_549",
     "code": "S5-49",
-    "title_cn": "The Focus Fix",
-    "title_en": "The Focus Fix",
+    "title_cn": "專注力修復",
+    "title_en": "The Focus Fix: How to Beat Distractions",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=4Bv40r6GCDQ",
     "video_id": "4Bv40r6GCDQ",
@@ -18121,16 +18153,16 @@
     "tags": [
       "S5"
     ],
-    "description": "The Focus Fix    Chris Griffiths",
-    "author": "Chris Griffiths",
+    "description": "面對訊息超載與注意力零碎化，本書提供實用的正念、工作習慣與思維框架，幫助我們拿回專注主導權，恢復大腦創造力。",
+    "author": "克里斯·格里菲斯、卡拉·庫特",
     "cover_url": "https://img.youtube.com/vi/4Bv40r6GCDQ/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=4Bv40r6GCDQ",
-    "description_cn": "The Focus Fix    Chris Griffiths",
-    "description_en": "",
+    "description_cn": "面對訊息超載與注意力零碎化，本書提供實用的正念、工作習慣與思維框架，幫助我們拿回專注主導權，恢復大腦創造力。",
+    "description_en": "Provides practical tools and cognitive strategies to manage information overload, defeat distractions, and reclaim creative focus.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781788601238",
     "original_language": "en",
-    "author_en": "Chris Griffiths",
+    "author_en": "Chris Griffiths & Caragh Coote",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -18146,8 +18178,8 @@
   {
     "id": "book_550",
     "code": "S5-50",
-    "title_cn": "A New Way to Think",
-    "title_en": "A New Way to Think",
+    "title_cn": "思考的新方式",
+    "title_en": "A New Way to Think: Your Guide to Superior Strategy",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=nbQNUqpxkHk",
     "video_id": "nbQNUqpxkHk",
@@ -18155,16 +18187,16 @@
     "tags": [
       "S5"
     ],
-    "description": "A New Way to Think    Roger L",
-    "author": "Roger L",
+    "description": "全球管理大師馬丁挑戰傳統管理學常識，提出涵蓋競爭力、組織架構與創新思維的14個全新戰略思考模型。",
+    "author": "羅傑·馬丁",
     "cover_url": "https://img.youtube.com/vi/nbQNUqpxkHk/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=nbQNUqpxkHk",
-    "description_cn": "A New Way to Think    Roger L",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "全球管理大師馬丁挑戰傳統管理學常識，提出涵蓋競爭力、組織架構與創新思維的14個全新戰略思考模型。",
+    "description_en": "Legendary thinker Roger Martin challenges corporate dogmas and presents 14 clean, new mental models for business strategy and leadership.",
+    "isbn_zh": "9786267252277",
+    "isbn_en": "9781647822958",
     "original_language": "en",
-    "author_en": "Roger L",
+    "author_en": "Roger L. Martin",
     "outline": [
       "本書創作背景與緣起",
       "作者核心主張與論點拆解",
@@ -18174,13 +18206,14 @@
     "quotes": [
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010955512"
   },
   {
     "id": "book_551",
     "code": "S5-51",
-    "title_cn": "Playing to Win",
-    "title_en": "Playing to Win",
+    "title_cn": "玩美勝出：策略如何真正發揮作用",
+    "title_en": "Playing to Win: How Strategy Really Works",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=tMOP1RmH5Mc",
     "video_id": "tMOP1RmH5Mc",
@@ -18188,16 +18221,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Playing to Win  How Strategy Really Works",
-    "author": "How Strategy Really Works",
+    "description": "前寶僑CEO與管理學大師的聯袂之作，以寶僑的轉型故事為基礎，提出定位競爭優勢、贏得市場勝利的五大核心決策。但本處影片為 S5 版。",
+    "author": "A·G·雷夫利、羅傑·馬丁",
     "cover_url": "https://img.youtube.com/vi/tMOP1RmH5Mc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=tMOP1RmH5Mc",
-    "description_cn": "Playing to Win  How Strategy Really Works",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "前寶僑CEO與管理學大師的聯袂之作，以寶僑的轉型故事為基礎，提出定位競爭優勢、贏得市場勝利的五大核心決策。但本處影片為 S5 版。",
+    "description_en": "The P&G transformation blueprint detailing five essential choices leaders must make to build a winning strategy and outcompete rivals.",
+    "isbn_zh": "9789863980315",
+    "isbn_en": "9781422187395",
     "original_language": "en",
-    "author_en": "How Strategy Really Works",
+    "author_en": "A.G. Lafley & Roger L. Martin",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -18207,13 +18240,14 @@
     "quotes": [
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010672049"
   },
   {
     "id": "book_552",
     "code": "S5-52",
-    "title_cn": "The Metaverse",
-    "title_en": "The Metaverse",
+    "title_cn": "元宇宙",
+    "title_en": "The Metaverse: And How It Will Revolutionize Everything",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=9LCg65nzTX8",
     "video_id": "9LCg65nzTX8",
@@ -18221,14 +18255,14 @@
     "tags": [
       "S5"
     ],
-    "description": "The Metaverse    Matthew Ball",
-    "author": "Matthew Ball",
+    "description": "元宇宙領域的權威指南，深入剖析網路、區塊鏈與硬體技術的發展，解釋下一個世代的網際網路將如何徹底重塑社會與商業。",
+    "author": "馬修·柏爾",
     "cover_url": "https://img.youtube.com/vi/9LCg65nzTX8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=9LCg65nzTX8",
-    "description_cn": "The Metaverse    Matthew Ball",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "元宇宙領域的權威指南，深入剖析網路、區塊鏈與硬體技術的發展，解釋下一個世代的網際網路將如何徹底重塑社會與商業。",
+    "description_en": "The definitive guide on the Metaverse, exploring technology layers, economies, and infrastructure that will drive the next internet wave.",
+    "isbn_zh": "9786263554160",
+    "isbn_en": "9781324092650",
     "original_language": "en",
     "author_en": "Matthew Ball",
     "outline": [
@@ -18240,12 +18274,13 @@
     "quotes": [
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010967008"
   },
   {
     "id": "book_553",
     "code": "S5-53",
-    "title_cn": "What Are You Doing With Your Life",
+    "title_cn": "你用生命做什麼？",
     "title_en": "What Are You Doing With Your Life",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=qrbdBn9sJsg",
@@ -18254,16 +18289,16 @@
     "tags": [
       "S5"
     ],
-    "description": "What Are You Doing With Your Life",
-    "author": "What Are You Doing With Your Life",
+    "description": "心靈大師克里希那穆提指引讀者深入審視內心世界，解答工作、恐懼、愛與死亡等永恆人生課題，發現真實的本我。",
+    "author": "吉杜·克里希那穆提",
     "cover_url": "https://img.youtube.com/vi/qrbdBn9sJsg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=qrbdBn9sJsg",
-    "description_cn": "What Are You Doing With Your Life",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "心靈大師克里希那穆提指引讀者深入審視內心世界，解答工作、恐懼、愛與死亡等永恆人生課題，發現真實的本我。",
+    "description_en": "Philosopher Jiddu Krishnamurti guides readers on an inner inquiry into fear, work, love, and the search for authentic living.",
+    "isbn_zh": "9789576585302",
+    "isbn_en": "9781888004243",
     "original_language": "en",
-    "author_en": "What Are You Doing With Your Life",
+    "author_en": "Jiddu Krishnamurti",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -18279,7 +18314,7 @@
   {
     "id": "book_554",
     "code": "S5-54",
-    "title_cn": "Brief Answers to the Big Questions",
+    "title_cn": "霍金大問答",
     "title_en": "Brief Answers to the Big Questions",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=ejxuVuGrHys",
@@ -18288,16 +18323,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Brief Answers to the Big Questions  Stephen Hawking’s",
-    "author": "Stephen Hawking’s",
+    "description": "物理學家霍金的遺作，對人類面臨的十個大問題（包括上帝存在嗎？AI會超越人類嗎？如何拯救地球？）做出了簡明溫暖的答覆。",
+    "author": "史蒂芬·霍金",
     "cover_url": "https://img.youtube.com/vi/ejxuVuGrHys/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ejxuVuGrHys",
-    "description_cn": "Brief Answers to the Big Questions  Stephen Hawking’s",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "物理學家霍金的遺作，對人類面臨的十個大問題（包括上帝存在嗎？AI會超越人類嗎？如何拯救地球？）做出了簡明溫暖的答覆。",
+    "description_en": "Stephen Hawking's final book addressing ten of humanity's biggest questions, from the existence of God to the future of AI.",
+    "isbn_zh": "9789571375752",
+    "isbn_en": "9781524797096",
     "original_language": "en",
-    "author_en": "Stephen Hawking’s",
+    "author_en": "Stephen Hawking",
     "outline": [
       "本書創作背景與緣起",
       "作者核心主張與論點拆解",
@@ -18307,13 +18342,14 @@
     "quotes": [
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010803512"
   },
   {
     "id": "book_555",
     "code": "S5-55",
-    "title_cn": "The 5 AM Club The 5 AM Club Rewires Your Brain",
-    "title_en": "The 5 AM Club The 5 AM Club Rewires Your Brain",
+    "title_cn": "清晨5點俱樂部",
+    "title_en": "The 5 AM Club: Own Your Morning. Elevate Your Life.",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=yK_yi30dr94",
     "video_id": "yK_yi30dr94",
@@ -18321,16 +18357,16 @@
     "tags": [
       "S5"
     ],
-    "description": "The 5 AM Club The 5 AM Club Rewires Your Brain",
-    "author": "The 5 AM Club The 5 AM Club Rewires Your Brain",
+    "description": "著名領導力專家夏瑪倡導的「晨活革命」，分享 20/20/20 晨間分配心法，引導讀者透過高效晨起習慣重塑精力與生產力。",
+    "author": "羅賓·夏瑪",
     "cover_url": "https://img.youtube.com/vi/yK_yi30dr94/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=yK_yi30dr94",
-    "description_cn": "The 5 AM Club The 5 AM Club Rewires Your Brain",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "著名領導力專家夏瑪倡導的「晨活革命」，分享 20/20/20 晨間分配心法，引導讀者透過高效晨起習慣重塑精力與生產力。",
+    "description_en": "Robin Sharma outlines his 5 AM routine and 20/20/20 formula to help readers claim their mornings and achieve peak performance.",
+    "isbn_zh": "9789576582530",
+    "isbn_en": "9781443456623",
     "original_language": "en",
-    "author_en": "The 5 AM Club The 5 AM Club Rewires Your Brain",
+    "author_en": "Robin Sharma",
     "outline": [
       "本書創作背景與緣起",
       "作者核心主張與論點拆解",
@@ -18340,13 +18376,14 @@
     "quotes": [
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010839958"
   },
   {
     "id": "book_556",
     "code": "S5-56",
-    "title_cn": "Coming into View Can AI Outrun The Debt Crisis",
-    "title_en": "Coming into View Can AI Outrun The Debt Crisis",
+    "title_cn": "眼前的未來：AI與大趨勢如何形塑投資",
+    "title_en": "Coming Into View: How AI and Other Megatrends Will Shape Your Investments",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=ysnbZp4tlCo",
     "video_id": "ysnbZp4tlCo",
@@ -18354,16 +18391,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Coming into View Can AI Outrun The Debt Crisis",
-    "author": "Coming into View Can AI Outrun The Debt Crisis",
+    "description": "先鋒集團全球首席經濟學家解析AI引發的生產力革命如何抗衡高負債與高齡化的逆風，重塑未來全球金融資產與投資策略。",
+    "author": "喬·戴維斯",
     "cover_url": "https://img.youtube.com/vi/ysnbZp4tlCo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ysnbZp4tlCo",
-    "description_cn": "Coming into View Can AI Outrun The Debt Crisis",
-    "description_en": "",
+    "description_cn": "先鋒集團全球首席經濟學家解析AI引發的生產力革命如何抗衡高負債與高齡化的逆風，重塑未來全球金融資產與投資策略。",
+    "description_en": "Vanguard's chief economist details how AI-driven productivity gains can counteract demographic headwinds and shape the investing landscape.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781394247851",
     "original_language": "en",
-    "author_en": "Coming into View Can AI Outrun The Debt Crisis",
+    "author_en": "Joe Davis",
     "outline": [
       "本書創作背景與緣起",
       "作者核心主張與論點拆解",
@@ -18378,8 +18415,8 @@
   {
     "id": "book_557",
     "code": "S5-57",
-    "title_cn": "The First Rule of Mastery",
-    "title_en": "The First Rule of Mastery",
+    "title_cn": "掌控的第一法則",
+    "title_en": "The First Rule of Mastery: How to Stop Worrying About What People Think",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=EHCkqLGNqtA",
     "video_id": "EHCkqLGNqtA",
@@ -18387,16 +18424,16 @@
     "tags": [
       "S5"
     ],
-    "description": "The First Rule of Mastery   Stop Worrying about what people think of you",
-    "author": "Stop Worrying about what people think of you",
+    "description": "高階表現心理學家教你如何戒除對他人評價的過度在乎與恐懼（FOPO），以正直的真實信念引領，重掌個人的自我主導權。",
+    "author": "麥克·傑維斯",
     "cover_url": "https://img.youtube.com/vi/EHCkqLGNqtA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=EHCkqLGNqtA",
-    "description_cn": "The First Rule of Mastery   Stop Worrying about what people think of you",
-    "description_en": "",
+    "description_cn": "高階表現心理學家教你如何戒除對他人評價的過度在乎與恐懼（FOPO），以正直的真實信念引領，重掌個人的自我主導權。",
+    "description_en": "Performance psychologist Michael Gervais teaches readers how to overcome FOPO (Fear of Other People's Opinions) and live authentically.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781647824891",
     "original_language": "en",
-    "author_en": "Stop Worrying about what people think of you",
+    "author_en": "Michael Gervais",
     "outline": [
       "本書創作背景與緣起",
       "作者核心主張與論點拆解",
@@ -18412,8 +18449,8 @@
   {
     "id": "book_558",
     "code": "S5-58",
-    "title_cn": "The Molecule of More",
-    "title_en": "The Molecule of More",
+    "title_cn": "貪婪的大腦：多巴胺如何控制人類的欲望",
+    "title_en": "The Molecule of More: How a Single Chemical in Your Brain Drives Love",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=EyjyqDhjyto",
     "video_id": "EyjyqDhjyto",
@@ -18421,16 +18458,16 @@
     "tags": [
       "S5"
     ],
-    "description": "The Molecule of More Dopamine Is About Wanting Not Liking",
-    "author": "Dopamine Is About Wanting Not Liking",
+    "description": "科學解析多巴胺在人腦中的運作機制，揭示其作為激發欲望、推動創造力與冒險精神的燃料，如何悄然左右我們的愛情與生活抉擇。",
+    "author": "丹尼爾·利伯曼、麥可·隆",
     "cover_url": "https://img.youtube.com/vi/EyjyqDhjyto/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=EyjyqDhjyto",
-    "description_cn": "The Molecule of More Dopamine Is About Wanting Not Liking",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "科學解析多巴胺在人腦中的運作機制，揭示其作為激發欲望、推動創造力與冒險精神的燃料，如何悄然左右我們的愛情與生活抉擇。",
+    "description_en": "Reveals the science of dopamine, the brain chemical responsible for desire, imagination, and greed, and how it shapes human behavior.",
+    "isbn_zh": "9789573287667",
+    "isbn_en": "9781946885449",
     "original_language": "en",
-    "author_en": "Dopamine Is About Wanting Not Liking",
+    "author_en": "Daniel Z. Lieberman & Michael E. Long",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -18440,13 +18477,14 @@
     "quotes": [
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010857954"
   },
   {
     "id": "book_559",
     "code": "S5-59",
-    "title_cn": "Level Up Why Game Designers Hate Fun",
-    "title_en": "Level Up Why Game Designers Hate Fun",
+    "title_cn": "通關！遊戲設計大師指南",
+    "title_en": "Level Up! The Guide to Great Video Game Design",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=ZyhOQTQYLNE",
     "video_id": "ZyhOQTQYLNE",
@@ -18454,16 +18492,16 @@
     "tags": [
       "S5"
     ],
-    "description": "Level Up Why Game Designers Hate Fun",
-    "author": "Level Up Why Game Designers Hate Fun",
+    "description": "著名遊戲設計師羅傑斯的經典之作，以生動活潑的插圖與實例，完整解析遊戲關卡設計、角色建構與遊戲性（Gameplay）的設計秘辛。",
+    "author": "史考特·羅傑斯",
     "cover_url": "https://img.youtube.com/vi/ZyhOQTQYLNE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=ZyhOQTQYLNE",
-    "description_cn": "Level Up Why Game Designers Hate Fun",
-    "description_en": "",
+    "description_cn": "著名遊戲設計師羅傑斯的經典之作，以生動活潑的插圖與實例，完整解析遊戲關卡設計、角色建構與遊戲性（Gameplay）的設計秘辛。",
+    "description_en": "A highly practical and illustrated guide to video game design, covering level creation, characters, combat, and gameplay design.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781118877197",
     "original_language": "en",
-    "author_en": "Level Up Why Game Designers Hate Fun",
+    "author_en": "Scott Rogers",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -18479,8 +18517,8 @@
   {
     "id": "book_560",
     "code": "S5-60",
-    "title_cn": "Burn the Boats",
-    "title_en": "Burn the Boats",
+    "title_cn": "破釜沈舟",
+    "title_en": "Burn the Boats: Toss Plan B Overboard and Unleash Your Full Potential",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=7xzrTtVMOLo",
     "video_id": "7xzrTtVMOLo",
@@ -18488,14 +18526,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Burn the Boats Matt Higgings",
-    "author": "Matt Higgins",
+    "description": "企業家希金斯呼籲摒棄備用計畫（Plan B），全力以赴追求首要目標，透過消除退路，在事業與生活中激發最大的潛力。",
+    "author": "麥特·希金斯",
     "cover_url": "https://img.youtube.com/vi/7xzrTtVMOLo/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=7xzrTtVMOLo",
-    "description_cn": "Burn the Boats Matt Higgings",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "企業家希金斯呼籲摒棄備用計畫（Plan B），全力以赴追求首要目標，透過消除退路，在事業與生活中激發最大的潛力。",
+    "description_en": "Investor Matt Higgins urges readers to eliminate their backup Plan B, burn their boats, and commit fully to their ultimate goals.",
+    "isbn_zh": "9786267323892",
+    "isbn_en": "9780063204720",
     "original_language": "en",
     "author_en": "Matt Higgins",
     "outline": [
@@ -18507,12 +18545,13 @@
     "quotes": [
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010965389"
   },
   {
     "id": "book_561",
     "code": "S5-61",
-    "title_cn": "Moral Ambition",
+    "title_cn": "道德雄心",
     "title_en": "Moral Ambition",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=DqBTmP6EhyA",
@@ -18521,14 +18560,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Moral Ambition    Rutger Bregman",
-    "author": "Rutger Bregman",
+    "description": "《人慈》作者布雷格曼探討我們如何將被動的道德轉化為主動的「道德雄心」，利用自身的才華與資源去解決世界上最重要的危機。",
+    "author": "羅特傑·布雷格曼",
     "cover_url": "https://img.youtube.com/vi/DqBTmP6EhyA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=DqBTmP6EhyA",
-    "description_cn": "Moral Ambition    Rutger Bregman",
-    "description_en": "",
+    "description_cn": "《人慈》作者布雷格曼探討我們如何將被動的道德轉化為主動的「道德雄心」，利用自身的才華與資源去解決世界上最重要的危機。",
+    "description_en": "Rutger Bregman challenges readers to turn passive moral convictions into an active quest to solve the world's most critical problems.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780593443354",
     "original_language": "en",
     "author_en": "Rutger Bregman",
     "outline": [
@@ -18545,8 +18584,8 @@
   {
     "id": "book_562",
     "code": "S5-62",
-    "title_cn": "Popular",
-    "title_en": "Popular",
+    "title_cn": "人氣的心理學",
+    "title_en": "Popular: The Power of Likability in a Status-Obsessed World",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=Uzxk-CbSw-o",
     "video_id": "Uzxk-CbSw-o",
@@ -18554,14 +18593,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Popular Mitch Prinstein",
-    "author": "Mitch Prinstein",
+    "description": "心理學家普林斯坦解構人氣的兩種形態：地位與討喜度。說明為何盲目追求社交地位常帶來焦慮，而培養真誠互信才能獲得持久幸福。",
+    "author": "米契·普林斯坦",
     "cover_url": "https://img.youtube.com/vi/Uzxk-CbSw-o/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=Uzxk-CbSw-o",
-    "description_cn": "Popular Mitch Prinstein",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "心理學家普林斯坦解構人氣的兩種形態：地位與討喜度。說明為何盲目追求社交地位常帶來焦慮，而培養真誠互信才能獲得持久幸福。",
+    "description_en": "Decodes the psychology of popularity, explaining why seeking genuine likability brings joy while chasing social status leads to anxiety.",
+    "isbn_zh": "9789576583926",
+    "isbn_en": "9780143118756",
     "original_language": "en",
     "author_en": "Mitch Prinstein",
     "outline": [
@@ -18573,13 +18612,14 @@
     "quotes": [
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010865882"
   },
   {
     "id": "book_563",
     "code": "S5-63",
-    "title_cn": "The Next Millionaire Next Door",
-    "title_en": "The Next Millionaire Next Door",
+    "title_cn": "下一代百萬富翁",
+    "title_en": "The Next Millionaire Next Door: Enduring Strategies for Building Wealth",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=daHc6_TtLR8",
     "video_id": "daHc6_TtLR8",
@@ -18587,16 +18627,16 @@
     "tags": [
       "S5"
     ],
-    "description": "The Next Millionaire Next Door    D  J  D",
-    "author": "D  J  D",
+    "description": "經典理財書《鄰家的百萬富翁》的續作，探討在新經濟時代下，鄰家富翁們低調、克己且持之以恆的經典財富積累心法與智慧。",
+    "author": "湯瑪斯·J·史丹利、莎拉·史丹利·法洛",
     "cover_url": "https://img.youtube.com/vi/daHc6_TtLR8/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=daHc6_TtLR8",
-    "description_cn": "The Next Millionaire Next Door    D  J  D",
-    "description_en": "",
+    "description_cn": "經典理財書《鄰家的百萬富翁》的續作，探討在新經濟時代下，鄰家富翁們低調、克己且持之以恆的經典財富積累心法與智慧。",
+    "description_en": "Follows up the classic wealth-building text to examine how modern, low-profile millionaires save, invest, and maintain financial discipline.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781492667353",
     "original_language": "en",
-    "author_en": "D  J  D",
+    "author_en": "Thomas J. Stanley & Sarah Stanley Fallaw",
     "outline": [
       "核心觀念與概念導入",
       "核心挑戰與解決方案剖析",
@@ -18611,8 +18651,8 @@
   {
     "id": "book_564",
     "code": "S5-64",
-    "title_cn": "Tune In",
-    "title_en": "Tune In",
+    "title_cn": "聆聽力",
+    "title_en": "Tune In: How to Make Smarter Decisions Under Pressure",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=RZFktPMkZ8s",
     "video_id": "RZFktPMkZ8s",
@@ -18620,14 +18660,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Tune In    Nuala Walsh",
-    "author": "Nuala Walsh",
+    "description": "行為科學家探討大腦如何受到各種認知雜音與干擾的影響，指引我們在極高壓力下如何聆聽重要聲音、排除雜訊做出精準判斷。",
+    "author": "努瓦拉·沃爾什",
     "cover_url": "https://img.youtube.com/vi/RZFktPMkZ8s/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=RZFktPMkZ8s",
-    "description_cn": "Tune In    Nuala Walsh",
-    "description_en": "",
+    "description_cn": "行為科學家探討大腦如何受到各種認知雜音與干擾的影響，指引我們在極高壓力下如何聆聽重要聲音、排除雜訊做出精準判斷。",
+    "description_en": "Behavioral scientist Nuala Walsh outlines how to quiet cognitive noise and make rational, sound decisions when under intense pressure.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781788601238",
     "original_language": "en",
     "author_en": "Nuala Walsh",
     "outline": [
@@ -18644,8 +18684,8 @@
   {
     "id": "book_565",
     "code": "S5-65",
-    "title_cn": "Think for Yourself",
-    "title_en": "Think for Yourself",
+    "title_cn": "獨立思考",
+    "title_en": "Think for Yourself: Restoring Common Sense in an Age of Experts",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=1uArRX3U9MA",
     "video_id": "1uArRX3U9MA",
@@ -18653,14 +18693,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Think for Yourself    Vikram Mansharamani",
-    "author": "Vikram Mansharamani",
+    "description": "哈佛學者曼沙拉馬尼呼籲在過度仰賴「專家意見」的當代，我們應學習跨界整合、恢復常識，並拿回獨立思考與自我判斷的主導權。",
+    "author": "維克拉姆·曼沙拉馬尼",
     "cover_url": "https://img.youtube.com/vi/1uArRX3U9MA/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=1uArRX3U9MA",
-    "description_cn": "Think for Yourself    Vikram Mansharamani",
-    "description_en": "",
+    "description_cn": "哈佛學者曼沙拉馬尼呼籲在過度仰賴「專家意見」的當代，我們應學習跨界整合、恢復常識，並拿回獨立思考與自我判斷的主導權。",
+    "description_en": "Harvard lecturer Vikram Mansharamani outlines how to restore independent thinking and common sense in a world dominated by specialists.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9780062839268",
     "original_language": "en",
     "author_en": "Vikram Mansharamani",
     "outline": [
@@ -18677,8 +18717,8 @@
   {
     "id": "book_566",
     "code": "S5-66",
-    "title_cn": "Recapture the Rapture",
-    "title_en": "Recapture the Rapture",
+    "title_cn": "重獲狂喜",
+    "title_en": "Recapture the Rapture: Rethinking God, Sex, and Death in a World That's Lost Its Mind",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=3ODEjDrSiws",
     "video_id": "3ODEjDrSiws",
@@ -18686,14 +18726,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Recapture the Rapture    Jamie Wheal",
-    "author": "Jamie Wheal",
+    "description": "《心流》作者探討在世俗化與迷失的現代環境中，我們如何結合神經科學、心流與群體連結，重建心靈寄託與超越自我的生命意義。",
+    "author": "傑米·威爾",
     "cover_url": "https://img.youtube.com/vi/3ODEjDrSiws/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=3ODEjDrSiws",
-    "description_cn": "Recapture the Rapture    Jamie Wheal",
-    "description_en": "",
+    "description_cn": "《心流》作者探討在世俗化與迷失的現代環境中，我們如何結合神經科學、心流與群體連結，重建心靈寄託與超越自我的生命意義。",
+    "description_en": "Jamie Wheal details how we can leverage neuroscience and collective experiences to recapture meaning and connection in a chaotic world.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781544514208",
     "original_language": "en",
     "author_en": "Jamie Wheal",
     "outline": [
@@ -18711,8 +18751,8 @@
   {
     "id": "book_567",
     "code": "S5-67",
-    "title_cn": "Factfulness",
-    "title_en": "Factfulness",
+    "title_cn": "真確",
+    "title_en": "Factfulness: Ten Reasons We're Wrong About the World",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=fqGEJFMLpk4",
     "video_id": "fqGEJFMLpk4",
@@ -18720,14 +18760,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Factfulness    Hans Rosling",
-    "author": "Hans Rosling",
+    "description": "醫學教授羅斯林以客觀數據推翻我們對全球發展（如貧窮、健康、教育）的悲觀偏見，揭示十大本能偏誤，讓我們真確認識世界。",
+    "author": "漢斯·羅斯林",
     "cover_url": "https://img.youtube.com/vi/fqGEJFMLpk4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=fqGEJFMLpk4",
-    "description_cn": "Factfulness    Hans Rosling",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "醫學教授羅斯林以客觀數據推翻我們對全球發展（如貧窮、健康、教育）的悲觀偏見，揭示十大本能偏誤，讓我們真確認識世界。",
+    "description_en": "Hans Rosling defines the ten cognitive instincts that distort our perspective, using facts and data to show the world is better than we think.",
+    "isbn_zh": "9789863983293",
+    "isbn_en": "9781250107817",
     "original_language": "en",
     "author_en": "Hans Rosling",
     "outline": [
@@ -18740,13 +18780,14 @@
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010784915"
   },
   {
     "id": "book_568",
     "code": "S5-68",
-    "title_cn": "Rule Breaker Investing",
-    "title_en": "Rule Breaker Investing",
+    "title_cn": "打破規則的投資術",
+    "title_en": "Rule Breaker Investing: How to Pick the Best Stocks of the Future",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=JKydxUm7zRs",
     "video_id": "JKydxUm7zRs",
@@ -18754,14 +18795,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Rule Breaker Investing   David Gardner",
-    "author": "David Gardner",
+    "description": "Motley Fool聯合創辦人加德納公開其經典的「打破規則」選股美學，教你如何發掘顛覆性創新的偉大企業並進行長期複利投資。",
+    "author": "大衛·加德納",
     "cover_url": "https://img.youtube.com/vi/JKydxUm7zRs/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=JKydxUm7zRs",
-    "description_cn": "Rule Breaker Investing   David Gardner",
-    "description_en": "",
+    "description_cn": "Motley Fool聯合創辦人加德納公開其經典的「打破規則」選股美學，教你如何發掘顛覆性創新的偉大企業並進行長期複利投資。",
+    "description_en": "Motley Fool co-founder David Gardner shares his Rule Breaker philosophy to identify, hold, and build wealth with game-changing growth companies.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781804090282",
     "original_language": "en",
     "author_en": "David Gardner",
     "outline": [
@@ -18779,8 +18820,8 @@
   {
     "id": "book_569",
     "code": "S5-69",
-    "title_cn": "Feeling Smart",
-    "title_en": "Feeling Smart",
+    "title_cn": "理性的情緒：為什麼感性讓我們做出更好的決定",
+    "title_en": "Feeling Smart: Why Our Emotions Are More Rational Than We Think",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=R-9eBxLkyks",
     "video_id": "R-9eBxLkyks",
@@ -18788,14 +18829,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Feeling Smart    Eyal Winter",
-    "author": "Eyal Winter",
+    "description": "賽局理論專家溫特深入證明，人類的憤怒、愛、嫉妒與同理心等直覺情緒並非理性的對立面，而是演化而來幫助我們做出最佳社會選擇的智慧工具。",
+    "author": "伊亞爾·溫特",
     "cover_url": "https://img.youtube.com/vi/R-9eBxLkyks/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=R-9eBxLkyks",
-    "description_cn": "Feeling Smart    Eyal Winter",
-    "description_en": "",
-    "isbn_zh": "",
-    "isbn_en": "",
+    "description_cn": "賽局理論專家溫特深入證明，人類的憤怒、愛、嫉妒與同理心等直覺情緒並非理性的對立面，而是演化而來幫助我們做出最佳社會選擇的智慧工具。",
+    "description_en": "Game theory expert Eyal Winter proves that our emotions are evolved tools that complement rationality and lead to better social decisions.",
+    "isbn_zh": "9789863595502",
+    "isbn_en": "9781610395359",
     "original_language": "en",
     "author_en": "Eyal Winter",
     "outline": [
@@ -18808,13 +18849,14 @@
       "唯有保持開放與好奇，我們才能在快速變動的時代中，持續自我疊代與進化。",
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
-    ]
+    ],
+    "books_url": "https://www.books.com.tw/products/0010793616"
   },
   {
     "id": "book_570",
     "code": "S5-70",
-    "title_cn": "The Science of Happiness",
-    "title_en": "The Science of Happiness",
+    "title_cn": "幸福的科學：過上美好生活的七堂課",
+    "title_en": "The Science of Happiness: Seven Lessons for Living Well",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=7fWxDCsyZt4",
     "video_id": "7fWxDCsyZt4",
@@ -18822,14 +18864,14 @@
     "tags": [
       "S5"
     ],
-    "description": "The Science of Happiness   Seven Lessons for Living Well Bruce Hood",
-    "author": "Bruce Hood",
+    "description": "神經科學專家胡德教授提出結合腦科學與行為介入的七堂幸福實踐課，幫助我們擺脫過度攀比，重建持久的心理健康。",
+    "author": "布魯斯·胡德",
     "cover_url": "https://img.youtube.com/vi/7fWxDCsyZt4/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=7fWxDCsyZt4",
-    "description_cn": "The Science of Happiness   Seven Lessons for Living Well Bruce Hood",
-    "description_en": "",
+    "description_cn": "神經科學專家胡德教授提出結合腦科學與行為介入的七堂幸福實踐課，幫助我們擺脫過度攀比，重建持久的心理健康。",
+    "description_en": "Bruce Hood presents seven research-backed lessons combining neuroscience and psychology to overcome negative thinking and find lasting joy.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781804090282",
     "original_language": "en",
     "author_en": "Bruce Hood",
     "outline": [
@@ -18847,8 +18889,8 @@
   {
     "id": "book_571",
     "code": "S5-71",
-    "title_cn": "The Laws of Connection",
-    "title_en": "The Laws of Connection",
+    "title_cn": "連結的法則",
+    "title_en": "The Laws of Connection: The Scientific Secrets of Building Rapport",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=H5dFj7mAuHc",
     "video_id": "H5dFj7mAuHc",
@@ -18856,14 +18898,14 @@
     "tags": [
       "S5"
     ],
-    "description": "The Laws of Connection    David Robson",
-    "author": "David Robson",
+    "description": "科普作家羅布森解析建立深厚人際連結的科學秘密，教我們如何克服社交焦慮、增進同理，並在日常中建立深刻和諧的人際關係網路。",
+    "author": "大衛·羅布森",
     "cover_url": "https://img.youtube.com/vi/H5dFj7mAuHc/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=H5dFj7mAuHc",
-    "description_cn": "The Laws of Connection    David Robson",
-    "description_en": "",
+    "description_cn": "科普作家羅布森解析建立深厚人際連結的科學秘密，教我們如何克服社交焦慮、增進同理，並在日常中建立深刻和諧的人際關係網路。",
+    "description_en": "David Robson shares the science-backed principles of building trust, cultivating rapport, and creating meaningful social connections.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781804090282",
     "original_language": "en",
     "author_en": "David Robson",
     "outline": [
@@ -18881,8 +18923,8 @@
   {
     "id": "book_572",
     "code": "S5-72",
-    "title_cn": "Mom and Dad We Need to Talk",
-    "title_en": "Mom and Dad We Need to Talk",
+    "title_cn": "爸媽，我們需要談談金錢",
+    "title_en": "Mom and Dad, We Need to Talk: How to Have Essential Conversations With Your Parents",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=_qNwiI0QXZE",
     "video_id": "_qNwiI0QXZE",
@@ -18890,14 +18932,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Mom and Dad We Need to Talk    Cameron Huddleston",
-    "author": "Cameron Huddleston",
+    "description": "理財顧問哈德爾斯頓提供貼心指南，教你如何以溫和且尊重的方式，與年邁父母開展金錢、保險與身後產權等敏感但至關重要的對話。",
+    "author": "卡梅倫·哈德爾斯頓",
     "cover_url": "https://img.youtube.com/vi/_qNwiI0QXZE/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=_qNwiI0QXZE",
-    "description_cn": "Mom and Dad We Need to Talk    Cameron Huddleston",
-    "description_en": "",
+    "description_cn": "理財顧問哈德爾斯頓提供貼心指南，教你如何以溫和且尊重的方式，與年邁父母開展金錢、保險與身後產權等敏感但至關重要的對話。",
+    "description_en": "A sensitive, step-by-step guide to starting vital conversations with aging parents regarding their finances, wills, and estate plans.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781119565659",
     "original_language": "en",
     "author_en": "Cameron Huddleston",
     "outline": [
@@ -18915,7 +18957,7 @@
   {
     "id": "book_573",
     "code": "S5-73",
-    "title_cn": "Metabolic Freedom",
+    "title_cn": "代謝自由",
     "title_en": "Metabolic Freedom",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=sF2nORPObwM",
@@ -18924,14 +18966,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Metabolic Freedom    Ben Azadi",
-    "author": "Ben Azadi",
+    "description": "健康專家阿扎迪探討如何透過生酮、斷食與適當的生化介入，修復受損的代謝功能，重獲身體精力與自由。",
+    "author": "本·阿扎迪",
     "cover_url": "https://img.youtube.com/vi/sF2nORPObwM/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=sF2nORPObwM",
-    "description_cn": "Metabolic Freedom    Ben Azadi",
-    "description_en": "",
+    "description_cn": "健康專家阿扎迪探討如何透過生酮、斷食與適當的生化介入，修復受損的代謝功能，重獲身體精力與自由。",
+    "description_en": "Health expert Ben Azadi details how to restore cellular health, optimize metabolism, and boost energy through structured keto and fasting.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781544514208",
     "original_language": "en",
     "author_en": "Ben Azadi",
     "outline": [
@@ -18948,8 +18990,8 @@
   {
     "id": "book_574",
     "code": "S5-74",
-    "title_cn": "Off the Scales",
-    "title_en": "Off the Scales",
+    "title_cn": "失去平衡的體重計：Ozempic 與減肥藥大戰",
+    "title_en": "Off the Scales: The Inside Story of Ozempic and the Race to Cure Obesity",
     "playlist": "Book TALK - DeepDive Podcast S5",
     "youtube_url": "https://www.youtube.com/watch?v=QkfK_MVfcPg",
     "video_id": "QkfK_MVfcPg",
@@ -18957,14 +18999,14 @@
     "tags": [
       "S5"
     ],
-    "description": "Off the Scales    Aimee Donnellan",
-    "author": "Aimee Donnellan",
+    "description": "路透社記者重磅報導，解析Ozempic等減肥神藥（GLP-1）背後的開發競爭、藥廠巨大利益博弈，以及藥物對當代審美與社會公平的衝擊。",
+    "author": "艾米·唐納蘭",
     "cover_url": "https://img.youtube.com/vi/QkfK_MVfcPg/maxresdefault.jpg",
     "english_url": "https://www.youtube.com/watch?v=QkfK_MVfcPg",
-    "description_cn": "Off the Scales    Aimee Donnellan",
-    "description_en": "",
+    "description_cn": "路透社記者重磅報導，解析Ozempic等減肥神藥（GLP-1）背後的開發競爭、藥廠巨大利益博弈，以及藥物對當代審美與社會公平的衝擊。",
+    "description_en": "Reuters journalist Aimee Donnellan details the pharmaceutical race, economic impacts, and social ethics surrounding breakthrough GLP-1 weight-loss drugs.",
     "isbn_zh": "",
-    "isbn_en": "",
+    "isbn_en": "9781786079770",
     "original_language": "en",
     "author_en": "Aimee Donnellan",
     "outline": [
@@ -18976,6 +19018,206 @@
     "quotes": [
       "讀書是與智者對話，而實踐則是與自己進行一場深刻而溫柔的心靈和解。",
       "知識的價值不在於你記住了多少，而在於你如何在生活中做出微小的實踐。"
+    ]
+  },
+  {
+    "id": "book_575",
+    "code": "S5-75",
+    "title_cn": "決策的藝術",
+    "title_en": "Creating Great Choices: A Leader's Guide to Integrative Thinking",
+    "playlist": "Book TALK - DeepDive Podcast S5",
+    "youtube_url": "https://www.youtube.com/watch?v=0rAeFi4fEV0",
+    "video_id": "0rAeFi4fEV0",
+    "video_title": "S5 75 Creating Great Choices - Jennifer Riel",
+    "tags": [
+      "S5"
+    ],
+    "description": "Creating Great Choices: A Leader's Guide to Integrative Thinking by Jennifer Riel & Roger L. Martin",
+    "author": "詹妮弗·里爾、羅傑·馬丁",
+    "cover_url": "https://img.youtube.com/vi/0rAeFi4fEV0/maxresdefault.jpg",
+    "english_url": "https://www.youtube.com/watch?v=0rAeFi4fEV0",
+    "description_cn": "詹妮弗·里爾與羅傑·馬丁介紹瞭如何運用「整合思考」超越二元對立，透過組合不同觀點的優勢創造出更優越的第三條解決方案。",
+    "description_en": "Jennifer Riel and Roger L. Martin present a guide to integrative thinking, showing how to move beyond binary choices and create superior solutions.",
+    "isbn_zh": "",
+    "isbn_en": "9781633692961",
+    "original_language": "en",
+    "author_en": "Jennifer Riel & Roger L. Martin",
+    "outline": [
+      "整合思考的核心理念",
+      "如何梳理對立觀點的優勢",
+      "創意路徑探索與原型測試",
+      "將整合思考應用於日常決策"
+    ],
+    "quotes": [
+      "選擇不是在妥協中度過，而是在創新中超越。",
+      "整合思考者不會被眼前的二選一局限，他們會創造第三條路。"
+    ]
+  },
+  {
+    "id": "book_576",
+    "code": "S5-76",
+    "title_cn": "高勝算決策",
+    "title_en": "Thinking in Bets: Making Smarter Decisions When You Don't Have All the Facts",
+    "playlist": "Book TALK - DeepDive Podcast S5",
+    "youtube_url": "https://www.youtube.com/watch?v=Zqv48QGnlDM",
+    "video_id": "Zqv48QGnlDM",
+    "video_title": "S5 76 Thinking in Bets - Annie Duke",
+    "tags": [
+      "S5"
+    ],
+    "description": "Thinking in Bets by Annie Duke",
+    "author": "安妮·杜克",
+    "cover_url": "https://img.youtube.com/vi/Zqv48QGnlDM/maxresdefault.jpg",
+    "english_url": "https://www.youtube.com/watch?v=Zqv48QGnlDM",
+    "description_cn": "職業撲克世界冠軍安妮·杜克教你如何像下注一樣思考，在不確定性中理性評估機率、避免以結果好壞論成敗的認知偏誤。",
+    "description_en": "Former poker champion Annie Duke shares decision-making strategies, showing readers how to embrace uncertainty and make smarter choices.",
+    "isbn_zh": "9789863983804",
+    "isbn_en": "9780735216358",
+    "original_language": "en",
+    "author_en": "Annie Duke",
+    "outline": [
+      "人生是一場博弈而非西洋棋",
+      "擺脫結果論的思維盲點",
+      "以機率視角評估未來的不確定性",
+      "如何在團隊中建立求真性的決策社群"
+    ],
+    "quotes": [
+      "我不知道，但這是我願意押注的概率。",
+      "最優秀的決策者並非每次都對，而是懂得在資訊不足時做出最高勝算的下注。"
+    ],
+    "books_url": "https://www.books.com.tw/products/0010787595"
+  },
+  {
+    "id": "book_577",
+    "code": "S5-77",
+    "title_cn": "停損的勝算",
+    "title_en": "Quit: The Power of Knowing When to Walk Away",
+    "playlist": "Book TALK - DeepDive Podcast S5",
+    "youtube_url": "https://www.youtube.com/watch?v=slzGrCDTObU",
+    "video_id": "slzGrCDTObU",
+    "video_title": "S5 77 Quit - The Power of Knowing When to Walk Away",
+    "tags": [
+      "S5"
+    ],
+    "description": "Quit by Annie Duke",
+    "author": "安妮·杜克",
+    "cover_url": "https://img.youtube.com/vi/slzGrCDTObU/maxresdefault.jpg",
+    "english_url": "https://www.youtube.com/watch?v=slzGrCDTObU",
+    "description_cn": "安妮·杜克結合行為科學與生動案例證明，在正確時機選擇放棄或停損是卓越決策不可或缺的一部分，堅持並不總是美德。",
+    "description_en": "Annie Duke challenges the stigma of quitting, showing why knowing when to walk away is a critical skill for long-term success.",
+    "isbn_zh": "9789576589331",
+    "isbn_en": "9780593422991",
+    "original_language": "en",
+    "author_en": "Annie Duke",
+    "outline": [
+      "堅持的沉沒成本偏誤",
+      "為什麼及早放棄比盲目堅持更難",
+      "建立個人的放棄護欄與停損指標",
+      "如何建立願意容許良性退出機制環境"
+    ],
+    "quotes": [
+      "放棄不是失敗的標誌，而是尋找更好可能性的起點。",
+      "如果你在看清前路已無希望時依然選擇前行，那不叫勇敢，叫愚蠢。"
+    ],
+    "books_url": "https://www.books.com.tw/products/0010940350"
+  },
+  {
+    "id": "book_578",
+    "code": "S5-78",
+    "title_cn": "如何決定",
+    "title_en": "How to Decide: Simple Tools for Making Better Choices",
+    "playlist": "Book TALK - DeepDive Podcast S5",
+    "youtube_url": "https://www.youtube.com/watch?v=hyNzNW95icA",
+    "video_id": "hyNzNW95icA",
+    "video_title": "S5 78 How to Decide - Simple Tools for Making Better Choices",
+    "tags": [
+      "S5"
+    ],
+    "description": "How to Decide by Annie Duke",
+    "author": "安妮·杜克",
+    "cover_url": "https://img.youtube.com/vi/hyNzNW95icA/maxresdefault.jpg",
+    "english_url": "https://www.youtube.com/watch?v=hyNzNW95icA",
+    "description_cn": "實用的決策工具手冊，提供多種思維模型引導讀者進行理性梳理、量化不確定性並做出更明智客觀的決定。",
+    "description_en": "A practical, hands-on guide filled with exercises and cognitive frameworks to help readers make objective and calculated decisions.",
+    "isbn_zh": "",
+    "isbn_en": "9781982132934",
+    "original_language": "en",
+    "author_en": "Annie Duke",
+    "outline": [
+      "決策樹與選擇分析架構",
+      "排除認知偏誤與主觀干擾的工具",
+      "對未來多重可能進行機率量化",
+      "建立決策日誌以實現持續優化"
+    ],
+    "quotes": [
+      "好決策並不保證好結果，但它是提高獲得好結果機率的唯一路徑。",
+      "精準紀錄你的決策過程，是避免事後孔明偏誤的最好方法。"
+    ]
+  },
+  {
+    "id": "book_579",
+    "code": "S5-79",
+    "title_cn": "重啟未來",
+    "title_en": "Restarting the Future: How to Fix the Intangible Economy",
+    "playlist": "Book TALK - DeepDive Podcast S5",
+    "youtube_url": "https://www.youtube.com/watch?v=f_Fxc-aal3w",
+    "video_id": "f_Fxc-aal3w",
+    "video_title": "S5 79 Restarting the Future - Jonathan Haskel",
+    "tags": [
+      "S5"
+    ],
+    "description": "Restarting the Future by Jonathan Haskel & Stian Westlake",
+    "author": "喬納森·哈斯克爾、斯蒂安·韋斯特萊克",
+    "author_en": "Jonathan Haskel & Stian Westlake",
+    "cover_url": "https://img.youtube.com/vi/f_Fxc-aal3w/maxresdefault.jpg",
+    "english_url": "https://www.youtube.com/watch?v=f_Fxc-aal3w",
+    "description_cn": "分析無形資產（專利、軟體、品牌）主導的現代無形經濟帶來的制度瓶頸，並提出政策改革方案以提振全球增長。",
+    "description_en": "Explores the challenges of the modern intangible economy and outlines structural policy reforms needed to revive global economic growth.",
+    "isbn_zh": "",
+    "isbn_en": "9780691211503",
+    "original_language": "en",
+    "outline": [
+      "無形經濟的四個核心特徵",
+      "現代金融體制與專利法規的制度滯後",
+      "貧富差距與無形資產聚集效應",
+      "重構公共政策以適應無形資產時代"
+    ],
+    "quotes": [
+      "在無形經濟時代，我們不能再用管理實體工廠的舊法則來規劃未來。",
+      "成功的制度改革，在於讓創意的擴散與保護達到健康平衡。"
+    ]
+  },
+  {
+    "id": "book_580",
+    "code": "S5-80",
+    "title_cn": "我與我的相遇",
+    "title_en": "Pleased to Meet Me: Genes, Germs, and the Curious Forces that Make Us Who We Are",
+    "playlist": "Book TALK - DeepDive Podcast S5",
+    "youtube_url": "https://www.youtube.com/watch?v=yuXU4jXMtf0",
+    "video_id": "yuXU4jXMtf0",
+    "video_title": "S5 80 Pleased to Meet Me - Bill Sullivan",
+    "tags": [
+      "S5"
+    ],
+    "description": "Pleased to Meet Me by Bill Sullivan",
+    "author": "比爾·蘇利文",
+    "cover_url": "https://img.youtube.com/vi/yuXU4jXMtf0/maxresdefault.jpg",
+    "english_url": "https://www.youtube.com/watch?v=yuXU4jXMtf0",
+    "description_cn": "生物學家以風趣幽默的語言，介紹基因、腸道菌群及表觀遺傳學等奇妙生物力量如何形塑我們的性格與偏好。",
+    "description_en": "Biologist Bill Sullivan explores how genetics, microbes, and environmental factors shape our personality, habits, and life choices.",
+    "isbn_zh": "",
+    "isbn_en": "9781426220555",
+    "original_language": "en",
+    "author_en": "Bill Sullivan",
+    "outline": [
+      "基因藍圖如何框定我們的基本偏好",
+      "腸道微生物對情緒與大腦決策的控制",
+      "表觀遺傳學：環境如何開關我們的基因",
+      "理解生物本能以實現更溫和的自我和解"
+    ],
+    "quotes": [
+      "你以為你是自由意志的化身，但很多時候你只是體內微生物和基因的代言人。",
+      "當我們越了解行為背後的生物學，我們就越能以慈悲 and 理解看待他人與自己。"
     ]
   }
 ]

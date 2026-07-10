@@ -103,10 +103,20 @@ export default function BookDetail() {
     const numericId = parseInt(String(book.id).replace(/\D/g, '')) || 0;
     const rating = (4.5 + (numericId % 5) * 0.1).toFixed(1);
 
-    // Dynamic books.com.tw search url based on ISBN or title
-    const booksUrl = book.isbn_zh
+    // Dynamic books.com.tw search url based on ISBN or title, falls back to search if books_url is not set
+    const booksUrl = book.books_url || (book.isbn_zh
         ? `https://search.books.com.tw/search/query/key/${book.isbn_zh}/cat/all`
-        : `https://search.books.com.tw/search/query/key/${encodeURIComponent(book.title_cn || book.title_en)}/cat/all`;
+        : `https://search.books.com.tw/search/query/key/${encodeURIComponent(book.title_cn || book.title_en)}/cat/all`);
+
+    // Dynamic kobo tw search url based on ISBN or title
+    const koboTwUrl = book.isbn_zh
+        ? `https://www.kobo.com/tw/zh/search?query=${book.isbn_zh}`
+        : `https://www.kobo.com/tw/zh/search?query=${encodeURIComponent(book.title_cn || book.title_en)}`;
+
+    // Dynamic kobo us search url based on ISBN or title
+    const koboUsUrl = book.isbn_en
+        ? `https://www.kobo.com/us/en/search?query=${book.isbn_en}`
+        : `https://www.kobo.com/us/en/search?query=${encodeURIComponent(book.title_en || book.title_cn)}`;
 
     return (
         <div style={{ background: 'var(--bg)', minHeight: '100vh' }}>
@@ -294,23 +304,62 @@ export default function BookDetail() {
                                 )}
                             </div>
 
-                            {/* Books.com.tw Buy Link */}
-                            <a
-                                href={booksUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                style={{
-                                    marginTop: '16px', display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-                                    padding: '10px 18px', borderRadius: '8px', background: 'var(--accent)', color: 'white',
-                                    textDecoration: 'none', fontSize: '13px', fontWeight: '750', width: 'fit-content',
-                                    transition: 'all 0.15s ease', boxShadow: '0 4px 10px rgba(202,122,44,0.2)'
-                                }}
-                                onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent-light)'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
-                                onMouseLeave={e => { e.currentTarget.style.background = 'var(--accent)'; e.currentTarget.style.transform = 'none'; }}
-                            >
-                                <ShoppingBag size={14} />
-                                {language === 'zh' ? '在 博客來 購買此書' : 'Buy Book on Books.com.tw'}
-                            </a>
+                            {/* Purchase Links Container */}
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '16px' }}>
+                                {/* Books.com.tw Buy Link */}
+                                <a
+                                    href={booksUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{
+                                        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                                        padding: '10px 18px', borderRadius: '8px', background: 'var(--accent)', color: 'white',
+                                        textDecoration: 'none', fontSize: '13px', fontWeight: '750',
+                                        transition: 'all 0.15s ease', boxShadow: '0 4px 10px rgba(202,122,44,0.2)'
+                                    }}
+                                    onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent-light)'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
+                                    onMouseLeave={e => { e.currentTarget.style.background = 'var(--accent)'; e.currentTarget.style.transform = 'none'; }}
+                                >
+                                    <ShoppingBag size={14} />
+                                    {language === 'zh' ? '博客來 書頁' : 'Books.com.tw Page'}
+                                </a>
+
+                                {/* Kobo TW Link */}
+                                <a
+                                    href={koboTwUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{
+                                        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                                        padding: '10px 18px', borderRadius: '8px', background: '#bf0000', color: 'white',
+                                        textDecoration: 'none', fontSize: '13px', fontWeight: '750',
+                                        transition: 'all 0.15s ease', boxShadow: '0 4px 10px rgba(191,0,0,0.2)'
+                                    }}
+                                    onMouseEnter={e => { e.currentTarget.style.background = '#d90000'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
+                                    onMouseLeave={e => { e.currentTarget.style.background = '#bf0000'; e.currentTarget.style.transform = 'none'; }}
+                                >
+                                    <Globe size={14} />
+                                    {language === 'zh' ? '在 Kobo 台灣 購買電子書' : 'Kobo TW Store'}
+                                </a>
+
+                                {/* Kobo US Link */}
+                                <a
+                                    href={koboUsUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{
+                                        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                                        padding: '10px 18px', borderRadius: '8px', background: '#330066', color: 'white',
+                                        textDecoration: 'none', fontSize: '13px', fontWeight: '750',
+                                        transition: 'all 0.15s ease', boxShadow: '0 4px 10px rgba(51,0,102,0.2)'
+                                    }}
+                                    onMouseEnter={e => { e.currentTarget.style.background = '#440088'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
+                                    onMouseLeave={e => { e.currentTarget.style.background = '#330066'; e.currentTarget.style.transform = 'none'; }}
+                                >
+                                    <Globe size={14} />
+                                    {language === 'zh' ? '在 Kobo 美國 購買電子書' : 'Kobo US Store'}
+                                </a>
+                            </div>
                         </div>
                     </div>
 

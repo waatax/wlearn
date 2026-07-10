@@ -215,6 +215,61 @@ export default function BookDetail() {
               </div>
             </div>
 
+            {/* Purchase & Search Links */}
+            <div className="bg-[#f0ebe0] rounded-xl p-6 mt-4">
+              <h3 className="text-sm text-gray-500 mb-4 flex items-center gap-2">
+                <Globe size={14} className="text-gray-400" />
+                {language === 'zh' ? '圖書購買與搜尋' : 'Buy & Search Books'}
+              </h3>
+              <div className="space-y-3">
+                {/* Books.com.tw */}
+                <div className="flex items-center gap-2">
+                  <Globe size={14} className="text-gray-500 shrink-0" />
+                  <span className="text-xs text-gray-500 shrink-0 w-16">{language === 'zh' ? '博客來' : 'Books.com'}</span>
+                  <a 
+                    href={(book as any).books_url || ((book as any).isbn_zh ? `https://search.books.com.tw/search/query/key/${(book as any).isbn_zh}/cat/all` : `https://search.books.com.tw/search/query/key/${encodeURIComponent(book.title_cn || book.title_en)}/cat/all`)} 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="text-[#0e7b89] hover:underline truncate text-sm font-semibold"
+                  >
+                    {language === 'zh' ? '博客來 書頁' : 'Books.com.tw Page'}
+                  </a>
+                </div>
+                
+                <div className="border-t border-[#e2dacb] my-2"></div>
+
+                {/* Kobo TW */}
+                <div className="flex items-center gap-2">
+                  <Globe size={14} className="text-gray-500 shrink-0" />
+                  <span className="text-xs text-gray-500 shrink-0 w-16">{language === 'zh' ? 'Kobo 台灣' : 'Kobo TW'}</span>
+                  <a 
+                    href={(book as any).isbn_zh ? `https://www.kobo.com/tw/zh/search?query=${(book as any).isbn_zh}` : `https://www.kobo.com/tw/zh/search?query=${encodeURIComponent(book.title_cn || book.title_en)}`} 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="text-[#0e7b89] hover:underline truncate text-sm font-medium"
+                  >
+                    {language === 'zh' ? '前往台灣樂天書城' : 'Go to Kobo TW'}
+                  </a>
+                </div>
+                
+                <div className="border-t border-[#e2dacb] my-2"></div>
+
+                {/* Kobo US */}
+                <div className="flex items-center gap-2">
+                  <Globe size={14} className="text-gray-500 shrink-0" />
+                  <span className="text-xs text-gray-500 shrink-0 w-16">{language === 'zh' ? 'Kobo 美國' : 'Kobo US'}</span>
+                  <a 
+                    href={book.isbn_en ? `https://www.kobo.com/us/en/search?query=${book.isbn_en}` : `https://www.kobo.com/us/en/search?query=${encodeURIComponent(book.title_en || book.title_cn)}`} 
+                    target="_blank" 
+                    rel="noreferrer" 
+                    className="text-[#0e7b89] hover:underline truncate text-sm font-medium"
+                  >
+                    {language === 'zh' ? '前往美國樂天書城' : 'Go to Kobo US'}
+                  </a>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
