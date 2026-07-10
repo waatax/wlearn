@@ -362,7 +362,7 @@ export default function BookDetail() {
                     </section>
 
                     {/* Section 2: Core Quotes (核心金句) */}
-                    {book.quotes && book.quotes.length > 0 && (
+                    {((language === 'zh' ? book.quotes : (book.quotes_en || book.quotes)) && (language === 'zh' ? book.quotes : (book.quotes_en || book.quotes)).length > 0) && (
                         <section id="quotes" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                             <h2 style={{
                                 margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
@@ -373,7 +373,7 @@ export default function BookDetail() {
                                 {language === 'zh' ? '核心金句' : 'Core Quotes'}
                             </h2>
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-                                {book.quotes.map((quote, i) => (
+                                {(language === 'zh' ? book.quotes : (book.quotes_en || book.quotes)).map((quote, i) => (
                                     <blockquote key={i} style={{
                                         margin: 0, padding: '20px 24px', borderRadius: '12px',
                                         background: 'var(--tag-bg)', borderLeft: '4px solid var(--primary)',
@@ -388,7 +388,7 @@ export default function BookDetail() {
                                             lineHeight: '1.7', color: 'var(--primary-dark)',
                                             position: 'relative', zIndex: 1
                                         }}>
-                                            「{quote}」
+                                            {language === 'zh' ? `「${quote}」` : `"${quote}"`}
                                         </p>
                                     </blockquote>
                                 ))}
@@ -397,7 +397,7 @@ export default function BookDetail() {
                     )}
 
                     {/* Section 3: Outline / Index (內容大綱) */}
-                    {book.outline && book.outline.length > 0 && (
+                    {((language === 'zh' ? book.outline : (book.outline_en || book.outline)) && (language === 'zh' ? book.outline : (book.outline_en || book.outline)).length > 0) && (
                         <section id="outline" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                             <h2 style={{
                                 margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
@@ -412,7 +412,7 @@ export default function BookDetail() {
                                 border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)',
                                 display: 'flex', flexDirection: 'column', gap: '14px'
                             }}>
-                                {book.outline.map((chapter, i) => (
+                                {(language === 'zh' ? book.outline : (book.outline_en || book.outline)).map((chapter, i) => (
                                     <div key={i} style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
                                         <div style={{
                                             display: 'flex', alignItems: 'center', justifyContent: 'center',
