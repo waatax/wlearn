@@ -238,33 +238,20 @@ export default function BookDetail() {
                 
                 <div className="border-t border-[#e2dacb] my-2"></div>
 
-                {/* Kobo TW */}
+                {/* KOBO */}
                 <div className="flex items-center gap-2">
                   <Globe size={14} className="text-gray-500 shrink-0" />
-                  <span className="text-xs text-gray-500 shrink-0 w-16">{language === 'zh' ? 'Kobo 台灣' : 'Kobo TW'}</span>
+                  <span className="text-xs text-gray-500 shrink-0 w-16">{language === 'zh' ? 'KOBO' : 'KOBO'}</span>
                   <a 
-                    href={(book as any).isbn_zh ? `https://www.kobo.com/tw/zh/search?query=${(book as any).isbn_zh}` : `https://www.kobo.com/tw/zh/search?query=${encodeURIComponent(book.title_cn || book.title_en)}`} 
+                    href={language === 'zh' 
+                      ? ((book as any).isbn_zh ? `https://www.kobo.com/tw/zh/Search?Query=${(book as any).isbn_zh}` : `https://www.kobo.com/tw/zh/Search?Query=${encodeURIComponent(book.title_cn || book.title_en)}`)
+                      : (book.isbn_en ? `https://www.kobo.com/us/en/Search?Query=${book.isbn_en}` : `https://www.kobo.com/us/en/Search?Query=${encodeURIComponent(book.title_en || book.title_cn)}`)
+                    } 
                     target="_blank" 
                     rel="noreferrer" 
-                    className="text-[#0e7b89] hover:underline truncate text-sm font-medium"
+                    className="text-[#0e7b89] hover:underline truncate text-sm font-semibold"
                   >
-                    {language === 'zh' ? '前往台灣樂天書城' : 'Go to Kobo TW'}
-                  </a>
-                </div>
-                
-                <div className="border-t border-[#e2dacb] my-2"></div>
-
-                {/* Kobo US */}
-                <div className="flex items-center gap-2">
-                  <Globe size={14} className="text-gray-500 shrink-0" />
-                  <span className="text-xs text-gray-500 shrink-0 w-16">{language === 'zh' ? 'Kobo 美國' : 'Kobo US'}</span>
-                  <a 
-                    href={book.isbn_en ? `https://www.kobo.com/us/en/search?query=${book.isbn_en}` : `https://www.kobo.com/us/en/search?query=${encodeURIComponent(book.title_en || book.title_cn)}`} 
-                    target="_blank" 
-                    rel="noreferrer" 
-                    className="text-[#0e7b89] hover:underline truncate text-sm font-medium"
-                  >
-                    {language === 'zh' ? '前往美國樂天書城' : 'Go to Kobo US'}
+                    {language === 'zh' ? 'KOBO 書頁' : 'KOBO Page'}
                   </a>
                 </div>
               </div>

@@ -110,13 +110,13 @@ export default function BookDetail() {
 
     // Dynamic kobo tw search url based on ISBN or title
     const koboTwUrl = book.isbn_zh
-        ? `https://www.kobo.com/tw/zh/search?query=${book.isbn_zh}`
-        : `https://www.kobo.com/tw/zh/search?query=${encodeURIComponent(book.title_cn || book.title_en)}`;
-
+        ? `https://www.kobo.com/tw/zh/Search?Query=${book.isbn_zh}`
+        : `https://www.kobo.com/tw/zh/Search?Query=${encodeURIComponent(book.title_cn || book.title_en)}`;
+ 
     // Dynamic kobo us search url based on ISBN or title
     const koboUsUrl = book.isbn_en
-        ? `https://www.kobo.com/us/en/search?query=${book.isbn_en}`
-        : `https://www.kobo.com/us/en/search?query=${encodeURIComponent(book.title_en || book.title_cn)}`;
+        ? `https://www.kobo.com/us/en/Search?Query=${book.isbn_en}`
+        : `https://www.kobo.com/us/en/Search?Query=${encodeURIComponent(book.title_en || book.title_cn)}`;
 
     return (
         <div style={{ background: 'var(--bg)', minHeight: '100vh' }}>
@@ -324,27 +324,9 @@ export default function BookDetail() {
                                     {language === 'zh' ? '博客來 書頁' : 'Books.com.tw Page'}
                                 </a>
 
-                                {/* Kobo TW Link */}
+                                {/* KOBO Link */}
                                 <a
-                                    href={koboTwUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    style={{
-                                        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-                                        padding: '10px 18px', borderRadius: '8px', background: '#bf0000', color: 'white',
-                                        textDecoration: 'none', fontSize: '13px', fontWeight: '750',
-                                        transition: 'all 0.15s ease', boxShadow: '0 4px 10px rgba(191,0,0,0.2)'
-                                    }}
-                                    onMouseEnter={e => { e.currentTarget.style.background = '#d90000'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
-                                    onMouseLeave={e => { e.currentTarget.style.background = '#bf0000'; e.currentTarget.style.transform = 'none'; }}
-                                >
-                                    <Globe size={14} />
-                                    {language === 'zh' ? '在 Kobo 台灣 購買電子書' : 'Kobo TW Store'}
-                                </a>
-
-                                {/* Kobo US Link */}
-                                <a
-                                    href={koboUsUrl}
+                                    href={language === 'zh' ? koboTwUrl : koboUsUrl}
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     style={{
@@ -357,7 +339,7 @@ export default function BookDetail() {
                                     onMouseLeave={e => { e.currentTarget.style.background = '#330066'; e.currentTarget.style.transform = 'none'; }}
                                 >
                                     <Globe size={14} />
-                                    {language === 'zh' ? '在 Kobo 美國 購買電子書' : 'Kobo US Store'}
+                                    {language === 'zh' ? 'KOBO 書頁' : 'KOBO Page'}
                                 </a>
                             </div>
                         </div>
