@@ -244,8 +244,8 @@ export default function BookDetail() {
                   <span className="text-xs text-gray-500 shrink-0 w-16">{language === 'zh' ? 'KOBO' : 'KOBO'}</span>
                   <a 
                     href={language === 'zh' 
-                      ? ((book as any).isbn_zh ? `https://www.kobo.com/tw/zh/Search?Query=${(book as any).isbn_zh}` : `https://www.kobo.com/tw/zh/Search?Query=${encodeURIComponent(book.title_cn || book.title_en)}`)
-                      : (book.isbn_en ? `https://www.kobo.com/us/en/Search?Query=${book.isbn_en}` : `https://www.kobo.com/us/en/Search?Query=${encodeURIComponent(book.title_en || book.title_cn)}`)
+                      ? `https://www.kobo.com/tw/zh/Search?Query=${encodeURIComponent(book.title_cn || book.title_en)}`
+                      : `https://www.kobo.com/us/en/Search?Query=${encodeURIComponent(book.title_en || book.title_cn)}`
                     } 
                     target="_blank" 
                     rel="noreferrer" 

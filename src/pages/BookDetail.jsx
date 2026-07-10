@@ -108,15 +108,11 @@ export default function BookDetail() {
         ? `https://search.books.com.tw/search/query/key/${book.isbn_zh}/cat/all`
         : `https://search.books.com.tw/search/query/key/${encodeURIComponent(book.title_cn || book.title_en)}/cat/all`);
 
-    // Dynamic kobo tw search url based on ISBN or title
-    const koboTwUrl = book.isbn_zh
-        ? `https://www.kobo.com/tw/zh/Search?Query=${book.isbn_zh}`
-        : `https://www.kobo.com/tw/zh/Search?Query=${encodeURIComponent(book.title_cn || book.title_en)}`;
+    // Dynamic kobo tw search url based on title (always search by title to avoid ISBN mismatches on Kobo store)
+    const koboTwUrl = `https://www.kobo.com/tw/zh/Search?Query=${encodeURIComponent(book.title_cn || book.title_en)}`;
  
-    // Dynamic kobo us search url based on ISBN or title
-    const koboUsUrl = book.isbn_en
-        ? `https://www.kobo.com/us/en/Search?Query=${book.isbn_en}`
-        : `https://www.kobo.com/us/en/Search?Query=${encodeURIComponent(book.title_en || book.title_cn)}`;
+    // Dynamic kobo us search url based on title
+    const koboUsUrl = `https://www.kobo.com/us/en/Search?Query=${encodeURIComponent(book.title_en || book.title_cn)}`;
 
     return (
         <div style={{ background: 'var(--bg)', minHeight: '100vh' }}>
