@@ -182,12 +182,12 @@ export default function BookDetail() {
                         
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
                             {[
-                                { id: 'video', label: language === 'zh' ? '說書影片' : 'Video Summary' },
+                                {id: 'video', label: language === 'zh' ? '說書影片' : 'Video Summary' },
                                 { id: 'author', label: language === 'zh' ? '關於作者' : 'About Author' },
                                 { id: 'insight', label: language === 'zh' ? '重點導讀' : 'Detailed Insight' },
                                 { id: 'quotes', label: language === 'zh' ? '核心金句' : 'Core Quotes' },
                                 { id: 'outline', label: language === 'zh' ? '內容大綱' : 'Book Outline' },
-                                { id: 'purchase', label: language === 'zh' ? '選購書籍' : 'Purchase Links' }
+                                { id: 'purchase', label: language === 'zh' ? '書籍書頁' : 'Book Pages' }
                             ].map(item => {
                                 const active = activeSection === item.id;
                                 return (
@@ -504,7 +504,7 @@ export default function BookDetail() {
                         </section>
                     )}
 
-                    {/* Section 6: Purchase Links (選購書籍) - MOVED TO END */}
+                    {/* Section 6: Purchase Links (書籍書頁) - MOVED TO END */}
                     <section id="purchase" style={{ marginBottom: '24px', scrollMarginTop: '100px' }}>
                         <h2 style={{
                             margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
@@ -512,7 +512,7 @@ export default function BookDetail() {
                             borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
                         }}>
                             <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
-                            {language === 'zh' ? '選購書籍' : 'Purchase Links'}
+                            {language === 'zh' ? '書籍書頁' : 'Book Pages'}
                         </h2>
                         <div style={{
                             background: 'white', borderRadius: 'var(--radius-md)', padding: '24px',
@@ -520,7 +520,7 @@ export default function BookDetail() {
                             display: 'flex', flexDirection: 'column', gap: '16px'
                         }}>
                             <p style={{ margin: 0, fontSize: '14px', color: 'var(--text-secondary)', fontWeight: '600' }}>
-                                {language === 'zh' ? '如果您喜歡這本書，歡迎前往以下平台購買支持原著作家：' : 'If you like this book, support the author by purchasing it from these stores:'}
+                                {language === 'zh' ? '如欲進一步閱讀或參考相關資訊，可點擊查看以下詳細書頁介紹：' : 'For more details on this book, check the official pages below:'}
                             </p>
                             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', marginTop: '4px' }}>
                                 {/* Books.com.tw Buy Link */}
@@ -538,7 +538,7 @@ export default function BookDetail() {
                                     onMouseLeave={e => { e.currentTarget.style.background = 'var(--accent)'; e.currentTarget.style.transform = 'none'; }}
                                 >
                                     <ShoppingBag size={16} />
-                                    {language === 'zh' ? '前往 博客來 購買' : 'Buy on Books.com.tw'}
+                                    {language === 'zh' ? '博客來 書頁' : 'Books.com.tw Page'}
                                 </a>
 
                                 {/* KOBO Link */}
@@ -556,7 +556,7 @@ export default function BookDetail() {
                                     onMouseLeave={e => { e.currentTarget.style.background = '#330066'; e.currentTarget.style.transform = 'none'; }}
                                 >
                                     <Globe size={16} />
-                                    {language === 'zh' ? '前往 KOBO 電子書 購買' : 'Buy on KOBO E-Books'}
+                                    {language === 'zh' ? 'KOBO 書頁' : 'KOBO Page'}
                                 </a>
                             </div>
                         </div>
