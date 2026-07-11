@@ -57,7 +57,7 @@ export default function BookDetail() {
     // Keep track of active section on scroll
     useEffect(() => {
         const handleScroll = () => {
-            const sections = ['insight', 'quotes', 'outline', 'video', 'author'];
+            const sections = ['video', 'author', 'insight', 'quotes', 'outline', 'purchase'];
             const scrollPosition = window.scrollY + 120;
 
             for (const section of sections) {
@@ -182,11 +182,12 @@ export default function BookDetail() {
                         
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
                             {[
-                                { id: 'insight', label: language === 'zh' ? '重點導讀' : 'Insight' },
-                                { id: 'quotes', label: language === 'zh' ? '核心金句' : 'Quotes' },
-                                { id: 'outline', label: language === 'zh' ? '內容大綱' : 'Outline' },
-                                { id: 'video', label: language === 'zh' ? '說書影片' : 'Video' },
-                                { id: 'author', label: language === 'zh' ? '關於作者' : 'Author' }
+                                { id: 'video', label: language === 'zh' ? '說書影片' : 'Video Summary' },
+                                { id: 'author', label: language === 'zh' ? '關於作者' : 'About Author' },
+                                { id: 'insight', label: language === 'zh' ? '重點導讀' : 'Detailed Insight' },
+                                { id: 'quotes', label: language === 'zh' ? '核心金句' : 'Core Quotes' },
+                                { id: 'outline', label: language === 'zh' ? '內容大綱' : 'Book Outline' },
+                                { id: 'purchase', label: language === 'zh' ? '選購書籍' : 'Purchase Links' }
                             ].map(item => {
                                 const active = activeSection === item.id;
                                 return (
@@ -266,9 +267,9 @@ export default function BookDetail() {
                             )}
                         </div>
 
-                        {/* Metadata fields */}
-                        <div style={{ flex: 1, minWidth: '220px', display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                        {/* Metadata fields (Purchase buttons removed from here) */}
+                        <div style={{ flex: 1, minWidth: '220px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
                                 <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
                                     <span style={{ fontSize: '13px', color: 'var(--text-muted)' }}>{t('author') || '作者'}：</span>
                                     <span style={{ fontSize: '14px', fontWeight: '700', color: 'var(--text)' }}>
@@ -299,139 +300,10 @@ export default function BookDetail() {
                                     </div>
                                 )}
                             </div>
-
-                            {/* Purchase Links Container */}
-                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '16px' }}>
-                                {/* Books.com.tw Buy Link */}
-                                <a
-                                    href={booksUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    style={{
-                                        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-                                        padding: '10px 18px', borderRadius: '8px', background: 'var(--accent)', color: 'white',
-                                        textDecoration: 'none', fontSize: '13px', fontWeight: '750',
-                                        transition: 'all 0.15s ease', boxShadow: '0 4px 10px rgba(202,122,44,0.2)'
-                                    }}
-                                    onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent-light)'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
-                                    onMouseLeave={e => { e.currentTarget.style.background = 'var(--accent)'; e.currentTarget.style.transform = 'none'; }}
-                                >
-                                    <ShoppingBag size={14} />
-                                    {language === 'zh' ? '博客來 書頁' : 'Books.com.tw Page'}
-                                </a>
-
-                                {/* KOBO Link */}
-                                <a
-                                    href={language === 'zh' ? koboTwUrl : koboUsUrl}
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                    style={{
-                                        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
-                                        padding: '10px 18px', borderRadius: '8px', background: '#330066', color: 'white',
-                                        textDecoration: 'none', fontSize: '13px', fontWeight: '750',
-                                        transition: 'all 0.15s ease', boxShadow: '0 4px 10px rgba(51,0,102,0.2)'
-                                    }}
-                                    onMouseEnter={e => { e.currentTarget.style.background = '#440088'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
-                                    onMouseLeave={e => { e.currentTarget.style.background = '#330066'; e.currentTarget.style.transform = 'none'; }}
-                                >
-                                    <Globe size={14} />
-                                    {language === 'zh' ? 'KOBO 書頁' : 'KOBO Page'}
-                                </a>
-                            </div>
                         </div>
                     </div>
 
-                    {/* Section 1: Detailed Insight (重點導讀) */}
-                    <section id="insight" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                        <h2 style={{
-                            margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
-                            color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
-                            borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
-                        }}>
-                            <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
-                            {language === 'zh' ? '重點導讀' : 'Detailed Insight'}
-                        </h2>
-                        <div style={{
-                            fontSize: '16px', lineHeight: '1.85', color: 'var(--text-secondary)',
-                            letterSpacing: '0.01em', textAlign: 'justify'
-                        }}>
-                            {description.split('\n').map((para, i) => (
-                                <p key={i} style={{ marginBottom: '16px' }}>{para}</p>
-                            ))}
-                        </div>
-                    </section>
-
-                    {/* Section 2: Core Quotes (核心金句) */}
-                    {((language === 'zh' ? book.quotes : (book.quotes_en || book.quotes)) && (language === 'zh' ? book.quotes : (book.quotes_en || book.quotes)).length > 0) && (
-                        <section id="quotes" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                            <h2 style={{
-                                margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
-                                color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
-                                borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
-                            }}>
-                                <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
-                                {language === 'zh' ? '核心金句' : 'Core Quotes'}
-                            </h2>
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-                                {(language === 'zh' ? book.quotes : (book.quotes_en || book.quotes)).map((quote, i) => (
-                                    <blockquote key={i} style={{
-                                        margin: 0, padding: '20px 24px', borderRadius: '12px',
-                                        background: 'var(--tag-bg)', borderLeft: '4px solid var(--primary)',
-                                        position: 'relative', overflow: 'hidden'
-                                    }}>
-                                        <Quote size={48} style={{
-                                            position: 'absolute', right: '12px', bottom: '-4px',
-                                            color: 'var(--primary)', opacity: 0.08, pointerEvents: 'none'
-                                        }} />
-                                        <p style={{
-                                            margin: 0, fontSize: '15px', fontWeight: '700',
-                                            lineHeight: '1.7', color: 'var(--primary-dark)',
-                                            position: 'relative', zIndex: 1
-                                        }}>
-                                            {language === 'zh' ? `「${quote}」` : `"${quote}"`}
-                                        </p>
-                                    </blockquote>
-                                ))}
-                            </div>
-                        </section>
-                    )}
-
-                    {/* Section 3: Outline / Index (內容大綱) */}
-                    {((language === 'zh' ? book.outline : (book.outline_en || book.outline)) && (language === 'zh' ? book.outline : (book.outline_en || book.outline)).length > 0) && (
-                        <section id="outline" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
-                            <h2 style={{
-                                margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
-                                color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
-                                borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
-                            }}>
-                                <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
-                                {language === 'zh' ? '內容大綱 (Index)' : 'Book Outline'}
-                            </h2>
-                            <div style={{
-                                background: 'white', borderRadius: 'var(--radius-md)', padding: '24px',
-                                border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)',
-                                display: 'flex', flexDirection: 'column', gap: '14px'
-                            }}>
-                                {(language === 'zh' ? book.outline : (book.outline_en || book.outline)).map((chapter, i) => (
-                                    <div key={i} style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
-                                        <div style={{
-                                            display: 'flex', alignItems: 'center', justifyContent: 'center',
-                                            width: '24px', height: '24px', borderRadius: '6px',
-                                            background: 'var(--tag-bg)', color: 'var(--primary)',
-                                            fontSize: '12px', fontWeight: '800', flexShrink: 0, marginTop: '2px'
-                                        }}>
-                                            {i + 1}
-                                        </div>
-                                        <span style={{ fontSize: '15px', color: 'var(--text-secondary)', fontWeight: '600', lineHeight: '1.4' }}>
-                                            {chapter}
-                                        </span>
-                                    </div>
-                                ))}
-                            </div>
-                        </section>
-                    )}
-
-                    {/* Section 4: Video Review (說書影片) */}
+                    {/* Section 1: Video Review (說書影片) - MOVED TO TOP */}
                     <section id="video" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                         <h2 style={{
                             margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
@@ -494,9 +366,9 @@ export default function BookDetail() {
                         )}
                     </section>
 
-                    {/* Section 5: Author Info (關於作者) */}
+                    {/* Section 2: Author Info (關於作者) - MOVED TO SECOND */}
                     {authorInfo && (
-                        <section id="author" style={{ marginBottom: '24px', scrollMarginTop: '100px' }}>
+                        <section id="author" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
                             <h2 style={{
                                 margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
                                 color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
@@ -541,6 +413,154 @@ export default function BookDetail() {
                             </div>
                         </section>
                     )}
+
+                    {/* Section 3: Detailed Insight (重點導讀) - MOVED TO THIRD */}
+                    <section id="insight" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                        <h2 style={{
+                            margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
+                            color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
+                            borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
+                        }}>
+                            <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
+                            {language === 'zh' ? '重點導讀' : 'Detailed Insight'}
+                        </h2>
+                        <div style={{
+                            fontSize: '16px', lineHeight: '1.85', color: 'var(--text-secondary)',
+                            letterSpacing: '0.01em', textAlign: 'justify'
+                        }}>
+                            {description.split('\n').map((para, i) => (
+                                <p key={i} style={{ marginBottom: '16px' }}>{para}</p>
+                            ))}
+                        </div>
+                    </section>
+
+                    {/* Section 4: Core Quotes (核心金句) - MOVED TO FOURTH */}
+                    {((language === 'zh' ? book.quotes : (book.quotes_en || book.quotes)) && (language === 'zh' ? book.quotes : (book.quotes_en || book.quotes)).length > 0) && (
+                        <section id="quotes" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                            <h2 style={{
+                                margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
+                                color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
+                                borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
+                            }}>
+                                <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
+                                {language === 'zh' ? '核心金句' : 'Core Quotes'}
+                            </h2>
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
+                                {(language === 'zh' ? book.quotes : (book.quotes_en || book.quotes)).map((quote, i) => (
+                                    <blockquote key={i} style={{
+                                        margin: 0, padding: '20px 24px', borderRadius: '12px',
+                                        background: 'var(--tag-bg)', borderLeft: '4px solid var(--primary)',
+                                        position: 'relative', overflow: 'hidden'
+                                    }}>
+                                        <Quote size={48} style={{
+                                            position: 'absolute', right: '12px', bottom: '-4px',
+                                            color: 'var(--primary)', opacity: 0.08, pointerEvents: 'none'
+                                        }} />
+                                        <p style={{
+                                            margin: 0, fontSize: '15px', fontWeight: '700',
+                                            lineHeight: '1.7', color: 'var(--primary-dark)',
+                                            position: 'relative', zIndex: 1
+                                        }}>
+                                            {language === 'zh' ? `「${quote}」` : `"${quote}"`}
+                                        </p>
+                                    </blockquote>
+                                ))}
+                            </div>
+                        </section>
+                    )}
+
+                    {/* Section 5: Outline / Index (內容大綱) - MOVED TO FIFTH */}
+                    {((language === 'zh' ? book.outline : (book.outline_en || book.outline)) && (language === 'zh' ? book.outline : (book.outline_en || book.outline)).length > 0) && (
+                        <section id="outline" style={{ marginBottom: '48px', scrollMarginTop: '100px' }}>
+                            <h2 style={{
+                                margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
+                                color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
+                                borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
+                            }}>
+                                <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
+                                {language === 'zh' ? '內容大綱 (Index)' : 'Book Outline'}
+                            </h2>
+                            <div style={{
+                                background: 'white', borderRadius: 'var(--radius-md)', padding: '24px',
+                                border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)',
+                                display: 'flex', flexDirection: 'column', gap: '14px'
+                            }}>
+                                {(language === 'zh' ? book.outline : (book.outline_en || book.outline)).map((chapter, i) => (
+                                    <div key={i} style={{ display: 'flex', gap: '14px', alignItems: 'flex-start' }}>
+                                        <div style={{
+                                            display: 'flex', alignItems: 'center', justifyContent: 'center',
+                                            width: '24px', height: '24px', borderRadius: '6px',
+                                            background: 'var(--tag-bg)', color: 'var(--primary)',
+                                            fontSize: '12px', fontWeight: '800', flexShrink: 0, marginTop: '2px'
+                                        }}>
+                                            {i + 1}
+                                        </div>
+                                        <span style={{ fontSize: '15px', color: 'var(--text-secondary)', fontWeight: '600', lineHeight: '1.4' }}>
+                                            {chapter}
+                                        </span>
+                                    </div>
+                                ))}
+                            </div>
+                        </section>
+                    )}
+
+                    {/* Section 6: Purchase Links (選購書籍) - MOVED TO END */}
+                    <section id="purchase" style={{ marginBottom: '24px', scrollMarginTop: '100px' }}>
+                        <h2 style={{
+                            margin: '0 0 20px', fontSize: '20px', fontWeight: '800',
+                            color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '10px',
+                            borderBottom: '2px solid var(--border-light)', paddingBottom: '10px'
+                        }}>
+                            <span style={{ width: '4px', height: '20px', background: 'var(--primary)', borderRadius: '2px' }} />
+                            {language === 'zh' ? '選購書籍' : 'Purchase Links'}
+                        </h2>
+                        <div style={{
+                            background: 'white', borderRadius: 'var(--radius-md)', padding: '24px',
+                            border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)',
+                            display: 'flex', flexDirection: 'column', gap: '16px'
+                        }}>
+                            <p style={{ margin: 0, fontSize: '14px', color: 'var(--text-secondary)', fontWeight: '600' }}>
+                                {language === 'zh' ? '如果您喜歡這本書，歡迎前往以下平台購買支持原著作家：' : 'If you like this book, support the author by purchasing it from these stores:'}
+                            </p>
+                            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '12px', marginTop: '4px' }}>
+                                {/* Books.com.tw Buy Link */}
+                                <a
+                                    href={booksUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{
+                                        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                                        padding: '12px 24px', borderRadius: '8px', background: 'var(--accent)', color: 'white',
+                                        textDecoration: 'none', fontSize: '14px', fontWeight: '750',
+                                        transition: 'all 0.15s ease', boxShadow: '0 4px 10px rgba(202,122,44,0.2)'
+                                    }}
+                                    onMouseEnter={e => { e.currentTarget.style.background = 'var(--accent-light)'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
+                                    onMouseLeave={e => { e.currentTarget.style.background = 'var(--accent)'; e.currentTarget.style.transform = 'none'; }}
+                                >
+                                    <ShoppingBag size={16} />
+                                    {language === 'zh' ? '前往 博客來 購買' : 'Buy on Books.com.tw'}
+                                </a>
+
+                                {/* KOBO Link */}
+                                <a
+                                    href={language === 'zh' ? koboTwUrl : koboUsUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    style={{
+                                        display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px',
+                                        padding: '12px 24px', borderRadius: '8px', background: '#330066', color: 'white',
+                                        textDecoration: 'none', fontSize: '14px', fontWeight: '750',
+                                        transition: 'all 0.15s ease', boxShadow: '0 4px 10px rgba(51,0,102,0.2)'
+                                    }}
+                                    onMouseEnter={e => { e.currentTarget.style.background = '#440088'; e.currentTarget.style.transform = 'translateY(-1px)'; }}
+                                    onMouseLeave={e => { e.currentTarget.style.background = '#330066'; e.currentTarget.style.transform = 'none'; }}
+                                >
+                                    <Globe size={16} />
+                                    {language === 'zh' ? '前往 KOBO 電子書 購買' : 'Buy on KOBO E-Books'}
+                                </a>
+                            </div>
+                        </div>
+                    </section>
 
                 </article>
 
