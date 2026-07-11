@@ -465,6 +465,33 @@ export default function BookDetail() {
                                 {language === 'zh' ? '暫無影片介紹' : 'No video available'}
                             </div>
                         )}
+                        
+                        {book.author_talk_video_id && (
+                            <div style={{ marginTop: '36px' }}>
+                                <h3 style={{
+                                    fontSize: '15px', fontWeight: '800', color: 'var(--text-secondary)',
+                                    marginBottom: '14px', display: 'flex', alignItems: 'center', gap: '8px',
+                                    textTransform: 'uppercase', letterSpacing: '0.04em'
+                                }}>
+                                    <Youtube size={16} color="var(--primary)" />
+                                    {language === 'zh' ? '原著作者專題演講 / 訪談 (原聲)' : 'Hear from the Author (Original Speech/Interview)'}
+                                </h3>
+                                <div style={{
+                                    position: 'relative', paddingBottom: '56.25%', height: 0,
+                                    borderRadius: 'var(--radius-md)', overflow: 'hidden',
+                                    boxShadow: 'var(--card-shadow-hover)', border: '1px solid var(--border-light)'
+                                }}>
+                                    <iframe
+                                        src={`https://www.youtube.com/embed/${book.author_talk_video_id}`}
+                                        title="Author Speech YouTube video player"
+                                        frameBorder="0"
+                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                        allowFullScreen
+                                        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%' }}
+                                    />
+                                </div>
+                            </div>
+                        )}
                     </section>
 
                     {/* Section 5: Author Info (關於作者) */}
