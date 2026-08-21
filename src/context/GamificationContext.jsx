@@ -317,17 +317,17 @@ export function GamificationProvider({ children }) {
         setModalData({ capsule, alreadyClaimed: false });
     }, [state.lastCapsuleDate, state.todayCapsule, todayStr, completeQuest, evaluateBadges]);
 
-    // 7. Spin Wheel of Destiny (Roulette)
-    const recordSpin = useCallback((selectedBook) => {
+    // 7. Serendipity Pick / Random Book Discovery
+    const recordSerendipityPick = useCallback((selectedBook) => {
         setState(prev => {
             const updated = {
                 ...prev,
-                rouletteSpins: (prev.rouletteSpins || 0) + 1,
+                serendipityPicks: (prev.serendipityPicks || prev.rouletteSpins || 0) + 1,
                 exp: prev.exp + 15,
                 sparks: prev.sparks + 10
             };
 
-            setExpNotification({ amount: 15, reason: '命運星盤指引靈感！', timestamp: Date.now() });
+            setExpNotification({ amount: 15, reason: '靈感偶遇：探索新領域好書！', timestamp: Date.now() });
             setTimeout(() => setExpNotification(null), 2500);
 
             setTimeout(() => evaluateBadges(updated), 50);
@@ -422,7 +422,8 @@ export function GamificationProvider({ children }) {
             saveBookNote,
             trackExternalVisit,
             claimDailyCapsule,
-            recordSpin,
+            recordSerendipityPick,
+            recordSpin: recordSerendipityPick,
             buyStreakFreeze,
             openModal,
             closeModal,

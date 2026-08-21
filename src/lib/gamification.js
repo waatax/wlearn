@@ -318,15 +318,15 @@ export const BADGES_CATALOG = [
         check: (state) => Object.keys(state.notes || {}).filter(k => (state.notes[k] || '').trim().length > 0).length >= 3
     },
 
-    // --- 好奇與盲盒 (Unpredictability & Curiosity) ---
+    // --- 好奇與隨機探索 (Unpredictability & Serendipity) ---
     {
-        id: 'oracle_spinner',
-        name: { zh: '命運探索者', en: 'Wheel of Destiny' },
-        desc: { zh: '轉動「命運星盤」抽取隨機靈感書目 3 次', en: 'Spin the Oracle Wheel 3 times' },
-        icon: 'Compass',
+        id: 'serendipity_reader',
+        name: { zh: '靈感漫步者', en: 'Serendipity Seeker' },
+        desc: { zh: '使用「隨選好書 / 靈感偶遇」探索書目 3 次', en: 'Discover books via Serendipity Pick 3 times' },
+        icon: 'Sparkles',
         rarity: 'rare',
         category: 'curiosity',
-        check: (state) => (state.rouletteSpins || 0) >= 3
+        check: (state) => (state.serendipityPicks || state.rouletteSpins || 0) >= 3
     },
     {
         id: 'capsule_seeker',

@@ -11,7 +11,7 @@ import Popular from './pages/Popular';
 import Trends from './pages/Trends';
 import Authors from './pages/Authors';
 import AuthorDetail from './pages/AuthorDetail';
-import DailyRouletteModal from './components/DailyRouletteModal';
+import RandomDiscoveryModal from './components/RandomDiscoveryModal';
 import DailyCapsuleModal from './components/DailyCapsuleModal';
 import LevelUpModal from './components/LevelUpModal';
 
@@ -33,7 +33,7 @@ function App() {
           </Routes>
 
           {/* Global Gamification Modals */}
-          <DailyRouletteModal />
+          <RandomDiscoveryModal />
           <DailyCapsuleModal />
           <LevelUpModal />
         </BrowserRouter>

@@ -169,7 +169,7 @@ export default function GamificationHUD() {
                     <span>{state.sparks || 0}</span>
                 </div>
 
-                {/* Wisdom Capsule Trigger */}
+                {/* Wisdom Inspiration Capsule Trigger */}
                 <button
                     onClick={claimDailyCapsule}
                     title={t('wisdomCapsule')}
@@ -189,13 +189,13 @@ export default function GamificationHUD() {
                     }}
                 >
                     <Gift size={15} color="#7c3aed" />
-                    <span className="hidden sm:inline">{language === 'zh' ? '智慧盲盒' : 'Capsule'}</span>
+                    <span className="hidden sm:inline">{language === 'zh' ? '每日靈感' : 'Inspiration'}</span>
                 </button>
 
-                {/* Wheel of Destiny Trigger */}
+                {/* Serendipity Random Pick Trigger */}
                 <button
-                    onClick={() => openModal('roulette')}
-                    title={t('destinyWheel')}
+                    onClick={() => openModal('random_discovery')}
+                    title={t('serendipityPick')}
                     style={{
                         background: 'linear-gradient(135deg, #f0f9ff, #e0f2fe)',
                         border: '1px solid #bae6fd',
@@ -211,8 +211,8 @@ export default function GamificationHUD() {
                         transition: 'all 0.2s ease'
                     }}
                 >
-                    <Compass size={15} color="#0284c7" />
-                    <span className="hidden sm:inline">{language === 'zh' ? '命運星盤' : 'Oracle'}</span>
+                    <Sparkles size={15} color="#0284c7" />
+                    <span className="hidden sm:inline">{language === 'zh' ? '隨選好書' : 'Surprise Me'}</span>
                 </button>
             </div>
         </>

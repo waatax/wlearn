@@ -1,26 +1,24 @@
 import React, { useState, useEffect } from 'react';
 import { useGamification } from '../context/GamificationContext';
 import { useLanguage } from '../context/LanguageContext';
-import { X, Compass, Sparkles, ArrowRight, BookOpen, RefreshCw } from 'lucide-react';
+import { X, Sparkles, ArrowRight, RefreshCw, BookOpen, Shuffle } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 
-export default function DailyRouletteModal() {
-    const { activeModal, closeModal, recordSpin } = useGamification();
+export default function RandomDiscoveryModal() {
+    const { activeModal, closeModal, recordSerendipityPick } = useGamification();
     const { language, t } = useLanguage();
     const navigate = useNavigate();
 
     const [books, setBooks] = useState([]);
-    const [spinning, setSpinning] = useState(false);
+    const [shuffling, setShuffling] = useState(false);
     const [selectedBook, setSelectedBook] = useState(null);
-    const [rotation, setRotation] = useState(0);
 
     useEffect(() => {
-        if (activeModal === 'roulette') {
+        if (activeModal === 'roulette' || activeModal === 'random_discovery') {
             fetch(import.meta.env.BASE_URL + 'books.json')
                 .then(r => r.json())
                 .then(data => {
                     setBooks(data);
-                    // auto pick initial candidate
                     if (data.length > 0 && !selectedBook) {
                         const random = data[Math.floor(Math.random() * data.length)];
                         setSelectedBook(random);
@@ -30,28 +28,28 @@ export default function DailyRouletteModal() {
         }
     }, [activeModal]);
 
-    if (activeModal !== 'roulette') return null;
+    if (activeModal !== 'roulette' && activeModal !== 'random_discovery') return null;
 
-    const handleSpin = () => {
-        if (spinning || books.length === 0) return;
+    const handleShuffle = () => {
+        if (shuffling || books.length === 0) return;
 
-        setSpinning(true);
-        const newRotation = rotation + 1440 + Math.floor(Math.random() * 360);
-        setRotation(newRotation);
+        setShuffling(true);
 
-        // Flash through books
+        // Rapid cycling through books animation
         const interval = setInterval(() => {
             const tempRandom = books[Math.floor(Math.random() * books.length)];
             setSelectedBook(tempRandom);
-        }, 100);
+        }, 80);
 
         setTimeout(() => {
             clearInterval(interval);
             const finalBook = books[Math.floor(Math.random() * books.length)];
             setSelectedBook(finalBook);
-            setSpinning(false);
-            recordSpin(finalBook);
-        }, 2200);
+            setShuffling(false);
+            if (recordSerendipityPick) {
+                recordSerendipityPick(finalBook);
+            }
+        }, 1200);
     };
 
     const handleGoToBook = () => {
@@ -90,7 +88,7 @@ export default function DailyRouletteModal() {
                 maxWidth: '520px',
                 padding: '32px',
                 position: 'relative',
-                boxShadow: '0 25px 60px -15px rgba(0, 0, 0, 0.4), 0 0 0 1px rgba(255,255,255,0.6)',
+                boxShadow: '0 25px 60px -15px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255,255,255,0.7)',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
@@ -119,29 +117,29 @@ export default function DailyRouletteModal() {
                     <X size={18} />
                 </button>
 
-                {/* Header */}
+                {/* Header Icon */}
                 <div style={{
-                    width: '64px',
-                    height: '64px',
+                    width: '60px',
+                    height: '60px',
                     borderRadius: '20px',
                     background: 'linear-gradient(135deg, #0284c7, #0369a1)',
                     display: 'flex',
                     alignItems: 'center',
                     justifyContent: 'center',
                     marginBottom: '16px',
-                    boxShadow: '0 10px 25px rgba(2, 132, 199, 0.4)',
+                    boxShadow: '0 8px 20px rgba(2, 132, 199, 0.35)',
                     color: 'white'
                 }}>
-                    <Compass size={34} style={{ transform: `rotate(${rotation}deg)`, transition: spinning ? 'transform 2.2s cubic-bezier(0.2, 0.8, 0.2, 1)' : 'none' }} />
+                    <Shuffle size={28} className={shuffling ? 'animate-spin' : ''} />
                 </div>
 
-                <h3 style={{ fontSize: '22px', fontWeight: '850', color: '#0f172a', margin: '0 0 6px 0' }}>
-                    {language === 'zh' ? '🎲 命運星盤 · 隨機靈感指引' : '🎲 Oracle Wheel · Cosmic Serendipity'}
+                <h3 style={{ fontSize: '21px', fontWeight: '850', color: '#0f172a', margin: '0 0 6px 0' }}>
+                    {language === 'zh' ? '🎲 靈感偶遇 · 隨選好書' : '🎲 Serendipity · Random Discovery'}
                 </h3>
-                <p style={{ fontSize: '13px', color: '#64748b', margin: '0 0 24px 0', lineHeight: 1.5 }}>
+                <p style={{ fontSize: '13px', color: '#64748b', margin: '0 0 22px 0', lineHeight: 1.5 }}>
                     {language === 'zh'
-                        ? '未知性激發大腦好奇迴路（Octalysis CD7）。轉動星盤，讓宇宙為您選出今日必讀天命之作！'
-                        : 'Tap into curiosity and serendipity. Spin the wheel to receive your personalized focus of the day!'}
+                        ? '打破演算法同溫層與資訊繭房（知識隨機漫步）。讓未知的思維模型開拓您的跨領域視野！'
+                        : 'Escape your filter bubble through serendipitous discovery across 700+ curated summaries.'}
                 </p>
 
                 {/* Book Card Display */}
@@ -158,7 +156,7 @@ export default function DailyRouletteModal() {
                         alignItems: 'center',
                         textAlign: 'left',
                         marginBottom: '24px',
-                        opacity: spinning ? 0.6 : 1,
+                        opacity: shuffling ? 0.6 : 1,
                         transition: 'opacity 0.2s ease'
                     }}>
                         <img
@@ -170,7 +168,7 @@ export default function DailyRouletteModal() {
                                 objectFit: 'cover',
                                 borderRadius: '10px',
                                 flexShrink: 0,
-                                boxShadow: '0 4px 12px rgba(0,0,0,0.1)'
+                                boxShadow: '0 4px 12px rgba(0,0,0,0.08)'
                             }}
                         />
                         <div style={{ flex: 1, minWidth: 0 }}>
@@ -230,8 +228,8 @@ export default function DailyRouletteModal() {
                 {/* Actions */}
                 <div style={{ display: 'flex', gap: '12px', width: '100%' }}>
                     <button
-                        onClick={handleSpin}
-                        disabled={spinning}
+                        onClick={handleShuffle}
+                        disabled={shuffling}
                         style={{
                             flex: 1,
                             padding: '12px 18px',
@@ -241,22 +239,22 @@ export default function DailyRouletteModal() {
                             color: 'white',
                             fontWeight: '750',
                             fontSize: '14px',
-                            cursor: spinning ? 'not-allowed' : 'pointer',
+                            cursor: shuffling ? 'not-allowed' : 'pointer',
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
                             gap: '8px',
-                            boxShadow: '0 4px 15px rgba(2, 132, 199, 0.35)',
+                            boxShadow: '0 4px 15px rgba(2, 132, 199, 0.3)',
                             transition: 'all 0.2s ease'
                         }}
                     >
-                        <RefreshCw size={16} className={spinning ? 'animate-spin' : ''} />
-                        {spinning ? (language === 'zh' ? '星盤共鳴運轉中...' : 'Aligning Stars...') : (language === 'zh' ? '轉動星盤 (+15 EXP)' : 'Spin Oracle (+15 EXP)')}
+                        <RefreshCw size={16} className={shuffling ? 'animate-spin' : ''} />
+                        {shuffling ? (language === 'zh' ? '正在探索新書目...' : 'Exploring...') : (language === 'zh' ? '換一本隨選 (+15 EXP)' : 'Surprise Me (+15 EXP)')}
                     </button>
 
                     <button
                         onClick={handleGoToBook}
-                        disabled={spinning || !selectedBook}
+                        disabled={shuffling || !selectedBook}
                         style={{
                             padding: '12px 20px',
                             borderRadius: '14px',

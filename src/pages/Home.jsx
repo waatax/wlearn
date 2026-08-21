@@ -191,7 +191,7 @@ export default function Home() {
                                     </Link>
 
                                     <button
-                                        onClick={() => openModal('roulette')}
+                                        onClick={() => openModal('random_discovery')}
                                         style={{
                                             padding: '10px 16px',
                                             borderRadius: '12px',
@@ -207,8 +207,8 @@ export default function Home() {
                                             backdropFilter: 'blur(8px)'
                                         }}
                                     >
-                                        <Compass size={15} />
-                                        <span>{t('destinyWheel')}</span>
+                                        <Sparkles size={15} />
+                                        <span>🎲 {language === 'zh' ? '隨選好書' : 'Surprise Me'}</span>
                                     </button>
 
                                     <button
