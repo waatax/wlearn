@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 import { ArrowLeft, BarChart3, Play, Activity, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
 
 export default function Trends() {
@@ -145,16 +146,17 @@ export default function Trends() {
                         {language === 'zh' ? '全站數據趨勢' : 'Global Data Trends'}
                     </h1>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '16px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <GamificationHUD />
                     <div style={{ 
                         padding: '6px 12px', borderRadius: '999px', background: '#e8f5e9', 
-                        color: '#2e7d32', fontSize: '12px', fontWeight: '800', display: 'flex', 
-                        alignItems: 'center', gap: '6px' 
+                        border: '1px solid #c8e6c9', color: '#2e7d32', fontSize: '12px', 
+                        fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' 
                     }}>
-                        <Activity size={14} />
-                        Live
+                        <Activity size={14} className="animate-pulse" />
+                        {language === 'zh' ? '數據實時更新中' : 'Live Tracking'}
                     </div>
-                    <button
+                    <button 
                         onClick={toggleLanguage}
                         style={{
                             display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
@@ -163,6 +165,8 @@ export default function Trends() {
                             transition: 'all var(--transition-fast)',
                             boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
                         }}
+                        onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'; }}
+                        onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}
                     >
                         <Globe size={16} color="var(--primary)" />
                         {language === 'zh' ? 'EN' : '中文'}

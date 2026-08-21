@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, TrendingUp, Play, Globe, BarChart3, Eye, Trophy, Flame, ChevronRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
 
 function formatViews(n) {
@@ -127,6 +128,7 @@ export default function Popular() {
                     </h1>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <GamificationHUD />
                     <button 
                         onClick={() => navigate('/trends')}
                         style={{

@@ -1,22 +1,32 @@
 import React, { useState } from 'react';
-import { Play } from 'lucide-react';
+import { Play, CheckCircle2, Bookmark, Sparkles } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import { useLanguage } from '../context/LanguageContext';
+import { useGamification } from '../context/GamificationContext';
 
 export default function BookCard({ book, index = 0 }) {
     const { language, translateTag, t } = useLanguage();
+    const { state, toggleBookmark, toggleReadBook } = useGamification();
     const navigate = useNavigate();
     const [imgLoaded, setImgLoaded] = useState(false);
     const [hovered, setHovered] = useState(false);
 
+    const isRead = (state.readBooks || []).includes(book.id);
+    const isBookmarked = (state.bookmarkedBooks || []).includes(book.id);
+
     const title = language === 'zh' ? (book.title_cn || book.title_en) : (book.title_en || book.title_cn);
-    const thumbnail = book.video_id
+    const thumbnail = book.cover_url || (book.video_id
         ? `https://img.youtube.com/vi/${book.video_id}/mqdefault.jpg`
-        : 'https://images.unsplash.com/photo-1544716278-ca5e3f4cb8c0?w=400&q=80';
+        : 'https://images.unsplash.com/photo-1544716278-ca5e3f4cb8c0?w=400&q=80');
 
     const handlePlay = (e) => {
         e.stopPropagation();
         if (book.youtube_url) window.open(book.youtube_url, '_blank');
+    };
+
+    const handleBookmark = (e) => {
+        e.stopPropagation();
+        toggleBookmark(book.id);
     };
 
     const delay = Math.min(index * 30, 300);
@@ -31,16 +41,17 @@ export default function BookCard({ book, index = 0 }) {
                 borderRadius: 'var(--radius-md)',
                 overflow: 'hidden',
                 cursor: 'pointer',
-                border: '1px solid var(--border-light)',
+                border: isRead ? '1px solid #86efac' : '1px solid var(--border-light)',
                 display: 'flex',
                 flexDirection: 'column',
                 transition: 'all var(--transition-med)',
                 boxShadow: hovered ? 'var(--card-shadow-hover)' : 'var(--card-shadow)',
                 transform: hovered ? 'translateY(-6px)' : 'translateY(0)',
                 animation: `fadeInUp 0.5s var(--transition-med) ${delay}ms both`,
+                position: 'relative'
             }}
         >
-            {/* Thumbnail */}
+            {/* Thumbnail Container */}
             <div style={{
                 position: 'relative', aspectRatio: '16/9', overflow: 'hidden',
                 background: 'linear-gradient(135deg, #e8e4dc, #d4cfc5)',
@@ -58,18 +69,53 @@ export default function BookCard({ book, index = 0 }) {
                     }}
                     onError={e => { e.target.src = 'https://images.unsplash.com/photo-1544716278-ca5e3f4cb8c0?w=400&q=80'; }}
                 />
-                {/* Gradient overlay on hover */}
-                <div style={{
-                    position: 'absolute', inset: 0,
-                    background: hovered
-                        ? 'linear-gradient(to top, rgba(0,0,0,0.4) 0%, transparent 60%)'
-                        : 'linear-gradient(to top, rgba(0,0,0,0.15) 0%, transparent 40%)',
-                    transition: 'all var(--transition-med)',
-                }} />
+
+                {/* Read Status Ribbon */}
+                {isRead && (
+                    <div style={{
+                        position: 'absolute', top: '10px', left: '10px',
+                        background: 'rgba(22, 163, 74, 0.9)',
+                        color: 'white',
+                        padding: '3px 8px',
+                        borderRadius: '6px',
+                        fontSize: '11px',
+                        fontWeight: '800',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '4px',
+                        boxShadow: '0 2px 8px rgba(0,0,0,0.2)',
+                        backdropFilter: 'blur(4px)'
+                    }}>
+                        <CheckCircle2 size={12} />
+                        <span>{language === 'zh' ? '已研讀' : 'COMPLETED'}</span>
+                    </div>
+                )}
+
+                {/* Bookmark Toggle Button */}
+                <button
+                    onClick={handleBookmark}
+                    title={isBookmarked ? t('inBookmarks') : t('addToBookmarks')}
+                    style={{
+                        position: 'absolute', top: '10px', right: '10px',
+                        background: isBookmarked ? 'rgba(202, 122, 44, 0.95)' : 'rgba(0, 0, 0, 0.45)',
+                        border: 'none',
+                        borderRadius: '8px',
+                        width: '30px', height: '30px',
+                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                        color: 'white',
+                        cursor: 'pointer',
+                        backdropFilter: 'blur(4px)',
+                        transition: 'all 0.2s ease',
+                        boxShadow: '0 2px 6px rgba(0,0,0,0.15)'
+                    }}
+                >
+                    <Bookmark size={15} fill={isBookmarked ? 'white' : 'none'} />
+                </button>
+
                 {/* Audio icon */}
                 <div style={{
                     position: 'absolute', bottom: '12px', right: '12px',
-                    background: 'rgba(255,255,255,0.2)', backdropFilter: 'blur(8px)',
+                    background: 'rgba(255,255,255,0.25)', backdropFilter: 'blur(8px)',
                     WebkitBackdropFilter: 'blur(8px)',
                     border: '1px solid rgba(255,255,255,0.3)',
                     borderRadius: '50%',
@@ -86,9 +132,9 @@ export default function BookCard({ book, index = 0 }) {
             </div>
 
             {/* Content */}
-            <div style={{ padding: '18px', flex: 1, display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                {/* Title + Badge */}
-                <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '10px' }}>
+            <div style={{ padding: '16px', flex: 1, display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                {/* Title + Code */}
+                <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: '8px' }}>
                     <h3 style={{
                         margin: 0, fontSize: '15px', fontWeight: '750', lineHeight: '1.4',
                         color: 'var(--text)', display: '-webkit-box', WebkitLineClamp: 2,
@@ -99,12 +145,10 @@ export default function BookCard({ book, index = 0 }) {
                     </h3>
                     {book.code && (
                         <span style={{
-                            flexShrink: 0, background: 'var(--badge-bg)',
-                            color: 'white', fontSize: '10px', fontWeight: '800',
-                            padding: '3px 8px', borderRadius: '6px', whiteSpace: 'nowrap',
-                            letterSpacing: '0.04em',
-                            boxShadow: '0 4px 10px rgba(239, 108, 0, 0.3)',
-                            marginTop: '2px'
+                            background: isRead ? '#dcfce7' : 'var(--badge-bg)',
+                            color: isRead ? '#15803d' : 'var(--badge-text)',
+                            fontSize: '10px', fontWeight: '800', padding: '2px 7px',
+                            borderRadius: '6px', flexShrink: 0, letterSpacing: '0.04em',
                         }}>
                             {book.code}
                         </span>
@@ -112,62 +156,36 @@ export default function BookCard({ book, index = 0 }) {
                 </div>
 
                 {/* Author */}
-                {book.author && (
-                    <p style={{
-                        margin: 0, fontSize: '11px', color: 'var(--text-muted)',
-                        fontWeight: '500', letterSpacing: '0.01em',
-                    }}>
-                        ✍️ {language === 'en' ? (book.author_en || book.author) : book.author}
-                    </p>
-                )}
-
-                {/* Tags */}
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
-                    {(book.tags || []).slice(0, 3).map((tag, i) => (
-                        <span key={i} style={{
-                            fontSize: '10px', padding: '2px 8px', borderRadius: '999px',
-                            background: 'var(--tag-bg)', color: 'var(--tag-text)',
-                            fontWeight: '500', letterSpacing: '0.01em',
-                        }}>
-                            {translateTag(tag)}
-                        </span>
-                    ))}
-                    {book.tags && book.tags.length > 3 && (
-                        <span style={{
-                            fontSize: '10px', padding: '2px 8px', borderRadius: '999px',
-                            background: '#f5f2ec', color: 'var(--text-muted)',
-                        }}>
-                            +{book.tags.length - 3}
-                        </span>
-                    )}
+                <div style={{ fontSize: '13px', color: 'var(--text-muted)', fontWeight: '500' }}>
+                    {language === 'zh' ? (book.author || book.author_en) : (book.author_en || book.author)}
                 </div>
 
-                {/* Playlist */}
-                <p style={{
-                    margin: 0, fontSize: '10px', color: 'var(--text-muted)',
-                    overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
-                    fontWeight: '400',
-                }}>
-                    {book.playlist}
-                </p>
+                {/* Tags & EXP reward */}
+                <div style={{ marginTop: 'auto', paddingTop: '8px', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+                        {(book.tags || []).slice(0, 2).map((tag, idx) => (
+                            <span key={idx} style={{
+                                background: 'var(--tag-bg)', color: 'var(--tag-text)',
+                                fontSize: '11px', fontWeight: '600', padding: '2px 7px',
+                                borderRadius: '5px',
+                            }}>
+                                #{translateTag(tag)}
+                            </span>
+                        ))}
+                    </div>
 
-                {/* Play button */}
-                <button
-                    onClick={handlePlay}
-                    style={{
-                        marginTop: 'auto', width: '100%', display: 'flex', alignItems: 'center',
-                        justifyContent: 'center', gap: '6px', padding: '9px',
-                        background: hovered ? 'var(--primary-light)' : 'var(--primary)',
-                        color: 'white', border: 'none',
-                        borderRadius: '10px', cursor: 'pointer', fontSize: '13px', fontWeight: '600',
-                        transition: 'all var(--transition-fast)',
-                        boxShadow: hovered ? '0 4px 14px var(--primary-glow)' : '0 2px 8px var(--primary-glow)',
-                        letterSpacing: '0.02em',
-                    }}
-                >
-                    <Play size={13} fill="white" />
-                    {t('play')}
-                </button>
+                    <div style={{
+                        fontSize: '11px',
+                        fontWeight: '800',
+                        color: isRead ? '#16a34a' : 'var(--primary)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '2px'
+                    }}>
+                        <Sparkles size={11} />
+                        <span>{isRead ? '+50 EXP' : '+50 EXP'}</span>
+                    </div>
+                </div>
             </div>
         </div>
     );

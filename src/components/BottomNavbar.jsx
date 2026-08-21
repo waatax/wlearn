@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { BookOpen, Flame, BarChart3, Users } from 'lucide-react';
+import { BookOpen, Globe, Trophy, User, Users } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function BottomNavbar() {
@@ -10,10 +10,11 @@ export default function BottomNavbar() {
     const path = location.pathname;
 
     const navItems = [
-        { path: '/', label: language === 'zh' ? '探索書籍' : 'Explore', icon: <BookOpen size={20} /> },
-        { path: '/popular', label: language === 'zh' ? '熱門排行' : 'Popular', icon: <Flame size={20} /> },
-        { path: '/trends', label: language === 'zh' ? '數據趨勢' : 'Trends', icon: <BarChart3 size={20} /> },
-        { path: '/authors', label: language === 'zh' ? '作者名冊' : 'Authors', icon: <Users size={20} /> },
+        { path: '/', label: language === 'zh' ? '說書庫' : 'Codex', icon: <BookOpen size={19} /> },
+        { path: '/universe', label: language === 'zh' ? '知識宇宙' : 'Multiverse', icon: <Globe size={19} /> },
+        { path: '/quests', label: language === 'zh' ? '修行任務' : 'Quests', icon: <Trophy size={19} /> },
+        { path: '/profile', label: language === 'zh' ? '學者名片' : 'Passport', icon: <User size={19} /> },
+        { path: '/authors', label: language === 'zh' ? '作者' : 'Authors', icon: <Users size={19} /> },
     ];
 
     return (
@@ -23,16 +24,16 @@ export default function BottomNavbar() {
             left: 0,
             right: 0,
             height: '66px',
-            background: 'rgba(255, 255, 255, 0.85)',
+            background: 'rgba(255, 255, 255, 0.9)',
             backdropFilter: 'blur(20px)',
             WebkitBackdropFilter: 'blur(20px)',
             borderTop: '1px solid var(--border)',
-            display: 'none', /* Display managed by media query in index.css */
+            display: 'none',
             justifyContent: 'space-around',
             alignItems: 'center',
             zIndex: 99,
             paddingBottom: 'env(safe-area-inset-bottom)',
-            boxShadow: '0 -4px 16px rgba(0, 0, 0, 0.04)',
+            boxShadow: '0 -4px 16px rgba(0, 0, 0, 0.05)',
         }}>
             {navItems.map(item => {
                 const isHome = item.path === '/';
@@ -51,11 +52,11 @@ export default function BottomNavbar() {
                             justifyContent: 'center',
                             background: 'none',
                             border: 'none',
-                            width: '22%',
+                            width: '20%',
                             height: '100%',
                             cursor: 'pointer',
                             padding: '4px 0',
-                            gap: '4px',
+                            gap: '3px',
                             color: active ? 'var(--primary)' : 'var(--text-secondary)',
                             transition: 'all 0.2s ease',
                         }}
@@ -64,8 +65,8 @@ export default function BottomNavbar() {
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
-                            padding: '4px 16px',
-                            borderRadius: '16px',
+                            padding: '3px 12px',
+                            borderRadius: '12px',
                             background: active ? 'var(--sidebar-active)' : 'transparent',
                             color: active ? 'var(--primary)' : 'var(--text-secondary)',
                             transition: 'all 0.2s ease',
@@ -75,9 +76,9 @@ export default function BottomNavbar() {
                         </div>
                         <span style={{
                             fontSize: '10px',
-                            fontWeight: active ? '700' : '500',
+                            fontWeight: active ? '750' : '500',
                             letterSpacing: '0.02em',
-                            opacity: active ? 1 : 0.8,
+                            opacity: active ? 1 : 0.75,
                         }}>
                             {item.label}
                         </span>

@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Search, Users, BookOpen, Award, ChevronRight, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
 
 export default function Authors() {
@@ -83,19 +84,22 @@ export default function Authors() {
                         {t('authorsList')}
                     </h1>
                 </div>
-                <button
-                    onClick={toggleLanguage}
-                    style={{
-                        display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
-                        borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
-                        cursor: 'pointer', fontSize: '14px', fontWeight: '700', color: 'var(--text)',
-                        transition: 'all var(--transition-fast)',
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
-                    }}
-                >
-                    <Globe size={16} color="var(--primary)" />
-                    {language === 'zh' ? 'EN' : '中文'}
-                </button>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <GamificationHUD />
+                    <button
+                        onClick={toggleLanguage}
+                        style={{
+                            display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
+                            borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
+                            cursor: 'pointer', fontSize: '14px', fontWeight: '700', color: 'var(--text)',
+                            transition: 'all var(--transition-fast)',
+                            boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
+                        }}
+                    >
+                        <Globe size={16} color="var(--primary)" />
+                        {language === 'zh' ? 'EN' : '中文'}
+                    </button>
+                </div>
             </div>
 
             <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '48px 32px' }}>

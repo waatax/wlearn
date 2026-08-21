@@ -1,12 +1,28 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import Sidebar from '../components/Sidebar';
 import BookCard from '../components/BookCard';
-import { useLanguage } from '../context/LanguageContext';
-import { Globe, Menu } from 'lucide-react';
+import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
+import { useLanguage } from '../context/LanguageContext';
+import { useGamification } from '../context/GamificationContext';
+import { COSMIC_REALMS } from '../lib/gamification';
+import {
+    Globe,
+    Menu,
+    Sparkles,
+    Compass,
+    Gift,
+    ArrowRight,
+    Flame,
+    Layers,
+    BookMarked,
+    Scroll
+} from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     const { language, t, toggleLanguage } = useLanguage();
+    const { state, openModal, claimDailyCapsule } = useGamification();
     const [books, setBooks] = useState([]);
     const [loading, setLoading] = useState(true);
     const [filters, setFilters] = useState({ search: '', tags: [], playlist: '' });
@@ -19,7 +35,6 @@ export default function Home() {
             .catch(() => setLoading(false));
     }, []);
 
-    // Close sidebar on navigation or filter change on mobile
     const handleFiltersChange = (newFilters) => {
         setFilters(newFilters);
     };
@@ -43,7 +58,6 @@ export default function Home() {
             return true;
         });
 
-        // Special sorting for playlists (like VS series)
         if (filters.playlist) {
             return filtered.sort((a, b) => {
                 const codeA = a.code || '';
@@ -51,7 +65,7 @@ export default function Home() {
                 return codeA.localeCompare(codeB, undefined, { numeric: true, sensitivity: 'base' });
             });
         }
-        
+
         return filtered;
     }, [books, filters]);
 
@@ -89,29 +103,142 @@ export default function Home() {
                         <span style={{ fontSize: '14px', color: 'var(--text-secondary)', fontWeight: '600', letterSpacing: '-0.01em' }}>
                             {loading ? (language === 'zh' ? '載入中...' : 'Loading...') : (
                                 <span>
-                                    {language === 'zh' ? '顯示' : 'Showing'} <span style={{ color: 'var(--primary)' }}>{filteredBooks.length}</span> / {books.length} {language === 'zh' ? '本書籍' : 'books'}
+                                    {language === 'zh' ? '顯示' : 'Showing'} <span style={{ color: 'var(--primary)', fontWeight: '800' }}>{filteredBooks.length}</span> / {books.length} {language === 'zh' ? '本書籍' : 'books'}
                                 </span>
                             )}
                         </span>
                     </div>
-                    <button
-                        onClick={toggleLanguage}
-                        style={{
-                            display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 14px',
-                            borderRadius: '20px', border: '1px solid #e0d8cc', background: 'white',
-                            cursor: 'pointer', fontSize: '13px', fontWeight: '500', color: '#2d2a24',
-                            transition: 'background 0.15s', flexShrink: 0,
-                        }}
-                        onMouseEnter={e => e.currentTarget.style.background = '#e0f2f1'}
-                        onMouseLeave={e => e.currentTarget.style.background = 'white'}
-                    >
-                        <Globe size={15} />
-                        <span style={{ letterSpacing: '0.05em' }}>{language === 'zh' ? 'EN' : '中文'}</span>
-                    </button>
+
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                        <GamificationHUD />
+                        <button
+                            onClick={toggleLanguage}
+                            style={{
+                                display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 14px',
+                                borderRadius: '12px', border: '1px solid var(--border)', background: 'white',
+                                cursor: 'pointer', fontSize: '13px', color: 'var(--text-secondary)',
+                                fontWeight: '600', transition: 'all var(--transition-fast)'
+                            }}
+                        >
+                            <Globe size={15} />
+                            <span>{language === 'zh' ? 'EN' : '繁中'}</span>
+                        </button>
+                    </div>
                 </div>
 
+                {/* Hero Gamification & Multiverse Banner (Only when not deeply filtering) */}
+                {!filters.search && filters.tags.length === 0 && !filters.playlist && (
+                    <div style={{ padding: '24px 32px 0 32px' }}>
+                        <div style={{
+                            background: 'linear-gradient(135deg, #1b452e 0%, #2d6648 60%, #15803d 100%)',
+                            borderRadius: '24px',
+                            padding: '32px 36px',
+                            color: 'white',
+                            position: 'relative',
+                            overflow: 'hidden',
+                            boxShadow: '0 15px 35px -10px rgba(27, 69, 46, 0.4)',
+                            display: 'flex',
+                            flexWrap: 'wrap',
+                            alignItems: 'center',
+                            justifyContent: 'space-between',
+                            gap: '24px'
+                        }}>
+                            <div style={{ maxWidth: '650px', position: 'relative', zIndex: 2 }}>
+                                <div style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    gap: '6px',
+                                    background: 'rgba(255, 255, 255, 0.15)',
+                                    backdropFilter: 'blur(8px)',
+                                    padding: '4px 12px',
+                                    borderRadius: '100px',
+                                    fontSize: '11px',
+                                    fontWeight: '800',
+                                    color: '#fef08a',
+                                    marginBottom: '12px'
+                                }}>
+                                    <Sparkles size={13} color="#fef08a" />
+                                    <span>GAMIFIED MULTIVERSE LEARNING NEXUS</span>
+                                </div>
+                                <h1 style={{ fontSize: '24px', fontWeight: '900', margin: '0 0 8px 0', lineHeight: 1.25 }}>
+                                    {language === 'zh' ? '探索知識宇宙 · 跨界多維修行' : 'Explore the Multiverse · Master Modern Polymathy'}
+                                </h1>
+                                <p style={{ fontSize: '13px', color: '#d1fae5', margin: '0 0 20px 0', lineHeight: 1.5 }}>
+                                    {language === 'zh'
+                                        ? '涵蓋 700+ 精選書籍影音導讀，並全面串聯聖經靈修、軟體架構、文史哲學、越南與印尼語言學習 6 大星系。每一步研讀皆可累積 EXP 與學者成就！'
+                                        : 'Traverse 700+ book summaries and seamlessly connect to Biblical Wisdom, Software Architecture, Chinese Classics, and ASEAN Languages.'}
+                                </p>
+
+                                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+                                    <Link
+                                        to="/universe"
+                                        style={{
+                                            padding: '10px 18px',
+                                            borderRadius: '12px',
+                                            background: '#fef08a',
+                                            color: '#1b452e',
+                                            fontWeight: '800',
+                                            fontSize: '13px',
+                                            textDecoration: 'none',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            gap: '6px',
+                                            boxShadow: '0 4px 12px rgba(0,0,0,0.15)'
+                                        }}
+                                    >
+                                        <span>🌌 {t('universePortal')} (6 大星系)</span>
+                                        <ArrowRight size={14} />
+                                    </Link>
+
+                                    <button
+                                        onClick={() => openModal('roulette')}
+                                        style={{
+                                            padding: '10px 16px',
+                                            borderRadius: '12px',
+                                            border: '1px solid rgba(255,255,255,0.3)',
+                                            background: 'rgba(255,255,255,0.12)',
+                                            color: 'white',
+                                            fontWeight: '750',
+                                            fontSize: '13px',
+                                            cursor: 'pointer',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            gap: '6px',
+                                            backdropFilter: 'blur(8px)'
+                                        }}
+                                    >
+                                        <Compass size={15} />
+                                        <span>{t('destinyWheel')}</span>
+                                    </button>
+
+                                    <button
+                                        onClick={claimDailyCapsule}
+                                        style={{
+                                            padding: '10px 16px',
+                                            borderRadius: '12px',
+                                            border: '1px solid rgba(255,255,255,0.3)',
+                                            background: 'rgba(255,255,255,0.12)',
+                                            color: 'white',
+                                            fontWeight: '750',
+                                            fontSize: '13px',
+                                            cursor: 'pointer',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            gap: '6px',
+                                            backdropFilter: 'blur(8px)'
+                                        }}
+                                    >
+                                        <Gift size={15} />
+                                        <span>{t('wisdomCapsule')}</span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                )}
+
                 {/* Book grid */}
-                <div style={{ padding: '32px', flex: 1 }}>
+                <div style={{ padding: '24px 32px 64px 32px', flex: 1 }}>
                     {loading ? (
                         <div style={{ textAlign: 'center', padding: '120px 20px', color: 'var(--text-muted)' }}>
                             <div className="shimmer" style={{ width: '40px', height: '40px', borderRadius: '50%', margin: '0 auto 16px', background: '#e0d8cc' }} />
@@ -135,6 +262,7 @@ export default function Home() {
                     )}
                 </div>
             </div>
+
             <BottomNavbar />
         </div>
     );

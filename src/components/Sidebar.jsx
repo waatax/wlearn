@@ -1,12 +1,36 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { BookOpen, Search, ChevronDown, ChevronRight, X, Flame, Users } from 'lucide-react';
+import { Link, useLocation } from 'react-router-dom';
+import {
+    BookOpen,
+    Search,
+    ChevronDown,
+    ChevronRight,
+    X,
+    Flame,
+    Users,
+    Globe,
+    Compass,
+    Trophy,
+    User,
+    Layers,
+    Scroll,
+    BookMarked,
+    Palmtree,
+    Sparkles,
+    ArrowUpRight
+} from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import { useGamification } from '../context/GamificationContext';
+import { COSMIC_REALMS } from '../lib/gamification';
 
 export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClose }) {
     const { language, t, toggleLanguage, translateTag } = useLanguage();
+    const { state, trackExternalVisit } = useGamification();
+    const location = useLocation();
+
     const [tagsOpen, setTagsOpen] = useState(false);
-    const [playlistsOpen, setPlaylistsOpen] = useState(true);
+    const [playlistsOpen, setPlaylistsOpen] = useState(false);
+    const [realmsOpen, setRealmsOpen] = useState(true);
 
     const allTags = [...new Set((books || []).flatMap(b => b.tags || []))].sort();
     const allPlaylists = [...new Set((books || []).map(b => b.playlist).filter(Boolean))].sort((a, b) => a.localeCompare(b));
@@ -30,6 +54,14 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
     };
     const hasFilters = filters.search || filters.tags.length > 0 || filters.playlist;
 
+    const handleExternalRealmClick = (realm) => {
+        trackExternalVisit(realm.id);
+        window.open(realm.url, '_blank', 'noopener,noreferrer');
+        if (window.innerWidth <= 768 && onClose) onClose();
+    };
+
+    const isCurrentPath = (path) => location.pathname === path;
+
     return (
         <>
             {/* Mobile overlay backdrop */}
@@ -39,7 +71,7 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
             />
 
             <aside className={`sidebar-desktop ${isOpen ? 'open' : ''}`} style={{
-                width: '260px',
+                width: '270px',
                 flexShrink: 0,
                 background: 'var(--sidebar-bg)',
                 backdropFilter: 'blur(var(--sidebar-blur))',
@@ -47,34 +79,42 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                 borderRight: '1px solid var(--border)',
                 display: 'flex',
                 flexDirection: 'column',
-                height: '100dvh', /* Use dynamic viewport height for mobile */
-                maxHeight: '100vh', 
+                height: '100dvh',
+                maxHeight: '100vh',
                 position: 'sticky',
                 top: 0,
-                bottom: 0, /* Help fixed positioning stretch properly */
+                bottom: 0,
                 zIndex: 90,
                 overflowY: 'auto',
                 overflowX: 'hidden',
                 touchAction: 'pan-y',
-                WebkitOverflowScrolling: 'touch', /* Smooth scrolling for iOS Safari */
-                padding: '24px 0 80px 0', /* Add bottom padding to ensure scroll ends above Safari address bar */
+                WebkitOverflowScrolling: 'touch',
+                padding: '24px 0 80px 0',
                 transition: 'all var(--transition-med)',
             }}>
                 {/* Logo + mobile close */}
-                <div style={{ padding: '0 24px 24px', borderBottom: '1px solid var(--border-light)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
-                    <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none', color: 'var(--text)' }}>
-                        <img 
-                            src={`${import.meta.env.BASE_URL}logo.png`} 
-                            alt="WLearn Logo" 
-                            style={{
-                                width: '40px', height: '40px', objectFit: 'cover',
-                                borderRadius: '12px', boxShadow: '0 4px 12px var(--primary-glow)'
-                            }}
-                        />
+                <div style={{ padding: '0 20px 20px', borderBottom: '1px solid var(--border-light)', display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                    <Link to="/" onClick={onClose} style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none', color: 'var(--text)' }}>
+                        <div style={{
+                            width: '42px',
+                            height: '42px',
+                            borderRadius: '12px',
+                            background: 'linear-gradient(135deg, #2d6648, #1b452e)',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            fontSize: '22px',
+                            boxShadow: '0 4px 12px rgba(45, 102, 72, 0.3)',
+                            flexShrink: 0
+                        }}>
+                            🌌
+                        </div>
                         <div>
-                            <div style={{ fontWeight: '800', fontSize: '18px', lineHeight: 1.1, letterSpacing: '-0.02em' }}>{t('siteTitle')}</div>
-                            <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '2px', fontWeight: '500' }}>
-                                {books ? (language === 'zh' ? `發現 ${books.length} 本精選書籍` : `Discover ${books.length} curated books`) : t('siteSubtitle')}
+                            <div style={{ fontWeight: '850', fontSize: '17px', lineHeight: 1.1, letterSpacing: '-0.02em', color: 'var(--text)' }}>
+                                {t('siteTitle')}
+                            </div>
+                            <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '2px', fontWeight: '600' }}>
+                                {t('siteSubtitle')}
                             </div>
                         </div>
                     </Link>
@@ -88,53 +128,96 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                     </button>
                 </div>
 
-                {/* Popular link */}
-                <div style={{ padding: '16px 20px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                    <Link to="/popular" onClick={onClose} style={{
-                        display: 'flex', alignItems: 'center', gap: '10px', padding: '12px 14px',
+                {/* Primary Navigation Hub */}
+                <div style={{ padding: '16px 16px 12px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                    {/* 0. Universe Portal (6 Realms) */}
+                    <Link to="/universe" onClick={onClose} style={{
+                        display: 'flex', alignItems: 'center', gap: '10px', padding: '10px 14px',
                         borderRadius: '12px', textDecoration: 'none',
-                        background: 'linear-gradient(135deg, #fff9f0, #fff3e0)',
-                        border: '1px solid #ffe0b2',
-                        color: '#e65100', fontWeight: '650', fontSize: '14px',
+                        background: isCurrentPath('/universe') ? 'linear-gradient(135deg, #ede9fe, #ddd6fe)' : 'rgba(139, 92, 246, 0.08)',
+                        border: isCurrentPath('/universe') ? '1px solid #c4b5fd' : '1px solid rgba(139, 92, 246, 0.15)',
+                        color: '#6d28d9', fontWeight: '750', fontSize: '13px',
                         transition: 'all var(--transition-fast)',
                     }}>
-                        <Flame size={18} color="#ef6c00" />
-                        {language === 'zh' ? '熱門書籍' : 'Popular Books'}
-                        <span style={{ marginLeft: 'auto', fontSize: '10px', background: '#ffe0b2', padding: '2px 6px', borderRadius: '4px', color: '#e65100', fontWeight: '800' }}>GO</span>
+                        <Globe size={18} color="#7c3aed" />
+                        <span>{t('universePortal')}</span>
+                        <span style={{ marginLeft: 'auto', fontSize: '9px', background: '#ddd6fe', padding: '2px 6px', borderRadius: '4px', color: '#5b21b6', fontWeight: '800' }}>6 REALMS</span>
                     </Link>
-                    <Link to="/authors" onClick={onClose} style={{
-                        display: 'flex', alignItems: 'center', gap: '10px', padding: '12px 14px',
+
+                    {/* 1. Quests & Badges */}
+                    <Link to="/quests" onClick={onClose} style={{
+                        display: 'flex', alignItems: 'center', gap: '10px', padding: '10px 14px',
                         borderRadius: '12px', textDecoration: 'none',
-                        background: 'linear-gradient(135deg, #f0f7f7, #e0f2f1)',
-                        border: '1px solid #b2dfdb',
-                        color: '#00695c', fontWeight: '650', fontSize: '14px',
+                        background: isCurrentPath('/quests') ? 'linear-gradient(135deg, #dcfce7, #bbf7d0)' : 'rgba(45, 102, 72, 0.06)',
+                        border: isCurrentPath('/quests') ? '1px solid #86efac' : '1px solid var(--border-light)',
+                        color: 'var(--primary-dark)', fontWeight: '750', fontSize: '13px',
                         transition: 'all var(--transition-fast)',
                     }}>
-                        <Users size={18} color="#00796b" />
-                        {t('authorsList')}
-                        <span style={{ marginLeft: 'auto', fontSize: '10px', background: '#b2dfdb', padding: '2px 6px', borderRadius: '4px', color: '#00695c', fontWeight: '800' }}>TOP</span>
+                        <Trophy size={18} color="var(--primary)" />
+                        <span>{t('questsCenter')}</span>
+                        <span style={{ marginLeft: 'auto', fontSize: '9px', background: '#dcfce7', padding: '2px 6px', borderRadius: '4px', color: '#166534', fontWeight: '800' }}>QUESTS</span>
                     </Link>
+
+                    {/* 2. Scholar Profile */}
+                    <Link to="/profile" onClick={onClose} style={{
+                        display: 'flex', alignItems: 'center', gap: '10px', padding: '10px 14px',
+                        borderRadius: '12px', textDecoration: 'none',
+                        background: isCurrentPath('/profile') ? 'linear-gradient(135deg, #e0f2fe, #bae6fd)' : 'rgba(2, 132, 199, 0.06)',
+                        border: isCurrentPath('/profile') ? '1px solid #7dd3fc' : '1px solid var(--border-light)',
+                        color: '#0369a1', fontWeight: '750', fontSize: '13px',
+                        transition: 'all var(--transition-fast)',
+                    }}>
+                        <User size={18} color="#0284c7" />
+                        <span>{t('scholarProfile')}</span>
+                        <span style={{ marginLeft: 'auto', fontSize: '9px', background: '#e0f2fe', padding: '2px 6px', borderRadius: '4px', color: '#0369a1', fontWeight: '800' }}>DATA</span>
+                    </Link>
+
+                    {/* 3. Popular & Authors */}
+                    <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6px', marginTop: '2px' }}>
+                        <Link to="/popular" onClick={onClose} style={{
+                            display: 'flex', alignItems: 'center', gap: '6px', padding: '9px 10px',
+                            borderRadius: '10px', textDecoration: 'none',
+                            background: isCurrentPath('/popular') ? '#ffe0b2' : '#fff9f0',
+                            border: '1px solid #ffe0b2',
+                            color: '#e65100', fontWeight: '700', fontSize: '12px',
+                            transition: 'all var(--transition-fast)',
+                        }}>
+                            <Flame size={15} color="#ef6c00" />
+                            <span>{language === 'zh' ? '熱門' : 'Popular'}</span>
+                        </Link>
+                        <Link to="/authors" onClick={onClose} style={{
+                            display: 'flex', alignItems: 'center', gap: '6px', padding: '9px 10px',
+                            borderRadius: '10px', textDecoration: 'none',
+                            background: isCurrentPath('/authors') ? '#b2dfdb' : '#f0f7f7',
+                            border: '1px solid #b2dfdb',
+                            color: '#00695c', fontWeight: '700', fontSize: '12px',
+                            transition: 'all var(--transition-fast)',
+                        }}>
+                            <Users size={15} color="#00796b" />
+                            <span>{language === 'zh' ? '作者' : 'Authors'}</span>
+                        </Link>
+                    </div>
                 </div>
-                <div style={{ padding: '8px 20px 24px' }}>
+
+                {/* Search Box */}
+                <div style={{ padding: '4px 16px 16px' }}>
                     <div style={{ position: 'relative' }}>
-                        <Search size={16} style={{ position: 'absolute', left: '14px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
+                        <Search size={15} style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)', color: 'var(--text-muted)' }} />
                         <input
                             value={filters.search}
                             onChange={e => onFiltersChange({ ...filters, search: e.target.value })}
                             placeholder={t('search')}
                             style={{
-                                width: '100%', padding: '12px 12px 12px 40px', borderRadius: '12px',
-                                border: '1px solid var(--border)', background: 'white', fontSize: '14px',
+                                width: '100%', padding: '10px 10px 10px 36px', borderRadius: '10px',
+                                border: '1px solid var(--border)', background: 'white', fontSize: '13px',
                                 outline: 'none', color: 'var(--text)', transition: 'all var(--transition-fast)',
                                 boxShadow: 'inset 0 1px 2px rgba(0,0,0,0.02)',
                             }}
-                            onFocus={e => { e.target.style.borderColor = 'var(--primary)'; e.target.style.boxShadow = '0 0 0 4px var(--primary-glow)'; }}
-                            onBlur={e => { e.target.style.borderColor = 'var(--border)'; e.target.style.boxShadow = 'inset 0 1px 2px rgba(0,0,0,0.02)'; }}
                         />
                         {filters.search && (
                             <button onClick={() => onFiltersChange({ ...filters, search: '' })}
                                 style={{ position: 'absolute', right: '8px', top: '50%', transform: 'translateY(-50%)', background: 'none', border: 'none', cursor: 'pointer', padding: 0 }}>
-                                <X size={14} color="#888" />
+                                <X size={13} color="#888" />
                             </button>
                         )}
                     </div>
@@ -142,15 +225,65 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
 
                 {/* Clear filters */}
                 {hasFilters && (
-                    <div style={{ padding: '8px 16px' }}>
+                    <div style={{ padding: '0 16px 8px' }}>
                         <button onClick={clearAll} style={{
-                            fontSize: '12px', color: '#0097a7', background: 'none', border: 'none',
-                            cursor: 'pointer', padding: 0, textDecoration: 'underline',
+                            fontSize: '11px', color: '#0097a7', background: 'none', border: 'none',
+                            cursor: 'pointer', padding: 0, textDecoration: 'underline', fontWeight: '600'
                         }}>
                             {language === 'zh' ? '清除所有篩選' : 'Clear all filters'}
                         </button>
                     </div>
                 )}
+
+                {/* External Realms Portals (The 5 Sister Sites) */}
+                <div style={{ borderTop: '1px solid var(--border-light)', paddingTop: '4px' }}>
+                    <button
+                        onClick={() => setRealmsOpen(o => !o)}
+                        style={{
+                            width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                            padding: '12px 18px', background: 'none', border: 'none', cursor: 'pointer',
+                            fontSize: '11px', fontWeight: '800', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.06em',
+                        }}
+                    >
+                        <span>🌟 {language === 'zh' ? '6 大星系外聯傳送門' : 'Cosmic Realms'}</span>
+                        {realmsOpen ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
+                    </button>
+                    {realmsOpen && (
+                        <div style={{ padding: '0 14px 12px', display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                            {COSMIC_REALMS.filter(r => r.url !== '#').map(realm => {
+                                const visitCount = state.externalVisits?.[realm.id] || 0;
+                                return (
+                                    <button
+                                        key={realm.id}
+                                        onClick={() => handleExternalRealmClick(realm)}
+                                        style={{
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            justifyContent: 'space-between',
+                                            padding: '8px 10px',
+                                            borderRadius: '8px',
+                                            border: 'none',
+                                            background: 'transparent',
+                                            cursor: 'pointer',
+                                            textAlign: 'left',
+                                            transition: 'background 0.15s ease'
+                                        }}
+                                        onMouseEnter={e => e.currentTarget.style.background = realm.accentBg}
+                                        onMouseLeave={e => e.currentTarget.style.background = 'transparent'}
+                                    >
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px', minWidth: 0 }}>
+                                            <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: realm.color, flexShrink: 0 }} />
+                                            <span style={{ fontSize: '12px', fontWeight: '650', color: 'var(--text)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                                                {language === 'zh' ? realm.name.zh : realm.name.en}
+                                            </span>
+                                        </div>
+                                        <ArrowUpRight size={13} color={realm.color} style={{ flexShrink: 0 }} />
+                                    </button>
+                                );
+                            })}
+                        </div>
+                    )}
+                </div>
 
                 {/* Tags section */}
                 <div style={{ borderTop: '1px solid var(--border-light)' }}>
@@ -158,15 +291,15 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                         onClick={() => setTagsOpen(o => !o)}
                         style={{
                             width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                            padding: '16px 20px', background: 'none', border: 'none', cursor: 'pointer',
-                            fontSize: '12px', fontWeight: '800', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.08em',
+                            padding: '12px 18px', background: 'none', border: 'none', cursor: 'pointer',
+                            fontSize: '11px', fontWeight: '800', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.06em',
                         }}
                     >
                         {t('tags')}
                         {tagsOpen ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
                     </button>
                     {tagsOpen && (
-                        <div style={{ padding: '4px 16px 12px', display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                        <div style={{ padding: '4px 14px 12px', display: 'flex', flexDirection: 'column', gap: '2px' }}>
                             {allTags.map(tag => {
                                 const active = filters.tags.includes(tag);
                                 return (
@@ -178,7 +311,7 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                                             padding: '5px 8px', borderRadius: '6px', border: 'none',
                                             background: active ? '#e0f2f1' : 'transparent',
                                             color: active ? '#00796b' : '#2d2a24',
-                                            cursor: 'pointer', fontSize: '13px', textAlign: 'left',
+                                            cursor: 'pointer', fontSize: '12px', textAlign: 'left',
                                             fontWeight: active ? '600' : '400',
                                             transition: 'background 0.1s',
                                         }}
@@ -194,27 +327,27 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                 </div>
 
                 {/* Playlists section */}
-                <div>
+                <div style={{ borderTop: '1px solid var(--border-light)' }}>
                     <button
                         onClick={() => setPlaylistsOpen(o => !o)}
                         style={{
                             width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                            padding: '10px 16px', background: 'none', border: 'none', cursor: 'pointer',
-                            fontSize: '12px', fontWeight: '700', color: '#6b6459', textTransform: 'uppercase', letterSpacing: '0.05em',
+                            padding: '12px 18px', background: 'none', border: 'none', cursor: 'pointer',
+                            fontSize: '11px', fontWeight: '800', color: 'var(--text-secondary)', textTransform: 'uppercase', letterSpacing: '0.06em',
                         }}
                     >
                         {t('playlists')}
                         {playlistsOpen ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
                     </button>
                     {playlistsOpen && (
-                        <div style={{ padding: '4px 16px 12px', display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                        <div style={{ padding: '4px 14px 12px', display: 'flex', flexDirection: 'column', gap: '2px' }}>
                             <button
                                 onClick={() => onFiltersChange({ ...filters, playlist: '' })}
                                 style={{
                                     display: 'flex', alignItems: 'center', padding: '5px 8px', borderRadius: '6px',
                                     border: 'none', background: !filters.playlist ? '#e0f2f1' : 'transparent',
                                     color: !filters.playlist ? '#00796b' : '#2d2a24',
-                                    cursor: 'pointer', fontSize: '13px', textAlign: 'left',
+                                    cursor: 'pointer', fontSize: '12px', textAlign: 'left',
                                     fontWeight: !filters.playlist ? '600' : '400',
                                 }}
                             >
@@ -230,7 +363,7 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                                             display: 'flex', alignItems: 'center', padding: '5px 8px', borderRadius: '6px',
                                             border: 'none', background: active ? '#e0f2f1' : 'transparent',
                                             color: active ? '#00796b' : '#2d2a24',
-                                            cursor: 'pointer', fontSize: '12px', textAlign: 'left',
+                                            cursor: 'pointer', fontSize: '11px', textAlign: 'left',
                                             fontWeight: active ? '600' : '400',
                                             lineHeight: '1.3',
                                         }}
