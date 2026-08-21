@@ -318,11 +318,11 @@ export const BADGES_CATALOG = [
         check: (state) => Object.keys(state.notes || {}).filter(k => (state.notes[k] || '').trim().length > 0).length >= 3
     },
 
-    // --- 好奇與隨機探索 (Unpredictability & Serendipity) ---
+    // --- 隨機漫步與探索 (Unpredictability & Serendipity) ---
     {
         id: 'serendipity_reader',
-        name: { zh: '靈感漫步者', en: 'Serendipity Seeker' },
-        desc: { zh: '使用「隨選好書 / 靈感偶遇」探索書目 3 次', en: 'Discover books via Serendipity Pick 3 times' },
+        name: { zh: '滄海拾粟', en: 'Ocean Grain Seeker' },
+        desc: { zh: '使用「滄海一粟」在浩瀚書海中探索書目 3 次', en: 'Discover books via "A Drop in the Ocean" 3 times' },
         icon: 'Sparkles',
         rarity: 'rare',
         category: 'curiosity',

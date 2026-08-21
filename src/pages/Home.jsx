@@ -208,7 +208,7 @@ export default function Home() {
                                         }}
                                     >
                                         <Sparkles size={15} />
-                                        <span>🎲 {language === 'zh' ? '隨選好書' : 'Surprise Me'}</span>
+                                        <span>🌊 {language === 'zh' ? '滄海一粟' : 'A Drop in Ocean'}</span>
                                     </button>
 
                                     <button

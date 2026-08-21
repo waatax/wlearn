@@ -138,13 +138,13 @@ export default function Universe() {
 
                 {/* 6 Cosmic Realms Grid */}
                 <div style={{
-                    padding: '16px 32px 64px 32px',
+                    padding: '16px 20px 64px 20px',
                     maxWidth: '1280px',
                     width: '100%',
                     margin: '0 auto',
                     display: 'grid',
-                    gridTemplateColumns: 'repeat(auto-fill, minmax(360px, 1fr))',
-                    gap: '24px'
+                    gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 340px), 1fr))',
+                    gap: '20px'
                 }}>
                     {COSMIC_REALMS.map((realm, index) => {
                         const IconComponent = REALM_ICONS[realm.icon] || Globe;

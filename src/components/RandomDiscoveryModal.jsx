@@ -86,7 +86,9 @@ export default function RandomDiscoveryModal() {
                 borderRadius: '24px',
                 width: '100%',
                 maxWidth: '520px',
-                padding: '32px',
+                maxHeight: 'calc(100dvh - 40px)',
+                overflowY: 'auto',
+                padding: '32px 24px',
                 position: 'relative',
                 boxShadow: '0 25px 60px -15px rgba(0, 0, 0, 0.35), 0 0 0 1px rgba(255,255,255,0.7)',
                 display: 'flex',
@@ -134,12 +136,12 @@ export default function RandomDiscoveryModal() {
                 </div>
 
                 <h3 style={{ fontSize: '21px', fontWeight: '850', color: '#0f172a', margin: '0 0 6px 0' }}>
-                    {language === 'zh' ? '🎲 靈感偶遇 · 隨選好書' : '🎲 Serendipity · Random Discovery'}
+                    {language === 'zh' ? '🌊 滄海一粟 · 隨選好書' : '🌊 A Drop in the Ocean · Book Discovery'}
                 </h3>
-                <p style={{ fontSize: '13px', color: '#64748b', margin: '0 0 22px 0', lineHeight: 1.5 }}>
+                <p style={{ fontSize: '13px', color: '#64748b', margin: '0 0 22px 0', lineHeight: 1.6 }}>
                     {language === 'zh'
-                        ? '打破演算法同溫層與資訊繭房（知識隨機漫步）。讓未知的思維模型開拓您的跨領域視野！'
-                        : 'Escape your filter bubble through serendipitous discovery across 700+ curated summaries.'}
+                        ? '「寄蜉蝣於天地，渺滄海之一粟。」在浩瀚 700+ 書海中隨機拾取一粒智慧之粟，打破演算法同溫層。'
+                        : 'A single grain from the vast ocean of knowledge. Discover unexpected wisdom across 700+ curated books.'}
                 </p>
 
                 {/* Book Card Display */}
@@ -249,7 +251,7 @@ export default function RandomDiscoveryModal() {
                         }}
                     >
                         <RefreshCw size={16} className={shuffling ? 'animate-spin' : ''} />
-                        {shuffling ? (language === 'zh' ? '正在探索新書目...' : 'Exploring...') : (language === 'zh' ? '換一本隨選 (+15 EXP)' : 'Surprise Me (+15 EXP)')}
+                        {shuffling ? (language === 'zh' ? '正在拾取新書目...' : 'Picking Grain...') : (language === 'zh' ? '換一粒粟 (+15 EXP)' : 'Pick Another (+15 EXP)')}
                     </button>
 
                     <button

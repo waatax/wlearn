@@ -311,3 +311,55 @@ img {
     display: none !important;
   }
 }
+
+/* ====== GAMIFICATION & MOBILE UI/UX ENHANCEMENTS ====== */
+
+/* HUD Responsive adaptations */
+@media (max-width: 640px) {
+  .hud-level-text {
+    display: none !important;
+  }
+
+  .hud-sparks {
+    display: none !important;
+  }
+
+  .hud-btn-text {
+    display: none !important;
+  }
+
+  .hud-container {
+    gap: 4px !important;
+    padding: 3px 6px !important;
+  }
+
+  .top-bar {
+    padding: 10px 14px !important;
+    gap: 8px !important;
+  }
+}
+
+/* Modal Responsive Mobile Scroll & Safe Padding */
+.modal-overlay {
+  padding: 16px;
+}
+
+.modal-content {
+  max-height: calc(100dvh - 40px) !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+/* Touch Friendly interactive improvements */
+button, a {
+  touch-action: manipulation;
+}
+
+/* Card hover smooth transitions */
+.hover-lift {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+}

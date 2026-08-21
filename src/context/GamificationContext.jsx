@@ -327,7 +327,7 @@ export function GamificationProvider({ children }) {
                 sparks: prev.sparks + 10
             };
 
-            setExpNotification({ amount: 15, reason: '靈感偶遇：探索新領域好書！', timestamp: Date.now() });
+            setExpNotification({ amount: 15, reason: '滄海一粟：在浩瀚書海中拾得一本好書！', timestamp: Date.now() });
             setTimeout(() => setExpNotification(null), 2500);
 
             setTimeout(() => evaluateBadges(updated), 50);

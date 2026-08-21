@@ -463,7 +463,7 @@ export default function BookDetail() {
                                     : 'Cross-domain knowledge resonance! Connect insights from this book to our cosmic study realms:'}
                             </p>
 
-                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '16px' }}>
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 280px), 1fr))', gap: '16px' }}>
                                 {crossSynapses.map((item, idx) => {
                                     const realm = item.realm;
                                     if (!realm) return null;

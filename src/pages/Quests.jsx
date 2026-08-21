@@ -111,12 +111,12 @@ export default function Quests() {
                     </div>
                 </div>
 
-                <div style={{ padding: '28px 32px 64px 32px', maxWidth: '1280px', width: '100%', margin: '0 auto' }}>
+                <div style={{ padding: '20px 16px 64px 16px', maxWidth: '1280px', width: '100%', margin: '0 auto' }}>
                     {/* Scholar Level Banner */}
                     <div style={{
                         background: 'linear-gradient(135deg, #1b452e 0%, #2d6648 100%)',
                         borderRadius: '24px',
-                        padding: '32px 36px',
+                        padding: '28px 24px',
                         color: 'white',
                         marginBottom: '32px',
                         boxShadow: '0 15px 35px -10px rgba(27, 69, 46, 0.4)',
@@ -141,7 +141,7 @@ export default function Quests() {
                             }}>
                                 <span>RANK: {levelInfo.rank.toUpperCase()}</span>
                             </div>
-                            <h2 style={{ fontSize: '26px', fontWeight: '900', margin: '0 0 6px 0' }}>
+                            <h2 style={{ fontSize: '24px', fontWeight: '900', margin: '0 0 6px 0' }}>
                                 Lv.{levelInfo.level} {language === 'zh' ? levelInfo.title.zh : levelInfo.title.en}
                             </h2>
                             <p style={{ fontSize: '13px', color: '#d1fae5', margin: '0 0 16px 0', lineHeight: 1.5 }}>
@@ -159,43 +159,39 @@ export default function Quests() {
                                     borderRadius: '4px'
                                 }} />
                             </div>
-                            <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', color: '#a7f3d0', marginTop: '6px', fontWeight: '600' }}>
-                                <span>{state.exp} EXP</span>
-                                <span>{levelInfo.percentage}%</span>
-                                <span>{levelInfo.nextLevelExp} EXP</span>
-                            </div>
                         </div>
 
-                        {/* Quick Stats & Freeze Card */}
-                        <div style={{
-                            display: 'flex',
-                            gap: '16px',
-                            background: 'rgba(0, 0, 0, 0.2)',
-                            padding: '20px',
-                            borderRadius: '18px',
-                            backdropFilter: 'blur(10px)',
-                            border: '1px solid rgba(255,255,255,0.1)'
-                        }}>
-                            <div style={{ textAlign: 'center', padding: '0 12px' }}>
-                                <div style={{ fontSize: '11px', color: '#a7f3d0', fontWeight: '700', marginBottom: '4px' }}>🔥 {t('streak')}</div>
-                                <div style={{ fontSize: '24px', fontWeight: '900', color: '#fef08a' }}>{state.streak || 0}</div>
+                        {/* Quick Stats in Banner */}
+                        <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+                            <div style={{ background: 'rgba(255,255,255,0.1)', padding: '12px 18px', borderRadius: '14px', textAlign: 'center', minWidth: '85px' }}>
+                                <div style={{ fontSize: '11px', color: '#a7f3d0', fontWeight: '600' }}>{t('streak')}</div>
+                                <div style={{ fontSize: '20px', fontWeight: '900', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px' }}>
+                                    <Flame size={18} color="#fb923c" fill="#fb923c" />
+                                    <span>{state.streak || 0}</span>
+                                </div>
                             </div>
-                            <div style={{ width: '1px', background: 'rgba(255,255,255,0.15)' }} />
-                            <div style={{ textAlign: 'center', padding: '0 12px' }}>
-                                <div style={{ fontSize: '11px', color: '#a7f3d0', fontWeight: '700', marginBottom: '4px' }}>✨ {t('sparks')}</div>
-                                <div style={{ fontSize: '24px', fontWeight: '900', color: '#fed7aa' }}>{state.sparks || 0}</div>
+
+                            <div style={{ background: 'rgba(255,255,255,0.1)', padding: '12px 18px', borderRadius: '14px', textAlign: 'center', minWidth: '85px' }}>
+                                <div style={{ fontSize: '11px', color: '#a7f3d0', fontWeight: '600' }}>{t('sparks')}</div>
+                                <div style={{ fontSize: '20px', fontWeight: '900', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px' }}>
+                                    <Sparkles size={18} color="#fde047" />
+                                    <span>{state.sparks || 0}</span>
+                                </div>
                             </div>
-                            <div style={{ width: '1px', background: 'rgba(255,255,255,0.15)' }} />
-                            <div style={{ textAlign: 'center', padding: '0 12px' }}>
-                                <div style={{ fontSize: '11px', color: '#a7f3d0', fontWeight: '700', marginBottom: '4px' }}>🛡️ 護盾</div>
-                                <div style={{ fontSize: '24px', fontWeight: '900', color: '#93c5fd' }}>{state.streakFreezes || 0}</div>
+
+                            <div style={{ background: 'rgba(255,255,255,0.1)', padding: '12px 18px', borderRadius: '14px', textAlign: 'center', minWidth: '85px' }}>
+                                <div style={{ fontSize: '11px', color: '#a7f3d0', fontWeight: '600' }}>{language === 'zh' ? '勳章' : 'Badges'}</div>
+                                <div style={{ fontSize: '20px', fontWeight: '900', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '4px' }}>
+                                    <Trophy size={18} color="#fef08a" />
+                                    <span>{(state.unlockedBadges || []).length}</span>
+                                </div>
                             </div>
                         </div>
                     </div>
 
-                    {/* Section 1: Daily Quests */}
-                    <div style={{ marginBottom: '40px' }}>
-                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px' }}>
+                    {/* Daily Quests Section */}
+                    <div style={{ marginBottom: '48px' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '20px', flexWrap: 'wrap', gap: '12px' }}>
                             <div>
                                 <h3 style={{ fontSize: '20px', fontWeight: '850', color: 'var(--text)', margin: '0 0 4px 0' }}>
                                     ⚡ {language === 'zh' ? '今日修行任務（每日重置）' : 'Daily Quests (Refreshes Daily)'}
@@ -206,7 +202,7 @@ export default function Quests() {
                             </div>
                         </div>
 
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '16px' }}>
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 280px), 1fr))', gap: '16px' }}>
                             {dailyQuests.map((quest) => (
                                 <div
                                     key={quest.id}
