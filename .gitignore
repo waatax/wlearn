@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Local development, planning, and private records (Never push to public GitHub)
+local/
+Local/
+_local/
+CORE.md
+*CORE*.md
+*.local
+*.local.*
+
+# Temporary data audit reports & debug files
+*_report.md
+*_audit.*
+*.csv
+
