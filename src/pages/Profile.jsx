@@ -48,7 +48,7 @@ export default function Profile() {
 
     const bookmarkedBooksList = allBooks.filter(b => (state.bookmarkedBooks || []).includes(b.id));
     const readBooksList = allBooks.filter(b => (state.readBooks || []).includes(b.id));
-    const notesEntries = Object.entries(state.notes || {}).filter(([_, text]) => (text || '').trim().length > 0);
+    const notesEntries = Object.entries(state.notes || {}).filter(([, text]) => (text || '').trim().length > 0);
 
     const handleSharePassport = () => {
         const title = language === 'zh' ? levelInfo.title.zh : levelInfo.title.en;
@@ -79,11 +79,34 @@ export default function Profile() {
                 } else {
                     alert(language === 'zh' ? '無效的備份檔案格式' : 'Invalid backup file format');
                 }
-            } catch (err) {
+            } catch {
                 alert(language === 'zh' ? '解析備份檔案失敗' : 'Failed to parse backup file');
             }
         };
         reader.readAsText(file);
+    };
+
+    const handleExportAllNotesAsMarkdown = () => {
+        if (notesEntries.length === 0) return;
+        const dateStr = new Date().toISOString().split('T')[0];
+        let md = `# 🌌 WeLearn 知識宇宙 · 全體研讀筆記與書摘總匯\n\n- **匯出時間**：${dateStr}\n- **筆記總篇數**：共 ${notesEntries.length} 篇\n\n---\n\n`;
+
+        notesEntries.forEach(([bId, text], idx) => {
+            const b = allBooks.find(item => String(item.id) === String(bId));
+            const bTitle = b ? (language === 'zh' ? (b.title_cn || b.title_en) : (b.title_en || b.title_cn)) : `書籍 #${bId}`;
+            const bAuthor = b ? (language === 'zh' ? (b.author || b.author_en) : (b.author_en || b.author)) : '未知作者';
+            md += `### ${idx + 1}. 《${bTitle}》\n- **作者**：${bAuthor}\n- **書籍編號**：${b?.code || 'N/A'}\n- **研讀連結**：https://waatax.github.io/wlearn/book/${bId}\n\n${text}\n\n---\n\n`;
+        });
+
+        const blob = new Blob([md], { type: 'text/markdown;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `WeLearn_全體研讀筆記_${dateStr}.md`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
     };
 
     return (
@@ -281,10 +304,36 @@ export default function Profile() {
                                     </p>
                                 </div>
                             ) : (
-                                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '16px' }}>
-                                    {notesEntries.map(([bookId, noteText]) => {
-                                        const book = allBooks.find(b => String(b.id) === String(bookId));
-                                        const bookTitle = book ? (language === 'zh' ? (book.title_cn || book.title_en) : (book.title_en || book.title_cn)) : `書籍 #${bookId}`;
+                                <div>
+                                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px', flexWrap: 'wrap', gap: '10px' }}>
+                                        <span style={{ fontSize: '13px', fontWeight: '750', color: 'var(--text-secondary)' }}>
+                                            {language === 'zh' ? `共收集 ${notesEntries.length} 篇閱讀心得與核心筆記` : `${notesEntries.length} notes collected across books`}
+                                        </span>
+                                        <button
+                                            onClick={handleExportAllNotesAsMarkdown}
+                                            style={{
+                                                padding: '7px 14px',
+                                                borderRadius: '10px',
+                                                border: '1px solid var(--border)',
+                                                background: 'white',
+                                                color: 'var(--primary-dark)',
+                                                fontWeight: '750',
+                                                fontSize: '12px',
+                                                cursor: 'pointer',
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                gap: '6px',
+                                                boxShadow: '0 2px 6px rgba(0,0,0,0.04)'
+                                            }}
+                                        >
+                                            <Download size={14} />
+                                            <span>{language === 'zh' ? '匯出所有筆記 (Markdown)' : 'Export All Notes (MD)'}</span>
+                                        </button>
+                                    </div>
+                                    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '16px' }}>
+                                        {notesEntries.map(([bookId, noteText]) => {
+                                            const book = allBooks.find(b => String(b.id) === String(bookId));
+                                            const bookTitle = book ? (language === 'zh' ? (book.title_cn || book.title_en) : (book.title_en || book.title_cn)) : `書籍 #${bookId}`;
 
                                         return (
                                             <div key={bookId} style={{
@@ -317,6 +366,7 @@ export default function Profile() {
                                             </div>
                                         );
                                     })}
+                                    </div>
                                 </div>
                             )
                         )}

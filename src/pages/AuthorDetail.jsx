@@ -213,7 +213,7 @@ export default function AuthorDetail() {
                         <BookOpen size={20} color="var(--primary)" /> {t('booksCollected')} ({author.books?.length || 0})
                     </h2>
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                        {author.books?.map((book, i) => (
+                        {author.books?.map((book) => (
                             <Link
                                 key={book.id}
                                 to={`/book/${book.id}`}

@@ -19,7 +19,11 @@ import {
     Compass,
     ArrowUpRight,
     Save,
-    Check
+    Check,
+    Copy,
+    Download,
+    CheckSquare,
+    Square
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useGamification } from '../context/GamificationContext';
@@ -40,11 +44,23 @@ export default function BookDetail() {
     } = useGamification();
 
     const [book, setBook] = useState(null);
+    const [allBooks, setAllBooks] = useState([]);
     const [loading, setLoading] = useState(true);
     const [authorInfo, setAuthorInfo] = useState(null);
     const [activeSection, setActiveSection] = useState('insight');
-    const [noteContent, setNoteContent] = useState('');
+    const [localNotes, setLocalNotes] = useState({});
+    const noteContent = localNotes[id] !== undefined ? localNotes[id] : (state.notes?.[id] || '');
+    const setNoteContent = (val) => setLocalNotes(prev => ({ ...prev, [id]: val }));
     const [noteSavedFeedback, setNoteSavedFeedback] = useState(false);
+    const [copiedQuoteIndex, setCopiedQuoteIndex] = useState(null);
+    const [completedChapters, setCompletedChapters] = useState(() => {
+        try {
+            const saved = localStorage.getItem(`wlearn_chapters_${id}`);
+            return saved ? JSON.parse(saved) : [];
+        } catch {
+            return [];
+        }
+    });
 
     useEffect(() => {
         Promise.all([
@@ -52,6 +68,7 @@ export default function BookDetail() {
             fetch(import.meta.env.BASE_URL + 'authors.json').then(r => r.json())
         ])
             .then(([booksData, authorsData]) => {
+                setAllBooks(booksData || []);
                 const foundBook = booksData.find(b => String(b.id) === String(id));
                 setBook(foundBook || null);
 
@@ -65,19 +82,75 @@ export default function BookDetail() {
                     setAuthorInfo(foundAuthor || null);
                 }
 
-                // Load existing note
-                if (foundBook && state.notes?.[foundBook.id]) {
-                    setNoteContent(state.notes[foundBook.id]);
-                }
-
                 setLoading(false);
             })
             .catch(() => setLoading(false));
     }, [id]);
 
+    const toggleChapter = (idx) => {
+        setCompletedChapters(prev => {
+            const next = prev.includes(idx) ? prev.filter(i => i !== idx) : [...prev, idx];
+            try {
+                localStorage.setItem(`wlearn_chapters_${id}`, JSON.stringify(next));
+            } catch {
+                // ignore local storage error
+            }
+            return next;
+        });
+    };
+
+    const handleCopyQuote = (quoteText, idx) => {
+        if (!book) return;
+        const titleStr = language === 'zh' ? (book.title_cn || book.title_en) : (book.title_en || book.title_cn);
+        const authorStr = language === 'zh' ? (book.author || book.author_en) : (book.author_en || book.author);
+        const textToCopy = `「${quoteText}」\n—— ${authorStr}《${titleStr}》\n來源：WeLearn 知識宇宙 (https://waatax.github.io/wlearn/book/${book.id})`;
+
+        navigator.clipboard.writeText(textToCopy).then(() => {
+            setCopiedQuoteIndex(idx);
+            setTimeout(() => setCopiedQuoteIndex(null), 2500);
+        });
+    };
+
+    const handleExportMarkdownNote = () => {
+        if (!book || !noteContent.trim()) return;
+        const titleStr = language === 'zh' ? (book.title_cn || book.title_en) : (book.title_en || book.title_cn);
+        const authorStr = language === 'zh' ? (book.author || book.author_en) : (book.author_en || book.author);
+        const dateStr = new Date().toISOString().split('T')[0];
+
+        const mdContent = `# 《${titleStr}》研讀筆記\n\n- **作者**：${authorStr}\n- **日期**：${dateStr}\n- **書籍編號**：${book.code || 'N/A'}\n- **來源連結**：[WeLearn 說書宇宙](https://waatax.github.io/wlearn/book/${book.id})\n\n---\n\n## 📝 我的研讀心得與筆記\n\n${noteContent}\n\n---\n*由 WeLearn 知識宇宙冒險者筆記系統自動匯出*`;
+
+        const blob = new Blob([mdContent], { type: 'text/markdown;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `${titleStr}_研讀筆記_${dateStr}.md`;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    };
+
     const isRead = book && (state.readBooks || []).includes(book.id);
     const isBookmarked = book && (state.bookmarkedBooks || []).includes(book.id);
     const crossSynapses = book ? getCrossUniverseSynapses(book) : [];
+
+    // Related books recommendation
+    const relatedBooks = (book && allBooks.length > 0)
+        ? allBooks
+            .filter(b => b.id !== book.id)
+            .map(b => {
+                let score = 0;
+                if (b.author === book.author) score += 6;
+                if (b.playlist && b.playlist === book.playlist) score += 4;
+                const bookTags = new Set(book.tags || []);
+                (b.tags || []).forEach(t => {
+                    if (bookTags.has(t)) score += 2;
+                });
+                return { ...b, score };
+            })
+            .sort((a, b) => b.score - a.score)
+            .slice(0, 4)
+        : [];
 
     const handleSaveNote = () => {
         if (!book) return;
@@ -569,12 +642,35 @@ export default function BookDetail() {
                                 }}
                             />
 
-                            <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: '12px' }}>
+                            <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
                                 {noteSavedFeedback && (
                                     <span style={{ fontSize: '12px', color: '#16a34a', fontWeight: '750', display: 'flex', alignItems: 'center', gap: '4px' }}>
                                         <Check size={14} />
                                         <span>{t('noteSaved')}</span>
                                     </span>
+                                )}
+                                {noteContent.trim() && (
+                                    <button
+                                        onClick={handleExportMarkdownNote}
+                                        title={language === 'zh' ? '匯出 Markdown 格式筆記' : 'Export note as Markdown'}
+                                        style={{
+                                            padding: '9px 14px',
+                                            borderRadius: '10px',
+                                            border: '1px solid var(--border)',
+                                            background: 'white',
+                                            color: 'var(--text)',
+                                            fontWeight: '700',
+                                            fontSize: '13px',
+                                            cursor: 'pointer',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            gap: '6px',
+                                            transition: 'all 0.15s ease'
+                                        }}
+                                    >
+                                        <Download size={14} />
+                                        <span>{language === 'zh' ? '匯出 MD' : 'Export MD'}</span>
+                                    </button>
                                 )}
                                 <button
                                     onClick={handleSaveNote}
@@ -601,57 +697,149 @@ export default function BookDetail() {
                     </section>
 
                     {/* Section 6: Quotes */}
-                    {book.quotes && book.quotes.length > 0 && (
+                    {((book.quotes && book.quotes.length > 0) || (book.quotes_en && book.quotes_en.length > 0)) && (
                         <section id="quotes" style={{ marginBottom: '40px', scrollMarginTop: '90px' }}>
-                            <h2 style={{ fontSize: '20px', fontWeight: '850', color: 'var(--text)', margin: '0 0 16px 0' }}>
-                                📜 {language === 'zh' ? '大師經典名言' : 'Master Quotes'}
+                            <h2 style={{ fontSize: '20px', fontWeight: '850', color: 'var(--text)', margin: '0 0 16px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <Quote size={20} color="var(--primary)" />
+                                <span>{language === 'zh' ? '大師經典金句' : 'Master Quotes'}</span>
                             </h2>
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                                {book.quotes.map((quote, i) => (
-                                    <blockquote key={i} style={{
-                                        margin: 0, padding: '16px 20px', borderRadius: '12px',
-                                        background: 'var(--tag-bg)', borderLeft: '4px solid var(--primary)',
-                                        color: 'var(--primary-dark)', fontSize: '14px', fontWeight: '650', lineHeight: 1.6
-                                    }}>
-                                        {language === 'zh' ? `「${quote}」` : `"${quote}"`}
-                                    </blockquote>
-                                ))}
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+                                {((language === 'zh' ? book.quotes : (book.quotes_en || book.quotes)) || []).map((quote, i) => {
+                                    const isCopied = copiedQuoteIndex === i;
+                                    return (
+                                        <div
+                                            key={i}
+                                            style={{
+                                                position: 'relative',
+                                                padding: '18px 20px',
+                                                borderRadius: '14px',
+                                                background: 'white',
+                                                border: '1px solid var(--border-light)',
+                                                borderLeft: '4px solid var(--primary)',
+                                                boxShadow: 'var(--card-shadow)',
+                                                display: 'flex',
+                                                flexDirection: 'column',
+                                                gap: '8px'
+                                            }}
+                                        >
+                                            <blockquote style={{
+                                                margin: 0,
+                                                color: 'var(--text)',
+                                                fontSize: '14px',
+                                                fontWeight: '650',
+                                                lineHeight: 1.6,
+                                                paddingRight: '60px'
+                                            }}>
+                                                {language === 'zh' ? `「${quote}」` : `"${quote}"`}
+                                            </blockquote>
+
+                                            {/* Copy quote button */}
+                                            <button
+                                                onClick={() => handleCopyQuote(quote, i)}
+                                                title={language === 'zh' ? '複製金句' : 'Copy quote'}
+                                                style={{
+                                                    position: 'absolute',
+                                                    top: '14px',
+                                                    right: '14px',
+                                                    padding: '5px 9px',
+                                                    borderRadius: '8px',
+                                                    border: '1px solid var(--border)',
+                                                    background: isCopied ? '#dcfce7' : '#f8fafc',
+                                                    color: isCopied ? '#15803d' : 'var(--text-secondary)',
+                                                    fontSize: '11px',
+                                                    fontWeight: '700',
+                                                    cursor: 'pointer',
+                                                    display: 'flex',
+                                                    alignItems: 'center',
+                                                    gap: '4px',
+                                                    transition: 'all 0.15s ease'
+                                                }}
+                                            >
+                                                {isCopied ? <Check size={12} /> : <Copy size={12} />}
+                                                <span>{isCopied ? (language === 'zh' ? '已複製' : 'Copied!') : (language === 'zh' ? '複製' : 'Copy')}</span>
+                                            </button>
+                                        </div>
+                                    );
+                                })}
                             </div>
                         </section>
                     )}
 
-                    {/* Section 7: Outline */}
-                    {book.outline && book.outline.length > 0 && (
+                    {/* Section 7: Outline with interactive checklist */}
+                    {((book.outline && book.outline.length > 0) || (book.outline_en && book.outline_en.length > 0)) && (
                         <section id="outline" style={{ marginBottom: '40px', scrollMarginTop: '90px' }}>
-                            <h2 style={{ fontSize: '20px', fontWeight: '850', color: 'var(--text)', margin: '0 0 16px 0' }}>
-                                📑 {language === 'zh' ? '全書章節大綱' : 'Book Outline'}
-                            </h2>
+                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px', flexWrap: 'wrap', gap: '8px' }}>
+                                <h2 style={{ fontSize: '20px', fontWeight: '850', color: 'var(--text)', margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                    <List size={20} color="var(--primary)" />
+                                    <span>{language === 'zh' ? '全書章節大綱與領悟進度' : 'Chapter Outline & Progress'}</span>
+                                </h2>
+                                {(() => {
+                                    const list = (language === 'zh' ? book.outline : (book.outline_en || book.outline)) || [];
+                                    const count = completedChapters.length;
+                                    const pct = list.length > 0 ? Math.round((count / list.length) * 100) : 0;
+                                    return (
+                                        <span style={{ fontSize: '12px', fontWeight: '750', color: 'var(--primary)' }}>
+                                            {language === 'zh' ? `已領悟 ${count} / ${list.length} 章節 (${pct}%)` : `Completed ${count} of ${list.length} (${pct}%)`}
+                                        </span>
+                                    );
+                                })()}
+                            </div>
+
                             <div style={{
-                                background: 'white', borderRadius: '18px', padding: '24px',
+                                background: 'white', borderRadius: '18px', padding: '20px',
                                 border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)',
-                                display: 'flex', flexDirection: 'column', gap: '12px'
+                                display: 'flex', flexDirection: 'column', gap: '8px'
                             }}>
-                                {book.outline.map((ch, i) => (
-                                    <div key={i} style={{ display: 'flex', gap: '12px', alignItems: 'flex-start' }}>
-                                        <span style={{
-                                            width: '24px', height: '24px', borderRadius: '6px',
-                                            background: 'var(--tag-bg)', color: 'var(--primary)',
-                                            fontSize: '12px', fontWeight: '800', display: 'flex',
-                                            alignItems: 'center', justifyContent: 'center', flexShrink: 0
-                                        }}>
-                                            {i + 1}
-                                        </span>
-                                        <span style={{ fontSize: '14px', color: 'var(--text-secondary)', fontWeight: '600' }}>
-                                            {ch}
-                                        </span>
-                                    </div>
-                                ))}
+                                {((language === 'zh' ? book.outline : (book.outline_en || book.outline)) || []).map((ch, i) => {
+                                    const isDone = completedChapters.includes(i);
+                                    return (
+                                        <div
+                                            key={i}
+                                            onClick={() => toggleChapter(i)}
+                                            style={{
+                                                display: 'flex',
+                                                gap: '12px',
+                                                alignItems: 'center',
+                                                padding: '10px 14px',
+                                                borderRadius: '10px',
+                                                background: isDone ? '#f0fdf4' : 'transparent',
+                                                border: isDone ? '1px solid #bbf7d0' : '1px solid transparent',
+                                                cursor: 'pointer',
+                                                transition: 'all 0.15s ease'
+                                            }}
+                                        >
+                                            <button
+                                                style={{
+                                                    background: 'none',
+                                                    border: 'none',
+                                                    padding: 0,
+                                                    cursor: 'pointer',
+                                                    display: 'flex',
+                                                    alignItems: 'center',
+                                                    color: isDone ? '#16a34a' : '#94a3b8'
+                                                }}
+                                            >
+                                                {isDone ? <CheckSquare size={18} /> : <Square size={18} />}
+                                            </button>
+
+                                            <span style={{
+                                                fontSize: '14px',
+                                                color: isDone ? '#15803d' : 'var(--text)',
+                                                fontWeight: isDone ? '700' : '500',
+                                                textDecoration: isDone ? 'line-through' : 'none',
+                                                flex: 1
+                                            }}>
+                                                {ch}
+                                            </span>
+                                        </div>
+                                    );
+                                })}
                             </div>
                         </section>
                     )}
 
                     {/* Section 8: Purchase / Library Pages */}
-                    <section id="purchase" style={{ marginBottom: '32px', scrollMarginTop: '90px' }}>
+                    <section id="purchase" style={{ marginBottom: '40px', scrollMarginTop: '90px' }}>
                         <h2 style={{ fontSize: '20px', fontWeight: '850', color: 'var(--text)', margin: '0 0 16px 0' }}>
                             🛍️ {language === 'zh' ? '書籍頁面' : 'Book Pages'}
                         </h2>
@@ -688,6 +876,84 @@ export default function BookDetail() {
                             </a>
                         </div>
                     </section>
+
+                    {/* Section 9: Related Books Recommendation */}
+                    {relatedBooks.length > 0 && (
+                        <section id="related" style={{ marginBottom: '32px', scrollMarginTop: '90px' }}>
+                            <h2 style={{ fontSize: '20px', fontWeight: '850', color: 'var(--text)', margin: '0 0 16px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <BookOpen size={20} color="var(--primary)" />
+                                <span>{language === 'zh' ? '相關說書推薦' : 'Related Book Recommendations'}</span>
+                            </h2>
+                            <div style={{
+                                display: 'grid',
+                                gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))',
+                                gap: '16px'
+                            }}>
+                                {relatedBooks.map((relBook) => {
+                                    const relTitle = language === 'zh' ? (relBook.title_cn || relBook.title_en) : (relBook.title_en || relBook.title_cn);
+                                    const relThumbnail = relBook.cover_url || (relBook.video_id
+                                        ? `https://img.youtube.com/vi/${relBook.video_id}/mqdefault.jpg`
+                                        : 'https://images.unsplash.com/photo-1544716278-ca5e3f4cb8c0?w=400&q=80');
+
+                                    return (
+                                        <div
+                                            key={relBook.id}
+                                            onClick={() => {
+                                                navigate(`/book/${relBook.id}`);
+                                                window.scrollTo({ top: 0, behavior: 'smooth' });
+                                            }}
+                                            style={{
+                                                background: 'white',
+                                                borderRadius: '14px',
+                                                overflow: 'hidden',
+                                                border: '1px solid var(--border-light)',
+                                                boxShadow: 'var(--card-shadow)',
+                                                cursor: 'pointer',
+                                                transition: 'all 0.2s ease',
+                                                display: 'flex',
+                                                flexDirection: 'column'
+                                            }}
+                                            onMouseEnter={e => {
+                                                e.currentTarget.style.transform = 'translateY(-3px)';
+                                                e.currentTarget.style.boxShadow = 'var(--card-shadow-hover)';
+                                            }}
+                                            onMouseLeave={e => {
+                                                e.currentTarget.style.transform = 'translateY(0)';
+                                                e.currentTarget.style.boxShadow = 'var(--card-shadow)';
+                                            }}
+                                        >
+                                            <div style={{ aspectRatio: '16/9', overflow: 'hidden', background: '#e2e8f0' }}>
+                                                <img
+                                                    src={relThumbnail}
+                                                    alt={relTitle}
+                                                    loading="lazy"
+                                                    style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                                                />
+                                            </div>
+                                            <div style={{ padding: '12px', flex: 1, display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: '6px' }}>
+                                                    <h4 style={{
+                                                        margin: 0, fontSize: '13px', fontWeight: '750',
+                                                        color: 'var(--text)', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis'
+                                                    }}>
+                                                        {relTitle}
+                                                    </h4>
+                                                    {relBook.code && (
+                                                        <span style={{ fontSize: '9px', fontWeight: '800', background: 'var(--tag-bg)', color: 'var(--primary)', padding: '1px 5px', borderRadius: '4px' }}>
+                                                            {relBook.code}
+                                                        </span>
+                                                    )}
+                                                </div>
+                                                <div style={{ fontSize: '12px', color: 'var(--text-muted)' }}>
+                                                    {language === 'zh' ? (relBook.author || relBook.author_en) : (relBook.author_en || relBook.author)}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        </section>
+                    )}
                 </article>
             </div>
 

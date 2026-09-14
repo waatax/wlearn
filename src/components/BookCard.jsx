@@ -70,26 +70,34 @@ export default function BookCard({ book, index = 0 }) {
                     onError={e => { e.target.src = 'https://images.unsplash.com/photo-1544716278-ca5e3f4cb8c0?w=400&q=80'; }}
                 />
 
-                {/* Read Status Ribbon */}
-                {isRead && (
-                    <div style={{
+                {/* Read Status Quick Toggle Button */}
+                <button
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        toggleReadBook(book.id);
+                    }}
+                    title={isRead ? (language === 'zh' ? '標記為未研讀' : 'Mark as unread') : (language === 'zh' ? '標記為已研讀 (+50 EXP)' : 'Mark as read (+50 EXP)')}
+                    style={{
                         position: 'absolute', top: '10px', left: '10px',
-                        background: 'rgba(22, 163, 74, 0.9)',
+                        background: isRead ? 'rgba(22, 163, 74, 0.92)' : (hovered ? 'rgba(0, 0, 0, 0.55)' : 'rgba(0, 0, 0, 0.35)'),
                         color: 'white',
-                        padding: '3px 8px',
-                        borderRadius: '6px',
+                        padding: isRead ? '4px 8px' : '6px',
+                        borderRadius: isRead ? '7px' : '8px',
+                        border: 'none',
+                        cursor: 'pointer',
                         fontSize: '11px',
                         fontWeight: '800',
                         display: 'flex',
                         alignItems: 'center',
                         gap: '4px',
                         boxShadow: '0 2px 8px rgba(0,0,0,0.2)',
-                        backdropFilter: 'blur(4px)'
-                    }}>
-                        <CheckCircle2 size={12} />
-                        <span>{language === 'zh' ? '已研讀' : 'COMPLETED'}</span>
-                    </div>
-                )}
+                        backdropFilter: 'blur(4px)',
+                        transition: 'all 0.2s ease',
+                    }}
+                >
+                    <CheckCircle2 size={13} color={isRead ? '#ffffff' : '#cbd5e1'} />
+                    {isRead && <span>{language === 'zh' ? '已研讀' : 'COMPLETED'}</span>}
+                </button>
 
                 {/* Bookmark Toggle Button */}
                 <button
@@ -112,23 +120,27 @@ export default function BookCard({ book, index = 0 }) {
                     <Bookmark size={15} fill={isBookmarked ? 'white' : 'none'} />
                 </button>
 
-                {/* Audio icon */}
-                <div style={{
-                    position: 'absolute', bottom: '12px', right: '12px',
-                    background: 'rgba(255,255,255,0.25)', backdropFilter: 'blur(8px)',
-                    WebkitBackdropFilter: 'blur(8px)',
-                    border: '1px solid rgba(255,255,255,0.3)',
-                    borderRadius: '50%',
-                    width: '32px', height: '32px', display: 'flex',
-                    alignItems: 'center', justifyContent: 'center',
-                    transition: 'all var(--transition-med)',
-                    transform: hovered ? 'scale(1.1) translateY(-2px)' : 'scale(1)',
-                    boxShadow: hovered ? '0 4px 12px rgba(0,0,0,0.2)' : 'none',
-                }}>
-                    <svg width="14" height="14" viewBox="0 0 24 24" fill="white">
-                        <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-.73-3.37-1.9-4.5l-1.42 1.42C14.63 10.04 15 10.98 15 12s-.37 1.96-.82 2.08l1.42 1.42C16.77 14.37 16.5 12.77 16.5 12z" />
-                    </svg>
-                </div>
+                {/* Direct Play YouTube Button */}
+                <button
+                    onClick={handlePlay}
+                    title={language === 'zh' ? '前往 YouTube 播放導讀影音' : 'Watch summary on YouTube'}
+                    style={{
+                        position: 'absolute', bottom: '12px', right: '12px',
+                        background: 'rgba(0, 0, 0, 0.65)', backdropFilter: 'blur(8px)',
+                        WebkitBackdropFilter: 'blur(8px)',
+                        border: '1px solid rgba(255,255,255,0.3)',
+                        borderRadius: '50%',
+                        width: '32px', height: '32px', display: 'flex',
+                        alignItems: 'center', justifyContent: 'center',
+                        color: 'white',
+                        cursor: 'pointer',
+                        transition: 'all var(--transition-med)',
+                        transform: hovered ? 'scale(1.1) translateY(-2px)' : 'scale(1)',
+                        boxShadow: hovered ? '0 4px 12px rgba(0,0,0,0.3)' : 'none',
+                    }}
+                >
+                    <Play size={13} fill="white" />
+                </button>
             </div>
 
             {/* Content */}

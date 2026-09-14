@@ -59,7 +59,7 @@ export default function Trends() {
         return null;
     };
 
-    const renderChart = (key, name, color, colorEnd) => (
+    const renderChart = (key, name, color, colorEnd = color) => (
         <div style={{ 
             height: '340px', width: '100%', marginBottom: '48px', 
             background: 'white', padding: '24px', borderRadius: 'var(--radius-lg)',
@@ -74,7 +74,7 @@ export default function Trends() {
                     <defs>
                         <linearGradient id={`grad-${key}`} x1="0" y1="0" x2="0" y2="1">
                             <stop offset="5%" stopColor={color} stopOpacity={0.25} />
-                            <stop offset="95%" stopColor={color} stopOpacity={0} />
+                            <stop offset="95%" stopColor={colorEnd} stopOpacity={0} />
                         </linearGradient>
                     </defs>
                     <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border-light)" />

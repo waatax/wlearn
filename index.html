@@ -11,6 +11,19 @@
     <meta name="apple-mobile-web-app-title" content="WLearn" />
     <link rel="apple-touch-icon" href="/wlearn/logo.png" />
     <meta name="theme-color" content="#2d6648" />
+    <script>
+      // GitHub Pages SPA route restoration
+      (function() {
+        var search = window.location.search;
+        if (search.indexOf('route=') !== -1) {
+          var match = search.match(/route=([^&]*)/);
+          if (match && match[1]) {
+            var route = decodeURIComponent(match[1]);
+            window.history.replaceState(null, null, '/wlearn/' + route);
+          }
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>

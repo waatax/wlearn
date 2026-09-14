@@ -205,7 +205,7 @@ export default function Authors() {
                     gap: '20px',
                     animation: 'fadeInUp 0.6s var(--transition-med) 0.5s both',
                 }}>
-                    {filtered.map((author, i) => {
+                    {filtered.map((author) => {
                         const cardColor = getColor(author.name);
                         return (
                             <div

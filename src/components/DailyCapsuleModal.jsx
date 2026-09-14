@@ -6,7 +6,7 @@ import { COSMIC_REALMS } from '../lib/gamification';
 
 export default function DailyCapsuleModal() {
     const { activeModal, modalData, closeModal, trackExternalVisit } = useGamification();
-    const { language, t } = useLanguage();
+    const { language } = useLanguage();
 
     if (activeModal !== 'capsule' || !modalData?.capsule) return null;
 

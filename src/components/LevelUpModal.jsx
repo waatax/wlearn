@@ -5,7 +5,7 @@ import { Trophy, Award, Sparkles, X, Check, Star } from 'lucide-react';
 
 export default function LevelUpModal() {
     const { activeModal, modalData, closeModal } = useGamification();
-    const { language, t } = useLanguage();
+    const { language } = useLanguage();
 
     if (activeModal !== 'levelup' && activeModal !== 'badge') return null;
 

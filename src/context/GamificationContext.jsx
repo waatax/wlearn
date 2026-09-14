@@ -318,7 +318,7 @@ export function GamificationProvider({ children }) {
     }, [state.lastCapsuleDate, state.todayCapsule, todayStr, completeQuest, evaluateBadges]);
 
     // 7. Serendipity Pick / Random Book Discovery
-    const recordSerendipityPick = useCallback((selectedBook) => {
+    const recordSerendipityPick = useCallback((_selectedBook) => {
         setState(prev => {
             const updated = {
                 ...prev,

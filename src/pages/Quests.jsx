@@ -27,11 +27,9 @@ export default function Quests() {
         state,
         levelInfo,
         dailyQuests,
-        isCheckedInToday,
         checkIn,
         claimDailyCapsule,
-        openModal,
-        buyStreakFreeze
+        openModal
     } = useGamification();
     const { language, t, toggleLanguage } = useLanguage();
     const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -54,6 +52,8 @@ export default function Quests() {
             navigate('/universe');
         } else if (quest.type === 'capsule') {
             claimDailyCapsule();
+        } else if (quest.type === 'serendipity') {
+            openModal('random_discovery');
         }
     };
 

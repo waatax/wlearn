@@ -6,7 +6,7 @@ import { useNavigate } from 'react-router-dom';
 
 export default function RandomDiscoveryModal() {
     const { activeModal, closeModal, recordSerendipityPick } = useGamification();
-    const { language, t } = useLanguage();
+    const { language } = useLanguage();
     const navigate = useNavigate();
 
     const [books, setBooks] = useState([]);
@@ -19,9 +19,8 @@ export default function RandomDiscoveryModal() {
                 .then(r => r.json())
                 .then(data => {
                     setBooks(data);
-                    if (data.length > 0 && !selectedBook) {
-                        const random = data[Math.floor(Math.random() * data.length)];
-                        setSelectedBook(random);
+                    if (data.length > 0) {
+                        setSelectedBook(prev => prev || data[Math.floor(Math.random() * data.length)]);
                     }
                 })
                 .catch(() => {});

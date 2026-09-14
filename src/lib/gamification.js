@@ -500,7 +500,7 @@ export function getCrossUniverseSynapses(book) {
 }
 
 // 6. 生成每日任務 (Daily Quests Generator)
-export function generateDailyQuests(dateStr = new Date().toDateString()) {
+export function generateDailyQuests(_dateStr = new Date().toDateString()) {
     return [
         {
             id: 'quest_checkin',

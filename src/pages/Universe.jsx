@@ -146,7 +146,7 @@ export default function Universe() {
                     gridTemplateColumns: 'repeat(auto-fill, minmax(min(100%, 340px), 1fr))',
                     gap: '20px'
                 }}>
-                    {COSMIC_REALMS.map((realm, index) => {
+                    {COSMIC_REALMS.map((realm) => {
                         const IconComponent = REALM_ICONS[realm.icon] || Globe;
                         const visitCount = realm.id === 'welearn' ? (state.readBooks || []).length : (state.externalVisits?.[realm.id] || 0);
                         const isInternal = realm.id === 'welearn';

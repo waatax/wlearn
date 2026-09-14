@@ -24,7 +24,7 @@ import { useGamification } from '../context/GamificationContext';
 import { COSMIC_REALMS } from '../lib/gamification';
 
 export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClose }) {
-    const { language, t, toggleLanguage, translateTag } = useLanguage();
+    const { language, t, translateTag } = useLanguage();
     const { state, trackExternalVisit } = useGamification();
     const location = useLocation();
 
@@ -277,7 +277,14 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                                                 {language === 'zh' ? realm.name.zh : realm.name.en}
                                             </span>
                                         </div>
-                                        <ArrowUpRight size={13} color={realm.color} style={{ flexShrink: 0 }} />
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '4px', flexShrink: 0 }}>
+                                            {visitCount > 0 && (
+                                                <span style={{ fontSize: '10px', color: realm.color, fontWeight: '800', background: 'white', padding: '1px 5px', borderRadius: '4px', border: `1px solid ${realm.color}40` }}>
+                                                    {visitCount}
+                                                </span>
+                                            )}
+                                            <ArrowUpRight size={13} color={realm.color} />
+                                        </div>
                                     </button>
                                 );
                             })}
