@@ -1,6 +1,6 @@
 import React from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
-import { BookOpen, Globe, Trophy, User, Users } from 'lucide-react';
+import { BookOpen, Globe, Trophy, User, Users, Brain } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 
 export default function BottomNavbar() {
@@ -11,10 +11,10 @@ export default function BottomNavbar() {
 
     const navItems = [
         { path: '/', label: language === 'zh' ? '說書庫' : 'Codex', icon: <BookOpen size={19} /> },
+        { path: '/learning-science', label: language === 'zh' ? '學習科學' : 'Science', icon: <Brain size={19} /> },
         { path: '/universe', label: language === 'zh' ? '知識宇宙' : 'Multiverse', icon: <Globe size={19} /> },
         { path: '/quests', label: language === 'zh' ? '修行任務' : 'Quests', icon: <Trophy size={19} /> },
         { path: '/profile', label: language === 'zh' ? '學者名片' : 'Passport', icon: <User size={19} /> },
-        { path: '/authors', label: language === 'zh' ? '作者' : 'Authors', icon: <Users size={19} /> },
     ];
 
     return (

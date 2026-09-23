@@ -17,7 +17,8 @@ import {
     BookMarked,
     Palmtree,
     Sparkles,
-    ArrowUpRight
+    ArrowUpRight,
+    Brain
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useGamification } from '../context/GamificationContext';
@@ -130,7 +131,25 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
 
                 {/* Primary Navigation Hub */}
                 <div style={{ padding: '16px 16px 12px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
-                    {/* 0. Universe Portal (6 Realms) */}
+                    {/* 0. Learning Science & Cognitive Framework */}
+                    <Link to="/learning-science" onClick={onClose} style={{
+                        display: 'flex', alignItems: 'center', gap: '10px', padding: '10px 14px',
+                        borderRadius: '12px', textDecoration: 'none',
+                        background: isCurrentPath('/learning-science') || isCurrentPath('/framework')
+                            ? 'linear-gradient(135deg, #ede9fe, #ddd6fe)'
+                            : 'rgba(139, 92, 246, 0.08)',
+                        border: isCurrentPath('/learning-science') || isCurrentPath('/framework')
+                            ? '1px solid #c4b5fd'
+                            : '1px solid rgba(139, 92, 246, 0.15)',
+                        color: '#6d28d9', fontWeight: '750', fontSize: '13px',
+                        transition: 'all var(--transition-fast)',
+                    }}>
+                        <Brain size={18} color="#7c3aed" />
+                        <span>{t('learningScience')}</span>
+                        <span style={{ marginLeft: 'auto', fontSize: '9px', background: '#ddd6fe', padding: '2px 6px', borderRadius: '4px', color: '#5b21b6', fontWeight: '800' }}>SCIENCE</span>
+                    </Link>
+
+                    {/* 1. Universe Portal (6 Realms) */}
                     <Link to="/universe" onClick={onClose} style={{
                         display: 'flex', alignItems: 'center', gap: '10px', padding: '10px 14px',
                         borderRadius: '12px', textDecoration: 'none',

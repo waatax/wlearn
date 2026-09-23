@@ -72,7 +72,31 @@ const translations = {
         copied: '已複製到剪貼簿',
         realmsExplored: '星域探索度',
         booksReadCount: '已研讀書籍',
-        totalNotesCount: '累積書摘筆記'
+        totalNotesCount: '累積書摘筆記',
+
+        // 學習科學與框架系統
+        learningScience: '學習科學與框架',
+        learningScienceSubtitle: '腦科學、記憶編碼、成長心態、思維模型與底層邏輯全景系統',
+        scienceOverview: '全景概覽',
+        dimensionsNav: '六大科學維度',
+        mentalModelsNav: '心智模型速查庫',
+        diagnosticNav: '學習模式診斷',
+        closedLoopNav: '實踐閉環地圖',
+        allDimensions: '全部維度',
+        exploreBooks: '探索館藏關聯經典好書',
+        viewBookDetail: '前往深度導讀',
+        biologicalMechanisms: '神經生物與認知底層機制',
+        cognitiveTraps: '常見無效陷阱與科學破解',
+        actionProtocols: '科學落地行動方針',
+        startDiagnostic: '開始 5 題學習體系體檢',
+        retakeDiagnostic: '重新進行診斷評估',
+        diagnosticResult: '您的學習系統診斷報告',
+        overallScore: '總體學習力指數',
+        dominantArchetype: '核心學習者原型',
+        recommendedBooksForYou: '為您客製化的優先補強書單',
+        searchFrameworkBooks: '在學習科學館藏中搜尋書名、作者或關鍵字...',
+        filterByDimension: '依科學維度篩選',
+        totalCuratedBooks: '本科學架構收錄核心書籍'
     },
     en: {
         siteTitle: '🌌 WeLearn Multiverse',
@@ -143,7 +167,31 @@ const translations = {
         copied: 'Copied to Clipboard',
         realmsExplored: 'Realms Explored',
         booksReadCount: 'Books Studied',
-        totalNotesCount: 'Notes Taken'
+        totalNotesCount: 'Notes Taken',
+
+        // Learning Science System
+        learningScience: 'Science of Learning & Framework',
+        learningScienceSubtitle: 'Neuroscience, Memory Encoding, Mindset, Mental Models & Closed-Loop Systems',
+        scienceOverview: 'Overview',
+        dimensionsNav: '6 Core Dimensions',
+        mentalModelsNav: 'Mental Models Library',
+        diagnosticNav: 'Diagnostic Assessment',
+        closedLoopNav: 'Closed-Loop Workflow',
+        allDimensions: 'All Dimensions',
+        exploreBooks: 'Curated Books in Codex',
+        viewBookDetail: 'View Book Deep Dive',
+        biologicalMechanisms: 'Biological & Cognitive Mechanisms',
+        cognitiveTraps: 'Cognitive Illusions & Solutions',
+        actionProtocols: 'Actionable Protocols',
+        startDiagnostic: 'Start 5-Question Diagnostic',
+        retakeDiagnostic: 'Retake Diagnostic',
+        diagnosticResult: 'Your Learning System Diagnostic Report',
+        overallScore: 'Overall Learning Index',
+        dominantArchetype: 'Dominant Learner Archetype',
+        recommendedBooksForYou: 'Personalized Curated Reading Recommendations',
+        searchFrameworkBooks: 'Search book title, author, or keyword in learning codex...',
+        filterByDimension: 'Filter by Dimension',
+        totalCuratedBooks: 'Core Curated Books in Framework'
     },
 };
 

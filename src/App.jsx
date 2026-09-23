@@ -11,6 +11,7 @@ import Popular from './pages/Popular';
 import Trends from './pages/Trends';
 import Authors from './pages/Authors';
 import AuthorDetail from './pages/AuthorDetail';
+import LearningScience from './pages/LearningScience';
 import NotFound from './pages/NotFound';
 import RandomDiscoveryModal from './components/RandomDiscoveryModal';
 import DailyCapsuleModal from './components/DailyCapsuleModal';
@@ -23,6 +24,8 @@ function App() {
         <BrowserRouter basename="/wlearn">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/learning-science" element={<LearningScience />} />
+            <Route path="/framework" element={<LearningScience />} />
             <Route path="/universe" element={<Universe />} />
             <Route path="/quests" element={<Quests />} />
             <Route path="/profile" element={<Profile />} />

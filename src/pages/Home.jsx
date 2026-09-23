@@ -22,7 +22,8 @@ import {
     Bookmark,
     ArrowUp,
     RotateCcw,
-    BookOpen
+    BookOpen,
+    Brain
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -342,6 +343,27 @@ export default function Home() {
                                 </p>
 
                                 <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px' }}>
+                                    <Link
+                                        to="/learning-science"
+                                        style={{
+                                            padding: '10px 18px',
+                                            borderRadius: '12px',
+                                            background: 'linear-gradient(135deg, #ede9fe, #ddd6fe)',
+                                            color: '#5b21b6',
+                                            fontWeight: '800',
+                                            fontSize: '13px',
+                                            textDecoration: 'none',
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            gap: '6px',
+                                            boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+                                            border: '1px solid #c4b5fd'
+                                        }}
+                                    >
+                                        <Brain size={15} color="#6d28d9" />
+                                        <span>🧠 {language === 'zh' ? '學習科學與框架' : 'Science of Learning'}</span>
+                                    </Link>
+
                                     <Link
                                         to="/universe"
                                         style={{

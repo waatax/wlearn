@@ -17,7 +17,8 @@ import {
     Globe,
     ArrowUpRight,
     Shield,
-    Menu
+    Menu,
+    Brain
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -127,11 +128,24 @@ export default function Universe() {
                             <h1 style={{ fontSize: '28px', fontWeight: '900', lineHeight: 1.2, margin: '0 0 12px 0' }}>
                                 {language === 'zh' ? '跨越文明維度的知識宇宙星系' : 'The Cross-Civilization Knowledge Multiverse'}
                             </h1>
-                            <p style={{ fontSize: '14px', color: '#cbd5e1', lineHeight: 1.6, margin: 0 }}>
+                            <p style={{ fontSize: '14px', color: '#cbd5e1', lineHeight: 1.6, margin: '0 0 20px 0' }}>
                                 {language === 'zh'
                                     ? '學習不只是單一書本的記憶，而是多維文明脈絡的交融。在此探索 6 大智慧星域：聖經靈修、軟體架構、古典文史、越南與印尼語言文化，以及 WeLearn 說書大圖書館。每次跨界探索皆可累積經驗值與學者成就！'
                                     : 'Learning is multidimensional. Traverse the 6 cosmic domains—Biblical Wisdom, System Architecture, Chinese Classics, Vietnamese & Indonesian Languages, and the WeLearn YouTube Codex—to master modern polymathy.'}
                             </p>
+
+                            {/* Learning Science Portal Banner */}
+                            <Link to="/learning-science" style={{
+                                display: 'inline-flex', alignItems: 'center', gap: '10px',
+                                background: 'linear-gradient(135deg, #8b5cf6 0%, #6d28d9 100%)',
+                                padding: '12px 22px', borderRadius: '14px', color: 'white',
+                                textDecoration: 'none', fontWeight: '800', fontSize: '14px',
+                                boxShadow: '0 6px 20px rgba(139, 92, 246, 0.4)',
+                                border: '1px solid rgba(255, 255, 255, 0.2)'
+                            }}>
+                                <Brain size={18} />
+                                <span>{language === 'zh' ? '探索全新旗艦：學習科學與底層邏輯全景框架 ➔' : 'Explore Science of Learning Framework ➔'}</span>
+                            </Link>
                         </div>
                     </div>
                 </div>
