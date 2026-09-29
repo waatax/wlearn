@@ -5,6 +5,7 @@ import { ArrowLeft, BarChart3, Play, Activity, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
+import ReadingComfortControls from '../components/ReadingComfortControls';
 
 export default function Trends() {
     const navigate = useNavigate();
@@ -146,8 +147,9 @@ export default function Trends() {
                         {language === 'zh' ? '全站數據趨勢' : 'Global Data Trends'}
                     </h1>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                     <GamificationHUD />
+                    <ReadingComfortControls compact />
                     <div style={{ 
                         padding: '6px 12px', borderRadius: '999px', background: '#e8f5e9', 
                         border: '1px solid #c8e6c9', color: '#2e7d32', fontSize: '12px', 

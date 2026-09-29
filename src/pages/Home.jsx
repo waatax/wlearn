@@ -5,6 +5,7 @@ import BookListItem from '../components/BookListItem';
 import Pagination from '../components/Pagination';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
+import ReadingComfortControls from '../components/ReadingComfortControls';
 import { useLanguage } from '../context/LanguageContext';
 import { useGamification } from '../context/GamificationContext';
 import {
@@ -272,8 +273,9 @@ export default function Home() {
                     </div>
 
                     {/* Right utilities */}
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexShrink: 0 }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
                         <GamificationHUD />
+                        <ReadingComfortControls compact />
 
                         {/* Language Switcher */}
                         <button

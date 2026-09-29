@@ -4,6 +4,7 @@ import { ArrowLeft, Search, Users, BookOpen, Award, ChevronRight, Globe } from '
 import { useLanguage } from '../context/LanguageContext';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
+import ReadingComfortControls from '../components/ReadingComfortControls';
 
 export default function Authors() {
     const navigate = useNavigate();
@@ -84,8 +85,9 @@ export default function Authors() {
                         {t('authorsList')}
                     </h1>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                     <GamificationHUD />
+                    <ReadingComfortControls compact />
                     <button
                         onClick={toggleLanguage}
                         style={{

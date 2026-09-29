@@ -5,6 +5,7 @@ import { COSMIC_REALMS, BADGES_CATALOG } from '../lib/gamification';
 import Sidebar from '../components/Sidebar';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
+import ReadingComfortControls from '../components/ReadingComfortControls';
 import {
     User,
     Sparkles,
@@ -146,8 +147,9 @@ export default function Profile() {
                         </div>
                     </div>
 
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                         <GamificationHUD />
+                        <ReadingComfortControls compact />
                         <button
                             onClick={toggleLanguage}
                             style={{

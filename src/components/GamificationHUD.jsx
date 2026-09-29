@@ -1,7 +1,7 @@
-import React from 'react';
 import { useGamification } from '../context/GamificationContext';
 import { useLanguage } from '../context/LanguageContext';
-import { Flame, Sparkles, Trophy, Gift, CheckCircle2 } from 'lucide-react';
+import { useReadingSettings } from '../context/ReadingSettingsContext';
+import { Flame, Sparkles, Trophy, Gift, CheckCircle2, Palette } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function GamificationHUD() {
@@ -15,6 +15,7 @@ export default function GamificationHUD() {
         expNotification
     } = useGamification();
     const { language, t } = useLanguage();
+    const { setIsSettingsOpen } = useReadingSettings();
 
     const titleText = language === 'zh' ? levelInfo.title.zh : levelInfo.title.en;
 
@@ -219,6 +220,30 @@ export default function GamificationHUD() {
                 >
                     <Sparkles size={13} color="#0284c7" />
                     <span className="hud-btn-text">{language === 'zh' ? '一粟' : 'Grain'}</span>
+                </button>
+
+                {/* 舒適閱讀與字級設定 (Reading Comfort Trigger) */}
+                <button
+                    onClick={() => setIsSettingsOpen(true)}
+                    title={language === 'zh' ? '舒適閱讀設定 (護眼色調/字級大小/排版)' : 'Reading comfort & font scaling'}
+                    style={{
+                        background: 'var(--sidebar-active)',
+                        border: '1px solid var(--border)',
+                        color: 'var(--primary)',
+                        borderRadius: '8px',
+                        padding: '5px 8px',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '4px',
+                        cursor: 'pointer',
+                        fontWeight: '750',
+                        fontSize: '11px',
+                        transition: 'all 0.2s ease',
+                        flexShrink: 0
+                    }}
+                >
+                    <Palette size={13} />
+                    <span className="hud-btn-text">{language === 'zh' ? '舒適' : 'Read'}</span>
                 </button>
             </div>
         </>

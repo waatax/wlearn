@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { ArrowLeft, BookOpen, Award, Briefcase, ExternalLink, Users, ChevronRight, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import GamificationHUD from '../components/GamificationHUD';
+import BottomNavbar from '../components/BottomNavbar';
+import ReadingComfortControls from '../components/ReadingComfortControls';
 
 export default function AuthorDetail() {
     const { id } = useParams();
@@ -78,25 +81,29 @@ export default function AuthorDetail() {
 
                 <div style={{ flex: 1 }} />
 
-                <button
-                    onClick={toggleLanguage}
-                    style={{
-                        display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
-                        borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
-                        cursor: 'pointer', fontSize: '14px', fontWeight: '700', color: 'var(--text)',
-                        transition: 'all var(--transition-fast)',
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
-                    }}
-                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'; }}
-                    onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.04)'; }}
-                >
-                    <Globe size={16} color="var(--primary)" />
-                    {language === 'zh' ? 'EN' : '中文'}
-                </button>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <GamificationHUD />
+                    <ReadingComfortControls compact />
+                    <button
+                        onClick={toggleLanguage}
+                        style={{
+                            display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 18px',
+                            borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
+                            cursor: 'pointer', fontSize: '13px', fontWeight: '700', color: 'var(--text)',
+                            transition: 'all var(--transition-fast)',
+                            boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
+                        }}
+                        onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'; }}
+                        onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.04)'; }}
+                    >
+                        <Globe size={15} color="var(--primary)" />
+                        {language === 'zh' ? 'EN' : '中文'}
+                    </button>
+                </div>
             </div>
 
             {/* Main content */}
-            <div className="detail-main" style={{ maxWidth: '1000px', margin: '0 auto', padding: '48px 32px' }}>
+            <div className="detail-main reading-prose" style={{ maxWidth: '1000px', margin: '0 auto', padding: '48px 32px 100px' }}>
                 {/* Author header */}
                 <div className="detail-top-section" style={{
                     display: 'flex', gap: '40px', alignItems: 'flex-start',
@@ -297,6 +304,8 @@ export default function AuthorDetail() {
                     </div>
                 </div>
             </div>
+
+            <BottomNavbar />
         </div>
     );
 }

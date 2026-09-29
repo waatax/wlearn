@@ -5,6 +5,7 @@ import { useLanguage } from '../context/LanguageContext';
 import Sidebar from '../components/Sidebar';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
+import ReadingComfortControls from '../components/ReadingComfortControls';
 import {
     ExternalLink,
     Sparkles,
@@ -80,8 +81,9 @@ export default function Universe() {
                         </div>
                     </div>
 
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                         <GamificationHUD />
+                        <ReadingComfortControls compact />
                         <button
                             onClick={toggleLanguage}
                             style={{

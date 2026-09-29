@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import Sidebar from '../components/Sidebar';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
+import ReadingComfortControls from '../components/ReadingComfortControls';
 import { useLanguage } from '../context/LanguageContext';
 import { useGamification } from '../context/GamificationContext';
 import {
@@ -45,7 +46,11 @@ import {
     Shuffle,
     Waves,
     MessageSquareQuote,
-    Bookmark
+    Bookmark,
+    Copy,
+    Check,
+    CheckSquare,
+    Square
 } from 'lucide-react';
 
 const ICON_MAP = {
@@ -87,6 +92,37 @@ export default function LearningScience() {
     // Diagnostic State
     const [answers, setAnswers] = useState({});
     const [diagnosticSubmitted, setDiagnosticSubmitted] = useState(false);
+
+    // Formula copy & protocol progress states
+    const [copiedModelId, setCopiedModelId] = useState(null);
+    const [completedProtocols, setCompletedProtocols] = useState(() => {
+        try {
+            const saved = localStorage.getItem('welearn_completed_protocols');
+            return saved ? JSON.parse(saved) : {};
+        } catch {
+            return {};
+        }
+    });
+
+    const toggleProtocol = (key) => {
+        setCompletedProtocols(prev => {
+            const next = { ...prev, [key]: !prev[key] };
+            try {
+                localStorage.setItem('welearn_completed_protocols', JSON.stringify(next));
+            } catch {
+                // ignore
+            }
+            return next;
+        });
+    };
+
+    const handleCopyModelFormula = (model) => {
+        const text = `【${model.name[language]}】心智模型\n公式：${model.formula}\n核心本質：${model.description[language]}\n推薦典籍：${model.sourceBook}`;
+        navigator.clipboard.writeText(text).then(() => {
+            setCopiedModelId(model.id);
+            setTimeout(() => setCopiedModelId(null), 2200);
+        });
+    };
 
     // Ref for scrolling
     const contentRef = useRef(null);
@@ -293,8 +329,9 @@ export default function LearningScience() {
                         </div>
                     </div>
 
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                         <GamificationHUD />
+                        <ReadingComfortControls compact />
                         <button
                             onClick={toggleLanguage}
                             style={{
@@ -447,14 +484,19 @@ export default function LearningScience() {
                 <div ref={contentRef} style={{ maxWidth: '1280px', width: '100%', margin: '0 auto', padding: '16px 32px' }}>
                     {/* TAB 1: 6 CORE DIMENSIONS */}
                     {activeTab === 'dimensions' && (
-                        <div>
-                            {/* Dimension Selector Pills */}
-                            <div style={{
-                                display: 'grid',
-                                gridTemplateColumns: 'repeat(auto-fit, minmax(180px, 1fr))',
-                                gap: '12px',
-                                marginBottom: '28px'
-                            }}>
+                        <div className="reading-prose">
+                            {/* Dimension Selector Pills - Mobile Horizontal Scroll & Desktop Grid */}
+                            <div
+                                className="horizontal-scroll-container"
+                                style={{
+                                    display: 'flex',
+                                    gap: '10px',
+                                    marginBottom: '24px',
+                                    paddingBottom: '8px',
+                                    overflowX: 'auto',
+                                    WebkitOverflowScrolling: 'touch'
+                                }}
+                            >
                                 {LEARNING_DIMENSIONS.map((dim) => {
                                     const isSelected = dim.id === selectedDimId;
                                     const IconComponent = ICON_MAP[dim.icon] || Brain;
@@ -468,22 +510,24 @@ export default function LearningScience() {
                                             style={{
                                                 display: 'flex',
                                                 alignItems: 'center',
-                                                gap: '12px',
-                                                padding: '14px 16px',
+                                                gap: '10px',
+                                                padding: '12px 14px',
                                                 borderRadius: '16px',
                                                 border: isSelected ? `2px solid ${dim.color}` : '1px solid var(--border-light)',
-                                                background: isSelected ? 'white' : 'var(--card-bg)',
+                                                background: isSelected ? 'var(--card-bg)' : 'var(--card-bg)',
                                                 cursor: 'pointer',
                                                 textAlign: 'left',
-                                                boxShadow: isSelected ? `0 8px 20px ${dim.color}25` : '0 2px 6px rgba(0,0,0,0.02)',
+                                                flexShrink: 0,
+                                                minWidth: '175px',
+                                                boxShadow: isSelected ? `0 6px 18px ${dim.color}25` : '0 2px 6px rgba(0,0,0,0.02)',
                                                 transform: isSelected ? 'translateY(-2px)' : 'none',
-                                                transition: 'all 0.2s ease'
+                                                transition: 'all 0.2s cubic-bezier(0.16, 1, 0.3, 1)'
                                             }}
                                         >
                                             <div style={{
-                                                width: '40px',
-                                                height: '40px',
-                                                borderRadius: '12px',
+                                                width: '36px',
+                                                height: '36px',
+                                                borderRadius: '10px',
                                                 background: isSelected ? dim.gradient : dim.accentBg,
                                                 color: isSelected ? 'white' : dim.color,
                                                 display: 'flex',
@@ -491,7 +535,7 @@ export default function LearningScience() {
                                                 justifyContent: 'center',
                                                 flexShrink: 0
                                             }}>
-                                                <IconComponent size={20} />
+                                                <IconComponent size={18} />
                                             </div>
                                             <div style={{ minWidth: 0, flex: 1 }}>
                                                 <div style={{ fontSize: '10px', fontWeight: '800', color: dim.color, textTransform: 'uppercase', letterSpacing: '0.04em' }}>
@@ -508,9 +552,9 @@ export default function LearningScience() {
 
                             {/* Dimension Focus Card */}
                             <div style={{
-                                background: 'white',
-                                borderRadius: '20px',
-                                padding: '32px',
+                                background: 'var(--card-bg)',
+                                borderRadius: '24px',
+                                padding: 'clamp(18px, 4vw, 36px)',
                                 border: `1px solid ${activeDimension.borderColor}`,
                                 boxShadow: '0 8px 30px rgba(0,0,0,0.04)',
                                 marginBottom: '32px'
@@ -611,25 +655,60 @@ export default function LearningScience() {
                                                 </div>
                                             ))}
 
-                                            {/* Action Protocols */}
+                                            {/* Action Protocols with Interactive Checkbox */}
                                             <div style={{ marginTop: '8px', paddingTop: '16px', borderTop: '1px dashed #fed7aa' }}>
-                                                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '12px' }}>
-                                                    <Target size={16} color="#059669" />
-                                                    <span style={{ fontSize: '14px', fontWeight: '800', color: '#065f46' }}>
-                                                        {t('actionProtocols')}
+                                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px' }}>
+                                                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                                        <Target size={16} color="#059669" />
+                                                        <span style={{ fontSize: '14px', fontWeight: '800', color: '#065f46' }}>
+                                                            {t('actionProtocols')}
+                                                        </span>
+                                                    </div>
+                                                    <span style={{ fontSize: '11px', color: '#059669', fontWeight: '700' }}>
+                                                        {language === 'zh' ? '點擊打卡實踐' : 'Click to track'}
                                                     </span>
                                                 </div>
                                                 <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
-                                                    {activeDimension.actionProtocols.map((act, idx) => (
-                                                        <div key={idx} style={{ background: '#ecfdf5', padding: '12px', borderRadius: '10px', border: '1px solid #a7f3d0' }}>
-                                                            <div style={{ fontSize: '12px', fontWeight: '800', color: '#047857', marginBottom: '2px' }}>
-                                                                🎯 {act.title[language]}
+                                                    {activeDimension.actionProtocols.map((act, idx) => {
+                                                        const protocolKey = `${activeDimension.id}_${idx}`;
+                                                        const isDone = !!completedProtocols[protocolKey];
+                                                        return (
+                                                            <div
+                                                                key={idx}
+                                                                onClick={() => toggleProtocol(protocolKey)}
+                                                                style={{
+                                                                    background: isDone ? '#d1fae5' : '#ecfdf5',
+                                                                    padding: '12px 14px',
+                                                                    borderRadius: '12px',
+                                                                    border: isDone ? '1.5px solid #10b981' : '1px solid #a7f3d0',
+                                                                    cursor: 'pointer',
+                                                                    transition: 'all 0.18s ease',
+                                                                    display: 'flex',
+                                                                    gap: '10px',
+                                                                    alignItems: 'flex-start'
+                                                                }}
+                                                            >
+                                                                <div style={{ marginTop: '2px', color: isDone ? '#059669' : '#10b981', flexShrink: 0 }}>
+                                                                    {isDone ? <CheckSquare size={17} /> : <Square size={17} />}
+                                                                </div>
+                                                                <div style={{ flex: 1 }}>
+                                                                    <div style={{
+                                                                        fontSize: '13px',
+                                                                        fontWeight: '800',
+                                                                        color: isDone ? '#065f46' : '#047857',
+                                                                        marginBottom: '3px',
+                                                                        textDecoration: isDone ? 'line-through' : 'none',
+                                                                        opacity: isDone ? 0.85 : 1
+                                                                    }}>
+                                                                        {act.title[language]}
+                                                                    </div>
+                                                                    <div style={{ fontSize: '12px', color: '#064e3b', lineHeight: 1.5 }}>
+                                                                        {act.step[language]}
+                                                                    </div>
+                                                                </div>
                                                             </div>
-                                                            <div style={{ fontSize: '12px', color: '#064e3b', lineHeight: 1.5 }}>
-                                                                {act.step[language]}
-                                                            </div>
-                                                        </div>
-                                                    ))}
+                                                        );
+                                                    })}
                                                 </div>
                                             </div>
                                         </div>
@@ -877,9 +956,32 @@ export default function LearningScience() {
                                                             </span>
                                                         </div>
                                                     </div>
-                                                    <span style={{ fontSize: '11px', fontWeight: '800', color: '#166534', background: '#bbf7d0', padding: '3px 8px', borderRadius: '6px' }}>
-                                                        {model.tag}
-                                                    </span>
+                                                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                                        <span style={{ fontSize: '11px', fontWeight: '800', color: '#166534', background: '#bbf7d0', padding: '3px 8px', borderRadius: '6px' }}>
+                                                            {model.tag}
+                                                        </span>
+                                                        <button
+                                                            onClick={() => handleCopyModelFormula(model)}
+                                                            title={language === 'zh' ? '複製心智模型心法與公式' : 'Copy mental model formula'}
+                                                            style={{
+                                                                background: copiedModelId === model.id ? '#dcfce7' : 'white',
+                                                                border: '1px solid #cbd5e1',
+                                                                borderRadius: '6px',
+                                                                padding: '4px 7px',
+                                                                cursor: 'pointer',
+                                                                display: 'flex',
+                                                                alignItems: 'center',
+                                                                gap: '4px',
+                                                                fontSize: '11px',
+                                                                fontWeight: '700',
+                                                                color: copiedModelId === model.id ? '#15803d' : 'var(--text-secondary)',
+                                                                transition: 'all 0.15s ease'
+                                                            }}
+                                                        >
+                                                            {copiedModelId === model.id ? <Check size={12} /> : <Copy size={12} />}
+                                                            <span>{copiedModelId === model.id ? (language === 'zh' ? '已複製' : 'Copied') : (language === 'zh' ? '複製' : 'Copy')}</span>
+                                                        </button>
+                                                    </div>
                                                 </div>
 
                                                 {/* Action Formula */}

@@ -30,6 +30,7 @@ import { useGamification } from '../context/GamificationContext';
 import { getCrossUniverseSynapses } from '../lib/gamification';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
+import ReadingComfortControls from '../components/ReadingComfortControls';
 
 export default function BookDetail() {
     const { id } = useParams();
@@ -48,6 +49,7 @@ export default function BookDetail() {
     const [loading, setLoading] = useState(true);
     const [authorInfo, setAuthorInfo] = useState(null);
     const [activeSection, setActiveSection] = useState('insight');
+    const [mobileTocOpen, setMobileTocOpen] = useState(false);
     const [localNotes, setLocalNotes] = useState({});
     const noteContent = localNotes[id] !== undefined ? localNotes[id] : (state.notes?.[id] || '');
     const setNoteContent = (val) => setLocalNotes(prev => ({ ...prev, [id]: val }));
@@ -266,6 +268,9 @@ export default function BookDetail() {
                 {/* Gamification HUD */}
                 <GamificationHUD />
 
+                {/* Reading Comfort Controls */}
+                <ReadingComfortControls compact />
+
                 <button
                     onClick={toggleLanguage}
                     style={{
@@ -340,8 +345,8 @@ export default function BookDetail() {
                     </div>
                 </aside>
 
-                {/* Right: Main Content */}
-                <article style={{ flex: 1, minWidth: 0 }}>
+                {/* Right: Main Content with dynamic reading typography */}
+                <article className="reading-prose" style={{ flex: 1, minWidth: 0 }}>
                     {/* Header: Title, Author & Gamification Actions */}
                     <div style={{ marginBottom: '32px' }}>
                         <div style={{ display: 'flex', gap: '8px', alignItems: 'center', marginBottom: '12px' }}>
@@ -956,6 +961,131 @@ export default function BookDetail() {
                     )}
                 </article>
             </div>
+
+            {/* Mobile Floating TOC Toggle Button */}
+            <div className="md:hidden" style={{
+                position: 'fixed',
+                bottom: '80px',
+                right: '18px',
+                zIndex: 90
+            }}>
+                <button
+                    onClick={() => setMobileTocOpen(true)}
+                    style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '6px',
+                        background: 'var(--primary)',
+                        color: '#ffffff',
+                        border: 'none',
+                        borderRadius: '30px',
+                        padding: '10px 16px',
+                        fontSize: '13px',
+                        fontWeight: '750',
+                        boxShadow: '0 6px 20px rgba(0,0,0,0.2)',
+                        cursor: 'pointer'
+                    }}
+                >
+                    <List size={16} />
+                    <span>{language === 'zh' ? '導讀目錄' : 'Contents'}</span>
+                </button>
+            </div>
+
+            {/* Mobile Bottom TOC Drawer */}
+            {mobileTocOpen && (
+                <div
+                    style={{
+                        position: 'fixed',
+                        inset: 0,
+                        backgroundColor: 'rgba(0,0,0,0.5)',
+                        backdropFilter: 'blur(4px)',
+                        WebkitBackdropFilter: 'blur(4px)',
+                        zIndex: 999,
+                        display: 'flex',
+                        alignItems: 'flex-end',
+                        animation: 'fadeIn 0.2s ease'
+                    }}
+                    onClick={() => setMobileTocOpen(false)}
+                >
+                    <div
+                        style={{
+                            width: '100%',
+                            backgroundColor: 'var(--card-bg)',
+                            color: 'var(--text)',
+                            borderRadius: '24px 24px 0 0',
+                            padding: '24px 20px 48px',
+                            maxHeight: '80dvh',
+                            overflowY: 'auto',
+                            borderTop: '1px solid var(--border)',
+                            boxShadow: '0 -10px 40px rgba(0,0,0,0.2)',
+                            animation: 'fadeInUp 0.25s cubic-bezier(0.16, 1, 0.3, 1)'
+                        }}
+                        onClick={e => e.stopPropagation()}
+                    >
+                        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '16px' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <List size={18} color="var(--primary)" />
+                                <h3 style={{ margin: 0, fontSize: '17px', fontWeight: '800' }}>
+                                    {language === 'zh' ? '導讀章節快速跳轉' : 'Chapter Navigation'}
+                                </h3>
+                            </div>
+                            <button
+                                onClick={() => setMobileTocOpen(false)}
+                                style={{
+                                    background: 'none',
+                                    border: 'none',
+                                    padding: '6px',
+                                    cursor: 'pointer',
+                                    color: 'var(--text-muted)'
+                                }}
+                            >
+                                <X size={20} />
+                            </button>
+                        </div>
+                        <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '8px' }}>
+                            {[
+                                { id: 'video', label: language === 'zh' ? '影音說書' : 'Media', icon: Play },
+                                { id: 'author', label: language === 'zh' ? '作者介紹' : 'Author', icon: Users },
+                                { id: 'insight', label: language === 'zh' ? '核心洞察' : 'Insights', icon: BookOpen },
+                                { id: 'synapses', label: language === 'zh' ? '🌌 跨星系共鳴' : '🌌 Cosmic Synapses', icon: Compass },
+                                { id: 'notes', label: language === 'zh' ? '📝 研讀筆記' : '📝 Scholar Notes', icon: Edit3 },
+                                { id: 'quotes', label: language === 'zh' ? '經典金句' : 'Quotes', icon: Quote },
+                                { id: 'outline', label: language === 'zh' ? '內容大綱' : 'Outline', icon: List },
+                                { id: 'purchase', label: language === 'zh' ? '書籍頁面' : 'Pages', icon: ShoppingBag },
+                            ].map((item) => {
+                                const Icon = item.icon;
+                                const isActive = activeSection === item.id;
+                                return (
+                                    <button
+                                        key={item.id}
+                                        onClick={() => {
+                                            scrollToSection(item.id);
+                                            setMobileTocOpen(false);
+                                        }}
+                                        style={{
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            gap: '12px',
+                                            padding: '12px 14px',
+                                            borderRadius: '12px',
+                                            border: isActive ? '1px solid var(--primary)' : '1px solid var(--border-light)',
+                                            background: isActive ? 'var(--sidebar-active)' : 'transparent',
+                                            color: isActive ? 'var(--primary)' : 'var(--text)',
+                                            fontWeight: isActive ? '750' : '500',
+                                            fontSize: '14px',
+                                            cursor: 'pointer',
+                                            textAlign: 'left'
+                                        }}
+                                    >
+                                        <Icon size={16} color={isActive ? 'var(--primary)' : 'var(--text-muted)'} />
+                                        <span>{item.label}</span>
+                                    </button>
+                                );
+                            })}
+                        </div>
+                    </div>
+                </div>
+            )}
 
             <BottomNavbar />
         </div>

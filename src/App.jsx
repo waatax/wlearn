@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './context/LanguageContext';
 import { GamificationProvider } from './context/GamificationContext';
+import { ReadingSettingsProvider } from './context/ReadingSettingsContext';
 import Home from './pages/Home';
 import Universe from './pages/Universe';
 import Quests from './pages/Quests';
@@ -16,12 +17,14 @@ import NotFound from './pages/NotFound';
 import RandomDiscoveryModal from './components/RandomDiscoveryModal';
 import DailyCapsuleModal from './components/DailyCapsuleModal';
 import LevelUpModal from './components/LevelUpModal';
+import ReadingSettingsModal from './components/ReadingSettingsModal';
 
 function App() {
   return (
     <LanguageProvider>
-      <GamificationProvider>
-        <BrowserRouter basename="/wlearn">
+      <ReadingSettingsProvider>
+        <GamificationProvider>
+          <BrowserRouter basename="/wlearn">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/learning-science" element={<LearningScience />} />
@@ -41,9 +44,11 @@ function App() {
           <RandomDiscoveryModal />
           <DailyCapsuleModal />
           <LevelUpModal />
+          <ReadingSettingsModal />
         </BrowserRouter>
       </GamificationProvider>
-    </LanguageProvider>
+    </ReadingSettingsProvider>
+  </LanguageProvider>
   );
 }
 

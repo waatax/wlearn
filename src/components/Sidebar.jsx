@@ -18,15 +18,18 @@ import {
     Palmtree,
     Sparkles,
     ArrowUpRight,
-    Brain
+    Brain,
+    Palette
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useGamification } from '../context/GamificationContext';
+import { useReadingSettings } from '../context/ReadingSettingsContext';
 import { COSMIC_REALMS } from '../lib/gamification';
 
 export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClose }) {
     const { language, t, translateTag } = useLanguage();
     const { state, trackExternalVisit } = useGamification();
+    const { setIsSettingsOpen } = useReadingSettings();
     const location = useLocation();
 
     const [tagsOpen, setTagsOpen] = useState(false);
@@ -402,6 +405,36 @@ export default function Sidebar({ books, filters, onFiltersChange, isOpen, onClo
                             })}
                         </div>
                     )}
+                </div>
+
+                {/* Reading comfort & themes toggle */}
+                <div style={{ padding: '16px 18px', borderTop: '1px solid var(--border-light)', marginTop: 'auto' }}>
+                    <button
+                        onClick={() => {
+                            setIsSettingsOpen(true);
+                            if (window.innerWidth <= 768 && onClose) onClose();
+                        }}
+                        style={{
+                            width: '100%',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            gap: '8px',
+                            padding: '10px 14px',
+                            borderRadius: '12px',
+                            border: '1px solid var(--border)',
+                            background: 'var(--card-bg)',
+                            color: 'var(--text)',
+                            fontSize: '13px',
+                            fontWeight: '700',
+                            cursor: 'pointer',
+                            boxShadow: '0 2px 6px rgba(0,0,0,0.03)',
+                            transition: 'all 0.15s ease'
+                        }}
+                    >
+                        <Palette size={15} color="var(--primary)" />
+                        <span>{language === 'zh' ? '閱讀舒適度設定' : 'Reading Preferences'}</span>
+                    </button>
                 </div>
             </aside>
         </>

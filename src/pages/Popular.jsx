@@ -4,6 +4,7 @@ import { ArrowLeft, TrendingUp, Play, Globe, BarChart3, Eye, Trophy, Flame, Chev
 import { useLanguage } from '../context/LanguageContext';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
+import ReadingComfortControls from '../components/ReadingComfortControls';
 
 function formatViews(n) {
     if (!n || n === 0) return '—';
@@ -127,8 +128,9 @@ export default function Popular() {
                         {language === 'zh' ? '熱門排行榜' : 'Popular Rankings'}
                     </h1>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                     <GamificationHUD />
+                    <ReadingComfortControls compact />
                     <button 
                         onClick={() => navigate('/trends')}
                         style={{
