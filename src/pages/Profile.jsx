@@ -22,7 +22,14 @@ import {
     Check,
     Menu,
     Trash2,
-    ArrowRight
+    ArrowRight,
+    Brain,
+    Target,
+    Compass,
+    Award,
+    Shield,
+    ChevronDown,
+    ChevronUp
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -39,6 +46,7 @@ export default function Profile() {
     const [allBooks, setAllBooks] = useState([]);
     const [activeTab, setActiveTab] = useState('notes'); // notes, bookmarks, read
     const [copied, setCopied] = useState(false);
+    const [showRoadmap, setShowRoadmap] = useState(true);
 
     useEffect(() => {
         fetch(import.meta.env.BASE_URL + 'books.json')
@@ -266,6 +274,149 @@ export default function Profile() {
                                 <div style={{ fontSize: '20px', fontWeight: '900', color: '#fbcfe8' }}>{(state.unlockedBadges || []).length} 個</div>
                             </div>
                         </div>
+                    </div>
+
+                    {/* Scholar Growth & Mastery Roadmap */}
+                    <div style={{
+                        background: 'white',
+                        borderRadius: 'var(--radius-lg)',
+                        padding: '28px 32px',
+                        border: '1px solid var(--border-light)',
+                        boxShadow: 'var(--card-shadow)',
+                        marginBottom: '36px',
+                        animation: 'fadeInUp 0.6s var(--transition-med) 0.15s both',
+                    }}>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px', marginBottom: '16px' }}>
+                            <div>
+                                <div style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '11px', fontWeight: '800', color: 'var(--primary)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '4px' }}>
+                                    <Compass size={14} />
+                                    <span>{language === 'zh' ? '認知成長階梯' : 'Mastery Ladder'}</span>
+                                </div>
+                                <h3 style={{ margin: 0, fontSize: '19px', fontWeight: '850', color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                    <span>🌱 {language === 'zh' ? '學者認知成熟度躍遷矩陣表' : 'Scholar Cognitive Maturity Matrix'}</span>
+                                </h3>
+                            </div>
+
+                            <button
+                                onClick={() => setShowRoadmap(!showRoadmap)}
+                                style={{
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    gap: '6px',
+                                    padding: '8px 14px',
+                                    borderRadius: '10px',
+                                    background: 'var(--bg)',
+                                    border: '1px solid var(--border)',
+                                    color: 'var(--text)',
+                                    fontSize: '12px',
+                                    fontWeight: '700',
+                                    cursor: 'pointer',
+                                    transition: 'all 0.15s ease'
+                                }}
+                            >
+                                <span>{showRoadmap ? (language === 'zh' ? '收合天梯' : 'Collapse') : (language === 'zh' ? '展開天梯' : 'Expand')}</span>
+                                {showRoadmap ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
+                            </button>
+                        </div>
+
+                        {showRoadmap && (
+                            <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch', borderRadius: '12px', border: '1px solid var(--border-light)' }}>
+                                <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '13px', textAlign: 'left', minWidth: '700px' }}>
+                                    <thead>
+                                        <tr style={{ background: 'var(--bg)', color: 'var(--text-secondary)' }}>
+                                            <th style={{ padding: '12px 14px', fontWeight: '800', width: '20%' }}>{language === 'zh' ? '認知成熟階段' : 'Maturity Stage'}</th>
+                                            <th style={{ padding: '12px 14px', fontWeight: '800', width: '25%' }}>{language === 'zh' ? '典型心智特徵' : 'Behavioral Pattern'}</th>
+                                            <th style={{ padding: '12px 14px', fontWeight: '800', width: '15%' }}>{language === 'zh' ? '長期留存率' : 'Retention Rate'}</th>
+                                            <th style={{ padding: '12px 14px', fontWeight: '800', width: '40%' }}>{language === 'zh' ? '躍遷破局修練法' : 'Breakthrough Protocol'}</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {[
+                                            {
+                                                stage: language === 'zh' ? '一階 · 資訊囤積者' : 'Stage 1: Hoarder',
+                                                badge: '📥 Lv.1',
+                                                color: '#64748b',
+                                                pattern: language === 'zh' ? '狂存書單、收藏文章，但很少真正讀完' : 'Bookmarking without reading; false comfort',
+                                                retention: '0% ~ 5%',
+                                                protocol: language === 'zh' ? '啟動「兩分鐘法則」：每天只讀 1 頁書或觀看 3 分鐘摘要' : 'Start with 2-minute rule; read 1 page daily'
+                                            },
+                                            {
+                                                stage: language === 'zh' ? '二階 · 被動劃線者' : 'Stage 2: Highlighter',
+                                                badge: '🖍️ Lv.2',
+                                                color: '#3b82f6',
+                                                pattern: language === 'zh' ? '整本畫滿螢光筆，產生「我懂了」的熟悉感幻覺' : 'Highlighting text; illusion of competence',
+                                                retention: '5% ~ 15%',
+                                                protocol: language === 'zh' ? '強制闔上書本：用白話寫下 3 句話核心摘要與痛點' : 'Close book and retrieve 3 key takeaways actively'
+                                            },
+                                            {
+                                                stage: language === 'zh' ? '三階 · 結構提取者' : 'Stage 3: Structurer',
+                                                badge: '🧩 Lv.3',
+                                                color: '#8b5cf6',
+                                                pattern: language === 'zh' ? '構建心智圖譜與邏輯脈絡，掌握作者底層骨架' : 'Building concept maps and mental models',
+                                                retention: '30% ~ 50%',
+                                                protocol: language === 'zh' ? '艾賓浩斯間隔提取：在 Day 1、3、7 主動自我測驗提問' : 'Execute spaced retrieval practice on Days 1, 3, 7'
+                                            },
+                                            {
+                                                stage: language === 'zh' ? '四階 · 費曼轉譯者' : 'Stage 4: Feynman',
+                                                badge: '🎯 Lv.4',
+                                                color: '#10b981',
+                                                pattern: language === 'zh' ? '能將高深概念以小學生聽得懂的話教導他人' : 'Translating complex ideas for beginners; teaching',
+                                                retention: '70% ~ 90%',
+                                                protocol: language === 'zh' ? '輸學合一：撰寫 7 天行動協議，將知識融入日常決策' : 'Feynman output protocol; formulate 7-day action habits'
+                                            },
+                                            {
+                                                stage: language === 'zh' ? '五階 · 全息通才創造者' : 'Stage 5: Polymath',
+                                                badge: '🌌 Lv.5',
+                                                color: '#f59e0b',
+                                                pattern: language === 'zh' ? '打通跨學科格柵網絡，自主創造全新思維範式' : 'Multidisciplinary synthesis and paradigm creation',
+                                                retention: '90%+',
+                                                protocol: language === 'zh' ? '跨界綜效穿透：將物理、生物與商業模型跨域融合解題' : 'Cross-domain latticework integration and systemic innovation'
+                                            }
+                                        ].map((row, idx) => {
+                                            const isCurrent = levelInfo.level === (idx + 1);
+                                            return (
+                                                <tr key={idx} style={{
+                                                    borderBottom: '1px solid var(--border-light)',
+                                                    background: isCurrent ? 'rgba(0, 131, 143, 0.05)' : 'transparent',
+                                                    transition: 'background 0.15s ease'
+                                                }}>
+                                                    <td style={{ padding: '12px 14px', fontWeight: '800', color: 'var(--text)' }}>
+                                                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                                            <span style={{
+                                                                fontSize: '11px',
+                                                                fontWeight: '800',
+                                                                padding: '2px 8px',
+                                                                borderRadius: '6px',
+                                                                background: `${row.color}15`,
+                                                                color: row.color,
+                                                                border: `1px solid ${row.color}30`
+                                                            }}>
+                                                                {row.badge}
+                                                            </span>
+                                                            <span>{row.stage}</span>
+                                                            {isCurrent && (
+                                                                <span style={{ fontSize: '11px', padding: '1px 6px', borderRadius: '4px', background: 'var(--primary)', color: 'white', fontWeight: '800' }}>
+                                                                    {language === 'zh' ? '當前階段' : 'Current'}
+                                                                </span>
+                                                            )}
+                                                        </div>
+                                                    </td>
+                                                    <td style={{ padding: '12px 14px', color: 'var(--text-secondary)' }}>
+                                                        {row.pattern}
+                                                    </td>
+                                                    <td style={{ padding: '12px 14px', fontWeight: '800', color: row.color }}>
+                                                        {row.retention}
+                                                    </td>
+                                                    <td style={{ padding: '12px 14px', color: 'var(--text)', fontWeight: '600' }}>
+                                                        {row.protocol}
+                                                    </td>
+                                                </tr>
+                                            );
+                                        })}
+                                    </tbody>
+                                </table>
+                            </div>
+                        )}
                     </div>
 
                     {/* Section: Scholar Knowledge Vault Tabs */}

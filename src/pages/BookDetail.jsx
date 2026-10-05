@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import {
+    Brain,
     ArrowLeft,
     Play,
     Globe,
@@ -31,6 +32,8 @@ import { getCrossUniverseSynapses } from '../lib/gamification';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
 import ReadingComfortControls from '../components/ReadingComfortControls';
+import { BookCognitiveRadar } from '../components/learning/LearningDiagrams';
+import { SCIENTIFIC_READING_FRAMEWORK } from '../data/learningFrameworkData';
 
 export default function BookDetail() {
     const { id } = useParams();
@@ -63,6 +66,27 @@ export default function BookDetail() {
             return [];
         }
     });
+    const [completedStages, setCompletedStages] = useState(() => {
+        try {
+            const saved = localStorage.getItem(`wlearn_stages_${id}`);
+            return saved ? JSON.parse(saved) : [];
+        } catch {
+            return [];
+        }
+    });
+
+    const toggleStage = (stageIdx) => {
+        setCompletedStages(prev => {
+            const next = prev.includes(stageIdx) ? prev.filter(i => i !== stageIdx) : [...prev, stageIdx];
+            try {
+                localStorage.setItem(`wlearn_stages_${id}`, JSON.stringify(next));
+            } catch {
+                // ignore
+            }
+            return next;
+        });
+    };
+
 
     useEffect(() => {
         Promise.all([
@@ -505,18 +529,143 @@ export default function BookDetail() {
                         </section>
                     )}
 
-                    {/* Section 3: Core Insight */}
+                    {/* Section 3: Core Insight, Cognitive Radar & 3-Stage Study Guide */}
                     <section id="insight" style={{ marginBottom: '40px', scrollMarginTop: '90px' }}>
                         <div style={{
                             background: 'white', borderRadius: '20px', padding: '32px',
-                            border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)'
+                            border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)',
+                            marginBottom: '24px'
                         }}>
-                            <h2 style={{ fontSize: '20px', fontWeight: '850', color: 'var(--text)', margin: '0 0 16px 0' }}>
-                                💡 {language === 'zh' ? '精華導讀與核心洞察' : 'Core Insights & Summary'}
+                            <h2 style={{ fontSize: '20px', fontWeight: '850', color: 'var(--text)', margin: '0 0 16px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <span>💡</span>
+                                <span>{language === 'zh' ? '精華導讀與核心洞察' : 'Core Insights & Summary'}</span>
                             </h2>
-                            <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: 1.8, margin: 0 }}>
+                            <p style={{ fontSize: '15px', color: 'var(--text-secondary)', lineHeight: 1.8, margin: '0 0 24px 0' }}>
                                 {description}
                             </p>
+
+                            {/* Cognitive Evaluation Radar Chart */}
+                            <BookCognitiveRadar book={book} language={language} />
+                        </div>
+
+                        {/* Reading Matrix: Myth Buster vs Core Principle vs 7-Day Protocol */}
+                        <div style={{
+                            background: 'white',
+                            borderRadius: '20px',
+                            padding: '28px',
+                            border: '1px solid var(--border-light)',
+                            boxShadow: 'var(--card-shadow)',
+                            marginBottom: '24px'
+                        }}>
+                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px', flexWrap: 'wrap', gap: '8px' }}>
+                                <h3 style={{ fontSize: '17px', fontWeight: '850', color: 'var(--text)', margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                    <span>🎯</span>
+                                    <span>{language === 'zh' ? '思維破局對照與 7 天實踐協議表' : 'Cognitive Myth Buster & Action Protocol'}</span>
+                                </h3>
+                                <span style={{ fontSize: '11px', color: '#0369a1', background: '#e0f2fe', padding: '3px 8px', borderRadius: '6px', fontWeight: '800' }}>
+                                    ACTION MATRIX
+                                </span>
+                            </div>
+
+                            <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
+                                <table style={{ width: '100%', minWidth: '600px', borderCollapse: 'collapse', fontSize: '12px', textAlign: 'left' }}>
+                                    <thead>
+                                        <tr style={{ background: '#f8fafc', borderBottom: '2px solid #e2e8f0' }}>
+                                            <th style={{ padding: '12px 14px', fontWeight: '800', color: '#b91c1c', width: '32%' }}>❌ 傳統直覺誤區 (Myth)</th>
+                                            <th style={{ padding: '12px 14px', fontWeight: '800', color: '#0284c7', width: '34%' }}>💡 本書底層破局解法 (Logic)</th>
+                                            <th style={{ padding: '12px 14px', fontWeight: '800', color: '#16a34a', width: '34%' }}>🚀 7 天落地實踐協議 (Protocol)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr style={{ borderBottom: '1px solid #f1f5f9' }}>
+                                            <td style={{ padding: '14px', color: '#991b1b', lineHeight: 1.6, background: '#fef2f2' }}>
+                                                {language === 'zh'
+                                                    ? '依賴直覺經驗或盲目嘗試；把挫折歸咎於天賦不足或運氣不佳。'
+                                                    : 'Relying on raw intuition or unguided hustle; attributing setbacks to lack of innate talent.'}
+                                            </td>
+                                            <td style={{ padding: '14px', color: '#0369a1', lineHeight: 1.6, background: '#f0fdf4', fontWeight: '600' }}>
+                                                {language === 'zh'
+                                                    ? '直擊事物第一性原理，建立清晰心理表徵與不對稱風險收益紀律。'
+                                                    : 'Anchor on first principles; engineer clear mental models and strict risk-reward discipline.'}
+                                            </td>
+                                            <td style={{ padding: '14px', color: '#166534', lineHeight: 1.6, background: '#f0fdf4', fontWeight: '600' }}>
+                                                {language === 'zh'
+                                                    ? '挑選書中 1 個核心模型，在白紙上默繪決策流程，並連續 7 天在真實工作中驗證。'
+                                                    : 'Select 1 core model from this book, diagram its logic on paper, and test it daily for 7 days.'}
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        {/* Section: 3-Stage Scientific Study Guide */}
+                        <div style={{
+                            background: 'linear-gradient(135deg, #f0fdf4 0%, #e6f7ec 100%)',
+                            borderRadius: '20px',
+                            padding: '28px',
+                            border: '1px solid #86efac',
+                            boxShadow: 'var(--card-shadow)'
+                        }}>
+                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px', flexWrap: 'wrap', gap: '8px' }}>
+                                <div>
+                                    <h3 style={{ fontSize: '17px', fontWeight: '850', color: '#166534', margin: '0 0 4px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                        <Brain size={18} color="#16a34a" />
+                                        <span>{language === 'zh' ? '輸學合一 · 本書 3 階深度研讀導航' : '3-Stage Scientific Study Guide'}</span>
+                                    </h3>
+                                    <p style={{ fontSize: '12px', color: '#15803d', margin: 0 }}>
+                                        {language === 'zh' ? '點擊打卡每一研讀階段，徹底告別「讀完就忘」的被動閱讀' : 'Check off each stage to compound your knowledge retention'}
+                                    </p>
+                                </div>
+                                <span style={{ fontSize: '11px', color: '#166534', background: 'white', padding: '4px 10px', borderRadius: '8px', fontWeight: '800', border: '1px solid #86efac' }}>
+                                    {completedStages.length} / 3 STAGES COMPLETED
+                                </span>
+                            </div>
+
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '14px' }}>
+                                {SCIENTIFIC_READING_FRAMEWORK.map((stage, sIdx) => {
+                                    const isDone = completedStages.includes(sIdx);
+                                    return (
+                                        <div
+                                            key={sIdx}
+                                            onClick={() => toggleStage(sIdx)}
+                                            style={{
+                                                background: isDone ? '#dcfce7' : 'white',
+                                                borderRadius: '14px',
+                                                padding: '18px',
+                                                border: isDone ? '1.5px solid #10b981' : '1px solid #bbf7d0',
+                                                cursor: 'pointer',
+                                                display: 'flex',
+                                                flexDirection: 'column',
+                                                justifyContent: 'space-between',
+                                                transition: 'all 0.18s ease'
+                                            }}
+                                        >
+                                            <div>
+                                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                                                    <span style={{ fontSize: '11px', fontWeight: '800', color: isDone ? '#065f46' : '#15803d', background: isDone ? '#bbf7d0' : '#f0fdf4', padding: '2px 8px', borderRadius: '6px' }}>
+                                                        {stage.stage} · {stage.ratio}
+                                                    </span>
+                                                    <div style={{ color: isDone ? '#16a34a' : '#94a3b8' }}>
+                                                        {isDone ? <CheckSquare size={18} /> : <Square size={18} />}
+                                                    </div>
+                                                </div>
+                                                <h4 style={{ fontSize: '14px', fontWeight: '850', color: isDone ? '#065f46' : '#1e293b', margin: '0 0 10px 0' }}>
+                                                    {stage.name[language]}
+                                                </h4>
+                                                <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                                                    {stage.actions.map((act, aIdx) => (
+                                                        <div key={aIdx} style={{ fontSize: '11px', color: isDone ? '#064e3b' : '#475569', lineHeight: 1.5, display: 'flex', alignItems: 'flex-start', gap: '6px' }}>
+                                                            <span style={{ color: '#16a34a', fontWeight: '800' }}>•</span>
+                                                            <span>{act[language]}</span>
+                                                        </div>
+                                                    ))}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
+                            </div>
                         </div>
                     </section>
 
@@ -795,6 +944,26 @@ export default function BookDetail() {
                                 border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)',
                                 display: 'flex', flexDirection: 'column', gap: '8px'
                             }}>
+                                {/* Visual Progress Bar & Milestone Banner */}
+                                {(() => {
+                                    const list = (language === 'zh' ? book.outline : (book.outline_en || book.outline)) || [];
+                                    const count = completedChapters.length;
+                                    const pct = list.length > 0 ? Math.round((count / list.length) * 100) : 0;
+                                    return (
+                                        <div style={{ marginBottom: '12px' }}>
+                                            <div style={{ width: '100%', height: '8px', background: '#f1f5f9', borderRadius: '4px', overflow: 'hidden' }}>
+                                                <div style={{ width: `${pct}%`, height: '100%', background: 'linear-gradient(90deg, #10b981, #059669)', borderRadius: '4px', transition: 'width 0.4s ease' }} />
+                                            </div>
+                                            {pct === 100 && (
+                                                <div style={{ marginTop: '10px', padding: '8px 12px', background: '#dcfce7', borderRadius: '8px', color: '#166534', fontSize: '12px', fontWeight: '800', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                                    <span>🎉</span>
+                                                    <span>{language === 'zh' ? '恭喜通關！您已研讀完全部章節，可至筆記區撰寫費曼輸出總結！' : 'Congratulations! All chapters completed! Time for Feynman output summary!'}</span>
+                                                </div>
+                                            )}
+                                        </div>
+                                    );
+                                })()}
+
                                 {((language === 'zh' ? book.outline : (book.outline_en || book.outline)) || []).map((ch, i) => {
                                     const isDone = completedChapters.includes(i);
                                     return (

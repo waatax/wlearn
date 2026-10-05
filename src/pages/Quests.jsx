@@ -6,6 +6,7 @@ import Sidebar from '../components/Sidebar';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
 import ReadingComfortControls from '../components/ReadingComfortControls';
+import { HabitLoopDiagram } from '../components/learning/LearningDiagrams';
 import {
     Trophy,
     Flame,
@@ -19,7 +20,8 @@ import {
     BookOpen,
     Menu,
     ChevronRight,
-    ArrowRight
+    ArrowRight,
+    Target
 } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 
@@ -273,6 +275,116 @@ export default function Quests() {
                                     )}
                                 </div>
                             ))}
+                        </div>
+                    </div>
+
+                    {/* Habit Loop Diagram */}
+                    <HabitLoopDiagram language={language} />
+
+                    {/* Deliberate Practice: 3 Zones of Mastery */}
+                    <div style={{
+                        background: 'white',
+                        borderRadius: '20px',
+                        padding: '28px',
+                        border: '1px solid var(--border-light)',
+                        boxShadow: 'var(--card-shadow)',
+                        marginBottom: '36px'
+                    }}>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px', flexWrap: 'wrap', gap: '8px' }}>
+                            <div>
+                                <h3 style={{ fontSize: '18px', fontWeight: '850', color: 'var(--text)', margin: '0 0 4px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                    <Target size={18} color="#059669" />
+                                    <span>{language === 'zh' ? '刻意練習三區模型 (Comfort vs Learning vs Panic Zone)' : '3 Zones of Deliberate Practice'}</span>
+                                </h3>
+                                <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: 0 }}>
+                                    {language === 'zh' ? '安德斯·艾利克森《刻意練習》：大師的進步永遠發生在 +4% 難度的學習區邊界' : 'Progress happens strictly at the 4% stretch boundary'}
+                                </p>
+                            </div>
+                            <span style={{ fontSize: '11px', color: '#166534', background: '#dcfce7', padding: '4px 10px', borderRadius: '8px', fontWeight: '800' }}>
+                                LEARNING ZONE
+                            </span>
+                        </div>
+
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '14px' }}>
+                            <div style={{ background: '#f8fafc', borderRadius: '14px', padding: '18px', border: '1.5px solid #e2e8f0' }}>
+                                <div style={{ fontSize: '11px', fontWeight: '850', color: '#64748b', marginBottom: '6px' }}>ZONE 1 · 舒適區 (Comfort Zone)</div>
+                                <h4 style={{ fontSize: '15px', fontWeight: '850', color: '#334155', margin: '0 0 6px 0' }}>做已知而熟悉的事</h4>
+                                <p style={{ fontSize: '12px', color: '#64748b', lineHeight: 1.55, margin: 0 }}>
+                                    能耗極低、無痛苦，但<strong>完全不會刺激突觸增生</strong>。停留此區只會進入自動化平台期（平庸天花板）。
+                                </p>
+                            </div>
+
+                            <div style={{ background: '#f0fdf4', borderRadius: '14px', padding: '18px', border: '1.5px solid #86efac' }}>
+                                <div style={{ fontSize: '11px', fontWeight: '850', color: '#15803d', marginBottom: '6px' }}>ZONE 2 · 學習區 (Sweet Spot +4%)</div>
+                                <h4 style={{ fontSize: '15px', fontWeight: '850', color: '#166534', margin: '0 0 6px 0' }}>剛好在能力邊緣微幅拉伸</h4>
+                                <p style={{ fontSize: '12px', color: '#14532d', lineHeight: 1.55, margin: 0 }}>
+                                    有微小阻力與卡頓感。大腦釋放乙醯膽鹼標記神經元，<strong>髓鞘質快速增生，認知飛速晉級！</strong>
+                                </p>
+                            </div>
+
+                            <div style={{ background: '#fef2f2', borderRadius: '14px', padding: '18px', border: '1.5px solid #fecaca' }}>
+                                <div style={{ fontSize: '11px', fontWeight: '850', color: '#b91c1c', marginBottom: '6px' }}>ZONE 3 · 恐慌區 (Panic Zone)</div>
+                                <h4 style={{ fontSize: '15px', fontWeight: '850', color: '#991b1b', margin: '0 0 6px 0' }}>難度過高引發崩潰</h4>
+                                <p style={{ fontSize: '12px', color: '#7f1d1d', lineHeight: 1.55, margin: 0 }}>
+                                    超出工作記憶乘載上限，杏仁核觸發焦慮癱瘓。策略是拆解為微任務，先退回學習區逐一擊破。
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    {/* Scholar Level Hierarchy & Privileges Table */}
+                    <div style={{
+                        background: 'white',
+                        borderRadius: '20px',
+                        padding: '28px',
+                        border: '1px solid var(--border-light)',
+                        boxShadow: 'var(--card-shadow)',
+                        marginBottom: '36px'
+                    }}>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px', flexWrap: 'wrap', gap: '8px' }}>
+                            <div>
+                                <h3 style={{ fontSize: '18px', fontWeight: '850', color: 'var(--text)', margin: '0 0 4px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                    <Trophy size={18} color="#eab308" />
+                                    <span>{language === 'zh' ? '學者天梯晉升等級與特權對照表' : 'Scholar Hierarchy & Privileges Table'}</span>
+                                </h3>
+                                <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: 0 }}>
+                                    {language === 'zh' ? '透過每日閱讀打卡與星際探索累積經驗值，解鎖更高階的心智特權' : 'Level up by daily active recall and cosmic exploration to unlock privileges'}
+                                </p>
+                            </div>
+                            <span style={{ fontSize: '11px', color: '#b45309', background: '#fef3c7', padding: '4px 10px', borderRadius: '8px', fontWeight: '800' }}>
+                                SCHOLAR TIERS
+                            </span>
+                        </div>
+
+                        <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
+                            <table style={{ width: '100%', minWidth: '680px', borderCollapse: 'collapse', fontSize: '12px', textAlign: 'left' }}>
+                                <thead>
+                                    <tr style={{ background: '#f8fafc', borderBottom: '2px solid #e2e8f0' }}>
+                                        <th style={{ padding: '10px 14px', fontWeight: '800', color: '#334155' }}>等級階位</th>
+                                        <th style={{ padding: '10px 14px', fontWeight: '800', color: '#334155' }}>稱號稱謂</th>
+                                        <th style={{ padding: '10px 14px', fontWeight: '800', color: '#0284c7' }}>所需 EXP</th>
+                                        <th style={{ padding: '10px 14px', fontWeight: '800', color: '#16a34a' }}>每日火花加成</th>
+                                        <th style={{ padding: '10px 14px', fontWeight: '800', color: '#7c3aed' }}>解鎖特權</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {[
+                                        { lv: 'Lv.1', title: '求知學徒 (Novice Seeker)', exp: '0 EXP', spark: '1.0x', priv: '基礎書庫檢索、章節打卡、筆記導出' },
+                                        { lv: 'Lv.2', title: '知識探索者 (Explorer)', exp: '300 EXP', spark: '1.2x', priv: '每日隨機膠囊、跨星系探索經驗翻倍' },
+                                        { lv: 'Lv.3', title: '思維築基者 (Synthesizer)', exp: '800 EXP', spark: '1.5x', priv: '專屬白紙閉卷自檢協議、個人閱讀雷達' },
+                                        { lv: 'Lv.4', title: '格柵學人 (Scholar)', exp: '1,500 EXP', spark: '1.8x', priv: '心智模型公式一鍵複製、第二大腦外包模板' },
+                                        { lv: 'Lv.5', title: '認知大師 (Master Polymath)', exp: '3,000+ EXP', spark: '2.5x', priv: '全星域全息融通徽章、永久登錄賢者榜' },
+                                    ].map((row, idx) => (
+                                        <tr key={idx} style={{ borderBottom: '1px solid #f1f5f9', background: idx % 2 === 0 ? 'white' : '#fcfcfc' }}>
+                                            <td style={{ padding: '10px 14px', fontWeight: '900', color: '#0284c7' }}>{row.lv}</td>
+                                            <td style={{ padding: '10px 14px', fontWeight: '800', color: '#1e293b' }}>{row.title}</td>
+                                            <td style={{ padding: '10px 14px', color: '#64748b' }}>{row.exp}</td>
+                                            <td style={{ padding: '10px 14px', color: '#15803d', fontWeight: '800' }}>{row.spark}</td>
+                                            <td style={{ padding: '10px 14px', color: '#475569', fontWeight: '600' }}>{row.priv}</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
                         </div>
                     </div>
 

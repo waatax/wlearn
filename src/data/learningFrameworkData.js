@@ -793,3 +793,114 @@ export const LEARNING_DIAGNOSTICS_QUESTIONS = [
         ]
     }
 ];
+
+// 六大認知維度全景對照與科學破局矩陣表 (Cognitive Dimensions Comparison Matrix)
+export const LEARNING_COMPARISON_MATRIX = [
+    {
+        id: 'neuroscience',
+        name: { zh: '01 腦科學與神經認知底層', en: 'Neuroscience & Synaptic Allocation' },
+        organ: { zh: '前額葉皮質 / 預設網絡 (DMN) / 海馬迴', en: 'PFC / DMN / Hippocampus' },
+        mechanism: { zh: '突觸可塑性、髓鞘質增生、長期增益 (LTP)', en: 'Neuroplasticity, Myelination, LTP' },
+        trap: { zh: '通宵熬夜苦讀、連續數小時高壓緊繃無留白', en: 'All-nighters, nonstop strain without breaks' },
+        breakthrough: { zh: '90 分鐘人體節律衝刺 + 10 分鐘無螢幕漫步發散', en: '90m Ultradian sprint + 10m diffuse walk' },
+        mentalModel: { zh: '專注與發散雙重模式、雙系統認知', en: 'Dual Thinking Modes, System 1 & 2' },
+        multiplier: '3.2x',
+        seminalBook: '《學習如何學習》[S1-43]'
+    },
+    {
+        id: 'memory',
+        name: { zh: '02 記憶編碼與科學提取', en: 'Memory & Retrieval Science' },
+        organ: { zh: '海馬迴索引 ➔ 大腦新皮質長效網絡', en: 'Hippocampus to Neocortex' },
+        mechanism: { zh: '費力提取效應 (Testing Effect)、間隔加固', en: 'Testing Effect, Spaced Consolidation' },
+        trap: { zh: '反覆劃線螢光筆、重複刷書產生流暢度假象', en: 'Passive highlighting & fluency illusion' },
+        breakthrough: { zh: '白紙閉卷默寫自檢、萊特納五階間隔複習盒', en: 'Closed-book blank recall & Leitner boxes' },
+        mentalModel: { zh: '艾賓浩斯遺忘曲線、主動回想 (Active Recall)', en: 'Ebbinghaus Curve, Desirable Difficulty' },
+        multiplier: '4.5x',
+        seminalBook: '《超牢記憶法》[S4-84]'
+    },
+    {
+        id: 'focus_flow',
+        name: { zh: '03 專注力管理與心流通道', en: 'Focus, Attention & Flow' },
+        organ: { zh: '多巴胺獎賞迴路 / 去甲腎上腺素聚焦軸', en: 'Dopamine & Norepinephrine axes' },
+        mechanism: { zh: '挑戰與技能動態平衡、耶基斯-多德森倒U曲線', en: 'Yerkes-Dodson Arousal, +4% stretch challenge' },
+        trap: { zh: '多工並行切換、工作記憶頻寬被手機雜訊掠奪', en: 'Multitasking fragmentation, context switching' },
+        breakthrough: { zh: '極度專注番茄鐘、製造無通知防干擾修道院環境', en: 'Deep focus timeblocks, digital monastery environment' },
+        mentalModel: { zh: '心流通道 (Flow)、認知負荷理論', en: 'The Flow Channel, Cognitive Bandwidth' },
+        multiplier: '3.8x',
+        seminalBook: '《心流》[S1-41]'
+    },
+    {
+        id: 'mental_models',
+        name: { zh: '04 思維模型與認知格柵', en: 'Mental Models & Latticework' },
+        organ: { zh: '全腦跨聯想神經迴路 / 聯覺網絡', en: 'Inter-hemispheric semantic associative web' },
+        mechanism: { zh: '跨學科同構性識別、高階基模編碼', en: 'Isomorphism recognition, high-order schema' },
+        trap: { zh: '拿著鐵鎚找釘子 (單一學科偏見)、盲從表象類比', en: 'Man with a hammer bias, surface analogies' },
+        breakthrough: { zh: '第一性原理拆解公理、查理·蒙格格柵思維跨界互檢', en: 'First principles dissection & Munger latticework' },
+        mentalModel: { zh: '第一性原理、逆向思維、系統思考', en: 'First Principles, Inversion, Systems Thinking' },
+        multiplier: '5.0x',
+        seminalBook: '《窮查理的普通常識》[S1-38]'
+    },
+    {
+        id: 'metacognition',
+        name: { zh: '05 後設認知與自我審計', en: 'Metacognition & Growth Mindset' },
+        organ: { zh: '前額葉背外側皮質 (DLPFC) 監控中心', en: 'Dorsolateral Prefrontal Cortex (DLPFC)' },
+        mechanism: { zh: '思考自己的思考 (Thinking about Thinking)、誤差修正', en: 'Self-monitoring, Bayesian prior updating' },
+        trap: { zh: '達克效應 (不知自己無知)、固定型心態逃避卡點', en: 'Dunning-Kruger trap, fixed mindset avoidance' },
+        breakthrough: { zh: '認知審計自省日記、主動擁抱錯誤信號與行家無情反饋', en: 'Cognitive audit journaling & deliberate error logs' },
+        mentalModel: { zh: '達克效應、成長型心態、貝氏更新', en: 'Dunning-Kruger, Growth Mindset, Bayesian Update' },
+        multiplier: '4.0x',
+        seminalBook: '《逆思維》[S3-12]'
+    },
+    {
+        id: 'deliberate_practice',
+        name: { zh: '06 刻意練習與閉環輸出', en: 'Deliberate Practice & Output' },
+        organ: { zh: '運動皮質 / 小腦 / 神經突觸髓鞘封裝', en: 'Motor Cortex / Cerebellum / Myelin Sheathing' },
+        mechanism: { zh: '心理表徵精準修復、輸學合一以教代學', en: 'Mental representation calibration, Feynman loops' },
+        trap: { zh: '只進不出「資訊囤積症」、低水平無效重複 (天花板)', en: 'Information hoarding, automated plateaus' },
+        breakthrough: { zh: '3:7 輸學黃金比例、費曼白話外行教學、微技能邊界攻堅', en: '3:7 Output ratio, Feynman teaching, micro-skills' },
+        mentalModel: { zh: '費曼學習法、原子習慣迴路、刻意練習', en: 'Feynman Technique, Habit Loop, 10,000h Rule' },
+        multiplier: '6.2x',
+        seminalBook: '《刻意練習》[S1-10]'
+    }
+];
+
+// 輸學合一 3 階科學閱讀工作流 (Scientific Reading Workflow)
+export const SCIENTIFIC_READING_FRAMEWORK = [
+    {
+        stage: 'Stage 1',
+        name: { zh: '課前定位與問題錨定', en: 'Pre-Read Anchoring' },
+        ratio: '15% 時間',
+        tag: '框架先行',
+        icon: 'Target',
+        actions: [
+            { zh: 'SQ3R 掃描：花 5 分鐘通覽目錄、前言與每章小結，建立心智骨架', en: 'SQ3R scan of TOC, preface, chapter summaries' },
+            { zh: '提出 3 個核心問題：帶著個人真實挑戰閱讀，將大腦切換為「主動尋找答案」狀態', en: 'Draft 3 core hypotheses to verify' },
+            { zh: '設定認知預期：這本書要解決我工作或生活中的哪一個根本阻礙？', en: 'Anchor personal problem statement' }
+        ]
+    },
+    {
+        stage: 'Stage 2',
+        name: { zh: '深度咀嚼與主動提取', en: 'Active Digestion & Recall' },
+        ratio: '35% 時間',
+        tag: '拒絕假熟',
+        icon: 'Brain',
+        actions: [
+            { zh: '切斷被動螢光筆：讀完一小節立刻合上書，在紙上憑記憶手繪主要邏輯樹', en: 'Closed-book blank page retrieval after each chapter' },
+            { zh: '標記 1-2 個底層思維模型：將案例抽象提煉為可遷移的公理', en: 'Extract 1-2 transferable mental models' },
+            { zh: '雙模式發散：閱讀 45 分鐘後強制暫停，閉目或散步 10 分鐘，啟動預設網絡固化突觸', en: '45m focus sprint followed by 10m diffuse walk' }
+        ]
+    },
+    {
+        stage: 'Stage 3',
+        name: { zh: '費曼外行教學與落地交付', en: 'Feynman Delivery & Action' },
+        ratio: '50% 時間',
+        tag: '輸學閉環',
+        icon: 'Sparkles',
+        actions: [
+            { zh: '費曼通俗講述：用 8 歲小孩能懂的大白話，向朋友、同事或自己錄音口述核心洞見', en: 'Explain aloud using 8-year-old vernacular' },
+            { zh: '制定 7 天微行動協議：只挑選書中最有震撼力的一項心法，立刻轉化為行為習慣', en: 'Formulate a 7-day micro-action protocol' },
+            { zh: '沉澱為第二大腦資產：將精華收錄入筆記庫，編入查理·蒙格的多元思維模型格柵', en: 'Archive into personal digital second brain' }
+        ]
+    }
+];
+

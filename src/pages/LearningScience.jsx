@@ -9,8 +9,17 @@ import { useGamification } from '../context/GamificationContext';
 import {
     LEARNING_DIMENSIONS,
     LEARNING_MENTAL_MODELS,
-    LEARNING_DIAGNOSTICS_QUESTIONS
+    LEARNING_DIAGNOSTICS_QUESTIONS,
+    LEARNING_COMPARISON_MATRIX
 } from '../data/learningFrameworkData';
+import {
+    BrainModesDiagram,
+    EbbinghausCurveChart,
+    LearningPyramidDiagram,
+    CognitiveLoadDiagram,
+    HabitLoopDiagram
+} from '../components/learning/LearningDiagrams';
+
 import {
     Brain,
     Zap,
@@ -244,7 +253,8 @@ export default function LearningScience() {
             maxScore: LEARNING_DIAGNOSTICS_QUESTIONS.length * 4,
             archetype,
             weakestDimObj,
-            recommendedBooks
+            recommendedBooks,
+            dimScores
         };
     }, [diagnosticSubmitted, answers, language, allBooks]);
 
@@ -609,6 +619,12 @@ export default function LearningScience() {
                                     </p>
                                 </div>
 
+                                {/* Dynamic Pedagogical Visual Diagram based on Dimension */}
+                                {activeDimension.id === 'neuroscience' && <BrainModesDiagram language={language} />}
+                                {activeDimension.id === 'memory' && <EbbinghausCurveChart language={language} />}
+                                {activeDimension.id === 'focus_flow' && <CognitiveLoadDiagram language={language} />}
+                                {activeDimension.id === 'deliberate_practice' && <HabitLoopDiagram language={language} />}
+
                                 {/* 3 Column Deep Dive Grid: Mechanisms, Traps, Action Protocols */}
                                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '24px', marginBottom: '32px' }}>
                                     {/* 1. Biological & Cognitive Mechanisms */}
@@ -863,6 +879,100 @@ export default function LearningScience() {
                                     )}
                                 </div>
                             </div>
+
+                            {/* Section: Learning Pyramid Hierarchy */}
+                            <LearningPyramidDiagram language={language} />
+
+                            {/* Section: 6 Dimensions Master Comparative Matrix Table */}
+                            <div style={{
+                                background: 'white',
+                                borderRadius: '20px',
+                                padding: '28px',
+                                border: '1px solid var(--border-light)',
+                                boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                                marginBottom: '32px'
+                            }}>
+                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px', marginBottom: '20px' }}>
+                                    <div>
+                                        <h3 style={{ fontSize: '18px', fontWeight: '900', color: 'var(--text)', margin: '0 0 4px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                            <span>📊</span>
+                                            <span>{language === 'zh' ? '六大認知維度全景對照與科學破局矩陣表' : '6 Cognitive Dimensions Comparative Matrix'}</span>
+                                        </h3>
+                                        <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: 0 }}>
+                                            {language === 'zh' ? '點擊任一維度列，可直接聚焦切換至該維度專題與推薦書單' : 'Click any row to switch focus to that dimension'}
+                                        </p>
+                                    </div>
+                                    <span style={{ fontSize: '11px', color: '#166534', background: '#dcfce7', padding: '4px 10px', borderRadius: '8px', fontWeight: '800' }}>
+                                        EVIDENCE-BASED MATRIX
+                                    </span>
+                                </div>
+
+                                <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
+                                    <table style={{ width: '100%', minWidth: '800px', borderCollapse: 'collapse', fontSize: '12px', textAlign: 'left' }}>
+                                        <thead>
+                                            <tr style={{ background: '#f8fafc', borderBottom: '2px solid #e2e8f0' }}>
+                                                <th style={{ padding: '12px 14px', fontWeight: '800', color: '#334155' }}>維度體系</th>
+                                                <th style={{ padding: '12px 14px', fontWeight: '800', color: '#334155' }}>關鍵腦區 / 組織</th>
+                                                <th style={{ padding: '12px 14px', fontWeight: '800', color: '#334155' }}>底層物理機制</th>
+                                                <th style={{ padding: '12px 14px', fontWeight: '800', color: '#dc2626' }}>典型自欺陷阱</th>
+                                                <th style={{ padding: '12px 14px', fontWeight: '800', color: '#16a34a' }}>科學破局利器</th>
+                                                <th style={{ padding: '12px 14px', fontWeight: '800', color: '#0284c7' }}>代表心智模型</th>
+                                                <th style={{ padding: '12px 14px', fontWeight: '800', color: '#7c3aed' }}>轉化倍率</th>
+                                                <th style={{ padding: '12px 14px', fontWeight: '800', color: '#334155' }}>代表經典</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {LEARNING_COMPARISON_MATRIX.map((row, rIdx) => {
+                                                const isCurr = row.id === selectedDimId;
+                                                return (
+                                                    <tr
+                                                        key={row.id}
+                                                        onClick={() => {
+                                                            setSelectedDimId(row.id);
+                                                            if (contentRef.current) {
+                                                                contentRef.current.scrollIntoView({ behavior: 'smooth' });
+                                                            }
+                                                        }}
+                                                        style={{
+                                                            borderBottom: '1px solid #f1f5f9',
+                                                            background: isCurr ? '#f0fdf4' : (rIdx % 2 === 0 ? 'white' : '#fcfcfc'),
+                                                            cursor: 'pointer',
+                                                            transition: 'background 0.15s ease'
+                                                        }}
+                                                        onMouseEnter={e => { if (!isCurr) e.currentTarget.style.background = '#f8fafc'; }}
+                                                        onMouseLeave={e => { if (!isCurr) e.currentTarget.style.background = rIdx % 2 === 0 ? 'white' : '#fcfcfc'; }}
+                                                    >
+                                                        <td style={{ padding: '12px 14px', fontWeight: '850', color: isCurr ? '#15803d' : '#1e293b' }}>
+                                                            {row.name[language]}
+                                                        </td>
+                                                        <td style={{ padding: '12px 14px', color: '#64748b', fontSize: '11px' }}>
+                                                            {row.organ[language]}
+                                                        </td>
+                                                        <td style={{ padding: '12px 14px', color: '#334155' }}>
+                                                            {row.mechanism[language]}
+                                                        </td>
+                                                        <td style={{ padding: '12px 14px', color: '#b91c1c', fontWeight: '600' }}>
+                                                            ❌ {row.trap[language]}
+                                                        </td>
+                                                        <td style={{ padding: '12px 14px', color: '#15803d', fontWeight: '600' }}>
+                                                            ✅ {row.breakthrough[language]}
+                                                        </td>
+                                                        <td style={{ padding: '12px 14px', color: '#0369a1', fontWeight: '700' }}>
+                                                            {row.mentalModel[language]}
+                                                        </td>
+                                                        <td style={{ padding: '12px 14px', fontWeight: '900', color: '#7c3aed' }}>
+                                                            {row.multiplier}
+                                                        </td>
+                                                        <td style={{ padding: '12px 14px', color: '#475569', fontWeight: '700' }}>
+                                                            {row.seminalBook}
+                                                        </td>
+                                                    </tr>
+                                                );
+                                            })}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
                         </div>
                     )}
 
@@ -1017,6 +1127,92 @@ export default function LearningScience() {
                                         );
                                     })}
                                 </div>
+
+                                {/* Mental Models Taxonomy Table */}
+                                <div style={{
+                                    background: 'white',
+                                    borderRadius: '20px',
+                                    padding: '28px',
+                                    border: '1px solid var(--border-light)',
+                                    boxShadow: '0 4px 20px rgba(0,0,0,0.03)',
+                                    marginTop: '24px'
+                                }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px', marginBottom: '20px' }}>
+                                        <div>
+                                            <h3 style={{ fontSize: '18px', fontWeight: '900', color: 'var(--text)', margin: '0 0 4px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                                <span>🗂️</span>
+                                                <span>{language === 'zh' ? '經典心智模型速查與破局公理矩陣表' : 'Mental Models Axiom & Application Matrix'}</span>
+                                            </h3>
+                                            <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: 0 }}>
+                                                {language === 'zh' ? '查理·蒙格格柵心智體系：涵蓋公式、認知本質與對應核心經典' : 'Charlie Munger\'s Latticework: formulas, core essences, and literature'}
+                                            </p>
+                                        </div>
+                                        <span style={{ fontSize: '11px', color: '#0369a1', background: '#e0f2fe', padding: '4px 10px', borderRadius: '8px', fontWeight: '800' }}>
+                                            {filteredMentalModels.length} MODELS ACTIVE
+                                        </span>
+                                    </div>
+
+                                    <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
+                                        <table style={{ width: '100%', minWidth: '780px', borderCollapse: 'collapse', fontSize: '12px', textAlign: 'left' }}>
+                                            <thead>
+                                                <tr style={{ background: '#f8fafc', borderBottom: '2px solid #e2e8f0' }}>
+                                                    <th style={{ padding: '12px 14px', fontWeight: '800', color: '#334155' }}>心智模型</th>
+                                                    <th style={{ padding: '12px 14px', fontWeight: '800', color: '#334155' }}>類別標籤</th>
+                                                    <th style={{ padding: '12px 14px', fontWeight: '800', color: '#0284c7' }}>行動破局公式</th>
+                                                    <th style={{ padding: '12px 14px', fontWeight: '800', color: '#334155' }}>底層本質洞見</th>
+                                                    <th style={{ padding: '12px 14px', fontWeight: '800', color: '#16a34a' }}>推薦源典</th>
+                                                    <th style={{ padding: '12px 14px', fontWeight: '800', color: '#64748b', textAlign: 'center' }}>操作</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {filteredMentalModels.map((m, mIdx) => (
+                                                    <tr
+                                                        key={m.id}
+                                                        style={{
+                                                            borderBottom: '1px solid #f1f5f9',
+                                                            background: mIdx % 2 === 0 ? 'white' : '#fcfcfc'
+                                                        }}
+                                                    >
+                                                        <td style={{ padding: '12px 14px', fontWeight: '850', color: '#1e293b' }}>
+                                                            {m.name[language]}
+                                                        </td>
+                                                        <td style={{ padding: '12px 14px' }}>
+                                                            <span style={{ fontSize: '10px', fontWeight: '800', color: '#166534', background: '#dcfce7', padding: '2px 8px', borderRadius: '6px' }}>
+                                                                {m.category} · {m.tag}
+                                                            </span>
+                                                        </td>
+                                                        <td style={{ padding: '12px 14px', color: '#0369a1', fontWeight: '700', fontSize: '11px', fontFamily: 'monospace' }}>
+                                                            ⚡ {m.formula}
+                                                        </td>
+                                                        <td style={{ padding: '12px 14px', color: '#475569', fontSize: '12px', lineHeight: 1.5, maxWidth: '280px' }}>
+                                                            {m.description[language]}
+                                                        </td>
+                                                        <td style={{ padding: '12px 14px', color: '#334155', fontWeight: '750', fontSize: '11px' }}>
+                                                            {m.sourceBook}
+                                                        </td>
+                                                        <td style={{ padding: '12px 14px', textAlign: 'center' }}>
+                                                            <button
+                                                                onClick={() => handleCopyModelFormula(m)}
+                                                                style={{
+                                                                    background: copiedModelId === m.id ? '#dcfce7' : '#f1f5f9',
+                                                                    color: copiedModelId === m.id ? '#15803d' : '#475569',
+                                                                    border: '1px solid #cbd5e1',
+                                                                    padding: '4px 8px',
+                                                                    borderRadius: '6px',
+                                                                    fontSize: '11px',
+                                                                    fontWeight: '700',
+                                                                    cursor: 'pointer'
+                                                                }}
+                                                            >
+                                                                {copiedModelId === m.id ? '已複製' : '複製'}
+                                                            </button>
+                                                        </td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     )}
@@ -1152,6 +1348,50 @@ export default function LearningScience() {
                                                 <RefreshCw size={14} />
                                                 <span>{t('retakeDiagnostic')}</span>
                                             </button>
+                                        </div>
+
+                                        {/* 5-Dimension Visual Profile & Score Meters */}
+                                        <div style={{ background: 'white', borderRadius: '18px', padding: '24px', border: '1px solid var(--border-light)', boxShadow: '0 4px 16px rgba(0,0,0,0.03)' }}>
+                                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px', flexWrap: 'wrap', gap: '8px' }}>
+                                                <h3 style={{ fontSize: '16px', fontWeight: '850', color: 'var(--text)', margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                                    <Target size={18} color="#0284c7" />
+                                                    <span>{language === 'zh' ? '五維認知成熟度診斷量表' : '5-Dimension Cognitive Maturity Breakdown'}</span>
+                                                </h3>
+                                                <span style={{ fontSize: '11px', color: '#0369a1', background: '#e0f2fe', padding: '3px 8px', borderRadius: '6px', fontWeight: '800' }}>
+                                                    DIMENSION AUDIT
+                                                </span>
+                                            </div>
+
+                                            <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+                                                {[
+                                                    { key: 'neuroscience', label: language === 'zh' ? '腦科學節律與能量調度' : 'Neuroscience & Energy', score: diagnosticResult.dimScores?.neuroscience || 0, color: '#8b5cf6' },
+                                                    { key: 'memory', label: language === 'zh' ? '主動回想與記憶編碼' : 'Active Recall & Memory', score: diagnosticResult.dimScores?.memory || 0, color: '#0284c7' },
+                                                    { key: 'mindset', label: language === 'zh' ? '成長心態與刻意練習' : 'Growth Mindset & Practice', score: diagnosticResult.dimScores?.mindset || 0, color: '#10b981' },
+                                                    { key: 'underlying_logic', label: language === 'zh' ? '第一性原理與底層邏輯' : 'First Principles & Logic', score: diagnosticResult.dimScores?.underlying_logic || 0, color: '#f59e0b' },
+                                                    { key: 'action_systems', label: language === 'zh' ? '3:7 輸學合一輸出閉環' : '3:7 Output Closed-Loop', score: diagnosticResult.dimScores?.action_systems || 0, color: '#ef4444' }
+                                                ].map((dimItem) => {
+                                                    const pct = Math.round((dimItem.score / 4) * 100);
+                                                    return (
+                                                        <div key={dimItem.key}>
+                                                            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '12px', marginBottom: '6px' }}>
+                                                                <span style={{ fontWeight: '800', color: '#1e293b' }}>{dimItem.label}</span>
+                                                                <span style={{ fontWeight: '850', color: dimItem.color }}>{dimItem.score} / 4 分 ({pct}%)</span>
+                                                            </div>
+                                                            <div style={{ width: '100%', height: '8px', background: '#f1f5f9', borderRadius: '4px', overflow: 'hidden' }}>
+                                                                <div
+                                                                    style={{
+                                                                        width: `${pct}%`,
+                                                                        height: '100%',
+                                                                        background: dimItem.color,
+                                                                        borderRadius: '4px',
+                                                                        transition: 'width 0.8s ease'
+                                                                    }}
+                                                                />
+                                                            </div>
+                                                        </div>
+                                                    );
+                                                })}
+                                            </div>
                                         </div>
 
                                         {/* Breakdown of each question's feedback */}
@@ -1339,6 +1579,55 @@ export default function LearningScience() {
                                             </div>
                                         </div>
                                     ))}
+                                </div>
+
+                                {/* Leakage Prevention & Compounding Matrix Table */}
+                                <div style={{
+                                    background: '#f8fafc',
+                                    borderRadius: '18px',
+                                    padding: '24px',
+                                    border: '1px solid #e2e8f0',
+                                    marginTop: '32px'
+                                }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px', flexWrap: 'wrap', gap: '8px' }}>
+                                        <h3 style={{ fontSize: '16px', fontWeight: '850', color: 'var(--text)', margin: 0, display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                            <span>🛡️</span>
+                                            <span>{language === 'zh' ? '輸學合一各工序認知滲漏防禦對照表' : 'Cognitive Leakage Prevention & Lock-In Matrix'}</span>
+                                        </h3>
+                                        <span style={{ fontSize: '11px', color: '#166534', background: '#dcfce7', padding: '3px 8px', borderRadius: '6px', fontWeight: '800' }}>
+                                            LEAKAGE AUDIT
+                                        </span>
+                                    </div>
+
+                                    <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
+                                        <table style={{ width: '100%', minWidth: '700px', borderCollapse: 'collapse', fontSize: '12px', textAlign: 'left' }}>
+                                            <thead>
+                                                <tr style={{ background: 'white', borderBottom: '2px solid #cbd5e1' }}>
+                                                    <th style={{ padding: '10px 12px', fontWeight: '800', color: '#334155' }}>工序環節</th>
+                                                    <th style={{ padding: '10px 12px', fontWeight: '800', color: '#dc2626' }}>常見致命滲漏 (Leakage)</th>
+                                                    <th style={{ padding: '10px 12px', fontWeight: '800', color: '#16a34a' }}>閉環鎖定策略 (Lock-In)</th>
+                                                    <th style={{ padding: '10px 12px', fontWeight: '800', color: '#0284c7' }}>交付物指標 (Deliverable)</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {[
+                                                    { step: '01 篩選輸入', leak: '無意識滑手機或囤積過多暢銷廢書', lock: '只讀經典原著；SQ3R 目錄掃描設定 3 個問題', deliverable: '閱讀前目標清單' },
+                                                    { step: '02 沉澱發散', leak: '連續死磕苦讀數小時導致認知枯竭', lock: '強制 90 分鐘專注切換 10 分鐘無螢幕發散漫步', deliverable: '放空後頓悟筆記' },
+                                                    { step: '03 外部大腦', leak: '謄抄大量作者原話，形成低能耗假裝勤奮', lock: 'CODE 漸進式總結，提煉 3 句個人話語金句', deliverable: '第二大腦卡片庫' },
+                                                    { step: '04 費曼輸出', leak: '看完書直接放下，未經口述或寫作輸出', lock: '向外行通俗口述、錄製 3 分鐘語音或短文', deliverable: '費曼通俗教案' },
+                                                    { step: '05 刻意反饋', leak: '害怕犯錯、躲在舒適圈自我感動', lock: '尋求真實測驗、公開發布、行家無情糾錯', deliverable: '盲點修訂記錄' },
+                                                    { step: '06 系統整合', leak: '知識碎片化孤立儲存，無法跨界遷移', lock: '編織入查理·蒙格多元思維模型格柵網絡', deliverable: '跨學科決策卡' },
+                                                ].map((row, idx) => (
+                                                    <tr key={idx} style={{ borderBottom: '1px solid #e2e8f0', background: idx % 2 === 0 ? 'white' : '#f8fafc' }}>
+                                                        <td style={{ padding: '10px 12px', fontWeight: '850', color: '#1e293b' }}>{row.step}</td>
+                                                        <td style={{ padding: '10px 12px', color: '#b91c1c' }}>⚠️ {row.leak}</td>
+                                                        <td style={{ padding: '10px 12px', color: '#15803d', fontWeight: '600' }}>✅ {row.lock}</td>
+                                                        <td style={{ padding: '10px 12px', color: '#0369a1', fontWeight: '750' }}>{row.deliverable}</td>
+                                                    </tr>
+                                                ))}
+                                            </tbody>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>

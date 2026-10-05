@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
-import { ArrowLeft, BarChart3, Play, Activity, Globe } from 'lucide-react';
+import { ArrowLeft, BarChart3, Play, Activity, Globe, TrendingUp, Sparkles, Brain } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
@@ -209,6 +209,124 @@ export default function Trends() {
                     {renderChart('cn', language === 'zh' ? '中文版增長' : 'Chinese Growth', 'var(--primary)')}
                     {renderChart('en', language === 'zh' ? '英文版增長' : 'English Growth', 'var(--accent)')}
                 </div>
+
+                {/* 1. Compounding Learning Growth Curve */}
+                <div style={{
+                    background: 'white', padding: '28px', borderRadius: 'var(--radius-lg)',
+                    border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)',
+                    marginBottom: '48px', animation: 'fadeInUp 0.6s var(--transition-med) 0.3s both'
+                }}>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '20px', flexWrap: 'wrap', gap: '8px' }}>
+                        <div>
+                            <h3 style={{ fontSize: '18px', fontWeight: '850', color: 'var(--text)', margin: '0 0 4px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <TrendingUp size={20} color="#16a34a" />
+                                <span>{language === 'zh' ? '學習複利幾何增益效應 (The Compounding Effect)' : 'The Compounding Learning Effect'}</span>
+                            </h3>
+                            <p style={{ fontSize: '13px', color: 'var(--text-muted)', margin: 0 }}>
+                                {language === 'zh' ? '詹姆斯·克利爾定律：每天微進步 1% (1.01^365 ≈ 37.8x) vs 被動退步 1% (0.99^365 ≈ 0.03x)' : 'Daily 1% improvement compounds to 37.8x annually'}
+                            </p>
+                        </div>
+                        <span style={{ fontSize: '11px', color: '#166534', background: '#dcfce7', padding: '4px 10px', borderRadius: '8px', fontWeight: '800' }}>
+                            EXPONENTIAL GAINS
+                        </span>
+                    </div>
+
+                    <div style={{ height: '240px', width: '100%', marginBottom: '16px' }}>
+                        <ResponsiveContainer width="100%" height="100%">
+                            <AreaChart
+                                data={[
+                                    { month: language === 'zh' ? '第 1 個月' : 'M1', growth: 1.35, decay: 0.74 },
+                                    { month: language === 'zh' ? '第 2 個月' : 'M2', growth: 1.82, decay: 0.55 },
+                                    { month: language === 'zh' ? '第 4 個月' : 'M4', growth: 3.32, decay: 0.30 },
+                                    { month: language === 'zh' ? '第 6 個月' : 'M6', growth: 6.05, decay: 0.16 },
+                                    { month: language === 'zh' ? '第 8 個月' : 'M8', growth: 11.02, decay: 0.09 },
+                                    { month: language === 'zh' ? '第 10 個月' : 'M10', growth: 20.08, decay: 0.05 },
+                                    { month: language === 'zh' ? '第 12 個月' : 'M12', growth: 37.78, decay: 0.03 },
+                                ]}
+                                margin={{ top: 10, right: 10, left: -20, bottom: 0 }}
+                            >
+                                <defs>
+                                    <linearGradient id="compGrowGrad" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="5%" stopColor="#16a34a" stopOpacity={0.35} />
+                                        <stop offset="95%" stopColor="#16a34a" stopOpacity={0.02} />
+                                    </linearGradient>
+                                    <linearGradient id="compDecGrad" x1="0" y1="0" x2="0" y2="1">
+                                        <stop offset="5%" stopColor="#ef4444" stopOpacity={0.25} />
+                                        <stop offset="95%" stopColor="#ef4444" stopOpacity={0.02} />
+                                    </linearGradient>
+                                </defs>
+                                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="var(--border-light)" />
+                                <XAxis dataKey="month" stroke="var(--text-muted)" fontSize={11} tickLine={false} axisLine={false} />
+                                <YAxis stroke="var(--text-muted)" fontSize={11} tickLine={false} axisLine={false} unit="x" />
+                                <Tooltip
+                                    formatter={(v, n) => [`${v}x`, n === 'growth' ? (language === 'zh' ? '每日+1% 累積複利' : 'Daily +1%') : (language === 'zh' ? '每日-1% 認知衰退' : 'Daily -1%')]}
+                                    contentStyle={{ background: '#1e293b', border: 'none', borderRadius: '10px', color: '#fff', fontSize: '12px' }}
+                                />
+                                <Area type="monotone" dataKey="decay" stroke="#ef4444" strokeWidth={2} fill="url(#compDecGrad)" />
+                                <Area type="monotone" dataKey="growth" stroke="#16a34a" strokeWidth={3} fill="url(#compGrowGrad)" />
+                            </AreaChart>
+                        </ResponsiveContainer>
+                    </div>
+
+                    <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', color: 'var(--text-secondary)', background: '#f8fafc', padding: '10px 14px', borderRadius: '8px' }}>
+                        <span>📉 每日停滯或微退步 1%：一年後能力僅剩 <strong>0.03x (歸零)</strong></span>
+                        <span>📈 每日主動閱讀提取 1%：一年後能力爆發至 <strong>37.8x (幾何級數)</strong></span>
+                    </div>
+                </div>
+
+                {/* 2. Knowledge Domain Compounding Matrix Table */}
+                <div style={{
+                    background: 'white', padding: '28px', borderRadius: 'var(--radius-lg)',
+                    border: '1px solid var(--border-light)', boxShadow: 'var(--card-shadow)',
+                    marginBottom: '48px', animation: 'fadeInUp 0.6s var(--transition-med) 0.35s both'
+                }}>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '20px', flexWrap: 'wrap', gap: '8px' }}>
+                        <div>
+                            <h3 style={{ fontSize: '18px', fontWeight: '850', color: 'var(--text)', margin: '0 0 4px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <span>📊</span>
+                                <span>{language === 'zh' ? '六大核心知識領域半衰期與複利轉化矩陣表' : 'Knowledge Half-Life & Compounding Matrix'}</span>
+                            </h3>
+                            <p style={{ fontSize: '13px', color: 'var(--text-muted)', margin: 0 }}>
+                                {language === 'zh' ? '不同領域的知識具備不同的保鮮期與槓桿率，合理分配學習資產組合' : 'Optimize your intellectual asset portfolio across domain half-lives'}
+                            </p>
+                        </div>
+                        <span style={{ fontSize: '11px', color: '#0369a1', background: '#e0f2fe', padding: '4px 10px', borderRadius: '8px', fontWeight: '800' }}>
+                            PORTFOLIO MATRIX
+                        </span>
+                    </div>
+
+                    <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
+                        <table style={{ width: '100%', minWidth: '700px', borderCollapse: 'collapse', fontSize: '12px', textAlign: 'left' }}>
+                            <thead>
+                                <tr style={{ background: '#f8fafc', borderBottom: '2px solid #e2e8f0' }}>
+                                    <th style={{ padding: '12px 14px', fontWeight: '800', color: '#334155' }}>知識領域</th>
+                                    <th style={{ padding: '12px 14px', fontWeight: '800', color: '#0284c7' }}>知識半衰期</th>
+                                    <th style={{ padding: '12px 14px', fontWeight: '800', color: '#16a34a' }}>實踐轉化率</th>
+                                    <th style={{ padding: '12px 14px', fontWeight: '800', color: '#7c3aed' }}>複利槓桿度</th>
+                                    <th style={{ padding: '12px 14px', fontWeight: '800', color: '#334155' }}>推薦資產比重</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {[
+                                    { domain: '底層邏輯與心智模型', halfLife: '50+ 年 (永不過期)', rate: '高 (85%)', leverage: '★★★★★ (頂級槓桿)', weight: '35% (核心壓艙石)' },
+                                    { domain: '神經科學與認知心理', halfLife: '30+ 年 (生理規律)', rate: '極高 (90%)', leverage: '★★★★★ (個人升級)', weight: '25% (基石配比)' },
+                                    { domain: '商業策略與投資心法', halfLife: '10-20 年 (週期律)', rate: '中高 (75%)', leverage: '★★★★☆ (財務倍增)', weight: '20% (資產擴張)' },
+                                    { domain: '溝通談判與人際協作', halfLife: '終身適用 (人性不變)', rate: '極高 (92%)', leverage: '★★★★☆ (人際飛輪)', weight: '10% (高頻實用)' },
+                                    { domain: '系統架構與數位科技', halfLife: '5-10 年 (快速迭代)', rate: '中 (70%)', leverage: '★★★★☆ (生產力工具)', weight: '10% (敏捷升級)' },
+                                ].map((item, idx) => (
+                                    <tr key={idx} style={{ borderBottom: '1px solid #f1f5f9', background: idx % 2 === 0 ? 'white' : '#fcfcfc' }}>
+                                        <td style={{ padding: '12px 14px', fontWeight: '850', color: '#1e293b' }}>{item.domain}</td>
+                                        <td style={{ padding: '12px 14px', color: '#0369a1', fontWeight: '700' }}>{item.halfLife}</td>
+                                        <td style={{ padding: '12px 14px', color: '#16a34a', fontWeight: '750' }}>{item.rate}</td>
+                                        <td style={{ padding: '12px 14px', color: '#7c3aed', fontWeight: '800' }}>{item.leverage}</td>
+                                        <td style={{ padding: '12px 14px', color: '#334155', fontWeight: '800' }}>{item.weight}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
                 
                 <div style={{ 
                     marginTop: '48px', padding: '24px', background: 'rgba(0,0,0,0.03)', 

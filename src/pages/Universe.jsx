@@ -312,6 +312,105 @@ export default function Universe() {
                         );
                     })}
                 </div>
+
+                {/* 1. Polymath Evolution Roadmap Diagram */}
+                <div style={{ padding: '0 20px 32px 20px', maxWidth: '1280px', width: '100%', margin: '0 auto' }}>
+                    <div style={{
+                        background: 'white',
+                        borderRadius: '20px',
+                        padding: '28px',
+                        border: '1px solid var(--border-light)',
+                        boxShadow: 'var(--card-shadow)'
+                    }}>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '20px', flexWrap: 'wrap', gap: '8px' }}>
+                            <div>
+                                <h3 style={{ fontSize: '18px', fontWeight: '850', color: 'var(--text)', margin: '0 0 4px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                    <Sparkles size={18} color="#8b5cf6" />
+                                    <span>{language === 'zh' ? '跨界通才 4 階段演化天梯 (Polymath Progression Roadmap)' : 'Polymath Progression Roadmap'}</span>
+                                </h3>
+                                <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: 0 }}>
+                                    {language === 'zh' ? '從單一領域專業，升維為查理·蒙格多元思維模型格柵的現代博雅通才' : 'From singular specialization to multidisciplinary latticework mastery'}
+                                </p>
+                            </div>
+                            <span style={{ fontSize: '11px', color: '#6d28d9', background: '#f5f3ff', padding: '4px 10px', borderRadius: '8px', fontWeight: '800' }}>
+                                EVOLUTION PATH
+                            </span>
+                        </div>
+
+                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))', gap: '14px' }}>
+                            {[
+                                { step: 'STAGE 01', title: { zh: '單點深耕 (T型豎軸)', en: 'Singular Depth' }, desc: { zh: '在單一專業領域建立不可替代的深度，掌握行業第一性原理與底層技術細節。', en: 'Master single-domain fundamentals and vertical competence.' }, color: '#0284c7', bg: '#f0f9ff', border: '#bae6fd' },
+                                { step: 'STAGE 02', title: { zh: '雙域穿透 (概念移轉)', en: 'Dual Penetration' }, desc: { zh: '跨足相鄰或對立學科（如商業遇上心理學），發現底層結構同構性，觸發跨界類比。', en: 'Bridge adjacent fields to recognize structural isomorphisms.' }, color: '#16a34a', bg: '#f0fdf4', border: '#bbf7d0' },
+                                { step: 'STAGE 03', title: { zh: '格柵成網 (多元模型)', en: 'Latticework Mesh' }, desc: { zh: '吸收數學、生物學、物理學、神學與人文的 100+ 核心模型，構築查理·蒙格心智格柵。', en: 'Weave 100+ multidisciplinary mental models into an interlocking mesh.' }, color: '#8b5cf6', bg: '#f5f3ff', border: '#ddd6fe' },
+                                { step: 'STAGE 04', title: { zh: '全息融通 (跨界通才)', en: 'Holistic Polymath' }, desc: { zh: '破除學科藩籬，面對任何全新複雜局勢皆能由底層邏輯推導出前瞻性槓桿解。', en: 'Effortlessly synthesize disparate civilizational wisdom to solve complex reality.' }, color: '#ea580c', bg: '#fff7ed', border: '#fed7aa' }
+                            ].map((st, i) => (
+                                <div key={i} style={{ background: st.bg, borderRadius: '14px', padding: '18px', border: `1.5px solid ${st.border}` }}>
+                                    <div style={{ fontSize: '10px', fontWeight: '850', color: st.color, letterSpacing: '0.05em', marginBottom: '6px' }}>{st.step}</div>
+                                    <h4 style={{ fontSize: '15px', fontWeight: '850', color: '#1e293b', margin: '0 0 8px 0' }}>{st.title[language]}</h4>
+                                    <p style={{ fontSize: '12px', color: '#475569', lineHeight: 1.55, margin: 0 }}>{st.desc[language]}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+
+                {/* 2. Cosmic Realms Comparative Matrix Table */}
+                <div style={{ padding: '0 20px 48px 20px', maxWidth: '1280px', width: '100%', margin: '0 auto' }}>
+                    <div style={{
+                        background: 'white',
+                        borderRadius: '20px',
+                        padding: '28px',
+                        border: '1px solid var(--border-light)',
+                        boxShadow: 'var(--card-shadow)'
+                    }}>
+                        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '20px', flexWrap: 'wrap', gap: '8px' }}>
+                            <div>
+                                <h3 style={{ fontSize: '18px', fontWeight: '850', color: 'var(--text)', margin: '0 0 4px 0', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                    <span>🌌</span>
+                                    <span>{language === 'zh' ? '六大宇宙星域文明底蘊與跨界綜效矩陣表' : '6 Cosmic Realms Civilizational Matrix'}</span>
+                                </h3>
+                                <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: 0 }}>
+                                    {language === 'zh' ? '多元文明的交匯點：心靈、科技、文史與地緣語言的穿透綜效' : 'Comparative analysis of the 6 civilization learning domains'}
+                                </p>
+                            </div>
+                            <span style={{ fontSize: '11px', color: '#0369a1', background: '#e0f2fe', padding: '4px 10px', borderRadius: '8px', fontWeight: '800' }}>
+                                MULTIVERSE MATRIX
+                            </span>
+                        </div>
+
+                        <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch' }}>
+                            <table style={{ width: '100%', minWidth: '760px', borderCollapse: 'collapse', fontSize: '12px', textAlign: 'left' }}>
+                                <thead>
+                                    <tr style={{ background: '#f8fafc', borderBottom: '2px solid #e2e8f0' }}>
+                                        <th style={{ padding: '12px 14px', fontWeight: '800', color: '#334155' }}>星域領域</th>
+                                        <th style={{ padding: '12px 14px', fontWeight: '800', color: '#334155' }}>文明維度</th>
+                                        <th style={{ padding: '12px 14px', fontWeight: '800', color: '#0284c7' }}>核心心智模型</th>
+                                        <th style={{ padding: '12px 14px', fontWeight: '800', color: '#334155' }}>實戰應用場景</th>
+                                        <th style={{ padding: '12px 14px', fontWeight: '800', color: '#16a34a' }}>跨界穿透指數</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {[
+                                        { name: 'WeLearn 說書大圖書館', civil: '現代商業與個體成長', model: '費曼學習閉環、不對稱風險、刻意練習', app: '商業投資、職場進階、自我認知升級', score: '★★★★★ (5.0)' },
+                                        { name: '聖經靈修 (Bible Insights)', civil: '希伯來信仰與靈性根基', model: '盟約精神、恩典意識、終極審判與謙卑', app: '心靈安頓、道德錨定、逆境韌性與僕人領導', score: '★★★★★ (5.0)' },
+                                        { name: '軟體架構 (System Architecture)', civil: '數位系統論與工程公理', model: '高內聚低耦合、抽象屏障、狀態機與解耦', app: '組織管理、流程自動化、複雜系統治理', score: '★★★★☆ (4.8)' },
+                                        { name: '古典文史 (Chinese Classics)', civil: '華夏三千年歷史興衰演化', model: '興衰週期律、王霸之道、經世致用與資治通鑑', app: '地緣政治、戰略大勢判斷、人性與權力博弈', score: '★★★★☆ (4.7)' },
+                                        { name: '印尼文化 (Bahasa Indonesia)', civil: '南島語系與東南亞最大經濟體', model: '高語境人際和諧 (Gotong Royong)、地緣文化穿透', app: '新南向商務考察、跨文化協作、區域貿易出海', score: '★★★★☆ (4.5)' },
+                                        { name: '越南文化 (Tiếng Việt)', civil: '東亞漢文化圈與東南亞製造重鎮', model: '文化韌性 (Dẻo dai)、快速工業化與雙重身分認同', app: '供應鏈轉移、東協新興市場投資、跨國人際拓展', score: '★★★★☆ (4.6)' },
+                                    ].map((row, idx) => (
+                                        <tr key={idx} style={{ borderBottom: '1px solid #f1f5f9', background: idx % 2 === 0 ? 'white' : '#fcfcfc' }}>
+                                            <td style={{ padding: '12px 14px', fontWeight: '850', color: '#1e293b' }}>{row.name}</td>
+                                            <td style={{ padding: '12px 14px', color: '#64748b' }}>{row.civil}</td>
+                                            <td style={{ padding: '12px 14px', color: '#0369a1', fontWeight: '700' }}>{row.model}</td>
+                                            <td style={{ padding: '12px 14px', color: '#334155' }}>{row.app}</td>
+                                            <td style={{ padding: '12px 14px', color: '#16a34a', fontWeight: '800' }}>{row.score}</td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <BottomNavbar />

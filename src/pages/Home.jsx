@@ -24,7 +24,13 @@ import {
     ArrowUp,
     RotateCcw,
     BookOpen,
-    Brain
+    Brain,
+    Target,
+    Zap,
+    ChevronDown,
+    ChevronUp,
+    GraduationCap,
+    Lightbulb
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
@@ -41,6 +47,7 @@ export default function Home() {
     const [pageSize, setPageSize] = useState(24);
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const [showBackToTop, setShowBackToTop] = useState(false);
+    const [showGuideDetails, setShowGuideDetails] = useState(false);
 
     // Fetch books & YouTube stats
     useEffect(() => {
@@ -435,6 +442,213 @@ export default function Home() {
 
                 {/* Main Content Area */}
                 <main style={{ padding: '24px 32px 64px 32px', flex: 1, display: 'flex', flexDirection: 'column' }}>
+                    {/* Scientific Reading Guide Banner */}
+                    <div style={{
+                        marginBottom: '24px',
+                        background: 'linear-gradient(135deg, #0f172a 0%, #1e1b4b 60%, #311042 100%)',
+                        borderRadius: '20px',
+                        padding: '24px 28px',
+                        color: 'white',
+                        boxShadow: '0 12px 30px rgba(15, 23, 42, 0.25)',
+                        border: '1px solid rgba(255, 255, 255, 0.12)',
+                        position: 'relative',
+                        overflow: 'hidden'
+                    }}>
+                        {/* Background glow circle */}
+                        <div style={{
+                            position: 'absolute',
+                            right: '-40px',
+                            top: '-40px',
+                            width: '200px',
+                            height: '200px',
+                            borderRadius: '50%',
+                            background: 'radial-gradient(circle, rgba(139, 92, 246, 0.25) 0%, rgba(139, 92, 246, 0) 70%)',
+                            pointerEvents: 'none'
+                        }} />
+
+                        <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', justifyContent: 'space-between', gap: '16px', marginBottom: '20px' }}>
+                            <div style={{ maxWidth: '640px' }}>
+                                <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', padding: '4px 12px', borderRadius: '999px', background: 'rgba(255, 255, 255, 0.1)', border: '1px solid rgba(255, 255, 255, 0.15)', fontSize: '11px', fontWeight: '800', letterSpacing: '0.05em', color: '#c4b5fd', marginBottom: '8px' }}>
+                                    <Sparkles size={13} color="#a78bfa" />
+                                    <span>{language === 'zh' ? '認知科學驅動 · 研讀方法論' : 'Cognitive Science Driven Reading Method'}</span>
+                                </div>
+                                <h2 style={{ fontSize: '20px', fontWeight: '850', margin: '0 0 6px 0', letterSpacing: '-0.02em', display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                    <span>🚀 {language === 'zh' ? '輸學合一 · 高效研讀 3 步躍遷指南' : 'The 3-Step Scientific Mastery Engine'}</span>
+                                </h2>
+                                <p style={{ fontSize: '13px', margin: 0, opacity: 0.85, lineHeight: 1.6, color: '#cbd5e1' }}>
+                                    {language === 'zh' 
+                                        ? '拒絕「看過就忘」的假勤奮！善用大腦雙重編碼、艾賓浩斯間隔提取與費曼輸出協議，將書本精華 100% 化為行動實踐能力。' 
+                                        : 'Replace passive reading with active neural retrieval, dual-coding mental models, and Feynman action protocols.'}
+                                </p>
+                            </div>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flexWrap: 'wrap' }}>
+                                <button
+                                    onClick={() => setShowGuideDetails(!showGuideDetails)}
+                                    style={{
+                                        display: 'inline-flex',
+                                        alignItems: 'center',
+                                        gap: '6px',
+                                        padding: '9px 15px',
+                                        borderRadius: '10px',
+                                        background: showGuideDetails ? 'rgba(255, 255, 255, 0.22)' : 'rgba(255, 255, 255, 0.12)',
+                                        border: '1px solid rgba(255, 255, 255, 0.25)',
+                                        color: 'white',
+                                        fontSize: '12px',
+                                        fontWeight: '750',
+                                        cursor: 'pointer',
+                                        transition: 'all 0.2s ease'
+                                    }}
+                                >
+                                    <span>{showGuideDetails ? (language === 'zh' ? '收合效能對照表' : 'Hide Matrix') : (language === 'zh' ? '查看讀法效能對照表' : 'View Reading Matrix')}</span>
+                                    {showGuideDetails ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
+                                </button>
+                                <Link
+                                    to="/learning-science"
+                                    style={{
+                                        display: 'inline-flex',
+                                        alignItems: 'center',
+                                        gap: '6px',
+                                        padding: '9px 16px',
+                                        borderRadius: '10px',
+                                        background: 'linear-gradient(135deg, #a855f7, #6366f1)',
+                                        color: 'white',
+                                        fontSize: '12px',
+                                        fontWeight: '800',
+                                        textDecoration: 'none',
+                                        boxShadow: '0 4px 14px rgba(168, 85, 247, 0.35)',
+                                        border: '1px solid rgba(255, 255, 255, 0.2)'
+                                    }}
+                                >
+                                    <Brain size={14} />
+                                    <span>{language === 'zh' ? '探索學習科學中心' : 'Learning Science Hub'}</span>
+                                    <ArrowRight size={13} />
+                                </Link>
+                            </div>
+                        </div>
+
+                        {/* 3 Steps Visual Flow */}
+                        <div style={{
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(auto-fit, minmax(240px, 1fr))',
+                            gap: '12px'
+                        }}>
+                            {/* Step 1 */}
+                            <div style={{
+                                background: 'rgba(255, 255, 255, 0.06)',
+                                border: '1px solid rgba(255, 255, 255, 0.12)',
+                                borderRadius: '14px',
+                                padding: '14px 16px',
+                                backdropFilter: 'blur(8px)'
+                            }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                                    <div style={{ width: '24px', height: '24px', borderRadius: '6px', background: 'rgba(56, 189, 248, 0.2)', border: '1px solid #38bdf8', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#38bdf8', fontSize: '11px', fontWeight: '900' }}>
+                                        01
+                                    </div>
+                                    <div style={{ fontSize: '13px', fontWeight: '800', color: '#7dd3fc' }}>
+                                        {language === 'zh' ? '課前錨定 · SQ3R 痛點' : 'Step 1: Anchor & SQ3R'}
+                                    </div>
+                                </div>
+                                <p style={{ fontSize: '12px', margin: 0, color: '#e2e8f0', lineHeight: 1.5 }}>
+                                    {language === 'zh' ? '開卷前先寫下 3 個最迫切的現實疑問，喚醒前額葉專注網絡，把被動翻頁變成精準打擊。' : 'Ask 3 core questions before reading to prime prefrontal attention networks.'}
+                                </p>
+                            </div>
+
+                            {/* Step 2 */}
+                            <div style={{
+                                background: 'rgba(255, 255, 255, 0.06)',
+                                border: '1px solid rgba(255, 255, 255, 0.12)',
+                                borderRadius: '14px',
+                                padding: '14px 16px',
+                                backdropFilter: 'blur(8px)'
+                            }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                                    <div style={{ width: '24px', height: '24px', borderRadius: '6px', background: 'rgba(251, 191, 36, 0.2)', border: '1px solid #fbbf24', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fbbf24', fontSize: '11px', fontWeight: '900' }}>
+                                        02
+                                    </div>
+                                    <div style={{ fontSize: '13px', fontWeight: '800', color: '#fde047' }}>
+                                        {language === 'zh' ? '雙重編碼 · 主動提取' : 'Step 2: Dual Coding & Retrieval'}
+                                    </div>
+                                </div>
+                                <p style={{ fontSize: '12px', margin: 0, color: '#e2e8f0', lineHeight: 1.5 }}>
+                                    {language === 'zh' ? '不劃無效重點！將文字概念轉換為視覺節點與脈絡，合上書本在腦中主動檢索結構。' : 'Encode words into visual concept maps and actively retrieve structural insights.'}
+                                </p>
+                            </div>
+
+                            {/* Step 3 */}
+                            <div style={{
+                                background: 'rgba(255, 255, 255, 0.06)',
+                                border: '1px solid rgba(255, 255, 255, 0.12)',
+                                borderRadius: '14px',
+                                padding: '14px 16px',
+                                backdropFilter: 'blur(8px)'
+                            }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '8px' }}>
+                                    <div style={{ width: '24px', height: '24px', borderRadius: '6px', background: 'rgba(52, 211, 153, 0.2)', border: '1px solid #34d178', display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#34d178', fontSize: '11px', fontWeight: '900' }}>
+                                        03
+                                    </div>
+                                    <div style={{ fontSize: '13px', fontWeight: '800', color: '#86efac' }}>
+                                        {language === 'zh' ? '費曼輸出 · 7天行動協議' : 'Step 3: Feynman & Action'}
+                                    </div>
+                                </div>
+                                <p style={{ fontSize: '12px', margin: 0, color: '#e2e8f0', lineHeight: 1.5 }}>
+                                    {language === 'zh' ? '以教代學！在下方研讀筆記記下白話解釋，並立下 1 個可在本週執行的微習慣協議。' : 'Teach to master. Formulate a 7-day action protocol and micro-habit to lock gains.'}
+                                </p>
+                            </div>
+                        </div>
+
+                        {/* Collapsible Comparison Table */}
+                        {showGuideDetails && (
+                            <div style={{
+                                marginTop: '18px',
+                                paddingTop: '18px',
+                                borderTop: '1px solid rgba(255, 255, 255, 0.15)',
+                                animation: 'fadeInUp 0.3s ease'
+                            }}>
+                                <div style={{ fontSize: '13px', fontWeight: '800', color: '#f8fafc', marginBottom: '10px', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                    <span>📊 {language === 'zh' ? '兩種研讀範式效能對照矩陣' : 'Comparison Matrix: Intuitive vs. Scientific Reading'}</span>
+                                </div>
+                                <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch', borderRadius: '12px', border: '1px solid rgba(255,255,255,0.1)' }}>
+                                    <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '12px', textAlign: 'left', minWidth: '580px' }}>
+                                        <thead>
+                                            <tr style={{ background: 'rgba(255, 255, 255, 0.08)', color: '#94a3b8' }}>
+                                                <th style={{ padding: '8px 12px', fontWeight: '750' }}>{language === 'zh' ? '評估維度' : 'Dimension'}</th>
+                                                <th style={{ padding: '8px 12px', fontWeight: '750', color: '#f87171' }}>{language === 'zh' ? '直覺閱讀 (直覺傳統)' : 'Intuitive Reading'}</th>
+                                                <th style={{ padding: '8px 12px', fontWeight: '750', color: '#4ade80' }}>{language === 'zh' ? '科學研讀 (輸學合一)' : 'Scientific Reading'}</th>
+                                                <th style={{ padding: '8px 12px', fontWeight: '750' }}>{language === 'zh' ? '30天留存率' : '30-Day Retention'}</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.06)' }}>
+                                                <td style={{ padding: '8px 12px', fontWeight: '700', color: '#cbd5e1' }}>{language === 'zh' ? '心智狀態' : 'Mindset'}</td>
+                                                <td style={{ padding: '8px 12px', color: '#cbd5e1' }}>{language === 'zh' ? '被動接收、逐字閱讀' : 'Passive reception, word-by-word'}</td>
+                                                <td style={{ padding: '8px 12px', color: '#86efac', fontWeight: '600' }}>{language === 'zh' ? '問題導向、預測提問、前額葉啟用' : 'Problem-driven, hypothesis testing'}</td>
+                                                <td style={{ padding: '8px 12px', color: '#f87171' }}>5% vs <strong style={{ color: '#4ade80' }}>50%+</strong></td>
+                                            </tr>
+                                            <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.06)' }}>
+                                                <td style={{ padding: '8px 12px', fontWeight: '700', color: '#cbd5e1' }}>{language === 'zh' ? '標記與筆記' : 'Notes Strategy'}</td>
+                                                <td style={{ padding: '8px 12px', color: '#cbd5e1' }}>{language === 'zh' ? '大量劃螢光筆、抄寫佳句' : 'Highlighting text, copying quotes'}</td>
+                                                <td style={{ padding: '8px 12px', color: '#86efac', fontWeight: '600' }}>{language === 'zh' ? '雙重編碼視覺圖譜、白話轉譯' : 'Dual-coding concept graphs'}</td>
+                                                <td style={{ padding: '8px 12px', color: '#f87171' }}>10% vs <strong style={{ color: '#4ade80' }}>75%+</strong></td>
+                                            </tr>
+                                            <tr style={{ borderBottom: '1px solid rgba(255,255,255,0.06)' }}>
+                                                <td style={{ padding: '8px 12px', fontWeight: '700', color: '#cbd5e1' }}>{language === 'zh' ? '記憶複習' : 'Spaced Review'}</td>
+                                                <td style={{ padding: '8px 12px', color: '#cbd5e1' }}>{language === 'zh' ? '重複翻閱同一段（虛假熟悉感）' : 'Rereading (illusion of competence)'}</td>
+                                                <td style={{ padding: '8px 12px', color: '#86efac', fontWeight: '600' }}>{language === 'zh' ? '艾賓浩斯間隔提取（Day 1, 3, 7, 15）' : 'Spaced active retrieval'}</td>
+                                                <td style={{ padding: '8px 12px', color: '#f87171' }}>15% vs <strong style={{ color: '#4ade80' }}>85%+</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td style={{ padding: '8px 12px', fontWeight: '700', color: '#cbd5e1' }}>{language === 'zh' ? '成果交付' : 'Outcome'}</td>
+                                                <td style={{ padding: '8px 12px', color: '#cbd5e1' }}>{language === 'zh' ? '自我感動「我讀完了」但無法實踐' : 'Book finished, zero action'}</td>
+                                                <td style={{ padding: '8px 12px', color: '#86efac', fontWeight: '600' }}>{language === 'zh' ? '產出費曼教學摘要 + 7天行為改變' : 'Feynman synthesis + 7-Day Protocol'}</td>
+                                                <td style={{ padding: '8px 12px', color: '#f87171' }}>0 轉化 vs <strong style={{ color: '#4ade80' }}>落地融入工作生活</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        )}
+                    </div>
+
                     {/* Controls Bar: Status Pills, Sort, View Modes */}
                     <div style={{
                         display: 'flex',

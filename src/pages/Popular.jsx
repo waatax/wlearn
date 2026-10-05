@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowLeft, TrendingUp, Play, Globe, BarChart3, Eye, Trophy, Flame, ChevronRight } from 'lucide-react';
+import { ArrowLeft, TrendingUp, Play, Globe, BarChart3, Eye, Trophy, Flame, ChevronRight, Sparkles, Brain, AlertCircle, CheckCircle2, ShieldCheck, Zap, ChevronDown, ChevronUp } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
@@ -58,6 +58,7 @@ export default function Popular() {
     const [loading, setLoading] = useState(true);
     const [sortBy, setSortBy] = useState('total');
     const [showTop, setShowTop] = useState(50);
+    const [showMatrix, setShowMatrix] = useState(true);
 
     useEffect(() => {
         fetch(import.meta.env.BASE_URL + 'youtube_stats.json')
@@ -242,6 +243,132 @@ export default function Popular() {
                             <span style={{ color: 'var(--accent)' }}>EN {Math.round(totalEnViews/totalAllViews*100)}%</span>
                         </div>
                     </div>
+                </div>
+
+                {/* Popularity vs Practice Conversion Matrix */}
+                <div style={{
+                    background: 'white',
+                    borderRadius: 'var(--radius-lg)',
+                    padding: '28px 32px',
+                    border: '1px solid var(--border-light)',
+                    boxShadow: 'var(--card-shadow)',
+                    marginBottom: '36px',
+                    animation: 'fadeInUp 0.6s var(--transition-med) 0.35s both',
+                }}>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px', marginBottom: '16px' }}>
+                        <div>
+                            <div style={{ display: 'inline-flex', alignItems: 'center', gap: '6px', fontSize: '11px', fontWeight: '800', color: 'var(--accent)', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: '4px' }}>
+                                <Flame size={14} />
+                                <span>{language === 'zh' ? '熱門知識吸收指引' : 'Curated Absorption Guide'}</span>
+                            </div>
+                            <h3 style={{ margin: 0, fontSize: '19px', fontWeight: '850', color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '8px' }}>
+                                <span>📊 {language === 'zh' ? '熱門度 vs 實踐沉澱度 · 破局轉化矩陣表' : 'Popularity vs. Real Transformation Matrix'}</span>
+                            </h3>
+                        </div>
+
+                        <button
+                            onClick={() => setShowMatrix(!showMatrix)}
+                            style={{
+                                display: 'inline-flex',
+                                alignItems: 'center',
+                                gap: '6px',
+                                padding: '8px 14px',
+                                borderRadius: '10px',
+                                background: 'var(--bg)',
+                                border: '1px solid var(--border)',
+                                color: 'var(--text)',
+                                fontSize: '12px',
+                                fontWeight: '700',
+                                cursor: 'pointer',
+                                transition: 'all 0.15s ease'
+                            }}
+                        >
+                            <span>{showMatrix ? (language === 'zh' ? '收合轉化表' : 'Collapse') : (language === 'zh' ? '展開轉化表' : 'Expand')}</span>
+                            {showMatrix ? <ChevronUp size={14} /> : <ChevronDown size={14} />}
+                        </button>
+                    </div>
+
+                    <div style={{
+                        background: 'rgba(239, 108, 0, 0.05)',
+                        border: '1px solid rgba(239, 108, 0, 0.2)',
+                        borderRadius: '12px',
+                        padding: '12px 16px',
+                        marginBottom: showMatrix ? '18px' : 0,
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '12px'
+                    }}>
+                        <AlertCircle size={18} color="var(--accent)" style={{ flexShrink: 0 }} />
+                        <span style={{ fontSize: '13px', color: 'var(--text)', fontWeight: '600', lineHeight: 1.5 }}>
+                            {language === 'zh' 
+                                ? '⚠️ 認知警鐘：排行榜代表大眾痛點的高頻共鳴，但不等於你已掌握！切勿陷入「買書即學會、看過即吸收」的收藏幻覺。研讀暢銷書必須配合以下轉化策略：' 
+                                : '⚠️ Warning: Popularity reflects mass market resonance, not personal mastery. Translate popular books into active habits via the matrix below:'}
+                        </span>
+                    </div>
+
+                    {showMatrix && (
+                        <div style={{ overflowX: 'auto', WebkitOverflowScrolling: 'touch', borderRadius: '12px', border: '1px solid var(--border-light)' }}>
+                            <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '13px', textAlign: 'left', minWidth: '720px' }}>
+                                <thead>
+                                    <tr style={{ background: 'var(--bg)', color: 'var(--text-secondary)' }}>
+                                        <th style={{ padding: '12px 14px', fontWeight: '800', width: '22%' }}>{language === 'zh' ? '熱門榜單領域' : 'Popular Domain'}</th>
+                                        <th style={{ padding: '12px 14px', fontWeight: '800', color: '#dc2626', width: '28%' }}>{language === 'zh' ? '大眾常見盲區' : 'Common Illusion'}</th>
+                                        <th style={{ padding: '12px 14px', fontWeight: '800', color: '#16a34a', width: '32%' }}>{language === 'zh' ? '科學破局轉化法' : 'Active Breakthrough'}</th>
+                                        <th style={{ padding: '12px 14px', fontWeight: '800', width: '18%' }}>{language === 'zh' ? '半衰期與複利' : 'Half-Life & Yield'}</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {[
+                                        {
+                                            category: language === 'zh' ? '💰 財富思維與商業投資' : 'Wealth & Investing',
+                                            mirage: language === 'zh' ? '把別人的投資結論當定理，忽略時代週期與切身代價' : 'Adopting conclusions without stress-testing conditions',
+                                            breakthrough: language === 'zh' ? '構建個人財務防禦槓鈴策略，從日常現金流小額自律實踐' : 'Build barbell financial defense; track net savings rhythm',
+                                            lifespan: language === 'zh' ? '30 年+ (跨週期複利)' : '30+ Years (High Yield)'
+                                        },
+                                        {
+                                            category: language === 'zh' ? '⚡ 生產力與習慣系統' : 'Productivity & Habits',
+                                            mirage: language === 'zh' ? '瘋狂更換筆記與排程軟體，以「工具狂熱」逃避真正執行' : 'Fetishizing productivity tools to avoid hard focus',
+                                            breakthrough: language === 'zh' ? '兩分鐘極簡起步 + 習慣堆疊，將行為錨定於物理環境中' : '2-Minute Rule + visual physical triggers in room setup',
+                                            lifespan: language === 'zh' ? '終身受益 (行為自動化)' : 'Lifelong Automation'
+                                        },
+                                        {
+                                            category: language === 'zh' ? '🧠 認知科學與心理破局' : 'Cognition & Psychology',
+                                            mirage: language === 'zh' ? '讀完滿嘴認知偏誤名詞，遇到現實挫折依舊系統1情緒失控' : 'Knowing bias labels while remaining System-1 reactive',
+                                            breakthrough: language === 'zh' ? '遇事啟動「前置驗屍法」與「24小時冷卻審計協議」' : 'Institute mandatory 24-hr pause & premortem audits',
+                                            lifespan: language === 'zh' ? '半衰期極長 (底層心智)' : 'Ultra-Long Half-Life'
+                                        },
+                                        {
+                                            category: language === 'zh' ? '🗣️ 溝通協調與影響力' : 'Influence & Relations',
+                                            mirage: language === 'zh' ? '死記話術套路，缺乏對他人真實處境的同理與傾聽' : 'Memorizing scripts without genuine empathetic presence',
+                                            breakthrough: language === 'zh' ? '在每次對話前預先提問「對方的底層訴求與安全感是什麼」' : 'Frame dialogue around partner\'s deep security needs',
+                                            lifespan: language === 'zh' ? '20 年+ (人際網絡資產)' : '20+ Years Leverage'
+                                        },
+                                        {
+                                            category: language === 'zh' ? '🌿 哲學沉思與人生意義' : 'Philosophy & Meaning',
+                                            mirage: language === 'zh' ? '陷入消極虛無主義，用哲學金句作為逃避現實壓力的盾牌' : 'Using philosophical quotes as an excuse for escapism',
+                                            breakthrough: language === 'zh' ? '落實斯多葛控制二分法：100% 專注於我能採取的下一步行動' : 'Strict dichotomy of control: immediate next tiny action',
+                                            lifespan: language === 'zh' ? '永恆真理 (精神燈塔)' : 'Timeless North Star'
+                                        }
+                                    ].map((row, idx) => (
+                                        <tr key={idx} style={{ borderBottom: '1px solid var(--border-light)' }}>
+                                            <td style={{ padding: '12px 14px', fontWeight: '800', color: 'var(--text)' }}>
+                                                {row.category}
+                                            </td>
+                                            <td style={{ padding: '12px 14px', color: '#b91c1c', fontWeight: '600', lineHeight: 1.4, background: 'rgba(239, 68, 68, 0.03)' }}>
+                                                {row.mirage}
+                                            </td>
+                                            <td style={{ padding: '12px 14px', color: '#15803d', fontWeight: '600', lineHeight: 1.4, background: 'rgba(34, 197, 94, 0.03)' }}>
+                                                {row.breakthrough}
+                                            </td>
+                                            <td style={{ padding: '12px 14px', color: 'var(--primary)', fontWeight: '800' }}>
+                                                {row.lifespan}
+                                            </td>
+                                        </tr>
+                                    ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    )}
                 </div>
 
                 {/* Filter Controls */}
