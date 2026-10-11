@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import {
     Brain,
@@ -24,21 +24,30 @@ import {
     Copy,
     Download,
     CheckSquare,
-    Square
+    Square,
+    Layers,
+    Cpu,
+    Timer,
+    PlusCircle,
+    ChevronRight
 } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { useGamification } from '../context/GamificationContext';
+import { useReadingSettings } from '../context/ReadingSettingsContext';
 import { getCrossUniverseSynapses } from '../lib/gamification';
+import GlobalHeader from '../components/GlobalHeader';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
 import ReadingComfortControls from '../components/ReadingComfortControls';
 import { BookCognitiveRadar } from '../components/learning/LearningDiagrams';
 import { SCIENTIFIC_READING_FRAMEWORK } from '../data/learningFrameworkData';
+import { KNOWLEDGE_DOMAINS } from '../data/knowledgeTaxonomy';
 
 export default function BookDetail() {
     const { id } = useParams();
     const navigate = useNavigate();
     const { language, t, toggleLanguage } = useLanguage();
+    const { setIsTimerOpen, setIsSearchOpen } = useReadingSettings();
     const {
         state,
         toggleReadBook,
@@ -178,6 +187,72 @@ export default function BookDetail() {
             .slice(0, 4)
         : [];
 
+    // 智慧關聯知識體系中的心智模型
+    const relatedModels = useMemo(() => {
+        if (!book) return [];
+        const matched = [];
+        KNOWLEDGE_DOMAINS.forEach(domain => {
+            domain.subcategories.forEach(sub => {
+                sub.concepts.forEach(concept => {
+                    if (concept.books && concept.books.includes(book.code)) {
+                        matched.push({
+                            ...concept,
+                            subCategoryName: sub.name[language] || sub.name.zh,
+                            domainTitle: domain.title[language] || domain.title.zh,
+                            domainColor: domain.color,
+                            domainBg: domain.bg,
+                            domainBorder: domain.border
+                        });
+                    }
+                });
+            });
+        });
+
+        // 若無直接代碼匹配，提供心智思維經典模型作為思維拓展
+        if (matched.length === 0) {
+            const fallbackDomain = KNOWLEDGE_DOMAINS[0];
+            fallbackDomain.subcategories[0].concepts.slice(0, 2).forEach(concept => {
+                matched.push({
+                    ...concept,
+                    subCategoryName: fallbackDomain.subcategories[0].name[language] || fallbackDomain.subcategories[0].name.zh,
+                    domainTitle: fallbackDomain.title[language] || fallbackDomain.title.zh,
+                    domainColor: fallbackDomain.color,
+                    domainBg: fallbackDomain.bg,
+                    domainBorder: fallbackDomain.border
+                });
+            });
+        }
+        return matched;
+    }, [book, language]);
+
+    // 套用筆記範本
+    const handleApplyNoteTemplate = (type) => {
+        let templateText = '';
+        if (type === 'sq3r') {
+            templateText = `### 🎯 SQ3R 深度探究提問\n- **本書最核心解決的問題：** \n- **作者最反直覺的核心洞察：** \n- **我目前存疑或受啟發的觀點：** \n`;
+        } else if (type === 'feynman') {
+            templateText = `### 💡 費曼白話轉譯（向新手解釋）\n- **核心概念一句話：** \n- **日常生動比喻（就像...）：** \n- **在實際情境中如何運用：** \n`;
+        } else if (type === 'action') {
+            templateText = `### ⚡ 7 天落地微行動承諾\n- **觸發時機（當...時）：** \n- **最小可行動作（花 2 分鐘做...）：** \n- **檢驗成果指標：** \n`;
+        }
+
+        const newContent = noteContent && noteContent.trim() ? `${noteContent}\n\n${templateText}` : templateText;
+        setNoteContent(newContent);
+        saveBookNote(book.id, newContent);
+        setNoteSavedFeedback(true);
+        setTimeout(() => setNoteSavedFeedback(false), 2000);
+    };
+
+    // 將心智模型追加到研讀筆記
+    const handleAppendModelToNote = (concept) => {
+        const snippet = `\n\n> 🧠 **${concept.name}**\n> ${concept.desc}\n`;
+        const newContent = noteContent ? `${noteContent}${snippet}` : `> 🧠 **${concept.name}**\n> ${concept.desc}\n`;
+        setNoteContent(newContent);
+        saveBookNote(book.id, newContent);
+        setNoteSavedFeedback(true);
+        setTimeout(() => setNoteSavedFeedback(false), 2000);
+    };
+
     const handleSaveNote = () => {
         if (!book) return;
         saveBookNote(book.id, noteContent);
@@ -211,7 +286,7 @@ export default function BookDetail() {
     // Keep track of active section on scroll
     useEffect(() => {
         const handleScroll = () => {
-            const sections = ['video', 'author', 'insight', 'synapses', 'notes', 'quotes', 'outline', 'purchase'];
+            const sections = ['video', 'author', 'insight', 'models', 'synapses', 'notes', 'quotes', 'outline', 'purchase'];
             const scrollPosition = window.scrollY + 120;
 
             for (const section of sections) {
@@ -265,48 +340,77 @@ export default function BookDetail() {
 
     return (
         <div style={{ background: 'var(--bg)', minHeight: '100vh' }}>
-            {/* Top nav bar */}
+            {/* Global Modern Unified Header */}
+            <GlobalHeader />
+
+            {/* Reading Outpost Sub-Bar */}
             <div style={{
-                padding: '16px 32px', borderBottom: '1px solid var(--border-light)',
-                background: 'var(--sidebar-bg)', backdropFilter: 'blur(var(--sidebar-blur))',
-                WebkitBackdropFilter: 'blur(var(--sidebar-blur))',
-                display: 'flex', alignItems: 'center', position: 'sticky', top: 0, zIndex: 100,
-                gap: '12px', flexWrap: 'wrap'
+                padding: '10px 24px',
+                borderBottom: '1px solid var(--border-light)',
+                background: 'rgba(255, 255, 255, 0.88)',
+                backdropFilter: 'blur(12px)',
+                WebkitBackdropFilter: 'blur(12px)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                position: 'sticky',
+                top: 0,
+                zIndex: 40,
+                gap: '12px',
+                flexWrap: 'wrap'
             }}>
-                <button
-                    onClick={() => navigate(-1)}
-                    style={{
-                        display: 'flex', alignItems: 'center', gap: '8px', padding: '8px 16px',
-                        borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
-                        cursor: 'pointer', fontSize: '13px', color: 'var(--text)', fontWeight: '600',
-                        transition: 'all var(--transition-fast)',
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
-                    }}
-                >
-                    <ArrowLeft size={15} />
-                    <span>{t('back')}</span>
-                </button>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <button
+                        onClick={() => navigate(-1)}
+                        style={{
+                            display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 14px',
+                            borderRadius: '8px', border: '1px solid var(--border)', background: 'white',
+                            cursor: 'pointer', fontSize: '13px', color: 'var(--text)', fontWeight: '650',
+                            transition: 'all var(--transition-fast)',
+                            boxShadow: '0 1px 4px rgba(0,0,0,0.03)'
+                        }}
+                    >
+                        <ArrowLeft size={14} />
+                        <span>{t('back')}</span>
+                    </button>
+                    <span style={{ color: 'var(--border)', fontSize: '14px' }}>|</span>
+                    <span style={{
+                        fontSize: '13px',
+                        color: 'var(--text-secondary)',
+                        fontWeight: '600',
+                        maxWidth: '280px',
+                        overflow: 'hidden',
+                        textOverflow: 'ellipsis',
+                        whiteSpace: 'nowrap'
+                    }}>
+                        {book.code ? `[${book.code}] ` : ''}{title}
+                    </span>
+                </div>
 
-                <div style={{ flex: 1 }} />
-
-                {/* Gamification HUD */}
-                <GamificationHUD />
-
-                {/* Reading Comfort Controls */}
-                <ReadingComfortControls compact />
-
-                <button
-                    onClick={toggleLanguage}
-                    style={{
-                        display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 14px',
-                        borderRadius: '12px', border: '1px solid var(--border)', background: 'white',
-                        cursor: 'pointer', fontSize: '13px', color: 'var(--text-secondary)',
-                        fontWeight: '600'
-                    }}
-                >
-                    <Globe size={15} />
-                    <span>{language === 'zh' ? 'EN' : '繁中'}</span>
-                </button>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+                    <button
+                        onClick={() => setIsTimerOpen(true)}
+                        title={language === 'zh' ? '開啟 25 分鐘專注番茄鐘' : 'Open Deep Flow Focus Timer'}
+                        style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '6px',
+                            padding: '6px 14px',
+                            borderRadius: '999px',
+                            border: '1px solid #86efac',
+                            background: 'linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%)',
+                            cursor: 'pointer',
+                            fontSize: '12px',
+                            color: '#166534',
+                            fontWeight: '750',
+                            transition: 'all 0.15s ease'
+                        }}
+                    >
+                        <Timer size={14} color="#16a34a" />
+                        <span>{language === 'zh' ? '心流專注 (25m)' : 'Deep Flow (25m)'}</span>
+                    </button>
+                    <ReadingComfortControls compact />
+                </div>
             </div>
 
             {/* Reading Outpost layout container */}
@@ -317,7 +421,7 @@ export default function BookDetail() {
 
                 {/* Left: Table of Contents (TOC) */}
                 <aside className="toc-sidebar" style={{
-                    width: '230px', flexShrink: 0, position: 'sticky', top: '90px',
+                    width: '230px', flexShrink: 0, position: 'sticky', top: '70px',
                     height: 'fit-content', display: 'flex', flexDirection: 'column', gap: '16px',
                 }}>
                     <div style={{
@@ -338,6 +442,7 @@ export default function BookDetail() {
                                 { id: 'video', label: language === 'zh' ? '影音說書' : 'Media', icon: Play },
                                 { id: 'author', label: language === 'zh' ? '作者介紹' : 'Author', icon: Users },
                                 { id: 'insight', label: language === 'zh' ? '核心洞察' : 'Insights', icon: BookOpen },
+                                { id: 'models', label: language === 'zh' ? '🧠 心智模型' : '🧠 Mental Models', icon: Brain },
                                 { id: 'synapses', label: language === 'zh' ? '🌌 跨星系共鳴' : '🌌 Cosmic Synapses', icon: Compass },
                                 { id: 'notes', label: language === 'zh' ? '📝 研讀筆記' : '📝 Scholar Notes', icon: Edit3 },
                                 { id: 'quotes', label: language === 'zh' ? '經典金句' : 'Quotes', icon: Quote },
@@ -669,6 +774,104 @@ export default function BookDetail() {
                         </div>
                     </section>
 
+                    {/* Section: Mental Models & Cognitive Toolkits (🧠 心智模型與思維工具) */}
+                    <section id="models" style={{ marginBottom: '40px', scrollMarginTop: '90px' }}>
+                        <div style={{
+                            background: 'white',
+                            borderRadius: '20px',
+                            padding: '28px',
+                            border: '1px solid var(--border-light)',
+                            boxShadow: 'var(--card-shadow)'
+                        }}>
+                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '16px', flexWrap: 'wrap', gap: '8px' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                                    <div style={{
+                                        width: '36px', height: '36px', borderRadius: '10px',
+                                        background: 'rgba(139, 92, 246, 0.1)', display: 'flex',
+                                        alignItems: 'center', justifyContent: 'center', color: '#8b5cf6'
+                                    }}>
+                                        <Brain size={20} />
+                                    </div>
+                                    <div>
+                                        <h3 style={{ fontSize: '18px', fontWeight: '850', color: 'var(--text)', margin: 0 }}>
+                                            {language === 'zh' ? '本書核心心智模型與思維演算' : 'Mental Models & Cognitive Toolkits'}
+                                        </h3>
+                                        <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: '2px 0 0 0' }}>
+                                            {language === 'zh'
+                                                ? '提煉本書最底層的思維演算法，點擊一鍵加入個人研讀筆記'
+                                                : 'Deconstruct core decision algorithms; click to append directly into study notes'}
+                                        </p>
+                                    </div>
+                                </div>
+                                <span style={{ fontSize: '11px', fontWeight: '800', color: '#8b5cf6', background: 'rgba(139, 92, 246, 0.08)', padding: '4px 10px', borderRadius: '6px' }}>
+                                    {relatedModels.length} {language === 'zh' ? '個關鍵模型' : 'CORE MODELS'}
+                                </span>
+                            </div>
+
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '14px' }}>
+                                {relatedModels.map((model, mIdx) => (
+                                    <div
+                                        key={mIdx}
+                                        style={{
+                                            border: `1px solid ${model.domainBorder || 'var(--border)'}`,
+                                            background: model.domainBg || '#fafafa',
+                                            borderRadius: '14px',
+                                            padding: '16px',
+                                            display: 'flex',
+                                            flexDirection: 'column',
+                                            justifyContent: 'space-between',
+                                            transition: 'all 0.2s ease'
+                                        }}
+                                    >
+                                        <div>
+                                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '8px' }}>
+                                                <span style={{
+                                                    fontSize: '11px',
+                                                    fontWeight: '750',
+                                                    color: model.domainColor || '#6366f1',
+                                                    background: 'white',
+                                                    padding: '2px 8px',
+                                                    borderRadius: '6px',
+                                                    boxShadow: '0 1px 3px rgba(0,0,0,0.04)'
+                                                }}>
+                                                    {model.domainTitle} · {model.subCategoryName}
+                                                </span>
+                                            </div>
+                                            <h4 style={{ fontSize: '15px', fontWeight: '850', color: 'var(--text)', margin: '0 0 8px 0' }}>
+                                                {model.name}
+                                            </h4>
+                                            <p style={{ fontSize: '12.5px', color: 'var(--text-secondary)', lineHeight: 1.6, margin: '0 0 14px 0' }}>
+                                                {model.desc}
+                                            </p>
+                                        </div>
+
+                                        <button
+                                            onClick={() => handleAppendModelToNote(model)}
+                                            style={{
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                justifyContent: 'center',
+                                                gap: '6px',
+                                                padding: '7px 12px',
+                                                borderRadius: '8px',
+                                                border: '1px solid var(--border)',
+                                                background: 'white',
+                                                color: 'var(--text)',
+                                                fontSize: '12px',
+                                                fontWeight: '650',
+                                                cursor: 'pointer',
+                                                transition: 'all 0.15s ease'
+                                            }}
+                                        >
+                                            <PlusCircle size={13} color="var(--primary)" />
+                                            <span>{language === 'zh' ? '引用至研讀筆記' : 'Append to Notes'}</span>
+                                        </button>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    </section>
+
                     {/* Section 4: Cross-Universe Synapses (🌌 跨星系共鳴) */}
                     <section id="synapses" style={{ marginBottom: '40px', scrollMarginTop: '90px' }}>
                         <div style={{
@@ -774,6 +977,71 @@ export default function BookDetail() {
                                 <span style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: '600' }}>
                                     {language === 'zh' ? '記錄首次筆記獲取 +20 EXP' : '+20 EXP on first note'}
                                 </span>
+                            </div>
+
+                            {/* Smart Note Templates Bar */}
+                            <div style={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '8px',
+                                flexWrap: 'wrap',
+                                marginBottom: '12px',
+                                padding: '10px 14px',
+                                borderRadius: '12px',
+                                background: '#f8fafc',
+                                border: '1px dashed #cbd5e1'
+                            }}>
+                                <span style={{ fontSize: '12px', fontWeight: '750', color: 'var(--text-secondary)' }}>
+                                    ⚡ {language === 'zh' ? '快速套用結構化筆記範本：' : 'Apply Smart Templates:'}
+                                </span>
+                                <button
+                                    onClick={() => handleApplyNoteTemplate('sq3r')}
+                                    style={{
+                                        fontSize: '11.5px',
+                                        fontWeight: '700',
+                                        padding: '4px 10px',
+                                        borderRadius: '6px',
+                                        border: '1px solid #bfdbfe',
+                                        background: '#eff6ff',
+                                        color: '#1d4ed8',
+                                        cursor: 'pointer',
+                                        transition: 'all 0.15s ease'
+                                    }}
+                                >
+                                    🎯 SQ3R 深度提問
+                                </button>
+                                <button
+                                    onClick={() => handleApplyNoteTemplate('feynman')}
+                                    style={{
+                                        fontSize: '11.5px',
+                                        fontWeight: '700',
+                                        padding: '4px 10px',
+                                        borderRadius: '6px',
+                                        border: '1px solid #fef08a',
+                                        background: '#fefce8',
+                                        color: '#a16207',
+                                        cursor: 'pointer',
+                                        transition: 'all 0.15s ease'
+                                    }}
+                                >
+                                    💡 費曼白話轉譯
+                                </button>
+                                <button
+                                    onClick={() => handleApplyNoteTemplate('action')}
+                                    style={{
+                                        fontSize: '11.5px',
+                                        fontWeight: '700',
+                                        padding: '4px 10px',
+                                        borderRadius: '6px',
+                                        border: '1px solid #bbf7d0',
+                                        background: '#f0fdf4',
+                                        color: '#15803d',
+                                        cursor: 'pointer',
+                                        transition: 'all 0.15s ease'
+                                    }}
+                                >
+                                    ⚡ 7 天行動承諾
+                                </button>
                             </div>
 
                             <textarea

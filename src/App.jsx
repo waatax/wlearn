@@ -17,38 +17,50 @@ import NotFound from './pages/NotFound';
 import RandomDiscoveryModal from './components/RandomDiscoveryModal';
 import DailyCapsuleModal from './components/DailyCapsuleModal';
 import LevelUpModal from './components/LevelUpModal';
-import ReadingSettingsModal from './components/ReadingSettingsModal';
+import GlobalCommandPalette from './components/GlobalCommandPalette';
+import DeepFlowTimerModal from './components/DeepFlowTimerModal';
+import { useReadingSettings } from './context/ReadingSettingsContext';
+
+function AppContent() {
+  const { isSearchOpen, setIsSearchOpen, isTimerOpen, setIsTimerOpen } = useReadingSettings();
+
+  return (
+    <BrowserRouter basename="/wlearn">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/learning-science" element={<LearningScience />} />
+        <Route path="/framework" element={<LearningScience />} />
+        <Route path="/universe" element={<Universe />} />
+        <Route path="/quests" element={<Quests />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/book/:id" element={<BookDetail />} />
+        <Route path="/popular" element={<Popular />} />
+        <Route path="/trends" element={<Trends />} />
+        <Route path="/authors" element={<Authors />} />
+        <Route path="/author/:id" element={<AuthorDetail />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+
+      {/* Global Gamification & Reading Modals */}
+      <RandomDiscoveryModal />
+      <DailyCapsuleModal />
+      <LevelUpModal />
+      <ReadingSettingsModal />
+      <GlobalCommandPalette isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
+      <DeepFlowTimerModal isOpen={isTimerOpen} onClose={() => setIsTimerOpen(false)} />
+    </BrowserRouter>
+  );
+}
 
 function App() {
   return (
     <LanguageProvider>
       <ReadingSettingsProvider>
         <GamificationProvider>
-          <BrowserRouter basename="/wlearn">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/learning-science" element={<LearningScience />} />
-            <Route path="/framework" element={<LearningScience />} />
-            <Route path="/universe" element={<Universe />} />
-            <Route path="/quests" element={<Quests />} />
-            <Route path="/profile" element={<Profile />} />
-            <Route path="/book/:id" element={<BookDetail />} />
-            <Route path="/popular" element={<Popular />} />
-            <Route path="/trends" element={<Trends />} />
-            <Route path="/authors" element={<Authors />} />
-            <Route path="/author/:id" element={<AuthorDetail />} />
-            <Route path="*" element={<NotFound />} />
-          </Routes>
-
-          {/* Global Gamification Modals */}
-          <RandomDiscoveryModal />
-          <DailyCapsuleModal />
-          <LevelUpModal />
-          <ReadingSettingsModal />
-        </BrowserRouter>
-      </GamificationProvider>
-    </ReadingSettingsProvider>
-  </LanguageProvider>
+          <AppContent />
+        </GamificationProvider>
+      </ReadingSettingsProvider>
+    </LanguageProvider>
   );
 }
 

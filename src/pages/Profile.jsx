@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useGamification } from '../context/GamificationContext';
 import { useLanguage } from '../context/LanguageContext';
 import { COSMIC_REALMS, BADGES_CATALOG } from '../lib/gamification';
+import GlobalHeader from '../components/GlobalHeader';
 import Sidebar from '../components/Sidebar';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
@@ -119,59 +120,20 @@ export default function Profile() {
     };
 
     return (
-        <div style={{ display: 'flex', minHeight: '100vh', background: 'var(--bg-gradient)' }}>
-            <Sidebar
-                books={[]}
-                filters={{ search: '', tags: [], playlist: '' }}
-                onFiltersChange={() => {}}
-                isOpen={sidebarOpen}
-                onClose={() => setSidebarOpen(false)}
-            />
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', background: 'var(--bg-gradient)' }}>
+            <GlobalHeader />
 
-            {/* Main Area */}
-            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0 }}>
-                {/* Top bar */}
-                <div className="top-bar" style={{
-                    display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                    padding: '16px 32px', borderBottom: '1px solid var(--border-light)',
-                    background: 'var(--sidebar-bg)', backdropFilter: 'blur(var(--sidebar-blur))',
-                    position: 'sticky', top: 0, zIndex: 10,
-                    WebkitBackdropFilter: 'blur(var(--sidebar-blur))',
-                    gap: '16px',
-                }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                        <button
-                            className="mobile-menu-btn"
-                            onClick={() => setSidebarOpen(true)}
-                            aria-label="開啟選單"
-                        >
-                            <Menu size={22} color="#2d2a24" />
-                        </button>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                            <span style={{ fontSize: '20px' }}>👤</span>
-                            <span style={{ fontSize: '16px', fontWeight: '800', color: 'var(--text)' }}>
-                                {t('scholarProfile')}
-                            </span>
-                        </div>
-                    </div>
+            <div style={{ display: 'flex', flex: 1 }}>
+                <Sidebar
+                    books={[]}
+                    filters={{ search: '', tags: [], playlist: '' }}
+                    onFiltersChange={() => {}}
+                    isOpen={sidebarOpen}
+                    onClose={() => setSidebarOpen(false)}
+                />
 
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                        <GamificationHUD />
-                        <ReadingComfortControls compact />
-                        <button
-                            onClick={toggleLanguage}
-                            style={{
-                                display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 14px',
-                                borderRadius: '12px', border: '1px solid var(--border)', background: 'white',
-                                cursor: 'pointer', fontSize: '13px', color: 'var(--text-secondary)',
-                                fontWeight: '600'
-                            }}
-                        >
-                            <Globe size={15} />
-                            <span>{language === 'zh' ? 'EN' : '繁中'}</span>
-                        </button>
-                    </div>
-                </div>
+                {/* Main Area */}
+                <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0, paddingBottom: '90px' }}>
 
                 <div style={{ padding: '28px 32px 64px 32px', maxWidth: '1280px', width: '100%', margin: '0 auto' }}>
                     {/* Scholar Passport Card */}
@@ -689,8 +651,9 @@ export default function Profile() {
                     </div>
                 </div>
             </div>
-
-            <BottomNavbar />
         </div>
-    );
+
+        <BottomNavbar />
+    </div>
+);
 }

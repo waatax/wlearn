@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, Search, Users, BookOpen, Award, ChevronRight, Globe, Compass, Sparkles, Brain, Landmark, ArrowUpRight } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import GlobalHeader from '../components/GlobalHeader';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
 import ReadingComfortControls from '../components/ReadingComfortControls';
@@ -57,51 +58,43 @@ export default function Authors() {
 
     return (
         <div style={{ background: 'var(--bg)', minHeight: '100vh' }}>
-            {/* Top nav bar */}
+            <GlobalHeader />
+
+            {/* Sub Bar */}
             <div style={{
-                padding: '16px 32px', borderBottom: '1px solid var(--border-light)',
-                background: 'var(--sidebar-bg)', backdropFilter: 'blur(var(--sidebar-blur))',
-                WebkitBackdropFilter: 'blur(var(--sidebar-blur))',
-                display: 'flex', alignItems: 'center', position: 'sticky', top: 0, zIndex: 100,
+                padding: '10px 24px',
+                borderBottom: '1px solid var(--border-light)',
+                background: 'rgba(255, 255, 255, 0.88)',
+                backdropFilter: 'blur(12px)',
+                WebkitBackdropFilter: 'blur(12px)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                gap: '12px',
+                position: 'sticky',
+                top: 0,
+                zIndex: 40,
+                flexWrap: 'wrap'
             }}>
-                <button
-                    onClick={() => navigate('/')}
-                    style={{
-                        display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
-                        borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
-                        cursor: 'pointer', fontSize: '14px', color: 'var(--text)', fontWeight: '600',
-                        transition: 'all var(--transition-fast)',
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
-                    }}
-                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateX(-4px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'; }}
-                    onMouseLeave={e => { e.currentTarget.style.transform = 'translateX(0)'; e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.04)'; }}
-                >
-                    <ArrowLeft size={16} />
-                    {t('back')}
-                </button>
-                <div style={{ flex: 1, textAlign: 'center' }}>
-                    <h1 style={{ margin: 0, fontSize: '20px', fontWeight: '850', color: 'var(--text)', display: 'inline-flex', alignItems: 'center', gap: '10px' }}>
-                        <Users size={22} color="var(--primary)" />
-                        {t('authorsList')}
-                    </h1>
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <GamificationHUD />
-                    <ReadingComfortControls compact />
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                     <button
-                        onClick={toggleLanguage}
+                        onClick={() => navigate('/')}
                         style={{
-                            display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
-                            borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
-                            cursor: 'pointer', fontSize: '14px', fontWeight: '700', color: 'var(--text)',
-                            transition: 'all var(--transition-fast)',
-                            boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
+                            display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 14px',
+                            borderRadius: '8px', border: '1px solid var(--border)', background: 'white',
+                            cursor: 'pointer', fontSize: '13px', color: 'var(--text)', fontWeight: '650'
                         }}
                     >
-                        <Globe size={16} color="var(--primary)" />
-                        {language === 'zh' ? 'EN' : '中文'}
+                        <ArrowLeft size={14} />
+                        <span>{t('back')}</span>
                     </button>
+                    <span style={{ fontSize: '13px', fontWeight: '750', color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <Users size={15} color="var(--primary)" />
+                        <span>{t('authorsList')}</span>
+                    </span>
                 </div>
+
+                <ReadingComfortControls compact />
             </div>
 
             <div style={{ maxWidth: '1200px', margin: '0 auto', padding: '48px 32px' }}>

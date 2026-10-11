@@ -2,6 +2,7 @@ import React, { useState, useEffect, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, TrendingUp, Play, Globe, BarChart3, Eye, Trophy, Flame, ChevronRight, Sparkles, Brain, AlertCircle, CheckCircle2, ShieldCheck, Zap, ChevronDown, ChevronUp } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import GlobalHeader from '../components/GlobalHeader';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
 import ReadingComfortControls from '../components/ReadingComfortControls';
@@ -101,66 +102,55 @@ export default function Popular() {
 
     return (
         <div style={{ background: 'var(--bg)', minHeight: '100vh' }}>
-            {/* Top nav bar */}
+            <GlobalHeader />
+
+            {/* Sub Bar */}
             <div style={{
-                padding: '16px 32px', borderBottom: '1px solid var(--border-light)',
-                background: 'var(--sidebar-bg)', backdropFilter: 'blur(var(--sidebar-blur))',
-                WebkitBackdropFilter: 'blur(var(--sidebar-blur))',
-                display: 'flex', alignItems: 'center', position: 'sticky', top: 0, zIndex: 100,
+                padding: '10px 24px',
+                borderBottom: '1px solid var(--border-light)',
+                background: 'rgba(255, 255, 255, 0.88)',
+                backdropFilter: 'blur(12px)',
+                WebkitBackdropFilter: 'blur(12px)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                gap: '12px',
+                position: 'sticky',
+                top: 0,
+                zIndex: 40,
+                flexWrap: 'wrap'
             }}>
-                <button
-                    onClick={() => navigate('/')}
-                    style={{
-                        display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
-                        borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
-                        cursor: 'pointer', fontSize: '14px', color: 'var(--text)', fontWeight: '600',
-                        transition: 'all var(--transition-fast)',
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
-                    }}
-                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateX(-4px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'; }}
-                    onMouseLeave={e => { e.currentTarget.style.transform = 'translateX(0)'; e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.04)'; }}
-                >
-                    <ArrowLeft size={16} />
-                    {t('back')}
-                </button>
-                <div style={{ flex: 1, textAlign: 'center' }}>
-                    <h1 style={{ margin: 0, fontSize: '20px', fontWeight: '850', color: 'var(--text)', display: 'inline-flex', alignItems: 'center', gap: '10px' }}>
-                        <Flame size={22} color="var(--accent)" />
-                        {language === 'zh' ? '熱門排行榜' : 'Popular Rankings'}
-                    </h1>
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <button
+                        onClick={() => navigate('/')}
+                        style={{
+                            display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 14px',
+                            borderRadius: '8px', border: '1px solid var(--border)', background: 'white',
+                            cursor: 'pointer', fontSize: '13px', color: 'var(--text)', fontWeight: '650'
+                        }}
+                    >
+                        <ArrowLeft size={14} />
+                        <span>{t('back')}</span>
+                    </button>
+                    <span style={{ fontSize: '13px', fontWeight: '750', color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <Flame size={15} color="var(--accent)" />
+                        <span>{language === 'zh' ? '熱門排行榜' : 'Popular Rankings'}</span>
+                    </span>
                 </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <GamificationHUD />
-                    <ReadingComfortControls compact />
+
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                     <button 
                         onClick={() => navigate('/trends')}
                         style={{
-                            display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
-                            borderRadius: 'var(--radius-sm)', border: '1px solid #a18aff', background: '#f5f0ff',
-                            cursor: 'pointer', fontSize: '14px', color: '#6366f1', fontWeight: '700',
-                            transition: 'all var(--transition-fast)',
+                            display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 14px',
+                            borderRadius: '8px', border: '1px solid #c7d2fe', background: '#eef2ff',
+                            cursor: 'pointer', fontSize: '12px', color: '#4338ca', fontWeight: '750'
                         }}
-                        onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(99,102,241,0.15)'; }}
-                        onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}
                     >
-                        <BarChart3 size={18} />
-                        {language === 'zh' ? '趨勢分析' : 'Trends'}
+                        <BarChart3 size={14} />
+                        <span>{language === 'zh' ? '前往深度趨勢分析' : 'Explore Trends'}</span>
                     </button>
-                    <button
-                        onClick={toggleLanguage}
-                        style={{
-                            display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
-                            borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
-                            cursor: 'pointer', fontSize: '14px', fontWeight: '700', color: 'var(--text)',
-                            transition: 'all var(--transition-fast)',
-                            boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
-                        }}
-                        onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'; }}
-                        onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.04)'; }}
-                    >
-                        <Globe size={16} color="var(--primary)" />
-                        {language === 'zh' ? 'EN' : '中文'}
-                    </button>
+                    <ReadingComfortControls compact />
                 </div>
             </div>
 

@@ -100,6 +100,20 @@ export function ReadingSettingsProvider({ children }) {
     });
 
     const [isSettingsOpen, setIsSettingsOpen] = useState(false);
+    const [isSearchOpen, setIsSearchOpen] = useState(false);
+    const [isTimerOpen, setIsTimerOpen] = useState(false);
+
+    // Global keyboard shortcut for Ctrl+K / Cmd+K
+    useEffect(() => {
+        const handleKeyDown = (e) => {
+            if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
+                e.preventDefault();
+                setIsSearchOpen(prev => !prev);
+            }
+        };
+        window.addEventListener('keydown', handleKeyDown);
+        return () => window.removeEventListener('keydown', handleKeyDown);
+    }, []);
 
     // Sync settings to localStorage and DOM root
     useEffect(() => {
@@ -211,7 +225,11 @@ export function ReadingSettingsProvider({ children }) {
                 toggleContentWidth,
                 resetSettings,
                 isSettingsOpen,
-                setIsSettingsOpen
+                setIsSettingsOpen,
+                isSearchOpen,
+                setIsSearchOpen,
+                isTimerOpen,
+                setIsTimerOpen
             }}
         >
             {children}

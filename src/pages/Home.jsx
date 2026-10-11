@@ -6,8 +6,11 @@ import Pagination from '../components/Pagination';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
 import ReadingComfortControls from '../components/ReadingComfortControls';
+import GlobalHeader from '../components/GlobalHeader';
 import { useLanguage } from '../context/LanguageContext';
 import { useGamification } from '../context/GamificationContext';
+import { useReadingSettings } from '../context/ReadingSettingsContext';
+import { KNOWLEDGE_DOMAINS, LEARNING_ROADMAPS, DAILY_FLASHCARDS } from '../data/knowledgeTaxonomy';
 import {
     Globe,
     Menu,
@@ -30,13 +33,19 @@ import {
     ChevronDown,
     ChevronUp,
     GraduationCap,
-    Lightbulb
+    Lightbulb,
+    Compass,
+    Layers,
+    Award,
+    Clock,
+    Flame
 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
     const { language, t, toggleLanguage } = useLanguage();
-    const { state, openModal, claimDailyCapsule } = useGamification();
+    const { state, openModal, claimDailyCapsule, addExp } = useGamification();
+    const { setIsSearchOpen, setIsTimerOpen } = useReadingSettings();
     const [books, setBooks] = useState([]);
     const [ytStats, setYtStats] = useState({});
     const [loading, setLoading] = useState(true);
@@ -48,6 +57,9 @@ export default function Home() {
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const [showBackToTop, setShowBackToTop] = useState(false);
     const [showGuideDetails, setShowGuideDetails] = useState(false);
+    const [homeTab, setHomeTab] = useState('codex'); // 'codex', 'roadmaps', 'atlas', 'flashcards'
+    const [flippedCards, setFlippedCards] = useState({});
+    const [completedFlashcards, setCompletedFlashcards] = useState({});
 
     // Fetch books & YouTube stats
     useEffect(() => {
@@ -93,6 +105,21 @@ export default function Home() {
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
+
+    const findBookByCode = useCallback((code) => {
+        return books.find(b => b.code === code) || null;
+    }, [books]);
+
+    const handleToggleFlashcard = useCallback((id) => {
+        setFlippedCards(prev => ({ ...prev, [id]: !prev[id] }));
+    }, []);
+
+    const handleCompleteFlashcard = useCallback((id) => {
+        if (!completedFlashcards[id]) {
+            setCompletedFlashcards(prev => ({ ...prev, [id]: true }));
+            if (addExp) addExp(10, language === 'zh' ? '攻克思維模型閃卡' : 'Mastered Flashcard Concept');
+        }
+    }, [completedFlashcards, addExp, language]);
 
     // Calculate reading stats counts
     const statsCount = useMemo(() => {
@@ -195,118 +222,12 @@ export default function Home() {
 
             {/* Main Area */}
             <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0 }}>
-                {/* Top Sticky Bar */}
-                <header className="top-bar" style={{
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'space-between',
-                    padding: '14px 28px',
-                    borderBottom: '1px solid var(--border-light)',
-                    background: 'var(--sidebar-bg)',
-                    backdropFilter: 'blur(var(--sidebar-blur))',
-                    WebkitBackdropFilter: 'blur(var(--sidebar-blur))',
-                    position: 'sticky',
-                    top: 0,
-                    zIndex: 20,
-                    gap: '16px',
-                }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flex: 1, minWidth: 0 }}>
-                        {/* Hamburger menu for mobile */}
-                        <button
-                            className="mobile-menu-btn"
-                            onClick={() => setSidebarOpen(true)}
-                            aria-label="開啟導覽選單"
-                            style={{
-                                background: 'white',
-                                border: '1px solid var(--border)',
-                                borderRadius: '10px',
-                                width: '38px',
-                                height: '38px',
-                                display: 'flex',
-                                alignItems: 'center',
-                                justifyContent: 'center',
-                                cursor: 'pointer'
-                            }}
-                        >
-                            <Menu size={20} color="#1f2923" />
-                        </button>
-
-                        {/* Quick Search in Top Bar */}
-                        <div style={{
-                            position: 'relative',
-                            maxWidth: '420px',
-                            width: '100%',
-                            display: 'flex',
-                            alignItems: 'center'
-                        }}>
-                            <Search size={15} style={{ position: 'absolute', left: '12px', color: 'var(--text-muted)' }} />
-                            <input
-                                type="text"
-                                value={filters.search}
-                                onChange={(e) => handleFiltersChange({ ...filters, search: e.target.value })}
-                                placeholder={language === 'zh' ? '快速檢索 597 本說書、作者或標籤...' : 'Search 597 books, authors, or tags...'}
-                                style={{
-                                    width: '100%',
-                                    padding: '8px 32px 8px 36px',
-                                    borderRadius: '12px',
-                                    border: '1px solid var(--border)',
-                                    background: 'white',
-                                    fontSize: '13px',
-                                    fontWeight: '500',
-                                    color: 'var(--text)',
-                                    outline: 'none',
-                                    boxShadow: 'inset 0 1px 2px rgba(0,0,0,0.03)',
-                                    transition: 'border-color 0.2s ease'
-                                }}
-                            />
-                            {filters.search && (
-                                <button
-                                    onClick={() => handleFiltersChange({ ...filters, search: '' })}
-                                    style={{
-                                        position: 'absolute',
-                                        right: '8px',
-                                        background: 'none',
-                                        border: 'none',
-                                        cursor: 'pointer',
-                                        padding: '4px',
-                                        color: 'var(--text-muted)'
-                                    }}
-                                    title="清除搜尋"
-                                >
-                                    <X size={14} />
-                                </button>
-                            )}
-                        </div>
-                    </div>
-
-                    {/* Right utilities */}
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', flexShrink: 0 }}>
-                        <GamificationHUD />
-                        <ReadingComfortControls compact />
-
-                        {/* Language Switcher */}
-                        <button
-                            onClick={toggleLanguage}
-                            style={{
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: '6px',
-                                padding: '7px 14px',
-                                borderRadius: '12px',
-                                border: '1px solid var(--border)',
-                                background: 'white',
-                                cursor: 'pointer',
-                                fontSize: '13px',
-                                color: 'var(--text-secondary)',
-                                fontWeight: '700',
-                                transition: 'all var(--transition-fast)'
-                            }}
-                        >
-                            <Globe size={15} />
-                            <span>{language === 'zh' ? 'EN' : '繁中'}</span>
-                        </button>
-                    </div>
-                </header>
+                {/* Global Unified Header */}
+                <GlobalHeader
+                    onOpenSearch={() => setIsSearchOpen(true)}
+                    onOpenTimer={() => setIsTimerOpen(true)}
+                    onToggleSidebar={() => setSidebarOpen(true)}
+                />
 
                 {/* Hero Banner (Shown when not filtering) */}
                 {!isDeepFiltering && (
@@ -442,6 +363,68 @@ export default function Home() {
 
                 {/* Main Content Area */}
                 <main style={{ padding: '24px 32px 64px 32px', flex: 1, display: 'flex', flexDirection: 'column' }}>
+                    {/* Perspective Switcher Tabs */}
+                    <div style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '12px',
+                        marginBottom: '24px',
+                        overflowX: 'auto',
+                        WebkitOverflowScrolling: 'touch',
+                        paddingBottom: '4px'
+                    }}>
+                        {[
+                            { id: 'codex', label: language === 'zh' ? '📚 說書總典籍庫' : '📚 Book Codex', desc: language === 'zh' ? '597 本說書精讀' : '597 Books', icon: BookOpen },
+                            { id: 'roadmaps', label: language === 'zh' ? '🎯 通關學習路徑' : '🎯 Learning Tracks', desc: language === 'zh' ? '5 大系統化路線' : '5 Structured Tracks', icon: Compass },
+                            { id: 'atlas', label: language === 'zh' ? '🗺️ 知識體系圖譜' : '🗺️ Knowledge Atlas', desc: language === 'zh' ? '6 大領域 80+ 模型' : '80+ Mental Models', icon: Layers },
+                            { id: 'flashcards', label: language === 'zh' ? '💡 每日翻牌思維挑戰' : '💡 Flashcards Quiz', desc: language === 'zh' ? '大腦主動提取自測' : 'Active Recall', icon: Lightbulb },
+                        ].map(tab => {
+                            const active = homeTab === tab.id;
+                            const Icon = tab.icon;
+                            return (
+                                <button
+                                    key={tab.id}
+                                    onClick={() => setHomeTab(tab.id)}
+                                    style={{
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        gap: '12px',
+                                        padding: '12px 20px',
+                                        borderRadius: '16px',
+                                        border: active ? '2px solid var(--primary)' : '1px solid var(--border)',
+                                        background: active ? 'white' : 'rgba(255, 255, 255, 0.7)',
+                                        cursor: 'pointer',
+                                        boxShadow: active ? '0 8px 24px rgba(45, 102, 72, 0.12)' : 'none',
+                                        transition: 'all 0.15s ease',
+                                        flexShrink: 0
+                                    }}
+                                >
+                                    <div style={{
+                                        width: '36px',
+                                        height: '36px',
+                                        borderRadius: '10px',
+                                        background: active ? 'var(--tag-bg)' : 'var(--bg)',
+                                        color: active ? 'var(--primary)' : 'var(--text-muted)',
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        justifyContent: 'center',
+                                        flexShrink: 0
+                                    }}>
+                                        <Icon size={18} />
+                                    </div>
+                                    <div style={{ textAlign: 'left' }}>
+                                        <div style={{ fontSize: '14px', fontWeight: active ? '850' : '700', color: active ? 'var(--primary-dark)' : 'var(--text)' }}>
+                                            {tab.label}
+                                        </div>
+                                        <div style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: '500' }}>
+                                            {tab.desc}
+                                        </div>
+                                    </div>
+                                </button>
+                            );
+                        })}
+                    </div>
+
                     {/* Scientific Reading Guide Banner */}
                     <div style={{
                         marginBottom: '24px',
@@ -649,20 +632,415 @@ export default function Home() {
                         )}
                     </div>
 
-                    {/* Controls Bar: Status Pills, Sort, View Modes */}
-                    <div style={{
-                        display: 'flex',
-                        flexWrap: 'wrap',
-                        alignItems: 'center',
-                        justifyContent: 'space-between',
-                        gap: '14px',
-                        marginBottom: '20px',
-                        background: 'white',
-                        padding: '12px 18px',
-                        borderRadius: 'var(--radius-md)',
-                        border: '1px solid var(--border-light)',
-                        boxShadow: 'var(--card-shadow)'
-                    }}>
+                    {/* VIEW 1: LEARNING ROADMAPS */}
+                    {homeTab === 'roadmaps' && (
+                        <div style={{ animation: 'fadeInUp 0.3s ease' }}>
+                            <div style={{
+                                background: 'white',
+                                borderRadius: '20px',
+                                padding: '24px 28px',
+                                border: '1px solid var(--border-light)',
+                                marginBottom: '24px',
+                                boxShadow: 'var(--card-shadow)'
+                            }}>
+                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px' }}>
+                                    <div>
+                                        <h2 style={{ fontSize: '20px', fontWeight: '850', margin: '0 0 6px 0', display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text)' }}>
+                                            <span>🎯 {language === 'zh' ? '五大系統化通關學習路徑' : '5 Curated Mastery Tracks'}</span>
+                                        </h2>
+                                        <p style={{ fontSize: '13px', margin: 0, color: 'var(--text-muted)' }}>
+                                            {language === 'zh'
+                                                ? '告別零散碎片化閱讀！依循認知難度階梯，從基礎底層到高階破局，完成每條路線獲得專屬學者徽章。'
+                                                : 'Overcome fragmented reading with progressive difficulty tracks from foundation to mastery.'}
+                                        </p>
+                                    </div>
+                                    <div style={{ fontSize: '12px', color: 'var(--primary)', fontWeight: '700', background: 'var(--tag-bg)', padding: '6px 14px', borderRadius: '10px' }}>
+                                        {language === 'zh' ? '💡 點擊任一書目可立即展開深度研讀' : '💡 Click any book to start reading'}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))', gap: '20px' }}>
+                                {LEARNING_ROADMAPS.map((track) => {
+                                    return (
+                                        <div
+                                            key={track.id}
+                                            style={{
+                                                background: 'white',
+                                                borderRadius: '20px',
+                                                padding: '24px',
+                                                border: '1px solid var(--border-light)',
+                                                boxShadow: 'var(--card-shadow)',
+                                                display: 'flex',
+                                                flexDirection: 'column',
+                                                justifyContent: 'space-between',
+                                                transition: 'all 0.2s ease'
+                                            }}
+                                        >
+                                            <div>
+                                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '12px' }}>
+                                                    <span style={{
+                                                        fontSize: '11px',
+                                                        fontWeight: '800',
+                                                        padding: '3px 10px',
+                                                        borderRadius: '8px',
+                                                        background: `${track.color}15`,
+                                                        color: track.color,
+                                                        border: `1px solid ${track.color}30`
+                                                    }}>
+                                                        {track.badge}
+                                                    </span>
+                                                    <span style={{ fontSize: '12px', color: 'var(--text-muted)', fontWeight: '600', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                                        <Clock size={13} />
+                                                        {track.estimatedHours}
+                                                    </span>
+                                                </div>
+
+                                                <h3 style={{ fontSize: '17px', fontWeight: '850', color: 'var(--text)', margin: '0 0 4px 0' }}>
+                                                    {track.title[language] || track.title.zh}
+                                                </h3>
+                                                <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: '0 0 18px 0', lineHeight: 1.5 }}>
+                                                    {track.subtitle[language] || track.subtitle.zh}
+                                                </p>
+
+                                                {/* Milestones Flow */}
+                                                <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
+                                                    {track.milestones.map((m) => {
+                                                        const matchedBook = findBookByCode(m.code);
+                                                        const isRead = matchedBook && (state.readBooks || []).includes(matchedBook.id);
+
+                                                        return (
+                                                            <Link
+                                                                key={m.step}
+                                                                to={matchedBook ? `/book/${matchedBook.id}` : '#'}
+                                                                style={{
+                                                                    display: 'flex',
+                                                                    alignItems: 'flex-start',
+                                                                    gap: '12px',
+                                                                    padding: '10px 12px',
+                                                                    borderRadius: '12px',
+                                                                    background: isRead ? 'rgba(34, 197, 94, 0.05)' : 'var(--bg)',
+                                                                    border: isRead ? '1px solid rgba(34, 197, 94, 0.2)' : '1px solid var(--border-light)',
+                                                                    textDecoration: 'none',
+                                                                    color: 'inherit',
+                                                                    transition: 'all 0.15s ease'
+                                                                }}
+                                                            >
+                                                                <div style={{
+                                                                    width: '26px',
+                                                                    height: '26px',
+                                                                    borderRadius: '8px',
+                                                                    background: isRead ? '#16a34a' : 'white',
+                                                                    color: isRead ? 'white' : 'var(--text)',
+                                                                    fontSize: '11px',
+                                                                    fontWeight: '900',
+                                                                    display: 'flex',
+                                                                    alignItems: 'center',
+                                                                    justifyContent: 'center',
+                                                                    flexShrink: 0,
+                                                                    boxShadow: '0 1px 3px rgba(0,0,0,0.06)'
+                                                                }}>
+                                                                    {isRead ? '✓' : `0${m.step}`}
+                                                                </div>
+
+                                                                <div style={{ flex: 1, minWidth: 0 }}>
+                                                                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+                                                                        <span style={{ fontSize: '13px', fontWeight: '800', color: 'var(--text)' }}>
+                                                                            {m.title}
+                                                                        </span>
+                                                                        <span style={{ fontSize: '10px', color: 'var(--text-muted)', fontWeight: '700' }}>
+                                                                            {m.code}
+                                                                        </span>
+                                                                    </div>
+                                                                    <p style={{ fontSize: '11px', color: 'var(--text-secondary)', margin: '2px 0 0', lineHeight: 1.4 }}>
+                                                                        {m.focus}
+                                                                    </p>
+                                                                </div>
+                                                            </Link>
+                                                        );
+                                                    })}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* VIEW 2: KNOWLEDGE ATLAS */}
+                    {homeTab === 'atlas' && (
+                        <div style={{ animation: 'fadeInUp 0.3s ease' }}>
+                            <div style={{
+                                background: 'white',
+                                borderRadius: '20px',
+                                padding: '24px 28px',
+                                border: '1px solid var(--border-light)',
+                                marginBottom: '24px',
+                                boxShadow: 'var(--card-shadow)'
+                            }}>
+                                <h2 style={{ fontSize: '20px', fontWeight: '850', margin: '0 0 6px 0', display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text)' }}>
+                                    <span>🗺️ {language === 'zh' ? '全站六大領域知識架構圖譜' : 'Master Knowledge Taxonomy & Mental Models'}</span>
+                                </h2>
+                                <p style={{ fontSize: '13px', margin: 0, color: 'var(--text-muted)' }}>
+                                    {language === 'zh'
+                                        ? '涵蓋 6 大核心領域、24 個二級主題與 80+ 核心心智模型。點擊任何概念皆可查閱解析與推薦典籍。'
+                                        : 'Navigate 6 core domains, 24 thematic subcategories, and 80+ essential mental models.'}
+                                </p>
+                            </div>
+
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(360px, 1fr))', gap: '20px' }}>
+                                {KNOWLEDGE_DOMAINS.map((domain) => (
+                                    <div
+                                        key={domain.id}
+                                        style={{
+                                            background: 'white',
+                                            borderRadius: '20px',
+                                            padding: '24px',
+                                            border: '1px solid var(--border-light)',
+                                            boxShadow: 'var(--card-shadow)'
+                                        }}
+                                    >
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '8px' }}>
+                                            <div style={{
+                                                width: '32px',
+                                                height: '32px',
+                                                borderRadius: '10px',
+                                                background: domain.bg,
+                                                color: domain.color,
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                justifyContent: 'center',
+                                                fontSize: '16px'
+                                            }}>
+                                                ✦
+                                            </div>
+                                            <h3 style={{ margin: 0, fontSize: '17px', fontWeight: '850', color: 'var(--text)' }}>
+                                                {domain.title[language] || domain.title.zh}
+                                            </h3>
+                                        </div>
+                                        <p style={{ fontSize: '12px', color: 'var(--text-muted)', margin: '0 0 18px 0', lineHeight: 1.5 }}>
+                                            {domain.desc[language] || domain.desc.zh}
+                                        </p>
+
+                                        <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+                                            {domain.subcategories.map((sub, sIdx) => (
+                                                <div key={sIdx} style={{ background: 'var(--bg)', borderRadius: '14px', padding: '14px', border: '1px solid var(--border-light)' }}>
+                                                    <div style={{ fontSize: '12px', fontWeight: '800', color: domain.color, marginBottom: '8px', textTransform: 'uppercase', letterSpacing: '0.04em' }}>
+                                                        {sub.name[language] || sub.name.zh}
+                                                    </div>
+                                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                                                        {sub.concepts.map((c, cIdx) => (
+                                                            <div key={cIdx} style={{ background: 'white', padding: '10px 12px', borderRadius: '10px', border: '1px solid var(--border-light)' }}>
+                                                                <div style={{ fontSize: '13px', fontWeight: '800', color: 'var(--text)', marginBottom: '3px' }}>
+                                                                    {c.name}
+                                                                </div>
+                                                                <div style={{ fontSize: '11px', color: 'var(--text-secondary)', lineHeight: 1.4, marginBottom: '6px' }}>
+                                                                    {c.desc}
+                                                                </div>
+                                                                {c.books && c.books.length > 0 && (
+                                                                    <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
+                                                                        <span style={{ fontSize: '10px', color: 'var(--text-muted)', fontWeight: '700' }}>
+                                                                            {language === 'zh' ? '推薦典籍:' : 'Books:'}
+                                                                        </span>
+                                                                        {c.books.map((bCode, bIdx) => {
+                                                                            const matched = findBookByCode(bCode);
+                                                                            return (
+                                                                                <Link
+                                                                                    key={bIdx}
+                                                                                    to={matched ? `/book/${matched.id}` : '#'}
+                                                                                    style={{
+                                                                                        fontSize: '10px',
+                                                                                        fontWeight: '800',
+                                                                                        padding: '2px 8px',
+                                                                                        borderRadius: '6px',
+                                                                                        background: `${domain.color}15`,
+                                                                                        color: domain.color,
+                                                                                        textDecoration: 'none',
+                                                                                        border: `1px solid ${domain.color}30`
+                                                                                    }}
+                                                                                >
+                                                                                    {matched ? (language === 'zh' ? matched.title_cn : matched.title_en) : bCode}
+                                                                                </Link>
+                                                                            );
+                                                                        })}
+                                                                    </div>
+                                                                )}
+                                                            </div>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            ))}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* VIEW 3: FLASHCARDS CHALLENGE */}
+                    {homeTab === 'flashcards' && (
+                        <div style={{ animation: 'fadeInUp 0.3s ease' }}>
+                            <div style={{
+                                background: 'white',
+                                borderRadius: '20px',
+                                padding: '24px 28px',
+                                border: '1px solid var(--border-light)',
+                                marginBottom: '24px',
+                                boxShadow: 'var(--card-shadow)',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'space-between',
+                                flexWrap: 'wrap',
+                                gap: '12px'
+                            }}>
+                                <div>
+                                    <h2 style={{ fontSize: '20px', fontWeight: '850', margin: '0 0 6px 0', display: 'flex', alignItems: 'center', gap: '8px', color: 'var(--text)' }}>
+                                        <span>💡 {language === 'zh' ? '每日互動翻牌思維挑戰 · 主動提取檢驗' : 'Daily Flashcards Challenge'}</span>
+                                    </h2>
+                                    <p style={{ fontSize: '13px', margin: 0, color: 'var(--text-muted)' }}>
+                                        {language === 'zh'
+                                            ? '點擊卡片翻轉查看底層心智模型解答。點擊「掌握打卡」獲取 +10 EXP，鍛造長效記憶！'
+                                            : 'Click cards to flip and reveal underlying mental model solutions. Test your recall!'}
+                                    </p>
+                                </div>
+                                <div style={{ fontSize: '12px', fontWeight: '800', color: '#16a34a', background: 'rgba(34, 197, 94, 0.1)', padding: '6px 14px', borderRadius: '10px' }}>
+                                    {language === 'zh' ? `已攻克: ${Object.keys(completedFlashcards).length} / ${DAILY_FLASHCARDS.length}` : `Mastered: ${Object.keys(completedFlashcards).length} / ${DAILY_FLASHCARDS.length}`}
+                                </div>
+                            </div>
+
+                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '20px' }}>
+                                {DAILY_FLASHCARDS.map((fc) => {
+                                    const isFlipped = !!flippedCards[fc.id];
+                                    const isMastered = !!completedFlashcards[fc.id];
+
+                                    return (
+                                        <div
+                                            key={fc.id}
+                                            onClick={() => handleToggleFlashcard(fc.id)}
+                                            style={{
+                                                background: isFlipped ? 'linear-gradient(135deg, #0f172a, #1e1b4b)' : 'white',
+                                                color: isFlipped ? 'white' : 'var(--text)',
+                                                borderRadius: '20px',
+                                                padding: '24px',
+                                                border: isMastered ? '2px solid #22c55e' : '1px solid var(--border-light)',
+                                                boxShadow: 'var(--card-shadow)',
+                                                cursor: 'pointer',
+                                                display: 'flex',
+                                                flexDirection: 'column',
+                                                justifyContent: 'space-between',
+                                                minHeight: '260px',
+                                                transition: 'all 0.25s cubic-bezier(0.4, 0, 0.2, 1)',
+                                                transform: isFlipped ? 'scale(1.01)' : 'scale(1)'
+                                            }}
+                                        >
+                                            <div>
+                                                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '14px' }}>
+                                                    <span style={{
+                                                        fontSize: '11px',
+                                                        fontWeight: '800',
+                                                        padding: '3px 10px',
+                                                        borderRadius: '8px',
+                                                        background: isFlipped ? 'rgba(255,255,255,0.15)' : 'var(--tag-bg)',
+                                                        color: isFlipped ? '#cbd5e1' : 'var(--tag-text)'
+                                                    }}>
+                                                        {fc.category}
+                                                    </span>
+                                                    <span style={{ fontSize: '11px', fontWeight: '750', color: isFlipped ? '#a78bfa' : 'var(--text-muted)' }}>
+                                                        {isFlipped ? (language === 'zh' ? '🧠 破局解法' : 'Solution') : (language === 'zh' ? '❓ 點擊翻牌' : 'Click to Flip')}
+                                                    </span>
+                                                </div>
+
+                                                {!isFlipped ? (
+                                                    <div>
+                                                        <h4 style={{ fontSize: '16px', fontWeight: '850', lineHeight: 1.4, margin: '0 0 14px 0' }}>
+                                                            {fc.question}
+                                                        </h4>
+                                                        <div style={{ fontSize: '12px', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                                            <Sparkles size={13} color="var(--accent)" />
+                                                            <span>{language === 'zh' ? '考驗你的第一性原理與直覺偏差' : 'Tests your foundational models'}</span>
+                                                        </div>
+                                                    </div>
+                                                ) : (
+                                                    <div style={{ animation: 'fadeIn 0.2s ease' }}>
+                                                        <div style={{ fontSize: '14px', fontWeight: '900', color: '#fde047', marginBottom: '8px' }}>
+                                                            {fc.model}
+                                                        </div>
+                                                        <p style={{ fontSize: '12px', color: '#e2e8f0', lineHeight: 1.6, margin: '0 0 10px 0' }}>
+                                                            {fc.answer}
+                                                        </p>
+                                                        <div style={{
+                                                            background: 'rgba(255,255,255,0.08)',
+                                                            padding: '8px 12px',
+                                                            borderRadius: '10px',
+                                                            fontSize: '11px',
+                                                            color: '#86efac',
+                                                            fontWeight: '700'
+                                                        }}>
+                                                            {fc.takeaway}
+                                                        </div>
+                                                    </div>
+                                                )}
+                                            </div>
+
+                                            <div style={{
+                                                display: 'flex',
+                                                alignItems: 'center',
+                                                justifyContent: 'space-between',
+                                                marginTop: '20px',
+                                                paddingTop: '12px',
+                                                borderTop: isFlipped ? '1px solid rgba(255,255,255,0.1)' : '1px solid var(--border-light)'
+                                            }}>
+                                                <span style={{ fontSize: '11px', opacity: 0.7 }}>
+                                                    {isFlipped ? (language === 'zh' ? '點擊翻回正面' : 'Click to flip back') : (language === 'zh' ? '主動提取更深刻' : 'Active Recall')}
+                                                </span>
+                                                <button
+                                                    onClick={(e) => {
+                                                        e.stopPropagation();
+                                                        handleCompleteFlashcard(fc.id);
+                                                    }}
+                                                    style={{
+                                                        padding: '6px 14px',
+                                                        borderRadius: '8px',
+                                                        border: 'none',
+                                                        background: isMastered ? '#22c55e' : (isFlipped ? '#a855f7' : 'var(--primary)'),
+                                                        color: 'white',
+                                                        fontSize: '11px',
+                                                        fontWeight: '800',
+                                                        cursor: isMastered ? 'default' : 'pointer',
+                                                        display: 'flex',
+                                                        alignItems: 'center',
+                                                        gap: '4px'
+                                                    }}
+                                                >
+                                                    <CheckCircle2 size={12} />
+                                                    <span>{isMastered ? (language === 'zh' ? '已掌握 (+10 EXP)' : 'Mastered!') : (language === 'zh' ? '我掌握了 (+10 EXP)' : 'Got it (+10 EXP)')}</span>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    );
+                                })}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* VIEW 4: BOOK CODEX (DEFAULT) */}
+                    {homeTab === 'codex' && (
+                        <>
+                            {/* Controls Bar: Status Pills, Sort, View Modes */}
+                            <div style={{
+                                display: 'flex',
+                                flexWrap: 'wrap',
+                                alignItems: 'center',
+                                justifyContent: 'space-between',
+                                gap: '14px',
+                                marginBottom: '20px',
+                                background: 'white',
+                                padding: '12px 18px',
+                                borderRadius: 'var(--radius-md)',
+                                border: '1px solid var(--border-light)',
+                                boxShadow: 'var(--card-shadow)'
+                            }}>
                         {/* Reading Status Filter Pills */}
                         <div style={{ display: 'flex', alignItems: 'center', gap: '6px', flexWrap: 'wrap' }}>
                             {[
@@ -950,7 +1328,9 @@ export default function Home() {
                         }}
                         totalItems={filteredBooks.length}
                     />
-                </main>
+                </>
+            )}
+        </main>
             </div>
 
             {/* Floating Back to Top Button */}

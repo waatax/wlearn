@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo, useRef } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
+import GlobalHeader from '../components/GlobalHeader';
 import Sidebar from '../components/Sidebar';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
@@ -285,77 +286,21 @@ export default function LearningScience() {
     const DimensionIcon = ICON_MAP[activeDimension.icon] || Brain;
 
     return (
-        <div style={{ display: 'flex', minHeight: '100vh', background: 'var(--bg-gradient)' }}>
-            {/* Sidebar integration */}
-            <Sidebar
-                books={allBooks}
-                filters={{ search: '', tags: [], playlist: '' }}
-                onFiltersChange={() => {}}
-                isOpen={sidebarOpen}
-                onClose={() => setSidebarOpen(false)}
-            />
+        <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', background: 'var(--bg-gradient)' }}>
+            <GlobalHeader />
 
-            {/* Main Content Area */}
-            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0, paddingBottom: '90px' }}>
-                {/* Top Navigation Bar */}
-                <header style={{
-                    display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                    padding: '16px 32px', borderBottom: '1px solid var(--border-light)',
-                    background: 'var(--sidebar-bg)', backdropFilter: 'blur(var(--sidebar-blur))',
-                    position: 'sticky', top: 0, zIndex: 30,
-                    WebkitBackdropFilter: 'blur(var(--sidebar-blur))',
-                    gap: '16px'
-                }}>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
-                        <button
-                            className="mobile-menu-btn"
-                            onClick={() => setSidebarOpen(true)}
-                            aria-label="開啟選單"
-                            style={{
-                                background: 'white', border: '1px solid var(--border)',
-                                borderRadius: '10px', padding: '8px', cursor: 'pointer',
-                                display: 'flex', alignItems: 'center', justifyContent: 'center'
-                            }}
-                        >
-                            <Menu size={20} color="#2d2a24" />
-                        </button>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-                            <div style={{
-                                width: '36px', height: '36px', borderRadius: '10px',
-                                background: 'linear-gradient(135deg, #8b5cf6, #4f46e5)',
-                                display: 'flex', alignItems: 'center', justifyContent: 'center',
-                                color: 'white', boxShadow: '0 4px 12px rgba(139, 92, 246, 0.3)'
-                            }}>
-                                <Brain size={20} />
-                            </div>
-                            <div>
-                                <span style={{ fontSize: '16px', fontWeight: '850', color: 'var(--text)', display: 'block', lineHeight: 1.1 }}>
-                                    {t('learningScience')}
-                                </span>
-                                <span style={{ fontSize: '11px', color: 'var(--text-muted)', fontWeight: '600' }}>
-                                    {language === 'zh' ? '認知神經科學與底層思維體系' : 'Cognitive Science & Underlying Systems'}
-                                </span>
-                            </div>
-                        </div>
-                    </div>
+            <div style={{ display: 'flex', flex: 1 }}>
+                {/* Sidebar integration */}
+                <Sidebar
+                    books={allBooks}
+                    filters={{ search: '', tags: [], playlist: '' }}
+                    onFiltersChange={() => {}}
+                    isOpen={sidebarOpen}
+                    onClose={() => setSidebarOpen(false)}
+                />
 
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                        <GamificationHUD />
-                        <ReadingComfortControls compact />
-                        <button
-                            onClick={toggleLanguage}
-                            style={{
-                                display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 14px',
-                                borderRadius: '12px', border: '1px solid var(--border)', background: 'white',
-                                cursor: 'pointer', fontSize: '13px', color: 'var(--text-secondary)',
-                                fontWeight: '600', transition: 'all var(--transition-fast)'
-                            }}
-                        >
-                            <Globe size={15} />
-                            <span>{language === 'zh' ? 'EN' : '繁中'}</span>
-                        </button>
-                    </div>
-                </header>
+                {/* Main Content Area */}
+                <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minWidth: 0, paddingBottom: '90px' }}>
 
                 {/* Hero Presentation Banner */}
                 <div style={{ maxWidth: '1280px', width: '100%', margin: '0 auto', padding: '32px 32px 16px 32px' }}>
@@ -1634,9 +1579,10 @@ export default function LearningScience() {
                     )}
                 </div>
             </div>
-
-            {/* Bottom Navigation on Mobile */}
-            <BottomNavbar />
         </div>
-    );
+
+        {/* Bottom Navigation on Mobile */}
+        <BottomNavbar />
+    </div>
+);
 }

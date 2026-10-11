@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { ResponsiveContainer, AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 import { ArrowLeft, BarChart3, Play, Activity, Globe, TrendingUp, Sparkles, Brain } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
+import GlobalHeader from '../components/GlobalHeader';
 import GamificationHUD from '../components/GamificationHUD';
 import BottomNavbar from '../components/BottomNavbar';
 import ReadingComfortControls from '../components/ReadingComfortControls';
@@ -119,60 +120,52 @@ export default function Trends() {
 
     return (
         <div style={{ background: 'var(--bg)', minHeight: '100vh' }}>
-            {/* Top nav bar */}
+            <GlobalHeader />
+
+            {/* Sub Bar */}
             <div style={{
-                padding: '16px 32px', borderBottom: '1px solid var(--border-light)',
-                background: 'var(--sidebar-bg)', backdropFilter: 'blur(var(--sidebar-blur))',
-                WebkitBackdropFilter: 'blur(var(--sidebar-blur))',
-                display: 'flex', alignItems: 'center', position: 'sticky', top: 0, zIndex: 100,
+                padding: '10px 24px',
+                borderBottom: '1px solid var(--border-light)',
+                background: 'rgba(255, 255, 255, 0.88)',
+                backdropFilter: 'blur(12px)',
+                WebkitBackdropFilter: 'blur(12px)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                gap: '12px',
+                position: 'sticky',
+                top: 0,
+                zIndex: 40,
+                flexWrap: 'wrap'
             }}>
-                <button
-                    onClick={() => navigate('/popular')}
-                    style={{
-                        display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
-                        borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
-                        cursor: 'pointer', fontSize: '14px', color: 'var(--text)', fontWeight: '600',
-                        transition: 'all var(--transition-fast)',
-                        boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
-                    }}
-                    onMouseEnter={e => { e.currentTarget.style.transform = 'translateX(-4px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'; }}
-                    onMouseLeave={e => { e.currentTarget.style.transform = 'translateX(0)'; e.currentTarget.style.boxShadow = '0 2px 8px rgba(0,0,0,0.04)'; }}
-                >
-                    <ArrowLeft size={16} />
-                    {language === 'zh' ? '返回排行' : 'Back to Rankings'}
-                </button>
-                <div style={{ flex: 1, textAlign: 'center' }}>
-                    <h1 style={{ margin: 0, fontSize: '20px', fontWeight: '850', color: 'var(--text)', display: 'inline-flex', alignItems: 'center', gap: '10px' }}>
-                        <BarChart3 size={22} color="#6366f1" />
-                        {language === 'zh' ? '全站數據趨勢' : 'Global Data Trends'}
-                    </h1>
-                </div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                    <GamificationHUD />
-                    <ReadingComfortControls compact />
-                    <div style={{ 
-                        padding: '6px 12px', borderRadius: '999px', background: '#e8f5e9', 
-                        border: '1px solid #c8e6c9', color: '#2e7d32', fontSize: '12px', 
-                        fontWeight: '700', display: 'flex', alignItems: 'center', gap: '6px' 
-                    }}>
-                        <Activity size={14} className="animate-pulse" />
-                        {language === 'zh' ? '數據實時更新中' : 'Live Tracking'}
-                    </div>
-                    <button 
-                        onClick={toggleLanguage}
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <button
+                        onClick={() => navigate('/popular')}
                         style={{
-                            display: 'flex', alignItems: 'center', gap: '8px', padding: '10px 20px',
-                            borderRadius: 'var(--radius-sm)', border: '1px solid var(--border)', background: 'white',
-                            cursor: 'pointer', fontSize: '14px', fontWeight: '700', color: 'var(--text)',
-                            transition: 'all var(--transition-fast)',
-                            boxShadow: '0 2px 8px rgba(0,0,0,0.04)'
+                            display: 'flex', alignItems: 'center', gap: '6px', padding: '6px 14px',
+                            borderRadius: '8px', border: '1px solid var(--border)', background: 'white',
+                            cursor: 'pointer', fontSize: '13px', color: 'var(--text)', fontWeight: '650'
                         }}
-                        onMouseEnter={e => { e.currentTarget.style.transform = 'translateY(-2px)'; e.currentTarget.style.boxShadow = '0 4px 12px rgba(0,0,0,0.08)'; }}
-                        onMouseLeave={e => { e.currentTarget.style.transform = ''; e.currentTarget.style.boxShadow = ''; }}
                     >
-                        <Globe size={16} color="var(--primary)" />
-                        {language === 'zh' ? 'EN' : '中文'}
+                        <ArrowLeft size={14} />
+                        <span>{language === 'zh' ? '返回排行' : 'Back to Rankings'}</span>
                     </button>
+                    <span style={{ fontSize: '13px', fontWeight: '750', color: 'var(--text)', display: 'flex', alignItems: 'center', gap: '6px' }}>
+                        <BarChart3 size={15} color="#6366f1" />
+                        <span>{language === 'zh' ? '全站數據趨勢' : 'Global Data Trends'}</span>
+                    </span>
+                </div>
+
+                <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                    <div style={{ 
+                        padding: '4px 10px', borderRadius: '999px', background: '#e8f5e9', 
+                        border: '1px solid #c8e6c9', color: '#2e7d32', fontSize: '11px', 
+                        fontWeight: '750', display: 'flex', alignItems: 'center', gap: '5px' 
+                    }}>
+                        <Activity size={13} className="animate-pulse" />
+                        <span>{language === 'zh' ? '實時數據' : 'Live Tracking'}</span>
+                    </div>
+                    <ReadingComfortControls compact />
                 </div>
             </div>
 
